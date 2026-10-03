@@ -52,6 +52,17 @@ The document goes through the same extraction and quote check. The change case i
 address with and without the rules this document contributed, at the query date and at the new rule's effective
 date.
 
+## Change tests (out/changes.json, checked by tests/test_submission.py)
+
+| Test | Expected | Result |
+|---|---|---|
+| T1 AB 325 / SB 763 | not yet effective on 2025-12-31, applies on 2026-01-02, every CA address | all 250 CA addresses flip |
+| T2 Hoboken vs Jersey City bans | each ban only in its own city, never Newark | Hoboken 40/40, Jersey City 50/50, Newark 0 |
+| T3 NJ FAIR Act | not yet effective now, applies 2027-07-02, conflict flag in Jersey City and Hoboken | all 140 NJ addresses; flags on exactly the 90 Jersey City + Hoboken addresses |
+| T4 MA S.2983 / H.5222 | pending, never in force | `pending` at all 110 MA addresses |
+| T5 MA rent-control ballot question | no rent cap in Boston or Cambridge | 0 addresses; IP 25-21 recorded as `failed` |
+| T6 hour-16 ordinance | supplied at hour 16 | `python3 -m navigator.ingest` (rehearsed on a synthetic Cambridge ordinance: 45 of 50 Cambridge addresses changed, the rest excluded by unit count or building date) |
+
 ## Submission files
 
 - `out/rules.json`: rule records in the supplied schema, plus `no_rule_findings`. These cover every

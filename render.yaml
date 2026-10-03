@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: khlab-rental-law-navigator
+    runtime: python
+    plan: free
+    buildCommand: "true"
+    startCommand: python3 -m navigator.web
+    healthCheckPath: /healthz
+    envVars:
+      - key: HOST
+        value: 0.0.0.0

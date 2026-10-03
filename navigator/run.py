@@ -39,7 +39,7 @@ def match_rules(rules, test):
     """Map an organizer test's rule ids (CA-ALG-01, HOB-ALG-01 ...) to our extracted rules by what they are:
     jurisdiction, category and lifecycle. The mapping is printed in notes so a reviewer can check it."""
     want = []
-    for rid in test["rule_ids"]:
+    for rid in test.get("rule_ids", []):
         prefix, cat = rid.split("-")[0], rid.split("-")[1]
         juris = {"CA": "CA", "NJ": "NJ", "MA": "MA", "HOB": "Hoboken, NJ", "JC": "Jersey City, NJ"}.get(prefix, prefix)
         category = {"ALG": "algorithmic_rent_setting", "RENT": "rent_increase_limits"}[cat]

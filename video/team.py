@@ -13,7 +13,7 @@ SCENES = [
     ("card:what", "For RealPage's challenge we built the Rental Law Navigator. It reads the law, resolves every "
                   "address to its real city, and tells you which rules apply, on which date, and why, with the "
                   "source quoted word for word."),
-    ("card:bye", "Thank you for reading our work. The narration in this video is synthesized."),
+    ("card:bye", "Why us: we treat a legal answer like a test result, reproducible and sourced. The narration is synthesized."),
 ]
 CARDS = {
     "who": """<h1>KHLab</h1><p class=sub>One-person software lab · Bishkek, Kyrgyzstan</p>

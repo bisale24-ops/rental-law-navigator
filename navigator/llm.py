@@ -80,7 +80,7 @@ def _ask_claude(system, prompt, schema, path, tag):
 def ask_json(system, prompt, schema, tag="call", replay_only=False, models=None):
     """Returns (parsed JSON, meta). meta records model, cache hit and timing for the audit log."""
     h = hashlib.sha256(json.dumps([system, prompt, schema], sort_keys=True).encode()).hexdigest()[:24]
-    ns = "claude-" if PROVIDER == "anthropic" else ""
+    ns = ("claude-" if PROVIDER == "anthropic" else "") + os.environ.get("NAV_CACHE_NS", "")
     path = CACHE / f"{ns}{tag}-{h}.json"
     if path.exists():
         rec = json.loads(path.read_text())

@@ -1,0 +1,94 @@
+{
+ "meta": {
+  "model": "gemini-3.5-flash-lite",
+  "seconds": 4.4,
+  "tag": "spanish-40",
+  "usage": {
+   "promptTokenCount": 1016,
+   "candidatesTokenCount": 1384,
+   "totalTokenCount": 2400,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 1016
+    }
+   ],
+   "serviceTier": "standard"
+  },
+  "at": "2026-10-03T18:10:46Z"
+ },
+ "output": {
+  "items": [
+   {
+    "id": "r-0041",
+    "title": "L\u00edmite de la tarifa de solicitud",
+    "requirement": "Los propietarios y sus agentes no pueden cobrar una tarifa de solicitud o evaluaci\u00f3n de alquiler residencial que supere los $50, sujeta a ajustes anuales basados en el \u00cdndice de Precios al Consumidor.",
+    "key_value": "50",
+    "coverage": "Aplica a propiedades de alquiler residencial, excluyendo viviendas de una o dos familias ofrecidas en alquiler y a los agentes inmobiliarios que act\u00faan como representantes en lugar de propietarios."
+   },
+   {
+    "id": "r-0042",
+    "title": "Requisito de causa justa de la Ley contra el Desalojo de Nueva Jersey",
+    "requirement": "Los propietarios no pueden desalojar a inquilinos residenciales ni dejar de renovar los contratos de arrendamiento excepto por motivos legales espec\u00edficos de causa justa. Los inquilinos desplazados debido a una ocupaci\u00f3n ilegal tienen derecho a una asistencia de reubicaci\u00f3n equivalente a seis veces el alquiler mensual si el municipio no cuenta con una ordenanza.",
+    "key_value": null,
+    "coverage": "Aplica a propiedades residenciales en general, con exclusiones expl\u00edcitas para ciertos locales ocupados por el propietario, hoteles/moteles y fideicomisos familiares espec\u00edficos o unidades ocupadas por familiares directos con discapacidades del desarrollo."
+   },
+   {
+    "id": "r-0043",
+    "title": "Exenci\u00f3n de control de alquiler para m\u00faltiples viviendas de nueva construcci\u00f3n",
+    "requirement": "Las m\u00faltiples viviendas de nueva construcci\u00f3n est\u00e1n exentas de las ordenanzas locales de control de alquileres por un per\u00edodo de 30 a\u00f1os posteriores a la finalizaci\u00f3n de la construcci\u00f3n.",
+    "key_value": "30 years",
+    "coverage": "Aplica a m\u00faltiples viviendas de nueva construcci\u00f3n."
+   },
+   {
+    "id": "r-0044",
+    "title": "Ley de Oportunidad Justa en la Vivienda - Limitaciones de revisi\u00f3n de antecedentes penales",
+    "requirement": "Se proh\u00edbe a los proveedores de vivienda indagar sobre los antecedentes penales de un solicitante antes de emitir una oferta condicional de vivienda de alquiler, y se proh\u00edbe discriminar en la vivienda bas\u00e1ndose en clases protegidas que incluyen raza, religi\u00f3n, color, origen nacional, sexo, discapacidad y fuente de ingresos l\u00edcitos.",
+    "key_value": null,
+    "coverage": "Aplica a unidades de vivienda de alquiler en Nueva Jersey, excluyendo las unidades de vivienda en locales ocupados por el propietario que no tengan m\u00e1s de cuatro unidades de vivienda."
+   },
+   {
+    "id": "r-0045",
+    "title": "L\u00edmite m\u00e1ximo del dep\u00f3sito de seguridad",
+    "requirement": "Se proh\u00edbe a los propietarios cobrar un dep\u00f3sito de seguridad que supere una vez y media el alquiler de un mes, y deben depositar los fondos en una cuenta que genere intereses, devolviendo el dep\u00f3sito m\u00e1s los intereses dentro de los 30 d\u00edas posteriores a la finalizaci\u00f3n del contrato de arrendamiento.",
+    "key_value": "1.5 months rent",
+    "coverage": "Todos los locales o unidades de alquiler utilizados con fines de vivienda, excepto los locales ocupados por el propietario con no m\u00e1s de dos unidades de alquiler donde el inquilino no haya presentado un aviso por escrito con 30 d\u00edas de anticipaci\u00f3n."
+   },
+   {
+    "id": "r-0046",
+    "title": "La ciudad de Hoboken proh\u00edbe la fijaci\u00f3n algor\u00edtmica de alquileres",
+    "requirement": "Se proh\u00edbe a los propietarios que alquilan unidades residenciales en Hoboken utilizar software, algoritmos o plataformas de intercambio de datos para coordinar, recomendar o implementar precios de alquiler, t\u00e9rminos de arrendamiento o niveles de ocupaci\u00f3n entre propietarios competidores.",
+    "key_value": null,
+    "coverage": "Unidades residenciales en Hoboken"
+   },
+   {
+    "id": "r-0047",
+    "title": "L\u00edmite de aumento de nivelaci\u00f3n de alquileres en Hoboken",
+    "requirement": "Ning\u00fan propietario puede solicitar o recibir un aumento porcentual en el alquiler que sea superior al 5% seg\u00fan la ordenanza municipal de nivelaci\u00f3n de alquileres.",
+    "key_value": "5%",
+    "coverage": "Aplica a unidades de alquiler residencial bajo las normas de nivelaci\u00f3n de alquileres de la ciudad."
+   },
+   {
+    "id": "r-0048",
+    "title": "C\u00f3digo de Jersey City \u00a7 218-12",
+    "requirement": "Se proh\u00edbe a los propietarios en el C\u00f3digo de Jersey City \u00a7 218-12 utilizar servicios de coordinaci\u00f3n de alquileres mediante algoritmos.",
+    "key_value": null,
+    "coverage": "Propietarios de viviendas multifamiliares"
+   },
+   {
+    "id": "r-0049",
+    "title": "Exenci\u00f3n de control de alquileres de Jersey City para propiedades de 1 a 4 unidades",
+    "requirement": "Todas las propiedades de 1 a 4 unidades est\u00e1n exentas de las regulaciones de control de alquileres de Jersey City.",
+    "key_value": "1-4 units",
+    "coverage": "Aplica a propiedades con 1 a 4 unidades."
+   },
+   {
+    "id": "r-0050",
+    "title": "L\u00edmite de aumento de alquiler anual basado en el IPC-U",
+    "requirement": "Los propietarios pueden aumentar el alquiler anualmente bas\u00e1ndose en el porcentaje mensual aplicable del \u00cdndice de Precios al Consumidor para Urbanos (IPC-U) publicado para el mes correspondiente, siempre que den la notificaci\u00f3n por escrito adecuada.",
+    "key_value": "CPI-U percentage",
+    "coverage": "Aplica a viviendas residenciales en Newark, excepto viviendas p\u00fablicas, hoteles, moteles, espacios comerciales y nuevas construcciones o unidades sustancialmente rehabilitadas expl\u00edcitamente exentas."
+   }
+  ]
+ }
+}

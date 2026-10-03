@@ -25,6 +25,7 @@ nav button{border:0;background:none;font:500 14px var(--sans);color:var(--graphi
 nav button[aria-selected=true]{background:var(--teal);color:#fff}
 .asof{display:flex;align-items:center;gap:8px;font-size:13px;color:var(--graphite)}
 .asof input{font:500 14px var(--mono);border:1px solid var(--line);border-radius:6px;padding:5px 8px;background:var(--paper);color:var(--ink)}
+.lang{display:flex;gap:4px}
 .notice{background:var(--ink);color:var(--canvas);font-size:12.5px}
 .notice div{max-width:1240px;margin:0 auto;padding:6px 20px}
 main{max-width:1240px;margin:0 auto;padding:22px 20px 80px}
@@ -119,9 +120,10 @@ dialog::backdrop{background:rgba(39,37,30,.35)}
       <button role="tab" data-tab="rules">Rules</button>
       <button role="tab" data-tab="pipeline">How it works</button>
     </nav>
-    <label class="asof">As of <input type="date" id="asof" value="2026-10-01" min="2015-01-01" max="2035-12-31"></label>
+    <div class="lang" role="group" aria-label="Language"><button class="chip" data-lang="en" aria-pressed="true">EN</button><button class="chip" data-lang="es" aria-pressed="false">ES</button></div>
+    <label class="asof"><span data-i18n="asof">As of</span> <input type="date" id="asof" value="2026-10-01" min="2015-01-01" max="2035-12-31"></label>
   </div>
-  <div class="notice"><div>Not legal advice and not a compliance certification. Summaries of public law for research; every answer cites its source and retrieval date. Check with a qualified professional.</div></div>
+  <div class="notice"><div data-i18n="notice">Not legal advice and not a compliance certification. Summaries of public law for research; every answer cites its source and retrieval date. Check with a qualified professional.</div></div>
 </header>
 <main>
   <section id="tab-address">
@@ -147,6 +149,19 @@ const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;
 const CAT = {rent_increase_limits:"Rent increase limits", just_cause_eviction:"Just-cause eviction",
   security_deposits:"Security deposits", application_screening_fees:"Application & screening fees",
   screening_restrictions:"Screening restrictions", algorithmic_rent_setting:"Algorithmic rent setting"};
+let LANG = "en";
+const ES = {
+  cat:{rent_increase_limits:"Límites al aumento del alquiler", just_cause_eviction:"Desalojo con causa justa",
+    security_deposits:"Depósitos de garantía", application_screening_fees:"Cuotas de solicitud y evaluación",
+    screening_restrictions:"Restricciones de evaluación", algorithmic_rent_setting:"Alquiler fijado por algoritmos"},
+  res:{applies:"Aplica", unknown:"Desconocido", superseded:"Desplazada", not_yet_effective:"Aún no vigente",
+    pending:"Proyecto de ley", failed:"No es ley", in_force:"Vigente"},
+  ui:{asof:"Fecha", notice:"No es asesoría legal ni una certificación de cumplimiento. Resumen de leyes públicas para investigación; cada respuesta cita su fuente y fecha de consulta. Consulte con un profesional.",
+    jur:"Jurisdicción legal", year:"Año de construcción", yearnote:"Año de construcción, no la fecha del certificado de ocupación",
+    units:"Unidades", use:"Uso", norule:"Ninguna norma de esta categoría cubre esta dirección en el corpus.",
+    notlaw:"No es ley", notlawsub:"se muestran para que nadie las confunda con normas", source:"Fuente", retrieved:"consultado",
+    quote:"Texto original de la ley (en inglés)", review:"Marcado para revisión humana.", none:"No consta en el registro"}};
+const L = (k, en) => LANG==="es" ? (ES.ui[k]||en) : en;
 const RES = {applies:"Applies", unknown:"Unknown", superseded:"Superseded", not_yet_effective:"Not yet effective",
   pending:"Pending bill", failed:"Not law", in_force:"In force"};
 const RES_HELP = {applies:"In force and covers this address", unknown:"Coverage depends on a fact the public record does not have",
@@ -154,13 +169,14 @@ const RES_HELP = {applies:"In force and covers this address", unknown:"Coverage 
   pending:"A bill or proposal, not law"};
 let META = null, CUR = null, CITY = null;
 const asof = () => $("#asof").value;
-const badge = r => `<span class="badge b-${r}" title="${esc(RES_HELP[r]||"")}">${esc(RES[r]||r)}</span>`;
+const badge = r => `<span class="badge b-${r}" title="${esc(RES_HELP[r]||"")}">${esc((LANG==="es"?ES.res[r]:RES[r])||r)}</span>`;
+const catName = c => LANG==="es" ? ES.cat[c] : CAT[c];
 async function api(p){ const r = await fetch(p); if(!r.ok) throw new Error((await r.json()).error||r.status); return r.json(); }
 
 function srcBlock(rule){
   const sup = (rule.supporting_sources||[]);
-  return `<details class="src"><summary>Source: ${esc(rule.citation)} · retrieved ${esc((rule.retrieved||"").slice(0,10))}</summary>
-    <blockquote>${esc(rule.quoted_span)}</blockquote>
+  return `<details class="src"><summary>${L("source","Source")}: ${esc(rule.citation)} · ${L("retrieved","retrieved")} ${esc((rule.retrieved||"").slice(0,10))}</summary>
+    ${LANG==="es"?`<div class="cite">${ES.ui.quote}</div>`:""}<blockquote>${esc(rule.quoted_span)}</blockquote>
     <div class="cite">${esc(rule.citation)} · <a href="${esc(rule.source_url)}" target="_blank" rel="noopener">${esc(rule.source_doc_id)}</a> · retrieved ${esc(rule.retrieved)} · quote check: ${esc(rule.span_check)}</div>
     ${(rule.coverage_evidence||[]).map(e=>`<div class="cite" style="margin-top:8px">Coverage (${esc(e.field.replaceAll("_"," "))}: ${esc(e.value)}) from ${esc(e.doc)}:</div><blockquote style="font-size:14.5px">${esc(e.quote)}</blockquote>`).join("")}
     ${sup.length?`<div class="cite" style="margin-top:6px">Also stated in: ${sup.map(s=>`<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.doc)}</a>${s.effective_date?` (effective ${esc(s.effective_date)})`:""}`).join(", ")}</div>`:""}
@@ -173,7 +189,7 @@ function ruleCard(row){
     <div class="top"><h3>${esc(r.title)}</h3><span class="lvl">${r.level==="state"?"State":"City"} · ${esc(r.jurisdiction)}</span>${badge(row.result)}</div>
     <p class="req">${esc(r.requirement)}${r.key_value?` <span class="kv">${esc(r.key_value)}</span>`:""}</p>
     <ul class="why">${row.reasons.map(x=>`<li>${esc(x)}</li>`).join("")}</ul>
-    ${row.conflict_flag?`<div class="conflict"><b>Flagged for human review.</b> ${esc(row.conflict_note||r.conflict_note||"")}</div>`:""}
+    ${row.conflict_flag?`<div class="conflict"><b>${L("review","Flagged for human review.")}</b> ${esc(row.conflict_note||r.conflict_note||"")}</div>`:""}
     ${srcBlock(r)}
   </article>`;
 }
@@ -181,30 +197,30 @@ function ruleCard(row){
 async function showAddress(id){
   CUR = id;
   document.querySelectorAll("#addrList button").forEach(b=>b.setAttribute("aria-current", b.dataset.id===id));
-  const d = await api(`/api/lookup?id=${id}&as_of=${asof()}`);
+  const d = await api(`/api/lookup?id=${id}&as_of=${asof()}&lang=${LANG}`);
   const a = d.address;
   const units = a.units_low==null ? "Unknown" : (a.units_high===a.units_low ? a.units_low : `${a.units_low}${a.units_high?"–"+a.units_high:"+"}`);
   const counts = {}; d.results.forEach(r=>counts[r.result]=(counts[r.result]||0)+1);
   let html = `<div class="panel addr">
-    <div class="muted" style="font-size:13px">${esc(a.address_id)} · as of ${esc(d.as_of)}</div>
+    <div class="muted" style="font-size:13px">${esc(a.address_id)} · ${LANG==="es"?"al":"as of"} ${esc(d.as_of)}</div>
     <h1>${esc(a.street)}</h1>
     <div class="muted">${esc(a.postal_city)}, ${esc(a.state)} ${esc(a.zip)}</div>
     <div class="facts">
-      <div class="fact"><b>Legal jurisdiction</b><span>${esc(a.city||"Unresolved")}</span><em>${esc(a.jurisdiction_basis)}</em></div>
-      <div class="fact"><b>Year built</b><span>${esc(a.year_built??"Not in record")}</span><em>Construction year, not the certificate-of-occupancy date</em></div>
-      <div class="fact"><b>Units</b><span>${esc(units)}</span><em>${esc(a.units_basis)}</em></div>
-      <div class="fact"><b>Use</b><span>${esc(a.use_description)}</span><em>${esc(a.source_dataset)}${a.flags.length?" · "+esc(a.flags.join(", ")):""}</em></div>
+      <div class="fact"><b>${L("jur","Legal jurisdiction")}</b><span>${esc(a.city||"Unresolved")}</span><em>${esc(a.jurisdiction_basis)}</em></div>
+      <div class="fact"><b>${L("year","Year built")}</b><span>${esc(a.year_built??L("none","Not in record"))}</span><em>${L("yearnote","Construction year, not the certificate-of-occupancy date")}</em></div>
+      <div class="fact"><b>${L("units","Units")}</b><span>${esc(units)}</span><em>${esc(a.units_basis)}</em></div>
+      <div class="fact"><b>${L("use","Use")}</b><span>${esc(a.use_description)}</span><em>${esc(a.source_dataset)}${a.flags.length?" · "+esc(a.flags.join(", ")):""}</em></div>
     </div>
     <div class="summary">${Object.entries(counts).map(([k,v])=>`${badge(k)}<span class="muted" style="font-size:13px;margin-right:8px">× ${v}</span>`).join("")}</div>
   </div>`;
   for (const c of META.categories){
     const rows = d.results.filter(r=>r.category===c);
-    html += `<section class="cat"><h2>${CAT[c]} <small>${rows.length?rows.length+" rule"+(rows.length>1?"s":""):""}</small></h2>`;
-    html += rows.length ? rows.map(ruleCard).join("") : `<div class="gap">No rule in this category covers this address in the corpus.</div>`;
+    html += `<section class="cat"><h2>${catName(c)} <small>${rows.length?rows.length+(LANG==="es"?(rows.length>1?" normas":" norma"):(" rule"+(rows.length>1?"s":""))):""}</small></h2>`;
+    html += rows.length ? rows.map(ruleCard).join("") : `<div class="gap">${L("norule","No rule in this category covers this address in the corpus.")}</div>`;
     html += `</section>`;
   }
   if (d.not_law.length){
-    html += `<section class="cat"><h2>Not law <small>shown so no one mistakes them for rules</small></h2>` +
+    html += `<section class="cat"><h2>${L("notlaw","Not law")} <small>${L("notlawsub","shown so no one mistakes them for rules")}</small></h2>` +
       d.not_law.map(r=>`<article class="panel rule"><div class="top"><h3>${esc(r.title)}</h3>${badge("failed")}</div><p class="req">${esc(r.requirement)}</p>${srcBlock(r)}</article>`).join("") + `</section>`;
   }
   $("#addrView").innerHTML = html;
@@ -307,6 +323,12 @@ document.addEventListener("click", e=>{
   const t = e.target.closest("[data-tab]"); if(t) return tab(t.dataset.tab);
   const a = e.target.closest("#addrList button"); if(a) return showAddress(a.dataset.id);
   const r = e.target.closest("[data-rule]"); if(r) return ruleDialog(r.dataset.rule);
+  const lg = e.target.closest("[data-lang]"); if(lg){ LANG = lg.dataset.lang;
+    document.querySelectorAll("[data-lang]").forEach(x=>x.setAttribute("aria-pressed", x.dataset.lang===LANG));
+    document.documentElement.lang = LANG;
+    document.querySelectorAll("[data-i18n]").forEach(x=>{ x.dataset.en = x.dataset.en || x.textContent; x.textContent = LANG==="es" ? ES.ui[x.dataset.i18n] : x.dataset.en; });
+    try{ localStorage.setItem("nav-lang", LANG) }catch(err){}
+    if(CUR) showAddress(CUR); return; }
   const d = e.target.closest("[data-date]"); if(d){ $("#asof").value = d.dataset.date; tab("address"); if(CUR) showAddress(CUR); return; }
   const c = e.target.closest("#cityChips .chip"); if(c){ CITY = CITY===c.dataset.city?null:c.dataset.city;
     document.querySelectorAll("#cityChips .chip").forEach(x=>x.setAttribute("aria-pressed", x.dataset.city===CITY)); loadList(); }
@@ -320,6 +342,8 @@ $("#asof").addEventListener("change", ()=>{ if(CUR) showAddress(CUR); });
   await loadList();
   const first = new URLSearchParams(location.search).get("id") || "A0001";
   showAddress(first);
+  let savedLang = null; try{ savedLang = localStorage.getItem("nav-lang") }catch(e){}
+  if(savedLang==="es") document.querySelector('[data-lang="es"]').click();
   let saved = null; try{ saved = localStorage.getItem("nav-tab") }catch(e){}
   if(saved && saved!=="address") tab(saved);
 })();

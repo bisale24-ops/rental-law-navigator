@@ -1,0 +1,94 @@
+{
+ "meta": {
+  "model": "gemini-3.5-flash-lite",
+  "seconds": 5.4,
+  "tag": "spanish",
+  "usage": {
+   "promptTokenCount": 966,
+   "candidatesTokenCount": 1593,
+   "totalTokenCount": 2559,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 966
+    }
+   ],
+   "serviceTier": "standard"
+  },
+  "at": "2026-10-03T18:11:18Z"
+ },
+ "output": {
+  "items": [
+   {
+    "id": "0",
+    "title": "L1mite de tarifa de solicitud",
+    "requirement": "Los propietarios y sus agentes no pueden cobrar una tarifa de solicitud o evaluaci3n de alquiler residencial que supere los $50, sujeta a ajustes anuales basados en el Indice de Precios al Consumidor.",
+    "key_value": "50",
+    "coverage": "Se aplica a propiedades de alquiler residencial, excluyendo viviendas de una o dos familias ofrecidas en alquiler y agentes inmobiliarios que actUan como agentes en lugar de propietarios."
+   },
+   {
+    "id": "1",
+    "title": "Requisito de causa justa de la Ley Antidesalojo de New Jersey",
+    "requirement": "Los propietarios no pueden desalojar a inquilinos residenciales ni dejar de renovar contratos de alquiler excepto por motivos legales espec\u00edficos de causa justa. Los inquilinos desplazados por ocupaci3n ilegal tienen derecho a una asistencia de reubicaci3n equivalente a seis veces el alquiler mensual si el municipio no tiene una ordenanza.",
+    "key_value": null,
+    "coverage": "Se aplica a propiedades residenciales en general, con exclusiones expl\u00edcitas para ciertos locales ocupados por el propietario, hoteles/moteles y fideicomisos familiares espec\u00edficos o unidades ocupadas por familiares inmediatos con discapacidades del desarrollo."
+   },
+   {
+    "id": "2",
+    "title": "Exenci3n de control de alquiler para m\u00f3ltiples viviendas de nueva construcci3n",
+    "requirement": "Las viviendas m\u00f3ltiples de nueva construcci3n est\u00e1n exentas de las ordenanzas locales de control de alquileres por un per\u00edodo de 30 a\u00f1os despu\u00e9s de finalizar la construcci3n.",
+    "key_value": "30 years",
+    "coverage": "Se aplica a viviendas m\u00f3ltiples de nueva construcci3n."
+   },
+   {
+    "id": "3",
+    "title": "Ley de Oportunidad Justa en la Vivienda: Limitaciones de evaluaci3n de antecedentes penales",
+    "requirement": "Se proh\u00edbe a los proveedores de vivienda consultar sobre los antecedentes penales de un solicitante antes de emitir una oferta condicional de vivienda de alquiler, y se proh\u00edbe discriminar en la vivienda por motivos de clases protegidas que incluyen raza, religi3n, color, origen nacional, sexo, discapacidad y fuente de ingresos l\u00edcitos.",
+    "key_value": null,
+    "coverage": "Se aplica a unidades de vivienda de alquiler en New Jersey, excluyendo unidades de vivienda en locales ocupados por el propietario de no m\u00e1s de cuatro unidades de vivienda."
+   },
+   {
+    "id": "4",
+    "title": "L1mite m\u00e1ximo de dep\u00f3sito de seguridad",
+    "requirement": "Se proh\u00edbe a los propietarios cobrar un dep\u00f3sito de seguridad que exceda una vez y media el alquiler de un mes, y deben depositar los fondos en una cuenta que genere intereses, devolviendo el dep\u00f3sito m\u00e1s los intereses dentro de los 30 d\u00edas posteriores a la finalizaci3n del contrato.",
+    "key_value": "1.5 months rent",
+    "coverage": "Todos los locales o unidades de alquiler utilizados con fines de vivienda, excepto los locales ocupados por el propietario con no m\u00e1s de dos unidades de alquiler donde el inquilino no haya dado aviso por escrito de 30 d\u00edas."
+   },
+   {
+    "id": "5",
+    "title": "La ciudad de Hoboken proh\u00edbe la fijaci3n algor\u00edtmica de alquileres",
+    "requirement": "Se proh\u00edbe a los propietarios que alquilan unidades residenciales en Hoboken utilizar software, algoritmos o plataformas de compartici3n de datos para coordinar, recomendar o implementar precios de alquiler, t\u00e9rminos de contrato o niveles de ocupaci3n entre propietarios competidores.",
+    "key_value": null,
+    "coverage": "Unidades residenciales en Hoboken"
+   },
+   {
+    "id": "6",
+    "title": "L1mite de aumento de nivelaci3n de alquiler de Hoboken",
+    "requirement": "Ning\u00f1n propietario puede solicitar o recibir un aumento porcentual en el alquiler que sea superior al 5% seg\u00f1n la ordenanza municipal de nivelaci3n de alquileres.",
+    "key_value": "5%",
+    "coverage": "Se aplica a unidades de alquiler residencial bajo las regulaciones de nivelaci3n de alquileres de la ciudad."
+   },
+   {
+    "id": "7",
+    "title": "C\u00f3digo de Jersey City \u00a7 218-12",
+    "requirement": "Se proh\u00edbe a los propietarios en el C\u00f3digo de Jersey City \u00a7 218-12 utilizar servicios de coordinaci3n algor\u00edtmica de alquileres.",
+    "key_value": null,
+    "coverage": "Propietarios de viviendas multifamiliares"
+   },
+   {
+    "id": "8",
+    "title": "Exenci3n de control de alquiler de Jersey City para propiedades de 1 a 4 unidades",
+    "requirement": "Todas las propiedades de 1 a 4 unidades est\u00e1n exentas de las regulaciones de control de alquileres de Jersey City.",
+    "key_value": "1-4 units",
+    "coverage": "Se aplica a propiedades de 1 a 4 unidades."
+   },
+   {
+    "id": "9",
+    "title": "L1mite de aumento de alquiler anual basado en el CPI-U",
+    "requirement": "Los propietarios pueden aumentar el alquiler anualmente seg\u00f1n el porcentaje aplicable mensual del Indice de Precios al Consumidor para Consumidores Urbanos (CPI-U) publicado para el mes correspondiente, siempre que den la notificaci3n por escrito adecuada.",
+    "key_value": "CPI-U percentage",
+    "coverage": "Se aplica a viviendas residenciales en Newark excepto viviendas p\u00fbblicas, hoteles, moteles, espacios comerciales y nuevas construcciones o unidades sustancialmente rehabilitadas expl\u00edcitamente exentas."
+   }
+  ]
+ }
+}

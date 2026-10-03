@@ -1,0 +1,164 @@
+{
+ "meta": {
+  "model": "gemini-3.5-flash-lite",
+  "seconds": 7.7,
+  "tag": "spanish-20",
+  "usage": {
+   "promptTokenCount": 2029,
+   "candidatesTokenCount": 2853,
+   "totalTokenCount": 4882,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 2029
+    }
+   ],
+   "serviceTier": "standard"
+  },
+  "at": "2026-10-03T18:10:42Z"
+ },
+ "output": {
+  "items": [
+   {
+    "id": "r-0021",
+    "title": "Requisito de justa causa para desalojos",
+    "requirement": "Los propietarios deben tener una de las 17 razones de justa causa permitidas para desalojar a un inquilino de una unidad de alquiler cubierta por la Ordenanza de Alquileres.",
+    "key_value": null,
+    "coverage": "Cubre las unidades de alquiler cubiertas por la Ordenanza de Alquileres, incluidas algunas unidades exentas de aumentos de alquiler, como las construidas despu\u00e9s del 13 de junio de 1979 y las unidades elegibles bajo Costa-Hawkins."
+   },
+   {
+    "id": "r-0022",
+    "title": "Aumento de alquiler anual permitido para 2026-2027",
+    "requirement": "El aumento de alquiler anual permitido para las unidades con control de renta se establece en 1.6% desde el 1 de marzo de 2026 hasta el 28 de febrero de 2027.",
+    "key_value": "1.6%",
+    "coverage": "Aplica a las unidades con control de renta en San Francisco."
+   },
+   {
+    "id": "r-0023",
+    "title": "Tasa de inter\u00e9s del dep\u00f3sito de seguridad",
+    "requirement": "Los propietarios deben pagar intereses sobre los dep\u00f3sitos de seguridad a una tasa de 4.2% para el per\u00edodo del 1 de marzo de 2026 al 28 de febrero de 2027.",
+    "key_value": "4.2%",
+    "coverage": "Aplica a los dep\u00f3sitos de seguridad residenciales retenidos bajo las reglas de la ciudad."
+   },
+   {
+    "id": "r-0024",
+    "title": "Prohibici\u00f3n de software de fijaci\u00f3n de precios de alquiler algor\u00edtmico",
+    "requirement": "Se proh\u00edbe a los propietarios y due\u00f1os de apartamentos usar software automatizado de inteligencia artificial o dispositivos de fijaci\u00f3n de precios algor\u00edtmicos que dependan de datos de la competencia no p\u00fablicos para fijar los precios de alquiler, sujeto a multas civiles de hasta $1,000 por infracci\u00f3n.",
+    "key_value": "$1,000 penalty",
+    "coverage": "Aplica a la propiedad de alquiler residencial dentro de los l\u00edmites de la ciudad de Santa Ana, excluyendo el software de precios que use \u00fanicamente datos disponibles p\u00fablicamente, datos hist\u00f3ricos agregados o herramientas para el cumplimiento de programas de vivienda asequible."
+   },
+   {
+    "id": "r-0025",
+    "title": "Justa causa para desalojo y asistencia para reubicaci\u00f3n",
+    "requirement": "Los propietarios deben tener una raz\u00f3n v\u00e1lida de justa causa para desalojar a un inquilino y deben proporcionar asistencia para la reubicaci\u00f3n (como 3 meses de asistencia para la reubicaci\u00f3n o perd\u00f3n de alquiler) para los desalojos sin culpa.",
+    "key_value": "3 months relocation assistance",
+    "coverage": "Aplica a las propiedades residenciales despu\u00e9s de 30 d\u00edas, con exclusiones espec\u00edficas como viviendas producidas en los \u00faltimos 15 a\u00f1os y viviendas asequibles con restricciones de escritura."
+   },
+   {
+    "id": "r-0026",
+    "title": "L\u00edmite m\u00e1ximo de aumento de alquiler",
+    "requirement": "Los aumentos de alquiler anuales tienen un l\u00edmite m\u00e1ximo equivalente al menor entre el 3% del alquiler actual o el 80% del cambio en el \u00cdndice de Precios al Consumidor (IPC) durante el per\u00edodo m\u00e1s reciente de 12 meses.",
+    "key_value": "Lower of 3% or 80% of CPI",
+    "coverage": "Aplica a edificios residenciales, excluyendo aquellos construidos despu\u00e9s del 1 de febrero de 1995 y espacios para casas m\u00f3viles ofrecidos despu\u00e9s del 1 de enero de 1990."
+   },
+   {
+    "id": "r-0027",
+    "title": "Una ley que proh\u00edbe la fijaci\u00f3n algor\u00edtmica de alquileres",
+    "requirement": "Los proyectos de ley pendientes proponen prevenir la fijaci\u00f3n algor\u00edtmica de alquileres y proh\u00edben el uso de dispositivos o software algor\u00edtmicos para fijar o recomendar alquileres u ocupaci\u00f3n en el mercado de vivienda de alquiler.",
+    "key_value": null,
+    "coverage": "Mercado de vivienda de alquiler a nivel estatal."
+   },
+   {
+    "id": "r-0028",
+    "title": "Una ley relativa a la prevenci\u00f3n de la fijaci\u00f3n algor\u00edtmica de alquileres en el mercado de vivienda de alquiler",
+    "requirement": "Los proyectos de ley pendientes proponen prevenir la fijaci\u00f3n algor\u00edtmica de alquileres y proh\u00edben el uso de dispositivos o software algor\u00edtmicos para fijar o recomendar alquileres u ocupaci\u00f3n en el mercado de vivienda de alquiler.",
+    "key_value": null,
+    "coverage": "Mercado de vivienda de alquiler a nivel estatal"
+   },
+   {
+    "id": "r-0029",
+    "title": "Responsabilidad de tarifas de inquilinos para corredores de bienes ra\u00edces y vendedores",
+    "requirement": "Se proh\u00edbe a los propietarios cobrar a los futuros inquilinos tarifas de solicitud o cargos por adelantado adem\u00e1s de los montos de mudanza autorizados, y las tarifas de los corredores deben ser pagadas exclusivamente por la parte que contrat\u00f3 originalmente al corredor.",
+    "key_value": null,
+    "coverage": "Aplica a los arrendadores y propietarios a nivel estatal."
+   },
+   {
+    "id": "r-0030",
+    "title": "Aviso para determinar el patrimonio a voluntad y subsanaci\u00f3n por falta de pago",
+    "requirement": "Para los arrendamientos a voluntad, un propietario debe proporcionar un aviso por escrito de 14 d\u00edas para desocupar por falta de pago del alquiler con un per\u00edodo de subsanaci\u00f3n de 10 d\u00edas, y se proh\u00edben las represalias contra los inquilinos por reportar infracciones.",
+    "key_value": "14-day notice, 10-day cure period",
+    "coverage": "Aplica a patrimonios a voluntad."
+   },
+   {
+    "id": "r-0031",
+    "title": "Prohibici\u00f3n general del control de alquileres con excepci\u00f3n voluntaria",
+    "requirement": "Por lo general, se proh\u00edbe a las ciudades y pueblos promulgar o hacer cumplir el control de alquileres, excepto que los municipios que acepten el cap\u00edtulo pueden adoptar un sistema voluntario de control de alquileres.",
+    "key_value": null,
+    "coverage": "Aplica a las unidades de alquiler a menos que sean propiedad de una persona o entidad que posea menos de diez unidades o tenga un alquiler justo de mercado que exceda los $400."
+   },
+   {
+    "id": "r-0032",
+    "title": "Petici\u00f3n de iniciativa 25-21 para limitar los aumentos de alquiler",
+    "requirement": "Las medidas propuestas en las boletas electorales estatales sobre el control de alquileres que habr\u00edan limitado los aumentos anuales de alquiler al menor entre el IPC o el 5% fueron anuladas por la Corte Judicial Suprema.",
+    "key_value": "Lesser of CPI or 5%",
+    "coverage": "Aplica a la mayor\u00eda de las unidades de alquiler residencial, con exenciones para edificios ocupados por el propietario con cuatro unidades o menos, unidades de nueva construcci\u00f3n de menos de 10 a\u00f1os, ciertas unidades reguladas p\u00fablicamente, alquileres a corto plazo e instalaciones educativas, religiosas o sin fines de lucro."
+   },
+   {
+    "id": "r-0033",
+    "title": "Discriminaci\u00f3n por alojamientos de vivienda en alquiler o venta",
+    "requirement": "Es ilegal que los propietarios de viviendas, arrendadores, corredores o agentes administradores discriminen en los t\u00e9rminos, condiciones o privilegios en funci\u00f3n de clases protegidas, incluidas la asistencia p\u00fablica, los ni\u00f1os y la discapacidad.",
+    "key_value": null,
+    "coverage": "Aplica a alojamientos de vivienda asistidos p\u00fablicamente, de viviendas m\u00faltiples o ubicados de forma contigua, condominios y cooperativas de vivienda."
+   },
+   {
+    "id": "r-0034",
+    "title": "L\u00edmite m\u00e1ximo de pagos de mudanza",
+    "requirement": "Los propietarios no pueden exigir montos de mudanza que excedan el alquiler del primer mes, el alquiler del \u00faltimo mes, un dep\u00f3sito de seguridad equivalente al alquiler de un mes y los costos de cerradura, y deben devolver los dep\u00f3sitos de seguridad dentro de los 30 d\u00edas posteriores a la terminaci\u00f3n de la ocupaci\u00f3n.",
+    "key_value": "1 month rent security deposit max",
+    "coverage": "Aplica a los arrendamientos de bienes ra\u00edces residenciales, excluyendo los alquileres vacacionales o recreativos de 100 d\u00edas o menos."
+   },
+   {
+    "id": "r-0035",
+    "title": "Proyecto de ley H.3744",
+    "requirement": "Un proyecto de ley pendiente autorizar\u00eda a la ciudad de Boston a implementar protecciones contra el desalojo de inquilinos junto con la estabilizaci\u00f3n de alquileres.",
+    "key_value": null,
+    "coverage": "Boston, MA"
+   },
+   {
+    "id": "r-0036",
+    "title": "Proyecto de ley H.3744",
+    "requirement": "Un proyecto de ley pendiente autorizar\u00eda a la ciudad de Boston a implementar la estabilizaci\u00f3n de alquileres y protecciones contra el desalojo de inquilinos.",
+    "key_value": null,
+    "coverage": "Boston, MA"
+   },
+   {
+    "id": "r-0037",
+    "title": "Asistencia de alquiler de Boston y protecciones de evaluaci\u00f3n de vivienda justa",
+    "requirement": "Los proveedores de vivienda cubiertos no pueden mantener prohibiciones generales de antecedentes penales ni usar puntajes de cr\u00e9dito para aprobar o negar una vivienda, y no deben discriminar seg\u00fan la fuente de ingresos o la asistencia para el alquiler.",
+    "key_value": "5 years conviction lookback limit",
+    "coverage": "Proveedores de vivienda que reciben fondos y/o terrenos del Departamento de Desarrollo Vecinal (DND), o que tienen unidades con restricciones de ingresos creadas bajo la Pol\u00edtica de Desarrollo Inclusivo de la BPDA."
+   },
+   {
+    "id": "r-0038",
+    "title": "Prohibici\u00f3n de modelos de fijaci\u00f3n de precios de alquiler algor\u00edtmicos",
+    "requirement": "El concejo municipal aprob\u00f3 una orden de pol\u00edtica para iniciar medidas hacia la prohibici\u00f3n de que las empresas de administraci\u00f3n de propiedades residenciales utilicen modelos algor\u00edtmicos y basados en inteligencia artificial para recomendar precios de alquiler.",
+    "key_value": null,
+    "coverage": "Aplica a las empresas de administraci\u00f3n de propiedades residenciales que utilizan modelos de fijaci\u00f3n de precios algor\u00edtmicos."
+   },
+   {
+    "id": "r-0039",
+    "title": "Prohibici\u00f3n de discriminaci\u00f3n por fuente de ingresos",
+    "requirement": "Se proh\u00edbe a los propietarios, vendedores y agentes de alquiler discriminar a los solicitantes seg\u00fan su fuente de ingresos, incluyendo expl\u00edcitamente la Secci\u00f3n 8 y los beneficios p\u00fablicos.",
+    "key_value": null,
+    "coverage": "Aplica a la vivienda en Cambridge, con una exenci\u00f3n para viviendas bifamiliares ocupadas por el propietario."
+   },
+   {
+    "id": "r-0040",
+    "title": "Ley para prohibir la inflaci\u00f3n algor\u00edtmica de alquileres (FAIR)",
+    "requirement": "La Ley para prohibir la inflaci\u00f3n algor\u00edtmica de alquileres (FAIR) hace ilegal que un propietario o coordinador de propiedad de alquiler use software algor\u00edtmico que recopile informaci\u00f3n de arrendamiento no p\u00fablica de la competencia para fijar o recomendar precios de alquiler, t\u00e9rminos de arrendamiento o niveles de ocupaci\u00f3n.",
+    "key_value": null,
+    "coverage": "Aplica a unidades de vivienda de alquiler residencial a nivel estatal, excluyendo atenci\u00f3n m\u00e9dica para pacientes internados, atenci\u00f3n a largo plazo con licencia e instalaciones de detenci\u00f3n o correccionales."
+   }
+  ]
+ }
+}

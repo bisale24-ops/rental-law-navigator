@@ -1,0 +1,164 @@
+{
+ "meta": {
+  "model": "gemini-3.5-flash-lite",
+  "seconds": 9.2,
+  "tag": "spanish-0",
+  "usage": {
+   "promptTokenCount": 2387,
+   "candidatesTokenCount": 3257,
+   "totalTokenCount": 5644,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 2387
+    }
+   ],
+   "serviceTier": "standard"
+  },
+  "at": "2026-10-03T18:10:34Z"
+ },
+ "output": {
+  "items": [
+   {
+    "id": "r-0001",
+    "title": "Ley Cartwright AB 325: Restricciones a algoritmos de fijaci\u00f3n de precios comunes",
+    "requirement": "Bajo la Ley Cartwright, es ilegal usar o distribuir algoritmos de precios comunes como parte de una conspiraci\u00f3n para restringir el comercio o el comercio, o coaccionar a otra persona para establecer o adoptar precios recomendados o t\u00e9rminos comerciales.",
+    "key_value": null,
+    "coverage": "Aplica en general a personas que usan o distribuyen algoritmos de precios comunes para restringir el comercio o coaccionar precios."
+   },
+   {
+    "id": "r-0002",
+    "title": "L\u00edmites y requisitos de las tarifas de verificaci\u00f3n de antecedentes de inquilinos en California",
+    "requirement": "La tarifa m\u00e1xima de verificaci\u00f3n de antecedentes que un propietario puede cobrar a un inquilino prospectivo est\u00e1 limitada a $68.96 para 2026, y los propietarios no pueden cobrar una tarifa si no hay una unidad disponible.",
+    "key_value": "$68.96",
+    "coverage": "Inquilinos prospectivos que solicitan unidades de alquiler residencial en California."
+   },
+   {
+    "id": "r-0003",
+    "title": "Ley de Protecci\u00f3n al Inquilino de California de 2019 - Causa Justa para Terminaci\u00f3n",
+    "requirement": "Bajo la Ley de Protecci\u00f3n al Inquilino de California, los propietarios no pueden terminar una relaci\u00f3n de alquiler sin causa justa despu\u00e9s de 12 meses de ocupaci\u00f3n continua (o 24 meses si se a\u00f1ade un inquilino adulto), requiriendo asistencia de reubicaci\u00f3n o una exenci\u00f3n de alquiler para desalojos sin culpa.",
+    "key_value": "12 months continuous occupancy",
+    "coverage": "Aplica a bienes ra\u00edces residenciales despu\u00e9s de 12 o 24 meses de ocupaci\u00f3n continua, excluyendo hoteles, viviendas institucionales, ciertas propiedades ocupadas por el propietario, viviendas de menos de 15 a\u00f1os de antig\u00fcedad, propiedades alienables por separado bajo propiedad no corporativa espec\u00edfica, y viviendas asequibles con restricciones de escritura."
+   },
+   {
+    "id": "r-0004",
+    "title": "L\u00edmites estatales para el aumento de alquileres",
+    "requirement": "Se proh\u00edbe a los propietarios aumentar las tarifas de alquiler brutas en m\u00e1s del 5 por ciento m\u00e1s el cambio porcentual en el costo de vida, o el 10 por ciento, lo que sea menor, durante cualquier per\u00edodo de 12 meses para las unidades aplicables.",
+    "key_value": "5% plus cost of living, max 10%",
+    "coverage": "Aplica a bienes ra\u00edces residenciales en todo el estado, excluyendo viviendas subsidiadas por el gobierno, dormitorios, viviendas sujetas a un control de alquiler local m\u00e1s estricto, unidades que recibieron un certificado de ocupaci\u00f3n dentro de los 15 a\u00f1os anteriores, ciertas propiedades alienables por separado sin propiedad corporativa o de REIT, y ciertos d\u00faplex ocupados por el propietario."
+   },
+   {
+    "id": "r-0005",
+    "title": "Restricciones de antecedentes penales de la Ley de Empleo y Vivienda Justa",
+    "requirement": "Se proh\u00edbe a los proveedores de vivienda discriminar bas\u00e1ndose en clases protegidas, fuente de ingresos (como los vales de la Secci\u00f3n 8), y prohibiciones penales generales o registros de arresto sin condenas, y deben ofrecer evidencia crediticia alternativa para los titulares de subsidios.",
+    "key_value": null,
+    "coverage": "Aplica a la mayor\u00eda de los alojamientos y proveedores de vivienda en California."
+   },
+   {
+    "id": "r-0006",
+    "title": "L\u00edmite del dep\u00f3sito de seguridad",
+    "requirement": "Los propietarios generalmente solo pueden cobrar hasta un mes de alquiler como dep\u00f3sito de seguridad (dos meses para peque\u00f1os propietarios calificados de dos propiedades y un m\u00e1ximo de cuatro unidades). Los propietarios deben devolver los dep\u00f3sitos dentro de los 21 d\u00edas con una declaraci\u00f3n detallada, fotografiar las unidades antes y despu\u00e9s de la tenencia, y ofrecer una inspecci\u00f3n de salida al mudarse.",
+    "key_value": "1 month's rent",
+    "coverage": "La mayor\u00eda de las unidades de alquiler residencial, con exenciones para ciertos peque\u00f1os propietarios."
+   },
+   {
+    "id": "r-0007",
+    "title": "Prohibici\u00f3n de algoritmos de precios coordinados",
+    "requirement": "Se proh\u00edbe a los propietarios usar algoritmos de precios coordinados para fijar alquileres o gestionar los niveles de ocupaci\u00f3n para unidades de vivienda residencial, y se proh\u00edbe a los proveedores vender, licenciar o proporcionar dichos algoritmos a los propietarios de Berkeley.",
+    "key_value": null,
+    "coverage": "Todas las unidades de vivienda residencial en la Ciudad de Berkeley."
+   },
+   {
+    "id": "r-0008",
+    "title": "Prohibici\u00f3n de tarifas de solicitud no reembolsables para inquilinos actuales",
+    "requirement": "Los propietarios no pueden cobrar a los inquilinos actuales una tarifa no reembolsable para renovar un contrato de alquiler, ni para a\u00f1adir, reemplazar o eliminar a un compa\u00f1ero de cuarto. Al cobrar una tarifa de verificaci\u00f3n, los propietarios tambi\u00e9n deben proporcionar una declaraci\u00f3n clara y visible de los derechos sobre la tarifa de verificaci\u00f3n del inquilino y establecer el l\u00edmite m\u00e1ximo de tarifa permitido por la ley estatal.",
+    "key_value": null,
+    "coverage": "Todos los contratos de alquiler residencial en Berkeley."
+   },
+   {
+    "id": "r-0009",
+    "title": "Pagos de asistencia de reubicaci\u00f3n para 2026 por mudanza del propietario y desalojos bajo la Ley Ellis",
+    "requirement": "Los propietarios que desalojen a inquilinos por mudanza del propietario o bajo la Ley Ellis deben pagar un pago est\u00e1ndar de asistencia de reubicaci\u00f3n de $19,413, m\u00e1s $6,471 adicionales para hogares calificados.",
+    "key_value": "$19,413 standard / $6,471 additional",
+    "coverage": "Inquilinos sujetos a desalojos por mudanza del propietario bajo la Ordenanza de Estabilizaci\u00f3n de Alquileres y Causa Justa para Desalojo o desalojos bajo la Ley Ellis bajo la Ordenanza de Implementaci\u00f3n de Ellis."
+   },
+   {
+    "id": "r-0010",
+    "title": "L\u00edmite m\u00e1ximo del Ajuste General Anual",
+    "requirement": "El Ajuste General Anual (AGA) para unidades de alquiler totalmente cubiertas est\u00e1 limitado a un m\u00e1ximo del 5% por a\u00f1o, independientemente de f\u00f3rmulas de c\u00e1lculo del \u00cdndice de Precios al Consumidor m\u00e1s altas.",
+    "key_value": "5%",
+    "coverage": "Aplica a unidades de alquiler totalmente cubiertas bajo la Ordenanza de Alquileres de Berkeley."
+   },
+   {
+    "id": "r-0011",
+    "title": "Ordenanza de Acceso a la Vivienda con Oportunidad Justa Ronald V. Dellums",
+    "requirement": "Bajo la Ordenanza de Acceso a la Vivienda con Oportunidad Justa Ronald V. Dellums, los propietarios tienen prohibido preguntar, exigir divulgaci\u00f3n o considerar el historial criminal durante la publicidad, solicitud, selecci\u00f3n de inquilinos o toma de decisiones, y no pueden cobrar alquileres o dep\u00f3sitos de seguridad m\u00e1s altos basados en el historial criminal.",
+    "key_value": null,
+    "coverage": "Aplica a los proveedores de vivienda de alquiler en Berkeley, eximiendo propiedades ocupadas por el propietario con 1 a 3 unidades y excepciones limitadas especificadas."
+   },
+   {
+    "id": "r-0012",
+    "title": "Inter\u00e9s del dep\u00f3sito de seguridad",
+    "requirement": "Los propietarios deben pagar a los inquilinos intereses sobre su dep\u00f3sito de seguridad al final de cada a\u00f1o, y una cantidad prorrateada si el inquilino se muda antes de que termine el a\u00f1o, para alquileres en unidades cubiertas total o parcialmente por la Ordenanza de Alquileres de Berkeley.",
+    "key_value": null,
+    "coverage": "Alquileres en unidades cubiertas total o parcialmente por la Ordenanza de Alquileres de Berkeley."
+   },
+   {
+    "id": "r-0013",
+    "title": "Instrucci\u00f3n para informar sobre la prohibici\u00f3n de fijaci\u00f3n de alquileres basada en algoritmos",
+    "requirement": "El Concejo Municipal instruy\u00f3 al Departamento de Vivienda de Los \u00c1ngeles que informe sobre las entidades que utilizan software basado en algoritmos para establecer alquileres y la viabilidad de una prohibici\u00f3n.",
+    "key_value": null,
+    "coverage": "Vivienda de alquiler en toda la ciudad"
+   },
+   {
+    "id": "r-0014",
+    "title": "Ordenanza de Causa Justa para Desalojo",
+    "requirement": "Bajo la Ordenanza de Causa Justa para Desalojo, los propietarios tienen prohibido terminar contratos de alquiler sin causa justa, deben proporcionar asistencia de reubicaci\u00f3n para desalojos sin culpa, y no pueden desalojar por falta de pago a menos que el alquiler adeudado exceda el Alquiler Justo de Mercado.",
+    "key_value": null,
+    "coverage": "Cubre la mayor\u00eda de las propiedades residenciales en la Ciudad de Los \u00c1ngeles no reguladas por la Ordenanza de Estabilizaci\u00f3n de Alquileres (RSO) de la Ciudad despu\u00e9s de que el inquilino haya vivido en la unidad durante al menos seis meses o su contrato original haya expirado, lo que ocurra primero."
+   },
+   {
+    "id": "r-0015",
+    "title": "Aumento de alquiler anual permisible para unidades RSO (2025-2026)",
+    "requirement": "Los aumentos anuales de alquiler para unidades RSO est\u00e1n limitados al 3% desde el 1 de julio de 2025 hasta el 30 de junio de 2026, y a partir de entonces se rigen por una f\u00f3rmula del 90% del cambio del IPC (m\u00ednimo 1%, m\u00e1ximo 4%). Los propietarios ya no pueden incluir aumentos porcentuales adicionales por servicios p\u00fablicos a partir del 2 de febrero de 2026.",
+    "key_value": "3% (2025-2026) / 90% CPI formula (max 4%, min 1%)",
+    "coverage": "Aplica en general a propiedades de alquiler construidas por primera vez en o antes del 1 de octubre de 1978, as\u00ed como a unidades de reemplazo bajo la Secci\u00f3n 151.28 del LAMC, incluidos apartamentos, condominios y casas adosadas (si la tenencia comenz\u00f3 en o antes del 31 de diciembre de 1995), d\u00faplex, dos o m\u00e1s unidades unifamiliares en una parcela, habitaciones en un hotel/motel/casa de hu\u00e9spedes ocupadas por m\u00e1s de 30 d\u00edas consecutivos, unidades residenciales adjuntas a un edificio comercial, ADU, JADU y casas m\u00f3viles."
+   },
+   {
+    "id": "r-0016",
+    "title": "Requisito de inter\u00e9s sobre el dep\u00f3sito de seguridad",
+    "requirement": "Los propietarios de propiedades sujetas a la Ordenanza de Estabilizaci\u00f3n de Alquileres de Los \u00c1ngeles deben pagar intereses sobre los dep\u00f3sitos de seguridad a los inquilinos mensual o anualmente como un pago directo o cr\u00e9dito de alquiler despu\u00e9s de una notificaci\u00f3n por escrito.",
+    "key_value": null,
+    "coverage": "Aplica a propiedades sujetas a la Ordenanza de Estabilizaci\u00f3n de Alquileres de Los \u00c1ngeles (LARSO)."
+   },
+   {
+    "id": "r-0017",
+    "title": "Prohibici\u00f3n de la fijaci\u00f3n automatizada y anticompetitiva de precios de alquiler",
+    "requirement": "Es ilegal que cualquier persona venda, licencie o proporcione un dispositivo algor\u00edtmico a un propietario, y que un propietario use un dispositivo algor\u00edtmico para establecer tarifas de alquiler o niveles de ocupaci\u00f3n para propiedades de alquiler residencial.",
+    "key_value": null,
+    "coverage": "Aplica a propiedades de alquiler residencial en la Ciudad de San Diego."
+   },
+   {
+    "id": "r-0018",
+    "title": "Se requiere causa justa para la terminaci\u00f3n del contrato de alquiler",
+    "requirement": "Los propietarios tienen prohibido terminar un contrato de alquiler residencial sin causa justa, categorizada en razones con culpa y sin culpa, despu\u00e9s de alquileres que duren m\u00e1s de 30 d\u00edas (con exenciones est\u00e1ndar).",
+    "key_value": null,
+    "coverage": "Aplica a propiedades de alquiler residencial con exenciones espec\u00edficas tales como construcci\u00f3n reciente (construida en los \u00faltimos 15 a\u00f1os), ocupaci\u00f3n transitoria, unidades de vivienda asequible y ciertas propiedades ocupadas por el propietario."
+   },
+   {
+    "id": "r-0019",
+    "title": "Prohibici\u00f3n de discriminaci\u00f3n basada en la fuente de ingresos del inquilino",
+    "requirement": "Los propietarios no pueden discriminar contra inquilinos o solicitantes bas\u00e1ndose en su fuente de ingresos, incluyendo asistencia de alquiler de programas gubernamentales, locales o sin fines de lucro.",
+    "key_value": null,
+    "coverage": "Todas las unidades de alquiler en San Diego, excepto las unidades ocupadas por el propietario donde el propietario o un miembro de la familia comparte un ba\u00f1o o cocina con el inquilino."
+   },
+   {
+    "id": "r-0020",
+    "title": "Prohibici\u00f3n de dispositivos algor\u00edtmicos para la fijaci\u00f3n de alquileres",
+    "requirement": "Se proh\u00edbe a los propietarios usar software o dispositivos algor\u00edtmicos que analicen datos de alquiler de la competencia que no sean p\u00fablicos para recomendar precios de alquiler o gestionar los niveles de ocupaci\u00f3n de las unidades residenciales.",
+    "key_value": "prohibits algorithmic pricing software",
+    "coverage": "Aplica a unidades residenciales en San Francisco."
+   }
+  ]
+ }
+}

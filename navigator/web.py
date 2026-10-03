@@ -12,7 +12,7 @@ import pathlib
 import sys
 import urllib.parse
 
-from . import audit, facts
+from . import audit, facts, spanish
 from .engine import lookup, parse_date
 from .run import AS_OF
 
@@ -35,6 +35,7 @@ class State:
         extra = ROOT / "data" / "change_tests_extra.json"
         self.tests = tests + (json.loads(extra.read_text()) if extra.exists() else [])
         self.cands = json.loads((ROOT / "data" / "candidates.json").read_text())
+        self.es = spanish.load()
         self._cache = {}
 
     def lookups(self, as_of):
@@ -86,9 +87,19 @@ def address_list(q):
     return out[:60]
 
 
-def address_view(aid, as_of):
+def address_view(aid, as_of, lang="en"):
     a = S.addrs[aid]
     rows = S.lookups(as_of)[aid]
+    if lang == "es":
+        rv = lambda r: spanish.rule_es(rule_view(r), r, S.es)  # noqa: E731
+        res = [dict(r, reasons=[spanish.reason(x) for x in r["reasons"]], rule=rv(S.by_id[r["team_rule_id"]]))
+               for r in rows]
+        addr = {k: v for k, v in a.items() if not k.startswith("_")}
+        addr["jurisdiction_basis"] = spanish.reason(addr["jurisdiction_basis"])
+        return {"as_of": as_of.isoformat(), "lang": "es", "address": addr, "results": res,
+                "not_law": [rv(r) for r in S.rules if r["lifecycle"] in ("failed", "repealed")
+                            and (r["jurisdiction"] == a["state"] or r["jurisdiction"] == a["city"])],
+                "gaps": [c for c in CATS if not any(r["category"] == c for r in rows)]}
     return {"as_of": as_of.isoformat(), "address": {k: v for k, v in a.items() if not k.startswith("_")},
             "results": [dict(r, rule=rule_view(S.by_id[r["team_rule_id"]])) for r in rows],
             "not_law": [rule_view(r) for r in S.rules if r["lifecycle"] in ("failed", "repealed")
@@ -137,7 +148,7 @@ class Handler(http.server.BaseHTTPRequestHandler):
             if q.get("id") not in S.addrs:
                 return self._send(404, {"error": "unknown address id"})
             audit.log("ui.lookup", address=q["id"], as_of=as_of.isoformat())
-            return self._send(200, address_view(q["id"], as_of))
+            return self._send(200, address_view(q["id"], as_of, q.get("lang", "en")))
         if u.path == "/api/map":
             if q.get("rule") not in S.by_id:
                 return self._send(404, {"error": "unknown rule"})

@@ -1,0 +1,94 @@
+{
+ "meta": {
+  "model": "gemini-3.5-flash-lite",
+  "seconds": 3.1,
+  "tag": "coverage-D077",
+  "usage": {
+   "promptTokenCount": 6159,
+   "candidatesTokenCount": 864,
+   "totalTokenCount": 7023,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 6159
+    }
+   ],
+   "serviceTier": "standard"
+  },
+  "at": "2026-10-03T17:58:57Z"
+ },
+ "output": {
+  "statements": [
+   {
+    "jurisdiction": "San Diego, CA",
+    "level": "city",
+    "category": "just_cause_eviction",
+    "built_on_or_before": null,
+    "built_after": null,
+    "built_basis": "not_stated",
+    "min_units": null,
+    "rolling_age_years": null,
+    "owner_exemption_max_units": null,
+    "subsidized_excluded": true,
+    "single_family_excluded": null,
+    "quoted_span": "Housing restricted by deed (LITHC), regulatory restriction contained in an agreement with a government agency, or other recorded document as affordable housing for individuals and families of very low, low, or moderate income;"
+   },
+   {
+    "jurisdiction": "San Diego, CA",
+    "level": "city",
+    "category": "just_cause_eviction",
+    "built_on_or_before": null,
+    "built_after": null,
+    "built_basis": "not_stated",
+    "min_units": null,
+    "rolling_age_years": null,
+    "owner_exemption_max_units": null,
+    "subsidized_excluded": true,
+    "single_family_excluded": null,
+    "quoted_span": "Housing that is subject to an agreement that provides housing subsidies for affordable housing for the same individuals previously described."
+   },
+   {
+    "jurisdiction": "San Diego, CA",
+    "level": "city",
+    "category": "just_cause_eviction",
+    "built_on_or_before": null,
+    "built_after": null,
+    "built_basis": "not_stated",
+    "min_units": null,
+    "rolling_age_years": null,
+    "owner_exemption_max_units": null,
+    "subsidized_excluded": null,
+    "single_family_excluded": null,
+    "quoted_span": "Housing in which tenant shares the bathroom or kitchen facilities with the Owner who maintains their principal residence at the Residential Rental Unit."
+   },
+   {
+    "jurisdiction": "San Diego, CA",
+    "level": "city",
+    "category": "just_cause_eviction",
+    "built_on_or_before": null,
+    "built_after": null,
+    "built_basis": "not_stated",
+    "min_units": null,
+    "rolling_age_years": null,
+    "owner_exemption_max_units": 2,
+    "subsidized_excluded": null,
+    "single_family_excluded": true,
+    "quoted_span": "Single-family owner-occupied residencies, including mobile homes, where the Owner-occupant rents or leases no more than two (2) units or bedrooms, including, but not limited to, an accessory dwelling unit or junior accessory dwelling unit."
+   },
+   {
+    "jurisdiction": "San Diego, CA",
+    "level": "city",
+    "category": "just_cause_eviction",
+    "built_on_or_before": null,
+    "built_after": null,
+    "built_basis": "certificate_of_occupancy",
+    "min_units": null,
+    "rolling_age_years": 15,
+    "owner_exemption_max_units": null,
+    "subsidized_excluded": null,
+    "single_family_excluded": null,
+    "quoted_span": "Housing that has been issued a certificate of occupancy within the previous 15 years, unless the dwelling is a mobilehome."
+   }
+  ]
+ }
+}

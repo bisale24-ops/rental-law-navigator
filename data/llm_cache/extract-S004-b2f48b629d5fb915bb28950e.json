@@ -1,0 +1,55 @@
+{
+ "meta": {
+  "model": "gemini-3.5-flash-lite",
+  "seconds": 2.9,
+  "tag": "extract-S004",
+  "usage": {
+   "promptTokenCount": 2994,
+   "candidatesTokenCount": 473,
+   "totalTokenCount": 3467,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 2994
+    }
+   ],
+   "serviceTier": "standard"
+  },
+  "at": "2026-10-03T17:54:03Z"
+ },
+ "output": {
+  "rules": [
+   {
+    "jurisdiction": "Newark, NJ",
+    "level": "city",
+    "category": "rent_increase_limits",
+    "lifecycle": "enacted",
+    "title": "Annual CPI-U Based Rent Increase Limit",
+    "requirement": "Landlords may increase rent annually based on the applicable monthly Consumer Price Index-Urban (CPI-U) percentage published for the relevant month, provided they give proper written notice.",
+    "key_value": "CPI-U percentage",
+    "coverage": {
+     "summary": "Applies to residential dwellings in Newark except public housing, hotels, motels, commercial spaces, and explicitly exempted new constructions or substantially rehabilitated units.",
+     "built_on_or_before": null,
+     "built_after": null,
+     "built_basis": "not_stated",
+     "rolling_age_years": null,
+     "min_units": null,
+     "single_family_excluded": null,
+     "owner_dependent": false,
+     "owner_condition": null,
+     "owner_exemption_max_units": null,
+     "subsidized_excluded": true,
+     "unresolvable": null
+    },
+    "exemptions": "Public housing, motel or hotel space rented day-to-day, commercial use, newly constructed multiple dwellings with a 30-year exemption certificate, and substantially rehabilitated dwellings meeting specific criteria.",
+    "effective_date": "2014-06-20",
+    "enacted_date": "2019-09-11",
+    "citation": "Rent Control Ordinance",
+    "quoted_span": "Beginning June 20, 2014 permissible annual rent increases for a given month are shown in the table below. Landlords may increase rents as per the Consumer Price Index- Urban percentage (CPI-U %) published every month.",
+    "yields_to_local": false,
+    "preempts_local": false,
+    "confidence": 0.95
+   }
+  ]
+ }
+}

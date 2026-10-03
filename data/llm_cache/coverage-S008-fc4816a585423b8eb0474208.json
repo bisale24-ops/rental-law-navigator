@@ -1,0 +1,38 @@
+{
+ "meta": {
+  "model": "gemini-3.5-flash-lite",
+  "seconds": 1.8,
+  "tag": "coverage-S008",
+  "usage": {
+   "promptTokenCount": 2875,
+   "candidatesTokenCount": 261,
+   "totalTokenCount": 3136,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 2875
+    }
+   ],
+   "serviceTier": "standard"
+  },
+  "at": "2026-10-03T17:59:32Z"
+ },
+ "output": {
+  "statements": [
+   {
+    "jurisdiction": "Los Angeles, CA",
+    "level": "city",
+    "category": "security_deposits",
+    "built_on_or_before": "1978-10-01",
+    "built_after": null,
+    "built_basis": "certificate_of_occupancy",
+    "min_units": null,
+    "rolling_age_years": null,
+    "owner_exemption_max_units": null,
+    "subsidized_excluded": null,
+    "single_family_excluded": null,
+    "quoted_span": "Landlords of rental units subject to the Rent Stabilization Ordinance (RSO), which includes dwelling units, suites, condominiums, duplexes, guest rooms, and rooms in a hotel, motel, rooming house or boarding house occupied by the same tenant for more than 30 consecutive days in the City of Los Angeles with a certificate of occupancy first issued before October 1, 1978, must pay interest on all security deposits held for at least one (1) year for their tenants."
+   }
+  ]
+ }
+}

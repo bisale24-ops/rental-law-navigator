@@ -1,0 +1,55 @@
+{
+ "meta": {
+  "model": "gemma-4-31b-it",
+  "seconds": 32.9,
+  "tag": "extract-D087",
+  "usage": {
+   "promptTokenCount": 2258,
+   "candidatesTokenCount": 349,
+   "totalTokenCount": 2607,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 2258
+    }
+   ],
+   "serviceTier": "standard"
+  },
+  "at": "2026-10-03T17:52:05Z"
+ },
+ "output": {
+  "rules": [
+   {
+    "jurisdiction": "Santa Ana, CA",
+    "level": "city",
+    "category": "algorithmic_rent_setting",
+    "lifecycle": "pending_bill",
+    "title": "Algorithmic Rent-Setting Ordinance",
+    "requirement": "Prohibits the sale, licensing, provision and use of algorithmic rent-setting software for residential rental properties that uses nonpublic competitor data to set rental rates.",
+    "key_value": null,
+    "coverage": {
+     "summary": "Residential rental property within Santa Ana city limits.",
+     "built_on_or_before": null,
+     "built_after": null,
+     "built_basis": "not_stated",
+     "rolling_age_years": null,
+     "min_units": null,
+     "single_family_excluded": null,
+     "owner_dependent": null,
+     "owner_condition": null,
+     "owner_exemption_max_units": null,
+     "subsidized_excluded": null,
+     "unresolvable": null
+    },
+    "exemptions": "Pricing software that relies solely on publicly available data, aggregate historical data, or tools used to comply with affordable housing program requirements.",
+    "effective_date": null,
+    "enacted_date": null,
+    "citation": "Santa Ana City Council ordinance",
+    "quoted_span": "prohibits the sale, licensing, provision and use of certain algorithmic rent-setting software for residential rental properties. It addresses the growing use of algorithmic devices that set rental rates in the private housing market using nonpublic competitor data, including real-time rents, lease renewals and occupancy levels.",
+    "yields_to_local": false,
+    "preempts_local": false,
+    "confidence": 1.0
+   }
+  ]
+ }
+}

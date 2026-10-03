@@ -1,0 +1,66 @@
+{
+ "meta": {
+  "model": "gemma-4-31b-it",
+  "seconds": 34.4,
+  "tag": "coverage-S009",
+  "usage": {
+   "promptTokenCount": 6299,
+   "candidatesTokenCount": 461,
+   "totalTokenCount": 6760,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 6299
+    }
+   ],
+   "serviceTier": "standard"
+  },
+  "at": "2026-10-03T18:00:06Z"
+ },
+ "output": {
+  "statements": [
+   {
+    "jurisdiction": "NJ",
+    "level": "state",
+    "category": "security_deposits",
+    "built_on_or_before": null,
+    "built_after": null,
+    "built_basis": "not_stated",
+    "min_units": null,
+    "rolling_age_years": null,
+    "owner_exemption_max_units": null,
+    "subsidized_excluded": null,
+    "single_family_excluded": null,
+    "quoted_span": "This subsection shall not apply to persons receiving money for less than 10 rental units except where required by the Commissioner of Banking and Insurance by rule or regulation."
+   },
+   {
+    "jurisdiction": "NJ",
+    "level": "state",
+    "category": "security_deposits",
+    "built_on_or_before": null,
+    "built_after": null,
+    "built_basis": "not_stated",
+    "min_units": null,
+    "rolling_age_years": null,
+    "owner_exemption_max_units": null,
+    "subsidized_excluded": null,
+    "single_family_excluded": null,
+    "quoted_span": "The provisions of this section requiring that the security advanced be deposited or invested in a money market fund, or in an interest bearing account in a State or federally chartered bank, savings bank or savings and loan association shall not apply to any security advanced on a contract, lease or license agreement for the seasonal use or rental of real property."
+   },
+   {
+    "jurisdiction": "NJ",
+    "level": "state",
+    "category": "security_deposits",
+    "built_on_or_before": null,
+    "built_after": null,
+    "built_basis": "not_stated",
+    "min_units": null,
+    "rolling_age_years": null,
+    "owner_exemption_max_units": 2,
+    "subsidized_excluded": null,
+    "single_family_excluded": null,
+    "quoted_span": "The provisions of this act shall apply to all rental premises or units used for dwelling purposes except owner-occupied premises with not more than two rental units where the tenant has failed to provide 30 days written notice to the landlord invoking the provisions of this act."
+   }
+  ]
+ }
+}

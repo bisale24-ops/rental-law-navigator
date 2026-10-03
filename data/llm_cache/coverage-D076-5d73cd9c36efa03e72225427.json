@@ -1,0 +1,38 @@
+{
+ "meta": {
+  "model": "gemini-3.5-flash-lite",
+  "seconds": 2.0,
+  "tag": "coverage-D076",
+  "usage": {
+   "promptTokenCount": 6332,
+   "candidatesTokenCount": 193,
+   "totalTokenCount": 6525,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 6332
+    }
+   ],
+   "serviceTier": "standard"
+  },
+  "at": "2026-10-03T17:44:46Z"
+ },
+ "output": {
+  "statements": [
+   {
+    "jurisdiction": "San Diego, CA",
+    "level": "city",
+    "category": "algorithmic_rent_setting",
+    "built_on_or_before": null,
+    "built_after": null,
+    "built_basis": "not_stated",
+    "min_units": null,
+    "rolling_age_years": null,
+    "owner_exemption_max_units": null,
+    "subsidized_excluded": true,
+    "single_family_excluded": null,
+    "quoted_span": "Algorithmic device does not include either of the following: ... (b) A software or product used by a person to establish rental rates or income limits in accordance with local, state, or federal affordable housing program guidelines."
+   }
+  ]
+ }
+}

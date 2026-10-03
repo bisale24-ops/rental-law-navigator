@@ -1,0 +1,86 @@
+{
+ "meta": {
+  "model": "gemini-3.5-flash-lite",
+  "seconds": 3.0,
+  "tag": "extract-S013",
+  "usage": {
+   "promptTokenCount": 5073,
+   "candidatesTokenCount": 738,
+   "totalTokenCount": 5811,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 5073
+    }
+   ],
+   "serviceTier": "standard"
+  },
+  "at": "2026-10-03T17:55:39Z"
+ },
+ "output": {
+  "rules": [
+   {
+    "jurisdiction": "Cambridge, MA",
+    "level": "city",
+    "category": "security_deposits",
+    "lifecycle": "enacted",
+    "title": "Security Deposit Maximum Amount",
+    "requirement": "A landlord may request a security deposit, but it cannot exceed the amount of one month's rent.",
+    "key_value": "1 month rent",
+    "coverage": {
+     "summary": "Applies to residential tenancies where a security deposit is requested.",
+     "built_on_or_before": null,
+     "built_after": null,
+     "built_basis": "not_stated",
+     "rolling_age_years": null,
+     "min_units": null,
+     "single_family_excluded": null,
+     "owner_dependent": null,
+     "owner_condition": null,
+     "owner_exemption_max_units": null,
+     "subsidized_excluded": null,
+     "unresolvable": null
+    },
+    "exemptions": null,
+    "effective_date": null,
+    "enacted_date": null,
+    "citation": "Cambridge Municipal Code Chapter 8.71",
+    "quoted_span": "A security deposit cannot be more than the amount of 1 month\u2019s rent.",
+    "yields_to_local": false,
+    "preempts_local": false,
+    "confidence": 1.0
+   },
+   {
+    "jurisdiction": "Cambridge, MA",
+    "level": "city",
+    "category": "security_deposits",
+    "lifecycle": "enacted",
+    "title": "Security Deposit Return Deadline",
+    "requirement": "Within 30 days of the end of the lease or tenancy, the landlord must return the security deposit with accrued interest or provide an itemized list of damages and repair costs for any portion being withheld.",
+    "key_value": "30 days",
+    "coverage": {
+     "summary": "Applies to residential tenancies with security deposits.",
+     "built_on_or_before": null,
+     "built_after": null,
+     "built_basis": "not_stated",
+     "rolling_age_years": null,
+     "min_units": null,
+     "single_family_excluded": null,
+     "owner_dependent": null,
+     "owner_condition": null,
+     "owner_exemption_max_units": null,
+     "subsidized_excluded": null,
+     "unresolvable": null
+    },
+    "exemptions": null,
+    "effective_date": null,
+    "enacted_date": null,
+    "citation": "Cambridge Municipal Code Chapter 8.71",
+    "quoted_span": "Within 30 days of the end of the lease or tenancy, your landlord must return the deposit with any interest that has accrued or give an itemized list of the damages and cost to fix them for whatever portion that is being kept.",
+    "yields_to_local": false,
+    "preempts_local": false,
+    "confidence": 1.0
+   }
+  ]
+ }
+}

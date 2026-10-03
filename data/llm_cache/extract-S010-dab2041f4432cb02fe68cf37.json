@@ -1,0 +1,117 @@
+{
+ "meta": {
+  "model": "gemini-3.5-flash-lite",
+  "seconds": 6.2,
+  "tag": "extract-S010",
+  "usage": {
+   "promptTokenCount": 107131,
+   "candidatesTokenCount": 1586,
+   "totalTokenCount": 108717,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 107131
+    }
+   ],
+   "serviceTier": "standard"
+  },
+  "at": "2026-10-03T17:55:20Z"
+ },
+ "output": {
+  "rules": [
+   {
+    "jurisdiction": "NJ",
+    "level": "state",
+    "category": "just_cause_eviction",
+    "lifecycle": "enacted",
+    "title": "New Jersey Anti-Eviction Act Good Cause Requirement",
+    "requirement": "Landlords may not remove residential tenants or fail to renew leases except for specific statutory grounds of good cause.",
+    "key_value": null,
+    "coverage": {
+     "summary": "Applies to residential properties generally, with explicit exclusions for certain owner-occupied premises, hotels/motels, and specific family trusts or units occupied by immediate family members with developmental disabilities.",
+     "built_on_or_before": null,
+     "built_after": null,
+     "built_basis": "not_stated",
+     "rolling_age_years": null,
+     "min_units": null,
+     "single_family_excluded": null,
+     "owner_dependent": true,
+     "owner_condition": "Exempts owner-occupied premises with not more than two rental units, or certain immediate family occupancy arrangements.",
+     "owner_exemption_max_units": 2,
+     "subsidized_excluded": null,
+     "unresolvable": null
+    },
+    "exemptions": "Owner-occupied premises with not more than two rental units, hotels, motels, seasonal or transient guests, and certain immediate family member occupancies.",
+    "effective_date": null,
+    "enacted_date": "1974-06-25",
+    "citation": "N.J. Stat. \u00a7 2A:18-61.1",
+    "quoted_span": "No lessee or tenant or the assigns, under-tenants or legal representatives of such lessee or tenant may be removed by the Superior Court from any house, building, mobile home or land in a mobile home park or tenement leased for residential purposes, other than (1) owner-occupied premises with not more than two rental units or a hotel, motel or other guest house or part thereof rented to a transient guest or seasonal tenant; (2) a dwelling unit which is held in trust on behalf of a member of the immediate family of the person or persons establishing the trust, provided that the member of the immediate family on whose behalf the trust is established permanently occupies the unit; and (3) a dwelling unit which is permanently occupied by a member of the immediate family of the owner of that unit, provided, however, that exception (2) or (3) shall apply only in cases in which the member of the immediate family has a developmental disability, except upon establishment of one of the following grounds as good cause:",
+    "yields_to_local": false,
+    "preempts_local": true,
+    "confidence": 1.0
+   },
+   {
+    "jurisdiction": "NJ",
+    "level": "state",
+    "category": "just_cause_eviction",
+    "lifecycle": "enacted",
+    "title": "Relocation Assistance for Illegal Occupancy Evictions",
+    "requirement": "Landlords who evict tenants due to zoning or code enforcement activity regarding an illegal occupancy must provide relocation assistance equal to six times the monthly rent paid by the tenant.",
+    "key_value": "6 times monthly rent",
+    "coverage": {
+     "summary": "Applies to residential tenants displaced due to an illegal occupancy citation under code or zoning enforcement.",
+     "built_on_or_before": null,
+     "built_after": null,
+     "built_basis": "not_stated",
+     "rolling_age_years": null,
+     "min_units": null,
+     "single_family_excluded": null,
+     "owner_dependent": true,
+     "owner_condition": "Excludes mortgagees in possession through foreclosure.",
+     "owner_exemption_max_units": null,
+     "subsidized_excluded": null,
+     "unresolvable": null
+    },
+    "exemptions": "Mortgagees in possession of a structure through foreclosure are excluded from owner-landlord relocation liability.",
+    "effective_date": null,
+    "enacted_date": "1993-01-01",
+    "citation": "N.J. Stat. \u00a7 2A:18-61.1h",
+    "quoted_span": "If a residential tenant is displaced because of an illegal occupancy in a residential rental premises pursuant to paragraph (3) of subsection g. of section 2 of P.L.1974, c.49 (C.2A:18-61.1) and the municipality in which the rental premises is located has not enacted an ordinance pursuant to section 3 of P.L.1993, c.342 (C.2A:18-61.1g), the displaced residential tenant shall be entitled to reimbursement for relocation expenses from the owner in an amount equal to six times the monthly rental paid by the displaced person.",
+    "yields_to_local": false,
+    "preempts_local": false,
+    "confidence": 1.0
+   },
+   {
+    "jurisdiction": "NJ",
+    "level": "state",
+    "category": "just_cause_eviction",
+    "lifecycle": "enacted",
+    "title": "Prohibition of Lease Waivers of Anti-Eviction Rights",
+    "requirement": "Any lease provision attempting to waive a tenant's good-cause eviction protections or other statutory rights under the Anti-Eviction Act is void against public policy and unenforceable.",
+    "key_value": null,
+    "coverage": {
+     "summary": "Applies to all residential tenancies covered by the state good cause eviction law.",
+     "built_on_or_before": null,
+     "built_after": null,
+     "built_basis": "not_stated",
+     "rolling_age_years": null,
+     "min_units": null,
+     "single_family_excluded": null,
+     "owner_dependent": false,
+     "owner_condition": null,
+     "owner_exemption_max_units": null,
+     "subsidized_excluded": null,
+     "unresolvable": null
+    },
+    "exemptions": null,
+    "effective_date": null,
+    "enacted_date": "1974-06-25",
+    "citation": "N.J. Stat. \u00a7 2A:18-61.4",
+    "quoted_span": "Any provision in a lease whereby any tenant covered by section 2 of this act agrees that his tenancy may be terminated or not renewed for other than good cause as defined in section 2, or whereby the tenant waives any other rights under this act shall be deemed against public policy and unenforceable.",
+    "yields_to_local": false,
+    "preempts_local": false,
+    "confidence": 1.0
+   }
+  ]
+ }
+}

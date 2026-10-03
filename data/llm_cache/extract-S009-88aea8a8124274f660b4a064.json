@@ -1,0 +1,148 @@
+{
+ "meta": {
+  "model": "gemma-4-31b-it",
+  "seconds": 72.1,
+  "tag": "extract-S009",
+  "usage": {
+   "promptTokenCount": 6878,
+   "candidatesTokenCount": 1892,
+   "totalTokenCount": 8770,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 6878
+    }
+   ],
+   "serviceTier": "standard"
+  },
+  "at": "2026-10-03T17:56:46Z"
+ },
+ "output": {
+  "rules": [
+   {
+    "jurisdiction": "NJ",
+    "level": "state",
+    "category": "security_deposits",
+    "lifecycle": "enacted",
+    "title": "Security Deposit Investment and Trust",
+    "requirement": "Security deposits must be held in trust, not mingled with the landlord's personal property, and invested in an insured money market fund or a State/federally chartered bank, savings bank, or savings and loan association in New Jersey.",
+    "key_value": null,
+    "coverage": {
+     "summary": "All rental premises or units used for dwelling purposes, except owner-occupied premises with not more than two rental units where the tenant has failed to provide 30 days written notice to the landlord invoking the act.",
+     "built_on_or_before": null,
+     "built_after": null,
+     "built_basis": "not_stated",
+     "rolling_age_years": null,
+     "min_units": null,
+     "single_family_excluded": null,
+     "owner_dependent": true,
+     "owner_condition": "owner-occupied premises with not more than two rental units",
+     "owner_exemption_max_units": 2,
+     "subsidized_excluded": null,
+     "unresolvable": "tenant must provide 30 days written notice for owner-occupied premises with <= 2 units"
+    },
+    "exemptions": "Seasonal use or rental for a term of not more than 125 consecutive days for residential purposes by a person having a permanent place of residence elsewhere.",
+    "effective_date": "1968-01-01",
+    "enacted_date": "1967-01-01",
+    "citation": "N.J.S.A. 46:8-19",
+    "quoted_span": "Whenever money or other form of security shall be deposited or advanced on a contract, lease or license agreement for the use or rental of real property as security for performance of the contract, lease or agreement or to be applied to payments upon such contract, lease or agreement when due, such money or other form of security, until repaid or so applied including the tenant's portion of the interest or earnings accumulated thereon as hereinafter provided, shall continue to be the property of the person making such deposit or advance and shall be held in trust by the person with whom such deposit or advance shall be made for the use in accordance with the terms of the contract, lease or agreement and shall not be mingled with the personal property or become an asset of the person receiving the same.",
+    "yields_to_local": false,
+    "preempts_local": false,
+    "confidence": 1.0
+   },
+   {
+    "jurisdiction": "NJ",
+    "level": "state",
+    "category": "security_deposits",
+    "lifecycle": "enacted",
+    "title": "Security Deposit Notice Requirements",
+    "requirement": "Landlords must notify tenants in writing of the depository institution, account type, current interest rate, and deposit amount within 30 days of receipt, upon moving the deposit, and annually at the time of interest payment.",
+    "key_value": null,
+    "coverage": {
+     "summary": "All rental premises or units used for dwelling purposes, except owner-occupied premises with not more than two rental units where the tenant has failed to provide 30 days written notice to the landlord invoking the act.",
+     "built_on_or_before": null,
+     "built_after": null,
+     "built_basis": "not_stated",
+     "rolling_age_years": null,
+     "min_units": null,
+     "single_family_excluded": null,
+     "owner_dependent": true,
+     "owner_condition": "owner-occupied premises with not more than two rental units",
+     "owner_exemption_max_units": 2,
+     "subsidized_excluded": null,
+     "unresolvable": "tenant must provide 30 days written notice for owner-occupied premises with <= 2 units"
+    },
+    "exemptions": "Seasonal use or rental for a term of not more than 125 consecutive days for residential purposes by a person having a permanent place of residence elsewhere.",
+    "effective_date": "1968-01-01",
+    "enacted_date": "1967-01-01",
+    "citation": "N.J.S.A. 46:8-19(c)",
+    "quoted_span": "The person investing the security deposit pursuant to subsection a. or b. of this section shall notify in writing each of the persons making such security deposit or advance, giving the name and address of the investment company, State or federally chartered bank, savings bank or savings and loan association in which the deposit or investment of security money is made, the type of account in which the security deposit is deposited or invested, the current rate of interest for that account, and the amount of such deposit or investment",
+    "yields_to_local": false,
+    "preempts_local": false,
+    "confidence": 1.0
+   },
+   {
+    "jurisdiction": "NJ",
+    "level": "state",
+    "category": "security_deposits",
+    "lifecycle": "enacted",
+    "title": "Security Deposit Return Deadline",
+    "requirement": "Security deposits plus accumulated interest, minus any lawful charges, must be returned to the tenant within 30 days after the termination of the lease.",
+    "key_value": "30 days",
+    "coverage": {
+     "summary": "All rental premises or units used for dwelling purposes, except owner-occupied premises with not more than two rental units where the tenant has failed to provide 30 days written notice to the landlord invoking the act.",
+     "built_on_or_before": null,
+     "built_after": null,
+     "built_basis": "not_stated",
+     "rolling_age_years": null,
+     "min_units": null,
+     "single_family_excluded": null,
+     "owner_dependent": true,
+     "owner_condition": "owner-occupied premises with not more than two rental units",
+     "owner_exemption_max_units": 2,
+     "subsidized_excluded": null,
+     "unresolvable": "tenant must provide 30 days written notice for owner-occupied premises with <= 2 units"
+    },
+    "exemptions": null,
+    "effective_date": "1971-06-21",
+    "enacted_date": "1971-01-01",
+    "citation": "N.J.S.A. 46:8-21.1",
+    "quoted_span": "Within 30 days after the termination of the tenant's lease or licensee's agreement, the owner or lessee shall return by personal delivery, registered or certified mail the sum so deposited plus the tenant's portion of the interest or earnings accumulated thereon, less any charges expended in accordance with the terms of a contract, lease, or agreement, to the tenant or licensee",
+    "yields_to_local": false,
+    "preempts_local": false,
+    "confidence": 1.0
+   },
+   {
+    "jurisdiction": "NJ",
+    "level": "state",
+    "category": "security_deposits",
+    "lifecycle": "enacted",
+    "title": "Limitation on Amount of Security Deposit",
+    "requirement": "Landlords cannot require a security deposit exceeding 1.5 times one month's rent. Additional security deposits collected annually cannot exceed 10% of the current security deposit.",
+    "key_value": "1.5 months",
+    "coverage": {
+     "summary": "All rental premises or units used for dwelling purposes, except owner-occupied premises with not more than two rental units where the tenant has failed to provide 30 days written notice to the landlord invoking the act.",
+     "built_on_or_before": null,
+     "built_after": null,
+     "built_basis": "not_stated",
+     "rolling_age_years": null,
+     "min_units": null,
+     "single_family_excluded": null,
+     "owner_dependent": true,
+     "owner_condition": "owner-occupied premises with not more than two rental units",
+     "owner_exemption_max_units": 2,
+     "subsidized_excluded": null,
+     "unresolvable": "tenant must provide 30 days written notice for owner-occupied premises with <= 2 units"
+    },
+    "exemptions": null,
+    "effective_date": "1971-06-21",
+    "enacted_date": "1971-01-01",
+    "citation": "N.J.S.A. 46:8-21.2",
+    "quoted_span": "An owner or lessee may not require more than a sum equal to 1 1/2 times 1 month's rental according to the terms of contract, lease, or agreement as a security for the use or rental of real property used for dwelling purposes.",
+    "yields_to_local": false,
+    "preempts_local": false,
+    "confidence": 1.0
+   }
+  ]
+ }
+}

@@ -1,0 +1,38 @@
+{
+ "meta": {
+  "model": "gemini-3.5-flash-lite",
+  "seconds": 1.5,
+  "tag": "coverage-D007",
+  "usage": {
+   "promptTokenCount": 1459,
+   "candidatesTokenCount": 216,
+   "totalTokenCount": 1675,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 1459
+    }
+   ],
+   "serviceTier": "standard"
+  },
+  "at": "2026-10-03T17:42:52Z"
+ },
+ "output": {
+  "statements": [
+   {
+    "jurisdiction": "Berkeley, CA",
+    "level": "city",
+    "category": "security_deposits",
+    "built_on_or_before": null,
+    "built_after": null,
+    "built_basis": "not_stated",
+    "min_units": 4,
+    "rolling_age_years": null,
+    "owner_exemption_max_units": 2,
+    "subsidized_excluded": null,
+    "single_family_excluded": null,
+    "quoted_span": "Starting July 1, 2024, landlords who own only two rental properties with no more than four residential units total can charge up to two months' rent for furnished and unfurnished units if ownership is held by a natural person, family trust, or limited liability company (LLC) where all members are natural persons"
+   }
+  ]
+ }
+}

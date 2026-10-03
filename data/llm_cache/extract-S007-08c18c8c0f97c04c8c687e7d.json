@@ -1,0 +1,86 @@
+{
+ "meta": {
+  "model": "gemini-3.5-flash-lite",
+  "seconds": 3.6,
+  "tag": "extract-S007",
+  "usage": {
+   "promptTokenCount": 6337,
+   "candidatesTokenCount": 928,
+   "totalTokenCount": 7265,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 6337
+    }
+   ],
+   "serviceTier": "standard"
+  },
+  "at": "2026-10-03T17:54:16Z"
+ },
+ "output": {
+  "rules": [
+   {
+    "jurisdiction": "Los Angeles, CA",
+    "level": "city",
+    "category": "rent_increase_limits",
+    "lifecycle": "enacted",
+    "title": "Revised Annual Rent Adjustment Formula",
+    "requirement": "The maximum allowable annual rent increase for RSO units is 90 percent of the CPI percentage change for the Los Angeles-Long Beach-Anaheim area, with a floor of one percent (if the calculated change is less than one percent) and a hard cap of four percent. For the period from June 1, 2025, through June 30, 2026, un-noticed annual increases are capped at three percent.",
+    "key_value": "90% of CPI change, max 4%, min 1%",
+    "coverage": {
+     "summary": "Rental units subject to the Los Angeles Rent Stabilization Ordinance (RSO).",
+     "built_on_or_before": null,
+     "built_after": null,
+     "built_basis": "not_stated",
+     "rolling_age_years": null,
+     "min_units": null,
+     "single_family_excluded": null,
+     "owner_dependent": null,
+     "owner_condition": null,
+     "owner_exemption_max_units": null,
+     "subsidized_excluded": null,
+     "unresolvable": null
+    },
+    "exemptions": "Units subject to notices of noncompliance sent to the Franchise Tax Board, rent reduction notices, REAP acceptance notices, or where a criminal conviction has been obtained regarding building/health/fire code violations.",
+    "effective_date": null,
+    "enacted_date": "2025-12-02",
+    "citation": "Los Angeles Municipal Code Section 151.06 D",
+    "quoted_span": "The maximum rent or maximum adjusted rent may be increased annually based on 90 percent of the difference between the average of the Consumer Price Index for All Urban Consumers for All items in Los Angeles-Long Beach-Anaheim, CA for the most recent consecutive 12-month period ending on September 30 and the average of the same index for the prior consecutive 12-month period ending on September 30, calculated as a percentage and rounded off to the nearest whole number.",
+    "yields_to_local": false,
+    "preempts_local": false,
+    "confidence": 0.95
+   },
+   {
+    "jurisdiction": "Los Angeles, CA",
+    "level": "city",
+    "category": "just_cause_eviction",
+    "lifecycle": "enacted",
+    "title": "Elimination of Rent Adjustments for Added Dependents",
+    "requirement": "Landlords may not impose a rent increase for any dependent added to an existing tenancy.",
+    "key_value": null,
+    "coverage": {
+     "summary": "Existing tenancies where dependents are added.",
+     "built_on_or_before": null,
+     "built_after": null,
+     "built_basis": "not_stated",
+     "rolling_age_years": null,
+     "min_units": null,
+     "single_family_excluded": null,
+     "owner_dependent": null,
+     "owner_condition": null,
+     "owner_exemption_max_units": null,
+     "subsidized_excluded": null,
+     "unresolvable": null
+    },
+    "exemptions": null,
+    "effective_date": null,
+    "enacted_date": "2025-12-02",
+    "citation": "Los Angeles Municipal Code Section 151.06 G(iii)",
+    "quoted_span": "This subsection shall not apply for any dependent added to an existing tenancy.",
+    "yields_to_local": false,
+    "preempts_local": false,
+    "confidence": 0.95
+   }
+  ]
+ }
+}

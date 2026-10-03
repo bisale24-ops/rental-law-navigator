@@ -1,0 +1,55 @@
+{
+ "meta": {
+  "model": "gemini-3.5-flash-lite",
+  "seconds": 2.9,
+  "tag": "extract-S011",
+  "usage": {
+   "promptTokenCount": 2267,
+   "candidatesTokenCount": 495,
+   "totalTokenCount": 2762,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 2267
+    }
+   ],
+   "serviceTier": "standard"
+  },
+  "at": "2026-10-03T17:55:31Z"
+ },
+ "output": {
+  "rules": [
+   {
+    "jurisdiction": "San Diego, CA",
+    "level": "city",
+    "category": "algorithmic_rent_setting",
+    "lifecycle": "enacted",
+    "title": "Prohibition of Anti-Competitive Automated Rent Price-Fixing",
+    "requirement": "It is unlawful for any person to sell, license, or provide an algorithmic device to a landlord, and it is unlawful for a landlord to use an algorithmic device to set rental rates or occupancy levels for residential rental property.",
+    "key_value": null,
+    "coverage": {
+     "summary": "Applies to residential rental properties in the City of San Diego.",
+     "built_on_or_before": null,
+     "built_after": null,
+     "built_basis": "not_stated",
+     "rolling_age_years": null,
+     "min_units": null,
+     "single_family_excluded": null,
+     "owner_dependent": null,
+     "owner_condition": null,
+     "owner_exemption_max_units": null,
+     "subsidized_excluded": null,
+     "unresolvable": null
+    },
+    "exemptions": "Does not include software used to publish reports from aggregated historical nonpublic competitor data older than 90 days or public information without recommending future rates/occupancy, software used to establish rates/income limits per affordable housing guidelines, or appraisal software that does not recommend rental rates during runtime operation.",
+    "effective_date": "2025-06-21",
+    "enacted_date": "2025-05-22",
+    "citation": "San Diego Municipal Code ch. 9, art. 8, div. 11",
+    "quoted_span": "It is unlawful for a person to sell, license, or otherwise provide an algorithmic device to a landlord. It is unlawful for a landlord to use an algorithmic device to set rental rates or occupancy levels for residential rental property.",
+    "yields_to_local": false,
+    "preempts_local": false,
+    "confidence": 1.0
+   }
+  ]
+ }
+}

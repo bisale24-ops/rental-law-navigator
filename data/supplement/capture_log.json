@@ -2,78 +2,68 @@
  {
   "doc": "D002",
   "url": "https://morganlewis.com/pubs/2026/08/algorithmic-rent-pricing-litigation-expands-under-new-state-and-local-laws",
-  "fetched": false,
-  "reason": "robots.txt disallows or unreadable"
+  "fetched": true,
+  "chars": 13358,
+  "retrieved": "2026-10-03 17:45 UTC",
+  "sha256": "0e6a81e146de534056605280099f99dfc15920ca68d2883e70e9ccb4ab591be9"
  },
  {
   "doc": "D015",
   "url": "https://caanet.org/compliance-reminder-section-8-acceptance-and-criminal-background-checks-are-fair-housing-issues/",
-  "fetched": false,
-  "reason": "robots.txt disallows or unreadable"
+  "fetched": true,
+  "chars": 6483,
+  "retrieved": "2026-10-03 17:46 UTC",
+  "sha256": "a5e9a30f922cc4ebcf72fa2a6c432e56d3df2b7f7298ca6d3b77be4abf4ac624"
  },
  {
   "doc": "D017",
   "url": "https://california.public.law/codes/civil_code_section_1950.6",
-  "fetched": false,
-  "reason": "robots.txt disallows or unreadable"
+  "fetched": true,
+  "chars": 7505,
+  "retrieved": "2026-10-03 17:46 UTC",
+  "sha256": "1ce6965d1f470e5619464eb373188e127f9d89879dee239a92dbf32d13c1897c"
  },
  {
   "doc": "D018",
   "url": "https://law.justia.com/codes/california/code-civ/division-3/part-4/title-5/chapter-2/section-1946-2/",
   "fetched": false,
-  "reason": "robots.txt disallows or unreadable"
+  "reason": "<HTTPError 403: 'Forbidden'>"
  },
  {
   "doc": "D019",
   "url": "https://law.justia.com/codes/california/code-civ/division-3/part-4/title-5/chapter-2/section-1947-12/",
   "fetched": false,
-  "reason": "robots.txt disallows or unreadable"
+  "reason": "<HTTPError 403: 'Forbidden'>"
  },
  {
   "doc": "D020",
   "url": "https://law.justia.com/codes/california/code-civ/division-3/part-4/title-5/chapter-2/section-1950-5/",
   "fetched": false,
-  "reason": "robots.txt disallows or unreadable"
+  "reason": "<HTTPError 403: 'Forbidden'>"
  },
  {
   "doc": "D021",
   "url": "https://law.justia.com/codes/california/code-gov/title-2/division-3/part-2-8/chapter-6/article-2/section-12955/",
   "fetched": false,
-  "reason": "robots.txt disallows or unreadable"
- },
- {
-  "doc": "D028",
-  "url": "https://www.clearygottlieb.com/news-and-insights/publication-listing/californias-antitrust-law-amendments-kick-in-targeting-algorithmic-pricing",
-  "fetched": true,
-  "chars": 9590,
-  "retrieved": "2026-10-03 17:38 UTC",
-  "sha256": "6b1109493fe5c8459340541960dcd4853ac69201ad865f8216927df12b01e678"
- },
- {
-  "doc": "D030",
-  "url": "https://www.cambridgeday.com/?p=158097",
-  "fetched": true,
-  "chars": 8012,
-  "retrieved": "2026-10-03 17:38 UTC",
-  "sha256": "b277f93efd5e0c4956d91c311d27788587f9e339737ae50ff8a439ef9e58a32a"
+  "reason": "<HTTPError 403: 'Forbidden'>"
  },
  {
   "doc": "D032",
   "url": "https://ecode360.com/15252438",
   "fetched": false,
-  "reason": "robots.txt disallows or unreadable"
+  "reason": "<HTTPError 403: 'Forbidden'>"
  },
  {
   "doc": "D033",
   "url": "https://ecode360.com/15252470",
   "fetched": false,
-  "reason": "robots.txt disallows or unreadable"
+  "reason": "<HTTPError 403: 'Forbidden'>"
  },
  {
   "doc": "D034",
   "url": "https://ecode360.com/46833413",
   "fetched": false,
-  "reason": "robots.txt disallows or unreadable"
+  "reason": "<HTTPError 403: 'Forbidden'>"
  },
  {
   "doc": "D035",
@@ -84,36 +74,24 @@
  {
   "doc": "D037",
   "url": "https://www.morganlewis.com/pubs/2026/08/algorithmic-rent-pricing-litigation-expands-under-new-state-and-local-laws",
-  "fetched": false,
-  "reason": "robots.txt disallows or unreadable"
+  "fetched": true,
+  "chars": 13358,
+  "retrieved": "2026-10-03 17:46 UTC",
+  "sha256": "560571d1091a31c1d17ca42b7e691aff7d8ebf6fec179119a299c71b446055cb"
  },
  {
   "doc": "D038",
   "url": "https://codelibrary.amlegal.com/codes/los_angeles/latest/lamc/0-0-0-322208",
   "fetched": false,
-  "reason": "robots.txt disallows or unreadable"
- },
- {
-  "doc": "D044",
-  "url": "https://members.aagla.org/news/city-of-la-security-deposit-interest-requirement",
-  "fetched": true,
-  "chars": 5823,
-  "retrieved": "2026-10-03 17:38 UTC",
-  "sha256": "3f325c711ddaf6cd2556cc33dc1cfa4c74d84857a2a1ee5f147cf6e3d93d7030"
- },
- {
-  "doc": "D054",
-  "url": "https://masslandlords.net/can-massachusetts-landlords-charge-an-application-fee/",
-  "fetched": true,
-  "chars": 8122,
-  "retrieved": "2026-10-03 17:38 UTC",
-  "sha256": "6a72a5dedd3178de87128641f63bdc207a285130ac7ca82f05ef7d1cd4ffed38"
+  "reason": "<HTTPError 403: 'Forbidden'>"
  },
  {
   "doc": "D055",
   "url": "https://massrealestatelawblog.com/tag/cella-v-attorney-general/",
-  "fetched": false,
-  "reason": "robots.txt disallows or unreadable"
+  "fetched": true,
+  "chars": 11672,
+  "retrieved": "2026-10-03 17:46 UTC",
+  "sha256": "2fb0194bb75c163096faaad6d88dd65d226a7d8fd77f83878dd94c9d41d65329"
  },
  {
   "doc": "D056",
@@ -122,62 +100,46 @@
   "reason": "<HTTPError 403: 'Forbidden'>"
  },
  {
-  "doc": "D059",
-  "url": "https://www.wbur.org/news/2026/06/23/massachusetts-high-court-rent-control-ballot-question-struck",
-  "fetched": true,
-  "chars": 4156,
-  "retrieved": "2026-10-03 17:38 UTC",
-  "sha256": "c5ecba9ccfe1f0772a1708eb2abd8ae3bdd86f86191508402d34ff5bc548f548"
- },
- {
-  "doc": "D060",
-  "url": "https://daypitney.com/new-jersey-enacts-fair-act-to-prohibit-algorithmic-rent-setting-practices",
-  "fetched": true,
-  "chars": 3522,
-  "retrieved": "2026-10-03 17:39 UTC",
-  "sha256": "c8529e6384efcc522cf2cf3cf21278d12b41b4142ba462c00f32d98d94c5d02d"
- },
- {
   "doc": "D061",
   "url": "https://law.justia.com/codes/new-jersey/title-10/section-10-5-12/",
   "fetched": false,
-  "reason": "robots.txt disallows or unreadable"
+  "reason": "<HTTPError 403: 'Forbidden'>"
  },
  {
   "doc": "D062",
   "url": "https://law.justia.com/codes/new-jersey/title-2a/section-2a-18-61-1/",
   "fetched": false,
-  "reason": "robots.txt disallows or unreadable"
+  "reason": "<HTTPError 403: 'Forbidden'>"
  },
  {
   "doc": "D063",
   "url": "https://law.justia.com/codes/new-jersey/title-46/section-46-8-21-2/",
   "fetched": false,
-  "reason": "robots.txt disallows or unreadable"
+  "reason": "<HTTPError 403: 'Forbidden'>"
  },
  {
   "doc": "D064",
   "url": "https://law.justia.com/codes/new-jersey/title-46/section-46-8-26/",
   "fetched": false,
-  "reason": "robots.txt disallows or unreadable"
+  "reason": "<HTTPError 403: 'Forbidden'>"
  },
  {
   "doc": "D070",
   "url": "https://ecode360.com/36623772",
   "fetched": false,
-  "reason": "robots.txt disallows or unreadable"
+  "reason": "<HTTPError 403: 'Forbidden'>"
  },
  {
   "doc": "D071",
   "url": "https://ecode360.com/36637822",
   "fetched": false,
-  "reason": "robots.txt disallows or unreadable"
+  "reason": "<HTTPError 403: 'Forbidden'>"
  },
  {
   "doc": "D072",
   "url": "https://ecode360.com/36642000",
   "fetched": false,
-  "reason": "robots.txt disallows or unreadable"
+  "reason": "<HTTPError 403: 'Forbidden'>"
  },
  {
   "doc": "D074",
@@ -190,25 +152,71 @@
   "url": "https://gocodebook.com/library/us/ca/san-diego-zoning/division-8-prohibition-of-discrimination-based-on-a-tenant-s-source-of-income",
   "fetched": true,
   "chars": 1267,
-  "retrieved": "2026-10-03 17:39 UTC",
-  "sha256": "491ee729c5b1eb9509653784d459dfc5c60e5003a88bcb67885c1154539bf0a1"
+  "retrieved": "2026-10-03 17:46 UTC",
+  "sha256": "f4bc70f43f009829547dd7f294cab77917d52704dc9d8007756f2c74e5b8f324"
  },
  {
   "doc": "D077",
   "url": "https://www.lassd.org/resource/city-of-san-diego-tenant-protection-ordinance/",
-  "fetched": false,
-  "reason": "robots.txt disallows or unreadable"
+  "fetched": true,
+  "chars": 25663,
+  "retrieved": "2026-10-03 17:46 UTC",
+  "sha256": "89f40bc674185dde0a3ad332f16a2a18d186146730724665f6858614ca523573"
  },
  {
   "doc": "D086",
   "url": "https://www.ocbj.com/real-estate/santa-ana-bans-landlords-from-using-ai-apartment-rent-pricing-software/",
-  "fetched": false,
-  "reason": "robots.txt disallows or unreadable"
+  "fetched": true,
+  "chars": 8713,
+  "retrieved": "2026-10-03 17:46 UTC",
+  "sha256": "a9fbdb01eb31a8e30ff0ccd674e6afb8376106d43df4c090c5199f2cbb380cce"
  },
  {
   "doc": "D087",
   "url": "https://www.publicceo.com/2026/02/santa-ana-city-council-continues-to-strengthen-tenant-protections-by-banning-anticompetitive-rent-setting-software/",
-  "fetched": false,
-  "reason": "robots.txt disallows or unreadable"
+  "fetched": true,
+  "chars": 5039,
+  "retrieved": "2026-10-03 17:46 UTC",
+  "sha256": "f9018d0c7834ca5a2f6ea01cf4933f458a5497b40c743e1545b53a815c3e5cbb"
+ },
+ {
+  "doc": "S001",
+  "url": "https://cdn.prod.website-files.com/58407e2ebca0e34c30a2d39c/6aa82b60e6a4086c0b4658a8_CPI%20Hoboken%20Website%20Cap%20(12).pdf",
+  "fetched": true,
+  "chars": 4492,
+  "retrieved": "2026-10-03 17:46 UTC",
+  "sha256": "32680e7ce4db4f3a5882a68e5442b91ecdcf1a9497221eba678c3b4756b9354b"
+ },
+ {
+  "doc": "S002",
+  "url": "https://cdn.prod.website-files.com/58407e2ebca0e34c30a2d39c/6aa82c0b0e7d549e67d280fc_Regulations%20to%20Chapter%20155-%20Revision%2008.2026.pdf",
+  "fetched": true,
+  "chars": 16741,
+  "retrieved": "2026-10-03 17:46 UTC",
+  "sha256": "1c1afa6c3144a3714d27e76c8c19fcabcd6d01fae0ab94c640d96ae6748b2ece"
+ },
+ {
+  "doc": "S004",
+  "url": "https://www.newarknj.gov/DocumentCenter/View/1019",
+  "fetched": true,
+  "chars": 7476,
+  "retrieved": "2026-10-03 17:46 UTC",
+  "sha256": "89c3edcb0055501f4718457a2e8ccee7be76c2019dd2843247b02a95d30f5e84"
+ },
+ {
+  "doc": "S005",
+  "url": "https://www.jerseycitynj.gov/UserFiles/Servers/Server_6189660/File/City%20Hall/Housing%20Economic%20Development/Tenant%20Landlord%20Relations/RLB%20Rules%20and%20Regulations%20CURRENT.pdf",
+  "fetched": true,
+  "chars": 10645,
+  "retrieved": "2026-10-03 17:46 UTC",
+  "sha256": "a68b5bf40a6dc7737fb20ff7b5e1113cf0a4d3d759716b88d34d4813d91a2b12"
+ },
+ {
+  "doc": "S006",
+  "url": "https://www.jerseycitynj.gov/UserFiles/Servers/Server_6189660/File/City%20Hall/Housing%20Economic%20Development/Tenant%20Landlord%20Relations/8.20.26%20-%20October%20CPI.pdf",
+  "fetched": true,
+  "chars": 4730,
+  "retrieved": "2026-10-03 17:46 UTC",
+  "sha256": "b49ca3b6b52d03d94ce9fe5b8d3afad0aeb0524c0e7052bc818fd2a301a787c6"
  }
 ]

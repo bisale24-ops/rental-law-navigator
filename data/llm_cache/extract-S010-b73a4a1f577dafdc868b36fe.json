@@ -1,0 +1,148 @@
+{
+ "meta": {
+  "model": "gemini-3.5-flash-lite",
+  "seconds": 7.6,
+  "tag": "extract-S010",
+  "usage": {
+   "promptTokenCount": 107234,
+   "candidatesTokenCount": 2145,
+   "totalTokenCount": 109379,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 107234
+    }
+   ],
+   "serviceTier": "standard"
+  },
+  "at": "2026-10-03T17:55:28Z"
+ },
+ "output": {
+  "rules": [
+   {
+    "jurisdiction": "NJ",
+    "level": "state",
+    "category": "just_cause_eviction",
+    "lifecycle": "enacted",
+    "title": "N.J. Stat. \u00a7 2A:18-61.1. Grounds for removal of tenants",
+    "requirement": "Landlords may not remove residential tenants or refuse to renew a lease except for specific statutory grounds constituting good cause, such as nonpayment of rent, disorderly conduct, destruction of property, breach of rules or lease covenants, or specific owner occupancy and building retirement or conversion reasons.",
+    "key_value": null,
+    "coverage": {
+     "summary": "Applies to any house, building, mobile home park, or tenement leased for residential purposes, with specific exclusions for certain owner-occupied premises, family trusts, and immediate family occupancy under specific conditions.",
+     "built_on_or_before": null,
+     "built_after": null,
+     "built_basis": "not_stated",
+     "rolling_age_years": null,
+     "min_units": null,
+     "single_family_excluded": null,
+     "owner_dependent": true,
+     "owner_condition": "Owner-occupied premises with not more than two rental units are excluded from good cause requirements.",
+     "owner_exemption_max_units": 2,
+     "subsidized_excluded": null,
+     "unresolvable": null
+    },
+    "exemptions": "Owner-occupied premises with not more than two rental units; hotels, motels, or other guest houses rented to transient guests or seasonal tenants; certain immediate family trusts and units permanently occupied by an immediate family member with a developmental disability.",
+    "effective_date": null,
+    "enacted_date": "1974-06-25",
+    "citation": "N.J. Stat. \u00a7 2A:18-61.1",
+    "quoted_span": "No lessee or tenant or the assigns, under-tenants or legal representatives of such lessee or tenant may be removed by the Superior Court from any house, building, mobile home or land in a mobile home park or tenement leased for residential purposes, other than (1) owner-occupied premises with not more than two rental units or a hotel, motel or other guest house or part thereof rented to a transient guest or seasonal tenant; (2) a dwelling unit which is held in trust on behalf of a member of the immediate family of the person or persons establishing the trust, provided that the member of the immediate family on whose behalf the trust is established permanently occupies the unit; and (3) a dwelling unit which is permanently occupied by a member of the immediate family of the owner of that unit, provided, however, that exception (2) or (3) shall apply only in cases in which the member of the immediate family has a developmental disability, except upon establishment of one of the following grounds as good cause",
+    "yields_to_local": false,
+    "preempts_local": true,
+    "confidence": 1.0
+   },
+   {
+    "jurisdiction": "NJ",
+    "level": "state",
+    "category": "just_cause_eviction",
+    "lifecycle": "enacted",
+    "title": "N.J. Stat. \u00a7 2A:18-61.1h. Reimbursement to displaced tenant",
+    "requirement": "If a residential tenant is displaced because of an illegal occupancy and the municipality has not enacted a relocation ordinance, the tenant is entitled to relocation expense reimbursement from the owner equal to six times the monthly rental paid.",
+    "key_value": "6 months rent",
+    "coverage": {
+     "summary": "Applies to residential tenants displaced because of an illegal occupancy where the municipality has not enacted its own relocation ordinance.",
+     "built_on_or_before": null,
+     "built_after": null,
+     "built_basis": "not_stated",
+     "rolling_age_years": null,
+     "min_units": null,
+     "single_family_excluded": null,
+     "owner_dependent": false,
+     "owner_condition": null,
+     "owner_exemption_max_units": null,
+     "subsidized_excluded": null,
+     "unresolvable": null
+    },
+    "exemptions": "Mortgagees in possession through foreclosure are excluded.",
+    "effective_date": null,
+    "enacted_date": null,
+    "citation": "N.J. Stat. \u00a7 2A:18-61.1h",
+    "quoted_span": "If a residential tenant is displaced because of an illegal occupancy in a residential rental premises pursuant to paragraph (3) of subsection g. of section 2 of P.L.1974, c.49 (C.2A:18-61.1) and the municipality in which the rental premises is located has not enacted an ordinance pursuant to section 3 of P.L.1993, c.342 (C.2A:18-61.1g), the displaced residential tenant shall be entitled to reimbursement for relocation expenses from the owner in an amount equal to six times the monthly rental paid by the displaced person.",
+    "yields_to_local": true,
+    "preempts_local": false,
+    "confidence": 1.0
+   },
+   {
+    "jurisdiction": "NJ",
+    "level": "state",
+    "category": "just_cause_eviction",
+    "lifecycle": "enacted",
+    "title": "N.J. Stat. \u00a7 2A:18-61.2. Required notice for removal",
+    "requirement": "Landlords seeking to remove residential tenants for good cause must provide written demand and notice for delivery of possession prior to instituting an action, with notice periods varying from 3 days to 3 years depending on the specific ground for eviction.",
+    "key_value": null,
+    "coverage": {
+     "summary": "Applies to premises covered by the Good Cause Eviction law.",
+     "built_on_or_before": null,
+     "built_after": null,
+     "built_basis": "not_stated",
+     "rolling_age_years": null,
+     "min_units": null,
+     "single_family_excluded": null,
+     "owner_dependent": false,
+     "owner_condition": null,
+     "owner_exemption_max_units": null,
+     "subsidized_excluded": null,
+     "unresolvable": null
+    },
+    "exemptions": "Does not apply to actions for nonpayment of rent under subsection a. or f. of section 2.",
+    "effective_date": null,
+    "enacted_date": "1974-06-25",
+    "citation": "N.J. Stat. \u00a7 2A:18-61.2",
+    "quoted_span": "No judgment of possession shall be entered for any premises covered by section 2 [C.2A:18-61.1] of this act, except in the nonpayment of rent under subsection a. or f. of section 2, unless the landlord has made written demand and given written notice for delivery of possession of the premises.",
+    "yields_to_local": false,
+    "preempts_local": false,
+    "confidence": 1.0
+   },
+   {
+    "jurisdiction": "NJ",
+    "level": "state",
+    "category": "just_cause_eviction",
+    "lifecycle": "enacted",
+    "title": "N.J. Stat. \u00a7 2A:18-61.4. Waiver of rights in lease",
+    "requirement": "Any lease provision whereby a tenant agrees to termination or nonrenewal for other than good cause, or waives any other rights under the Act, is deemed against public policy and unenforceable.",
+    "key_value": null,
+    "coverage": {
+     "summary": "Applies to any tenant covered by section 2 of the Act.",
+     "built_on_or_before": null,
+     "built_after": null,
+     "built_basis": "not_stated",
+     "rolling_age_years": null,
+     "min_units": null,
+     "single_family_excluded": null,
+     "owner_dependent": false,
+     "owner_condition": null,
+     "owner_exemption_max_units": null,
+     "subsidized_excluded": null,
+     "unresolvable": null
+    },
+    "exemptions": null,
+    "effective_date": "1974-06-25",
+    "enacted_date": "1974-06-25",
+    "citation": "N.J. Stat. \u00a7 2A:18-61.4",
+    "quoted_span": "Any provision in a lease whereby any tenant covered by section 2 of this act agrees that his tenancy may be terminated or not renewed for other than good cause as defined in section 2, or whereby the tenant waives any other rights under this act shall be deemed against public policy and unenforceable.",
+    "yields_to_local": false,
+    "preempts_local": false,
+    "confidence": 1.0
+   }
+  ]
+ }
+}

@@ -162,6 +162,7 @@ function srcBlock(rule){
   return `<details class="src"><summary>Source: ${esc(rule.citation)} · retrieved ${esc((rule.retrieved||"").slice(0,10))}</summary>
     <blockquote>${esc(rule.quoted_span)}</blockquote>
     <div class="cite">${esc(rule.citation)} · <a href="${esc(rule.source_url)}" target="_blank" rel="noopener">${esc(rule.source_doc_id)}</a> · retrieved ${esc(rule.retrieved)} · quote check: ${esc(rule.span_check)}</div>
+    ${(rule.coverage_evidence||[]).map(e=>`<div class="cite" style="margin-top:8px">Coverage (${esc(e.field.replaceAll("_"," "))}: ${esc(e.value)}) from ${esc(e.doc)}:</div><blockquote style="font-size:14.5px">${esc(e.quote)}</blockquote>`).join("")}
     ${sup.length?`<div class="cite" style="margin-top:6px">Also stated in: ${sup.map(s=>`<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.doc)}</a>${s.effective_date?` (effective ${esc(s.effective_date)})`:""}`).join(", ")}</div>`:""}
   </details>`;
 }

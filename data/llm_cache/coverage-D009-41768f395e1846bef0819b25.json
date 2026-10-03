@@ -1,0 +1,80 @@
+{
+ "meta": {
+  "model": "gemini-3.5-flash-lite",
+  "seconds": 2.4,
+  "tag": "coverage-D009",
+  "usage": {
+   "promptTokenCount": 1138,
+   "candidatesTokenCount": 704,
+   "totalTokenCount": 1842,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 1138
+    }
+   ],
+   "serviceTier": "standard"
+  },
+  "at": "2026-10-03T17:42:54Z"
+ },
+ "output": {
+  "statements": [
+   {
+    "jurisdiction": "Berkeley, CA",
+    "level": "city",
+    "category": "rent_increase_limits",
+    "built_on_or_before": "1979-12-31",
+    "built_after": null,
+    "built_basis": "certificate_of_occupancy",
+    "min_units": null,
+    "rolling_age_years": null,
+    "owner_exemption_max_units": null,
+    "subsidized_excluded": null,
+    "single_family_excluded": null,
+    "quoted_span": "Most units in multifamily properties built before 1980** Fully Covered Yes Yes Yes Yes"
+   },
+   {
+    "jurisdiction": "Berkeley, CA",
+    "level": "city",
+    "category": "just_cause_eviction",
+    "built_on_or_before": "1979-12-31",
+    "built_after": null,
+    "built_basis": "certificate_of_occupancy",
+    "min_units": null,
+    "rolling_age_years": null,
+    "owner_exemption_max_units": null,
+    "subsidized_excluded": null,
+    "single_family_excluded": null,
+    "quoted_span": "Most units in multifamily properties built before 1980** Fully Covered Yes Yes Yes Yes"
+   },
+   {
+    "jurisdiction": "Berkeley, CA",
+    "level": "city",
+    "category": "rent_increase_limits",
+    "built_on_or_before": null,
+    "built_after": "1980-06-30",
+    "built_basis": "certificate_of_occupancy",
+    "min_units": null,
+    "rolling_age_years": null,
+    "owner_exemption_max_units": null,
+    "subsidized_excluded": null,
+    "single_family_excluded": null,
+    "quoted_span": "New construction: units that were built and received a Certificate of Occupancy after June 1980** Partially Covered Yes No Yes Yes"
+   },
+   {
+    "jurisdiction": "Berkeley, CA",
+    "level": "city",
+    "category": "just_cause_eviction",
+    "built_on_or_before": null,
+    "built_after": "1980-06-30",
+    "built_basis": "certificate_of_occupancy",
+    "min_units": null,
+    "rolling_age_years": null,
+    "owner_exemption_max_units": null,
+    "subsidized_excluded": null,
+    "single_family_excluded": null,
+    "quoted_span": "New construction: units that were built and received a Certificate of Occupancy after June 1980** Partially Covered Yes No Yes Yes"
+   }
+  ]
+ }
+}

@@ -1,0 +1,55 @@
+{
+ "meta": {
+  "model": "gemini-3.5-flash-lite",
+  "seconds": 2.4,
+  "tag": "extract-D087",
+  "usage": {
+   "promptTokenCount": 2361,
+   "candidatesTokenCount": 460,
+   "totalTokenCount": 2821,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 2361
+    }
+   ],
+   "serviceTier": "standard"
+  },
+  "at": "2026-10-03T17:53:12Z"
+ },
+ "output": {
+  "rules": [
+   {
+    "jurisdiction": "Santa Ana, CA",
+    "level": "city",
+    "category": "algorithmic_rent_setting",
+    "lifecycle": "enacted",
+    "title": "Ban on Anticompetitive Rent-Setting Software",
+    "requirement": "The city prohibits the sale, licensing, provision, and use of certain algorithmic rent-setting software for residential rental properties that relies on nonpublic competitor data, while exempting software that relies solely on public data, aggregate historical data, or affordable housing compliance tools.",
+    "key_value": "civil penalties up to $1,000 per violation",
+    "coverage": {
+     "summary": "Applies to residential rental property within Santa Ana city limits, excluding pricing software using solely publicly available data, aggregate historical data, or tools for affordable housing program compliance.",
+     "built_on_or_before": null,
+     "built_after": null,
+     "built_basis": "not_stated",
+     "rolling_age_years": null,
+     "min_units": null,
+     "single_family_excluded": null,
+     "owner_dependent": false,
+     "owner_condition": null,
+     "owner_exemption_max_units": null,
+     "subsidized_excluded": true,
+     "unresolvable": null
+    },
+    "exemptions": "Pricing software that relies solely on publicly available data, aggregate historical data, or tools used to comply with affordable housing program requirements.",
+    "effective_date": null,
+    "enacted_date": "2026-03-03",
+    "citation": "Santa Ana Algorithmic Rent-Setting Ordinance",
+    "quoted_span": "prohibits the sale, licensing, provision and use of certain algorithmic rent-setting software for residential rental properties.",
+    "yields_to_local": false,
+    "preempts_local": false,
+    "confidence": 0.95
+   }
+  ]
+ }
+}

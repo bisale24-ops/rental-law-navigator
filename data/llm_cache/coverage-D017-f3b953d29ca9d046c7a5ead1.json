@@ -1,0 +1,52 @@
+{
+ "meta": {
+  "model": "gemma-4-31b-it",
+  "seconds": 27.9,
+  "tag": "coverage-D017",
+  "usage": {
+   "promptTokenCount": 2667,
+   "candidatesTokenCount": 286,
+   "totalTokenCount": 2953,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 2667
+    }
+   ],
+   "serviceTier": "standard"
+  },
+  "at": "2026-10-03T17:58:49Z"
+ },
+ "output": {
+  "statements": [
+   {
+    "jurisdiction": "CA",
+    "level": "state",
+    "category": "application_screening_fees",
+    "built_on_or_before": null,
+    "built_after": null,
+    "built_basis": "not_stated",
+    "min_units": null,
+    "rolling_age_years": null,
+    "owner_exemption_max_units": null,
+    "subsidized_excluded": null,
+    "single_family_excluded": null,
+    "quoted_span": "when a landlord or their agent receives a request to rent a residential property from an applicant, the landlord or their agent may charge, pursuant to subdivision (c), that applicant an application screening fee to cover the costs of obtaining information about the applicant."
+   },
+   {
+    "jurisdiction": "CA",
+    "level": "state",
+    "category": "application_screening_fees",
+    "built_on_or_before": null,
+    "built_after": null,
+    "built_basis": "not_stated",
+    "min_units": null,
+    "rolling_age_years": null,
+    "owner_exemption_max_units": null,
+    "subsidized_excluded": true,
+    "single_family_excluded": null,
+    "quoted_span": "This section is not intended to preempt any provisions or regulations that govern the collection of deposits and fees under federal or state housing assistance programs."
+   }
+  ]
+ }
+}

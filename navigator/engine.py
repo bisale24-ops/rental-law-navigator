@@ -33,10 +33,13 @@ def _built_test(cov, a):
     basis = cov.get("built_basis") or "construction"
     word = "certificate of occupancy" if basis == "certificate_of_occupancy" else "construction"
     yb = a["year_built"]
+    n = cov.get("rolling_age_years")
     for key, before in (("built_on_or_before", True), ("built_after", False)):
         cut = parse_date(cov.get(key))
         if not cut:
             continue
+        if n and abs(cut.year - (a["_as_of"].year - n)) <= 1:
+            continue        # a fixed date that is just the rolling age computed once ("15 years" -> 2011)
         if yb is None:
             out.append(("unknown", f"coverage depends on the {word} date ({'on or before' if before else 'after'} "
                                    f"{cut.isoformat()}) and the record has no year built"))
@@ -46,7 +49,6 @@ def _built_test(cov, a):
             out.append(("yes", f"built {yb}, {'before' if before else 'after'} the {cut.isoformat()} cutoff"))
         else:
             out.append(("no", f"built {yb}, {'after' if before else 'before'} the {cut.isoformat()} cutoff"))
-    n = cov.get("rolling_age_years")
     if n:
         if yb is None:
             out.append(("unknown", f"covers buildings more than {n} years old; the record has no year built"))
@@ -87,19 +89,25 @@ def _exemption_tests(cov, a):
     if cov.get("subsidized_excluded") and "subsidized" in a["flags"]:
         out.append(("unknown", f"subsidized units may be exempt and the record says '{a['use_description']}'"))
     if cov.get("unresolvable"):
-        out.append(("unknown", f"coverage also depends on {cov['unresolvable'].rstrip('.')}, which the record cannot show"))
+        # conditions about the tenancy (how long the tenant has lived there, notices) or the unit's own status are
+        # stated as caveats; the answer is about the building, and the building facts decide it
+        out.append(("caveat", f"also depends on: {cov['unresolvable'].rstrip('.')} (not in the property record)"))
     return out
 
 
 def coverage(rule, a):
     """('yes'|'no'|'unknown', reasons)."""
     cov = rule.get("coverage") or {}
+    if rule.get("effect") == "prohibits_local_rules":
+        return "yes", ["a statewide limit on what cities may regulate; it applies to every address in the state"]
     tests = _built_test(cov, a) + _units_test(cov, a) + _exemption_tests(cov, a)
     if any(t == "no" for t, _ in tests):
         return "no", [r for t, r in tests if t == "no"]
     if any(t == "unknown" for t, _ in tests):
         return "unknown", [r for t, r in tests if t != "no"]
-    return "yes", [r for _, r in tests] or ["covers residential rentals in the jurisdiction; no size or age limit"]
+    if not any(t == "yes" for t, _ in tests):
+        tests.insert(0, ("yes", "covers residential rentals in the jurisdiction; no size or age limit stated"))
+    return "yes", [r for _, r in tests]
 
 
 def in_jurisdiction(rule, a):
@@ -146,8 +154,9 @@ def lookup(a, rules, as_of):
         else:
             result = "applies" if cov == "yes" else "unknown"
         rows.append({"team_rule_id": r["team_rule_id"], "result": result, "category": r["category"],
-                     "level": r["level"], "reasons": why, "conflict_flag": bool(r.get("conflict_flag")),
-                     "conflict_note": r.get("conflict_note")})
+                     "level": r["level"], "reasons": why,
+                     "conflict_flag": bool(r.get("source_conflict", r.get("conflict_flag"))),
+                     "conflict_note": r.get("conflict_note") if r.get("source_conflict", r.get("conflict_flag")) else None})
     _layer(rows, rules)
     _preemption(rows, rules, a)
     for row in rows:

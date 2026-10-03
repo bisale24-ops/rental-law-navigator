@@ -1,0 +1,108 @@
+{
+ "meta": {
+  "model": "gemini-3.5-flash-lite",
+  "seconds": 3.8,
+  "tag": "coverage-D024",
+  "usage": {
+   "promptTokenCount": 4507,
+   "candidatesTokenCount": 1215,
+   "totalTokenCount": 5722,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 4507
+    }
+   ],
+   "serviceTier": "standard"
+  },
+  "at": "2026-10-03T17:43:00Z"
+ },
+ "output": {
+  "statements": [
+   {
+    "jurisdiction": "CA",
+    "level": "state",
+    "category": "rent_increase_limits",
+    "built_on_or_before": null,
+    "built_after": null,
+    "built_basis": "not_stated",
+    "min_units": null,
+    "rolling_age_years": null,
+    "owner_exemption_max_units": null,
+    "subsidized_excluded": true,
+    "single_family_excluded": null,
+    "quoted_span": "This section shall not apply to the following residential real properties: (1) Housing restricted by deed, regulatory restriction contained in an agreement with a government agency, or other recorded document as affordable housing for persons and families of very low, low, or moderate income, as defined in Section 50093 of the Health and Safety Code, or subject to an agreement that provides housing subsidies for affordable housing for persons and families of very low, low, or moderate income, as defined in Section 50093 of the Health and Safety Code or comparable federal statutes."
+   },
+   {
+    "jurisdiction": "CA",
+    "level": "state",
+    "category": "rent_increase_limits",
+    "built_on_or_before": null,
+    "built_after": null,
+    "built_basis": "not_stated",
+    "min_units": null,
+    "rolling_age_years": null,
+    "owner_exemption_max_units": null,
+    "subsidized_excluded": null,
+    "single_family_excluded": null,
+    "quoted_span": "This section shall not apply to the following residential real properties: [...] (2) Dormitories owned and operated by an institution of higher education or a kindergarten and grades 1 to 12, inclusive, school."
+   },
+   {
+    "jurisdiction": "CA",
+    "level": "state",
+    "category": "rent_increase_limits",
+    "built_on_or_before": null,
+    "built_after": null,
+    "built_basis": "not_stated",
+    "min_units": null,
+    "rolling_age_years": null,
+    "owner_exemption_max_units": null,
+    "subsidized_excluded": null,
+    "single_family_excluded": null,
+    "quoted_span": "This section shall not apply to the following residential real properties: [...] (3) Housing subject to rent or price control through a public entity\u2019s valid exercise of its police power consistent with Chapter 2.7 (commencing with Section 1954.50) that restricts annual increases in the rental rate to an amount less than that provided in subdivision (a)."
+   },
+   {
+    "jurisdiction": "CA",
+    "level": "state",
+    "category": "rent_increase_limits",
+    "built_on_or_before": null,
+    "built_after": null,
+    "built_basis": "certificate_of_occupancy",
+    "min_units": null,
+    "rolling_age_years": 15,
+    "owner_exemption_max_units": null,
+    "subsidized_excluded": null,
+    "single_family_excluded": null,
+    "quoted_span": "This section shall not apply to the following residential real properties: [...] (4) Housing that has been issued a certificate of occupancy within the previous 15 years, unless the housing is a mobilehome."
+   },
+   {
+    "jurisdiction": "CA",
+    "level": "state",
+    "category": "rent_increase_limits",
+    "built_on_or_before": null,
+    "built_after": null,
+    "built_basis": "not_stated",
+    "min_units": null,
+    "rolling_age_years": null,
+    "owner_exemption_max_units": null,
+    "subsidized_excluded": null,
+    "single_family_excluded": true,
+    "quoted_span": "This section shall not apply to the following residential real properties: [...] (5) Residential real property that is alienable separate from the title to any other dwelling unit, including a mobilehome, provided that both of the following apply..."
+   },
+   {
+    "jurisdiction": "CA",
+    "level": "state",
+    "category": "rent_increase_limits",
+    "built_on_or_before": null,
+    "built_after": null,
+    "built_basis": "not_stated",
+    "min_units": 2,
+    "rolling_age_years": null,
+    "owner_exemption_max_units": 1,
+    "subsidized_excluded": null,
+    "single_family_excluded": null,
+    "quoted_span": "This section shall not apply to the following residential real properties: [...] (6) A property containing two separate dwelling units within a single structure in which the owner occupied one of the units as the owner\u2019s principal place of residence at the beginning of the tenancy, so long as the owner continues in occupancy, and neither unit is an accessory dwelling unit or a junior accessory dwelling unit."
+   }
+  ]
+ }
+}

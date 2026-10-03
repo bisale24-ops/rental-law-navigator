@@ -11,6 +11,7 @@ import json
 import pathlib
 import re
 import time
+import urllib.error
 import urllib.request
 import urllib.robotparser
 from urllib.parse import urlparse
@@ -35,21 +36,39 @@ def to_text(raw, ctype):
     return re.sub(r"\n\s*\n+", "\n", s).strip()
 
 
+def read_robots(host):
+    """RFC 9309: a robots.txt answered with 4xx means no restrictions; 5xx or no answer means stay out."""
+    rp = urllib.robotparser.RobotFileParser(host + "/robots.txt")
+    try:
+        with urllib.request.urlopen(urllib.request.Request(host + "/robots.txt", headers={"User-Agent": UA}),
+                                    timeout=30) as resp:
+            rp.parse(resp.read().decode("utf-8", errors="replace").splitlines())
+    except urllib.error.HTTPError as e:
+        if 400 <= e.code < 500:
+            rp.parse([])
+        else:
+            return None
+    except Exception:  # noqa: BLE001
+        return None
+    return rp
+
+
 def main():
     OUT.mkdir(parents=True, exist_ok=True)
     log = []
     robots = {}
-    for r in csv.DictReader((ROOT / "starter/pack/corpus/links_only.csv").open()):
+    # the starter pack's link-only pages, then official copies of laws the pack only linked to a code publisher for
+    rows = list(csv.DictReader((ROOT / "starter/pack/corpus/links_only.csv").open())) + \
+        list(csv.DictReader((ROOT / "data/supplement/official_sources.csv").open()))
+    done = {p.stem for p in OUT.glob("*.txt")}
+    for r in rows:
+        if r["doc_id"] in done:
+            continue
         u = r["url"]
         b = urlparse(u)
         host = f"{b.scheme}://{b.netloc}"
         if host not in robots:
-            rp = urllib.robotparser.RobotFileParser(host + "/robots.txt")
-            try:
-                rp.read()
-            except Exception:  # noqa: BLE001
-                rp = None
-            robots[host] = rp
+            robots[host] = read_robots(host)
         rp = robots[host]
         if rp is None or not rp.can_fetch(UA, u):
             log.append({"doc": r["doc_id"], "url": u, "fetched": False, "reason": "robots.txt disallows or unreadable"})
@@ -61,6 +80,9 @@ def main():
             log.append({"doc": r["doc_id"], "url": u, "fetched": False, "reason": repr(e)[:160]})
             continue
         text = to_text(raw, ctype)
+        if len(re.findall(r"(?i)\b(rent|tenant|landlord|housing|dwelling)", text)) < 5:
+            log.append({"doc": r["doc_id"], "url": u, "fetched": False, "reason": "page has no law text (script-rendered)"})
+            continue
         when = time.strftime("%Y-%m-%d %H:%M UTC", time.gmtime())
         (OUT / f"{r['doc_id']}.txt").write_text(f"SOURCE: {u}\nRETRIEVED: {when}\nCAPTURE: team, robots.txt allowed\n\n{text}\n")
         log.append({"doc": r["doc_id"], "url": u, "fetched": True, "chars": len(text), "retrieved": when,

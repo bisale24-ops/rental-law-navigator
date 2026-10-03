@@ -1,0 +1,38 @@
+{
+ "meta": {
+  "model": "gemini-3.5-flash-lite",
+  "seconds": 1.5,
+  "tag": "coverage-D059",
+  "usage": {
+   "promptTokenCount": 1294,
+   "candidatesTokenCount": 177,
+   "totalTokenCount": 1471,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 1294
+    }
+   ],
+   "serviceTier": "standard"
+  },
+  "at": "2026-10-03T17:44:32Z"
+ },
+ "output": {
+  "statements": [
+   {
+    "jurisdiction": "MA",
+    "level": "state",
+    "category": "rent_increase_limits",
+    "built_on_or_before": null,
+    "built_after": null,
+    "built_basis": "not_stated",
+    "min_units": null,
+    "rolling_age_years": null,
+    "owner_exemption_max_units": null,
+    "subsidized_excluded": null,
+    "single_family_excluded": null,
+    "quoted_span": "The proposal limits annual rent increases for residences, but it carved out exemptions for several types of units, including ones \u201coperated solely for \u2026 religious \u2026 purposes.\""
+   }
+  ]
+ }
+}

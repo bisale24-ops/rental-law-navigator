@@ -1,0 +1,310 @@
+SOURCE: https://www.nj.gov/dca/codes/publications/pdf_lti/sdepsit_law.pdf
+RETRIEVED: 2026-10-03 17:45 UTC
+CAPTURE: team, robots.txt allowed
+
+            New Jersey Department of Community Affairs
+                  Division of Codes and Standards
+                        Landlord-Tenant Information Service
+
+
+                           SECURITY DEPOSIT LAW
+                          N.J.S.A. 46:8-19 THROUGH 26
+                                           Updated May 2010
+
+
+46:8-19. Security deposits; investment, deposit, disposition
+  Whenever money or other form of security shall be deposited or advanced on a contract, lease
+or license agreement for the use or rental of real property as security for performance of the
+contract, lease or agreement or to be applied to payments upon such contract, lease or agreement
+when due, such money or other form of security, until repaid or so applied including the tenant's
+portion of the interest or earnings accumulated thereon as hereinafter provided, shall continue to
+be the property of the person making such deposit or advance and shall be held in trust by the
+person with whom such deposit or advance shall be made for the use in accordance with the
+terms of the contract, lease or agreement and shall not be mingled with the personal property or
+become an asset of the person receiving the same.
+   The person receiving money so deposited or advanced shall:
+    a. (1) Invest that money in shares of an insured money market fund established by an
+investment company based in this State and registered under the "Investment Company Act of
+1940," 54 Stat. 789 (15 U.S.C. § 80a-1 et seq.) whose shares are registered under the "Securities
+Act of 1933," 48 Stat. 74 (15 U.S.C. § 77a. et seq.) and the only investments of which fund are
+instruments maturing in one year or less, or (2) deposit that money in a State or federally
+chartered bank, savings bank or savings and loan association in this State insured by an agency
+of the federal government in an account bearing a variable rate of interest, which shall be
+established at least quarterly, which is similar to the average rate of interest on active interest-
+bearing money market transaction accounts paid by the bank or association, or equal to similar
+accounts of an investment company described in paragraph (1) of this subsection.
+    This subsection shall not apply to persons receiving money for less than 10 rental units
+except where required by the Commissioner of Banking and Insurance by rule or regulation. The
+commissioner shall apply the provisions of this subsection to some or all persons receiving
+money for less than 10 rental units where the commissioner finds that it is practicable to deposit
+or invest the money received with an investment company or State or federally chartered bank,
+savings bank or savings and loan association in accordance with this subsection. Except as
+expressly provided herein, nothing in this subsection shall affect or modify the rights or
+obligations of persons receiving money for rental premises or units, tenants, licensees or
+contractees under any other law.
+    b. Persons not required to invest or deposit money in accordance with subsection a. of this
+section shall deposit such money in a State or federally chartered bank, savings bank or savings
+and loan association in this State insured by an agency of the federal government in an account
+bearing interest at the rate currently paid by such institutions and associations on time or savings
+deposits.
+    c. The person investing the security deposit pursuant to subsection a. or b. of this section
+shall notify in writing each of the persons making such security deposit or advance, giving the
+name and address of the investment company, State or federally chartered bank, savings bank or
+savings and loan association in which the deposit or investment of security money is made, the
+type of account in which the security deposit is deposited or invested, the current rate of interest
+for that account, and the amount of such deposit or investment, in accordance with the following:
+   (1) within 30 days of the receipt of the security deposit from the tenant;
+    (2) within 30 days of moving the deposit from one depository institution or fund to another,
+except in the case of a merger of institutions or funds, then within 30 days of the date the person
+investing the security deposit receives notice of that merger, or from one account to another
+account, if the change in the account or institution occurs more than 60 days prior to the annual
+interest payment;
+   (3) within 30 days after the effective date of P.L. 2003, c. 188 (C. 46:8-21.4);
+   (4) at the time of each annual interest payment; and
+   (5) within 30 days after the transfer or conveyance of ownership or control of the property
+pursuant to section 2 of P.L. 1967, c. 265 (C. 46:8-20).
+    All of the money so deposited or advanced may be deposited or invested by the person
+receiving the same in one interest-bearing or dividend yielding account as long as he complies
+with all the other requirements of this act.
+    The interest or earnings paid thereon by the investment company, State or federally chartered
+bank, savings bank or savings and loan association, shall belong to the person making the deposit
+or advance and shall be paid to the tenant in cash, or be credited toward the payment of rent due
+on the renewal or anniversary of said tenant's lease or on January 31, if the tenant has been given
+written notice after the effective date of P.L. 2003, c. 188 and before the next anniversary of the
+tenant's lease, that subsequent interest payments will be made on January 31 of each year.
+     If the person receiving a security deposit fails to invest or deposit the security money in the
+manner required under this section or to provide the notice or pay the interest to the tenant as
+required under this subsection, the tenant may give written notice to that person that such
+security money plus an amount representing interest at the rate of seven percent per annum be
+applied on account of rent payment or payments due or to become due from the tenant, and
+thereafter the tenant shall be without obligation to make any further security deposit and the
+person receiving the money so deposited shall not be entitled to make further demand for a
+security deposit. However, in the case of a failure by the person receiving the security deposit to
+pay the annual interest or to provide the annual notice at the time of the annual interest payment,
+if the annual notice is not also serving as a notice of change of account or institution, before the
+tenant may apply the security deposit plus interest on account of the rent payment or payments
+due or to become due on the part of the tenant, the tenant shall first give that person a written
+notice of his failure and shall allow that person 30 days from the mailing date or hand delivery of
+this notice to comply with the annual interest payment or annual notice, or both.
+    d. The provisions of this section requiring that the security advanced be deposited or invested
+in a money market fund, or in an interest bearing account in a State or federally chartered bank,
+savings bank or savings and loan association shall not apply to any security advanced on a
+contract, lease or license agreement for the seasonal use or rental of real property. For purposes
+of this paragraph "seasonal use or rental" means use or rental for a term of not more than 125
+consecutive days for residential purposes by a person having a permanent place of residence
+elsewhere. "Seasonal use or rental" does not mean use or rental of living quarters for seasonal,
+temporary or migrant farm workers in connection with any work or place where work is being
+performed. The landlord shall have the burden of proving that the use or rental of the residential
+property is seasonal.
+HISTORY: L. 1967, c. 265, § 1; amended 1971, c. 223, § 1; 1973, c. 195; 1979, c. 28, § 1; 1985, c. 42, § 1; 1990, c. 100; 1997, c. 310; 2003, c.
+188, § 1, eff. Jan. 1, 2004.
+
+
+46:8-19.1. Rules, regulations
+  The Commissioner of Banking may, in his discretion, promulgate rules and regulations with
+respect to the establishment of the method of computing the interest due to either the person
+receiving the money as a security deposit or to the tenant pursuant to the provisions of P.L. 1967,
+c. 265 (C. 46:8-19 et seq.) or P.L. 1971, c. 223 (C. 46:8-21.1 et seq.) if the money is deposited in
+an account or in shares of an investment company upon which the interest varies on a periodic
+basis.
+HISTORY: L. 1985, c.42, s. 5, eff. Aug. 1, 1985
+
+
+46:8-20. Procedure on conveyance of property
+  Any person, whether the owner or lessee of the property leased, who or which has or hereafter
+shall have received from a tenant or licensee a sum of money as a deposit or advance of rental as
+security for the full performance by such tenant or licensee of the terms of his contract, lease or
+license agreement, or who or which has or shall have received the same from a former owner or
+lessee, shall, upon conveying such property or assigning his or its lease to another, or upon the
+conveyance of such property to another person by a court in an action to foreclose a mortgage
+thereon, at the time of the delivery of the deed or instrument of assignment, or within five days
+thereafter, or in the event of the insolvency or bankruptcy of the person receiving said deposit,
+within five days after the making and entry of an order of the court discharging the receiver or
+trustee, deal with the security deposit by turning over to his or its grantee or assignee, or to the
+purchaser at the foreclosure sale the sum so deposited, plus the tenant's portion of the interest or
+earnings accumulated thereon, and notify the tenant or licensee by registered or certified mail of
+such turning over and the name and address of such grantee, assignee or purchaser.
+Notwithstanding any other provision of law to the contrary, it shall be the duty and obligation of
+the grantee, assignee or purchaser to obtain from the grantor who is the owner or lessee at the
+time of the transfer, conveyance or purchase any and all security deposits, plus accrued interest
+on the deposits, that the owner or lessee received from a tenant, licensee or previous owner or
+lessee, and which deposits were invested, or should have been invested, in the manner required
+by section 1 of P.L. 1967, c. 265 (C. 46:8-19).
+HISTORY: L.1967,c.265,s.2; amended 1971, c.223, s.2; 1979, c.28, s.2; 1985, c.42, s.2; 2003, c.188, s.2.
+46:8-21. Liability on transfer
+   Any owner or lessee turning over to his or its grantee, assignee, or to a purchaser of the leased
+premises at a foreclosure sale the amount of such security deposit, plus the tenant's portion of the
+interest or earnings accumulated thereon, is hereby relieved of and from liability to the tenant or
+licensee for the repayment thereof. Whether or not the deposit plus accumulated interest are so
+transferred, the grantee, assignee or purchaser of the leased premises is nevertheless responsible
+for the proper investment of the security deposit, giving all notices and paying interest pursuant
+to section 1 of P.L. 1967, c. 265 (C. 46:8-19) and for the return of the security deposit, plus any
+accumulated earnings or interest thereon, to the tenant or licensee, in accordance with the terms
+of the contract, lease, or agreement unless he or it shall thereafter and before the expiration of the
+term of the tenant's lease or licensee's agreement, transfer such security deposit to another,
+pursuant to section 2 of P.L. 1967, c. 365 (C. 46:8-20) and give the requisite notice in connection
+therewith as provided thereby.
+HISTORY: L. 1967, c. 265, § 3; amended 1971, c. 223, § 5; 1985, c. 42, § 3; 2003, c. 188, § 3, eff. Jan. 1, 2004.
+
+
+46:8-21.1 Return of deposit; displaced tenant; termination of lease; civil penalties, certain.
+     Within 30 days after the termination of the tenant's lease or licensee's agreement, the owner
+or lessee shall return by personal delivery, registered or certified mail the sum so deposited plus
+the tenant's portion of the interest or earnings accumulated thereon, less any charges expended in
+accordance with the terms of a contract, lease, or agreement, to the tenant or licensee, or, in the
+case of a lease terminated pursuant to P.L.1971, c.318 (C.46:8-9.1), the executor or administrator
+of the estate of the tenant or licensee or the surviving spouse of the tenant or licensee so
+terminating the lease. The interest or earnings and any such deductions shall be itemized and the
+tenant, licensee, executor, administrator or surviving spouse notified thereof by personal
+delivery, registered or certified mail. Notwithstanding the provisions of this or any other section
+of law to the contrary, no deductions shall be made from a security deposit of a tenant who
+remains in possession of the rental premises.
+
+       Within five business days after:
+
+       a. the tenant is caused to be displaced by fire, flood, condemnation, or evacuation, and
+
+       b. an authorized public official posts the premises with a notice prohibiting occupancy; or
+
+     c. any building inspector, in consultation with a relocation officer, where applicable, has
+certified within 48 hours that displacement is expected to continue longer than seven days and
+has so notified the owner or lessee in writing, the owner or lessee shall have available and return
+to the tenant or the tenant's designated agent upon his demand the sum so deposited plus the
+tenant's portion of the interest or earnings accumulated thereon, less any charges expended in
+accordance with the terms of the contract, lease or agreement and less any rent due and owing at
+the time of displacement.
+
+     Within 15 business days after a lease terminates as described in section 3 of P.L.2008, c.111
+(C.46:8-9.6), the owner or lessee shall have available and return to the tenant or the tenant's
+designated agent upon his demand any money or advance of rent deposited as security plus the
+tenant's portion of the interest or earnings accumulated thereon, including the portion of any
+money or advance of rent due to a victim of domestic violence terminating a lease pursuant to
+section 3 of P.L.2008, c.111 (C.46:8-9.6), less any charges expended in accordance with the
+terms of the contract, lease or agreement and less any rent due and owing at the time of the lease
+termination.
+
+     Such net sum shall continue to be available to be returned upon demand during normal
+business hours for a period of 30 days at a location in the same municipality in which the subject
+leased property is located and shall be accompanied by an itemized statement of the interest or
+earnings and any deductions. The owner or lessee may, by mutual agreement with the municipal
+clerk, have the municipal clerk of the municipality in which the subject leased property is located
+return said net sum in the same manner. Within three business days after receiving notification
+of the displacement, the owner or lessee shall provide written notice to a displaced tenant by
+personal delivery or mail to the tenant's last known address. In the event that a lease terminates
+as described in section 3 of P.L.2008, c.111 (C.46:8-9.6), within three business days after the
+termination, the owner or lessee shall provide written notice to the victim of domestic violence
+by personal delivery or mail to the tenant's last known address. Such notice shall include, but not
+be limited to, the location at which and the hours and days during which said net sum shall be
+available to him. The owner or lessee shall provide a duplicate notice in the same manner to the
+relocation officer. Where a relocation officer has not been designated, the duplicate notice shall
+be provided to the municipal clerk. When the last known address of the tenant is that from
+which he was displaced and the mailbox of that address is not accessible during normal business
+hours, the owner or lessee shall also post such notice at each exterior public entrance of the
+property from which the tenant was displaced. Notwithstanding the provisions of P.L.1963, c.73
+(C.47:1A-1 et seq.), or any other law to the contrary, the municipal clerk, and any designee,
+agent or employee of the municipal clerk, shall not knowingly disclose or otherwise make
+available personal information about any victim of domestic violence that the clerk or any
+designee, agent or employee has obtained pursuant to the procedures described in section 3 of
+P.L.1971, c.223 (C.46:8-21.1).
+
+      Any such net sum not demanded by and returned to the tenant or the tenant's designated
+agent within the period of 30 days shall be redeposited or reinvested by the owner or lessee in an
+appropriate interest bearing or dividend yielding account in the same investment company, State
+or federally chartered bank, savings bank or savings and loan association from which it was
+withdrawn. In the event that said displaced tenant resumes occupancy of the premises, said
+tenant shall redeliver to the owner or lessee one-third of the security deposit immediately, one-
+third in 30 days and one-third 60 days from the date of reoccupancy. Upon the failure of said
+tenant to make such payments of the security deposit, the owner or lessee may institute legal
+action for possession of the premises in the same manner that is authorized for nonpayment of
+rent.
+
+     The Commissioner of Community Affairs, the Public Advocate, the Attorney General, or
+any State entity which made deposits on behalf of a tenant may impose a civil penalty against an
+owner or lessee who has willfully and intentionally withheld deposits in violation of section 1 of
+P.L.1967, c.265 (C.46:8-19), when the deposits were made by or on behalf of a tenant who has
+received financial assistance through any State or federal program, including welfare or rental
+assistance. An owner or lessee of a tenant on whose behalf deposits were made by a State entity
+and who has willfully and intentionally withheld such deposits in violation of this section shall
+be liable for a civil penalty of not less than $500 or more than $2,000 for each offense. The
+penalty prescribed in this paragraph shall be collected and enforced by summary proceedings
+pursuant to the "Penalty Enforcement Law of 1999," P.L.1999, c.274 (C.2A:58-10 et seq.). The
+State entity which made such deposits on behalf of a tenant shall be entitled to any penalty
+amounts recovered pursuant to such proceedings.
+
+     In any action by a tenant, licensee, executor, administrator or surviving spouse, or other
+person acting on behalf of a tenant, licensee, executor, administrator or surviving spouse, for the
+return of moneys due under this section, the court upon finding for the tenant, licensee, executor,
+administrator or surviving spouse shall award recovery of double the amount of said moneys,
+together with full costs of any action and, in the court's discretion, reasonable attorney's fees.
+
+ HISTORY: L. 1971, c. 223, § 3; amended 1974, c. 151, § 1; 1979, c. 115, § 1; 1985, c. 42, § 4; 1985, c. 317, § 1; 2003, c. 188, § 4, eff. Jan. 1,
+2004; 2007, c. 9, § 2, eff. Jan. 24, 2007, L. 2008, c.111.
+
+
+46:8-21.2. Limitation on amount of deposit
+  An owner or lessee may not require more than a sum equal to 1 1/2 times 1 month's rental
+according to the terms of contract, lease, or agreement as a security for the use or rental of real
+property used for dwelling purposes. Whenever an owner or lessee collects from a tenant an
+additional amount of security deposit, the amount collected annually as additional security shall
+not be greater than 10 percent of the current security deposit.
+HISTORY: L. 1971, c. 223, § 4; amended 2003, c. 188, § 5, eff. Jan. 1, 2004.
+
+
+46:8-21.3. Security deposits prior to effective date of act; date of compliance
+  Security deposits made prior to the effective date of this act shall comply with the provisions of
+this act within 90 days of the effective date thereof.
+HISTORY: L. 1971, c. 223, 6, eff. June 21, 1971.
+
+46:8-21.4. Small claims jurisdiction of actions on security deposits less than $5,000
+  Notwithstanding any law or rule to the contrary, the Division of Small Claims of the Superior
+Court, Law Division, Special Civil Part shall have jurisdiction of actions between an owner or
+lessee and tenant for the return of all or a part of a security deposit in which the amount in
+dispute, including any applicable penalties, does not exceed the sum of $ 5,000, exclusive of
+costs.
+
+HISTORY: L. 2003, c. 188, § 6, eff. Jan. 1, 2004.
+
+
+46:8-21.5. Deposit recovery, certain; court action not required for tenant receiving
+financial assistance
+  A tenant who has received financial assistance through any State or federal program, including
+welfare or rental assistance, shall not be required to file an action in court to recover deposits
+withheld by a landlord in violation of P.L.1967, c.265 (C.46:8-19 et seq.) in order to continue
+participation in any such program.
+HISTORY: L. 2007, c. 9, § 1, eff. Jan. 24, 2007.
+46:8-22. Enforcement of trust by civil action
+  Any trust arising under the provisions of this act shall be enforceable by a civil action in a
+court of competent jurisdiction and that court shall have jurisdiction to make any appropriate
+order or judgment both pendente lite and final to fully effectuate the purposes of this act.
+HISTORY: L.1967,c.265,, EFF. Jan. 1, 1968
+
+
+46:8-23. Statutory trust upon insolvency or bankruptcy of person receiving security deposit
+  In the event of the insolvency or bankruptcy of the person receiving the said moneys, the claim
+of the person who paid the said moneys shall constitute a statutory trust with respect to any
+moneys so received and not previously expended in accordance with the terms of the contract,
+lease or agreement.
+HISTORY: L. 1967, c. 265, 5, eff. Jan. 1, 1968.
+
+
+46:8-24. Waiver by depositor prohibited
+  Any provision of such a contract, lease or agreement whereby a person who so deposits or
+advances money waives any provision of this act is absolutely void.
+HISTORY: L. 1967, c. 265, 6, eff. Jan. 1, 1968.
+
+
+46:8-25. Unlawful diversion of trust funds; penalty
+  Any person party to said contract, lease or agreement, or any agent of said person, or any
+officer of a corporation receiving said moneys, who, with knowledge that such moneys constitute
+trust funds, unlawfully diverts or consents to an unlawful diversion of such moneys shall be a
+disorderly person and subject to a fine of not less than $ 200.00 or by imprisonment for not more
+than 30 days, or both.
+HISTORY: L. 1967, c. 265, 7, eff. Jan. 1, 1968.
+
+46:8-26. Application of act
+  The provisions of this act shall apply to all rental premises or units used for dwelling purposes
+except owner-occupied premises with not more than two rental units where the tenant has failed
+to provide 30 days written notice to the landlord invoking the provisions of this act.
+HISTORY: L. 1967, c. 265, 8, eff. Jan. 1, 1968. Amended by L. 1968, c. 46, 1, eff. May 22, 1968; L. 1971, c. 223, 7, eff. June 21, 1971; L. 1979,
+c. 28, 3, eff. Feb. 22, 1979.
+

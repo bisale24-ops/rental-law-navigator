@@ -122,6 +122,103 @@ def group_state(state, cands, replay_only=False):
     return final
 
 
+COV_FIELDS = ["built_on_or_before", "built_after", "built_basis", "rolling_age_years", "min_units",
+              "single_family_excluded", "owner_dependent", "owner_condition", "owner_exemption_max_units",
+              "subsidized_excluded"]
+
+
+def merge_coverage(primary, members):
+    """Coverage of a rule = the chosen source's fields, with gaps filled from the rule's other sources
+    (official before secondary). A coverage table on one page and the cap on another describe one rule."""
+    cov = dict(primary.get("coverage") or {})
+    # a secondary page that surveys many cities (a law-firm alert) cannot set coverage limits: its numbers may
+    # belong to another city. Limits come from official sources only, or from the chosen source itself.
+    if not primary["source_type"].startswith("official"):
+        cov = {k: (v if k in ("summary", "unresolvable") else None) for k, v in cov.items()}
+    order = sorted([m for m in members if m["source_type"].startswith("official")],
+                   key=lambda m: m is not primary)
+    filled = []
+    for f in COV_FIELDS:
+        if f in ("built_on_or_before", "built_after") and (cov.get("built_on_or_before") or cov.get("built_after")):
+            continue                     # one cutoff direction per rule; never combine two sources' cutoffs
+        if f == "built_basis" and cov.get(f) not in (None, "not_stated"):
+            continue
+        if cov.get(f) in (None, "not_stated"):
+            for m in order:
+                v = (m.get("coverage") or {}).get(f)
+                if v not in (None, "not_stated"):
+                    cov[f] = v
+                    filled.append(f"{f} from {m['source_doc_id']}")
+                    break
+    if cov.get("built_basis") in (None, "not_stated") and (cov.get("built_on_or_before") or cov.get("built_after")):
+        cov["built_basis"] = "construction"
+    cov["filled_from"] = filled
+    return cov
+
+
+def fold_statements(rules):
+    """Coverage statements (navigator.coverage) fill the coverage fields a rule's own sources left empty, and
+    each filled field keeps the verbatim sentence it came from."""
+    path = ROOT / "data" / "coverage_statements.json"
+    if not path.exists():
+        return
+    sts = json.loads(path.read_text())
+    for r in rules:
+        if r["lifecycle"] != "enacted":
+            continue
+        mine = [x for x in sts if x["jurisdiction"] == r["jurisdiction"] and x["category"] == r["category"]
+                and x["source_type"].startswith("official")]
+        mine.sort(key=lambda x: not x["source_type"].startswith("official"))
+        cov = r["coverage"]
+        used = []
+        for f in COV_FIELDS:
+            if f in ("owner_dependent", "owner_condition"):
+                continue
+            if f in ("built_on_or_before", "built_after") and (cov.get("built_on_or_before") or cov.get("built_after")):
+                continue
+            if f == "built_basis":
+                continue
+            if cov.get(f) in (None, "not_stated"):
+                for x in mine:
+                    if x.get(f) not in (None, "not_stated"):
+                        cov[f] = x[f]
+                        if f.startswith("built_") and x.get("built_basis") not in (None, "not_stated"):
+                            cov["built_basis"] = x["built_basis"]
+                        used.append({"field": f, "value": x[f], "doc": x["source_doc_id"], "quote": x["quoted_span"]})
+                        break
+        if used:
+            cov.setdefault("filled_from", []).extend(f"{u['field']} from {u['doc']}" for u in used)
+            r["coverage_evidence"] = used
+            r["coverage_conditions"] = cov
+
+
+def fold_stale_proposals(rules):
+    """A city proposal next to an enacted rule of the same city and category is the history of that rule (San
+    Diego's ordinance materials, Santa Ana's council item): it becomes a supporting source, not a second record.
+    Failed measures that repeat one another (three pages on one struck ballot question) become one record."""
+    out = []
+    for r in rules:
+        if r["lifecycle"] == "enacted":
+            out.append(r)
+            continue
+        home = None
+        if r["level"] == "city":
+            home = next((x for x in rules if x["lifecycle"] == "enacted" and x["jurisdiction"] == r["jurisdiction"]
+                         and x["category"] == r["category"]), None)
+        if home is None:
+            home = next((x for x in out if x["lifecycle"] == r["lifecycle"] == "failed" and
+                         x["jurisdiction"] == r["jurisdiction"] and x["category"] == r["category"]), None)
+        if home is None:
+            out.append(r)
+            continue
+        home["supporting_sources"].append({"doc": r["source_doc_id"], "url": r["source_url"], "retrieved": r["retrieved"],
+                                           "effective_date": r["effective_date"], "key_value": r["key_value"],
+                                           "quoted_span": r["quoted_span"], "note": f"earlier {r['lifecycle']}: {r['title']}"})
+        home["supporting_sources"] += r["supporting_sources"]
+        audit.log("consolidate.fold", into=home["title"], folded=r["title"], doc=r["source_doc_id"])
+    return out
+
+
 def _official_first(cands, g):
     canon = cands[g["canonical"]]
     if canon["source_type"] != "official":
@@ -147,14 +244,14 @@ def build(candidates, replay_only=False):
             rec = {
                 "jurisdiction": canon["jurisdiction"], "level": canon["level"], "category": canon["category"],
                 "status": None, "title": canon["title"], "requirement": g.get("requirement") or canon["requirement"],
-                "key_value": g.get("key_value") or canon["key_value"], "coverage_conditions": covsrc["coverage"],
+                "key_value": g.get("key_value") or canon["key_value"], "coverage_conditions": merge_coverage(covsrc, members),
                 "exemptions": canon["exemptions"], "overrides": [], "interaction": None,
                 "effective_date": eff if eff and _valid(eff) else None, "citation": canon["citation"],
                 "source_doc_id": canon["source_doc_id"], "source_url": canon["source_url"],
                 "quoted_span": canon["quoted_span"], "confidence": round(float(canon.get("confidence") or 0.7), 2),
                 "conflict_flag": bool(conflict), "conflict_note": note if conflict else None,
                 # beyond the schema: what the engine and the UI need
-                "lifecycle": canon["lifecycle"], "coverage": covsrc["coverage"],
+                "lifecycle": canon["lifecycle"], "coverage": merge_coverage(covsrc, members),
                 "effect": g.get("effect") or "imposes_requirement",
                 "yields_to_local": any(m["yields_to_local"] for m in members),
                 "preempts_local": any(m["preempts_local"] for m in members),
@@ -169,6 +266,10 @@ def build(candidates, replay_only=False):
             rules.append(rec)
     rules.sort(key=lambda r: (r["jurisdiction"][-2:], r["level"] != "state", r["jurisdiction"], r["category"],
                               r["lifecycle"] != "enacted", r["title"]))
+    fold_statements(rules)
+    rules = fold_stale_proposals(rules)
+    for r in rules:
+        r["source_conflict"] = r["conflict_flag"]      # sources disagree; preemption flags are per address
     for n, r in enumerate(rules, 1):
         r["team_rule_id"] = f"r-{n:04d}"
         st = status_on(r, AS_OF)

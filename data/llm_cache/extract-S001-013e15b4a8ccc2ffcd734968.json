@@ -1,0 +1,55 @@
+{
+ "meta": {
+  "model": "gemini-3.5-flash-lite",
+  "seconds": 2.1,
+  "tag": "extract-S001",
+  "usage": {
+   "promptTokenCount": 3489,
+   "candidatesTokenCount": 367,
+   "totalTokenCount": 3856,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 3489
+    }
+   ],
+   "serviceTier": "standard"
+  },
+  "at": "2026-10-03T17:53:16Z"
+ },
+ "output": {
+  "rules": [
+   {
+    "jurisdiction": "Hoboken, NJ",
+    "level": "city",
+    "category": "rent_increase_limits",
+    "lifecycle": "enacted",
+    "title": "Hoboken Rent Leveling Consumer Price Index Rent Increase Cap",
+    "requirement": "Landlords are prohibited from requesting or receiving a rent increase percentage greater than 5%.",
+    "key_value": "5%",
+    "coverage": {
+     "summary": "Applies to residential rental units under the city's rent leveling regulations.",
+     "built_on_or_before": null,
+     "built_after": null,
+     "built_basis": "not_stated",
+     "rolling_age_years": null,
+     "min_units": null,
+     "single_family_excluded": null,
+     "owner_dependent": null,
+     "owner_condition": null,
+     "owner_exemption_max_units": null,
+     "subsidized_excluded": null,
+     "unresolvable": null
+    },
+    "exemptions": null,
+    "effective_date": "2023-02-01",
+    "enacted_date": null,
+    "citation": "Section 155-5",
+    "quoted_span": "No landlord may request or receive a percentage increase in rent which is greater than 5%",
+    "yields_to_local": false,
+    "preempts_local": false,
+    "confidence": 0.95
+   }
+  ]
+ }
+}

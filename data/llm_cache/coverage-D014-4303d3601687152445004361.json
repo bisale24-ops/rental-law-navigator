@@ -1,0 +1,23 @@
+{
+ "meta": {
+  "model": "gemini-3.5-flash-lite",
+  "seconds": 1.0,
+  "tag": "coverage-D014",
+  "usage": {
+   "promptTokenCount": 1814,
+   "candidatesTokenCount": 9,
+   "totalTokenCount": 1823,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 1814
+    }
+   ],
+   "serviceTier": "standard"
+  },
+  "at": "2026-10-03T17:42:55Z"
+ },
+ "output": {
+  "statements": []
+ }
+}

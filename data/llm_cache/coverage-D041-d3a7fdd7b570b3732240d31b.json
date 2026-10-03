@@ -1,0 +1,38 @@
+{
+ "meta": {
+  "model": "gemini-3.5-flash-lite",
+  "seconds": 1.8,
+  "tag": "coverage-D041",
+  "usage": {
+   "promptTokenCount": 2904,
+   "candidatesTokenCount": 346,
+   "totalTokenCount": 3250,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 2904
+    }
+   ],
+   "serviceTier": "standard"
+  },
+  "at": "2026-10-03T17:43:31Z"
+ },
+ "output": {
+  "statements": [
+   {
+    "jurisdiction": "Los Angeles, CA",
+    "level": "city",
+    "category": "rent_increase_limits",
+    "built_on_or_before": "1978-10-01",
+    "built_after": null,
+    "built_basis": "first_occupancy",
+    "min_units": null,
+    "rolling_age_years": null,
+    "owner_exemption_max_units": null,
+    "subsidized_excluded": null,
+    "single_family_excluded": null,
+    "quoted_span": "Generally, the RSO applies to rental properties that were first built on or before October 1, 1978, as well as replacement units under LAMC Section 151.28 and if any of the following: Apartment Condominium (Rent amount is not regulated for tenancies that commenced after December 31, 1995) Townhome (Rent amount is not regulated for tenancies that commenced after December 31, 1995) Duplex Two or more single-family dwelling units on the same parcel Rooms in a hotel, motel, rooming house, or boarding house occupied by the same tenant for more than 30 consecutive days Residential unit(s) attached to a commercial building Accessory Dwelling Unit (ADU) Junior Accessory Dwelling Unit (JADU) Mobile homes and recreational vehicles in mobile home parks are also covered under the RSO."
+   }
+  ]
+ }
+}

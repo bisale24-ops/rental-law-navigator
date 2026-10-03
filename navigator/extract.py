@@ -148,6 +148,9 @@ EXTRA = ROOT / "data" / "extra_manifest.csv"
 def manifest():
     """The organizers' manifest plus documents added later with `python3 -m navigator.ingest`."""
     rows = {r["doc_id"]: r for r in csv.DictReader((PACK / "corpus" / "corpus_manifest.csv").open())}
+    official = ROOT / "data" / "supplement" / "official_sources.csv"
+    if official.exists():
+        rows.update({r["doc_id"]: r for r in csv.DictReader(official.open())})
     if EXTRA.exists():
         rows.update({r["doc_id"]: r for r in csv.DictReader(EXTRA.open())})
     return rows
@@ -300,7 +303,7 @@ def extract_doc(doc, text, replay_only=False, models=None):
 def main(argv=None):
     argv = argv if argv is not None else sys.argv[1:]
     replay = "--replay" in argv
-    only = [a for a in argv if a.startswith("D")]
+    only = [a for a in argv if re.match(r"^[DSN]\d{3}$", a)]
     docs = manifest()
     kept_all, dropped_all, missing = [], [], []
     jobs = []

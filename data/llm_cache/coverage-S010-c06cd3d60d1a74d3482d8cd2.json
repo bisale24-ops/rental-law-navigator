@@ -1,0 +1,38 @@
+{
+ "meta": {
+  "model": "gemini-3.5-flash-lite",
+  "seconds": 3.1,
+  "tag": "coverage-S010",
+  "usage": {
+   "promptTokenCount": 106655,
+   "candidatesTokenCount": 351,
+   "totalTokenCount": 107006,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 106655
+    }
+   ],
+   "serviceTier": "standard"
+  },
+  "at": "2026-10-03T17:59:47Z"
+ },
+ "output": {
+  "statements": [
+   {
+    "jurisdiction": "NJ",
+    "level": "state",
+    "category": "just_cause_eviction",
+    "built_on_or_before": null,
+    "built_after": null,
+    "built_basis": "not_stated",
+    "min_units": null,
+    "rolling_age_years": null,
+    "owner_exemption_max_units": 2,
+    "subsidized_excluded": null,
+    "single_family_excluded": null,
+    "quoted_span": "No lessee or tenant or the assigns, under-tenants or legal representatives of such lessee or tenant may be removed by the Superior Court from any house, building, mobile home or land in a mobile home park or tenement leased for residential purposes, other than (1) owner-occupied premises with not more than two rental units or a hotel, motel or other guest house or part thereof rented to a transient guest or seasonal tenant; (2) a dwelling unit which is held in trust on behalf of a member of the immediate family of the person or persons establishing the trust, provided that the member of the immediate family on whose behalf the trust is established permanently occupies the unit; and (3) a dwelling unit which is permanently occupied by a member of the immediate family of the owner of that unit, provided, however, that exception (2) or (3) shall apply only in cases in which the member of the immediate family has a developmental disability, except upon establishment of one of the following grounds as good cause"
+   }
+  ]
+ }
+}

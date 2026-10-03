@@ -1,0 +1,38 @@
+{
+ "meta": {
+  "model": "gemma-4-31b-it",
+  "seconds": 29.7,
+  "tag": "coverage-D002",
+  "usage": {
+   "promptTokenCount": 3393,
+   "candidatesTokenCount": 139,
+   "totalTokenCount": 3532,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 3393
+    }
+   ],
+   "serviceTier": "standard"
+  },
+  "at": "2026-10-03T17:58:51Z"
+ },
+ "output": {
+  "statements": [
+   {
+    "jurisdiction": "Portland, OR",
+    "level": "city",
+    "category": "algorithmic_rent_setting",
+    "built_on_or_before": null,
+    "built_after": null,
+    "built_basis": "not_stated",
+    "min_units": 16,
+    "rolling_age_years": null,
+    "owner_exemption_max_units": null,
+    "subsidized_excluded": null,
+    "single_family_excluded": null,
+    "quoted_span": "for owners of 16 or more units, private remedies include the greater of treble damages or $1,000 per violation."
+   }
+  ]
+ }
+}

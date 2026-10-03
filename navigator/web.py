@@ -50,7 +50,7 @@ def rule_view(r):
     keep = ["team_rule_id", "jurisdiction", "level", "category", "status", "lifecycle", "title", "requirement",
             "key_value", "exemptions", "effective_date", "citation", "source_doc_id", "source_url", "retrieved",
             "quoted_span", "confidence", "conflict_flag", "conflict_note", "interaction", "overrides",
-            "supporting_sources", "span_check"]
+            "supporting_sources", "span_check", "coverage_evidence"]
     v = {k: r.get(k) for k in keep}
     v["coverage"] = (r.get("coverage") or {}).get("summary")
     return v

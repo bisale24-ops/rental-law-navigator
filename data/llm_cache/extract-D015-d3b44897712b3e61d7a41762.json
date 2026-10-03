@@ -1,0 +1,117 @@
+{
+ "meta": {
+  "model": "gemini-3.5-flash-lite",
+  "seconds": 3.7,
+  "tag": "extract-D015",
+  "usage": {
+   "promptTokenCount": 2336,
+   "candidatesTokenCount": 1157,
+   "totalTokenCount": 3493,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 2336
+    }
+   ],
+   "serviceTier": "standard"
+  },
+  "at": "2026-10-03T17:49:12Z"
+ },
+ "output": {
+  "rules": [
+   {
+    "jurisdiction": "CA",
+    "level": "state",
+    "category": "screening_restrictions",
+    "lifecycle": "enacted",
+    "title": "Criminal Background Check and Arrest Record Limitations",
+    "requirement": "Landlords are prohibited from using blanket bans on applicants with a criminal record or considering arrests without convictions during tenant screening.",
+    "key_value": null,
+    "coverage": {
+     "summary": "Applies to residential rental properties subject to California fair housing laws.",
+     "built_on_or_before": null,
+     "built_after": null,
+     "built_basis": "not_stated",
+     "rolling_age_years": null,
+     "min_units": null,
+     "single_family_excluded": null,
+     "owner_dependent": null,
+     "owner_condition": null,
+     "owner_exemption_max_units": null,
+     "subsidized_excluded": null,
+     "unresolvable": null
+    },
+    "exemptions": null,
+    "effective_date": "2020-01-01",
+    "enacted_date": null,
+    "citation": "Civil Rights Council Regulations",
+    "quoted_span": "Blanket bans on applicants with a criminal record are prohibited, as are policies that consider arrests without convictions.",
+    "yields_to_local": false,
+    "preempts_local": false,
+    "confidence": 0.95
+   },
+   {
+    "jurisdiction": "CA",
+    "level": "state",
+    "category": "screening_restrictions",
+    "lifecycle": "enacted",
+    "title": "Source of Income Protection for Section 8 Vouchers",
+    "requirement": "Landlords are prohibited from refusing to participate in government housing subsidy programs like Section 8, making 'No Section 8' policies illegal.",
+    "key_value": null,
+    "coverage": {
+     "summary": "Applies broadly to housing providers under the Fair Employment and Housing Act.",
+     "built_on_or_before": null,
+     "built_after": null,
+     "built_basis": "not_stated",
+     "rolling_age_years": null,
+     "min_units": null,
+     "single_family_excluded": null,
+     "owner_dependent": null,
+     "owner_condition": null,
+     "owner_exemption_max_units": null,
+     "subsidized_excluded": null,
+     "unresolvable": null
+    },
+    "exemptions": null,
+    "effective_date": "2020-01-01",
+    "enacted_date": null,
+    "citation": "SB 329",
+    "quoted_span": "In 2019, the California Legislature adopted SB 329 , which updated the definition of \u201csource of income\u201d used in the Fair Employment and Housing Act (FEHA) to include government housing subsidy programs, such as Section 8.",
+    "yields_to_local": false,
+    "preempts_local": false,
+    "confidence": 0.95
+   },
+   {
+    "jurisdiction": "CA",
+    "level": "state",
+    "category": "screening_restrictions",
+    "lifecycle": "enacted",
+    "title": "Credit History Restrictions for Subsidy Recipients",
+    "requirement": "Rental property owners are prohibited from using an applicant's credit history as part of the application process if they have a government rental subsidy, unless they offer the option to provide alternative evidence of a verifiable legal means to pay rent.",
+    "key_value": null,
+    "coverage": {
+     "summary": "Applies to applicants with government rental subsidies.",
+     "built_on_or_before": null,
+     "built_after": null,
+     "built_basis": "not_stated",
+     "rolling_age_years": null,
+     "min_units": null,
+     "single_family_excluded": null,
+     "owner_dependent": null,
+     "owner_condition": null,
+     "owner_exemption_max_units": null,
+     "subsidized_excluded": null,
+     "unresolvable": null
+    },
+    "exemptions": null,
+    "effective_date": null,
+    "enacted_date": null,
+    "citation": "SB 267",
+    "quoted_span": "In addition, last year\u2019s SB 267 amended FEHA to prohibit rental property owners from using a person\u2019s credit history as part of the application process \u2013 if they have a government rental subsidy, such as Section 8 \u2014 without offering the applicant the option to provide alternative evidence of a verifiable legal means to pay their portion of the rent.",
+    "yields_to_local": false,
+    "preempts_local": false,
+    "confidence": 0.95
+   }
+  ]
+ }
+}

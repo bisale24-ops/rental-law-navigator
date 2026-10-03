@@ -1,0 +1,55 @@
+{
+ "meta": {
+  "model": "gemma-4-31b-it",
+  "seconds": 21.9,
+  "tag": "extract-S006",
+  "usage": {
+   "promptTokenCount": 4010,
+   "candidatesTokenCount": 389,
+   "totalTokenCount": 4399,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 4010
+    }
+   ],
+   "serviceTier": "standard"
+  },
+  "at": "2026-10-03T17:54:51Z"
+ },
+ "output": {
+  "rules": [
+   {
+    "jurisdiction": "Jersey City, NJ",
+    "level": "city",
+    "category": "rent_increase_limits",
+    "lifecycle": "enacted",
+    "title": "Rent Increase Limit",
+    "requirement": "In properties subject to rent control, landlords cannot increase rent by more than the applicable CPI percentage posted or 4%, whichever is lower.",
+    "key_value": "4%",
+    "coverage": {
+     "summary": "Properties subject to rent control",
+     "built_on_or_before": null,
+     "built_after": null,
+     "built_basis": "not_stated",
+     "rolling_age_years": null,
+     "min_units": null,
+     "single_family_excluded": null,
+     "owner_dependent": null,
+     "owner_condition": null,
+     "owner_exemption_max_units": null,
+     "subsidized_excluded": null,
+     "unresolvable": "subject to rent control"
+    },
+    "exemptions": null,
+    "effective_date": null,
+    "enacted_date": null,
+    "citation": "\u00a7 260-3 of the Jersey City Rent Control Ordinance",
+    "quoted_span": "\u00a7 260-3 of the Jersey City Rent Control Ordinance prohibits property owners from imposing or collecting a rent increase greater than the applicable percentage posted or 4%, whichever is less, in properties that are subject to rent control.",
+    "yields_to_local": false,
+    "preempts_local": false,
+    "confidence": 1.0
+   }
+  ]
+ }
+}

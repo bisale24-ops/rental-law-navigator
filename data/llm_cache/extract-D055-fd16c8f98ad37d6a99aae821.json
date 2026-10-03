@@ -1,0 +1,55 @@
+{
+ "meta": {
+  "model": "gemini-3.5-flash-lite",
+  "seconds": 2.5,
+  "tag": "extract-D055",
+  "usage": {
+   "promptTokenCount": 3607,
+   "candidatesTokenCount": 518,
+   "totalTokenCount": 4125,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 3607
+    }
+   ],
+   "serviceTier": "standard"
+  },
+  "at": "2026-10-03T17:51:11Z"
+ },
+ "output": {
+  "rules": [
+   {
+    "jurisdiction": "MA",
+    "level": "state",
+    "category": "rent_increase_limits",
+    "lifecycle": "failed",
+    "title": "Initiative Petition 25-21: An Initiative Petition to Protect Tenants by Limiting Rent Increases",
+    "requirement": "Proposed statewide rent control cap limiting annual rent increases to the lesser of the Consumer Price Index or 5%, which was blocked from the November 2026 ballot by the Supreme Judicial Court.",
+    "key_value": "lesser of CPI or 5%",
+    "coverage": {
+     "summary": "Applies to most residential rental units, with exemptions for owner-occupied buildings with four or fewer units, newly constructed units less than 10 years old, certain publicly regulated units, short-term rentals, and dwelling units in facilities operated solely for educational, religious, or nonprofit purposes.",
+     "built_on_or_before": null,
+     "built_after": null,
+     "built_basis": "not_stated",
+     "rolling_age_years": 10,
+     "min_units": null,
+     "single_family_excluded": null,
+     "owner_dependent": true,
+     "owner_condition": "owner-occupied buildings with four or fewer units",
+     "owner_exemption_max_units": 4,
+     "subsidized_excluded": true,
+     "unresolvable": null
+    },
+    "exemptions": "Owner-occupied buildings with four or fewer units, newly constructed units less than 10 years old, certain publicly regulated units, short-term rentals, and dwelling units in facilities operated solely for educational, religious, or nonprofit purposes.",
+    "effective_date": null,
+    "enacted_date": null,
+    "citation": "Initiative Petition 25-21",
+    "quoted_span": "The petition would have repealed the Commonwealth\u2019s existing statutory ban on rent control, G.L. c. 40P, and replaced it with a statewide cap on annual rent increases for most residential rental units.",
+    "yields_to_local": false,
+    "preempts_local": false,
+    "confidence": 1.0
+   }
+  ]
+ }
+}

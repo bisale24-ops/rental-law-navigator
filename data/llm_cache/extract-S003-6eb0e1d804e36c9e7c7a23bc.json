@@ -1,0 +1,55 @@
+{
+ "meta": {
+  "model": "gemma-4-31b-it",
+  "seconds": 44.8,
+  "tag": "extract-S003",
+  "usage": {
+   "promptTokenCount": 1792,
+   "candidatesTokenCount": 433,
+   "totalTokenCount": 2225,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 1792
+    }
+   ],
+   "serviceTier": "standard"
+  },
+  "at": "2026-10-03T17:55:14Z"
+ },
+ "output": {
+  "rules": [
+   {
+    "jurisdiction": "Hoboken, NJ",
+    "level": "city",
+    "category": "algorithmic_rent_setting",
+    "lifecycle": "enacted",
+    "title": "City of Hoboken outlaws algorithmic rent-fixing",
+    "requirement": "Landlords renting residential units in Hoboken are prohibited from using software, algorithms, or data-sharing platforms to coordinate, recommend, or implement rental prices, lease terms, or occupancy levels among competing landlords.",
+    "key_value": null,
+    "coverage": {
+     "summary": "Residential units in Hoboken",
+     "built_on_or_before": null,
+     "built_after": null,
+     "built_basis": "not_stated",
+     "rolling_age_years": null,
+     "min_units": null,
+     "single_family_excluded": null,
+     "owner_dependent": null,
+     "owner_condition": null,
+     "owner_exemption_max_units": null,
+     "subsidized_excluded": null,
+     "unresolvable": null
+    },
+    "exemptions": null,
+    "effective_date": "2025-07-09",
+    "enacted_date": "2025-07-09",
+    "citation": "City of Hoboken legislation adopted July 9, 2025",
+    "quoted_span": "It will now be illegal for landlords renting residential units in Hoboken to engage in price-fixing through algorithmic rent-fixing, meaning they can no longer use software, algorithms, or data-sharing platforms to coordinate, recommend, or implement rental prices, lease terms, or occupancy levels among competing landlords.",
+    "yields_to_local": false,
+    "preempts_local": false,
+    "confidence": 1.0
+   }
+  ]
+ }
+}

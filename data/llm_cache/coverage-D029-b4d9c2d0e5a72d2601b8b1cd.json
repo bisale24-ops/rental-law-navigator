@@ -1,0 +1,38 @@
+{
+ "meta": {
+  "model": "gemini-3.5-flash-lite",
+  "seconds": 1.7,
+  "tag": "coverage-D029",
+  "usage": {
+   "promptTokenCount": 2793,
+   "candidatesTokenCount": 167,
+   "totalTokenCount": 2960,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 2793
+    }
+   ],
+   "serviceTier": "standard"
+  },
+  "at": "2026-10-03T17:43:27Z"
+ },
+ "output": {
+  "statements": [
+   {
+    "jurisdiction": "Cambridge, MA",
+    "level": "city",
+    "category": "application_screening_fees",
+    "built_on_or_before": null,
+    "built_after": null,
+    "built_basis": "not_stated",
+    "min_units": null,
+    "rolling_age_years": null,
+    "owner_exemption_max_units": 2,
+    "subsidized_excluded": null,
+    "single_family_excluded": null,
+    "quoted_span": "NOTE: there is an exemption for 2-family dwellings, when the owner lives there"
+   }
+  ]
+ }
+}

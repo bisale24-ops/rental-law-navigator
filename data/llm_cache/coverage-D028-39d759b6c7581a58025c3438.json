@@ -1,0 +1,38 @@
+{
+ "meta": {
+  "model": "gemini-3.5-flash-lite",
+  "seconds": 1.5,
+  "tag": "coverage-D028",
+  "usage": {
+   "promptTokenCount": 2889,
+   "candidatesTokenCount": 166,
+   "totalTokenCount": 3055,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 2889
+    }
+   ],
+   "serviceTier": "standard"
+  },
+  "at": "2026-10-03T17:43:26Z"
+ },
+ "output": {
+  "statements": [
+   {
+    "jurisdiction": "CA",
+    "level": "state",
+    "category": "algorithmic_rent_setting",
+    "built_on_or_before": null,
+    "built_after": null,
+    "built_basis": "not_stated",
+    "min_units": null,
+    "rolling_age_years": null,
+    "owner_exemption_max_units": null,
+    "subsidized_excluded": null,
+    "single_family_excluded": null,
+    "quoted_span": "Note that single-firm algorithms using only a business\u2019s own data are not covered by the law."
+   }
+  ]
+ }
+}

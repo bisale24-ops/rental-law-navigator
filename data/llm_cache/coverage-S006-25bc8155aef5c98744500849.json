@@ -1,0 +1,23 @@
+{
+ "meta": {
+  "model": "gemma-4-31b-it",
+  "seconds": 15.8,
+  "tag": "coverage-S006",
+  "usage": {
+   "promptTokenCount": 3534,
+   "candidatesTokenCount": 5,
+   "totalTokenCount": 3539,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 3534
+    }
+   ],
+   "serviceTier": "standard"
+  },
+  "at": "2026-10-03T17:59:44Z"
+ },
+ "output": {
+  "statements": []
+ }
+}

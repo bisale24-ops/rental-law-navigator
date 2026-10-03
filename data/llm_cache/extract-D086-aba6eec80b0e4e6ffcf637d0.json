@@ -1,0 +1,55 @@
+{
+ "meta": {
+  "model": "gemini-3.5-flash-lite",
+  "seconds": 2.4,
+  "tag": "extract-D086",
+  "usage": {
+   "promptTokenCount": 3175,
+   "candidatesTokenCount": 398,
+   "totalTokenCount": 3573,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 3175
+    }
+   ],
+   "serviceTier": "standard"
+  },
+  "at": "2026-10-03T17:51:27Z"
+ },
+ "output": {
+  "rules": [
+   {
+    "jurisdiction": "Santa Ana, CA",
+    "level": "city",
+    "category": "algorithmic_rent_setting",
+    "lifecycle": "enacted",
+    "title": "Santa Ana Algorithmic Rent Pricing Ban",
+    "requirement": "Landlords and apartment owners in Santa Ana are prohibited from using automated AI software or algorithmic devices to set rental prices, and violators face fines of $1,000.",
+    "key_value": "1000 fine",
+    "coverage": {
+     "summary": "Applies to landlords and apartment owners using algorithmic pricing software in Santa Ana.",
+     "built_on_or_before": null,
+     "built_after": null,
+     "built_basis": "not_stated",
+     "rolling_age_years": null,
+     "min_units": null,
+     "single_family_excluded": null,
+     "owner_dependent": null,
+     "owner_condition": null,
+     "owner_exemption_max_units": null,
+     "subsidized_excluded": null,
+     "unresolvable": null
+    },
+    "exemptions": null,
+    "effective_date": "2026-03",
+    "enacted_date": "2026-02-24",
+    "citation": "Santa Ana Municipal Ordinance",
+    "quoted_span": "To protect renters, city leaders have approved a new ordinance that stops apartment owners and landlords from using automated AI software to set rental prices.",
+    "yields_to_local": false,
+    "preempts_local": false,
+    "confidence": 0.95
+   }
+  ]
+ }
+}

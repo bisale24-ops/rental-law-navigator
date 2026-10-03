@@ -1,0 +1,38 @@
+{
+ "meta": {
+  "model": "gemini-3.5-flash-lite",
+  "seconds": 2.1,
+  "tag": "coverage-D048",
+  "usage": {
+   "promptTokenCount": 1017,
+   "candidatesTokenCount": 183,
+   "totalTokenCount": 1200,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 1017
+    }
+   ],
+   "serviceTier": "standard"
+  },
+  "at": "2026-10-03T17:58:51Z"
+ },
+ "output": {
+  "statements": [
+   {
+    "jurisdiction": "MA",
+    "level": "state",
+    "category": "rent_increase_limits",
+    "built_on_or_before": null,
+    "built_after": null,
+    "built_basis": "not_stated",
+    "min_units": null,
+    "rolling_age_years": null,
+    "owner_exemption_max_units": 10,
+    "subsidized_excluded": null,
+    "single_family_excluded": null,
+    "quoted_span": "nor may such regulation apply to any rental unit that is owned by a person or entity owning less than ten rental units or that has a fair market rent exceeding $400"
+   }
+  ]
+ }
+}

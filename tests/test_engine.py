@@ -99,3 +99,21 @@ class Quotes(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class Caveats(unittest.TestCase):
+    def test_tenancy_condition_is_a_caveat_not_unknown(self):
+        r = rule("r1", coverage={"unresolvable": "tenant has lived there six months"})
+        row = engine.lookup(addr(), [r], D)[0]
+        self.assertEqual(row["result"], "applies")
+        self.assertIn("six months", row["explanation"])
+
+    def test_rolling_age_beats_a_frozen_date(self):
+        r = rule("r1", coverage={"rolling_age_years": 15, "built_on_or_before": "2011-10-01"})
+        self.assertEqual(engine.lookup(addr(year_built=1990), [r], D)[0]["result"], "applies")
+        self.assertEqual(engine.lookup(addr(year_built=2018), [r], D), [])
+
+    def test_state_ban_on_local_control_applies_statewide(self):
+        r = rule("r1", jurisdiction="CA", level="state", effect="prohibits_local_rules",
+                 coverage={"owner_dependent": True})
+        self.assertEqual(engine.lookup(addr(), [r], D)[0]["result"], "applies")

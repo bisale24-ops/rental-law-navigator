@@ -1,0 +1,14 @@
+doc_id,jurisdictions,url,source_type,note
+S001,"Hoboken, NJ",https://cdn.prod.website-files.com/58407e2ebca0e34c30a2d39c/6aa82b60e6a4086c0b4658a8_CPI%20Hoboken%20Website%20Cap%20(12).pdf,official,Hoboken Rent Leveling notice: Ch. 155-5 cap (file linked from hobokennj.gov)
+S002,"Hoboken, NJ",https://cdn.prod.website-files.com/58407e2ebca0e34c30a2d39c/6aa82c0b0e7d549e67d280fc_Regulations%20to%20Chapter%20155-%20Revision%2008.2026.pdf,official,Regulations to Chapter 155 (linked from hobokennj.gov)
+S003,"Hoboken, NJ",https://www.hobokennj.gov/news/city-of-hoboken-outlaws-algorithmic-rent-fixing,official,City press release on the algorithmic rent-fixing ordinance
+S004,"Newark, NJ",https://www.newarknj.gov/DocumentCenter/View/1019,official,Newark rent control FAQ
+S005,"Jersey City, NJ",https://www.jerseycitynj.gov/UserFiles/Servers/Server_6189660/File/City%20Hall/Housing%20Economic%20Development/Tenant%20Landlord%20Relations/RLB%20Rules%20and%20Regulations%20CURRENT.pdf,official,Rent Leveling Board rules under Ch. 260
+S006,"Jersey City, NJ",https://www.jerseycitynj.gov/UserFiles/Servers/Server_6189660/File/City%20Hall/Housing%20Economic%20Development/Tenant%20Landlord%20Relations/8.20.26%20-%20October%20CPI.pdf,official,Jersey City CPI / cap chart
+S007,"Los Angeles, CA",https://cityclerk.lacity.org/onlinedocs/2023/23-1134_misc_1_12-02-2025.pdf,official,Draft ordinance amending LAMC 151.06 (new RSO formula)
+S008,"Los Angeles, CA",https://housing.lacity.gov/wp-content/uploads/2023/01/44-Interest-Payments-on-Security-Deposits-English.pdf,official,LAHD bulletin on deposit interest (LAMC 151.06.02)
+S009,NJ,https://www.nj.gov/dca/codes/publications/pdf_lti/sdepsit_law.pdf,official,N.J.S.A. 46:8-19 to 46:8-26
+S010,NJ,https://www.nj.gov/dca/codes/codreg/pdf_regs/2A_18_61.pdf,official,N.J.S.A. 2A:18-61.1 Anti-Eviction Act
+S011,"San Diego, CA",https://docs.sandiego.gov/municode/MuniCodeChapter09/Ch09Art08Division11.pdf,official,SDMC 98.1101 ff. algorithmic devices
+S012,"San Diego, CA",https://docs.sandiego.gov/municode/MuniCodeChapter09/Ch09Art08Division08.pdf,official,SDMC 98.0801 ff. source of income
+S013,"Cambridge, MA",https://www.cambridgema.gov/-/media/Files/citymanagersoffice/tenantrights/cambridgetenantrightsandresourcesnotificationordinanceinformationpacketfinalrev.pdf,official,Cambridge Ch. 8.71 information packet

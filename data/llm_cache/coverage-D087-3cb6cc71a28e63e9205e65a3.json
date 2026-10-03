@@ -1,0 +1,38 @@
+{
+ "meta": {
+  "model": "gemma-4-31b-it",
+  "seconds": 25.8,
+  "tag": "coverage-D087",
+  "usage": {
+   "promptTokenCount": 1782,
+   "candidatesTokenCount": 153,
+   "totalTokenCount": 1935,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 1782
+    }
+   ],
+   "serviceTier": "standard"
+  },
+  "at": "2026-10-03T17:59:21Z"
+ },
+ "output": {
+  "statements": [
+   {
+    "jurisdiction": "Santa Ana, CA",
+    "level": "city",
+    "category": "algorithmic_rent_setting",
+    "built_on_or_before": null,
+    "built_after": null,
+    "built_basis": "not_stated",
+    "min_units": null,
+    "rolling_age_years": null,
+    "owner_exemption_max_units": null,
+    "subsidized_excluded": true,
+    "single_family_excluded": null,
+    "quoted_span": "The new algorithmic rent-setting ordinance is limited to residential rental property and does not apply to pricing software that relies solely on publicly available data, aggregate historical data, or tools used to comply with affordable housing program requirements."
+   }
+  ]
+ }
+}

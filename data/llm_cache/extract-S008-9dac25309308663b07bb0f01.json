@@ -1,0 +1,55 @@
+{
+ "meta": {
+  "model": "gemini-3.5-flash-lite",
+  "seconds": 2.4,
+  "tag": "extract-S008",
+  "usage": {
+   "promptTokenCount": 3454,
+   "candidatesTokenCount": 545,
+   "totalTokenCount": 3999,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 3454
+    }
+   ],
+   "serviceTier": "standard"
+  },
+  "at": "2026-10-03T17:54:27Z"
+ },
+ "output": {
+  "rules": [
+   {
+    "jurisdiction": "Los Angeles, CA",
+    "level": "city",
+    "category": "security_deposits",
+    "lifecycle": "enacted",
+    "title": "Interest on Security Deposits for RSO Units",
+    "requirement": "Landlords of rental units subject to the Rent Stabilization Ordinance with a certificate of occupancy first issued before October 1, 1978, must pay interest on all security deposits held for at least one year.",
+    "key_value": "3.03%",
+    "coverage": {
+     "summary": "Applies to RSO units in Los Angeles with a certificate of occupancy first issued before October 1, 1978, where the tenant has occupied the unit for more than 30 consecutive days. Mobile home parks are excluded.",
+     "built_on_or_before": "1978-09-30",
+     "built_after": null,
+     "built_basis": "certificate_of_occupancy",
+     "rolling_age_years": null,
+     "min_units": null,
+     "single_family_excluded": null,
+     "owner_dependent": false,
+     "owner_condition": null,
+     "owner_exemption_max_units": null,
+     "subsidized_excluded": null,
+     "unresolvable": "Tenancy must exceed 30 consecutive days."
+    },
+    "exemptions": "Mobile home parks are exempt.",
+    "effective_date": "1990-11-01",
+    "enacted_date": null,
+    "citation": "Rent Stabilization Ordinance No. 151.06.02(F)",
+    "quoted_span": "Landlords of rental units subject to the Rent Stabilization Ordinance (RSO), which includes dwelling units, suites, condominiums, duplexes, guest rooms, and rooms in a hotel, motel, rooming house or boarding house occupied by the same tenant for more than 30 consecutive days in the City of Los Angeles with a certificate of occupancy first issued before October 1, 1978, must pay interest on all security deposits held for at least one (1) year for their tenants.",
+    "yields_to_local": false,
+    "preempts_local": false,
+    "confidence": 1.0
+   }
+  ]
+ }
+}

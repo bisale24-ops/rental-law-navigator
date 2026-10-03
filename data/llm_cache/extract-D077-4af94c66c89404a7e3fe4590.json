@@ -1,0 +1,86 @@
+{
+ "meta": {
+  "model": "gemini-3.5-flash-lite",
+  "seconds": 4.4,
+  "tag": "extract-D077",
+  "usage": {
+   "promptTokenCount": 6738,
+   "candidatesTokenCount": 1204,
+   "totalTokenCount": 7942,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 6738
+    }
+   ],
+   "serviceTier": "standard"
+  },
+  "at": "2026-10-03T17:51:23Z"
+ },
+ "output": {
+  "rules": [
+   {
+    "jurisdiction": "San Diego, CA",
+    "level": "city",
+    "category": "just_cause_eviction",
+    "lifecycle": "enacted",
+    "title": "San Diego Residential Tenant Protection Ordinance - Just Cause Requirement",
+    "requirement": "Landlords must have 'Just Cause' (either at-fault or no-fault reasons) to terminate a residential tenancy that has lasted for more than 30 days.",
+    "key_value": null,
+    "coverage": {
+     "summary": "Applies to residential rental properties where the tenancy has lasted more than 30 days, with specific exemptions for short-term lets, transient hotels, certain affordable/subsidized housing, owner-occupied shared housing, limited owner-occupied single-family and duplex arrangements, certain separate alienable units with proper notice, and housing issued a certificate of occupancy within the previous 15 years.",
+     "built_on_or_before": null,
+     "built_after": null,
+     "built_basis": "not_stated",
+     "rolling_age_years": 15,
+     "min_units": null,
+     "single_family_excluded": false,
+     "owner_dependent": true,
+     "owner_condition": "Exempts certain single-family owner-occupied homes renting no more than two units/bedrooms, specific owner-occupied duplexes, and certain individually owned alienable units (like condos) meeting specific criteria and providing notice.",
+     "owner_exemption_max_units": 2,
+     "subsidized_excluded": true,
+     "unresolvable": "Exemptions depend on specific ownership types, whether units are deed-restricted affordable housing, and whether the landlord provided specific written exemption notices."
+    },
+    "exemptions": "Transient hotels, short-term rentals (30 days or less), deed-restricted affordable housing, certain subsidized housing, mobilehomes subject to the MRL, nonprofit hospital/religious/extended care/residential care facilities, school-owned dormitories, housing where the tenant shares a bathroom or kitchen with the owner, single-family owner-occupied residences renting no more than two units/bedrooms, owner-occupied duplexes under specific conditions, certain alienable units (e.g., condos) owned by individuals with proper notice provided, and housing issued a certificate of occupancy within the previous 15 years.",
+    "effective_date": "2023-06-24",
+    "enacted_date": null,
+    "citation": "San Diego Municipal Code Chapter 9, Article 8, Division 7",
+    "quoted_span": "The purpose of the Ordinance is to require Just Cause for termination of residential tenancies consistent with California Civil Code section 1946.2, to limit the reasons for termination of a residential tenancy, to require greater tenant relocation assistance in specified circumstances and to provide additional tenant protections.",
+    "yields_to_local": false,
+    "preempts_local": false,
+    "confidence": 0.95
+   },
+   {
+    "jurisdiction": "San Diego, CA",
+    "level": "city",
+    "category": "just_cause_eviction",
+    "lifecycle": "enacted",
+    "title": "San Diego Residential Tenant Protection Ordinance - Relocation Assistance for No-Fault Evictions",
+    "requirement": "Landlords terminating a tenancy for a no-fault just cause must provide relocation assistance equal to two months of actual rent, or three months if the tenant is elderly (62 or older) or disabled, via direct payment or rent waiver.",
+    "key_value": "2 to 3 months of actual rent",
+    "coverage": {
+     "summary": "Applies to residential rental properties subject to the Just Cause ordinance when a tenancy is terminated for no-fault reasons.",
+     "built_on_or_before": null,
+     "built_after": null,
+     "built_basis": "not_stated",
+     "rolling_age_years": 15,
+     "min_units": null,
+     "single_family_excluded": false,
+     "owner_dependent": true,
+     "owner_condition": "Exemptions apply to certain owner-occupied properties and newer buildings as defined in the main ordinance.",
+     "owner_exemption_max_units": null,
+     "subsidized_excluded": true,
+     "unresolvable": "Relocation requirement depends on whether the no-fault eviction is exempt under the general ordinance rules."
+    },
+    "exemptions": "Units exempt from the general Tenant Protection Ordinance (such as housing built within the last 15 years, certain owner-occupied homes or duplexes, deed-restricted affordable housing).",
+    "effective_date": "2023-06-24",
+    "enacted_date": null,
+    "citation": "San Diego Municipal Code Chapter 9, Article 8, Division 7",
+    "quoted_span": "Regardless of tenant\u2019s income or length of tenancy, Landlord must provide relocation assistance to the tenant by (1) direct payment to the tenant OR (2) waiver of the final months of rent due.",
+    "yields_to_local": false,
+    "preempts_local": false,
+    "confidence": 0.95
+   }
+  ]
+ }
+}

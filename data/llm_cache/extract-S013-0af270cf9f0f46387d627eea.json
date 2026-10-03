@@ -1,0 +1,55 @@
+{
+ "meta": {
+  "model": "gemini-3.5-flash-lite",
+  "seconds": 2.3,
+  "tag": "extract-S013",
+  "usage": {
+   "promptTokenCount": 4970,
+   "candidatesTokenCount": 416,
+   "totalTokenCount": 5386,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 4970
+    }
+   ],
+   "serviceTier": "standard"
+  },
+  "at": "2026-10-03T17:55:36Z"
+ },
+ "output": {
+  "rules": [
+   {
+    "jurisdiction": "Cambridge, MA",
+    "level": "city",
+    "category": "security_deposits",
+    "lifecycle": "enacted",
+    "title": "Security Deposit Maximum Limit and Handling",
+    "requirement": "A security deposit cannot exceed one month's rent, must be held in a separate interest-bearing account with interest paid to the tenant annually, and must be returned within 30 days of the end of the tenancy along with accrued interest or an itemized list of deductions.",
+    "key_value": "1 month rent",
+    "coverage": {
+     "summary": "Applies generally to residential tenancies where a security deposit is requested.",
+     "built_on_or_before": null,
+     "built_after": null,
+     "built_basis": "not_stated",
+     "rolling_age_years": null,
+     "min_units": null,
+     "single_family_excluded": null,
+     "owner_dependent": null,
+     "owner_condition": null,
+     "owner_exemption_max_units": null,
+     "subsidized_excluded": null,
+     "unresolvable": null
+    },
+    "exemptions": null,
+    "effective_date": null,
+    "enacted_date": null,
+    "citation": "Cambridge Municipal Code Chapter 8.71",
+    "quoted_span": "A security deposit cannot be more than the amount of 1 month\u2019s rent. It must be kept in a separate interest-bearing account. The landlord should pay the interest accrued to the tenant each year.",
+    "yields_to_local": false,
+    "preempts_local": false,
+    "confidence": 0.95
+   }
+  ]
+ }
+}

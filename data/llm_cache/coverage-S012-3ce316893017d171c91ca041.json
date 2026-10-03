@@ -1,0 +1,38 @@
+{
+ "meta": {
+  "model": "gemma-4-31b-it",
+  "seconds": 31.8,
+  "tag": "coverage-S012",
+  "usage": {
+   "promptTokenCount": 2318,
+   "candidatesTokenCount": 159,
+   "totalTokenCount": 2477,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 2318
+    }
+   ],
+   "serviceTier": "standard"
+  },
+  "at": "2026-10-03T18:01:19Z"
+ },
+ "output": {
+  "statements": [
+   {
+    "jurisdiction": "San Diego, CA",
+    "level": "city",
+    "category": "screening_restrictions",
+    "built_on_or_before": null,
+    "built_after": null,
+    "built_basis": "not_stated",
+    "min_units": null,
+    "rolling_age_years": null,
+    "owner_exemption_max_units": null,
+    "subsidized_excluded": null,
+    "single_family_excluded": null,
+    "quoted_span": "Nothing in this Division shall apply to any tenancy in which the owner or any member of his or her family resides within the the same residential building as the tenant and the owner or family member share a bathroom or a kitchen facility with the tenant or prospective tenant."
+   }
+  ]
+ }
+}

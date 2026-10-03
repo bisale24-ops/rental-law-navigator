@@ -1,0 +1,52 @@
+{
+ "meta": {
+  "model": "gemini-3.5-flash-lite",
+  "seconds": 2.3,
+  "tag": "coverage-S007",
+  "usage": {
+   "promptTokenCount": 5861,
+   "candidatesTokenCount": 522,
+   "totalTokenCount": 6383,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 5861
+    }
+   ],
+   "serviceTier": "standard"
+  },
+  "at": "2026-10-03T17:59:30Z"
+ },
+ "output": {
+  "statements": [
+   {
+    "jurisdiction": "Los Angeles, CA",
+    "level": "city",
+    "category": "rent_increase_limits",
+    "built_on_or_before": null,
+    "built_after": null,
+    "built_basis": "not_stated",
+    "min_units": null,
+    "rolling_age_years": null,
+    "owner_exemption_max_units": null,
+    "subsidized_excluded": null,
+    "single_family_excluded": null,
+    "quoted_span": "This subsection shall not apply where a subdivision map application for condominiums, stock cooperative or community apartment purposes was filed for approval with the City prior to the issuance of the original certificate of occupancy for the building."
+   },
+   {
+    "jurisdiction": "Los Angeles, CA",
+    "level": "city",
+    "category": "just_cause_eviction",
+    "built_on_or_before": null,
+    "built_after": null,
+    "built_basis": "not_stated",
+    "min_units": 4,
+    "rolling_age_years": null,
+    "owner_exemption_max_units": 4,
+    "subsidized_excluded": null,
+    "single_family_excluded": null,
+    "quoted_span": "If the termination of tenancy is based on the grounds set forth in Paragraphs (a) or (b) of Subdivision 8. of Subsection A. of Section 151.09 of this Code, and all of the following conditions exist: (1) the building containing the rental unit contains four or fewer rental units; (2) within the previous three years the landlord has not paid the fee authorized by this Subsection to any tenant who resided in the building; (3) the landlord owns, in the City of Los Angeles, no more than four units of residential property and a single-family home on a separate lot; and (4) any eligible relative for whom the landlord is recovering possession of the rental unit does not own any residential property in the City of Los Angeles; then the landlord shall pay a relocation fee of $21,250 to qualified tenants and a fee of $10,550 to all other tenants."
+   }
+  ]
+ }
+}

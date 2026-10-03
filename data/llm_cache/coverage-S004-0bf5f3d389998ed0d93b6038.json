@@ -1,0 +1,38 @@
+{
+ "meta": {
+  "model": "gemini-3.5-flash-lite",
+  "seconds": 1.5,
+  "tag": "coverage-S004",
+  "usage": {
+   "promptTokenCount": 2518,
+   "candidatesTokenCount": 183,
+   "totalTokenCount": 2701,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 2518
+    }
+   ],
+   "serviceTier": "standard"
+  },
+  "at": "2026-10-03T17:59:22Z"
+ },
+ "output": {
+  "statements": [
+   {
+    "jurisdiction": "Newark, NJ",
+    "level": "city",
+    "category": "rent_increase_limits",
+    "built_on_or_before": null,
+    "built_after": null,
+    "built_basis": "not_stated",
+    "min_units": null,
+    "rolling_age_years": 30,
+    "owner_exemption_max_units": null,
+    "subsidized_excluded": true,
+    "single_family_excluded": null,
+    "quoted_span": "No, exempt dwellings include all public housing, any motel or hotel space rented on a day to day basis, and any structure or portion thereof rented for commercial use."
+   }
+  ]
+ }
+}

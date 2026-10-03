@@ -1,0 +1,52 @@
+{
+ "meta": {
+  "model": "gemini-3.5-flash-lite",
+  "seconds": 2.0,
+  "tag": "coverage-D023",
+  "usage": {
+   "promptTokenCount": 6481,
+   "candidatesTokenCount": 408,
+   "totalTokenCount": 6889,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 6481
+    }
+   ],
+   "serviceTier": "standard"
+  },
+  "at": "2026-10-03T17:42:57Z"
+ },
+ "output": {
+  "statements": [
+   {
+    "jurisdiction": "CA",
+    "level": "state",
+    "category": "just_cause_eviction",
+    "built_on_or_before": null,
+    "built_after": null,
+    "built_basis": "not_stated",
+    "min_units": null,
+    "rolling_age_years": 15,
+    "owner_exemption_max_units": null,
+    "subsidized_excluded": null,
+    "single_family_excluded": null,
+    "quoted_span": "Housing that has been issued a certificate of occupancy within the previous 15 years, unless the housing is a mobilehome."
+   },
+   {
+    "jurisdiction": "CA",
+    "level": "state",
+    "category": "just_cause_eviction",
+    "built_on_or_before": null,
+    "built_after": null,
+    "built_basis": "not_stated",
+    "min_units": null,
+    "rolling_age_years": null,
+    "owner_exemption_max_units": null,
+    "subsidized_excluded": true,
+    "single_family_excluded": null,
+    "quoted_span": "Housing restricted by deed, regulatory restriction contained in an agreement with a government agency, or other recorded document as affordable housing for persons and families of very low, low, or moderate income, as defined in Section 50093 of the Health and Safety Code, or subject to an agreement that provides housing subsidies for affordable housing for persons and families of very low, low, or moderate income, as defined in Section 50093 of the Health and Safety Code or comparable federal statutes."
+   }
+  ]
+ }
+}

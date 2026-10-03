@@ -1,0 +1,117 @@
+{
+ "meta": {
+  "model": "gemma-4-31b-it",
+  "seconds": 52.9,
+  "tag": "extract-D017",
+  "usage": {
+   "promptTokenCount": 3246,
+   "candidatesTokenCount": 1128,
+   "totalTokenCount": 4374,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 3246
+    }
+   ],
+   "serviceTier": "standard"
+  },
+  "at": "2026-10-03T17:51:03Z"
+ },
+ "output": {
+  "rules": [
+   {
+    "jurisdiction": "CA",
+    "level": "state",
+    "category": "application_screening_fees",
+    "lifecycle": "enacted",
+    "title": "Application Screening Fee Limit",
+    "requirement": "Landlords may charge an application screening fee to cover out-of-pocket costs, but the fee cannot exceed $30, adjusted annually for inflation based on the Consumer Price Index.",
+    "key_value": "$30",
+    "coverage": {
+     "summary": "Residential rental property",
+     "built_on_or_before": null,
+     "built_after": null,
+     "built_basis": "not_stated",
+     "rolling_age_years": null,
+     "min_units": null,
+     "single_family_excluded": null,
+     "owner_dependent": null,
+     "owner_condition": null,
+     "owner_exemption_max_units": null,
+     "subsidized_excluded": null,
+     "unresolvable": null
+    },
+    "exemptions": null,
+    "effective_date": null,
+    "enacted_date": null,
+    "citation": "California Civil Code section 1950.6(b)",
+    "quoted_span": "In no case shall the amount of the application screening fee charged by the landlord or their agent be greater than thirty dollars ($30) per applicant. The thirty dollar ($30) application screening fee may be adjusted annually by the landlord or their agent commensurate with an increase in the Consumer Price Index, beginning on January 1, 1998.",
+    "yields_to_local": false,
+    "preempts_local": false,
+    "confidence": 1.0
+   },
+   {
+    "jurisdiction": "CA",
+    "level": "state",
+    "category": "application_screening_fees",
+    "lifecycle": "enacted",
+    "title": "Application Screening Fee Conditions",
+    "requirement": "Landlords cannot charge a screening fee if they know no unit is available. They must either follow a first-come, first-served process based on written criteria or refund the fee to applicants not selected for tenancy.",
+    "key_value": null,
+    "coverage": {
+     "summary": "Residential rental property",
+     "built_on_or_before": null,
+     "built_after": null,
+     "built_basis": "not_stated",
+     "rolling_age_years": null,
+     "min_units": null,
+     "single_family_excluded": null,
+     "owner_dependent": null,
+     "owner_condition": null,
+     "owner_exemption_max_units": null,
+     "subsidized_excluded": null,
+     "unresolvable": null
+    },
+    "exemptions": null,
+    "effective_date": null,
+    "enacted_date": null,
+    "citation": "California Civil Code section 1950.6(c)",
+    "quoted_span": "A landlord or their agent shall not charge an applicant an application screening fee when they know or should have known that no rental unit is available at that time or will be available within a reasonable period of time. A landlord or their agent may charge an applicant an application screening fee only if the landlord or their agent, at the time the application screening fee is collected, offers any of the following: An application screening process that complies with all of the following: Completed applications are considered, as provided for in the landlord\u2019s established screening criteria, in the order in which the completed applications were received.",
+    "yields_to_local": false,
+    "preempts_local": false,
+    "confidence": 1.0
+   },
+   {
+    "jurisdiction": "CA",
+    "level": "state",
+    "category": "application_screening_fees",
+    "lifecycle": "enacted",
+    "title": "Application Screening Fee Receipt and Report Requirements",
+    "requirement": "Landlords must provide a receipt itemizing expenses and time spent for the screening fee, and must provide a copy of the consumer credit report to the applicant within seven days of receiving it.",
+    "key_value": null,
+    "coverage": {
+     "summary": "Residential rental property",
+     "built_on_or_before": null,
+     "built_after": null,
+     "built_basis": "not_stated",
+     "rolling_age_years": null,
+     "min_units": null,
+     "single_family_excluded": null,
+     "owner_dependent": null,
+     "owner_condition": null,
+     "owner_exemption_max_units": null,
+     "subsidized_excluded": null,
+     "unresolvable": null
+    },
+    "exemptions": null,
+    "effective_date": null,
+    "enacted_date": null,
+    "citation": "California Civil Code section 1950.6(d)-(f)",
+    "quoted_span": "The landlord or their agent shall provide, personally, or by mail, the applicant with a receipt for the fee paid by the applicant, which receipt shall itemize the out-of-pocket expenses and time spent by the landlord or their agent to obtain and process the information about the applicant. If an application screening fee has been paid by the applicant, the landlord or their agent shall provide a copy of the consumer credit report to the applicant who is the subject of that report by personal delivery, mail, or email within seven days of the landlord or their agent\u2019s receiving the report.",
+    "yields_to_local": false,
+    "preempts_local": false,
+    "confidence": 1.0
+   }
+  ]
+ }
+}

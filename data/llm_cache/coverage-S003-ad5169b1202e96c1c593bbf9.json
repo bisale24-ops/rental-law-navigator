@@ -1,0 +1,38 @@
+{
+ "meta": {
+  "model": "gemma-4-31b-it",
+  "seconds": 33.8,
+  "tag": "coverage-S003",
+  "usage": {
+   "promptTokenCount": 1213,
+   "candidatesTokenCount": 172,
+   "totalTokenCount": 1385,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 1213
+    }
+   ],
+   "serviceTier": "standard"
+  },
+  "at": "2026-10-03T18:00:10Z"
+ },
+ "output": {
+  "statements": [
+   {
+    "jurisdiction": "Hoboken, NJ",
+    "level": "city",
+    "category": "algorithmic_rent_setting",
+    "built_on_or_before": null,
+    "built_after": null,
+    "built_basis": "not_stated",
+    "min_units": null,
+    "rolling_age_years": null,
+    "owner_exemption_max_units": null,
+    "subsidized_excluded": null,
+    "single_family_excluded": null,
+    "quoted_span": "It will now be illegal for landlords renting residential units in Hoboken to engage in price-fixing through algorithmic rent-fixing"
+   }
+  ]
+ }
+}

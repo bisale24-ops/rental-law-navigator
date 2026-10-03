@@ -1,0 +1,38 @@
+{
+ "meta": {
+  "model": "gemini-3.5-flash-lite",
+  "seconds": 1.5,
+  "tag": "coverage-D066",
+  "usage": {
+   "promptTokenCount": 1493,
+   "candidatesTokenCount": 182,
+   "totalTokenCount": 1675,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 1493
+    }
+   ],
+   "serviceTier": "standard"
+  },
+  "at": "2026-10-03T17:44:36Z"
+ },
+ "output": {
+  "statements": [
+   {
+    "jurisdiction": "NJ",
+    "level": "state",
+    "category": "application_screening_fees",
+    "built_on_or_before": null,
+    "built_after": null,
+    "built_basis": "not_stated",
+    "min_units": null,
+    "rolling_age_years": null,
+    "owner_exemption_max_units": null,
+    "subsidized_excluded": null,
+    "single_family_excluded": true,
+    "quoted_span": "The requirements of subsection a. of this section shall not apply to: (1) a dwelling unit located in a one-family or two-family dwelling that is offered for rent"
+   }
+  ]
+ }
+}

@@ -1,0 +1,117 @@
+{
+ "meta": {
+  "model": "gemini-3.5-flash-lite",
+  "seconds": 5.0,
+  "tag": "extract-S007",
+  "usage": {
+   "promptTokenCount": 6440,
+   "candidatesTokenCount": 1571,
+   "totalTokenCount": 8011,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 6440
+    }
+   ],
+   "serviceTier": "standard"
+  },
+  "at": "2026-10-03T17:54:21Z"
+ },
+ "output": {
+  "rules": [
+   {
+    "jurisdiction": "Los Angeles, CA",
+    "level": "city",
+    "category": "rent_increase_limits",
+    "lifecycle": "enacted",
+    "title": "Revision to Annual Automatic Rent Adjustment Formula",
+    "requirement": "The maximum annual rent increase for units subject to the Rent Stabilization Ordinance is set at 90 percent of the percentage change in the Consumer Price Index, with a minimum increase of 1 percent if the calculated change is lower, and a maximum cap of 4 percent. Any annual rent increase not previously noticed and served between June 1, 2025, and June 30, 2026, shall not exceed three percent and shall not include additional utility increases.",
+    "key_value": "90% of CPI change, min 1%, max 4%",
+    "coverage": {
+     "summary": "Applies to rental units subject to the Rent Stabilization Ordinance (RSO).",
+     "built_on_or_before": null,
+     "built_after": null,
+     "built_basis": "not_stated",
+     "rolling_age_years": null,
+     "min_units": null,
+     "single_family_excluded": null,
+     "owner_dependent": null,
+     "owner_condition": null,
+     "owner_exemption_max_units": null,
+     "subsidized_excluded": null,
+     "unresolvable": "Applies to RSO units; specific RSO exemptions apply."
+    },
+    "exemptions": "Units subject to a notice of noncompliance sent to the Franchise Tax Board, notice of rent reduction or REAP placement, or related criminal convictions are ineligible for annual rent increases.",
+    "effective_date": null,
+    "enacted_date": null,
+    "citation": "Los Angeles Municipal Code Section 151.06 D.",
+    "quoted_span": "The maximum rent or maximum adjusted rent may be increased annually based on 90 percent of the difference between the average of the Consumer Price Index for All Urban Consumers for All items in Los Angeles-Long Beach-Anaheim, CA for the most recent consecutive 12-month period ending on September 30 and the average of the same index for the prior consecutive 12-month period ending on September 30, calculated as a percentage and rounded off to the nearest whole number.",
+    "yields_to_local": false,
+    "preempts_local": false,
+    "confidence": 1.0
+   },
+   {
+    "jurisdiction": "Los Angeles, CA",
+    "level": "city",
+    "category": "rent_increase_limits",
+    "lifecycle": "enacted",
+    "title": "Elimination of Rent Adjustments for Added Dependents",
+    "requirement": "Landlords may not impose a rent increase for any dependent added to an existing tenancy.",
+    "key_value": null,
+    "coverage": {
+     "summary": "Applies to tenancies under the Rent Stabilization Ordinance where dependents are added.",
+     "built_on_or_before": null,
+     "built_after": null,
+     "built_basis": "not_stated",
+     "rolling_age_years": null,
+     "min_units": null,
+     "single_family_excluded": null,
+     "owner_dependent": null,
+     "owner_condition": null,
+     "owner_exemption_max_units": null,
+     "subsidized_excluded": null,
+     "unresolvable": null
+    },
+    "exemptions": null,
+    "effective_date": null,
+    "enacted_date": null,
+    "citation": "Los Angeles Municipal Code Section 151.06 G.(iii)",
+    "quoted_span": "This subsection shall not apply for any dependent added to an existing tenancy.",
+    "yields_to_local": false,
+    "preempts_local": false,
+    "confidence": 1.0
+   },
+   {
+    "jurisdiction": "Los Angeles, CA",
+    "level": "city",
+    "category": "just_cause_eviction",
+    "lifecycle": "enacted",
+    "title": "Relocation Fees for No-Fault Tenancy Terminations",
+    "requirement": "When terminating a tenancy for certain no-fault reasons, landlords must pay relocation fees of $23,150 to qualified tenants and $11,000 to other tenants residing in the unit for fewer than three years, or $27,400 to qualified tenants and $14,400 to other tenants residing for three years or longer or having a household income at or below 80% AMI.",
+    "key_value": "$23,150 / $11,000 or $27,400 / $14,400",
+    "coverage": {
+     "summary": "Applies to rental units subject to RSO no-fault eviction relocation requirements.",
+     "built_on_or_before": null,
+     "built_after": null,
+     "built_basis": "not_stated",
+     "rolling_age_years": null,
+     "min_units": null,
+     "single_family_excluded": null,
+     "owner_dependent": null,
+     "owner_condition": null,
+     "owner_exemption_max_units": null,
+     "subsidized_excluded": null,
+     "unresolvable": "Tenancy duration and household income criteria determine specific fee tiers."
+    },
+    "exemptions": null,
+    "effective_date": null,
+    "enacted_date": null,
+    "citation": "Los Angeles Municipal Code Section 151.09 G.",
+    "quoted_span": "Except for relocation fees owed pursuant to the provisions of Subsection E. of Section 151.30 of this Code, if the termination of tenancy is based on the grounds set forth in Subdivisions 8., 10., 11., 12., 13. or 14. of Subsection A. of this section, then the landlord shall pay a relocation fee of: $23,150 to qualified tenants and a $11,000 fee to all other tenants who have lived in their rental unit for fewer than three years; $27,400 to qualified tenants and a $14,400 fee to all other tenants who have lived in their rental unit for three years or longer; or $27,400 to qualified tenants and $14,400 to all other tenants whose household income is 80% or below Area Median Income (AMI)...",
+    "yields_to_local": false,
+    "preempts_local": false,
+    "confidence": 1.0
+   }
+  ]
+ }
+}

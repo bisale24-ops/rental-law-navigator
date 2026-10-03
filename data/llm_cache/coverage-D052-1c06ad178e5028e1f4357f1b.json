@@ -1,0 +1,38 @@
+{
+ "meta": {
+  "model": "gemini-3.5-flash-lite",
+  "seconds": 1.6,
+  "tag": "coverage-D052",
+  "usage": {
+   "promptTokenCount": 5761,
+   "candidatesTokenCount": 181,
+   "totalTokenCount": 5942,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 5761
+    }
+   ],
+   "serviceTier": "standard"
+  },
+  "at": "2026-10-03T17:44:26Z"
+ },
+ "output": {
+  "statements": [
+   {
+    "jurisdiction": "MA",
+    "level": "state",
+    "category": "security_deposits",
+    "built_on_or_before": null,
+    "built_after": null,
+    "built_basis": "not_stated",
+    "min_units": null,
+    "rolling_age_years": null,
+    "owner_exemption_max_units": null,
+    "subsidized_excluded": null,
+    "single_family_excluded": null,
+    "quoted_span": "The provisions of this section shall not apply to any lease, rental, occupancy or tenancy of one hundred days or less in duration which lease or rental is for a vacation or recreational purpose."
+   }
+  ]
+ }
+}

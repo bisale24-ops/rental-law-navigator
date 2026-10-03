@@ -1,0 +1,55 @@
+{
+ "meta": {
+  "model": "gemini-3.5-flash-lite",
+  "seconds": 2.4,
+  "tag": "extract-D055",
+  "usage": {
+   "promptTokenCount": 3504,
+   "candidatesTokenCount": 550,
+   "totalTokenCount": 4054,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 3504
+    }
+   ],
+   "serviceTier": "standard"
+  },
+  "at": "2026-10-03T17:51:09Z"
+ },
+ "output": {
+  "rules": [
+   {
+    "jurisdiction": "MA",
+    "level": "state",
+    "category": "rent_increase_limits",
+    "lifecycle": "failed",
+    "title": "Initiative Petition 25-21 to Limit Rent Increases",
+    "requirement": "Proposed statewide rent control would cap annual rent increases at the lesser of the annual increase in the Consumer Price Index or 5% for most residential rental units.",
+    "key_value": "Lesser of CPI or 5%",
+    "coverage": {
+     "summary": "Applies to most residential rental units, with exemptions for owner-occupied buildings with four or fewer units, newly constructed units less than 10 years old, certain publicly regulated units, short-term rentals, and educational, religious, or nonprofit facilities.",
+     "built_on_or_before": null,
+     "built_after": null,
+     "built_basis": "not_stated",
+     "rolling_age_years": 10,
+     "min_units": null,
+     "single_family_excluded": null,
+     "owner_dependent": true,
+     "owner_condition": "owner-occupied buildings with four or fewer units",
+     "owner_exemption_max_units": 4,
+     "subsidized_excluded": true,
+     "unresolvable": null
+    },
+    "exemptions": "Owner-occupied buildings with four or fewer units, newly constructed units less than 10 years old, certain publicly regulated units, short-term rentals, and dwelling units in facilities operated solely for educational, religious, or nonprofit purposes.",
+    "effective_date": null,
+    "enacted_date": null,
+    "citation": "Initiative Petition 25-21 / Cella v. Attorney General, SJC-13893",
+    "quoted_span": "Under the proposed law, annual rent increases would have been limited to the lesser of the annual increase in the Consumer Price Index or 5%. The petition included several exemptions, including owner-occupied buildings with four or fewer units, newly constructed units less than 10 years old, certain publicly regulated units, short-term rentals, and dwelling units in facilities operated solely for educational, religious, or nonprofit purposes.",
+    "yields_to_local": false,
+    "preempts_local": false,
+    "confidence": 0.95
+   }
+  ]
+ }
+}

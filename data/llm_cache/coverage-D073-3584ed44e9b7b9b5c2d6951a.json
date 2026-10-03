@@ -1,0 +1,38 @@
+{
+ "meta": {
+  "model": "gemini-3.5-flash-lite",
+  "seconds": 2.1,
+  "tag": "coverage-D073",
+  "usage": {
+   "promptTokenCount": 10857,
+   "candidatesTokenCount": 176,
+   "totalTokenCount": 11033,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 10857
+    }
+   ],
+   "serviceTier": "standard"
+  },
+  "at": "2026-10-03T17:44:41Z"
+ },
+ "output": {
+  "statements": [
+   {
+    "jurisdiction": "San Diego, CA",
+    "level": "city",
+    "category": "just_cause_eviction",
+    "built_on_or_before": null,
+    "built_after": null,
+    "built_basis": "not_stated",
+    "min_units": null,
+    "rolling_age_years": 15,
+    "owner_exemption_max_units": null,
+    "subsidized_excluded": null,
+    "single_family_excluded": null,
+    "quoted_span": "housing that has been issued a certificate of occupancy within the previous 15 years, unless the housing is a mobilehome;"
+   }
+  ]
+ }
+}

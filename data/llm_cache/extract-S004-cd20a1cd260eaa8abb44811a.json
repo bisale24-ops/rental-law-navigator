@@ -1,0 +1,55 @@
+{
+ "meta": {
+  "model": "gemini-3.5-flash-lite",
+  "seconds": 2.5,
+  "tag": "extract-S004",
+  "usage": {
+   "promptTokenCount": 3097,
+   "candidatesTokenCount": 457,
+   "totalTokenCount": 3554,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 3097
+    }
+   ],
+   "serviceTier": "standard"
+  },
+  "at": "2026-10-03T17:54:05Z"
+ },
+ "output": {
+  "rules": [
+   {
+    "jurisdiction": "Newark, NJ",
+    "level": "city",
+    "category": "rent_increase_limits",
+    "lifecycle": "enacted",
+    "title": "Annual Rent Increase Based on CPI-U",
+    "requirement": "Landlords may increase rent annually based on the monthly Consumer Price Index-Urban percentage (CPI-U %) published every month, provided proper written notice is given.",
+    "key_value": "CPI-U",
+    "coverage": {
+     "summary": "Applies to residential rental units in Newark subject to rent control, excluding public housing, hotels/motels, commercial spaces, and validly certified newly constructed or substantially rehabilitated exempt dwellings.",
+     "built_on_or_before": null,
+     "built_after": null,
+     "built_basis": "not_stated",
+     "rolling_age_years": null,
+     "min_units": null,
+     "single_family_excluded": null,
+     "owner_dependent": false,
+     "owner_condition": null,
+     "owner_exemption_max_units": null,
+     "subsidized_excluded": true,
+     "unresolvable": null
+    },
+    "exemptions": "Public housing, motel or hotel space rented day-to-day, commercial use, and properly certified newly constructed or substantially rehabilitated dwellings.",
+    "effective_date": "2014-06-20",
+    "enacted_date": null,
+    "citation": "Newark Rent Control Ordinance",
+    "quoted_span": "Beginning June 20, 2014 permissible annual rent increases for a given month are shown in the table below. Landlords may increase rents as per the Consumer Price Index- Urban percentage (CPI-U %) published every month.",
+    "yields_to_local": false,
+    "preempts_local": false,
+    "confidence": 0.95
+   }
+  ]
+ }
+}

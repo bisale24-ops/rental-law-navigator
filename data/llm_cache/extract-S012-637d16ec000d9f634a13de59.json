@@ -1,0 +1,55 @@
+{
+ "meta": {
+  "model": "gemma-4-31b-it",
+  "seconds": 45.1,
+  "tag": "extract-S012",
+  "usage": {
+   "promptTokenCount": 2794,
+   "candidatesTokenCount": 536,
+   "totalTokenCount": 3330,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 2794
+    }
+   ],
+   "serviceTier": "standard"
+  },
+  "at": "2026-10-03T17:56:13Z"
+ },
+ "output": {
+  "rules": [
+   {
+    "jurisdiction": "San Diego, CA",
+    "level": "city",
+    "category": "screening_restrictions",
+    "lifecycle": "enacted",
+    "title": "Prohibition of Discrimination Based on a Tenant\u2019s Source of Income",
+    "requirement": "Landlords cannot discriminate against tenants or prospective tenants based on their source of income, including rental assistance from government or nonprofit programs.",
+    "key_value": null,
+    "coverage": {
+     "summary": "All rental units in San Diego, except for owner-occupied units where the owner or family member shares a bathroom or kitchen with the tenant.",
+     "built_on_or_before": null,
+     "built_after": null,
+     "built_basis": "not_stated",
+     "rolling_age_years": null,
+     "min_units": null,
+     "single_family_excluded": null,
+     "owner_dependent": true,
+     "owner_condition": "Owner or family member resides in the same building and shares a bathroom or kitchen facility with the tenant.",
+     "owner_exemption_max_units": null,
+     "subsidized_excluded": null,
+     "unresolvable": null
+    },
+    "exemptions": "Tenancies in which the owner or any member of his or her family resides within the same residential building as the tenant and the owner or family member share a bathroom or a kitchen facility with the tenant or prospective tenant.",
+    "effective_date": "2018-10-18",
+    "enacted_date": "2018-09-18",
+    "citation": "San Diego Municipal Code \u00a798.0803",
+    "quoted_span": "It is unlawful for any person to do any of the following acts, wholly or in part, based on a person\u2019s source of income (except as may be necessary to comply with any program requirements related to source of income): 1. To refuse to enter into or renew an agreement for tenancy; 2. To interrupt or terminate any tenancy; 3. To falsely represent that a rental-unit is not available for tenancy; 4. To require inclusion in the terms of an agreement for tenancy any clause, condition, or restriction; or 5. To restrict a tenant\u2019s access to facilities or services on real property associated with the tenancy, or refuse repairs or improvements to real property associated with the tenancy.",
+    "yields_to_local": false,
+    "preempts_local": false,
+    "confidence": 1.0
+   }
+  ]
+ }
+}

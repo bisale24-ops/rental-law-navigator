@@ -1,0 +1,52 @@
+{
+ "meta": {
+  "model": "gemini-3.5-flash-lite",
+  "seconds": 2.0,
+  "tag": "coverage-D025",
+  "usage": {
+   "promptTokenCount": 6553,
+   "candidatesTokenCount": 322,
+   "totalTokenCount": 6875,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 6553
+    }
+   ],
+   "serviceTier": "standard"
+  },
+  "at": "2026-10-03T17:43:40Z"
+ },
+ "output": {
+  "statements": [
+   {
+    "jurisdiction": "CA",
+    "level": "state",
+    "category": "security_deposits",
+    "built_on_or_before": null,
+    "built_after": null,
+    "built_basis": "not_stated",
+    "min_units": null,
+    "rolling_age_years": null,
+    "owner_exemption_max_units": 2,
+    "subsidized_excluded": null,
+    "single_family_excluded": null,
+    "quoted_span": "The landlord owns no more than two residential rental properties that collectively include no more than four dwelling units offered for rent."
+   },
+   {
+    "jurisdiction": "CA",
+    "level": "state",
+    "category": "security_deposits",
+    "built_on_or_before": null,
+    "built_after": null,
+    "built_basis": "not_stated",
+    "min_units": null,
+    "rolling_age_years": null,
+    "owner_exemption_max_units": null,
+    "subsidized_excluded": null,
+    "single_family_excluded": null,
+    "quoted_span": "This section applies to security for a rental agreement for residential property that is used as the dwelling of the tenant."
+   }
+  ]
+ }
+}

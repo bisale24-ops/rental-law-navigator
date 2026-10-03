@@ -32,15 +32,63 @@ def _key():
     return p.read_text().strip() if p.exists() else ""
 
 
+PROVIDER = os.environ.get("NAV_PROVIDER", "gemini")          # gemini | anthropic
+CLAUDE_MODEL = os.environ.get("NAV_CLAUDE_MODEL", "claude-sonnet-5-5")
+
+
+def _anthropic_key():
+    v = os.environ.get("ANTHROPIC_API_KEY", "").strip()
+    if v:
+        return v
+    p = pathlib.Path.home() / ".config" / "anthropic.key"
+    return p.read_text().strip() if p.exists() else ""
+
+
+def _ask_claude(system, prompt, schema, path, tag):
+    """Claude with a forced tool call: the tool's input schema is the output schema."""
+    body = {"model": CLAUDE_MODEL, "max_tokens": 16000, "temperature": 0, "system": system,
+            "messages": [{"role": "user", "content": prompt}],
+            "tools": [{"name": "emit", "description": "Return the result.", "input_schema": schema}],
+            "tool_choice": {"type": "tool", "name": "emit"}}
+    last = None
+    for attempt in range(5):
+        req = urllib.request.Request("https://api.anthropic.com/v1/messages", data=json.dumps(body).encode(),
+                                     headers={"content-type": "application/json", "x-api-key": _anthropic_key(),
+                                              "anthropic-version": "2023-06-01"})
+        t0 = time.time()
+        try:
+            with urllib.request.urlopen(req, timeout=600) as r:   # noqa: S310 - fixed https endpoint
+                d = json.load(r)
+            out = next(c["input"] for c in d["content"] if c["type"] == "tool_use")
+            meta = {"model": d.get("model", CLAUDE_MODEL), "seconds": round(time.time() - t0, 1), "tag": tag,
+                    "usage": d.get("usage", {}), "at": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())}
+            CACHE.mkdir(parents=True, exist_ok=True)
+            path.write_text(json.dumps({"meta": meta, "output": out}, indent=1))
+            return out, dict(meta, cached=False)
+        except urllib.error.HTTPError as e:
+            last = f"{CLAUDE_MODEL} {e.code} {e.read().decode(errors='replace')[:300]}"
+            if e.code in (429, 500, 529, 503):
+                time.sleep(10 * (attempt + 1))
+                continue
+            break
+        except (TimeoutError, urllib.error.URLError, StopIteration, KeyError) as e:
+            last = f"{CLAUDE_MODEL} {type(e).__name__} {e}"[:300]
+            time.sleep(5)
+    raise NoModel(last or "claude unavailable")
+
+
 def ask_json(system, prompt, schema, tag="call", replay_only=False, models=None):
     """Returns (parsed JSON, meta). meta records model, cache hit and timing for the audit log."""
     h = hashlib.sha256(json.dumps([system, prompt, schema], sort_keys=True).encode()).hexdigest()[:24]
-    path = CACHE / f"{tag}-{h}.json"
+    ns = "claude-" if PROVIDER == "anthropic" else ""
+    path = CACHE / f"{ns}{tag}-{h}.json"
     if path.exists():
         rec = json.loads(path.read_text())
         return rec["output"], dict(rec["meta"], cached=True)
     if replay_only:
         raise NoModel(f"not recorded: {tag}")
+    if PROVIDER == "anthropic":
+        return _ask_claude(system, prompt, schema, path, tag)
     body = {"systemInstruction": {"parts": [{"text": system}]},
             "contents": [{"role": "user", "parts": [{"text": prompt}]}],
             "generationConfig": {"temperature": 0, "responseMimeType": "application/json",

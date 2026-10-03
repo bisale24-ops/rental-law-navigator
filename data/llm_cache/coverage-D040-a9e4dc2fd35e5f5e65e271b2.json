@@ -1,0 +1,66 @@
+{
+ "meta": {
+  "model": "gemini-3.5-flash-lite",
+  "seconds": 2.3,
+  "tag": "coverage-D040",
+  "usage": {
+   "promptTokenCount": 2755,
+   "candidatesTokenCount": 526,
+   "totalTokenCount": 3281,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 2755
+    }
+   ],
+   "serviceTier": "standard"
+  },
+  "at": "2026-10-03T17:43:32Z"
+ },
+ "output": {
+  "statements": [
+   {
+    "jurisdiction": "Los Angeles, CA",
+    "level": "city",
+    "category": "just_cause_eviction",
+    "built_on_or_before": null,
+    "built_after": null,
+    "built_basis": "not_stated",
+    "min_units": null,
+    "rolling_age_years": null,
+    "owner_exemption_max_units": null,
+    "subsidized_excluded": null,
+    "single_family_excluded": false,
+    "quoted_span": "The JCO can apply to a property that contains only one single-family dwelling."
+   },
+   {
+    "jurisdiction": "CA",
+    "level": "state",
+    "category": "rent_increase_limits",
+    "built_on_or_before": null,
+    "built_after": null,
+    "built_basis": "construction",
+    "min_units": null,
+    "rolling_age_years": 15,
+    "owner_exemption_max_units": null,
+    "subsidized_excluded": true,
+    "single_family_excluded": null,
+    "quoted_span": "Units that were constructed within the last 15 years (this applies on a rolling basis \u2013 i.e.. a unit constructed on January 1, 2006 is not covered as of January, 1 2020, but is covered on and after January 1, 2021)."
+   },
+   {
+    "jurisdiction": "CA",
+    "level": "state",
+    "category": "rent_increase_limits",
+    "built_on_or_before": null,
+    "built_after": null,
+    "built_basis": "not_stated",
+    "min_units": 2,
+    "rolling_age_years": null,
+    "owner_exemption_max_units": null,
+    "subsidized_excluded": null,
+    "single_family_excluded": null,
+    "quoted_span": "A two-unit property, provided the second unit was occupied by an owner of the property for the entire period of the tenancy."
+   }
+  ]
+ }
+}

@@ -348,5 +348,285 @@
   "requirement": "Los propietarios pueden aumentar el alquiler anualmente segñn el porcentaje aplicable mensual del Indice de Precios al Consumidor para Consumidores Urbanos (CPI-U) publicado para el mes correspondiente, siempre que den la notificaci3n por escrito adecuada.",
   "key_value": "CPI-U percentage",
   "coverage": "Se aplica a viviendas residenciales en Newark excepto viviendas pûblicas, hoteles, moteles, espacios comerciales y nuevas construcciones o unidades sustancialmente rehabilitadas explícitamente exentas."
+ },
+ "AB 325 Cartwright Act: common pricing algorithms\nIt is unlawful to use or distribute a common pricing algorithm that uses competitor data to recommend, align, stabilize, set, or influence prices or commercial terms as part of a conspiracy to restrain trade, or to coerce another person to adopt pricing recommendations from such an algorithm.": {
+  "id": "0",
+  "title": "AB 325 Ley Cartwright: algoritmos de precios comunes",
+  "requirement": "Es ilegal usar o distribuir un algoritmo de precios comunes que utilice datos de la competencia para recomendar, alinear, estabilizar, fijar o influir en los precios o términos comerciales como parte de una conspiración para restringir el comercio, o coaccionar a otra persona para que adopte recomendaciones de precios de dicho algoritmo.",
+  "key_value": null,
+  "coverage": "Se aplica generalmente a personas que usan o distribuyen algoritmos de precios comunes para restringir el comercio o la actividad comercial o coaccionar precios en el estado, excluyendo a los consumidores finales."
+ },
+ "California Tenant Protection Act of 2019 - Just Cause for Termination\nLandlords may not terminate a residential tenancy without just cause after a tenant has continuously and lawfully occupied the property for 12 months (or 24 months if an adult tenant is added before 24 months). Just cause is categorized into at-fault and no-fault reasons, and no-fault evictions require relocation assistance or a final month rent waiver equal to one month's rent.": {
+  "id": "1",
+  "title": "Ley de Protección a Inquilinos de California de 2019 - Causa Justa para Terminación",
+  "requirement": "Los propietarios no pueden terminar un contrato de alquiler residencial sin causa justa después de que un inquilino haya ocupado la propiedad de manera continua y legal durante 12 meses (o 24 meses si se agrega un inquilino adulto antes de los 24 meses). La causa justa se categoriza en razones con culpa y sin culpa, y los desalojos sin culpa requieren asistencia para la reubicación o la exención del último mes de alquiler equivalente a un mes de alquiler.",
+  "key_value": "asistencia para la reubicación de 1 mes de alquiler para desalojos sin culpa",
+  "coverage": "Se aplica a propiedades inmuebles residenciales después de 12 o 24 meses de ocupación continua, excluyendo hoteles, viviendas institucionales, ciertas propiedades ocupadas por el propietario, viviendas con menos de 15 años de antigüedad, propiedades enajenables por separado bajo propiedad no corporativa específica y viviendas asequibles restringidas por escritura."
+ },
+ "Statewide Rent Increase Limits\nLandlords are prohibited from increasing the gross rental rate for a dwelling by more than 5 percent plus the percentage change in the cost of living, or 10 percent, whichever is lower, over any 12-month period. Increases are also limited to a maximum of two increments per 12-month period.": {
+  "id": "2",
+  "title": "Límites Estatales para el Aumento del Alquiler",
+  "requirement": "Se prohíbe a los propietarios aumentar la tarifa de alquiler bruta de una vivienda en más del 5 por ciento más el cambio porcentual en el costo de vida, o el 10 por ciento, lo que sea menor, durante cualquier período de 12 meses. Los aumentos también se limitan a un máximo de dos incrementos por período de 12 meses.",
+  "key_value": "5% más el cambio en el costo de vida o límite inferior del 10%",
+  "coverage": "Se aplica a propiedades inmuebles residenciales en todo el estado, excluyendo viviendas subsidiadas por el gobierno, dormitorios, viviendas sujetas a un control de alquiler local más estricto, unidades que recibieron un certificado de ocupación dentro de los 15 años anteriores, ciertas propiedades enajenables por separado sin propiedad corporativa o de REIT, y ciertos dúplex ocupados por el propietario."
+ },
+ "Fair Employment and Housing Act Protected Characteristics\nCalifornia law prohibits housing providers from discriminating against or harassing tenants, homeowners, residents, guests, applicants, and home buyers based on protected characteristics including race, color, ancestry, national origin, citizenship, immigration status, primary language, religion, disability, sex, gender, sexual orientation, gender identity, gender expression, genetic information, marital status, familial status, source of income, military or veteran status, and age.": {
+  "id": "3",
+  "title": "Características Protegidas por la Ley de Empleo y Vivienda Justa",
+  "requirement": "La ley de California prohíbe que los proveedores de vivienda discriminen o acosen a inquilinos, propietarios, residentes, invitados, solicitantes y compradores de vivienda basándose en características protegidas que incluyen raza, color, ascendencia, origen nacional, ciudadanía, estado migratorio, idioma principal, religión, discapacidad, sexo, género, orientación sexual, identidad de género, expresión de género, información genética, estado civil, situación familiar, fuente de ingresos, condición de militar o veterano y edad.",
+  "key_value": null,
+  "coverage": "Se aplica a la mayoría de las viviendas y proveedores en California."
+ },
+ "Security Deposit Limit\nLandlords may only charge up to one month's rent as a security deposit for both unfurnished and furnished units.": {
+  "id": "4",
+  "title": "Límite del Depósito de Garantía",
+  "requirement": "Los propietarios solo pueden cobrar hasta un mes de alquiler como depósito de garantía tanto para unidades amuebladas como sin amueblar.",
+  "key_value": "1 mes de alquiler",
+  "coverage": "Se aplica a propiedades residenciales utilizadas como vivienda del inquilino."
+ },
+ "Prohibition on Coordinated Pricing Algorithms\nLandlords are prohibited from using coordinated pricing algorithms to set rents or manage occupancy levels for residential dwelling units in Berkeley, and vendors are prohibited from selling or providing such algorithms to Berkeley landlords.": {
+  "id": "5",
+  "title": "Prohibición de Algoritmos de Precios Coordinados",
+  "requirement": "Se prohíbe a los propietarios utilizar algoritmos de precios coordinados para fijar los alquileres o administrar los niveles de ocupación de las unidades de vivienda residencial en Berkeley, y se prohíbe a los proveedores vender o proporcionar dichos algoritmos a los propietarios de Berkeley.",
+  "key_value": null,
+  "coverage": "Todas las unidades de vivienda residencial en la Ciudad de Berkeley."
+ },
+ "Prohibition of Non-Refundable Application Fees for Existing Tenancies\nLandlords cannot charge existing tenants a non-refundable fee to renew a tenancy, or to add, replace, or remove a roommate.": {
+  "id": "6",
+  "title": "Prohibición de Tarifas de Solicitud No Reembolsables para Arrendamientos Existentes",
+  "requirement": "Los propietarios no pueden cobrar a los inquilinos actuales una tarifa no reembolsable para renovar un contrato de alquiler, ni para agregar, reemplazar o eliminar a un compañero de cuarto.",
+  "key_value": null,
+  "coverage": "Propiedades de alquiler residencial en Berkeley donde se cobra una tarifa de evaluación."
+ },
+ "Ronald V. Dellums Fair Chance Access to Housing Ordinance\nLandlords are prohibited from inquiring about, requiring disclosure of, or considering criminal history during advertising, application, tenant selection, or decision-making, and cannot charge higher rent or security deposits based on criminal history.": {
+  "id": "7",
+  "title": "Ordenanza de Acceso Justo a la Vivienda Ronald V. Dellums",
+  "requirement": "Se prohíbe a los propietarios preguntar sobre, exigir la divulgación de o considerar el historial criminal durante la publicidad, la solicitud, la selección de inquilinos o la toma de decisiones, y no pueden cobrar un alquiler o depósitos de garantía más altos basados en el historial criminal.",
+  "key_value": null,
+  "coverage": "Se aplica a los proveedores de viviendas de alquiler en Berkeley, eximiendo a las propiedades ocupadas por el propietario con de 1 a 3 unidades y excepciones limitadas especificadas."
+ },
+ "Security Deposit Maximum Limit (General)\nLandlords are prohibited from charging a security deposit exceeding one month's rent for unfurnished and furnished units, with exceptions for certain small landlords.": {
+  "id": "8",
+  "title": "Límite Máximo del Depósito de Garantía (General)",
+  "requirement": "Se prohíbe a los propietarios cobrar un depósito de garantía que exceda un mes de alquiler para unidades amuebladas y sin amueblar, con excepciones para ciertos pequeños propietarios.",
+  "key_value": "1 mes de alquiler",
+  "coverage": "Se aplica a los arrendamientos residenciales, excepto para ciertos pequeños propietarios que poseen un máximo de dos propiedades y cuatro unidades en total."
+ },
+ "Instruction to Report on Algorithm-Based Rent Setting Ban\nThe City Council instructed the Los Angeles Housing Department to report on the number of entities using algorithm-based software to establish rents and the feasibility of instituting a ban on its use.": {
+  "id": "9",
+  "title": "Instrucción para Informar sobre la Prohibición de Fijación de Alquileres Basada en Algoritmos",
+  "requirement": "El Concejo Municipal instruyó al Departamento de Vivienda de Los Ángeles para que informe sobre el número de entidades que utilizan software basado en algoritmos para establecer los alquileres y la viabilidad de instituir una prohibición de su uso.",
+  "key_value": null,
+  "coverage": "Vivienda de alquiler en toda la ciudad"
+ },
+ "Just Cause For Eviction Ordinance\nLandlords are prohibited from terminating tenancies without just cause and must provide relocation assistance for no-fault evictions under the Just Cause Ordinance.": {
+  "id": "10",
+  "title": "Ordenanza de Causa Justa para Desalojo",
+  "requirement": "Se prohíbe a los propietarios terminar contratos de alquiler sin causa justa y deben proporcionar asistencia para la reubicación en desalojos sin culpa bajo la Ordenanza de Causa Justa.",
+  "key_value": null,
+  "coverage": "Cubre la mayoría de las propiedades residenciales en Los Ángeles no reguladas por la RSO, después de una residencia de 6 meses o la expiración del contrato."
+ },
+ "Los Angeles RSO Annual Allowable Rent Increase\nLandlords may increase rent once every 12 months by the allowable rent increase percentage.": {
+  "id": "11",
+  "title": "Aumento Anual Permitido de la RSO de Los Ángeles",
+  "requirement": "Los propietarios pueden aumentar el alquiler una vez cada 12 meses según el porcentaje de aumento de alquiler permitido.",
+  "key_value": null,
+  "coverage": "Se aplica a los arrendamientos bajo la Ordenanza de Estabilización de Alquileres donde se agregan dependientes."
+ },
+ "Security Deposit Interest Requirement\nLandlords of properties subject to the Los Angeles Rent Stabilization Ordinance must pay tenants interest on their security deposits either monthly or annually, provided as a direct payment or a rent credit, after giving written notice of the chosen method.": {
+  "id": "12",
+  "title": "Requisito de Interés sobre el Depósito de Garantía",
+  "requirement": "Los propietarios de propiedades sujetas a la Ordenanza de Estabilización de Alquileres de Los Ángeles deben pagar a los inquilinos intereses sobre sus depósitos de garantía mensual o anualmente, entregados como un pago directo o un crédito de alquiler, después de dar aviso por escrito del método elegido.",
+  "key_value": null,
+  "coverage": "Cubre unidades de alquiler sujetas a la Ordenanza de Estabilización de Alquileres con un certificado de ocupación emitido por primera vez antes del 1 de octubre de 1978, donde el inquilino ocupa la unidad durante más de 30 días consecutivos, excluyendo los parques de casas móviles."
+ },
+ "Prohibition of Anti-Competitive Automated Rent Price-Fixing\nIt is unlawful for any person to sell, license, or provide an algorithmic device to a landlord, and it is unlawful for a landlord to use an algorithmic device to set rental rates or occupancy levels for residential rental property.": {
+  "id": "13",
+  "title": "Prohibición de Fijación Anticompetitiva de Precios de Alquiler Automatizados",
+  "requirement": "Es ilegal que cualquier persona venda, otorgue licencia o proporcione un dispositivo algorítmico a un propietario, y es ilegal que un propietario use un dispositivo algorítmico para fijar tarifas de alquiler o niveles de ocupación para propiedades de alquiler residencial.",
+  "key_value": null,
+  "coverage": "Se aplica a propiedades de alquiler residencial y propietarios dentro de la Ciudad de San Diego que utilicen dispositivos algorítmicos, con excepciones para informes de datos agregados históricos, pautas de vivienda asequible y tasaciones."
+ },
+ "Just Cause Required for Termination of Tenancy\nLandlords are prohibited from terminating a tenancy without just cause, which is categorized into at-fault and no-fault just cause reasons.": {
+  "id": "14",
+  "title": "Causa Justa Requerida para la Terminación del Contrato de Alquiler",
+  "requirement": "Se prohíbe a los propietarios terminar un contrato de alquiler sin causa justa, la cual se categoriza en razones de causa justa con culpa y sin culpa.",
+  "key_value": null,
+  "coverage": "Se aplica a contratos de alquiler residencial que duren más de 30 días, con exenciones específicas para ciertos tipos de vivienda como hoteles transitorios, viviendas asequibles restringidas por escritura, dormitorios escolares, ciertas unidades ocupadas por el propietario y viviendas con un certificado de ocupación emitido en los 15 años anteriores."
+ },
+ "Prohibition of Discrimination Based on a Tenant’s Source of Income\nLandlords cannot discriminate against tenants or prospective tenants based on their source of income, including rental assistance from government or nonprofit programs.": {
+  "id": "15",
+  "title": "Prohibición de Discriminación Basada en la Fuente de Ingresos del Inquilino",
+  "requirement": "Los propietarios no pueden discriminar a los inquilinos o futuros inquilinos según su fuente de ingresos, incluyendo la asistencia para el alquiler de programas gubernamentales o sin fines de lucro.",
+  "key_value": null,
+  "coverage": "Todas las unidades de alquiler en San Diego, excepto las unidades ocupadas por el propietario donde el propietario o un miembro de la familia comparte un baño o cocina con el inquilino."
+ },
+ "Prohibition of Algorithmic Devices for Rent Setting\nLandlords are prohibited from using software or algorithmic devices that analyze nonpublic competitor rental data to recommend rental prices for vacant residential units.": {
+  "id": "16",
+  "title": "Prohibición de Dispositivos Algorítmicos para la Fijación de Alquileres",
+  "requirement": "Se prohíbe a los propietarios utilizar software o dispositivos algorítmicos que analicen datos de alquiler de la competencia no públicos para recomendar precios de alquiler para unidades residenciales vacías.",
+  "key_value": "prohíbe el software de precios algorítmicos",
+  "coverage": "Se aplica a unidades residenciales en San Francisco."
+ },
+ "Just Cause Requirement for Evictions\nA landlord must have one of 17 permitted 'just cause' reasons to evict a tenant from a rental unit covered by the Rent Ordinance.": {
+  "id": "17",
+  "title": "Requisito de Causa Justa para Desalojos",
+  "requirement": "Un propietario debe tener una de las 17 razones permitidas de 'causa justa' para desalojar a un inquilino de una unidad de alquiler cubierta por la Ordenanza de Alquileres.",
+  "key_value": null,
+  "coverage": "Cubre las unidades de alquiler cubiertas por la Ordenanza de Alquileres, incluidas algunas unidades exentas de aumentos de alquiler, como las construcciones posteriores al 13 de junio de 1979 y las unidades elegibles según Costa-Hawkins."
+ },
+ "Annual Allowable Rent Increase for 2026-2027\nThe annual allowable rent increase for rent-controlled units is set to 1.6% from March 1, 2026 through February 28, 2027.": {
+  "id": "18",
+  "title": "Aumento Anual Permitido del Alquiler para 2026-2027",
+  "requirement": "El aumento anual de alquiler permitido para unidades con control de alquiler se establece en 1.6% del 1 de marzo de 2026 al 28 de febrero de 2027.",
+  "key_value": "1.6%",
+  "coverage": "Se aplica a unidades con control de alquiler en San Francisco."
+ },
+ "Ban on Anticompetitive Rent-Setting Software\nThe city prohibits the sale, licensing, provision, and use of certain algorithmic rent-setting software for residential rental properties that relies on nonpublic competitor data, while exempting software that relies solely on public data, aggregate historical data, or affordable housing compliance tools.": {
+  "id": "19",
+  "title": "Prohibición de Software Anticompetitivo de Fijación de Alquileres",
+  "requirement": "La ciudad prohíbe la venta, concesión de licencias, provisión y uso de cierto software algorítmico de fijación de alquileres para propiedades de alquiler residencial que dependa de datos no públicos de la competencia, al tiempo que exime al software que se basa únicamente en datos públicos, datos históricos agregados o herramientas de cumplimiento de vivienda asequible.",
+  "key_value": "sanciones civiles de hasta $1,000 por infracción",
+  "coverage": "Se aplica a propiedades de alquiler residencial dentro de los límites de la ciudad de Santa Ana, excluyendo el software de precios que utiliza únicamente datos públicamente disponibles, datos históricos agregados o herramientas para el cumplimiento de programas de vivienda asequible."
+ },
+ "Just Cause Eviction Ordinance\nLandlords must have just cause to terminate a tenancy after 30 days and provide 3 months of relocation assistance or waive 3 months of rent for no-fault evictions.": {
+  "id": "0",
+  "title": "Ordenanza de Desalojo por Justa Causa",
+  "requirement": "Los propietarios deben tener justa causa para terminar un contrato de alquiler después de 30 días y ofrecer 3 meses de asistencia para la reubicación o eximir 3 meses de renta en desalojos sin culpa.",
+  "key_value": "3 meses de asistencia para reubicación por desalojo sin culpa",
+  "coverage": "Aplica a propiedades residenciales después de 30 días, con exclusiones específicas como viviendas construidas en los últimos 15 años y viviendas asequibles con restricciones de escritura."
+ },
+ "Rent Stabilization Ordinance\nResidential rent increases are limited to the lower of 3% per year, or 80% of the percent change in the Consumer Price Index over the most recent 12-month period.": {
+  "id": "1",
+  "title": "Ordenanza de Estabilización de Rentas",
+  "requirement": "Los aumentos de la renta residencial se limitan al menor entre el 3% anual o el 80% del cambio porcentual en el Índice de Precios al Consumidor durante el período más reciente de 12 meses.",
+  "key_value": "El menor entre 3% o 80% del IPC",
+  "coverage": "Aplica a edificios residenciales, excluyendo aquellos construidos después del 1 de febrero de 1995 y espacios para casas móviles ofrecidos después del 1 de enero de 1990."
+ },
+ "An Act prohibiting algorithmic rent setting\nThis bill proposes to prohibit the use of algorithmic devices or software to set or recommend rents or occupancy in the rental housing market.": {
+  "id": "2",
+  "title": "Una Ley que prohíbe la fijación algorítmica de rentas",
+  "requirement": "Este proyecto propone prohibir el uso de dispositivos o software algorítmicos para fijar o recomendar rentas u ocupación en el mercado de viviendas de alquiler.",
+  "key_value": null,
+  "coverage": "Mercado de viviendas de alquiler a nivel estatal."
+ },
+ "An Act relative to preventing algorithmic rent fixing in the rental housing market\nThis pending bill proposes to prevent algorithmic rent fixing and coordination in the rental housing market.": {
+  "id": "3",
+  "title": "Una Ley relativa a la prevención de la fijación algorítmica de rentas en el mercado de viviendas de alquiler",
+  "requirement": "Este proyecto de ley pendiente propone prevenir la fijación algorítmica y la coordinación de rentas en el mercado de viviendas de alquiler.",
+  "key_value": null,
+  "coverage": "Mercado de viviendas de alquiler a nivel estatal"
+ },
+ "Tenant Fee Responsibility for Real Estate Brokers and Salespersons\nAny fee for finding dwelling accommodations must be paid exclusively by the party, lessor or tenant who originally engaged and entered into a contract with the licensed broker or salesperson.": {
+  "id": "4",
+  "title": "Responsabilidad de los Inquilinos en el Pago de Honorarios a Corredores y Agentes de Bienes Raíces",
+  "requirement": "Cualquier honorario por buscar alojamiento debe ser pagado exclusivamente por la parte, arrendador o inquilino que originalmente contrató y celebró un acuerdo con el corredor o agente con licencia.",
+  "key_value": null,
+  "coverage": "Aplica a los arrendadores o propietarios a nivel estatal."
+ },
+ "Notice to determine estate at will and cure for nonpayment\nFor tenancies at will, a landlord must provide a 14-day written notice to quit for nonpayment of rent, which must include a specific notice of the tenant's right to cure. The tenant can prevent termination by paying or tendering the full amount of rent due within 10 days of receipt, provided the tenant has not received a similar notice within the preceding 12 months.": {
+  "id": "5",
+  "title": "Aviso para determinar propiedad a voluntad y subsanación por falta de pago",
+  "requirement": "Para arrendamientos a voluntad, el propietario debe dar un aviso por escrito de 14 días para desalojar por falta de pago de la renta, el cual debe incluir un aviso específico sobre el derecho del inquilino a subsanar el problema. El inquilino puede evitar la terminación pagando u ofreciendo el monto total de la renta adeudada dentro de los 10 días siguientes a su recepción, siempre que no haya recibido un aviso similar en los 12 meses anteriores.",
+  "key_value": "Aviso de 14 días, período de subsanación de 10 días",
+  "coverage": "Aplica a propiedades a voluntad."
+ },
+ "General prohibition on rent control with voluntary exception\nCities and towns are generally prohibited from enacting or enforcing rent control, except that municipalities accepting the chapter may adopt a voluntary rent control system where compliance is uncoerced and property owners may decline to participate.": {
+  "id": "6",
+  "title": "Prohibición general del control de rentas con excepción voluntaria",
+  "requirement": "Por lo general, las ciudades y pueblos tienen prohibido promulgar o hacer cumplir el control de rentas, excepto que los municipios que acepten este capítulo pueden adoptar un sistema voluntario de control de rentas donde el cumplimiento no sea coaccionado y los propietarios puedan negarse a participar.",
+  "key_value": null,
+  "coverage": "Aplica a las unidades de alquiler a menos que sean propiedad de una persona o entidad que posea menos de diez unidades o tenga una renta justa de mercado superior a $400."
+ },
+ "Initiative Petition 25-21 to Limit Rent Increases\nProposed statewide rent control would cap annual rent increases at the lesser of the annual increase in the Consumer Price Index or 5% for most residential rental units.": {
+  "id": "7",
+  "title": "Petición de Iniciativa 25-21 para Limitar Aumentos de Renta",
+  "requirement": "El control de rentas propuesto a nivel estatal limitaría los aumentos anuales de la renta al menor entre el aumento anual del Índice de Precios al Consumidor o el 5% para la mayoría de las unidades de alquiler residencial.",
+  "key_value": "El menor entre el IPC o 5%",
+  "coverage": "Aplica a la mayoría de las unidades de alquiler residencial, con exenciones para edificios ocupados por el propietario con cuatro unidades o menos, unidades de nueva construcción de menos de 10 años, ciertas unidades reguladas públicamente, alquileres a corto plazo y centros educativos, religiosos o sin fines de lucro."
+ },
+ "Housing accommodations discrimination in rental or sale\nIt is unlawful for housing owners, lessors, brokers, or managing agents to refuse to rent, lease, sell, or negotiate for housing accommodations, or to discriminate in terms, conditions, privileges, facilities, or services, or to make discriminatory inquiries or records based on race, religious creed, color, national origin, sex, gender identity, sexual orientation, age, genetic information, ancestry, marital status, veteran status, or handicap.": {
+  "id": "8",
+  "title": "Discriminación de alojamientos de vivienda en alquiler o venta",
+  "requirement": "Es ilegal que los propietarios de viviendas, arrendadores, corredores o agentes administradores se nieguen a rentar, arrendar, vender o negociar alojamientos de vivienda, o discriminen en términos, condiciones, privilegios, instalaciones o servicios, o realicen consultas o registros discriminatorios basados en raza, credo religioso, color, origen nacional, sexo, identidad de género, orientación sexual, edad, información genética, ascendencia, estado civil, condición de veterano o discapacidad.",
+  "key_value": null,
+  "coverage": "Aplica a alojamientos de vivienda asistidos públicamente, multifamiliares o ubicados de forma contigua, condominios y cooperativas de vivienda."
+ },
+ "Maximum Move-in Payments Limit\nLandlords may not require a tenant to pay more than the first month's rent, last month's rent, a security deposit equal to the first month's rent (or an authorized fee in lieu of a deposit), and the purchase and installation cost for a key and lock at or prior to the commencement of tenancy.": {
+  "id": "9",
+  "title": "Límite Máximo de Pagos al Mudarse",
+  "requirement": "Los propietarios no pueden exigir al inquilino que pague más que la renta del primer mes, la renta del último mes, un depósito de seguridad igual a la renta del primer mes (o una tarifa autorizada en lugar de un depósito), y el costo de compra e instalación de una llave y cerradura al comienzo o antes del inicio del alquiler.",
+  "key_value": "Depósito de seguridad máximo de 1 mes de renta",
+  "coverage": "Aplica a los alquileres de bienes raíces residenciales, excluyendo alquileres vacacionales o recreativos de 100 días o menos."
+ },
+ "Boston Rental Assistance and Fair Housing Screening Protections\nProperty owners in Boston cannot discriminate against tenants or housing applicants based on rental assistance (such as Section 8 vouchers, social security disability vouchers, and veterans vouchers) or other protected characteristics.": {
+  "id": "10",
+  "title": "Asistencia para Alquiler en Boston y Protecciones de Evaluación de Vivienda Justa",
+  "requirement": "Los propietarios en Boston no pueden discriminar a los inquilinos o solicitantes de vivienda basándose en la asistencia para el alquiler (como vales de la Sección 8, vales de discapacidad del seguro social y vales para veteranos) u otras características protegidas.",
+  "key_value": "Se prohíbe la discriminación por asistencia para el alquiler",
+  "coverage": "Proveedores de vivienda que reciben fondos y/o terrenos del Departamento de Desarrollo Vecinal (DND), o que tienen unidades con restricciones de ingresos creadas bajo la Política de Desarrollo de Inclusión de la BPDA."
+ },
+ "Source of Income Discrimination Prohibition\nLandlords, sellers, and rental agents are prohibited from discriminating against applicants based on their source of income, which explicitly includes Section 8 and public benefits.": {
+  "id": "11",
+  "title": "Prohibición de Discriminación por Fuente de Ingresos",
+  "requirement": "Se prohíbe a los propietarios, vendedores y agentes de alquiler discriminar a los solicitantes según su fuente de ingresos, lo que incluye explícitamente la Sección 8 y los beneficios públicos.",
+  "key_value": null,
+  "coverage": "Cubre las transacciones de vivienda y bienes raíces en Cambridge, con una exención para viviendas bifamiliares donde vive el propietario."
+ },
+ "Forbidding the Algorithmic Inflation of Rent (FAIR) Act\nIt is unlawful for rental property owners to use coordinators or algorithmic devices that perform a coordinating function using competitively sensitive information to set or recommend rents, material lease terms, or occupancy levels, and unlawful to engage in parallel pricing coordination.": {
+  "id": "12",
+  "title": "Ley para Prohibir la Inflación Algorítmica de la Renta (FAIR)",
+  "requirement": "Es ilegal que los propietarios de viviendas de alquiler utilicen coordinadores o dispositivos algorítmicos que cumplan una función de coordinación utilizando información competitivamente sensible para fijar o recomendar rentas, términos materiales de arrendamiento o niveles de ocupación, y es ilegal participar en la coordinación de precios paralelos.",
+  "key_value": null,
+  "coverage": "Aplica a los propietarios de viviendas de alquiler residencial y proveedores de software que utilizan software de gestión de ingresos algorítmicos, excluyendo herramientas disponibles públicamente, hojas de cálculo que requieren análisis humano, bases de datos de listados tradicionales y programas de vivienda asequible administrados por el gobierno."
+ },
+ "Application Fee Cap\nLandlords and their agents cannot charge a residential rental application or screening fee exceeding $50. The fee limit is subject to annual adjustments based on the Consumer Price Index.": {
+  "id": "13",
+  "title": "Límite de Tarifa de Solicitud",
+  "requirement": "Los propietarios y sus agentes no pueden cobrar una tarifa de solicitud o evaluación de alquiler residencial superior a $50. El límite de la tarifa está sujeto a ajustes anuales basados en el Índice de Precios al Consumidor.",
+  "key_value": "50",
+  "coverage": "Aplica a las propiedades de alquiler residencial en general, con exenciones explícitas para viviendas unifamiliares o bifamiliares ofrecidas en alquiler y agentes inmobiliarios que no son el propietario."
+ },
+ "New Jersey Anti-Eviction Act Good Cause Requirement\nLandlords may not remove residential tenants or fail to renew leases except for specific statutory grounds of good cause.": {
+  "id": "14",
+  "title": "Requisito de Causa Justa de la Ley Antidesalojo de Nueva Jersey",
+  "requirement": "Los propietarios no pueden desalojar a los inquilinos residenciales ni dejar de renovar contratos de alquiler excepto por motivos legales específicos de causa justa.",
+  "key_value": null,
+  "coverage": "Aplica a propiedades residenciales en general, con exclusiones explícitas para ciertos locales ocupados por el propietario, hoteles/moteles y fideicomisos familiares específicos o unidades ocupadas por familiares directos con discapacidades del desarrollo."
+ },
+ "Fair Chance in Housing Act - Criminal Record Screening Limitations\nHousing providers are prohibited from inquiring about or considering an applicant's criminal record prior to issuing a conditional offer of rental housing, with limited exceptions for certain methamphetamine production on federally assisted housing premises and lifetime sex offender registration requirements.": {
+  "id": "15",
+  "title": "Ley de Oportunidad Justa en la Vivienda - Limitaciones de Verificación de Antecedentes Penales",
+  "requirement": "Se prohíbe a los proveedores de vivienda indagar sobre los antecedentes penales de un solicitante o considerarlos antes de emitir una oferta condicional de vivienda de alquiler, con excepciones limitadas para ciertos casos de producción de metanfetamina en instalaciones de vivienda asistida federalmente y requisitos de registro de delincuentes sexuales de por vida.",
+  "key_value": null,
+  "coverage": "Aplica a las unidades de vivienda en alquiler en Nueva Jersey, excluyendo unidades de vivienda en locales ocupados por el propietario de no más de cuatro unidades de vivienda."
+ },
+ "Maximum Security Deposit Limit\nLandlords are prohibited from charging a security deposit that exceeds one and one-half times one month’s rent.": {
+  "id": "16",
+  "title": "Límite Máximo del Depósito de Seguridad",
+  "requirement": "Se prohíbe a los propietarios cobrar un depósito de seguridad que exceda una vez y media la renta de un mes.",
+  "key_value": "1.5 meses de renta",
+  "coverage": "Aplica a la mayoría de las propiedades de alquiler residencial, incluidas las casas móviles, excluyendo las viviendas bifamiliares o trifamiliares ocupadas por el propietario a menos que el inquilino lo solicite."
+ },
+ "Hoboken Rent Leveling Increase Cap\nNo landlord may request or receive a percentage increase in rent which is greater than 5%.": {
+  "id": "17",
+  "title": "Límite de Aumento de Nivelación de Renta en Hoboken",
+  "requirement": "Ningún propietario puede solicitar o recibir un aumento porcentual en la renta que sea superior al 5%.",
+  "key_value": "5%",
+  "coverage": "Cubre las unidades de alquiler bajo la ordenanza municipal de nivelación de renta."
+ },
+ "Jersey City Code § 218-12\nLandlords are prohibited from using algorithmic rent coordination services.": {
+  "id": "18",
+  "title": "Código de Jersey City § 218-12",
+  "requirement": "Se prohíbe a los propietarios utilizar servicios de coordinación algorítmica de rentas.",
+  "key_value": null,
+  "coverage": "Propietarios de viviendas multifamiliares"
+ },
+ "Jersey City Rent Control Exemption for 1-4 Unit Properties\nProperties with 1 to 4 units are exempt from Jersey City's rent control regulations.": {
+  "id": "19",
+  "title": "Exención del Control de Rentas de Jersey City para Propiedades de 1 a 4 Unidades",
+  "requirement": "Las propiedades de 1 a 4 unidades están exentas de las regulaciones de control de rentas de Jersey City.",
+  "key_value": "1 a 4 unidades",
+  "coverage": "propiedades sujetas al control de rentas"
  }
 }

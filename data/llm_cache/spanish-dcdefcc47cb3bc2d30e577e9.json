@@ -1,0 +1,164 @@
+{
+ "meta": {
+  "model": "gemini-3.5-flash-lite",
+  "seconds": 8.1,
+  "tag": "spanish",
+  "usage": {
+   "promptTokenCount": 2182,
+   "candidatesTokenCount": 3072,
+   "totalTokenCount": 5254,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 2182
+    }
+   ],
+   "serviceTier": "standard"
+  },
+  "at": "2026-10-03T18:44:38Z"
+ },
+ "output": {
+  "items": [
+   {
+    "id": "0",
+    "title": "AB 325 Ley Cartwright: algoritmos de precios comunes",
+    "requirement": "Es ilegal usar o distribuir un algoritmo de precios comunes que utilice datos de la competencia para recomendar, alinear, estabilizar, fijar o influir en los precios o t\u00e9rminos comerciales como parte de una conspiraci\u00f3n para restringir el comercio, o coaccionar a otra persona para que adopte recomendaciones de precios de dicho algoritmo.",
+    "key_value": null,
+    "coverage": "Se aplica generalmente a personas que usan o distribuyen algoritmos de precios comunes para restringir el comercio o la actividad comercial o coaccionar precios en el estado, excluyendo a los consumidores finales."
+   },
+   {
+    "id": "1",
+    "title": "Ley de Protecci\u00f3n a Inquilinos de California de 2019 - Causa Justa para Terminaci\u00f3n",
+    "requirement": "Los propietarios no pueden terminar un contrato de alquiler residencial sin causa justa despu\u00e9s de que un inquilino haya ocupado la propiedad de manera continua y legal durante 12 meses (o 24 meses si se agrega un inquilino adulto antes de los 24 meses). La causa justa se categoriza en razones con culpa y sin culpa, y los desalojos sin culpa requieren asistencia para la reubicaci\u00f3n o la exenci\u00f3n del \u00faltimo mes de alquiler equivalente a un mes de alquiler.",
+    "key_value": "asistencia para la reubicaci\u00f3n de 1 mes de alquiler para desalojos sin culpa",
+    "coverage": "Se aplica a propiedades inmuebles residenciales despu\u00e9s de 12 o 24 meses de ocupaci\u00f3n continua, excluyendo hoteles, viviendas institucionales, ciertas propiedades ocupadas por el propietario, viviendas con menos de 15 a\u00f1os de antig\u00fcedad, propiedades enajenables por separado bajo propiedad no corporativa espec\u00edfica y viviendas asequibles restringidas por escritura."
+   },
+   {
+    "id": "2",
+    "title": "L\u00edmites Estatales para el Aumento del Alquiler",
+    "requirement": "Se proh\u00edbe a los propietarios aumentar la tarifa de alquiler bruta de una vivienda en m\u00e1s del 5 por ciento m\u00e1s el cambio porcentual en el costo de vida, o el 10 por ciento, lo que sea menor, durante cualquier per\u00edodo de 12 meses. Los aumentos tambi\u00e9n se limitan a un m\u00e1ximo de dos incrementos por per\u00edodo de 12 meses.",
+    "key_value": "5% m\u00e1s el cambio en el costo de vida o l\u00edmite inferior del 10%",
+    "coverage": "Se aplica a propiedades inmuebles residenciales en todo el estado, excluyendo viviendas subsidiadas por el gobierno, dormitorios, viviendas sujetas a un control de alquiler local m\u00e1s estricto, unidades que recibieron un certificado de ocupaci\u00f3n dentro de los 15 a\u00f1os anteriores, ciertas propiedades enajenables por separado sin propiedad corporativa o de REIT, y ciertos d\u00faplex ocupados por el propietario."
+   },
+   {
+    "id": "3",
+    "title": "Caracter\u00edsticas Protegidas por la Ley de Empleo y Vivienda Justa",
+    "requirement": "La ley de California proh\u00edbe que los proveedores de vivienda discriminen o acosen a inquilinos, propietarios, residentes, invitados, solicitantes y compradores de vivienda bas\u00e1ndose en caracter\u00edsticas protegidas que incluyen raza, color, ascendencia, origen nacional, ciudadan\u00eda, estado migratorio, idioma principal, religi\u00f3n, discapacidad, sexo, g\u00e9nero, orientaci\u00f3n sexual, identidad de g\u00e9nero, expresi\u00f3n de g\u00e9nero, informaci\u00f3n gen\u00e9tica, estado civil, situaci\u00f3n familiar, fuente de ingresos, condici\u00f3n de militar o veterano y edad.",
+    "key_value": null,
+    "coverage": "Se aplica a la mayor\u00eda de las viviendas y proveedores en California."
+   },
+   {
+    "id": "4",
+    "title": "L\u00edmite del Dep\u00f3sito de Garant\u00eda",
+    "requirement": "Los propietarios solo pueden cobrar hasta un mes de alquiler como dep\u00f3sito de garant\u00eda tanto para unidades amuebladas como sin amueblar.",
+    "key_value": "1 mes de alquiler",
+    "coverage": "Se aplica a propiedades residenciales utilizadas como vivienda del inquilino."
+   },
+   {
+    "id": "5",
+    "title": "Prohibici\u00f3n de Algoritmos de Precios Coordinados",
+    "requirement": "Se proh\u00edbe a los propietarios utilizar algoritmos de precios coordinados para fijar los alquileres o administrar los niveles de ocupaci\u00f3n de las unidades de vivienda residencial en Berkeley, y se proh\u00edbe a los proveedores vender o proporcionar dichos algoritmos a los propietarios de Berkeley.",
+    "key_value": null,
+    "coverage": "Todas las unidades de vivienda residencial en la Ciudad de Berkeley."
+   },
+   {
+    "id": "6",
+    "title": "Prohibici\u00f3n de Tarifas de Solicitud No Reembolsables para Arrendamientos Existentes",
+    "requirement": "Los propietarios no pueden cobrar a los inquilinos actuales una tarifa no reembolsable para renovar un contrato de alquiler, ni para agregar, reemplazar o eliminar a un compa\u00f1ero de cuarto.",
+    "key_value": null,
+    "coverage": "Propiedades de alquiler residencial en Berkeley donde se cobra una tarifa de evaluaci\u00f3n."
+   },
+   {
+    "id": "7",
+    "title": "Ordenanza de Acceso Justo a la Vivienda Ronald V. Dellums",
+    "requirement": "Se proh\u00edbe a los propietarios preguntar sobre, exigir la divulgaci\u00f3n de o considerar el historial criminal durante la publicidad, la solicitud, la selecci\u00f3n de inquilinos o la toma de decisiones, y no pueden cobrar un alquiler o dep\u00f3sitos de garant\u00eda m\u00e1s altos basados en el historial criminal.",
+    "key_value": null,
+    "coverage": "Se aplica a los proveedores de viviendas de alquiler en Berkeley, eximiendo a las propiedades ocupadas por el propietario con de 1 a 3 unidades y excepciones limitadas especificadas."
+   },
+   {
+    "id": "8",
+    "title": "L\u00edmite M\u00e1ximo del Dep\u00f3sito de Garant\u00eda (General)",
+    "requirement": "Se proh\u00edbe a los propietarios cobrar un dep\u00f3sito de garant\u00eda que exceda un mes de alquiler para unidades amuebladas y sin amueblar, con excepciones para ciertos peque\u00f1os propietarios.",
+    "key_value": "1 mes de alquiler",
+    "coverage": "Se aplica a los arrendamientos residenciales, excepto para ciertos peque\u00f1os propietarios que poseen un m\u00e1ximo de dos propiedades y cuatro unidades en total."
+   },
+   {
+    "id": "9",
+    "title": "Instrucci\u00f3n para Informar sobre la Prohibici\u00f3n de Fijaci\u00f3n de Alquileres Basada en Algoritmos",
+    "requirement": "El Concejo Municipal instruy\u00f3 al Departamento de Vivienda de Los \u00c1ngeles para que informe sobre el n\u00famero de entidades que utilizan software basado en algoritmos para establecer los alquileres y la viabilidad de instituir una prohibici\u00f3n de su uso.",
+    "key_value": null,
+    "coverage": "Vivienda de alquiler en toda la ciudad"
+   },
+   {
+    "id": "10",
+    "title": "Ordenanza de Causa Justa para Desalojo",
+    "requirement": "Se proh\u00edbe a los propietarios terminar contratos de alquiler sin causa justa y deben proporcionar asistencia para la reubicaci\u00f3n en desalojos sin culpa bajo la Ordenanza de Causa Justa.",
+    "key_value": null,
+    "coverage": "Cubre la mayor\u00eda de las propiedades residenciales en Los \u00c1ngeles no reguladas por la RSO, despu\u00e9s de una residencia de 6 meses o la expiraci\u00f3n del contrato."
+   },
+   {
+    "id": "11",
+    "title": "Aumento Anual Permitido de la RSO de Los \u00c1ngeles",
+    "requirement": "Los propietarios pueden aumentar el alquiler una vez cada 12 meses seg\u00fan el porcentaje de aumento de alquiler permitido.",
+    "key_value": null,
+    "coverage": "Se aplica a los arrendamientos bajo la Ordenanza de Estabilizaci\u00f3n de Alquileres donde se agregan dependientes."
+   },
+   {
+    "id": "12",
+    "title": "Requisito de Inter\u00e9s sobre el Dep\u00f3sito de Garant\u00eda",
+    "requirement": "Los propietarios de propiedades sujetas a la Ordenanza de Estabilizaci\u00f3n de Alquileres de Los \u00c1ngeles deben pagar a los inquilinos intereses sobre sus dep\u00f3sitos de garant\u00eda mensual o anualmente, entregados como un pago directo o un cr\u00e9dito de alquiler, despu\u00e9s de dar aviso por escrito del m\u00e9todo elegido.",
+    "key_value": null,
+    "coverage": "Cubre unidades de alquiler sujetas a la Ordenanza de Estabilizaci\u00f3n de Alquileres con un certificado de ocupaci\u00f3n emitido por primera vez antes del 1 de octubre de 1978, donde el inquilino ocupa la unidad durante m\u00e1s de 30 d\u00edas consecutivos, excluyendo los parques de casas m\u00f3viles."
+   },
+   {
+    "id": "13",
+    "title": "Prohibici\u00f3n de Fijaci\u00f3n Anticompetitiva de Precios de Alquiler Automatizados",
+    "requirement": "Es ilegal que cualquier persona venda, otorgue licencia o proporcione un dispositivo algor\u00edtmico a un propietario, y es ilegal que un propietario use un dispositivo algor\u00edtmico para fijar tarifas de alquiler o niveles de ocupaci\u00f3n para propiedades de alquiler residencial.",
+    "key_value": null,
+    "coverage": "Se aplica a propiedades de alquiler residencial y propietarios dentro de la Ciudad de San Diego que utilicen dispositivos algor\u00edtmicos, con excepciones para informes de datos agregados hist\u00f3ricos, pautas de vivienda asequible y tasaciones."
+   },
+   {
+    "id": "14",
+    "title": "Causa Justa Requerida para la Terminaci\u00f3n del Contrato de Alquiler",
+    "requirement": "Se proh\u00edbe a los propietarios terminar un contrato de alquiler sin causa justa, la cual se categoriza en razones de causa justa con culpa y sin culpa.",
+    "key_value": null,
+    "coverage": "Se aplica a contratos de alquiler residencial que duren m\u00e1s de 30 d\u00edas, con exenciones espec\u00edficas para ciertos tipos de vivienda como hoteles transitorios, viviendas asequibles restringidas por escritura, dormitorios escolares, ciertas unidades ocupadas por el propietario y viviendas con un certificado de ocupaci\u00f3n emitido en los 15 a\u00f1os anteriores."
+   },
+   {
+    "id": "15",
+    "title": "Prohibici\u00f3n de Discriminaci\u00f3n Basada en la Fuente de Ingresos del Inquilino",
+    "requirement": "Los propietarios no pueden discriminar a los inquilinos o futuros inquilinos seg\u00fan su fuente de ingresos, incluyendo la asistencia para el alquiler de programas gubernamentales o sin fines de lucro.",
+    "key_value": null,
+    "coverage": "Todas las unidades de alquiler en San Diego, excepto las unidades ocupadas por el propietario donde el propietario o un miembro de la familia comparte un ba\u00f1o o cocina con el inquilino."
+   },
+   {
+    "id": "16",
+    "title": "Prohibici\u00f3n de Dispositivos Algor\u00edtmicos para la Fijaci\u00f3n de Alquileres",
+    "requirement": "Se proh\u00edbe a los propietarios utilizar software o dispositivos algor\u00edtmicos que analicen datos de alquiler de la competencia no p\u00fablicos para recomendar precios de alquiler para unidades residenciales vac\u00edas.",
+    "key_value": "proh\u00edbe el software de precios algor\u00edtmicos",
+    "coverage": "Se aplica a unidades residenciales en San Francisco."
+   },
+   {
+    "id": "17",
+    "title": "Requisito de Causa Justa para Desalojos",
+    "requirement": "Un propietario debe tener una de las 17 razones permitidas de 'causa justa' para desalojar a un inquilino de una unidad de alquiler cubierta por la Ordenanza de Alquileres.",
+    "key_value": null,
+    "coverage": "Cubre las unidades de alquiler cubiertas por la Ordenanza de Alquileres, incluidas algunas unidades exentas de aumentos de alquiler, como las construcciones posteriores al 13 de junio de 1979 y las unidades elegibles seg\u00fan Costa-Hawkins."
+   },
+   {
+    "id": "18",
+    "title": "Aumento Anual Permitido del Alquiler para 2026-2027",
+    "requirement": "El aumento anual de alquiler permitido para unidades con control de alquiler se establece en 1.6% del 1 de marzo de 2026 al 28 de febrero de 2027.",
+    "key_value": "1.6%",
+    "coverage": "Se aplica a unidades con control de alquiler en San Francisco."
+   },
+   {
+    "id": "19",
+    "title": "Prohibici\u00f3n de Software Anticompetitivo de Fijaci\u00f3n de Alquileres",
+    "requirement": "La ciudad proh\u00edbe la venta, concesi\u00f3n de licencias, provisi\u00f3n y uso de cierto software algor\u00edtmico de fijaci\u00f3n de alquileres para propiedades de alquiler residencial que dependa de datos no p\u00fablicos de la competencia, al tiempo que exime al software que se basa \u00fanicamente en datos p\u00fablicos, datos hist\u00f3ricos agregados o herramientas de cumplimiento de vivienda asequible.",
+    "key_value": "sanciones civiles de hasta $1,000 por infracci\u00f3n",
+    "coverage": "Se aplica a propiedades de alquiler residencial dentro de los l\u00edmites de la ciudad de Santa Ana, excluyendo el software de precios que utiliza \u00fanicamente datos p\u00fablicamente disponibles, datos hist\u00f3ricos agregados o herramientas para el cumplimiento de programas de vivienda asequible."
+   }
+  ]
+ }
+}

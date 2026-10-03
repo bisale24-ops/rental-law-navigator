@@ -1,0 +1,164 @@
+{
+ "meta": {
+  "model": "gemini-3.5-flash-lite",
+  "seconds": 7.9,
+  "tag": "spanish",
+  "usage": {
+   "promptTokenCount": 2025,
+   "candidatesTokenCount": 2875,
+   "totalTokenCount": 4900,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 2025
+    }
+   ],
+   "serviceTier": "standard"
+  },
+  "at": "2026-10-03T18:44:46Z"
+ },
+ "output": {
+  "items": [
+   {
+    "id": "0",
+    "title": "Ordenanza de Desalojo por Justa Causa",
+    "requirement": "Los propietarios deben tener justa causa para terminar un contrato de alquiler despu\u00e9s de 30 d\u00edas y ofrecer 3 meses de asistencia para la reubicaci\u00f3n o eximir 3 meses de renta en desalojos sin culpa.",
+    "key_value": "3 meses de asistencia para reubicaci\u00f3n por desalojo sin culpa",
+    "coverage": "Aplica a propiedades residenciales despu\u00e9s de 30 d\u00edas, con exclusiones espec\u00edficas como viviendas construidas en los \u00faltimos 15 a\u00f1os y viviendas asequibles con restricciones de escritura."
+   },
+   {
+    "id": "1",
+    "title": "Ordenanza de Estabilizaci\u00f3n de Rentas",
+    "requirement": "Los aumentos de la renta residencial se limitan al menor entre el 3% anual o el 80% del cambio porcentual en el \u00cdndice de Precios al Consumidor durante el per\u00edodo m\u00e1s reciente de 12 meses.",
+    "key_value": "El menor entre 3% o 80% del IPC",
+    "coverage": "Aplica a edificios residenciales, excluyendo aquellos construidos despu\u00e9s del 1 de febrero de 1995 y espacios para casas m\u00f3viles ofrecidos despu\u00e9s del 1 de enero de 1990."
+   },
+   {
+    "id": "2",
+    "title": "Una Ley que proh\u00edbe la fijaci\u00f3n algor\u00edtmica de rentas",
+    "requirement": "Este proyecto propone prohibir el uso de dispositivos o software algor\u00edtmicos para fijar o recomendar rentas u ocupaci\u00f3n en el mercado de viviendas de alquiler.",
+    "key_value": null,
+    "coverage": "Mercado de viviendas de alquiler a nivel estatal."
+   },
+   {
+    "id": "3",
+    "title": "Una Ley relativa a la prevenci\u00f3n de la fijaci\u00f3n algor\u00edtmica de rentas en el mercado de viviendas de alquiler",
+    "requirement": "Este proyecto de ley pendiente propone prevenir la fijaci\u00f3n algor\u00edtmica y la coordinaci\u00f3n de rentas en el mercado de viviendas de alquiler.",
+    "key_value": null,
+    "coverage": "Mercado de viviendas de alquiler a nivel estatal"
+   },
+   {
+    "id": "4",
+    "title": "Responsabilidad de los Inquilinos en el Pago de Honorarios a Corredores y Agentes de Bienes Ra\u00edces",
+    "requirement": "Cualquier honorario por buscar alojamiento debe ser pagado exclusivamente por la parte, arrendador o inquilino que originalmente contrat\u00f3 y celebr\u00f3 un acuerdo con el corredor o agente con licencia.",
+    "key_value": null,
+    "coverage": "Aplica a los arrendadores o propietarios a nivel estatal."
+   },
+   {
+    "id": "5",
+    "title": "Aviso para determinar propiedad a voluntad y subsanaci\u00f3n por falta de pago",
+    "requirement": "Para arrendamientos a voluntad, el propietario debe dar un aviso por escrito de 14 d\u00edas para desalojar por falta de pago de la renta, el cual debe incluir un aviso espec\u00edfico sobre el derecho del inquilino a subsanar el problema. El inquilino puede evitar la terminaci\u00f3n pagando u ofreciendo el monto total de la renta adeudada dentro de los 10 d\u00edas siguientes a su recepci\u00f3n, siempre que no haya recibido un aviso similar en los 12 meses anteriores.",
+    "key_value": "Aviso de 14 d\u00edas, per\u00edodo de subsanaci\u00f3n de 10 d\u00edas",
+    "coverage": "Aplica a propiedades a voluntad."
+   },
+   {
+    "id": "6",
+    "title": "Prohibici\u00f3n general del control de rentas con excepci\u00f3n voluntaria",
+    "requirement": "Por lo general, las ciudades y pueblos tienen prohibido promulgar o hacer cumplir el control de rentas, excepto que los municipios que acepten este cap\u00edtulo pueden adoptar un sistema voluntario de control de rentas donde el cumplimiento no sea coaccionado y los propietarios puedan negarse a participar.",
+    "key_value": null,
+    "coverage": "Aplica a las unidades de alquiler a menos que sean propiedad de una persona o entidad que posea menos de diez unidades o tenga una renta justa de mercado superior a $400."
+   },
+   {
+    "id": "7",
+    "title": "Petici\u00f3n de Iniciativa 25-21 para Limitar Aumentos de Renta",
+    "requirement": "El control de rentas propuesto a nivel estatal limitar\u00eda los aumentos anuales de la renta al menor entre el aumento anual del \u00cdndice de Precios al Consumidor o el 5% para la mayor\u00eda de las unidades de alquiler residencial.",
+    "key_value": "El menor entre el IPC o 5%",
+    "coverage": "Aplica a la mayor\u00eda de las unidades de alquiler residencial, con exenciones para edificios ocupados por el propietario con cuatro unidades o menos, unidades de nueva construcci\u00f3n de menos de 10 a\u00f1os, ciertas unidades reguladas p\u00fablicamente, alquileres a corto plazo y centros educativos, religiosos o sin fines de lucro."
+   },
+   {
+    "id": "8",
+    "title": "Discriminaci\u00f3n de alojamientos de vivienda en alquiler o venta",
+    "requirement": "Es ilegal que los propietarios de viviendas, arrendadores, corredores o agentes administradores se nieguen a rentar, arrendar, vender o negociar alojamientos de vivienda, o discriminen en t\u00e9rminos, condiciones, privilegios, instalaciones o servicios, o realicen consultas o registros discriminatorios basados en raza, credo religioso, color, origen nacional, sexo, identidad de g\u00e9nero, orientaci\u00f3n sexual, edad, informaci\u00f3n gen\u00e9tica, ascendencia, estado civil, condici\u00f3n de veterano o discapacidad.",
+    "key_value": null,
+    "coverage": "Aplica a alojamientos de vivienda asistidos p\u00fablicamente, multifamiliares o ubicados de forma contigua, condominios y cooperativas de vivienda."
+   },
+   {
+    "id": "9",
+    "title": "L\u00edmite M\u00e1ximo de Pagos al Mudarse",
+    "requirement": "Los propietarios no pueden exigir al inquilino que pague m\u00e1s que la renta del primer mes, la renta del \u00faltimo mes, un dep\u00f3sito de seguridad igual a la renta del primer mes (o una tarifa autorizada en lugar de un dep\u00f3sito), y el costo de compra e instalaci\u00f3n de una llave y cerradura al comienzo o antes del inicio del alquiler.",
+    "key_value": "Dep\u00f3sito de seguridad m\u00e1ximo de 1 mes de renta",
+    "coverage": "Aplica a los alquileres de bienes ra\u00edces residenciales, excluyendo alquileres vacacionales o recreativos de 100 d\u00edas o menos."
+   },
+   {
+    "id": "10",
+    "title": "Asistencia para Alquiler en Boston y Protecciones de Evaluaci\u00f3n de Vivienda Justa",
+    "requirement": "Los propietarios en Boston no pueden discriminar a los inquilinos o solicitantes de vivienda bas\u00e1ndose en la asistencia para el alquiler (como vales de la Secci\u00f3n 8, vales de discapacidad del seguro social y vales para veteranos) u otras caracter\u00edsticas protegidas.",
+    "key_value": "Se proh\u00edbe la discriminaci\u00f3n por asistencia para el alquiler",
+    "coverage": "Proveedores de vivienda que reciben fondos y/o terrenos del Departamento de Desarrollo Vecinal (DND), o que tienen unidades con restricciones de ingresos creadas bajo la Pol\u00edtica de Desarrollo de Inclusi\u00f3n de la BPDA."
+   },
+   {
+    "id": "11",
+    "title": "Prohibici\u00f3n de Discriminaci\u00f3n por Fuente de Ingresos",
+    "requirement": "Se proh\u00edbe a los propietarios, vendedores y agentes de alquiler discriminar a los solicitantes seg\u00fan su fuente de ingresos, lo que incluye expl\u00edcitamente la Secci\u00f3n 8 y los beneficios p\u00fablicos.",
+    "key_value": null,
+    "coverage": "Cubre las transacciones de vivienda y bienes ra\u00edces en Cambridge, con una exenci\u00f3n para viviendas bifamiliares donde vive el propietario."
+   },
+   {
+    "id": "12",
+    "title": "Ley para Prohibir la Inflaci\u00f3n Algor\u00edtmica de la Renta (FAIR)",
+    "requirement": "Es ilegal que los propietarios de viviendas de alquiler utilicen coordinadores o dispositivos algor\u00edtmicos que cumplan una funci\u00f3n de coordinaci\u00f3n utilizando informaci\u00f3n competitivamente sensible para fijar o recomendar rentas, t\u00e9rminos materiales de arrendamiento o niveles de ocupaci\u00f3n, y es ilegal participar en la coordinaci\u00f3n de precios paralelos.",
+    "key_value": null,
+    "coverage": "Aplica a los propietarios de viviendas de alquiler residencial y proveedores de software que utilizan software de gesti\u00f3n de ingresos algor\u00edtmicos, excluyendo herramientas disponibles p\u00fablicamente, hojas de c\u00e1lculo que requieren an\u00e1lisis humano, bases de datos de listados tradicionales y programas de vivienda asequible administrados por el gobierno."
+   },
+   {
+    "id": "13",
+    "title": "L\u00edmite de Tarifa de Solicitud",
+    "requirement": "Los propietarios y sus agentes no pueden cobrar una tarifa de solicitud o evaluaci\u00f3n de alquiler residencial superior a $50. El l\u00edmite de la tarifa est\u00e1 sujeto a ajustes anuales basados en el \u00cdndice de Precios al Consumidor.",
+    "key_value": "50",
+    "coverage": "Aplica a las propiedades de alquiler residencial en general, con exenciones expl\u00edcitas para viviendas unifamiliares o bifamiliares ofrecidas en alquiler y agentes inmobiliarios que no son el propietario."
+   },
+   {
+    "id": "14",
+    "title": "Requisito de Causa Justa de la Ley Antidesalojo de Nueva Jersey",
+    "requirement": "Los propietarios no pueden desalojar a los inquilinos residenciales ni dejar de renovar contratos de alquiler excepto por motivos legales espec\u00edficos de causa justa.",
+    "key_value": null,
+    "coverage": "Aplica a propiedades residenciales en general, con exclusiones expl\u00edcitas para ciertos locales ocupados por el propietario, hoteles/moteles y fideicomisos familiares espec\u00edficos o unidades ocupadas por familiares directos con discapacidades del desarrollo."
+   },
+   {
+    "id": "15",
+    "title": "Ley de Oportunidad Justa en la Vivienda - Limitaciones de Verificaci\u00f3n de Antecedentes Penales",
+    "requirement": "Se proh\u00edbe a los proveedores de vivienda indagar sobre los antecedentes penales de un solicitante o considerarlos antes de emitir una oferta condicional de vivienda de alquiler, con excepciones limitadas para ciertos casos de producci\u00f3n de metanfetamina en instalaciones de vivienda asistida federalmente y requisitos de registro de delincuentes sexuales de por vida.",
+    "key_value": null,
+    "coverage": "Aplica a las unidades de vivienda en alquiler en Nueva Jersey, excluyendo unidades de vivienda en locales ocupados por el propietario de no m\u00e1s de cuatro unidades de vivienda."
+   },
+   {
+    "id": "16",
+    "title": "L\u00edmite M\u00e1ximo del Dep\u00f3sito de Seguridad",
+    "requirement": "Se proh\u00edbe a los propietarios cobrar un dep\u00f3sito de seguridad que exceda una vez y media la renta de un mes.",
+    "key_value": "1.5 meses de renta",
+    "coverage": "Aplica a la mayor\u00eda de las propiedades de alquiler residencial, incluidas las casas m\u00f3viles, excluyendo las viviendas bifamiliares o trifamiliares ocupadas por el propietario a menos que el inquilino lo solicite."
+   },
+   {
+    "id": "17",
+    "title": "L\u00edmite de Aumento de Nivelaci\u00f3n de Renta en Hoboken",
+    "requirement": "Ning\u00fan propietario puede solicitar o recibir un aumento porcentual en la renta que sea superior al 5%.",
+    "key_value": "5%",
+    "coverage": "Cubre las unidades de alquiler bajo la ordenanza municipal de nivelaci\u00f3n de renta."
+   },
+   {
+    "id": "18",
+    "title": "C\u00f3digo de Jersey City \u00a7 218-12",
+    "requirement": "Se proh\u00edbe a los propietarios utilizar servicios de coordinaci\u00f3n algor\u00edtmica de rentas.",
+    "key_value": null,
+    "coverage": "Propietarios de viviendas multifamiliares"
+   },
+   {
+    "id": "19",
+    "title": "Exenci\u00f3n del Control de Rentas de Jersey City para Propiedades de 1 a 4 Unidades",
+    "requirement": "Las propiedades de 1 a 4 unidades est\u00e1n exentas de las regulaciones de control de rentas de Jersey City.",
+    "key_value": "1 a 4 unidades",
+    "coverage": "propiedades sujetas al control de rentas"
+   }
+  ]
+ }
+}

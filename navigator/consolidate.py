@@ -220,6 +220,11 @@ def fold_stale_proposals(rules):
     return out
 
 
+def _official_first_note():
+    """The record's requirement and key value are the canonical source's own words (written while reading that
+    document); a merged summary across sources once described Los Angeles's rent cap with its eviction rules."""
+
+
 def _official_first(cands, g):
     canon = cands[g["canonical"]]
     if canon["source_type"] != "official":
@@ -247,8 +252,9 @@ def build(candidates, replay_only=False):
             eff = canon["effective_date"] or (dates[0] if dates else None)
             rec = {
                 "jurisdiction": canon["jurisdiction"], "level": canon["level"], "category": canon["category"],
-                "status": None, "title": canon["title"], "requirement": g.get("requirement") or canon["requirement"],
-                "key_value": g.get("key_value") or canon["key_value"], "coverage_conditions": merge_coverage(covsrc, members),
+                "status": None, "title": canon["title"], "requirement": canon["requirement"],
+                "key_value": canon["key_value"] or next((m["key_value"] for m in sorted(
+                    members, key=lambda m: not m["source_type"].startswith("official")) if m["key_value"]), None), "coverage_conditions": merge_coverage(covsrc, members),
                 "exemptions": canon["exemptions"], "overrides": [], "interaction": None,
                 "effective_date": eff if eff and _valid(eff) else None, "citation": canon["citation"],
                 "source_doc_id": canon["source_doc_id"], "source_url": canon["source_url"],

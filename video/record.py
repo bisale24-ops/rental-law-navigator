@@ -66,9 +66,9 @@ def unknown(page):                    # a building whose answer depends on a fac
 
 def timetravel(page):                 # T1: California AB 325 before / after 2026-01-01
     page.evaluate("document.querySelector('#asof').value='2025-12-31'; document.querySelector('#asof').dispatchEvent(new Event('change'))")
-    page.wait_for_timeout(1500)
-    glide(page, ".cat:last-of-type", steps=40)
-    page.wait_for_timeout(2500)
+    page.wait_for_timeout(1200)
+    glide(page, ".cat:last-of-type", steps=30)
+    page.wait_for_timeout(3500)
     page.evaluate("document.querySelector('#asof').value='2026-01-02'; document.querySelector('#asof').dispatchEvent(new Event('change'))")
     page.wait_for_timeout(1200)
     glide(page, ".cat:last-of-type", steps=10)

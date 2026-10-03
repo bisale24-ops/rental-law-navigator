@@ -237,14 +237,16 @@
    "built_after": null,
    "built_basis": "certificate_of_occupancy",
    "rolling_age_years": 15,
-   "min_units": null,
+   "min_units": 2,
    "single_family_excluded": false,
    "owner_dependent": true,
    "owner_condition": "Exempts certain single-family owner-occupied residences, owner-occupied duplexes, and non-corporate separately alienable properties meeting statutory ownership and notice requirements.",
    "owner_exemption_max_units": 2,
    "subsidized_excluded": true,
    "unresolvable": "Tenancy duration and specific ownership corporate structures require facts beyond a simple address record.",
-   "filled_from": []
+   "filled_from": [
+    "min_units from D023"
+   ]
   },
   "exemptions": "Transient occupancy, nonprofit/religious/extended care/residential care facilities, dormitories, shared bathroom/kitchen with owner, certain single-family owner-occupied residences (including ADUs/JADUs or mobilehomes), owner-occupied two-unit structures, housing issued a certificate of occupancy within the previous 15 years, certain separately alienable properties (not owned by a REIT, corporation, or LLC with a corporate member) with proper notice, and deed-restricted or subsidized affordable housing.",
   "overrides": [
@@ -270,14 +272,16 @@
    "built_after": null,
    "built_basis": "certificate_of_occupancy",
    "rolling_age_years": 15,
-   "min_units": null,
+   "min_units": 2,
    "single_family_excluded": false,
    "owner_dependent": true,
    "owner_condition": "Exempts certain single-family owner-occupied residences, owner-occupied duplexes, and non-corporate separately alienable properties meeting statutory ownership and notice requirements.",
    "owner_exemption_max_units": 2,
    "subsidized_excluded": true,
    "unresolvable": "Tenancy duration and specific ownership corporate structures require facts beyond a simple address record.",
-   "filled_from": []
+   "filled_from": [
+    "min_units from D023"
+   ]
   },
   "effect": "imposes_requirement",
   "yields_to_local": true,
@@ -292,6 +296,14 @@
     "effective_date": "2024-04-01",
     "key_value": "12 months continuous occupancy requirement",
     "quoted_span": "Notwithstanding any other law, after a tenant has continuously and lawfully occupied a residential real property for 12 months, the owner of the residential real property shall not terminate a tenancy without just cause, which shall be stated in the written notice to terminate tenancy."
+   }
+  ],
+  "coverage_evidence": [
+   {
+    "field": "min_units",
+    "value": 2,
+    "doc": "D023",
+    "quote": "(6)\u00a0A property containing two separate dwelling units within a single structure in which the owner occupied one of the units as the owner\u2019s principal place of residence at the beginning of the tenancy, so long as the owner continues in occupancy, and neither unit is an accessory dwelling unit or a junior accessory dwelling unit."
    }
   ],
   "source_conflict": false,
@@ -320,7 +332,7 @@
    "unresolvable": null,
    "filled_from": [
     "single_family_excluded from D040",
-    "min_units from D040"
+    "min_units from D023"
    ]
   },
   "exemptions": "Deed-restricted affordable housing, dormitories, stricter local rent control housing, units built within the last 15 years, certain independently alienable properties not owned by corporations/REITs/certain LLCs, and owner-occupied duplexes.",
@@ -355,7 +367,7 @@
    "unresolvable": null,
    "filled_from": [
     "single_family_excluded from D040",
-    "min_units from D040"
+    "min_units from D023"
    ]
   },
   "effect": "imposes_requirement",
@@ -393,8 +405,8 @@
    {
     "field": "min_units",
     "value": 2,
-    "doc": "D040",
-    "quote": "A two-unit property, provided the second unit was occupied by an owner of the property for the entire period of the tenancy."
+    "doc": "D023",
+    "quote": "(6)\u00a0A property containing two separate dwelling units within a single structure in which the owner occupied one of the units as the owner\u2019s principal place of residence at the beginning of the tenancy, so long as the owner continues in occupancy, and neither unit is an accessory dwelling unit or a junior accessory dwelling unit."
    }
   ],
   "source_conflict": false,
@@ -1602,8 +1614,8 @@
   "coverage_conditions": {
    "summary": "Covers most residential properties in the City of Los Angeles not regulated by the City's Rent Stabilization Ordinance (RSO) after the tenant has lived in the unit for at least six months or their original lease expired, whichever comes first.",
    "built_on_or_before": null,
-   "built_after": null,
-   "built_basis": "not_stated",
+   "built_after": "1978-10-01",
+   "built_basis": "certificate_of_occupancy",
    "rolling_age_years": null,
    "min_units": 4,
    "single_family_excluded": false,
@@ -1615,6 +1627,7 @@
    "filled_from": [
     "owner_condition from D040",
     "owner_exemption_max_units from D043",
+    "built_after from D040",
     "min_units from S007"
    ]
   },
@@ -1633,8 +1646,8 @@
   "coverage": {
    "summary": "Covers most residential properties in the City of Los Angeles not regulated by the City's Rent Stabilization Ordinance (RSO) after the tenant has lived in the unit for at least six months or their original lease expired, whichever comes first.",
    "built_on_or_before": null,
-   "built_after": null,
-   "built_basis": "not_stated",
+   "built_after": "1978-10-01",
+   "built_basis": "certificate_of_occupancy",
    "rolling_age_years": null,
    "min_units": 4,
    "single_family_excluded": false,
@@ -1646,6 +1659,7 @@
    "filled_from": [
     "owner_condition from D040",
     "owner_exemption_max_units from D043",
+    "built_after from D040",
     "min_units from S007"
    ]
   },
@@ -1721,6 +1735,12 @@
    }
   ],
   "coverage_evidence": [
+   {
+    "field": "built_after",
+    "value": "1978-10-01",
+    "doc": "D040",
+    "quote": "The JCO can apply to buildings that are newer than October 1, 1978."
+   },
    {
     "field": "min_units",
     "value": 4,
@@ -2402,9 +2422,9 @@
   "key_value": "1.6%",
   "coverage_conditions": {
    "summary": "Applies to rent-controlled units in San Francisco.",
-   "built_on_or_before": null,
+   "built_on_or_before": "1979-06-13",
    "built_after": null,
-   "built_basis": "not_stated",
+   "built_basis": "certificate_of_occupancy",
    "rolling_age_years": null,
    "min_units": null,
    "single_family_excluded": null,
@@ -2413,7 +2433,9 @@
    "owner_exemption_max_units": null,
    "subsidized_excluded": null,
    "unresolvable": "Applies specifically to rent-controlled units.",
-   "filled_from": []
+   "filled_from": [
+    "built_on_or_before from D079"
+   ]
   },
   "exemptions": null,
   "overrides": [],
@@ -2429,9 +2451,9 @@
   "lifecycle": "enacted",
   "coverage": {
    "summary": "Applies to rent-controlled units in San Francisco.",
-   "built_on_or_before": null,
+   "built_on_or_before": "1979-06-13",
    "built_after": null,
-   "built_basis": "not_stated",
+   "built_basis": "certificate_of_occupancy",
    "rolling_age_years": null,
    "min_units": null,
    "single_family_excluded": null,
@@ -2440,7 +2462,9 @@
    "owner_exemption_max_units": null,
    "subsidized_excluded": null,
    "unresolvable": "Applies specifically to rent-controlled units.",
-   "filled_from": []
+   "filled_from": [
+    "built_on_or_before from D079"
+   ]
   },
   "effect": "imposes_requirement",
   "yields_to_local": false,
@@ -2471,6 +2495,14 @@
     "effective_date": "2026-03-01",
     "key_value": "1.6%",
     "quoted_span": "1.6% for March 1, 2026 \u2013 February 28, 2027"
+   }
+  ],
+  "coverage_evidence": [
+   {
+    "field": "built_on_or_before",
+    "value": "1979-06-13",
+    "doc": "D079",
+    "quote": "This includes tenancies in newly constructed rental units that first obtained a Certificate of Occupancy after June 13, 1979, tenancies that are eligible for a rent increase under the\nCosta-Hawkins Rental Housing Act,\nand some tenancies where the rent is regulated by another government agency."
    }
   ],
   "source_conflict": false,
@@ -4092,7 +4124,7 @@
    "built_on_or_before": null,
    "built_after": null,
    "built_basis": "construction",
-   "rolling_age_years": null,
+   "rolling_age_years": 30,
    "min_units": 2,
    "single_family_excluded": null,
    "owner_dependent": false,
@@ -4100,7 +4132,9 @@
    "owner_exemption_max_units": null,
    "subsidized_excluded": false,
    "unresolvable": null,
-   "filled_from": []
+   "filled_from": [
+    "rolling_age_years from D067"
+   ]
   },
   "exemptions": null,
   "overrides": [],
@@ -4119,7 +4153,7 @@
    "built_on_or_before": null,
    "built_after": null,
    "built_basis": "construction",
-   "rolling_age_years": null,
+   "rolling_age_years": 30,
    "min_units": 2,
    "single_family_excluded": null,
    "owner_dependent": false,
@@ -4127,7 +4161,9 @@
    "owner_exemption_max_units": null,
    "subsidized_excluded": false,
    "unresolvable": null,
-   "filled_from": []
+   "filled_from": [
+    "rolling_age_years from D067"
+   ]
   },
   "effect": "exemption_only",
   "yields_to_local": false,
@@ -4142,6 +4178,14 @@
     "effective_date": null,
     "key_value": "30 years",
     "quoted_span": "Under the Newly Constructed Multiple Dwellings Law ( N.J.S.A. 2A:42 -84.5), newly \nconstructed multiple dwellings shall be exempt from any local rent control ordinances for a period \nof 30 years following completion of construction of the building."
+   }
+  ],
+  "coverage_evidence": [
+   {
+    "field": "rolling_age_years",
+    "value": 30,
+    "doc": "D067",
+    "quote": "Under the Newly Constructed Multiple Dwellings Law ( N.J.S.A. 2A:42 -84.5), newly \nconstructed multiple dwellings shall be exempt from any local rent control ordinances for a period \nof 30 years following completion of construction of the building."
    }
   ],
   "source_conflict": false,
@@ -4277,7 +4321,7 @@
    "built_after": null,
    "built_basis": "not_stated",
    "rolling_age_years": null,
-   "min_units": null,
+   "min_units": 10,
    "single_family_excluded": false,
    "owner_dependent": true,
    "owner_condition": "owner-occupied premises with not more than two rental units",
@@ -4286,7 +4330,8 @@
    "unresolvable": "tenant must provide 30 days written notice for owner-occupied premises with <= 2 units",
    "filled_from": [
     "single_family_excluded from D067",
-    "subsidized_excluded from D067"
+    "subsidized_excluded from D067",
+    "min_units from D067"
    ]
   },
   "exemptions": "Owner-occupied two- or three-family dwellings",
@@ -4307,7 +4352,7 @@
    "built_after": null,
    "built_basis": "not_stated",
    "rolling_age_years": null,
-   "min_units": null,
+   "min_units": 10,
    "single_family_excluded": false,
    "owner_dependent": true,
    "owner_condition": "owner-occupied premises with not more than two rental units",
@@ -4316,7 +4361,8 @@
    "unresolvable": "tenant must provide 30 days written notice for owner-occupied premises with <= 2 units",
    "filled_from": [
     "single_family_excluded from D067",
-    "subsidized_excluded from D067"
+    "subsidized_excluded from D067",
+    "min_units from D067"
    ]
   },
   "effect": "imposes_requirement",
@@ -4404,6 +4450,14 @@
     "effective_date": "1971-06-21",
     "key_value": "1.5 months",
     "quoted_span": "An owner or lessee may not require more than a sum equal to 1 1/2 times 1 month's rental\naccording to the terms of contract, lease, or agreement as a security for the use or rental of real\nproperty used for dwelling purposes."
+   }
+  ],
+  "coverage_evidence": [
+   {
+    "field": "min_units",
+    "value": 10,
+    "doc": "D067",
+    "quote": "A landlord or designee \nwho receives security deposit money for 10 or more units has the option of investing the money in \nan insured money market fund of a New Jersey-based investment company where the investments \nmature in one year or less, or deposit that money in a State or federally charted bank, or savings, \nand loan association located in New Jersey in an account bearing a variable rate of intere st."
    }
   ],
   "source_conflict": false,
@@ -4913,13 +4967,13 @@
     "field": "min_units",
     "value": 5,
     "doc": "D036",
-    "quote": "(Please Note: All 1-4 Unit Properties are exempt from rent control)"
+    "quote": "(Please Note: All 1-4 Unit Properties are exempt from rent control)\nThe Rent Control Ordinance provides certain exemptions from rent regulation."
    },
    {
     "field": "single_family_excluded",
     "value": true,
     "doc": "D036",
-    "quote": "(Please Note: All 1-4 Unit Properties are exempt from rent control)"
+    "quote": "(Please Note: All 1-4 Unit Properties are exempt from rent control)\nThe Rent Control Ordinance provides certain exemptions from rent regulation."
    }
   ],
   "source_conflict": false,
@@ -4999,7 +5053,7 @@
     "field": "rolling_age_years",
     "value": 30,
     "doc": "S004",
-    "quote": "No, exempt dwellings include all public housing, any motel or hotel space rented on a day to day\n         basis, and any structure or portion thereof rented for commercial use."
+    "quote": "All newly constructed multiple dwellings of one or more units can be exempt from Rent Control\n         for thirty (30) years, as per State statue; however, the Landlord/Owner must apply for a certificate\n         of exemption prior to occupancy in order to authenticate their exemption status."
    }
   ],
   "source_conflict": false,

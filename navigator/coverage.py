@@ -7,6 +7,7 @@ it governs and a verbatim quote; code verifies each quote and folds the statemen
 """
 import concurrent.futures as cf
 import json
+import re
 import pathlib
 import sys
 
@@ -57,6 +58,82 @@ def statements_for(doc, text, replay_only=False, models=None):
     return kept
 
 
+CUE = re.compile(r"(certificate of occupancy|first occupied|built|constructed|construction|\b\d+\s+(or more\s+)?(dwelling\s+)?units\b|"
+                 r"exempt|does not apply|do not apply|not subject|covered|coverage|single[- ]family|condominium|"
+                 r"owner[- ]occupied|subsidi[sz]ed|\b1[5-9]\b years|\b(19|20)\d\d\b)", re.I)
+
+
+def sentences(text):
+    flat = re.sub(r"\s+", " ", text)
+    return [x.strip() for x in re.split(r"(?<=[.;])\s+(?=[A-Z(])", flat) if 40 <= len(x.strip()) <= 600]
+
+
+JURIS_SYSTEM = SYSTEM + """
+You receive numbered sentences, already filtered to ones that mention coverage, from official documents about ONE
+jurisdiction and its state. Return a statement only when the sentence really limits which buildings a rule covers.
+Assign each to the category it governs. A sentence saying units are still covered by eviction protections but
+exempt from rent limits governs rent_increase_limits (with the cutoff) and not just_cause_eviction."""
+
+
+PAST = re.compile(r"\b(until|prior to|before) (january|february|march|april|may|june|july|august|september|"
+                  r"october|november|december|\d{4})|\bwere capped\b|\bwas capped\b|\bpreviously\b", re.I)
+RANGE_EXEMPT = re.compile(r"\b(\d+)\s*-\s*(\d+)\s*unit[^.]{0,60}\bexempt", re.I)
+
+
+def sanity(st):
+    """Code checks on a coverage statement before it can narrow a rule: a sentence about the past ("until June
+    19, 2014, increases were capped ...") does not describe current coverage, and "1-4 unit properties are
+    exempt" means the rule covers 5 or more, whatever number the model wrote."""
+    q = st.get("quoted_span", "")
+    if PAST.search(q):
+        return None
+    m = RANGE_EXEMPT.search(q)
+    if m:
+        st = dict(st, min_units=int(m.group(2)) + 1)
+    return st
+
+
+def by_jurisdiction(replay_only=False):
+    """Coverage statements per jurisdiction from pre-filtered official sentences: a smaller, focused task than
+    reading whole documents, and every quote is still checked against its document."""
+    man = manifest()
+    groups = {}
+    for d, doc in man.items():
+        t = load_text(d)
+        if not t or not (doc.get("source_type") or "official").startswith("official"):
+            continue
+        groups.setdefault(doc["jurisdictions"], []).append((doc, t))
+    out = []
+    for j, docs in sorted(groups.items()):
+        items, src = [], []
+        for doc, t in docs:
+            for snt in sentences(t):
+                if CUE.search(snt):
+                    items.append(f"[{len(items)}] ({doc['doc_id']}) {snt}")
+                    src.append((doc, t))
+        if not items:
+            continue
+        res, meta = ask_json(JURIS_SYSTEM, f"Jurisdiction: {j}\n\n" + "\n".join(items[:400]), SCHEMA,
+                             tag=f"coverage-j-{j}", replay_only=replay_only)
+        kept = 0
+        for st in res.get("statements", []):
+            st = sanity(st)
+            if st is None:
+                continue
+            for doc, t in docs:
+                exact, how = locate(st.get("quoted_span", ""), t)
+                if exact:
+                    st = normalize_jurisdiction(dict(st, citation=exact, title=""), doc)
+                    out.append(dict(st, quoted_span=exact, span_check=how, source_doc_id=doc["doc_id"],
+                                    source_type=doc.get("source_type") or "official", pass_="jurisdiction"))
+                    kept += 1
+                    break
+        audit.log("coverage.jurisdiction", jurisdiction=j, model=meta["model"], cached=meta["cached"],
+                  sentences=len(items), statements=len(res.get("statements", [])), kept=kept)
+        print(j, len(items), "sentences ->", kept, "statements", flush=True)
+    return out
+
+
 def main(argv=None):
     argv = argv if argv is not None else sys.argv[1:]
     replay = "--replay" in argv
@@ -71,6 +148,13 @@ def main(argv=None):
             print(doc["doc_id"], "NO MODEL", str(e)[:100], flush=True)
             return []
     allst = []
+    if "--by-jurisdiction" in argv:
+        allst = by_jurisdiction(replay)
+        prev = ROOT / "data" / "coverage_statements.json"
+        old = [x for x in json.loads(prev.read_text()) if x.get("pass_") != "jurisdiction"] if prev.exists() else []
+        prev.write_text(json.dumps(allst + old, indent=1))       # focused statements first: they win the fill
+        print(len(allst), "jurisdiction statements;", len(old), "document statements kept")
+        return
     with cf.ThreadPoolExecutor(3) as ex:
         for res in ex.map(work, enumerate(jobs)):
             allst += res

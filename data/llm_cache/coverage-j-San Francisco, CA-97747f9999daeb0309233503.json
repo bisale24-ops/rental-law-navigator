@@ -1,0 +1,38 @@
+{
+ "meta": {
+  "model": "gemini-3.5-flash-lite",
+  "seconds": 1.5,
+  "tag": "coverage-j-San Francisco, CA",
+  "usage": {
+   "promptTokenCount": 2065,
+   "candidatesTokenCount": 223,
+   "totalTokenCount": 2288,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 2065
+    }
+   ],
+   "serviceTier": "standard"
+  },
+  "at": "2026-10-03T18:34:45Z"
+ },
+ "output": {
+  "statements": [
+   {
+    "jurisdiction": "San Francisco, CA",
+    "level": "city",
+    "category": "rent_increase_limits",
+    "built_on_or_before": "1979-06-13",
+    "built_after": null,
+    "built_basis": "certificate_of_occupancy",
+    "min_units": null,
+    "rolling_age_years": null,
+    "owner_exemption_max_units": null,
+    "subsidized_excluded": null,
+    "single_family_excluded": null,
+    "quoted_span": "This includes tenancies in newly constructed rental units that first obtained a Certificate of Occupancy after June 13, 1979, tenancies that are eligible for a rent increase under the Costa-Hawkins Rental Housing Act, and some tenancies where the rent is regulated by another government agency."
+   }
+  ]
+ }
+}

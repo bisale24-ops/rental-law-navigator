@@ -1,0 +1,23 @@
+{
+ "meta": {
+  "model": "gemini-3.5-flash-lite",
+  "seconds": 1.3,
+  "tag": "coverage-j-Hoboken, NJ",
+  "usage": {
+   "promptTokenCount": 1570,
+   "candidatesTokenCount": 9,
+   "totalTokenCount": 1579,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 1570
+    }
+   ],
+   "serviceTier": "standard"
+  },
+  "at": "2026-10-03T18:34:20Z"
+ },
+ "output": {
+  "statements": []
+ }
+}

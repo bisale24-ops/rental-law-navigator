@@ -1,0 +1,52 @@
+{
+ "meta": {
+  "model": "gemini-3.5-flash-lite",
+  "seconds": 2.0,
+  "tag": "coverage-j-Berkeley, CA",
+  "usage": {
+   "promptTokenCount": 3665,
+   "candidatesTokenCount": 333,
+   "totalTokenCount": 3998,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 3665
+    }
+   ],
+   "serviceTier": "standard"
+  },
+  "at": "2026-10-03T18:34:12Z"
+ },
+ "output": {
+  "statements": [
+   {
+    "jurisdiction": "Berkeley, CA",
+    "level": "city",
+    "category": "rent_increase_limits",
+    "built_on_or_before": null,
+    "built_after": null,
+    "built_basis": "not_stated",
+    "min_units": null,
+    "rolling_age_years": null,
+    "owner_exemption_max_units": null,
+    "subsidized_excluded": false,
+    "single_family_excluded": null,
+    "quoted_span": "Government-owned or -subsidized rental units become either fully or partially covered by the Rent Ordinance."
+   },
+   {
+    "jurisdiction": "Berkeley, CA",
+    "level": "city",
+    "category": "rent_increase_limits",
+    "built_on_or_before": null,
+    "built_after": null,
+    "built_basis": "not_stated",
+    "min_units": null,
+    "rolling_age_years": null,
+    "owner_exemption_max_units": null,
+    "subsidized_excluded": false,
+    "single_family_excluded": null,
+    "quoted_span": "Government-owned or -subsidized rental units like Section 8 and Shelter + Care units are Now Fully or Partially Covered by the Rent Ordinance"
+   }
+  ]
+ }
+}

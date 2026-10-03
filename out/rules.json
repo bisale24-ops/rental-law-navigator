@@ -174,14 +174,16 @@
     "built_after": null,
     "built_basis": "certificate_of_occupancy",
     "rolling_age_years": 15,
-    "min_units": null,
+    "min_units": 2,
     "single_family_excluded": false,
     "owner_dependent": true,
     "owner_condition": "Exempts certain single-family owner-occupied residences, owner-occupied duplexes, and non-corporate separately alienable properties meeting statutory ownership and notice requirements.",
     "owner_exemption_max_units": 2,
     "subsidized_excluded": true,
     "unresolvable": "Tenancy duration and specific ownership corporate structures require facts beyond a simple address record.",
-    "filled_from": []
+    "filled_from": [
+     "min_units from D023"
+    ]
    },
    "exemptions": "Transient occupancy, nonprofit/religious/extended care/residential care facilities, dormitories, shared bathroom/kitchen with owner, certain single-family owner-occupied residences (including ADUs/JADUs or mobilehomes), owner-occupied two-unit structures, housing issued a certificate of occupancy within the previous 15 years, certain separately alienable properties (not owned by a REIT, corporation, or LLC with a corporate member) with proper notice, and deed-restricted or subsidized affordable housing.",
    "overrides": [
@@ -235,7 +237,7 @@
     "unresolvable": null,
     "filled_from": [
      "single_family_excluded from D040",
-     "min_units from D040"
+     "min_units from D023"
     ]
    },
    "exemptions": "Deed-restricted affordable housing, dormitories, stricter local rent control housing, units built within the last 15 years, certain independently alienable properties not owned by corporations/REITs/certain LLCs, and owner-occupied duplexes.",
@@ -1116,8 +1118,8 @@
    "coverage_conditions": {
     "summary": "Covers most residential properties in the City of Los Angeles not regulated by the City's Rent Stabilization Ordinance (RSO) after the tenant has lived in the unit for at least six months or their original lease expired, whichever comes first.",
     "built_on_or_before": null,
-    "built_after": null,
-    "built_basis": "not_stated",
+    "built_after": "1978-10-01",
+    "built_basis": "certificate_of_occupancy",
     "rolling_age_years": null,
     "min_units": 4,
     "single_family_excluded": false,
@@ -1129,6 +1131,7 @@
     "filled_from": [
      "owner_condition from D040",
      "owner_exemption_max_units from D043",
+     "built_after from D040",
      "min_units from S007"
     ]
    },
@@ -1655,9 +1658,9 @@
    "key_value": "1.6%",
    "coverage_conditions": {
     "summary": "Applies to rent-controlled units in San Francisco.",
-    "built_on_or_before": null,
+    "built_on_or_before": "1979-06-13",
     "built_after": null,
-    "built_basis": "not_stated",
+    "built_basis": "certificate_of_occupancy",
     "rolling_age_years": null,
     "min_units": null,
     "single_family_excluded": null,
@@ -1666,7 +1669,9 @@
     "owner_exemption_max_units": null,
     "subsidized_excluded": null,
     "unresolvable": "Applies specifically to rent-controlled units.",
-    "filled_from": []
+    "filled_from": [
+     "built_on_or_before from D079"
+    ]
    },
    "exemptions": null,
    "overrides": [],
@@ -2812,7 +2817,7 @@
     "built_on_or_before": null,
     "built_after": null,
     "built_basis": "construction",
-    "rolling_age_years": null,
+    "rolling_age_years": 30,
     "min_units": 2,
     "single_family_excluded": null,
     "owner_dependent": false,
@@ -2820,7 +2825,9 @@
     "owner_exemption_max_units": null,
     "subsidized_excluded": false,
     "unresolvable": null,
-    "filled_from": []
+    "filled_from": [
+     "rolling_age_years from D067"
+    ]
    },
    "exemptions": null,
    "overrides": [],
@@ -2933,7 +2940,7 @@
     "built_after": null,
     "built_basis": "not_stated",
     "rolling_age_years": null,
-    "min_units": null,
+    "min_units": 10,
     "single_family_excluded": false,
     "owner_dependent": true,
     "owner_condition": "owner-occupied premises with not more than two rental units",
@@ -2942,7 +2949,8 @@
     "unresolvable": "tenant must provide 30 days written notice for owner-occupied premises with <= 2 units",
     "filled_from": [
      "single_family_excluded from D067",
-     "subsidized_excluded from D067"
+     "subsidized_excluded from D067",
+     "min_units from D067"
     ]
    },
    "exemptions": "Owner-occupied two- or three-family dwellings",

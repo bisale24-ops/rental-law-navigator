@@ -1,0 +1,66 @@
+{
+ "meta": {
+  "model": "gemini-3.5-flash-lite",
+  "seconds": 2.5,
+  "tag": "coverage-j-San Diego, CA",
+  "usage": {
+   "promptTokenCount": 7911,
+   "candidatesTokenCount": 548,
+   "totalTokenCount": 8459,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 7911
+    }
+   ],
+   "serviceTier": "standard"
+  },
+  "at": "2026-10-03T18:34:44Z"
+ },
+ "output": {
+  "statements": [
+   {
+    "jurisdiction": "San Diego, CA",
+    "level": "city",
+    "category": "just_cause_eviction",
+    "built_on_or_before": null,
+    "built_after": null,
+    "built_basis": "not_stated",
+    "min_units": null,
+    "rolling_age_years": null,
+    "owner_exemption_max_units": null,
+    "subsidized_excluded": false,
+    "single_family_excluded": null,
+    "quoted_span": "This exemption shall not include Section 8;"
+   },
+   {
+    "jurisdiction": "San Diego, CA",
+    "level": "city",
+    "category": "just_cause_eviction",
+    "built_on_or_before": null,
+    "built_after": null,
+    "built_basis": "not_stated",
+    "min_units": null,
+    "rolling_age_years": null,
+    "owner_exemption_max_units": 2,
+    "subsidized_excluded": null,
+    "single_family_excluded": true,
+    "quoted_span": "(i) single-family residence occupied by the landlord as the landlord\u2019s principal place of residence, including both of the following: (1) a residence in which the landlord-occupant rents or leases no more than two bedrooms, two accessory dwelling units, or two junior accessory dwelling units, as defined in section 113.0103; and (2) a mobilehome."
+   },
+   {
+    "jurisdiction": "San Diego, CA",
+    "level": "city",
+    "category": "just_cause_eviction",
+    "built_on_or_before": null,
+    "built_after": null,
+    "built_basis": "certificate_of_occupancy",
+    "min_units": null,
+    "rolling_age_years": 15,
+    "owner_exemption_max_units": null,
+    "subsidized_excluded": null,
+    "single_family_excluded": null,
+    "quoted_span": "(k) housing that has been issued a certificate of occupancy within the previous 15 years, unless the housing is a mobilehome; and"
+   }
+  ]
+ }
+}

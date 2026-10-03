@@ -1,0 +1,38 @@
+{
+ "meta": {
+  "model": "gemini-3.5-flash-lite",
+  "seconds": 1.7,
+  "tag": "coverage-j-Jersey City, NJ",
+  "usage": {
+   "promptTokenCount": 1027,
+   "candidatesTokenCount": 176,
+   "totalTokenCount": 1203,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 1027
+    }
+   ],
+   "serviceTier": "standard"
+  },
+  "at": "2026-10-03T18:34:22Z"
+ },
+ "output": {
+  "statements": [
+   {
+    "jurisdiction": "Jersey City, NJ",
+    "level": "city",
+    "category": "rent_increase_limits",
+    "built_on_or_before": null,
+    "built_after": null,
+    "built_basis": "not_stated",
+    "min_units": 4,
+    "rolling_age_years": null,
+    "owner_exemption_max_units": null,
+    "subsidized_excluded": null,
+    "single_family_excluded": true,
+    "quoted_span": "(Please Note: All 1-4 Unit Properties are exempt from rent control) The Rent Control Ordinance provides certain exemptions from rent regulation."
+   }
+  ]
+ }
+}

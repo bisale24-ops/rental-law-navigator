@@ -1,0 +1,66 @@
+{
+ "meta": {
+  "model": "gemini-3.5-flash-lite",
+  "seconds": 2.3,
+  "tag": "coverage-j-Newark, NJ",
+  "usage": {
+   "promptTokenCount": 1186,
+   "candidatesTokenCount": 558,
+   "totalTokenCount": 1744,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 1186
+    }
+   ],
+   "serviceTier": "standard"
+  },
+  "at": "2026-10-03T18:34:41Z"
+ },
+ "output": {
+  "statements": [
+   {
+    "jurisdiction": "Newark, NJ",
+    "level": "city",
+    "category": "rent_increase_limits",
+    "built_on_or_before": null,
+    "built_after": null,
+    "built_basis": "not_stated",
+    "min_units": null,
+    "rolling_age_years": 30,
+    "owner_exemption_max_units": null,
+    "subsidized_excluded": null,
+    "single_family_excluded": null,
+    "quoted_span": "All newly constructed multiple dwellings of one or more units can be exempt from Rent Control for thirty (30) years, as per State statue; however, the Landlord/Owner must apply for a certificate of exemption prior to occupancy in order to authenticate their exemption status."
+   },
+   {
+    "jurisdiction": "Newark, NJ",
+    "level": "city",
+    "category": "rent_increase_limits",
+    "built_on_or_before": null,
+    "built_after": null,
+    "built_basis": "not_stated",
+    "min_units": 50,
+    "rolling_age_years": null,
+    "owner_exemption_max_units": null,
+    "subsidized_excluded": null,
+    "single_family_excluded": null,
+    "quoted_span": "Until June 19, 2014, annual rent increases were capped at 4% for apartment complexes of 50 or more units; and 5% for apartment complexes of 49 units or less."
+   },
+   {
+    "jurisdiction": "Newark, NJ",
+    "level": "city",
+    "category": "rent_increase_limits",
+    "built_on_or_before": null,
+    "built_after": null,
+    "built_basis": "not_stated",
+    "min_units": null,
+    "rolling_age_years": null,
+    "owner_exemption_max_units": null,
+    "subsidized_excluded": true,
+    "single_family_excluded": null,
+    "quoted_span": "No, exempt dwellings include all public housing, any motel or hotel space rented on a day to day basis, and any structure or portion thereof rented for commercial use."
+   }
+  ]
+ }
+}

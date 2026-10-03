@@ -188,7 +188,7 @@ function ruleCard(row){
   return `<article class="panel rule">
     <div class="top"><h3>${esc(r.title)}</h3><span class="lvl">${r.level==="state"?"State":"City"} · ${esc(r.jurisdiction)}</span>${badge(row.result)}</div>
     <p class="req">${esc(r.requirement)}${r.key_value?` <span class="kv">${esc(r.key_value)}</span>`:""}</p>
-    <ul class="why">${row.reasons.map(x=>`<li>${esc(x)}</li>`).join("")}</ul>
+    <ul class="why">${row.reasons.filter(x=>!(row.conflict_flag && /^(possible conflict|posible conflicto)/.test(x))).map(x=>`<li>${esc(x)}</li>`).join("")}</ul>
     ${row.conflict_flag?`<div class="conflict"><b>${L("review","Flagged for human review.")}</b> ${esc(row.conflict_note||r.conflict_note||"")}</div>`:""}
     ${srcBlock(r)}
   </article>`;

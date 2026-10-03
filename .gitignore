@@ -2,3 +2,7 @@ __pycache__/
 *.pyc
 .DS_Store
 out/audit.jsonl
+video/*.mp4
+video/clips/
+video/.cache/
+video/**/_*

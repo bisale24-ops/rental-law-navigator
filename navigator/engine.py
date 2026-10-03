@@ -137,6 +137,8 @@ def lookup(a, rules, as_of):
     for r in rules:
         if not in_jurisdiction(r, a):
             continue
+        if r.get("effect") == "exemption_only":
+            continue                                  # an exemption narrows other rules; it is not a rule here
         st = status_on(r, as_of)
         if st == "failed":
             continue                                  # never reported as a rule; shown as "not law" in the UI

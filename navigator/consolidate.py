@@ -296,7 +296,7 @@ def _interactions(rules):
             r["overrides"] = [x["team_rule_id"] for x in local]
             r["interaction"] = ("Yields to stricter local law: where a listed local rule covers the unit, the local "
                                 "rule governs and this one is reported as superseded.")
-        if r.get("preempts_local") and local:
+        if r.get("preempts_local") and local and r.get("effect") != "exemption_only":
             r["overrides"] = [x["team_rule_id"] for x in local]
             r["interaction"] = ("May preempt the listed local rules once in force; every affected address is "
                                 "flagged for human review rather than decided.")

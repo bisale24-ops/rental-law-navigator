@@ -83,12 +83,6 @@
     "conflict_flag": false
    },
    {
-    "team_rule_id": "r-0043",
-    "result": "applies",
-    "explanation": "20+ units (building description '6B-20U-G' states 20 units), at least the 2 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Hoboken Rent Leveling Increase Cap; flagged for human review",
-    "conflict_flag": true
-   },
-   {
     "team_rule_id": "r-0044",
     "result": "applies",
     "explanation": "20+ units (building description '6B-20U-G' states 20 units), at least the 5 required; the owner-based exemption only reaches buildings of 4 units or fewer; this one has 20+ (building description '6B-20U-G' states 20 units)",
@@ -109,8 +103,8 @@
    {
     "team_rule_id": "r-0047",
     "result": "applies",
-    "explanation": "covers residential rentals in the jurisdiction; no size or age limit stated; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Hoboken Rent Leveling Increase Cap; flagged for human review",
-    "conflict_flag": true
+    "explanation": "covers residential rentals in the jurisdiction; no size or age limit stated",
+    "conflict_flag": false
    }
   ],
   "A0003": [
@@ -133,12 +127,6 @@
     "conflict_flag": false
    },
    {
-    "team_rule_id": "r-0043",
-    "result": "applies",
-    "explanation": "5+ units (NJ property class 4C (apartments, 5+ units); description '4SB' gives no count), at least the 2 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Annual CPI-U Based Rent Increase Limit; flagged for human review",
-    "conflict_flag": true
-   },
-   {
     "team_rule_id": "r-0044",
     "result": "applies",
     "explanation": "5+ units (NJ property class 4C (apartments, 5+ units); description '4SB' gives no count), at least the 5 required; the owner-based exemption only reaches buildings of 4 units or fewer; this one has 5+ (NJ property class 4C (apartments, 5+ units); description '4SB' gives no count)",
@@ -153,8 +141,8 @@
    {
     "team_rule_id": "r-0050",
     "result": "unknown",
-    "explanation": "covers buildings more than 30 years old; the record has no year built; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Annual CPI-U Based Rent Increase Limit; flagged for human review",
-    "conflict_flag": true
+    "explanation": "covers buildings more than 30 years old; the record has no year built",
+    "conflict_flag": false
    }
   ],
   "A0004": [
@@ -425,12 +413,6 @@
     "conflict_flag": false
    },
    {
-    "team_rule_id": "r-0043",
-    "result": "applies",
-    "explanation": "151+ units (building description '10S-B-A-151U-HE' states 151 units), at least the 2 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Jersey City Rent Control Exemption for 1-4 Unit Properties; flagged for human review",
-    "conflict_flag": true
-   },
-   {
     "team_rule_id": "r-0044",
     "result": "applies",
     "explanation": "151+ units (building description '10S-B-A-151U-HE' states 151 units), at least the 5 required; the owner-based exemption only reaches buildings of 4 units or fewer; this one has 151+ (building description '10S-B-A-151U-HE' states 151 units)",
@@ -446,12 +428,6 @@
     "team_rule_id": "r-0048",
     "result": "applies",
     "explanation": "covers residential rentals in the jurisdiction; no size or age limit stated; possible conflict: Forbidding the Algorithmic Inflation of Rent (FAIR) Act (P.L. 2026, c.043) may preempt Jersey City Code \u00a7 218-12; flagged for human review",
-    "conflict_flag": true
-   },
-   {
-    "team_rule_id": "r-0049",
-    "result": "applies",
-    "explanation": "151+ units (building description '10S-B-A-151U-HE' states 151 units), at least the 5 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Jersey City Rent Control Exemption for 1-4 Unit Properties; flagged for human review",
     "conflict_flag": true
    }
   ],
@@ -587,12 +563,6 @@
     "conflict_flag": false
    },
    {
-    "team_rule_id": "r-0043",
-    "result": "applies",
-    "explanation": "5+ units (NJ property class 4C (apartments, 5+ units); description '3S.F.' gives no count), at least the 2 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Annual CPI-U Based Rent Increase Limit; flagged for human review",
-    "conflict_flag": true
-   },
-   {
     "team_rule_id": "r-0044",
     "result": "applies",
     "explanation": "5+ units (NJ property class 4C (apartments, 5+ units); description '3S.F.' gives no count), at least the 5 required; the owner-based exemption only reaches buildings of 4 units or fewer; this one has 5+ (NJ property class 4C (apartments, 5+ units); description '3S.F.' gives no count)",
@@ -607,8 +577,8 @@
    {
     "team_rule_id": "r-0050",
     "result": "unknown",
-    "explanation": "covers buildings more than 30 years old; the record has no year built; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Annual CPI-U Based Rent Increase Limit; flagged for human review",
-    "conflict_flag": true
+    "explanation": "covers buildings more than 30 years old; the record has no year built",
+    "conflict_flag": false
    }
   ],
   "A0012": [
@@ -631,12 +601,6 @@
     "conflict_flag": false
    },
    {
-    "team_rule_id": "r-0043",
-    "result": "applies",
-    "explanation": "6+ units (building description '3S-F-D-6U' states 6 units), at least the 2 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Jersey City Rent Control Exemption for 1-4 Unit Properties; flagged for human review",
-    "conflict_flag": true
-   },
-   {
     "team_rule_id": "r-0044",
     "result": "applies",
     "explanation": "6+ units (building description '3S-F-D-6U' states 6 units), at least the 5 required; the owner-based exemption only reaches buildings of 4 units or fewer; this one has 6+ (building description '3S-F-D-6U' states 6 units)",
@@ -652,12 +616,6 @@
     "team_rule_id": "r-0048",
     "result": "applies",
     "explanation": "covers residential rentals in the jurisdiction; no size or age limit stated; possible conflict: Forbidding the Algorithmic Inflation of Rent (FAIR) Act (P.L. 2026, c.043) may preempt Jersey City Code \u00a7 218-12; flagged for human review",
-    "conflict_flag": true
-   },
-   {
-    "team_rule_id": "r-0049",
-    "result": "applies",
-    "explanation": "6+ units (building description '3S-F-D-6U' states 6 units), at least the 5 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Jersey City Rent Control Exemption for 1-4 Unit Properties; flagged for human review",
     "conflict_flag": true
    }
   ],
@@ -681,12 +639,6 @@
     "conflict_flag": false
    },
    {
-    "team_rule_id": "r-0043",
-    "result": "applies",
-    "explanation": "5+ units (NJ property class 4C (apartments, 5+ units); description '3SF' gives no count), at least the 2 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Annual CPI-U Based Rent Increase Limit; flagged for human review",
-    "conflict_flag": true
-   },
-   {
     "team_rule_id": "r-0044",
     "result": "applies",
     "explanation": "5+ units (NJ property class 4C (apartments, 5+ units); description '3SF' gives no count), at least the 5 required; the owner-based exemption only reaches buildings of 4 units or fewer; this one has 5+ (NJ property class 4C (apartments, 5+ units); description '3SF' gives no count)",
@@ -701,8 +653,8 @@
    {
     "team_rule_id": "r-0050",
     "result": "unknown",
-    "explanation": "covers buildings more than 30 years old; the record has no year built; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Annual CPI-U Based Rent Increase Limit; flagged for human review",
-    "conflict_flag": true
+    "explanation": "covers buildings more than 30 years old; the record has no year built",
+    "conflict_flag": false
    }
   ],
   "A0014": [
@@ -905,12 +857,6 @@
     "conflict_flag": false
    },
    {
-    "team_rule_id": "r-0043",
-    "result": "applies",
-    "explanation": "6+ units (building description '3S-F-D-6U-NH' states 6 units), at least the 2 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Jersey City Rent Control Exemption for 1-4 Unit Properties; flagged for human review",
-    "conflict_flag": true
-   },
-   {
     "team_rule_id": "r-0044",
     "result": "applies",
     "explanation": "6+ units (building description '3S-F-D-6U-NH' states 6 units), at least the 5 required; the owner-based exemption only reaches buildings of 4 units or fewer; this one has 6+ (building description '3S-F-D-6U-NH' states 6 units)",
@@ -926,12 +872,6 @@
     "team_rule_id": "r-0048",
     "result": "applies",
     "explanation": "covers residential rentals in the jurisdiction; no size or age limit stated; possible conflict: Forbidding the Algorithmic Inflation of Rent (FAIR) Act (P.L. 2026, c.043) may preempt Jersey City Code \u00a7 218-12; flagged for human review",
-    "conflict_flag": true
-   },
-   {
-    "team_rule_id": "r-0049",
-    "result": "applies",
-    "explanation": "6+ units (building description '3S-F-D-6U-NH' states 6 units), at least the 5 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Jersey City Rent Control Exemption for 1-4 Unit Properties; flagged for human review",
     "conflict_flag": true
    }
   ],
@@ -1085,12 +1025,6 @@
     "conflict_flag": false
    },
    {
-    "team_rule_id": "r-0043",
-    "result": "applies",
-    "explanation": "5+ units (NJ property class 4C (apartments, 5+ units); description 'Apartments (class 4C)' gives no count), at least the 2 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Annual CPI-U Based Rent Increase Limit; flagged for human review",
-    "conflict_flag": true
-   },
-   {
     "team_rule_id": "r-0044",
     "result": "applies",
     "explanation": "5+ units (NJ property class 4C (apartments, 5+ units); description 'Apartments (class 4C)' gives no count), at least the 5 required; the owner-based exemption only reaches buildings of 4 units or fewer; this one has 5+ (NJ property class 4C (apartments, 5+ units); description 'Apartments (class 4C)' gives no count)",
@@ -1105,8 +1039,8 @@
    {
     "team_rule_id": "r-0050",
     "result": "unknown",
-    "explanation": "covers buildings more than 30 years old; the record has no year built; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Annual CPI-U Based Rent Increase Limit; flagged for human review",
-    "conflict_flag": true
+    "explanation": "covers buildings more than 30 years old; the record has no year built",
+    "conflict_flag": false
    }
   ],
   "A0021": [
@@ -1409,12 +1343,6 @@
     "conflict_flag": false
    },
    {
-    "team_rule_id": "r-0043",
-    "result": "applies",
-    "explanation": "8+ units (building description '4S-B-D-8U-NH' states 8 units), at least the 2 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Jersey City Rent Control Exemption for 1-4 Unit Properties; flagged for human review",
-    "conflict_flag": true
-   },
-   {
     "team_rule_id": "r-0044",
     "result": "applies",
     "explanation": "8+ units (building description '4S-B-D-8U-NH' states 8 units), at least the 5 required; the owner-based exemption only reaches buildings of 4 units or fewer; this one has 8+ (building description '4S-B-D-8U-NH' states 8 units)",
@@ -1430,12 +1358,6 @@
     "team_rule_id": "r-0048",
     "result": "applies",
     "explanation": "covers residential rentals in the jurisdiction; no size or age limit stated; possible conflict: Forbidding the Algorithmic Inflation of Rent (FAIR) Act (P.L. 2026, c.043) may preempt Jersey City Code \u00a7 218-12; flagged for human review",
-    "conflict_flag": true
-   },
-   {
-    "team_rule_id": "r-0049",
-    "result": "applies",
-    "explanation": "8+ units (building description '4S-B-D-8U-NH' states 8 units), at least the 5 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Jersey City Rent Control Exemption for 1-4 Unit Properties; flagged for human review",
     "conflict_flag": true
    }
   ],
@@ -1521,12 +1443,6 @@
     "conflict_flag": false
    },
    {
-    "team_rule_id": "r-0043",
-    "result": "applies",
-    "explanation": "5+ units (NJ property class 4C (apartments, 5+ units); description '3SF3UG' gives no count), at least the 2 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Annual CPI-U Based Rent Increase Limit; flagged for human review",
-    "conflict_flag": true
-   },
-   {
     "team_rule_id": "r-0044",
     "result": "applies",
     "explanation": "5+ units (NJ property class 4C (apartments, 5+ units); description '3SF3UG' gives no count), at least the 5 required; the owner-based exemption only reaches buildings of 4 units or fewer; this one has 5+ (NJ property class 4C (apartments, 5+ units); description '3SF3UG' gives no count)",
@@ -1541,8 +1457,8 @@
    {
     "team_rule_id": "r-0050",
     "result": "unknown",
-    "explanation": "covers buildings more than 30 years old; the record has no year built; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Annual CPI-U Based Rent Increase Limit; flagged for human review",
-    "conflict_flag": true
+    "explanation": "covers buildings more than 30 years old; the record has no year built",
+    "conflict_flag": false
    }
   ],
   "A0029": [
@@ -1565,12 +1481,6 @@
     "conflict_flag": false
    },
    {
-    "team_rule_id": "r-0043",
-    "result": "applies",
-    "explanation": "5+ units (NJ property class 4C (apartments, 5+ units); description '4SB' gives no count), at least the 2 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Annual CPI-U Based Rent Increase Limit; flagged for human review",
-    "conflict_flag": true
-   },
-   {
     "team_rule_id": "r-0044",
     "result": "applies",
     "explanation": "5+ units (NJ property class 4C (apartments, 5+ units); description '4SB' gives no count), at least the 5 required; the owner-based exemption only reaches buildings of 4 units or fewer; this one has 5+ (NJ property class 4C (apartments, 5+ units); description '4SB' gives no count)",
@@ -1585,8 +1495,8 @@
    {
     "team_rule_id": "r-0050",
     "result": "unknown",
-    "explanation": "covers buildings more than 30 years old; the record has no year built; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Annual CPI-U Based Rent Increase Limit; flagged for human review",
-    "conflict_flag": true
+    "explanation": "covers buildings more than 30 years old; the record has no year built",
+    "conflict_flag": false
    }
   ],
   "A0030": [
@@ -1733,12 +1643,6 @@
     "conflict_flag": false
    },
    {
-    "team_rule_id": "r-0043",
-    "result": "applies",
-    "explanation": "8+ units (building description '4S-B-D-8U-NH' states 8 units), at least the 2 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Jersey City Rent Control Exemption for 1-4 Unit Properties; flagged for human review",
-    "conflict_flag": true
-   },
-   {
     "team_rule_id": "r-0044",
     "result": "applies",
     "explanation": "8+ units (building description '4S-B-D-8U-NH' states 8 units), at least the 5 required; the owner-based exemption only reaches buildings of 4 units or fewer; this one has 8+ (building description '4S-B-D-8U-NH' states 8 units)",
@@ -1754,12 +1658,6 @@
     "team_rule_id": "r-0048",
     "result": "applies",
     "explanation": "covers residential rentals in the jurisdiction; no size or age limit stated; possible conflict: Forbidding the Algorithmic Inflation of Rent (FAIR) Act (P.L. 2026, c.043) may preempt Jersey City Code \u00a7 218-12; flagged for human review",
-    "conflict_flag": true
-   },
-   {
-    "team_rule_id": "r-0049",
-    "result": "applies",
-    "explanation": "8+ units (building description '4S-B-D-8U-NH' states 8 units), at least the 5 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Jersey City Rent Control Exemption for 1-4 Unit Properties; flagged for human review",
     "conflict_flag": true
    }
   ],
@@ -2169,12 +2067,6 @@
     "conflict_flag": false
    },
    {
-    "team_rule_id": "r-0043",
-    "result": "applies",
-    "explanation": "31+ units (building description '3B-7U/4B-24U-G' states 31 units), at least the 2 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Hoboken Rent Leveling Increase Cap; flagged for human review",
-    "conflict_flag": true
-   },
-   {
     "team_rule_id": "r-0044",
     "result": "applies",
     "explanation": "31+ units (building description '3B-7U/4B-24U-G' states 31 units), at least the 5 required; the owner-based exemption only reaches buildings of 4 units or fewer; this one has 31+ (building description '3B-7U/4B-24U-G' states 31 units)",
@@ -2195,8 +2087,8 @@
    {
     "team_rule_id": "r-0047",
     "result": "applies",
-    "explanation": "covers residential rentals in the jurisdiction; no size or age limit stated; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Hoboken Rent Leveling Increase Cap; flagged for human review",
-    "conflict_flag": true
+    "explanation": "covers residential rentals in the jurisdiction; no size or age limit stated",
+    "conflict_flag": false
    }
   ],
   "A0041": [
@@ -2281,12 +2173,6 @@
     "conflict_flag": false
    },
    {
-    "team_rule_id": "r-0043",
-    "result": "applies",
-    "explanation": "6+ units (building description '2S-B-A-6U' states 6 units), at least the 2 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Jersey City Rent Control Exemption for 1-4 Unit Properties; flagged for human review",
-    "conflict_flag": true
-   },
-   {
     "team_rule_id": "r-0044",
     "result": "applies",
     "explanation": "6+ units (building description '2S-B-A-6U' states 6 units), at least the 5 required; the owner-based exemption only reaches buildings of 4 units or fewer; this one has 6+ (building description '2S-B-A-6U' states 6 units)",
@@ -2302,12 +2188,6 @@
     "team_rule_id": "r-0048",
     "result": "applies",
     "explanation": "covers residential rentals in the jurisdiction; no size or age limit stated; possible conflict: Forbidding the Algorithmic Inflation of Rent (FAIR) Act (P.L. 2026, c.043) may preempt Jersey City Code \u00a7 218-12; flagged for human review",
-    "conflict_flag": true
-   },
-   {
-    "team_rule_id": "r-0049",
-    "result": "applies",
-    "explanation": "6+ units (building description '2S-B-A-6U' states 6 units), at least the 5 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Jersey City Rent Control Exemption for 1-4 Unit Properties; flagged for human review",
     "conflict_flag": true
    }
   ],
@@ -2387,12 +2267,6 @@
     "conflict_flag": false
    },
    {
-    "team_rule_id": "r-0043",
-    "result": "applies",
-    "explanation": "5+ units (NJ property class 4C (apartments, 5+ units); description '3SB' gives no count), at least the 2 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Annual CPI-U Based Rent Increase Limit; flagged for human review",
-    "conflict_flag": true
-   },
-   {
     "team_rule_id": "r-0044",
     "result": "applies",
     "explanation": "5+ units (NJ property class 4C (apartments, 5+ units); description '3SB' gives no count), at least the 5 required; the owner-based exemption only reaches buildings of 4 units or fewer; this one has 5+ (NJ property class 4C (apartments, 5+ units); description '3SB' gives no count)",
@@ -2407,8 +2281,8 @@
    {
     "team_rule_id": "r-0050",
     "result": "unknown",
-    "explanation": "covers buildings more than 30 years old; the record has no year built; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Annual CPI-U Based Rent Increase Limit; flagged for human review",
-    "conflict_flag": true
+    "explanation": "covers buildings more than 30 years old; the record has no year built",
+    "conflict_flag": false
    }
   ],
   "A0045": [
@@ -2537,12 +2411,6 @@
     "conflict_flag": false
    },
    {
-    "team_rule_id": "r-0043",
-    "result": "applies",
-    "explanation": "6+ units (building description '3S-B-D-6U-H' states 6 units), at least the 2 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Jersey City Rent Control Exemption for 1-4 Unit Properties; flagged for human review",
-    "conflict_flag": true
-   },
-   {
     "team_rule_id": "r-0044",
     "result": "applies",
     "explanation": "6+ units (building description '3S-B-D-6U-H' states 6 units), at least the 5 required; the owner-based exemption only reaches buildings of 4 units or fewer; this one has 6+ (building description '3S-B-D-6U-H' states 6 units)",
@@ -2558,12 +2426,6 @@
     "team_rule_id": "r-0048",
     "result": "applies",
     "explanation": "covers residential rentals in the jurisdiction; no size or age limit stated; possible conflict: Forbidding the Algorithmic Inflation of Rent (FAIR) Act (P.L. 2026, c.043) may preempt Jersey City Code \u00a7 218-12; flagged for human review",
-    "conflict_flag": true
-   },
-   {
-    "team_rule_id": "r-0049",
-    "result": "applies",
-    "explanation": "6+ units (building description '3S-B-D-6U-H' states 6 units), at least the 5 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Jersey City Rent Control Exemption for 1-4 Unit Properties; flagged for human review",
     "conflict_flag": true
    }
   ],
@@ -2637,12 +2499,6 @@
     "conflict_flag": false
    },
    {
-    "team_rule_id": "r-0043",
-    "result": "applies",
-    "explanation": "6+ units (building description '3S-6U-AFFORDABL' states 6 units), at least the 2 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Hoboken Rent Leveling Increase Cap; flagged for human review",
-    "conflict_flag": true
-   },
-   {
     "team_rule_id": "r-0044",
     "result": "applies",
     "explanation": "6+ units (building description '3S-6U-AFFORDABL' states 6 units), at least the 5 required; the owner-based exemption only reaches buildings of 4 units or fewer; this one has 6+ (building description '3S-6U-AFFORDABL' states 6 units)",
@@ -2663,8 +2519,8 @@
    {
     "team_rule_id": "r-0047",
     "result": "applies",
-    "explanation": "covers residential rentals in the jurisdiction; no size or age limit stated; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Hoboken Rent Leveling Increase Cap; flagged for human review",
-    "conflict_flag": true
+    "explanation": "covers residential rentals in the jurisdiction; no size or age limit stated",
+    "conflict_flag": false
    }
   ],
   "A0050": [
@@ -2743,12 +2599,6 @@
     "conflict_flag": false
    },
    {
-    "team_rule_id": "r-0043",
-    "result": "applies",
-    "explanation": "6+ units (building description '3S+BT-F-6U' states 6 units), at least the 2 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Jersey City Rent Control Exemption for 1-4 Unit Properties; flagged for human review",
-    "conflict_flag": true
-   },
-   {
     "team_rule_id": "r-0044",
     "result": "applies",
     "explanation": "6+ units (building description '3S+BT-F-6U' states 6 units), at least the 5 required; the owner-based exemption only reaches buildings of 4 units or fewer; this one has 6+ (building description '3S+BT-F-6U' states 6 units)",
@@ -2764,12 +2614,6 @@
     "team_rule_id": "r-0048",
     "result": "applies",
     "explanation": "covers residential rentals in the jurisdiction; no size or age limit stated; possible conflict: Forbidding the Algorithmic Inflation of Rent (FAIR) Act (P.L. 2026, c.043) may preempt Jersey City Code \u00a7 218-12; flagged for human review",
-    "conflict_flag": true
-   },
-   {
-    "team_rule_id": "r-0049",
-    "result": "applies",
-    "explanation": "6+ units (building description '3S+BT-F-6U' states 6 units), at least the 5 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Jersey City Rent Control Exemption for 1-4 Unit Properties; flagged for human review",
     "conflict_flag": true
    }
   ],
@@ -3055,12 +2899,6 @@
     "conflict_flag": false
    },
    {
-    "team_rule_id": "r-0043",
-    "result": "applies",
-    "explanation": "5+ units (NJ property class 4C (apartments, 5+ units); description '4SB' gives no count), at least the 2 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Annual CPI-U Based Rent Increase Limit; flagged for human review",
-    "conflict_flag": true
-   },
-   {
     "team_rule_id": "r-0044",
     "result": "applies",
     "explanation": "5+ units (NJ property class 4C (apartments, 5+ units); description '4SB' gives no count), at least the 5 required; the owner-based exemption only reaches buildings of 4 units or fewer; this one has 5+ (NJ property class 4C (apartments, 5+ units); description '4SB' gives no count)",
@@ -3075,8 +2913,8 @@
    {
     "team_rule_id": "r-0050",
     "result": "unknown",
-    "explanation": "covers buildings more than 30 years old; the record has no year built; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Annual CPI-U Based Rent Increase Limit; flagged for human review",
-    "conflict_flag": true
+    "explanation": "covers buildings more than 30 years old; the record has no year built",
+    "conflict_flag": false
    }
   ],
   "A0058": [
@@ -3155,12 +2993,6 @@
     "conflict_flag": false
    },
    {
-    "team_rule_id": "r-0043",
-    "result": "applies",
-    "explanation": "5+ units (NJ property class 4C (apartments, 5+ units); description '1SCB' gives no count), at least the 2 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Annual CPI-U Based Rent Increase Limit; flagged for human review",
-    "conflict_flag": true
-   },
-   {
     "team_rule_id": "r-0044",
     "result": "applies",
     "explanation": "5+ units (NJ property class 4C (apartments, 5+ units); description '1SCB' gives no count), at least the 5 required; the owner-based exemption only reaches buildings of 4 units or fewer; this one has 5+ (NJ property class 4C (apartments, 5+ units); description '1SCB' gives no count)",
@@ -3175,8 +3007,8 @@
    {
     "team_rule_id": "r-0050",
     "result": "unknown",
-    "explanation": "covers buildings more than 30 years old; the record has no year built; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Annual CPI-U Based Rent Increase Limit; flagged for human review",
-    "conflict_flag": true
+    "explanation": "covers buildings more than 30 years old; the record has no year built",
+    "conflict_flag": false
    }
   ],
   "A0060": [
@@ -4113,12 +3945,6 @@
     "conflict_flag": false
    },
    {
-    "team_rule_id": "r-0043",
-    "result": "applies",
-    "explanation": "5+ units (NJ property class 4C (apartments, 5+ units); description '3SB2UG' gives no count), at least the 2 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Annual CPI-U Based Rent Increase Limit; flagged for human review",
-    "conflict_flag": true
-   },
-   {
     "team_rule_id": "r-0044",
     "result": "applies",
     "explanation": "5+ units (NJ property class 4C (apartments, 5+ units); description '3SB2UG' gives no count), at least the 5 required; the owner-based exemption only reaches buildings of 4 units or fewer; this one has 5+ (NJ property class 4C (apartments, 5+ units); description '3SB2UG' gives no count)",
@@ -4133,8 +3959,8 @@
    {
     "team_rule_id": "r-0050",
     "result": "unknown",
-    "explanation": "covers buildings more than 30 years old; the record has no year built; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Annual CPI-U Based Rent Increase Limit; flagged for human review",
-    "conflict_flag": true
+    "explanation": "covers buildings more than 30 years old; the record has no year built",
+    "conflict_flag": false
    }
   ],
   "A0077": [
@@ -4213,12 +4039,6 @@
     "conflict_flag": false
    },
    {
-    "team_rule_id": "r-0043",
-    "result": "applies",
-    "explanation": "16+ units (building description '4S-B-A-16U-H' states 16 units), at least the 2 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Jersey City Rent Control Exemption for 1-4 Unit Properties; flagged for human review",
-    "conflict_flag": true
-   },
-   {
     "team_rule_id": "r-0044",
     "result": "applies",
     "explanation": "16+ units (building description '4S-B-A-16U-H' states 16 units), at least the 5 required; the owner-based exemption only reaches buildings of 4 units or fewer; this one has 16+ (building description '4S-B-A-16U-H' states 16 units)",
@@ -4234,12 +4054,6 @@
     "team_rule_id": "r-0048",
     "result": "applies",
     "explanation": "covers residential rentals in the jurisdiction; no size or age limit stated; possible conflict: Forbidding the Algorithmic Inflation of Rent (FAIR) Act (P.L. 2026, c.043) may preempt Jersey City Code \u00a7 218-12; flagged for human review",
-    "conflict_flag": true
-   },
-   {
-    "team_rule_id": "r-0049",
-    "result": "applies",
-    "explanation": "16+ units (building description '4S-B-A-16U-H' states 16 units), at least the 5 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Jersey City Rent Control Exemption for 1-4 Unit Properties; flagged for human review",
     "conflict_flag": true
    }
   ],
@@ -4717,12 +4531,6 @@
     "conflict_flag": false
    },
    {
-    "team_rule_id": "r-0043",
-    "result": "applies",
-    "explanation": "16+ units (building description '2,4B-16U-H-X' states 16 units), at least the 2 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Hoboken Rent Leveling Increase Cap; flagged for human review",
-    "conflict_flag": true
-   },
-   {
     "team_rule_id": "r-0044",
     "result": "applies",
     "explanation": "16+ units (building description '2,4B-16U-H-X' states 16 units), at least the 5 required; the owner-based exemption only reaches buildings of 4 units or fewer; this one has 16+ (building description '2,4B-16U-H-X' states 16 units)",
@@ -4743,8 +4551,8 @@
    {
     "team_rule_id": "r-0047",
     "result": "applies",
-    "explanation": "covers residential rentals in the jurisdiction; no size or age limit stated; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Hoboken Rent Leveling Increase Cap; flagged for human review",
-    "conflict_flag": true
+    "explanation": "covers residential rentals in the jurisdiction; no size or age limit stated",
+    "conflict_flag": false
    }
   ],
   "A0088": [
@@ -4829,12 +4637,6 @@
     "conflict_flag": false
    },
    {
-    "team_rule_id": "r-0043",
-    "result": "applies",
-    "explanation": "10+ units (building description '5B-10U-H-BA' states 10 units), at least the 2 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Hoboken Rent Leveling Increase Cap; flagged for human review",
-    "conflict_flag": true
-   },
-   {
     "team_rule_id": "r-0044",
     "result": "applies",
     "explanation": "10+ units (building description '5B-10U-H-BA' states 10 units), at least the 5 required; the owner-based exemption only reaches buildings of 4 units or fewer; this one has 10+ (building description '5B-10U-H-BA' states 10 units)",
@@ -4855,8 +4657,8 @@
    {
     "team_rule_id": "r-0047",
     "result": "applies",
-    "explanation": "covers residential rentals in the jurisdiction; no size or age limit stated; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Hoboken Rent Leveling Increase Cap; flagged for human review",
-    "conflict_flag": true
+    "explanation": "covers residential rentals in the jurisdiction; no size or age limit stated",
+    "conflict_flag": false
    }
   ],
   "A0090": [
@@ -4879,12 +4681,6 @@
     "conflict_flag": false
    },
    {
-    "team_rule_id": "r-0043",
-    "result": "applies",
-    "explanation": "5+ units (NJ property class 4C (apartments, 5+ units); description '3S.F.' gives no count), at least the 2 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Annual CPI-U Based Rent Increase Limit; flagged for human review",
-    "conflict_flag": true
-   },
-   {
     "team_rule_id": "r-0044",
     "result": "applies",
     "explanation": "5+ units (NJ property class 4C (apartments, 5+ units); description '3S.F.' gives no count), at least the 5 required; the owner-based exemption only reaches buildings of 4 units or fewer; this one has 5+ (NJ property class 4C (apartments, 5+ units); description '3S.F.' gives no count)",
@@ -4899,8 +4695,8 @@
    {
     "team_rule_id": "r-0050",
     "result": "unknown",
-    "explanation": "covers buildings more than 30 years old; the record has no year built; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Annual CPI-U Based Rent Increase Limit; flagged for human review",
-    "conflict_flag": true
+    "explanation": "covers buildings more than 30 years old; the record has no year built",
+    "conflict_flag": false
    }
   ],
   "A0091": [
@@ -5395,12 +5191,6 @@
     "conflict_flag": false
    },
    {
-    "team_rule_id": "r-0043",
-    "result": "applies",
-    "explanation": "5+ units (building description '4B-5U-H-BA' states 5 units), at least the 2 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Hoboken Rent Leveling Increase Cap; flagged for human review",
-    "conflict_flag": true
-   },
-   {
     "team_rule_id": "r-0044",
     "result": "applies",
     "explanation": "5+ units (building description '4B-5U-H-BA' states 5 units), at least the 5 required; the owner-based exemption only reaches buildings of 4 units or fewer; this one has 5+ (building description '4B-5U-H-BA' states 5 units)",
@@ -5421,8 +5211,8 @@
    {
     "team_rule_id": "r-0047",
     "result": "applies",
-    "explanation": "covers residential rentals in the jurisdiction; no size or age limit stated; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Hoboken Rent Leveling Increase Cap; flagged for human review",
-    "conflict_flag": true
+    "explanation": "covers residential rentals in the jurisdiction; no size or age limit stated",
+    "conflict_flag": false
    }
   ],
   "A0100": [
@@ -5501,12 +5291,6 @@
     "conflict_flag": false
    },
    {
-    "team_rule_id": "r-0043",
-    "result": "applies",
-    "explanation": "26+ units (building description '2-4S-B-A-26U-H' states 26 units), at least the 2 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Jersey City Rent Control Exemption for 1-4 Unit Properties; flagged for human review",
-    "conflict_flag": true
-   },
-   {
     "team_rule_id": "r-0044",
     "result": "applies",
     "explanation": "26+ units (building description '2-4S-B-A-26U-H' states 26 units), at least the 5 required; the owner-based exemption only reaches buildings of 4 units or fewer; this one has 26+ (building description '2-4S-B-A-26U-H' states 26 units)",
@@ -5522,12 +5306,6 @@
     "team_rule_id": "r-0048",
     "result": "applies",
     "explanation": "covers residential rentals in the jurisdiction; no size or age limit stated; possible conflict: Forbidding the Algorithmic Inflation of Rent (FAIR) Act (P.L. 2026, c.043) may preempt Jersey City Code \u00a7 218-12; flagged for human review",
-    "conflict_flag": true
-   },
-   {
-    "team_rule_id": "r-0049",
-    "result": "applies",
-    "explanation": "26+ units (building description '2-4S-B-A-26U-H' states 26 units), at least the 5 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Jersey City Rent Control Exemption for 1-4 Unit Properties; flagged for human review",
     "conflict_flag": true
    }
   ],
@@ -5551,12 +5329,6 @@
     "conflict_flag": false
    },
    {
-    "team_rule_id": "r-0043",
-    "result": "applies",
-    "explanation": "5+ units (building description '4B-5U-H-BA' states 5 units), at least the 2 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Hoboken Rent Leveling Increase Cap; flagged for human review",
-    "conflict_flag": true
-   },
-   {
     "team_rule_id": "r-0044",
     "result": "applies",
     "explanation": "5+ units (building description '4B-5U-H-BA' states 5 units), at least the 5 required; the owner-based exemption only reaches buildings of 4 units or fewer; this one has 5+ (building description '4B-5U-H-BA' states 5 units)",
@@ -5577,8 +5349,8 @@
    {
     "team_rule_id": "r-0047",
     "result": "applies",
-    "explanation": "covers residential rentals in the jurisdiction; no size or age limit stated; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Hoboken Rent Leveling Increase Cap; flagged for human review",
-    "conflict_flag": true
+    "explanation": "covers residential rentals in the jurisdiction; no size or age limit stated",
+    "conflict_flag": false
    }
   ],
   "A0103": [
@@ -5675,12 +5447,6 @@
     "conflict_flag": false
    },
    {
-    "team_rule_id": "r-0043",
-    "result": "applies",
-    "explanation": "5+ units (NJ property class 4C (apartments, 5+ units); description '3SB' gives no count), at least the 2 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Annual CPI-U Based Rent Increase Limit; flagged for human review",
-    "conflict_flag": true
-   },
-   {
     "team_rule_id": "r-0044",
     "result": "applies",
     "explanation": "5+ units (NJ property class 4C (apartments, 5+ units); description '3SB' gives no count), at least the 5 required; the owner-based exemption only reaches buildings of 4 units or fewer; this one has 5+ (NJ property class 4C (apartments, 5+ units); description '3SB' gives no count)",
@@ -5695,8 +5461,8 @@
    {
     "team_rule_id": "r-0050",
     "result": "unknown",
-    "explanation": "covers buildings more than 30 years old; the record has no year built; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Annual CPI-U Based Rent Increase Limit; flagged for human review",
-    "conflict_flag": true
+    "explanation": "covers buildings more than 30 years old; the record has no year built",
+    "conflict_flag": false
    }
   ],
   "A0105": [
@@ -5887,12 +5653,6 @@
     "conflict_flag": false
    },
    {
-    "team_rule_id": "r-0043",
-    "result": "applies",
-    "explanation": "6+ units (building description '3S-B-D-6U-H' states 6 units), at least the 2 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Jersey City Rent Control Exemption for 1-4 Unit Properties; flagged for human review",
-    "conflict_flag": true
-   },
-   {
     "team_rule_id": "r-0044",
     "result": "applies",
     "explanation": "6+ units (building description '3S-B-D-6U-H' states 6 units), at least the 5 required; the owner-based exemption only reaches buildings of 4 units or fewer; this one has 6+ (building description '3S-B-D-6U-H' states 6 units)",
@@ -5908,12 +5668,6 @@
     "team_rule_id": "r-0048",
     "result": "applies",
     "explanation": "covers residential rentals in the jurisdiction; no size or age limit stated; possible conflict: Forbidding the Algorithmic Inflation of Rent (FAIR) Act (P.L. 2026, c.043) may preempt Jersey City Code \u00a7 218-12; flagged for human review",
-    "conflict_flag": true
-   },
-   {
-    "team_rule_id": "r-0049",
-    "result": "applies",
-    "explanation": "6+ units (building description '3S-B-D-6U-H' states 6 units), at least the 5 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Jersey City Rent Control Exemption for 1-4 Unit Properties; flagged for human review",
     "conflict_flag": true
    }
   ],
@@ -6011,12 +5765,6 @@
     "conflict_flag": false
    },
    {
-    "team_rule_id": "r-0043",
-    "result": "applies",
-    "explanation": "5+ units (NJ property class 4C (apartments, 5+ units); description '3SF' gives no count), at least the 2 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Annual CPI-U Based Rent Increase Limit; flagged for human review",
-    "conflict_flag": true
-   },
-   {
     "team_rule_id": "r-0044",
     "result": "applies",
     "explanation": "5+ units (NJ property class 4C (apartments, 5+ units); description '3SF' gives no count), at least the 5 required; the owner-based exemption only reaches buildings of 4 units or fewer; this one has 5+ (NJ property class 4C (apartments, 5+ units); description '3SF' gives no count)",
@@ -6031,8 +5779,8 @@
    {
     "team_rule_id": "r-0050",
     "result": "unknown",
-    "explanation": "covers buildings more than 30 years old; the record has no year built; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Annual CPI-U Based Rent Increase Limit; flagged for human review",
-    "conflict_flag": true
+    "explanation": "covers buildings more than 30 years old; the record has no year built",
+    "conflict_flag": false
    }
   ],
   "A0111": [
@@ -6359,12 +6107,6 @@
     "conflict_flag": false
    },
    {
-    "team_rule_id": "r-0043",
-    "result": "applies",
-    "explanation": "6+ units (building description '3S-F-D-6U-H' states 6 units), at least the 2 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Jersey City Rent Control Exemption for 1-4 Unit Properties; flagged for human review",
-    "conflict_flag": true
-   },
-   {
     "team_rule_id": "r-0044",
     "result": "applies",
     "explanation": "6+ units (building description '3S-F-D-6U-H' states 6 units), at least the 5 required; the owner-based exemption only reaches buildings of 4 units or fewer; this one has 6+ (building description '3S-F-D-6U-H' states 6 units)",
@@ -6380,12 +6122,6 @@
     "team_rule_id": "r-0048",
     "result": "applies",
     "explanation": "covers residential rentals in the jurisdiction; no size or age limit stated; possible conflict: Forbidding the Algorithmic Inflation of Rent (FAIR) Act (P.L. 2026, c.043) may preempt Jersey City Code \u00a7 218-12; flagged for human review",
-    "conflict_flag": true
-   },
-   {
-    "team_rule_id": "r-0049",
-    "result": "applies",
-    "explanation": "6+ units (building description '3S-F-D-6U-H' states 6 units), at least the 5 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Jersey City Rent Control Exemption for 1-4 Unit Properties; flagged for human review",
     "conflict_flag": true
    }
   ],
@@ -6521,12 +6257,6 @@
     "conflict_flag": false
    },
    {
-    "team_rule_id": "r-0043",
-    "result": "applies",
-    "explanation": "6+ units (building description '2F-4U/2F-2U' states 6 units), at least the 2 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Hoboken Rent Leveling Increase Cap; flagged for human review",
-    "conflict_flag": true
-   },
-   {
     "team_rule_id": "r-0044",
     "result": "applies",
     "explanation": "6+ units (building description '2F-4U/2F-2U' states 6 units), at least the 5 required; the owner-based exemption only reaches buildings of 4 units or fewer; this one has 6+ (building description '2F-4U/2F-2U' states 6 units)",
@@ -6547,8 +6277,8 @@
    {
     "team_rule_id": "r-0047",
     "result": "applies",
-    "explanation": "covers residential rentals in the jurisdiction; no size or age limit stated; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Hoboken Rent Leveling Increase Cap; flagged for human review",
-    "conflict_flag": true
+    "explanation": "covers residential rentals in the jurisdiction; no size or age limit stated",
+    "conflict_flag": false
    }
   ],
   "A0120": [
@@ -6571,12 +6301,6 @@
     "conflict_flag": false
    },
    {
-    "team_rule_id": "r-0043",
-    "result": "applies",
-    "explanation": "5+ units (NJ property class 4C (apartments, 5+ units); description '3SF' gives no count), at least the 2 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Annual CPI-U Based Rent Increase Limit; flagged for human review",
-    "conflict_flag": true
-   },
-   {
     "team_rule_id": "r-0044",
     "result": "applies",
     "explanation": "5+ units (NJ property class 4C (apartments, 5+ units); description '3SF' gives no count), at least the 5 required; the owner-based exemption only reaches buildings of 4 units or fewer; this one has 5+ (NJ property class 4C (apartments, 5+ units); description '3SF' gives no count)",
@@ -6591,8 +6315,8 @@
    {
     "team_rule_id": "r-0050",
     "result": "unknown",
-    "explanation": "covers buildings more than 30 years old; the record has no year built; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Annual CPI-U Based Rent Increase Limit; flagged for human review",
-    "conflict_flag": true
+    "explanation": "covers buildings more than 30 years old; the record has no year built",
+    "conflict_flag": false
    }
   ],
   "A0121": [
@@ -6839,12 +6563,6 @@
     "conflict_flag": false
    },
    {
-    "team_rule_id": "r-0043",
-    "result": "applies",
-    "explanation": "5+ units (building description '5B-5U-H-(CO-OP)' states 5 units), at least the 2 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Hoboken Rent Leveling Increase Cap; flagged for human review",
-    "conflict_flag": true
-   },
-   {
     "team_rule_id": "r-0044",
     "result": "applies",
     "explanation": "5+ units (building description '5B-5U-H-(CO-OP)' states 5 units), at least the 5 required; the owner-based exemption only reaches buildings of 4 units or fewer; this one has 5+ (building description '5B-5U-H-(CO-OP)' states 5 units)",
@@ -6865,8 +6583,8 @@
    {
     "team_rule_id": "r-0047",
     "result": "applies",
-    "explanation": "covers residential rentals in the jurisdiction; no size or age limit stated; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Hoboken Rent Leveling Increase Cap; flagged for human review",
-    "conflict_flag": true
+    "explanation": "covers residential rentals in the jurisdiction; no size or age limit stated",
+    "conflict_flag": false
    }
   ],
   "A0126": [
@@ -7063,12 +6781,6 @@
     "conflict_flag": false
    },
    {
-    "team_rule_id": "r-0043",
-    "result": "applies",
-    "explanation": "5+ units (NJ property class 4C (apartments, 5+ units); description '3SB1UG' gives no count), at least the 2 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Annual CPI-U Based Rent Increase Limit; flagged for human review",
-    "conflict_flag": true
-   },
-   {
     "team_rule_id": "r-0044",
     "result": "applies",
     "explanation": "5+ units (NJ property class 4C (apartments, 5+ units); description '3SB1UG' gives no count), at least the 5 required; the owner-based exemption only reaches buildings of 4 units or fewer; this one has 5+ (NJ property class 4C (apartments, 5+ units); description '3SB1UG' gives no count)",
@@ -7083,8 +6795,8 @@
    {
     "team_rule_id": "r-0050",
     "result": "unknown",
-    "explanation": "covers buildings more than 30 years old; the record has no year built; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Annual CPI-U Based Rent Increase Limit; flagged for human review",
-    "conflict_flag": true
+    "explanation": "covers buildings more than 30 years old; the record has no year built",
+    "conflict_flag": false
    }
   ],
   "A0130": [
@@ -7107,12 +6819,6 @@
     "conflict_flag": false
    },
    {
-    "team_rule_id": "r-0043",
-    "result": "applies",
-    "explanation": "5+ units (NJ property class 4C (apartments, 5+ units); description '3S.B.' gives no count), at least the 2 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Annual CPI-U Based Rent Increase Limit; flagged for human review",
-    "conflict_flag": true
-   },
-   {
     "team_rule_id": "r-0044",
     "result": "applies",
     "explanation": "5+ units (NJ property class 4C (apartments, 5+ units); description '3S.B.' gives no count), at least the 5 required; the owner-based exemption only reaches buildings of 4 units or fewer; this one has 5+ (NJ property class 4C (apartments, 5+ units); description '3S.B.' gives no count)",
@@ -7127,8 +6833,8 @@
    {
     "team_rule_id": "r-0050",
     "result": "unknown",
-    "explanation": "covers buildings more than 30 years old; the record has no year built; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Annual CPI-U Based Rent Increase Limit; flagged for human review",
-    "conflict_flag": true
+    "explanation": "covers buildings more than 30 years old; the record has no year built",
+    "conflict_flag": false
    }
   ],
   "A0131": [
@@ -7151,12 +6857,6 @@
     "conflict_flag": false
    },
    {
-    "team_rule_id": "r-0043",
-    "result": "applies",
-    "explanation": "6+ units (building description '3S-F-D-6U' states 6 units), at least the 2 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Jersey City Rent Control Exemption for 1-4 Unit Properties; flagged for human review",
-    "conflict_flag": true
-   },
-   {
     "team_rule_id": "r-0044",
     "result": "applies",
     "explanation": "6+ units (building description '3S-F-D-6U' states 6 units), at least the 5 required; the owner-based exemption only reaches buildings of 4 units or fewer; this one has 6+ (building description '3S-F-D-6U' states 6 units)",
@@ -7172,12 +6872,6 @@
     "team_rule_id": "r-0048",
     "result": "applies",
     "explanation": "covers residential rentals in the jurisdiction; no size or age limit stated; possible conflict: Forbidding the Algorithmic Inflation of Rent (FAIR) Act (P.L. 2026, c.043) may preempt Jersey City Code \u00a7 218-12; flagged for human review",
-    "conflict_flag": true
-   },
-   {
-    "team_rule_id": "r-0049",
-    "result": "applies",
-    "explanation": "6+ units (building description '3S-F-D-6U' states 6 units), at least the 5 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Jersey City Rent Control Exemption for 1-4 Unit Properties; flagged for human review",
     "conflict_flag": true
    }
   ],
@@ -7201,12 +6895,6 @@
     "conflict_flag": false
    },
    {
-    "team_rule_id": "r-0043",
-    "result": "applies",
-    "explanation": "5+ units (NJ property class 4C (apartments, 5+ units); description '3SB' gives no count), at least the 2 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Annual CPI-U Based Rent Increase Limit; flagged for human review",
-    "conflict_flag": true
-   },
-   {
     "team_rule_id": "r-0044",
     "result": "applies",
     "explanation": "5+ units (NJ property class 4C (apartments, 5+ units); description '3SB' gives no count), at least the 5 required; the owner-based exemption only reaches buildings of 4 units or fewer; this one has 5+ (NJ property class 4C (apartments, 5+ units); description '3SB' gives no count)",
@@ -7221,8 +6909,8 @@
    {
     "team_rule_id": "r-0050",
     "result": "unknown",
-    "explanation": "covers buildings more than 30 years old; the record has no year built; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Annual CPI-U Based Rent Increase Limit; flagged for human review",
-    "conflict_flag": true
+    "explanation": "covers buildings more than 30 years old; the record has no year built",
+    "conflict_flag": false
    }
   ],
   "A0133": [
@@ -7419,12 +7107,6 @@
     "conflict_flag": false
    },
    {
-    "team_rule_id": "r-0043",
-    "result": "applies",
-    "explanation": "26+ units (building description '5B-26U-H-CO-OP' states 26 units), at least the 2 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Hoboken Rent Leveling Increase Cap; flagged for human review",
-    "conflict_flag": true
-   },
-   {
     "team_rule_id": "r-0044",
     "result": "applies",
     "explanation": "26+ units (building description '5B-26U-H-CO-OP' states 26 units), at least the 5 required; the owner-based exemption only reaches buildings of 4 units or fewer; this one has 26+ (building description '5B-26U-H-CO-OP' states 26 units)",
@@ -7445,8 +7127,8 @@
    {
     "team_rule_id": "r-0047",
     "result": "applies",
-    "explanation": "covers residential rentals in the jurisdiction; no size or age limit stated; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Hoboken Rent Leveling Increase Cap; flagged for human review",
-    "conflict_flag": true
+    "explanation": "covers residential rentals in the jurisdiction; no size or age limit stated",
+    "conflict_flag": false
    }
   ],
   "A0137": [
@@ -7469,12 +7151,6 @@
     "conflict_flag": false
    },
    {
-    "team_rule_id": "r-0043",
-    "result": "applies",
-    "explanation": "5+ units (NJ property class 4C (apartments, 5+ units); description '3SF5UG' gives no count), at least the 2 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Annual CPI-U Based Rent Increase Limit; flagged for human review",
-    "conflict_flag": true
-   },
-   {
     "team_rule_id": "r-0044",
     "result": "applies",
     "explanation": "5+ units (NJ property class 4C (apartments, 5+ units); description '3SF5UG' gives no count), at least the 5 required; the owner-based exemption only reaches buildings of 4 units or fewer; this one has 5+ (NJ property class 4C (apartments, 5+ units); description '3SF5UG' gives no count)",
@@ -7489,8 +7165,8 @@
    {
     "team_rule_id": "r-0050",
     "result": "unknown",
-    "explanation": "covers buildings more than 30 years old; the record has no year built; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Annual CPI-U Based Rent Increase Limit; flagged for human review",
-    "conflict_flag": true
+    "explanation": "covers buildings more than 30 years old; the record has no year built",
+    "conflict_flag": false
    }
   ],
   "A0138": [
@@ -7575,12 +7251,6 @@
     "conflict_flag": false
    },
    {
-    "team_rule_id": "r-0043",
-    "result": "applies",
-    "explanation": "5+ units (building description '3S-F-5U-NH' states 5 units), at least the 2 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Jersey City Rent Control Exemption for 1-4 Unit Properties; flagged for human review",
-    "conflict_flag": true
-   },
-   {
     "team_rule_id": "r-0044",
     "result": "applies",
     "explanation": "5+ units (building description '3S-F-5U-NH' states 5 units), at least the 5 required; the owner-based exemption only reaches buildings of 4 units or fewer; this one has 5+ (building description '3S-F-5U-NH' states 5 units)",
@@ -7596,12 +7266,6 @@
     "team_rule_id": "r-0048",
     "result": "applies",
     "explanation": "covers residential rentals in the jurisdiction; no size or age limit stated; possible conflict: Forbidding the Algorithmic Inflation of Rent (FAIR) Act (P.L. 2026, c.043) may preempt Jersey City Code \u00a7 218-12; flagged for human review",
-    "conflict_flag": true
-   },
-   {
-    "team_rule_id": "r-0049",
-    "result": "applies",
-    "explanation": "5+ units (building description '3S-F-5U-NH' states 5 units), at least the 5 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Jersey City Rent Control Exemption for 1-4 Unit Properties; flagged for human review",
     "conflict_flag": true
    }
   ],
@@ -7955,12 +7619,6 @@
     "conflict_flag": false
    },
    {
-    "team_rule_id": "r-0043",
-    "result": "applies",
-    "explanation": "5+ units (NJ property class 4C (apartments, 5+ units); description '2SF3UG' gives no count), at least the 2 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Annual CPI-U Based Rent Increase Limit; flagged for human review",
-    "conflict_flag": true
-   },
-   {
     "team_rule_id": "r-0044",
     "result": "applies",
     "explanation": "5+ units (NJ property class 4C (apartments, 5+ units); description '2SF3UG' gives no count), at least the 5 required; the owner-based exemption only reaches buildings of 4 units or fewer; this one has 5+ (NJ property class 4C (apartments, 5+ units); description '2SF3UG' gives no count)",
@@ -7975,8 +7633,8 @@
    {
     "team_rule_id": "r-0050",
     "result": "unknown",
-    "explanation": "covers buildings more than 30 years old; the record has no year built; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Annual CPI-U Based Rent Increase Limit; flagged for human review",
-    "conflict_flag": true
+    "explanation": "covers buildings more than 30 years old; the record has no year built",
+    "conflict_flag": false
    }
   ],
   "A0147": [
@@ -8061,12 +7719,6 @@
     "conflict_flag": false
    },
    {
-    "team_rule_id": "r-0043",
-    "result": "applies",
-    "explanation": "5+ units (NJ property class 4C (apartments, 5+ units); description '2.5SF' gives no count), at least the 2 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Annual CPI-U Based Rent Increase Limit; flagged for human review",
-    "conflict_flag": true
-   },
-   {
     "team_rule_id": "r-0044",
     "result": "applies",
     "explanation": "5+ units (NJ property class 4C (apartments, 5+ units); description '2.5SF' gives no count), at least the 5 required; the owner-based exemption only reaches buildings of 4 units or fewer; this one has 5+ (NJ property class 4C (apartments, 5+ units); description '2.5SF' gives no count)",
@@ -8081,8 +7733,8 @@
    {
     "team_rule_id": "r-0050",
     "result": "unknown",
-    "explanation": "covers buildings more than 30 years old; the record has no year built; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Annual CPI-U Based Rent Increase Limit; flagged for human review",
-    "conflict_flag": true
+    "explanation": "covers buildings more than 30 years old; the record has no year built",
+    "conflict_flag": false
    }
   ],
   "A0149": [
@@ -8695,12 +8347,6 @@
     "conflict_flag": false
    },
    {
-    "team_rule_id": "r-0043",
-    "result": "applies",
-    "explanation": "5+ units (NJ property class 4C (apartments, 5+ units); description '3SF' gives no count), at least the 2 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Annual CPI-U Based Rent Increase Limit; flagged for human review",
-    "conflict_flag": true
-   },
-   {
     "team_rule_id": "r-0044",
     "result": "applies",
     "explanation": "5+ units (NJ property class 4C (apartments, 5+ units); description '3SF' gives no count), at least the 5 required; the owner-based exemption only reaches buildings of 4 units or fewer; this one has 5+ (NJ property class 4C (apartments, 5+ units); description '3SF' gives no count)",
@@ -8715,8 +8361,8 @@
    {
     "team_rule_id": "r-0050",
     "result": "unknown",
-    "explanation": "covers buildings more than 30 years old; the record has no year built; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Annual CPI-U Based Rent Increase Limit; flagged for human review",
-    "conflict_flag": true
+    "explanation": "covers buildings more than 30 years old; the record has no year built",
+    "conflict_flag": false
    }
   ],
   "A0160": [
@@ -8739,12 +8385,6 @@
     "conflict_flag": false
    },
    {
-    "team_rule_id": "r-0043",
-    "result": "applies",
-    "explanation": "22+ units (building description '3S-B-A-22U' states 22 units), at least the 2 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Jersey City Rent Control Exemption for 1-4 Unit Properties; flagged for human review",
-    "conflict_flag": true
-   },
-   {
     "team_rule_id": "r-0044",
     "result": "applies",
     "explanation": "22+ units (building description '3S-B-A-22U' states 22 units), at least the 5 required; the owner-based exemption only reaches buildings of 4 units or fewer; this one has 22+ (building description '3S-B-A-22U' states 22 units)",
@@ -8760,12 +8400,6 @@
     "team_rule_id": "r-0048",
     "result": "applies",
     "explanation": "covers residential rentals in the jurisdiction; no size or age limit stated; possible conflict: Forbidding the Algorithmic Inflation of Rent (FAIR) Act (P.L. 2026, c.043) may preempt Jersey City Code \u00a7 218-12; flagged for human review",
-    "conflict_flag": true
-   },
-   {
-    "team_rule_id": "r-0049",
-    "result": "applies",
-    "explanation": "22+ units (building description '3S-B-A-22U' states 22 units), at least the 5 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Jersey City Rent Control Exemption for 1-4 Unit Properties; flagged for human review",
     "conflict_flag": true
    }
   ],
@@ -8789,12 +8423,6 @@
     "conflict_flag": false
    },
    {
-    "team_rule_id": "r-0043",
-    "result": "applies",
-    "explanation": "21+ units (building description '4S-B-A-21U-H' states 21 units), at least the 2 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Jersey City Rent Control Exemption for 1-4 Unit Properties; flagged for human review",
-    "conflict_flag": true
-   },
-   {
     "team_rule_id": "r-0044",
     "result": "applies",
     "explanation": "21+ units (building description '4S-B-A-21U-H' states 21 units), at least the 5 required; the owner-based exemption only reaches buildings of 4 units or fewer; this one has 21+ (building description '4S-B-A-21U-H' states 21 units)",
@@ -8810,12 +8438,6 @@
     "team_rule_id": "r-0048",
     "result": "applies",
     "explanation": "covers residential rentals in the jurisdiction; no size or age limit stated; possible conflict: Forbidding the Algorithmic Inflation of Rent (FAIR) Act (P.L. 2026, c.043) may preempt Jersey City Code \u00a7 218-12; flagged for human review",
-    "conflict_flag": true
-   },
-   {
-    "team_rule_id": "r-0049",
-    "result": "applies",
-    "explanation": "21+ units (building description '4S-B-A-21U-H' states 21 units), at least the 5 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Jersey City Rent Control Exemption for 1-4 Unit Properties; flagged for human review",
     "conflict_flag": true
    }
   ],
@@ -8889,12 +8511,6 @@
     "conflict_flag": false
    },
    {
-    "team_rule_id": "r-0043",
-    "result": "applies",
-    "explanation": "14+ units (building description '3&4S-B&F-14U' states 14 units), at least the 2 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Jersey City Rent Control Exemption for 1-4 Unit Properties; flagged for human review",
-    "conflict_flag": true
-   },
-   {
     "team_rule_id": "r-0044",
     "result": "applies",
     "explanation": "14+ units (building description '3&4S-B&F-14U' states 14 units), at least the 5 required; the owner-based exemption only reaches buildings of 4 units or fewer; this one has 14+ (building description '3&4S-B&F-14U' states 14 units)",
@@ -8910,12 +8526,6 @@
     "team_rule_id": "r-0048",
     "result": "applies",
     "explanation": "covers residential rentals in the jurisdiction; no size or age limit stated; possible conflict: Forbidding the Algorithmic Inflation of Rent (FAIR) Act (P.L. 2026, c.043) may preempt Jersey City Code \u00a7 218-12; flagged for human review",
-    "conflict_flag": true
-   },
-   {
-    "team_rule_id": "r-0049",
-    "result": "applies",
-    "explanation": "14+ units (building description '3&4S-B&F-14U' states 14 units), at least the 5 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Jersey City Rent Control Exemption for 1-4 Unit Properties; flagged for human review",
     "conflict_flag": true
    }
   ],
@@ -9169,12 +8779,6 @@
     "conflict_flag": false
    },
    {
-    "team_rule_id": "r-0043",
-    "result": "applies",
-    "explanation": "128+ units (building description '5B-64U/5B-64U-G' states 128 units), at least the 2 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Hoboken Rent Leveling Increase Cap; flagged for human review",
-    "conflict_flag": true
-   },
-   {
     "team_rule_id": "r-0044",
     "result": "applies",
     "explanation": "128+ units (building description '5B-64U/5B-64U-G' states 128 units), at least the 5 required; the owner-based exemption only reaches buildings of 4 units or fewer; this one has 128+ (building description '5B-64U/5B-64U-G' states 128 units)",
@@ -9195,8 +8799,8 @@
    {
     "team_rule_id": "r-0047",
     "result": "applies",
-    "explanation": "covers residential rentals in the jurisdiction; no size or age limit stated; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Hoboken Rent Leveling Increase Cap; flagged for human review",
-    "conflict_flag": true
+    "explanation": "covers residential rentals in the jurisdiction; no size or age limit stated",
+    "conflict_flag": false
    }
   ],
   "A0169": [
@@ -9319,12 +8923,6 @@
     "conflict_flag": false
    },
    {
-    "team_rule_id": "r-0043",
-    "result": "applies",
-    "explanation": "7+ units (building description '3S-B-D-7U-NH' states 7 units), at least the 2 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Jersey City Rent Control Exemption for 1-4 Unit Properties; flagged for human review",
-    "conflict_flag": true
-   },
-   {
     "team_rule_id": "r-0044",
     "result": "applies",
     "explanation": "7+ units (building description '3S-B-D-7U-NH' states 7 units), at least the 5 required; the owner-based exemption only reaches buildings of 4 units or fewer; this one has 7+ (building description '3S-B-D-7U-NH' states 7 units)",
@@ -9340,12 +8938,6 @@
     "team_rule_id": "r-0048",
     "result": "applies",
     "explanation": "covers residential rentals in the jurisdiction; no size or age limit stated; possible conflict: Forbidding the Algorithmic Inflation of Rent (FAIR) Act (P.L. 2026, c.043) may preempt Jersey City Code \u00a7 218-12; flagged for human review",
-    "conflict_flag": true
-   },
-   {
-    "team_rule_id": "r-0049",
-    "result": "applies",
-    "explanation": "7+ units (building description '3S-B-D-7U-NH' states 7 units), at least the 5 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Jersey City Rent Control Exemption for 1-4 Unit Properties; flagged for human review",
     "conflict_flag": true
    }
   ],
@@ -9661,12 +9253,6 @@
     "conflict_flag": false
    },
    {
-    "team_rule_id": "r-0043",
-    "result": "applies",
-    "explanation": "6+ units (building description '3S-F-D-6U-NH' states 6 units), at least the 2 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Jersey City Rent Control Exemption for 1-4 Unit Properties; flagged for human review",
-    "conflict_flag": true
-   },
-   {
     "team_rule_id": "r-0044",
     "result": "applies",
     "explanation": "6+ units (building description '3S-F-D-6U-NH' states 6 units), at least the 5 required; the owner-based exemption only reaches buildings of 4 units or fewer; this one has 6+ (building description '3S-F-D-6U-NH' states 6 units)",
@@ -9682,12 +9268,6 @@
     "team_rule_id": "r-0048",
     "result": "applies",
     "explanation": "covers residential rentals in the jurisdiction; no size or age limit stated; possible conflict: Forbidding the Algorithmic Inflation of Rent (FAIR) Act (P.L. 2026, c.043) may preempt Jersey City Code \u00a7 218-12; flagged for human review",
-    "conflict_flag": true
-   },
-   {
-    "team_rule_id": "r-0049",
-    "result": "applies",
-    "explanation": "6+ units (building description '3S-F-D-6U-NH' states 6 units), at least the 5 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Jersey City Rent Control Exemption for 1-4 Unit Properties; flagged for human review",
     "conflict_flag": true
    }
   ],
@@ -9885,12 +9465,6 @@
     "conflict_flag": false
    },
    {
-    "team_rule_id": "r-0043",
-    "result": "applies",
-    "explanation": "10+ units (building description '5B-10U-BA' states 10 units), at least the 2 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Hoboken Rent Leveling Increase Cap; flagged for human review",
-    "conflict_flag": true
-   },
-   {
     "team_rule_id": "r-0044",
     "result": "applies",
     "explanation": "10+ units (building description '5B-10U-BA' states 10 units), at least the 5 required; the owner-based exemption only reaches buildings of 4 units or fewer; this one has 10+ (building description '5B-10U-BA' states 10 units)",
@@ -9911,8 +9485,8 @@
    {
     "team_rule_id": "r-0047",
     "result": "applies",
-    "explanation": "covers residential rentals in the jurisdiction; no size or age limit stated; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Hoboken Rent Leveling Increase Cap; flagged for human review",
-    "conflict_flag": true
+    "explanation": "covers residential rentals in the jurisdiction; no size or age limit stated",
+    "conflict_flag": false
    }
   ],
   "A0182": [
@@ -9935,12 +9509,6 @@
     "conflict_flag": false
    },
    {
-    "team_rule_id": "r-0043",
-    "result": "applies",
-    "explanation": "90+ units (building description '2,5B-90U-H-BA' states 90 units), at least the 2 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Hoboken Rent Leveling Increase Cap; flagged for human review",
-    "conflict_flag": true
-   },
-   {
     "team_rule_id": "r-0044",
     "result": "applies",
     "explanation": "90+ units (building description '2,5B-90U-H-BA' states 90 units), at least the 5 required; the owner-based exemption only reaches buildings of 4 units or fewer; this one has 90+ (building description '2,5B-90U-H-BA' states 90 units)",
@@ -9961,8 +9529,8 @@
    {
     "team_rule_id": "r-0047",
     "result": "applies",
-    "explanation": "covers residential rentals in the jurisdiction; no size or age limit stated; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Hoboken Rent Leveling Increase Cap; flagged for human review",
-    "conflict_flag": true
+    "explanation": "covers residential rentals in the jurisdiction; no size or age limit stated",
+    "conflict_flag": false
    }
   ],
   "A0183": [
@@ -10121,12 +9689,6 @@
     "conflict_flag": false
    },
    {
-    "team_rule_id": "r-0043",
-    "result": "applies",
-    "explanation": "6+ units (building description '3S-F-D-6U-NH' states 6 units), at least the 2 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Jersey City Rent Control Exemption for 1-4 Unit Properties; flagged for human review",
-    "conflict_flag": true
-   },
-   {
     "team_rule_id": "r-0044",
     "result": "applies",
     "explanation": "6+ units (building description '3S-F-D-6U-NH' states 6 units), at least the 5 required; the owner-based exemption only reaches buildings of 4 units or fewer; this one has 6+ (building description '3S-F-D-6U-NH' states 6 units)",
@@ -10142,12 +9704,6 @@
     "team_rule_id": "r-0048",
     "result": "applies",
     "explanation": "covers residential rentals in the jurisdiction; no size or age limit stated; possible conflict: Forbidding the Algorithmic Inflation of Rent (FAIR) Act (P.L. 2026, c.043) may preempt Jersey City Code \u00a7 218-12; flagged for human review",
-    "conflict_flag": true
-   },
-   {
-    "team_rule_id": "r-0049",
-    "result": "applies",
-    "explanation": "6+ units (building description '3S-F-D-6U-NH' states 6 units), at least the 5 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Jersey City Rent Control Exemption for 1-4 Unit Properties; flagged for human review",
     "conflict_flag": true
    }
   ],
@@ -10171,12 +9727,6 @@
     "conflict_flag": false
    },
    {
-    "team_rule_id": "r-0043",
-    "result": "applies",
-    "explanation": "5+ units (building description '3S-F-D-5U-NH' states 5 units), at least the 2 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Jersey City Rent Control Exemption for 1-4 Unit Properties; flagged for human review",
-    "conflict_flag": true
-   },
-   {
     "team_rule_id": "r-0044",
     "result": "applies",
     "explanation": "5+ units (building description '3S-F-D-5U-NH' states 5 units), at least the 5 required; the owner-based exemption only reaches buildings of 4 units or fewer; this one has 5+ (building description '3S-F-D-5U-NH' states 5 units)",
@@ -10192,12 +9742,6 @@
     "team_rule_id": "r-0048",
     "result": "applies",
     "explanation": "covers residential rentals in the jurisdiction; no size or age limit stated; possible conflict: Forbidding the Algorithmic Inflation of Rent (FAIR) Act (P.L. 2026, c.043) may preempt Jersey City Code \u00a7 218-12; flagged for human review",
-    "conflict_flag": true
-   },
-   {
-    "team_rule_id": "r-0049",
-    "result": "applies",
-    "explanation": "5+ units (building description '3S-F-D-5U-NH' states 5 units), at least the 5 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Jersey City Rent Control Exemption for 1-4 Unit Properties; flagged for human review",
     "conflict_flag": true
    }
   ],
@@ -10221,12 +9765,6 @@
     "conflict_flag": false
    },
    {
-    "team_rule_id": "r-0043",
-    "result": "applies",
-    "explanation": "6+ units (building description '3S-F-D-6U-NH' states 6 units), at least the 2 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Jersey City Rent Control Exemption for 1-4 Unit Properties; flagged for human review",
-    "conflict_flag": true
-   },
-   {
     "team_rule_id": "r-0044",
     "result": "applies",
     "explanation": "6+ units (building description '3S-F-D-6U-NH' states 6 units), at least the 5 required; the owner-based exemption only reaches buildings of 4 units or fewer; this one has 6+ (building description '3S-F-D-6U-NH' states 6 units)",
@@ -10242,12 +9780,6 @@
     "team_rule_id": "r-0048",
     "result": "applies",
     "explanation": "covers residential rentals in the jurisdiction; no size or age limit stated; possible conflict: Forbidding the Algorithmic Inflation of Rent (FAIR) Act (P.L. 2026, c.043) may preempt Jersey City Code \u00a7 218-12; flagged for human review",
-    "conflict_flag": true
-   },
-   {
-    "team_rule_id": "r-0049",
-    "result": "applies",
-    "explanation": "6+ units (building description '3S-F-D-6U-NH' states 6 units), at least the 5 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Jersey City Rent Control Exemption for 1-4 Unit Properties; flagged for human review",
     "conflict_flag": true
    }
   ],
@@ -10419,12 +9951,6 @@
     "conflict_flag": false
    },
    {
-    "team_rule_id": "r-0043",
-    "result": "applies",
-    "explanation": "5+ units (NJ property class 4C (apartments, 5+ units); description '3SB' gives no count), at least the 2 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Annual CPI-U Based Rent Increase Limit; flagged for human review",
-    "conflict_flag": true
-   },
-   {
     "team_rule_id": "r-0044",
     "result": "applies",
     "explanation": "5+ units (NJ property class 4C (apartments, 5+ units); description '3SB' gives no count), at least the 5 required; the owner-based exemption only reaches buildings of 4 units or fewer; this one has 5+ (NJ property class 4C (apartments, 5+ units); description '3SB' gives no count)",
@@ -10439,8 +9965,8 @@
    {
     "team_rule_id": "r-0050",
     "result": "unknown",
-    "explanation": "covers buildings more than 30 years old; the record has no year built; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Annual CPI-U Based Rent Increase Limit; flagged for human review",
-    "conflict_flag": true
+    "explanation": "covers buildings more than 30 years old; the record has no year built",
+    "conflict_flag": false
    }
   ],
   "A0191": [
@@ -11245,12 +10771,6 @@
     "conflict_flag": false
    },
    {
-    "team_rule_id": "r-0043",
-    "result": "applies",
-    "explanation": "5+ units (NJ property class 4C (apartments, 5+ units); description '3SB' gives no count), at least the 2 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Annual CPI-U Based Rent Increase Limit; flagged for human review",
-    "conflict_flag": true
-   },
-   {
     "team_rule_id": "r-0044",
     "result": "applies",
     "explanation": "5+ units (NJ property class 4C (apartments, 5+ units); description '3SB' gives no count), at least the 5 required; the owner-based exemption only reaches buildings of 4 units or fewer; this one has 5+ (NJ property class 4C (apartments, 5+ units); description '3SB' gives no count)",
@@ -11265,8 +10785,8 @@
    {
     "team_rule_id": "r-0050",
     "result": "unknown",
-    "explanation": "covers buildings more than 30 years old; the record has no year built; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Annual CPI-U Based Rent Increase Limit; flagged for human review",
-    "conflict_flag": true
+    "explanation": "covers buildings more than 30 years old; the record has no year built",
+    "conflict_flag": false
    }
   ],
   "A0205": [
@@ -11487,12 +11007,6 @@
     "conflict_flag": false
    },
    {
-    "team_rule_id": "r-0043",
-    "result": "applies",
-    "explanation": "8+ units (building description '4B-8U' states 8 units), at least the 2 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Hoboken Rent Leveling Increase Cap; flagged for human review",
-    "conflict_flag": true
-   },
-   {
     "team_rule_id": "r-0044",
     "result": "applies",
     "explanation": "8+ units (building description '4B-8U' states 8 units), at least the 5 required; the owner-based exemption only reaches buildings of 4 units or fewer; this one has 8+ (building description '4B-8U' states 8 units)",
@@ -11513,8 +11027,8 @@
    {
     "team_rule_id": "r-0047",
     "result": "applies",
-    "explanation": "covers residential rentals in the jurisdiction; no size or age limit stated; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Hoboken Rent Leveling Increase Cap; flagged for human review",
-    "conflict_flag": true
+    "explanation": "covers residential rentals in the jurisdiction; no size or age limit stated",
+    "conflict_flag": false
    }
   ],
   "A0209": [
@@ -12309,12 +11823,6 @@
     "conflict_flag": false
    },
    {
-    "team_rule_id": "r-0043",
-    "result": "applies",
-    "explanation": "5+ units (building description '4B-5U-H-BA' states 5 units), at least the 2 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Hoboken Rent Leveling Increase Cap; flagged for human review",
-    "conflict_flag": true
-   },
-   {
     "team_rule_id": "r-0044",
     "result": "applies",
     "explanation": "5+ units (building description '4B-5U-H-BA' states 5 units), at least the 5 required; the owner-based exemption only reaches buildings of 4 units or fewer; this one has 5+ (building description '4B-5U-H-BA' states 5 units)",
@@ -12335,8 +11843,8 @@
    {
     "team_rule_id": "r-0047",
     "result": "applies",
-    "explanation": "covers residential rentals in the jurisdiction; no size or age limit stated; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Hoboken Rent Leveling Increase Cap; flagged for human review",
-    "conflict_flag": true
+    "explanation": "covers residential rentals in the jurisdiction; no size or age limit stated",
+    "conflict_flag": false
    }
   ],
   "A0224": [
@@ -12533,12 +12041,6 @@
     "conflict_flag": false
    },
    {
-    "team_rule_id": "r-0043",
-    "result": "applies",
-    "explanation": "2+ units (assessor unit count 2), at least the 2 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Hoboken Rent Leveling Increase Cap; flagged for human review",
-    "conflict_flag": true
-   },
-   {
     "team_rule_id": "r-0045",
     "result": "unknown",
     "explanation": "coverage depends on the owner (owner-occupied premises with not more than two rental units); owner data is deliberately not in the public record; also depends on: tenant must provide 30 days written notice for owner-occupied premises with <= 2 units (not in the property record)",
@@ -12553,8 +12055,8 @@
    {
     "team_rule_id": "r-0047",
     "result": "applies",
-    "explanation": "covers residential rentals in the jurisdiction; no size or age limit stated; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Hoboken Rent Leveling Increase Cap; flagged for human review",
-    "conflict_flag": true
+    "explanation": "covers residential rentals in the jurisdiction; no size or age limit stated",
+    "conflict_flag": false
    }
   ],
   "A0228": [
@@ -13377,12 +12879,6 @@
     "conflict_flag": false
    },
    {
-    "team_rule_id": "r-0043",
-    "result": "applies",
-    "explanation": "14+ units (building description '5B-14U-H-BA' states 14 units), at least the 2 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Hoboken Rent Leveling Increase Cap; flagged for human review",
-    "conflict_flag": true
-   },
-   {
     "team_rule_id": "r-0044",
     "result": "applies",
     "explanation": "14+ units (building description '5B-14U-H-BA' states 14 units), at least the 5 required; the owner-based exemption only reaches buildings of 4 units or fewer; this one has 14+ (building description '5B-14U-H-BA' states 14 units)",
@@ -13403,8 +12899,8 @@
    {
     "team_rule_id": "r-0047",
     "result": "applies",
-    "explanation": "covers residential rentals in the jurisdiction; no size or age limit stated; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Hoboken Rent Leveling Increase Cap; flagged for human review",
-    "conflict_flag": true
+    "explanation": "covers residential rentals in the jurisdiction; no size or age limit stated",
+    "conflict_flag": false
    }
   ],
   "A0242": [
@@ -13477,12 +12973,6 @@
     "conflict_flag": false
    },
    {
-    "team_rule_id": "r-0043",
-    "result": "applies",
-    "explanation": "6+ units (building description '3S+BT-F-6U' states 6 units), at least the 2 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Jersey City Rent Control Exemption for 1-4 Unit Properties; flagged for human review",
-    "conflict_flag": true
-   },
-   {
     "team_rule_id": "r-0044",
     "result": "applies",
     "explanation": "6+ units (building description '3S+BT-F-6U' states 6 units), at least the 5 required; the owner-based exemption only reaches buildings of 4 units or fewer; this one has 6+ (building description '3S+BT-F-6U' states 6 units)",
@@ -13498,12 +12988,6 @@
     "team_rule_id": "r-0048",
     "result": "applies",
     "explanation": "covers residential rentals in the jurisdiction; no size or age limit stated; possible conflict: Forbidding the Algorithmic Inflation of Rent (FAIR) Act (P.L. 2026, c.043) may preempt Jersey City Code \u00a7 218-12; flagged for human review",
-    "conflict_flag": true
-   },
-   {
-    "team_rule_id": "r-0049",
-    "result": "applies",
-    "explanation": "6+ units (building description '3S+BT-F-6U' states 6 units), at least the 5 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Jersey City Rent Control Exemption for 1-4 Unit Properties; flagged for human review",
     "conflict_flag": true
    }
   ],
@@ -13527,12 +13011,6 @@
     "conflict_flag": false
    },
    {
-    "team_rule_id": "r-0043",
-    "result": "applies",
-    "explanation": "12+ units (building description '5B-12U-1BX-H-BA' states 12 units), at least the 2 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Hoboken Rent Leveling Increase Cap; flagged for human review",
-    "conflict_flag": true
-   },
-   {
     "team_rule_id": "r-0044",
     "result": "applies",
     "explanation": "12+ units (building description '5B-12U-1BX-H-BA' states 12 units), at least the 5 required; the owner-based exemption only reaches buildings of 4 units or fewer; this one has 12+ (building description '5B-12U-1BX-H-BA' states 12 units)",
@@ -13553,8 +13031,8 @@
    {
     "team_rule_id": "r-0047",
     "result": "applies",
-    "explanation": "covers residential rentals in the jurisdiction; no size or age limit stated; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Hoboken Rent Leveling Increase Cap; flagged for human review",
-    "conflict_flag": true
+    "explanation": "covers residential rentals in the jurisdiction; no size or age limit stated",
+    "conflict_flag": false
    }
   ],
   "A0245": [
@@ -13801,12 +13279,6 @@
     "conflict_flag": false
    },
    {
-    "team_rule_id": "r-0043",
-    "result": "applies",
-    "explanation": "5+ units (NJ property class 4C (apartments, 5+ units); description '3SF4UG' gives no count), at least the 2 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Annual CPI-U Based Rent Increase Limit; flagged for human review",
-    "conflict_flag": true
-   },
-   {
     "team_rule_id": "r-0044",
     "result": "applies",
     "explanation": "5+ units (NJ property class 4C (apartments, 5+ units); description '3SF4UG' gives no count), at least the 5 required; the owner-based exemption only reaches buildings of 4 units or fewer; this one has 5+ (NJ property class 4C (apartments, 5+ units); description '3SF4UG' gives no count)",
@@ -13821,8 +13293,8 @@
    {
     "team_rule_id": "r-0050",
     "result": "unknown",
-    "explanation": "covers buildings more than 30 years old; the record has no year built; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Annual CPI-U Based Rent Increase Limit; flagged for human review",
-    "conflict_flag": true
+    "explanation": "covers buildings more than 30 years old; the record has no year built",
+    "conflict_flag": false
    }
   ],
   "A0250": [
@@ -13845,12 +13317,6 @@
     "conflict_flag": false
    },
    {
-    "team_rule_id": "r-0043",
-    "result": "applies",
-    "explanation": "45+ units (building description '6S-B+F-45U-17G' states 45 units), at least the 2 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Jersey City Rent Control Exemption for 1-4 Unit Properties; flagged for human review",
-    "conflict_flag": true
-   },
-   {
     "team_rule_id": "r-0044",
     "result": "applies",
     "explanation": "45+ units (building description '6S-B+F-45U-17G' states 45 units), at least the 5 required; the owner-based exemption only reaches buildings of 4 units or fewer; this one has 45+ (building description '6S-B+F-45U-17G' states 45 units)",
@@ -13866,12 +13332,6 @@
     "team_rule_id": "r-0048",
     "result": "applies",
     "explanation": "covers residential rentals in the jurisdiction; no size or age limit stated; possible conflict: Forbidding the Algorithmic Inflation of Rent (FAIR) Act (P.L. 2026, c.043) may preempt Jersey City Code \u00a7 218-12; flagged for human review",
-    "conflict_flag": true
-   },
-   {
-    "team_rule_id": "r-0049",
-    "result": "applies",
-    "explanation": "45+ units (building description '6S-B+F-45U-17G' states 45 units), at least the 5 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Jersey City Rent Control Exemption for 1-4 Unit Properties; flagged for human review",
     "conflict_flag": true
    }
   ],
@@ -14063,12 +13523,6 @@
     "conflict_flag": false
    },
    {
-    "team_rule_id": "r-0043",
-    "result": "applies",
-    "explanation": "9+ units (building description '4B-9U-H-BA' states 9 units), at least the 2 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Hoboken Rent Leveling Increase Cap; flagged for human review",
-    "conflict_flag": true
-   },
-   {
     "team_rule_id": "r-0044",
     "result": "applies",
     "explanation": "9+ units (building description '4B-9U-H-BA' states 9 units), at least the 5 required; the owner-based exemption only reaches buildings of 4 units or fewer; this one has 9+ (building description '4B-9U-H-BA' states 9 units)",
@@ -14089,8 +13543,8 @@
    {
     "team_rule_id": "r-0047",
     "result": "applies",
-    "explanation": "covers residential rentals in the jurisdiction; no size or age limit stated; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Hoboken Rent Leveling Increase Cap; flagged for human review",
-    "conflict_flag": true
+    "explanation": "covers residential rentals in the jurisdiction; no size or age limit stated",
+    "conflict_flag": false
    }
   ],
   "A0255": [
@@ -14175,12 +13629,6 @@
     "conflict_flag": false
    },
    {
-    "team_rule_id": "r-0043",
-    "result": "applies",
-    "explanation": "20+ units (building description '5B-20U-H' states 20 units), at least the 2 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Hoboken Rent Leveling Increase Cap; flagged for human review",
-    "conflict_flag": true
-   },
-   {
     "team_rule_id": "r-0044",
     "result": "applies",
     "explanation": "20+ units (building description '5B-20U-H' states 20 units), at least the 5 required; the owner-based exemption only reaches buildings of 4 units or fewer; this one has 20+ (building description '5B-20U-H' states 20 units)",
@@ -14201,8 +13649,8 @@
    {
     "team_rule_id": "r-0047",
     "result": "applies",
-    "explanation": "covers residential rentals in the jurisdiction; no size or age limit stated; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Hoboken Rent Leveling Increase Cap; flagged for human review",
-    "conflict_flag": true
+    "explanation": "covers residential rentals in the jurisdiction; no size or age limit stated",
+    "conflict_flag": false
    }
   ],
   "A0257": [
@@ -14473,12 +13921,6 @@
     "conflict_flag": false
    },
    {
-    "team_rule_id": "r-0043",
-    "result": "applies",
-    "explanation": "10+ units (building description '5B-1OU' states 10 units), at least the 2 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Hoboken Rent Leveling Increase Cap; flagged for human review",
-    "conflict_flag": true
-   },
-   {
     "team_rule_id": "r-0044",
     "result": "applies",
     "explanation": "10+ units (building description '5B-1OU' states 10 units), at least the 5 required; the owner-based exemption only reaches buildings of 4 units or fewer; this one has 10+ (building description '5B-1OU' states 10 units)",
@@ -14499,8 +13941,8 @@
    {
     "team_rule_id": "r-0047",
     "result": "applies",
-    "explanation": "covers residential rentals in the jurisdiction; no size or age limit stated; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Hoboken Rent Leveling Increase Cap; flagged for human review",
-    "conflict_flag": true
+    "explanation": "covers residential rentals in the jurisdiction; no size or age limit stated",
+    "conflict_flag": false
    }
   ],
   "A0262": [
@@ -14653,12 +14095,6 @@
     "conflict_flag": false
    },
    {
-    "team_rule_id": "r-0043",
-    "result": "applies",
-    "explanation": "5+ units (NJ property class 4C (apartments, 5+ units); description '5SB' gives no count), at least the 2 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Annual CPI-U Based Rent Increase Limit; flagged for human review",
-    "conflict_flag": true
-   },
-   {
     "team_rule_id": "r-0044",
     "result": "applies",
     "explanation": "5+ units (NJ property class 4C (apartments, 5+ units); description '5SB' gives no count), at least the 5 required; the owner-based exemption only reaches buildings of 4 units or fewer; this one has 5+ (NJ property class 4C (apartments, 5+ units); description '5SB' gives no count)",
@@ -14673,8 +14109,8 @@
    {
     "team_rule_id": "r-0050",
     "result": "unknown",
-    "explanation": "covers buildings more than 30 years old; the record has no year built; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Annual CPI-U Based Rent Increase Limit; flagged for human review",
-    "conflict_flag": true
+    "explanation": "covers buildings more than 30 years old; the record has no year built",
+    "conflict_flag": false
    }
   ],
   "A0265": [
@@ -14697,12 +14133,6 @@
     "conflict_flag": false
    },
    {
-    "team_rule_id": "r-0043",
-    "result": "applies",
-    "explanation": "13+ units (building description '3S-B-A-13U-H' states 13 units), at least the 2 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Jersey City Rent Control Exemption for 1-4 Unit Properties; flagged for human review",
-    "conflict_flag": true
-   },
-   {
     "team_rule_id": "r-0044",
     "result": "applies",
     "explanation": "13+ units (building description '3S-B-A-13U-H' states 13 units), at least the 5 required; the owner-based exemption only reaches buildings of 4 units or fewer; this one has 13+ (building description '3S-B-A-13U-H' states 13 units)",
@@ -14718,12 +14148,6 @@
     "team_rule_id": "r-0048",
     "result": "applies",
     "explanation": "covers residential rentals in the jurisdiction; no size or age limit stated; possible conflict: Forbidding the Algorithmic Inflation of Rent (FAIR) Act (P.L. 2026, c.043) may preempt Jersey City Code \u00a7 218-12; flagged for human review",
-    "conflict_flag": true
-   },
-   {
-    "team_rule_id": "r-0049",
-    "result": "applies",
-    "explanation": "13+ units (building description '3S-B-A-13U-H' states 13 units), at least the 5 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Jersey City Rent Control Exemption for 1-4 Unit Properties; flagged for human review",
     "conflict_flag": true
    }
   ],
@@ -14747,12 +14171,6 @@
     "conflict_flag": false
    },
    {
-    "team_rule_id": "r-0043",
-    "result": "applies",
-    "explanation": "8+ units (building description '4S-B-D-8U-NH' states 8 units), at least the 2 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Jersey City Rent Control Exemption for 1-4 Unit Properties; flagged for human review",
-    "conflict_flag": true
-   },
-   {
     "team_rule_id": "r-0044",
     "result": "applies",
     "explanation": "8+ units (building description '4S-B-D-8U-NH' states 8 units), at least the 5 required; the owner-based exemption only reaches buildings of 4 units or fewer; this one has 8+ (building description '4S-B-D-8U-NH' states 8 units)",
@@ -14768,12 +14186,6 @@
     "team_rule_id": "r-0048",
     "result": "applies",
     "explanation": "covers residential rentals in the jurisdiction; no size or age limit stated; possible conflict: Forbidding the Algorithmic Inflation of Rent (FAIR) Act (P.L. 2026, c.043) may preempt Jersey City Code \u00a7 218-12; flagged for human review",
-    "conflict_flag": true
-   },
-   {
-    "team_rule_id": "r-0049",
-    "result": "applies",
-    "explanation": "8+ units (building description '4S-B-D-8U-NH' states 8 units), at least the 5 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Jersey City Rent Control Exemption for 1-4 Unit Properties; flagged for human review",
     "conflict_flag": true
    }
   ],
@@ -14921,12 +14333,6 @@
     "conflict_flag": false
    },
    {
-    "team_rule_id": "r-0043",
-    "result": "applies",
-    "explanation": "14+ units (building description '5B-14U' states 14 units), at least the 2 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Hoboken Rent Leveling Increase Cap; flagged for human review",
-    "conflict_flag": true
-   },
-   {
     "team_rule_id": "r-0044",
     "result": "applies",
     "explanation": "14+ units (building description '5B-14U' states 14 units), at least the 5 required; the owner-based exemption only reaches buildings of 4 units or fewer; this one has 14+ (building description '5B-14U' states 14 units)",
@@ -14947,8 +14353,8 @@
    {
     "team_rule_id": "r-0047",
     "result": "applies",
-    "explanation": "covers residential rentals in the jurisdiction; no size or age limit stated; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Hoboken Rent Leveling Increase Cap; flagged for human review",
-    "conflict_flag": true
+    "explanation": "covers residential rentals in the jurisdiction; no size or age limit stated",
+    "conflict_flag": false
    }
   ],
   "A0270": [
@@ -14971,12 +14377,6 @@
     "conflict_flag": false
    },
    {
-    "team_rule_id": "r-0043",
-    "result": "applies",
-    "explanation": "8+ units (building description '4S-B-8U-H' states 8 units), at least the 2 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Jersey City Rent Control Exemption for 1-4 Unit Properties; flagged for human review",
-    "conflict_flag": true
-   },
-   {
     "team_rule_id": "r-0044",
     "result": "applies",
     "explanation": "8+ units (building description '4S-B-8U-H' states 8 units), at least the 5 required; the owner-based exemption only reaches buildings of 4 units or fewer; this one has 8+ (building description '4S-B-8U-H' states 8 units)",
@@ -14992,12 +14392,6 @@
     "team_rule_id": "r-0048",
     "result": "applies",
     "explanation": "covers residential rentals in the jurisdiction; no size or age limit stated; possible conflict: Forbidding the Algorithmic Inflation of Rent (FAIR) Act (P.L. 2026, c.043) may preempt Jersey City Code \u00a7 218-12; flagged for human review",
-    "conflict_flag": true
-   },
-   {
-    "team_rule_id": "r-0049",
-    "result": "applies",
-    "explanation": "8+ units (building description '4S-B-8U-H' states 8 units), at least the 5 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Jersey City Rent Control Exemption for 1-4 Unit Properties; flagged for human review",
     "conflict_flag": true
    }
   ],
@@ -15499,12 +14893,6 @@
     "conflict_flag": false
    },
    {
-    "team_rule_id": "r-0043",
-    "result": "applies",
-    "explanation": "17+ units (building description '4S-B-A-17U' states 17 units), at least the 2 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Jersey City Rent Control Exemption for 1-4 Unit Properties; flagged for human review",
-    "conflict_flag": true
-   },
-   {
     "team_rule_id": "r-0044",
     "result": "applies",
     "explanation": "17+ units (building description '4S-B-A-17U' states 17 units), at least the 5 required; the owner-based exemption only reaches buildings of 4 units or fewer; this one has 17+ (building description '4S-B-A-17U' states 17 units)",
@@ -15520,12 +14908,6 @@
     "team_rule_id": "r-0048",
     "result": "applies",
     "explanation": "covers residential rentals in the jurisdiction; no size or age limit stated; possible conflict: Forbidding the Algorithmic Inflation of Rent (FAIR) Act (P.L. 2026, c.043) may preempt Jersey City Code \u00a7 218-12; flagged for human review",
-    "conflict_flag": true
-   },
-   {
-    "team_rule_id": "r-0049",
-    "result": "applies",
-    "explanation": "17+ units (building description '4S-B-A-17U' states 17 units), at least the 5 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Jersey City Rent Control Exemption for 1-4 Unit Properties; flagged for human review",
     "conflict_flag": true
    }
   ],
@@ -15977,12 +15359,6 @@
     "conflict_flag": false
    },
    {
-    "team_rule_id": "r-0043",
-    "result": "applies",
-    "explanation": "7+ units (building description '4B-7U-H-BA' states 7 units), at least the 2 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Hoboken Rent Leveling Increase Cap; flagged for human review",
-    "conflict_flag": true
-   },
-   {
     "team_rule_id": "r-0044",
     "result": "applies",
     "explanation": "7+ units (building description '4B-7U-H-BA' states 7 units), at least the 5 required; the owner-based exemption only reaches buildings of 4 units or fewer; this one has 7+ (building description '4B-7U-H-BA' states 7 units)",
@@ -16003,8 +15379,8 @@
    {
     "team_rule_id": "r-0047",
     "result": "applies",
-    "explanation": "covers residential rentals in the jurisdiction; no size or age limit stated; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Hoboken Rent Leveling Increase Cap; flagged for human review",
-    "conflict_flag": true
+    "explanation": "covers residential rentals in the jurisdiction; no size or age limit stated",
+    "conflict_flag": false
    }
   ],
   "A0288": [
@@ -16027,12 +15403,6 @@
     "conflict_flag": false
    },
    {
-    "team_rule_id": "r-0043",
-    "result": "applies",
-    "explanation": "12+ units (building description '3S-B-12U' states 12 units), at least the 2 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Jersey City Rent Control Exemption for 1-4 Unit Properties; flagged for human review",
-    "conflict_flag": true
-   },
-   {
     "team_rule_id": "r-0044",
     "result": "applies",
     "explanation": "12+ units (building description '3S-B-12U' states 12 units), at least the 5 required; the owner-based exemption only reaches buildings of 4 units or fewer; this one has 12+ (building description '3S-B-12U' states 12 units)",
@@ -16048,12 +15418,6 @@
     "team_rule_id": "r-0048",
     "result": "applies",
     "explanation": "covers residential rentals in the jurisdiction; no size or age limit stated; possible conflict: Forbidding the Algorithmic Inflation of Rent (FAIR) Act (P.L. 2026, c.043) may preempt Jersey City Code \u00a7 218-12; flagged for human review",
-    "conflict_flag": true
-   },
-   {
-    "team_rule_id": "r-0049",
-    "result": "applies",
-    "explanation": "12+ units (building description '3S-B-12U' states 12 units), at least the 5 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Jersey City Rent Control Exemption for 1-4 Unit Properties; flagged for human review",
     "conflict_flag": true
    }
   ],
@@ -16487,12 +15851,6 @@
     "conflict_flag": false
    },
    {
-    "team_rule_id": "r-0043",
-    "result": "applies",
-    "explanation": "5+ units (NJ property class 4C (apartments, 5+ units); description '4SB' gives no count), at least the 2 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Annual CPI-U Based Rent Increase Limit; flagged for human review",
-    "conflict_flag": true
-   },
-   {
     "team_rule_id": "r-0044",
     "result": "applies",
     "explanation": "5+ units (NJ property class 4C (apartments, 5+ units); description '4SB' gives no count), at least the 5 required; the owner-based exemption only reaches buildings of 4 units or fewer; this one has 5+ (NJ property class 4C (apartments, 5+ units); description '4SB' gives no count)",
@@ -16507,8 +15865,8 @@
    {
     "team_rule_id": "r-0050",
     "result": "unknown",
-    "explanation": "covers buildings more than 30 years old; the record has no year built; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Annual CPI-U Based Rent Increase Limit; flagged for human review",
-    "conflict_flag": true
+    "explanation": "covers buildings more than 30 years old; the record has no year built",
+    "conflict_flag": false
    }
   ],
   "A0297": [
@@ -16531,12 +15889,6 @@
     "conflict_flag": false
    },
    {
-    "team_rule_id": "r-0043",
-    "result": "applies",
-    "explanation": "5+ units (NJ property class 4C (apartments, 5+ units); description '4SB' gives no count), at least the 2 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Annual CPI-U Based Rent Increase Limit; flagged for human review",
-    "conflict_flag": true
-   },
-   {
     "team_rule_id": "r-0044",
     "result": "applies",
     "explanation": "5+ units (NJ property class 4C (apartments, 5+ units); description '4SB' gives no count), at least the 5 required; the owner-based exemption only reaches buildings of 4 units or fewer; this one has 5+ (NJ property class 4C (apartments, 5+ units); description '4SB' gives no count)",
@@ -16551,8 +15903,8 @@
    {
     "team_rule_id": "r-0050",
     "result": "unknown",
-    "explanation": "covers buildings more than 30 years old; the record has no year built; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Annual CPI-U Based Rent Increase Limit; flagged for human review",
-    "conflict_flag": true
+    "explanation": "covers buildings more than 30 years old; the record has no year built",
+    "conflict_flag": false
    }
   ],
   "A0298": [
@@ -16631,12 +15983,6 @@
     "conflict_flag": false
    },
    {
-    "team_rule_id": "r-0043",
-    "result": "applies",
-    "explanation": "8+ units (building description '4B-8U-BA' states 8 units), at least the 2 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Hoboken Rent Leveling Increase Cap; flagged for human review",
-    "conflict_flag": true
-   },
-   {
     "team_rule_id": "r-0044",
     "result": "applies",
     "explanation": "8+ units (building description '4B-8U-BA' states 8 units), at least the 5 required; the owner-based exemption only reaches buildings of 4 units or fewer; this one has 8+ (building description '4B-8U-BA' states 8 units)",
@@ -16657,8 +16003,8 @@
    {
     "team_rule_id": "r-0047",
     "result": "applies",
-    "explanation": "covers residential rentals in the jurisdiction; no size or age limit stated; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Hoboken Rent Leveling Increase Cap; flagged for human review",
-    "conflict_flag": true
+    "explanation": "covers residential rentals in the jurisdiction; no size or age limit stated",
+    "conflict_flag": false
    }
   ],
   "A0300": [
@@ -17085,12 +16431,6 @@
     "conflict_flag": false
    },
    {
-    "team_rule_id": "r-0043",
-    "result": "applies",
-    "explanation": "5+ units (NJ property class 4C (apartments, 5+ units); description '3SB3UG' gives no count), at least the 2 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Annual CPI-U Based Rent Increase Limit; flagged for human review",
-    "conflict_flag": true
-   },
-   {
     "team_rule_id": "r-0044",
     "result": "applies",
     "explanation": "5+ units (NJ property class 4C (apartments, 5+ units); description '3SB3UG' gives no count), at least the 5 required; the owner-based exemption only reaches buildings of 4 units or fewer; this one has 5+ (NJ property class 4C (apartments, 5+ units); description '3SB3UG' gives no count)",
@@ -17105,8 +16445,8 @@
    {
     "team_rule_id": "r-0050",
     "result": "unknown",
-    "explanation": "covers buildings more than 30 years old; the record has no year built; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Annual CPI-U Based Rent Increase Limit; flagged for human review",
-    "conflict_flag": true
+    "explanation": "covers buildings more than 30 years old; the record has no year built",
+    "conflict_flag": false
    }
   ],
   "A0308": [
@@ -17129,12 +16469,6 @@
     "conflict_flag": false
    },
    {
-    "team_rule_id": "r-0043",
-    "result": "applies",
-    "explanation": "11+ units (building description '5B-11U-H-BA-G' states 11 units), at least the 2 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Hoboken Rent Leveling Increase Cap; flagged for human review",
-    "conflict_flag": true
-   },
-   {
     "team_rule_id": "r-0044",
     "result": "applies",
     "explanation": "11+ units (building description '5B-11U-H-BA-G' states 11 units), at least the 5 required; the owner-based exemption only reaches buildings of 4 units or fewer; this one has 11+ (building description '5B-11U-H-BA-G' states 11 units)",
@@ -17155,8 +16489,8 @@
    {
     "team_rule_id": "r-0047",
     "result": "applies",
-    "explanation": "covers residential rentals in the jurisdiction; no size or age limit stated; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Hoboken Rent Leveling Increase Cap; flagged for human review",
-    "conflict_flag": true
+    "explanation": "covers residential rentals in the jurisdiction; no size or age limit stated",
+    "conflict_flag": false
    }
   ],
   "A0309": [
@@ -17291,12 +16625,6 @@
     "conflict_flag": false
    },
    {
-    "team_rule_id": "r-0043",
-    "result": "applies",
-    "explanation": "5+ units (NJ property class 4C (apartments, 5+ units); description '2.5S.F.' gives no count), at least the 2 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Annual CPI-U Based Rent Increase Limit; flagged for human review",
-    "conflict_flag": true
-   },
-   {
     "team_rule_id": "r-0044",
     "result": "applies",
     "explanation": "5+ units (NJ property class 4C (apartments, 5+ units); description '2.5S.F.' gives no count), at least the 5 required; the owner-based exemption only reaches buildings of 4 units or fewer; this one has 5+ (NJ property class 4C (apartments, 5+ units); description '2.5S.F.' gives no count)",
@@ -17311,8 +16639,8 @@
    {
     "team_rule_id": "r-0050",
     "result": "unknown",
-    "explanation": "covers buildings more than 30 years old; the record has no year built; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Annual CPI-U Based Rent Increase Limit; flagged for human review",
-    "conflict_flag": true
+    "explanation": "covers buildings more than 30 years old; the record has no year built",
+    "conflict_flag": false
    }
   ],
   "A0312": [
@@ -17385,12 +16713,6 @@
     "conflict_flag": false
    },
    {
-    "team_rule_id": "r-0043",
-    "result": "applies",
-    "explanation": "5+ units (NJ property class 4C (apartments, 5+ units); description '3SF' gives no count), at least the 2 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Annual CPI-U Based Rent Increase Limit; flagged for human review",
-    "conflict_flag": true
-   },
-   {
     "team_rule_id": "r-0044",
     "result": "applies",
     "explanation": "5+ units (NJ property class 4C (apartments, 5+ units); description '3SF' gives no count), at least the 5 required; the owner-based exemption only reaches buildings of 4 units or fewer; this one has 5+ (NJ property class 4C (apartments, 5+ units); description '3SF' gives no count)",
@@ -17405,8 +16727,8 @@
    {
     "team_rule_id": "r-0050",
     "result": "unknown",
-    "explanation": "covers buildings more than 30 years old; the record has no year built; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Annual CPI-U Based Rent Increase Limit; flagged for human review",
-    "conflict_flag": true
+    "explanation": "covers buildings more than 30 years old; the record has no year built",
+    "conflict_flag": false
    }
   ],
   "A0314": [
@@ -17819,12 +17141,6 @@
     "conflict_flag": false
    },
    {
-    "team_rule_id": "r-0043",
-    "result": "applies",
-    "explanation": "6+ units (building description '4F-6U' states 6 units), at least the 2 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Hoboken Rent Leveling Increase Cap; flagged for human review",
-    "conflict_flag": true
-   },
-   {
     "team_rule_id": "r-0044",
     "result": "applies",
     "explanation": "6+ units (building description '4F-6U' states 6 units), at least the 5 required; the owner-based exemption only reaches buildings of 4 units or fewer; this one has 6+ (building description '4F-6U' states 6 units)",
@@ -17845,8 +17161,8 @@
    {
     "team_rule_id": "r-0047",
     "result": "applies",
-    "explanation": "covers residential rentals in the jurisdiction; no size or age limit stated; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Hoboken Rent Leveling Increase Cap; flagged for human review",
-    "conflict_flag": true
+    "explanation": "covers residential rentals in the jurisdiction; no size or age limit stated",
+    "conflict_flag": false
    }
   ],
   "A0321": [
@@ -17869,12 +17185,6 @@
     "conflict_flag": false
    },
    {
-    "team_rule_id": "r-0043",
-    "result": "applies",
-    "explanation": "7+ units (building description '3S-F-D-7U-NH' states 7 units), at least the 2 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Jersey City Rent Control Exemption for 1-4 Unit Properties; flagged for human review",
-    "conflict_flag": true
-   },
-   {
     "team_rule_id": "r-0044",
     "result": "applies",
     "explanation": "7+ units (building description '3S-F-D-7U-NH' states 7 units), at least the 5 required; the owner-based exemption only reaches buildings of 4 units or fewer; this one has 7+ (building description '3S-F-D-7U-NH' states 7 units)",
@@ -17890,12 +17200,6 @@
     "team_rule_id": "r-0048",
     "result": "applies",
     "explanation": "covers residential rentals in the jurisdiction; no size or age limit stated; possible conflict: Forbidding the Algorithmic Inflation of Rent (FAIR) Act (P.L. 2026, c.043) may preempt Jersey City Code \u00a7 218-12; flagged for human review",
-    "conflict_flag": true
-   },
-   {
-    "team_rule_id": "r-0049",
-    "result": "applies",
-    "explanation": "7+ units (building description '3S-F-D-7U-NH' states 7 units), at least the 5 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Jersey City Rent Control Exemption for 1-4 Unit Properties; flagged for human review",
     "conflict_flag": true
    }
   ],
@@ -18099,12 +17403,6 @@
     "conflict_flag": false
    },
    {
-    "team_rule_id": "r-0043",
-    "result": "applies",
-    "explanation": "21+ units (building description '4S-B-A-21U' states 21 units), at least the 2 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Jersey City Rent Control Exemption for 1-4 Unit Properties; flagged for human review",
-    "conflict_flag": true
-   },
-   {
     "team_rule_id": "r-0044",
     "result": "applies",
     "explanation": "21+ units (building description '4S-B-A-21U' states 21 units), at least the 5 required; the owner-based exemption only reaches buildings of 4 units or fewer; this one has 21+ (building description '4S-B-A-21U' states 21 units)",
@@ -18120,12 +17418,6 @@
     "team_rule_id": "r-0048",
     "result": "applies",
     "explanation": "covers residential rentals in the jurisdiction; no size or age limit stated; possible conflict: Forbidding the Algorithmic Inflation of Rent (FAIR) Act (P.L. 2026, c.043) may preempt Jersey City Code \u00a7 218-12; flagged for human review",
-    "conflict_flag": true
-   },
-   {
-    "team_rule_id": "r-0049",
-    "result": "applies",
-    "explanation": "21+ units (building description '4S-B-A-21U' states 21 units), at least the 5 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Jersey City Rent Control Exemption for 1-4 Unit Properties; flagged for human review",
     "conflict_flag": true
    }
   ],
@@ -18149,12 +17441,6 @@
     "conflict_flag": false
    },
    {
-    "team_rule_id": "r-0043",
-    "result": "applies",
-    "explanation": "5+ units (NJ property class 4C (apartments, 5+ units); description '4SB' gives no count), at least the 2 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Annual CPI-U Based Rent Increase Limit; flagged for human review",
-    "conflict_flag": true
-   },
-   {
     "team_rule_id": "r-0044",
     "result": "applies",
     "explanation": "5+ units (NJ property class 4C (apartments, 5+ units); description '4SB' gives no count), at least the 5 required; the owner-based exemption only reaches buildings of 4 units or fewer; this one has 5+ (NJ property class 4C (apartments, 5+ units); description '4SB' gives no count)",
@@ -18169,8 +17455,8 @@
    {
     "team_rule_id": "r-0050",
     "result": "unknown",
-    "explanation": "covers buildings more than 30 years old; the record has no year built; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Annual CPI-U Based Rent Increase Limit; flagged for human review",
-    "conflict_flag": true
+    "explanation": "covers buildings more than 30 years old; the record has no year built",
+    "conflict_flag": false
    }
   ],
   "A0327": [
@@ -18317,12 +17603,6 @@
     "conflict_flag": false
    },
    {
-    "team_rule_id": "r-0043",
-    "result": "applies",
-    "explanation": "5+ units (NJ property class 4C (apartments, 5+ units); description '3SB' gives no count), at least the 2 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Annual CPI-U Based Rent Increase Limit; flagged for human review",
-    "conflict_flag": true
-   },
-   {
     "team_rule_id": "r-0044",
     "result": "applies",
     "explanation": "5+ units (NJ property class 4C (apartments, 5+ units); description '3SB' gives no count), at least the 5 required; the owner-based exemption only reaches buildings of 4 units or fewer; this one has 5+ (NJ property class 4C (apartments, 5+ units); description '3SB' gives no count)",
@@ -18337,8 +17617,8 @@
    {
     "team_rule_id": "r-0050",
     "result": "unknown",
-    "explanation": "covers buildings more than 30 years old; the record has no year built; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Annual CPI-U Based Rent Increase Limit; flagged for human review",
-    "conflict_flag": true
+    "explanation": "covers buildings more than 30 years old; the record has no year built",
+    "conflict_flag": false
    }
   ],
   "A0330": [
@@ -18399,12 +17679,6 @@
     "conflict_flag": false
    },
    {
-    "team_rule_id": "r-0043",
-    "result": "applies",
-    "explanation": "5+ units (NJ property class 4C (apartments, 5+ units); description '2.5SF4UG' gives no count), at least the 2 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Annual CPI-U Based Rent Increase Limit; flagged for human review",
-    "conflict_flag": true
-   },
-   {
     "team_rule_id": "r-0044",
     "result": "applies",
     "explanation": "5+ units (NJ property class 4C (apartments, 5+ units); description '2.5SF4UG' gives no count), at least the 5 required; the owner-based exemption only reaches buildings of 4 units or fewer; this one has 5+ (NJ property class 4C (apartments, 5+ units); description '2.5SF4UG' gives no count)",
@@ -18419,8 +17693,8 @@
    {
     "team_rule_id": "r-0050",
     "result": "applies",
-    "explanation": "built 1910, more than 30 years before the query date; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Annual CPI-U Based Rent Increase Limit; flagged for human review",
-    "conflict_flag": true
+    "explanation": "built 1910, more than 30 years before the query date",
+    "conflict_flag": false
    }
   ],
   "A0332": [
@@ -18741,12 +18015,6 @@
     "conflict_flag": false
    },
    {
-    "team_rule_id": "r-0043",
-    "result": "applies",
-    "explanation": "5+ units (NJ property class 4C (apartments, 5+ units); description '4S.B' gives no count), at least the 2 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Annual CPI-U Based Rent Increase Limit; flagged for human review",
-    "conflict_flag": true
-   },
-   {
     "team_rule_id": "r-0044",
     "result": "applies",
     "explanation": "5+ units (NJ property class 4C (apartments, 5+ units); description '4S.B' gives no count), at least the 5 required; the owner-based exemption only reaches buildings of 4 units or fewer; this one has 5+ (NJ property class 4C (apartments, 5+ units); description '4S.B' gives no count)",
@@ -18761,8 +18029,8 @@
    {
     "team_rule_id": "r-0050",
     "result": "unknown",
-    "explanation": "covers buildings more than 30 years old; the record has no year built; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Annual CPI-U Based Rent Increase Limit; flagged for human review",
-    "conflict_flag": true
+    "explanation": "covers buildings more than 30 years old; the record has no year built",
+    "conflict_flag": false
    }
   ],
   "A0338": [
@@ -18785,12 +18053,6 @@
     "conflict_flag": false
    },
    {
-    "team_rule_id": "r-0043",
-    "result": "applies",
-    "explanation": "5+ units (NJ property class 4C (apartments, 5+ units); description '3SF' gives no count), at least the 2 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Annual CPI-U Based Rent Increase Limit; flagged for human review",
-    "conflict_flag": true
-   },
-   {
     "team_rule_id": "r-0044",
     "result": "applies",
     "explanation": "5+ units (NJ property class 4C (apartments, 5+ units); description '3SF' gives no count), at least the 5 required; the owner-based exemption only reaches buildings of 4 units or fewer; this one has 5+ (NJ property class 4C (apartments, 5+ units); description '3SF' gives no count)",
@@ -18805,8 +18067,8 @@
    {
     "team_rule_id": "r-0050",
     "result": "unknown",
-    "explanation": "covers buildings more than 30 years old; the record has no year built; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Annual CPI-U Based Rent Increase Limit; flagged for human review",
-    "conflict_flag": true
+    "explanation": "covers buildings more than 30 years old; the record has no year built",
+    "conflict_flag": false
    }
   ],
   "A0339": [
@@ -19059,12 +18321,6 @@
     "conflict_flag": false
    },
    {
-    "team_rule_id": "r-0043",
-    "result": "applies",
-    "explanation": "5+ units (NJ property class 4C (apartments, 5+ units); description '4SB' gives no count), at least the 2 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Annual CPI-U Based Rent Increase Limit; flagged for human review",
-    "conflict_flag": true
-   },
-   {
     "team_rule_id": "r-0044",
     "result": "applies",
     "explanation": "5+ units (NJ property class 4C (apartments, 5+ units); description '4SB' gives no count), at least the 5 required; the owner-based exemption only reaches buildings of 4 units or fewer; this one has 5+ (NJ property class 4C (apartments, 5+ units); description '4SB' gives no count)",
@@ -19079,8 +18335,8 @@
    {
     "team_rule_id": "r-0050",
     "result": "unknown",
-    "explanation": "covers buildings more than 30 years old; the record has no year built; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Annual CPI-U Based Rent Increase Limit; flagged for human review",
-    "conflict_flag": true
+    "explanation": "covers buildings more than 30 years old; the record has no year built",
+    "conflict_flag": false
    }
   ],
   "A0344": [
@@ -19103,12 +18359,6 @@
     "conflict_flag": false
    },
    {
-    "team_rule_id": "r-0043",
-    "result": "applies",
-    "explanation": "44+ units (building description '4S-B-44U' states 44 units), at least the 2 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Jersey City Rent Control Exemption for 1-4 Unit Properties; flagged for human review",
-    "conflict_flag": true
-   },
-   {
     "team_rule_id": "r-0044",
     "result": "applies",
     "explanation": "44+ units (building description '4S-B-44U' states 44 units), at least the 5 required; the owner-based exemption only reaches buildings of 4 units or fewer; this one has 44+ (building description '4S-B-44U' states 44 units)",
@@ -19124,12 +18374,6 @@
     "team_rule_id": "r-0048",
     "result": "applies",
     "explanation": "covers residential rentals in the jurisdiction; no size or age limit stated; possible conflict: Forbidding the Algorithmic Inflation of Rent (FAIR) Act (P.L. 2026, c.043) may preempt Jersey City Code \u00a7 218-12; flagged for human review",
-    "conflict_flag": true
-   },
-   {
-    "team_rule_id": "r-0049",
-    "result": "applies",
-    "explanation": "44+ units (building description '4S-B-44U' states 44 units), at least the 5 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Jersey City Rent Control Exemption for 1-4 Unit Properties; flagged for human review",
     "conflict_flag": true
    }
   ],
@@ -19327,12 +18571,6 @@
     "conflict_flag": false
    },
    {
-    "team_rule_id": "r-0043",
-    "result": "applies",
-    "explanation": "7+ units (building description '4F-7U' states 7 units), at least the 2 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Hoboken Rent Leveling Increase Cap; flagged for human review",
-    "conflict_flag": true
-   },
-   {
     "team_rule_id": "r-0044",
     "result": "applies",
     "explanation": "7+ units (building description '4F-7U' states 7 units), at least the 5 required; the owner-based exemption only reaches buildings of 4 units or fewer; this one has 7+ (building description '4F-7U' states 7 units)",
@@ -19353,8 +18591,8 @@
    {
     "team_rule_id": "r-0047",
     "result": "applies",
-    "explanation": "covers residential rentals in the jurisdiction; no size or age limit stated; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Hoboken Rent Leveling Increase Cap; flagged for human review",
-    "conflict_flag": true
+    "explanation": "covers residential rentals in the jurisdiction; no size or age limit stated",
+    "conflict_flag": false
    }
   ],
   "A0349": [
@@ -19451,12 +18689,6 @@
     "conflict_flag": false
    },
    {
-    "team_rule_id": "r-0043",
-    "result": "applies",
-    "explanation": "6+ units (building description '3S-B-D-6U-NH' states 6 units), at least the 2 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Jersey City Rent Control Exemption for 1-4 Unit Properties; flagged for human review",
-    "conflict_flag": true
-   },
-   {
     "team_rule_id": "r-0044",
     "result": "applies",
     "explanation": "6+ units (building description '3S-B-D-6U-NH' states 6 units), at least the 5 required; the owner-based exemption only reaches buildings of 4 units or fewer; this one has 6+ (building description '3S-B-D-6U-NH' states 6 units)",
@@ -19472,12 +18704,6 @@
     "team_rule_id": "r-0048",
     "result": "applies",
     "explanation": "covers residential rentals in the jurisdiction; no size or age limit stated; possible conflict: Forbidding the Algorithmic Inflation of Rent (FAIR) Act (P.L. 2026, c.043) may preempt Jersey City Code \u00a7 218-12; flagged for human review",
-    "conflict_flag": true
-   },
-   {
-    "team_rule_id": "r-0049",
-    "result": "applies",
-    "explanation": "6+ units (building description '3S-B-D-6U-NH' states 6 units), at least the 5 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Jersey City Rent Control Exemption for 1-4 Unit Properties; flagged for human review",
     "conflict_flag": true
    }
   ],
@@ -19563,12 +18789,6 @@
     "conflict_flag": false
    },
    {
-    "team_rule_id": "r-0043",
-    "result": "applies",
-    "explanation": "5+ units (NJ property class 4C (apartments, 5+ units); description '3SB' gives no count), at least the 2 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Annual CPI-U Based Rent Increase Limit; flagged for human review",
-    "conflict_flag": true
-   },
-   {
     "team_rule_id": "r-0044",
     "result": "applies",
     "explanation": "5+ units (NJ property class 4C (apartments, 5+ units); description '3SB' gives no count), at least the 5 required; the owner-based exemption only reaches buildings of 4 units or fewer; this one has 5+ (NJ property class 4C (apartments, 5+ units); description '3SB' gives no count)",
@@ -19583,8 +18803,8 @@
    {
     "team_rule_id": "r-0050",
     "result": "applies",
-    "explanation": "built 1900, more than 30 years before the query date; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Annual CPI-U Based Rent Increase Limit; flagged for human review",
-    "conflict_flag": true
+    "explanation": "built 1900, more than 30 years before the query date",
+    "conflict_flag": false
    }
   ],
   "A0353": [
@@ -19875,12 +19095,6 @@
     "conflict_flag": false
    },
    {
-    "team_rule_id": "r-0043",
-    "result": "applies",
-    "explanation": "5+ units (NJ property class 4C (apartments, 5+ units); description '3SB-2UG' gives no count), at least the 2 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Annual CPI-U Based Rent Increase Limit; flagged for human review",
-    "conflict_flag": true
-   },
-   {
     "team_rule_id": "r-0044",
     "result": "applies",
     "explanation": "5+ units (NJ property class 4C (apartments, 5+ units); description '3SB-2UG' gives no count), at least the 5 required; the owner-based exemption only reaches buildings of 4 units or fewer; this one has 5+ (NJ property class 4C (apartments, 5+ units); description '3SB-2UG' gives no count)",
@@ -19895,8 +19109,8 @@
    {
     "team_rule_id": "r-0050",
     "result": "unknown",
-    "explanation": "covers buildings more than 30 years old; the record has no year built; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Annual CPI-U Based Rent Increase Limit; flagged for human review",
-    "conflict_flag": true
+    "explanation": "covers buildings more than 30 years old; the record has no year built",
+    "conflict_flag": false
    }
   ],
   "A0359": [
@@ -19919,12 +19133,6 @@
     "conflict_flag": false
    },
    {
-    "team_rule_id": "r-0043",
-    "result": "applies",
-    "explanation": "10+ units (building description '5B-10U-H-BA' states 10 units), at least the 2 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Hoboken Rent Leveling Increase Cap; flagged for human review",
-    "conflict_flag": true
-   },
-   {
     "team_rule_id": "r-0044",
     "result": "applies",
     "explanation": "10+ units (building description '5B-10U-H-BA' states 10 units), at least the 5 required; the owner-based exemption only reaches buildings of 4 units or fewer; this one has 10+ (building description '5B-10U-H-BA' states 10 units)",
@@ -19945,8 +19153,8 @@
    {
     "team_rule_id": "r-0047",
     "result": "applies",
-    "explanation": "covers residential rentals in the jurisdiction; no size or age limit stated; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Hoboken Rent Leveling Increase Cap; flagged for human review",
-    "conflict_flag": true
+    "explanation": "covers residential rentals in the jurisdiction; no size or age limit stated",
+    "conflict_flag": false
    }
   ],
   "A0360": [
@@ -19969,12 +19177,6 @@
     "conflict_flag": false
    },
    {
-    "team_rule_id": "r-0043",
-    "result": "applies",
-    "explanation": "14+ units (building description '3S-B-A-14U-H' states 14 units), at least the 2 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Jersey City Rent Control Exemption for 1-4 Unit Properties; flagged for human review",
-    "conflict_flag": true
-   },
-   {
     "team_rule_id": "r-0044",
     "result": "applies",
     "explanation": "14+ units (building description '3S-B-A-14U-H' states 14 units), at least the 5 required; the owner-based exemption only reaches buildings of 4 units or fewer; this one has 14+ (building description '3S-B-A-14U-H' states 14 units)",
@@ -19990,12 +19192,6 @@
     "team_rule_id": "r-0048",
     "result": "applies",
     "explanation": "covers residential rentals in the jurisdiction; no size or age limit stated; possible conflict: Forbidding the Algorithmic Inflation of Rent (FAIR) Act (P.L. 2026, c.043) may preempt Jersey City Code \u00a7 218-12; flagged for human review",
-    "conflict_flag": true
-   },
-   {
-    "team_rule_id": "r-0049",
-    "result": "applies",
-    "explanation": "14+ units (building description '3S-B-A-14U-H' states 14 units), at least the 5 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Jersey City Rent Control Exemption for 1-4 Unit Properties; flagged for human review",
     "conflict_flag": true
    }
   ],
@@ -20621,12 +19817,6 @@
     "conflict_flag": false
    },
    {
-    "team_rule_id": "r-0043",
-    "result": "applies",
-    "explanation": "5+ units (NJ property class 4C (apartments, 5+ units); description 'USCB16UG' gives no count), at least the 2 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Annual CPI-U Based Rent Increase Limit; flagged for human review",
-    "conflict_flag": true
-   },
-   {
     "team_rule_id": "r-0044",
     "result": "applies",
     "explanation": "5+ units (NJ property class 4C (apartments, 5+ units); description 'USCB16UG' gives no count), at least the 5 required; the owner-based exemption only reaches buildings of 4 units or fewer; this one has 5+ (NJ property class 4C (apartments, 5+ units); description 'USCB16UG' gives no count)",
@@ -20641,8 +19831,8 @@
    {
     "team_rule_id": "r-0050",
     "result": "unknown",
-    "explanation": "covers buildings more than 30 years old; the record has no year built; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Annual CPI-U Based Rent Increase Limit; flagged for human review",
-    "conflict_flag": true
+    "explanation": "covers buildings more than 30 years old; the record has no year built",
+    "conflict_flag": false
    }
   ],
   "A0372": [
@@ -20665,12 +19855,6 @@
     "conflict_flag": false
    },
    {
-    "team_rule_id": "r-0043",
-    "result": "applies",
-    "explanation": "7+ units (building description '4S-B-D-7U-NH-G' states 7 units), at least the 2 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Jersey City Rent Control Exemption for 1-4 Unit Properties; flagged for human review",
-    "conflict_flag": true
-   },
-   {
     "team_rule_id": "r-0044",
     "result": "applies",
     "explanation": "7+ units (building description '4S-B-D-7U-NH-G' states 7 units), at least the 5 required; the owner-based exemption only reaches buildings of 4 units or fewer; this one has 7+ (building description '4S-B-D-7U-NH-G' states 7 units)",
@@ -20686,12 +19870,6 @@
     "team_rule_id": "r-0048",
     "result": "applies",
     "explanation": "covers residential rentals in the jurisdiction; no size or age limit stated; possible conflict: Forbidding the Algorithmic Inflation of Rent (FAIR) Act (P.L. 2026, c.043) may preempt Jersey City Code \u00a7 218-12; flagged for human review",
-    "conflict_flag": true
-   },
-   {
-    "team_rule_id": "r-0049",
-    "result": "applies",
-    "explanation": "7+ units (building description '4S-B-D-7U-NH-G' states 7 units), at least the 5 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Jersey City Rent Control Exemption for 1-4 Unit Properties; flagged for human review",
     "conflict_flag": true
    }
   ],
@@ -20951,12 +20129,6 @@
     "conflict_flag": false
    },
    {
-    "team_rule_id": "r-0043",
-    "result": "applies",
-    "explanation": "14+ units (building description '5B-14U-H-BA' states 14 units), at least the 2 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Hoboken Rent Leveling Increase Cap; flagged for human review",
-    "conflict_flag": true
-   },
-   {
     "team_rule_id": "r-0044",
     "result": "applies",
     "explanation": "14+ units (building description '5B-14U-H-BA' states 14 units), at least the 5 required; the owner-based exemption only reaches buildings of 4 units or fewer; this one has 14+ (building description '5B-14U-H-BA' states 14 units)",
@@ -20977,8 +20149,8 @@
    {
     "team_rule_id": "r-0047",
     "result": "applies",
-    "explanation": "covers residential rentals in the jurisdiction; no size or age limit stated; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Hoboken Rent Leveling Increase Cap; flagged for human review",
-    "conflict_flag": true
+    "explanation": "covers residential rentals in the jurisdiction; no size or age limit stated",
+    "conflict_flag": false
    }
   ],
   "A0378": [
@@ -21163,12 +20335,6 @@
     "conflict_flag": false
    },
    {
-    "team_rule_id": "r-0043",
-    "result": "applies",
-    "explanation": "5+ units (NJ property class 4C (apartments, 5+ units); description '3S.B.' gives no count), at least the 2 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Annual CPI-U Based Rent Increase Limit; flagged for human review",
-    "conflict_flag": true
-   },
-   {
     "team_rule_id": "r-0044",
     "result": "applies",
     "explanation": "5+ units (NJ property class 4C (apartments, 5+ units); description '3S.B.' gives no count), at least the 5 required; the owner-based exemption only reaches buildings of 4 units or fewer; this one has 5+ (NJ property class 4C (apartments, 5+ units); description '3S.B.' gives no count)",
@@ -21183,8 +20349,8 @@
    {
     "team_rule_id": "r-0050",
     "result": "unknown",
-    "explanation": "covers buildings more than 30 years old; the record has no year built; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Annual CPI-U Based Rent Increase Limit; flagged for human review",
-    "conflict_flag": true
+    "explanation": "covers buildings more than 30 years old; the record has no year built",
+    "conflict_flag": false
    }
   ],
   "A0382": [
@@ -21573,12 +20739,6 @@
     "conflict_flag": false
    },
    {
-    "team_rule_id": "r-0043",
-    "result": "applies",
-    "explanation": "6+ units (building description '3S-F-D-6U-H' states 6 units), at least the 2 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Jersey City Rent Control Exemption for 1-4 Unit Properties; flagged for human review",
-    "conflict_flag": true
-   },
-   {
     "team_rule_id": "r-0044",
     "result": "applies",
     "explanation": "6+ units (building description '3S-F-D-6U-H' states 6 units), at least the 5 required; the owner-based exemption only reaches buildings of 4 units or fewer; this one has 6+ (building description '3S-F-D-6U-H' states 6 units)",
@@ -21594,12 +20754,6 @@
     "team_rule_id": "r-0048",
     "result": "applies",
     "explanation": "covers residential rentals in the jurisdiction; no size or age limit stated; possible conflict: Forbidding the Algorithmic Inflation of Rent (FAIR) Act (P.L. 2026, c.043) may preempt Jersey City Code \u00a7 218-12; flagged for human review",
-    "conflict_flag": true
-   },
-   {
-    "team_rule_id": "r-0049",
-    "result": "applies",
-    "explanation": "6+ units (building description '3S-F-D-6U-H' states 6 units), at least the 5 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Jersey City Rent Control Exemption for 1-4 Unit Properties; flagged for human review",
     "conflict_flag": true
    }
   ],
@@ -21623,12 +20777,6 @@
     "conflict_flag": false
    },
    {
-    "team_rule_id": "r-0043",
-    "result": "applies",
-    "explanation": "10+ units (building description '5B-10U-H-BA' states 10 units), at least the 2 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Hoboken Rent Leveling Increase Cap; flagged for human review",
-    "conflict_flag": true
-   },
-   {
     "team_rule_id": "r-0044",
     "result": "applies",
     "explanation": "10+ units (building description '5B-10U-H-BA' states 10 units), at least the 5 required; the owner-based exemption only reaches buildings of 4 units or fewer; this one has 10+ (building description '5B-10U-H-BA' states 10 units)",
@@ -21649,8 +20797,8 @@
    {
     "team_rule_id": "r-0047",
     "result": "applies",
-    "explanation": "covers residential rentals in the jurisdiction; no size or age limit stated; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Hoboken Rent Leveling Increase Cap; flagged for human review",
-    "conflict_flag": true
+    "explanation": "covers residential rentals in the jurisdiction; no size or age limit stated",
+    "conflict_flag": false
    }
   ],
   "A0390": [
@@ -21673,12 +20821,6 @@
     "conflict_flag": false
    },
    {
-    "team_rule_id": "r-0043",
-    "result": "applies",
-    "explanation": "5+ units (NJ property class 4C (apartments, 5+ units); description '3S.F.' gives no count), at least the 2 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Annual CPI-U Based Rent Increase Limit; flagged for human review",
-    "conflict_flag": true
-   },
-   {
     "team_rule_id": "r-0044",
     "result": "applies",
     "explanation": "5+ units (NJ property class 4C (apartments, 5+ units); description '3S.F.' gives no count), at least the 5 required; the owner-based exemption only reaches buildings of 4 units or fewer; this one has 5+ (NJ property class 4C (apartments, 5+ units); description '3S.F.' gives no count)",
@@ -21693,8 +20835,8 @@
    {
     "team_rule_id": "r-0050",
     "result": "unknown",
-    "explanation": "covers buildings more than 30 years old; the record has no year built; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Annual CPI-U Based Rent Increase Limit; flagged for human review",
-    "conflict_flag": true
+    "explanation": "covers buildings more than 30 years old; the record has no year built",
+    "conflict_flag": false
    }
   ],
   "A0391": [
@@ -21829,12 +20971,6 @@
     "conflict_flag": false
    },
    {
-    "team_rule_id": "r-0043",
-    "result": "applies",
-    "explanation": "21+ units (building description '4S-BA-21U-H' states 21 units), at least the 2 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Jersey City Rent Control Exemption for 1-4 Unit Properties; flagged for human review",
-    "conflict_flag": true
-   },
-   {
     "team_rule_id": "r-0044",
     "result": "applies",
     "explanation": "21+ units (building description '4S-BA-21U-H' states 21 units), at least the 5 required; the owner-based exemption only reaches buildings of 4 units or fewer; this one has 21+ (building description '4S-BA-21U-H' states 21 units)",
@@ -21850,12 +20986,6 @@
     "team_rule_id": "r-0048",
     "result": "applies",
     "explanation": "covers residential rentals in the jurisdiction; no size or age limit stated; possible conflict: Forbidding the Algorithmic Inflation of Rent (FAIR) Act (P.L. 2026, c.043) may preempt Jersey City Code \u00a7 218-12; flagged for human review",
-    "conflict_flag": true
-   },
-   {
-    "team_rule_id": "r-0049",
-    "result": "applies",
-    "explanation": "21+ units (building description '4S-BA-21U-H' states 21 units), at least the 5 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Jersey City Rent Control Exemption for 1-4 Unit Properties; flagged for human review",
     "conflict_flag": true
    }
   ],
@@ -21879,12 +21009,6 @@
     "conflict_flag": false
    },
    {
-    "team_rule_id": "r-0043",
-    "result": "applies",
-    "explanation": "13+ units (building description '3S-B-A-13U-H' states 13 units), at least the 2 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Jersey City Rent Control Exemption for 1-4 Unit Properties; flagged for human review",
-    "conflict_flag": true
-   },
-   {
     "team_rule_id": "r-0044",
     "result": "applies",
     "explanation": "13+ units (building description '3S-B-A-13U-H' states 13 units), at least the 5 required; the owner-based exemption only reaches buildings of 4 units or fewer; this one has 13+ (building description '3S-B-A-13U-H' states 13 units)",
@@ -21900,12 +21024,6 @@
     "team_rule_id": "r-0048",
     "result": "applies",
     "explanation": "covers residential rentals in the jurisdiction; no size or age limit stated; possible conflict: Forbidding the Algorithmic Inflation of Rent (FAIR) Act (P.L. 2026, c.043) may preempt Jersey City Code \u00a7 218-12; flagged for human review",
-    "conflict_flag": true
-   },
-   {
-    "team_rule_id": "r-0049",
-    "result": "applies",
-    "explanation": "13+ units (building description '3S-B-A-13U-H' states 13 units), at least the 5 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Jersey City Rent Control Exemption for 1-4 Unit Properties; flagged for human review",
     "conflict_flag": true
    }
   ],
@@ -22183,12 +21301,6 @@
     "conflict_flag": false
    },
    {
-    "team_rule_id": "r-0043",
-    "result": "applies",
-    "explanation": "9+ units (building description '4B-9U' states 9 units), at least the 2 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Hoboken Rent Leveling Increase Cap; flagged for human review",
-    "conflict_flag": true
-   },
-   {
     "team_rule_id": "r-0044",
     "result": "applies",
     "explanation": "9+ units (building description '4B-9U' states 9 units), at least the 5 required; the owner-based exemption only reaches buildings of 4 units or fewer; this one has 9+ (building description '4B-9U' states 9 units)",
@@ -22209,8 +21321,8 @@
    {
     "team_rule_id": "r-0047",
     "result": "applies",
-    "explanation": "covers residential rentals in the jurisdiction; no size or age limit stated; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Hoboken Rent Leveling Increase Cap; flagged for human review",
-    "conflict_flag": true
+    "explanation": "covers residential rentals in the jurisdiction; no size or age limit stated",
+    "conflict_flag": false
    }
   ],
   "A0400": [
@@ -22233,12 +21345,6 @@
     "conflict_flag": false
    },
    {
-    "team_rule_id": "r-0043",
-    "result": "applies",
-    "explanation": "5+ units (NJ property class 4C (apartments, 5+ units); description '3SB' gives no count), at least the 2 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Annual CPI-U Based Rent Increase Limit; flagged for human review",
-    "conflict_flag": true
-   },
-   {
     "team_rule_id": "r-0044",
     "result": "applies",
     "explanation": "5+ units (NJ property class 4C (apartments, 5+ units); description '3SB' gives no count), at least the 5 required; the owner-based exemption only reaches buildings of 4 units or fewer; this one has 5+ (NJ property class 4C (apartments, 5+ units); description '3SB' gives no count)",
@@ -22253,8 +21359,8 @@
    {
     "team_rule_id": "r-0050",
     "result": "unknown",
-    "explanation": "covers buildings more than 30 years old; the record has no year built; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Annual CPI-U Based Rent Increase Limit; flagged for human review",
-    "conflict_flag": true
+    "explanation": "covers buildings more than 30 years old; the record has no year built",
+    "conflict_flag": false
    }
   ],
   "A0401": [
@@ -22451,12 +21557,6 @@
     "conflict_flag": false
    },
    {
-    "team_rule_id": "r-0043",
-    "result": "applies",
-    "explanation": "8+ units (building description '3S-F-D-8U-H' states 8 units), at least the 2 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Jersey City Rent Control Exemption for 1-4 Unit Properties; flagged for human review",
-    "conflict_flag": true
-   },
-   {
     "team_rule_id": "r-0044",
     "result": "applies",
     "explanation": "8+ units (building description '3S-F-D-8U-H' states 8 units), at least the 5 required; the owner-based exemption only reaches buildings of 4 units or fewer; this one has 8+ (building description '3S-F-D-8U-H' states 8 units)",
@@ -22472,12 +21572,6 @@
     "team_rule_id": "r-0048",
     "result": "applies",
     "explanation": "covers residential rentals in the jurisdiction; no size or age limit stated; possible conflict: Forbidding the Algorithmic Inflation of Rent (FAIR) Act (P.L. 2026, c.043) may preempt Jersey City Code \u00a7 218-12; flagged for human review",
-    "conflict_flag": true
-   },
-   {
-    "team_rule_id": "r-0049",
-    "result": "applies",
-    "explanation": "8+ units (building description '3S-F-D-8U-H' states 8 units), at least the 5 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Jersey City Rent Control Exemption for 1-4 Unit Properties; flagged for human review",
     "conflict_flag": true
    }
   ],
@@ -22781,12 +21875,6 @@
     "conflict_flag": false
    },
    {
-    "team_rule_id": "r-0043",
-    "result": "applies",
-    "explanation": "21+ units (building description '4-S-BT-21U-H' states 21 units), at least the 2 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Jersey City Rent Control Exemption for 1-4 Unit Properties; flagged for human review",
-    "conflict_flag": true
-   },
-   {
     "team_rule_id": "r-0044",
     "result": "applies",
     "explanation": "21+ units (building description '4-S-BT-21U-H' states 21 units), at least the 5 required; the owner-based exemption only reaches buildings of 4 units or fewer; this one has 21+ (building description '4-S-BT-21U-H' states 21 units)",
@@ -22802,12 +21890,6 @@
     "team_rule_id": "r-0048",
     "result": "applies",
     "explanation": "covers residential rentals in the jurisdiction; no size or age limit stated; possible conflict: Forbidding the Algorithmic Inflation of Rent (FAIR) Act (P.L. 2026, c.043) may preempt Jersey City Code \u00a7 218-12; flagged for human review",
-    "conflict_flag": true
-   },
-   {
-    "team_rule_id": "r-0049",
-    "result": "applies",
-    "explanation": "21+ units (building description '4-S-BT-21U-H' states 21 units), at least the 5 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Jersey City Rent Control Exemption for 1-4 Unit Properties; flagged for human review",
     "conflict_flag": true
    }
   ],
@@ -22905,12 +21987,6 @@
     "conflict_flag": false
    },
    {
-    "team_rule_id": "r-0043",
-    "result": "applies",
-    "explanation": "5+ units (NJ property class 4C (apartments, 5+ units); description '3SF' gives no count), at least the 2 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Annual CPI-U Based Rent Increase Limit; flagged for human review",
-    "conflict_flag": true
-   },
-   {
     "team_rule_id": "r-0044",
     "result": "applies",
     "explanation": "5+ units (NJ property class 4C (apartments, 5+ units); description '3SF' gives no count), at least the 5 required; the owner-based exemption only reaches buildings of 4 units or fewer; this one has 5+ (NJ property class 4C (apartments, 5+ units); description '3SF' gives no count)",
@@ -22925,8 +22001,8 @@
    {
     "team_rule_id": "r-0050",
     "result": "unknown",
-    "explanation": "covers buildings more than 30 years old; the record has no year built; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Annual CPI-U Based Rent Increase Limit; flagged for human review",
-    "conflict_flag": true
+    "explanation": "covers buildings more than 30 years old; the record has no year built",
+    "conflict_flag": false
    }
   ],
   "A0413": [
@@ -23067,12 +22143,6 @@
     "conflict_flag": false
    },
    {
-    "team_rule_id": "r-0043",
-    "result": "applies",
-    "explanation": "46+ units (building description '4S-B-A-46U-H' states 46 units), at least the 2 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Jersey City Rent Control Exemption for 1-4 Unit Properties; flagged for human review",
-    "conflict_flag": true
-   },
-   {
     "team_rule_id": "r-0044",
     "result": "applies",
     "explanation": "46+ units (building description '4S-B-A-46U-H' states 46 units), at least the 5 required; the owner-based exemption only reaches buildings of 4 units or fewer; this one has 46+ (building description '4S-B-A-46U-H' states 46 units)",
@@ -23088,12 +22158,6 @@
     "team_rule_id": "r-0048",
     "result": "applies",
     "explanation": "covers residential rentals in the jurisdiction; no size or age limit stated; possible conflict: Forbidding the Algorithmic Inflation of Rent (FAIR) Act (P.L. 2026, c.043) may preempt Jersey City Code \u00a7 218-12; flagged for human review",
-    "conflict_flag": true
-   },
-   {
-    "team_rule_id": "r-0049",
-    "result": "applies",
-    "explanation": "46+ units (building description '4S-B-A-46U-H' states 46 units), at least the 5 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Jersey City Rent Control Exemption for 1-4 Unit Properties; flagged for human review",
     "conflict_flag": true
    }
   ],
@@ -23117,12 +22181,6 @@
     "conflict_flag": false
    },
    {
-    "team_rule_id": "r-0043",
-    "result": "applies",
-    "explanation": "21+ units (building description '5S-BT-B-C-21U-H' states 21 units), at least the 2 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Jersey City Rent Control Exemption for 1-4 Unit Properties; flagged for human review",
-    "conflict_flag": true
-   },
-   {
     "team_rule_id": "r-0044",
     "result": "applies",
     "explanation": "21+ units (building description '5S-BT-B-C-21U-H' states 21 units), at least the 5 required; the owner-based exemption only reaches buildings of 4 units or fewer; this one has 21+ (building description '5S-BT-B-C-21U-H' states 21 units)",
@@ -23138,12 +22196,6 @@
     "team_rule_id": "r-0048",
     "result": "applies",
     "explanation": "covers residential rentals in the jurisdiction; no size or age limit stated; possible conflict: Forbidding the Algorithmic Inflation of Rent (FAIR) Act (P.L. 2026, c.043) may preempt Jersey City Code \u00a7 218-12; flagged for human review",
-    "conflict_flag": true
-   },
-   {
-    "team_rule_id": "r-0049",
-    "result": "applies",
-    "explanation": "21+ units (building description '5S-BT-B-C-21U-H' states 21 units), at least the 5 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Jersey City Rent Control Exemption for 1-4 Unit Properties; flagged for human review",
     "conflict_flag": true
    }
   ],
@@ -23229,12 +22281,6 @@
     "conflict_flag": false
    },
    {
-    "team_rule_id": "r-0043",
-    "result": "applies",
-    "explanation": "12+ units (building description '3S-FD-12U-H' states 12 units), at least the 2 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Jersey City Rent Control Exemption for 1-4 Unit Properties; flagged for human review",
-    "conflict_flag": true
-   },
-   {
     "team_rule_id": "r-0044",
     "result": "applies",
     "explanation": "12+ units (building description '3S-FD-12U-H' states 12 units), at least the 5 required; the owner-based exemption only reaches buildings of 4 units or fewer; this one has 12+ (building description '3S-FD-12U-H' states 12 units)",
@@ -23250,12 +22296,6 @@
     "team_rule_id": "r-0048",
     "result": "applies",
     "explanation": "covers residential rentals in the jurisdiction; no size or age limit stated; possible conflict: Forbidding the Algorithmic Inflation of Rent (FAIR) Act (P.L. 2026, c.043) may preempt Jersey City Code \u00a7 218-12; flagged for human review",
-    "conflict_flag": true
-   },
-   {
-    "team_rule_id": "r-0049",
-    "result": "applies",
-    "explanation": "12+ units (building description '3S-FD-12U-H' states 12 units), at least the 5 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Jersey City Rent Control Exemption for 1-4 Unit Properties; flagged for human review",
     "conflict_flag": true
    }
   ],
@@ -23577,12 +22617,6 @@
     "conflict_flag": false
    },
    {
-    "team_rule_id": "r-0043",
-    "result": "applies",
-    "explanation": "8+ units (building description '4F-8U' states 8 units), at least the 2 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Hoboken Rent Leveling Increase Cap; flagged for human review",
-    "conflict_flag": true
-   },
-   {
     "team_rule_id": "r-0044",
     "result": "applies",
     "explanation": "8+ units (building description '4F-8U' states 8 units), at least the 5 required; the owner-based exemption only reaches buildings of 4 units or fewer; this one has 8+ (building description '4F-8U' states 8 units)",
@@ -23603,8 +22637,8 @@
    {
     "team_rule_id": "r-0047",
     "result": "applies",
-    "explanation": "covers residential rentals in the jurisdiction; no size or age limit stated; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Hoboken Rent Leveling Increase Cap; flagged for human review",
-    "conflict_flag": true
+    "explanation": "covers residential rentals in the jurisdiction; no size or age limit stated",
+    "conflict_flag": false
    }
   ],
   "A0425": [
@@ -23795,12 +22829,6 @@
     "conflict_flag": false
    },
    {
-    "team_rule_id": "r-0043",
-    "result": "applies",
-    "explanation": "5+ units (NJ property class 4C (apartments, 5+ units); description 'Apartments (class 4C)' gives no count), at least the 2 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Annual CPI-U Based Rent Increase Limit; flagged for human review",
-    "conflict_flag": true
-   },
-   {
     "team_rule_id": "r-0044",
     "result": "applies",
     "explanation": "5+ units (NJ property class 4C (apartments, 5+ units); description 'Apartments (class 4C)' gives no count), at least the 5 required; the owner-based exemption only reaches buildings of 4 units or fewer; this one has 5+ (NJ property class 4C (apartments, 5+ units); description 'Apartments (class 4C)' gives no count)",
@@ -23815,8 +22843,8 @@
    {
     "team_rule_id": "r-0050",
     "result": "unknown",
-    "explanation": "covers buildings more than 30 years old; the record has no year built; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Annual CPI-U Based Rent Increase Limit; flagged for human review",
-    "conflict_flag": true
+    "explanation": "covers buildings more than 30 years old; the record has no year built",
+    "conflict_flag": false
    }
   ],
   "A0429": [
@@ -24205,12 +23233,6 @@
     "conflict_flag": false
    },
    {
-    "team_rule_id": "r-0043",
-    "result": "applies",
-    "explanation": "8+ units (building description '4B-8U-H' states 8 units), at least the 2 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Hoboken Rent Leveling Increase Cap; flagged for human review",
-    "conflict_flag": true
-   },
-   {
     "team_rule_id": "r-0044",
     "result": "applies",
     "explanation": "8+ units (building description '4B-8U-H' states 8 units), at least the 5 required; the owner-based exemption only reaches buildings of 4 units or fewer; this one has 8+ (building description '4B-8U-H' states 8 units)",
@@ -24231,8 +23253,8 @@
    {
     "team_rule_id": "r-0047",
     "result": "applies",
-    "explanation": "covers residential rentals in the jurisdiction; no size or age limit stated; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Hoboken Rent Leveling Increase Cap; flagged for human review",
-    "conflict_flag": true
+    "explanation": "covers residential rentals in the jurisdiction; no size or age limit stated",
+    "conflict_flag": false
    }
   ],
   "A0436": [
@@ -24255,12 +23277,6 @@
     "conflict_flag": false
    },
    {
-    "team_rule_id": "r-0043",
-    "result": "applies",
-    "explanation": "25+ units (building description '5B-6B-25U-H-BA' states 25 units), at least the 2 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Hoboken Rent Leveling Increase Cap; flagged for human review",
-    "conflict_flag": true
-   },
-   {
     "team_rule_id": "r-0044",
     "result": "applies",
     "explanation": "25+ units (building description '5B-6B-25U-H-BA' states 25 units), at least the 5 required; the owner-based exemption only reaches buildings of 4 units or fewer; this one has 25+ (building description '5B-6B-25U-H-BA' states 25 units)",
@@ -24281,8 +23297,8 @@
    {
     "team_rule_id": "r-0047",
     "result": "applies",
-    "explanation": "covers residential rentals in the jurisdiction; no size or age limit stated; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Hoboken Rent Leveling Increase Cap; flagged for human review",
-    "conflict_flag": true
+    "explanation": "covers residential rentals in the jurisdiction; no size or age limit stated",
+    "conflict_flag": false
    }
   ],
   "A0437": [
@@ -24355,12 +23371,6 @@
     "conflict_flag": false
    },
    {
-    "team_rule_id": "r-0043",
-    "result": "applies",
-    "explanation": "12+ units (building description '3S-F-A-12U-H' states 12 units), at least the 2 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Jersey City Rent Control Exemption for 1-4 Unit Properties; flagged for human review",
-    "conflict_flag": true
-   },
-   {
     "team_rule_id": "r-0044",
     "result": "applies",
     "explanation": "12+ units (building description '3S-F-A-12U-H' states 12 units), at least the 5 required; the owner-based exemption only reaches buildings of 4 units or fewer; this one has 12+ (building description '3S-F-A-12U-H' states 12 units)",
@@ -24376,12 +23386,6 @@
     "team_rule_id": "r-0048",
     "result": "applies",
     "explanation": "covers residential rentals in the jurisdiction; no size or age limit stated; possible conflict: Forbidding the Algorithmic Inflation of Rent (FAIR) Act (P.L. 2026, c.043) may preempt Jersey City Code \u00a7 218-12; flagged for human review",
-    "conflict_flag": true
-   },
-   {
-    "team_rule_id": "r-0049",
-    "result": "applies",
-    "explanation": "12+ units (building description '3S-F-A-12U-H' states 12 units), at least the 5 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Jersey City Rent Control Exemption for 1-4 Unit Properties; flagged for human review",
     "conflict_flag": true
    }
   ],
@@ -24847,12 +23851,6 @@
     "conflict_flag": false
    },
    {
-    "team_rule_id": "r-0043",
-    "result": "applies",
-    "explanation": "35+ units (building description '5B-35U-G' states 35 units), at least the 2 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Hoboken Rent Leveling Increase Cap; flagged for human review",
-    "conflict_flag": true
-   },
-   {
     "team_rule_id": "r-0044",
     "result": "applies",
     "explanation": "35+ units (building description '5B-35U-G' states 35 units), at least the 5 required; the owner-based exemption only reaches buildings of 4 units or fewer; this one has 35+ (building description '5B-35U-G' states 35 units)",
@@ -24873,8 +23871,8 @@
    {
     "team_rule_id": "r-0047",
     "result": "applies",
-    "explanation": "covers residential rentals in the jurisdiction; no size or age limit stated; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Hoboken Rent Leveling Increase Cap; flagged for human review",
-    "conflict_flag": true
+    "explanation": "covers residential rentals in the jurisdiction; no size or age limit stated",
+    "conflict_flag": false
    }
   ],
   "A0448": [
@@ -24897,12 +23895,6 @@
     "conflict_flag": false
    },
    {
-    "team_rule_id": "r-0043",
-    "result": "applies",
-    "explanation": "5+ units (NJ property class 4C (apartments, 5+ units); description '3SB' gives no count), at least the 2 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Annual CPI-U Based Rent Increase Limit; flagged for human review",
-    "conflict_flag": true
-   },
-   {
     "team_rule_id": "r-0044",
     "result": "applies",
     "explanation": "5+ units (NJ property class 4C (apartments, 5+ units); description '3SB' gives no count), at least the 5 required; the owner-based exemption only reaches buildings of 4 units or fewer; this one has 5+ (NJ property class 4C (apartments, 5+ units); description '3SB' gives no count)",
@@ -24917,8 +23909,8 @@
    {
     "team_rule_id": "r-0050",
     "result": "unknown",
-    "explanation": "covers buildings more than 30 years old; the record has no year built; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Annual CPI-U Based Rent Increase Limit; flagged for human review",
-    "conflict_flag": true
+    "explanation": "covers buildings more than 30 years old; the record has no year built",
+    "conflict_flag": false
    }
   ],
   "A0449": [
@@ -24941,12 +23933,6 @@
     "conflict_flag": false
    },
    {
-    "team_rule_id": "r-0043",
-    "result": "applies",
-    "explanation": "5+ units (NJ property class 4C (apartments, 5+ units); description '3SB' gives no count), at least the 2 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Annual CPI-U Based Rent Increase Limit; flagged for human review",
-    "conflict_flag": true
-   },
-   {
     "team_rule_id": "r-0044",
     "result": "applies",
     "explanation": "5+ units (NJ property class 4C (apartments, 5+ units); description '3SB' gives no count), at least the 5 required; the owner-based exemption only reaches buildings of 4 units or fewer; this one has 5+ (NJ property class 4C (apartments, 5+ units); description '3SB' gives no count)",
@@ -24961,8 +23947,8 @@
    {
     "team_rule_id": "r-0050",
     "result": "unknown",
-    "explanation": "covers buildings more than 30 years old; the record has no year built; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Annual CPI-U Based Rent Increase Limit; flagged for human review",
-    "conflict_flag": true
+    "explanation": "covers buildings more than 30 years old; the record has no year built",
+    "conflict_flag": false
    }
   ],
   "A0450": [
@@ -24985,12 +23971,6 @@
     "conflict_flag": false
    },
    {
-    "team_rule_id": "r-0043",
-    "result": "applies",
-    "explanation": "6+ units (building description '3S-F-D-6U-NH' states 6 units), at least the 2 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Jersey City Rent Control Exemption for 1-4 Unit Properties; flagged for human review",
-    "conflict_flag": true
-   },
-   {
     "team_rule_id": "r-0044",
     "result": "applies",
     "explanation": "6+ units (building description '3S-F-D-6U-NH' states 6 units), at least the 5 required; the owner-based exemption only reaches buildings of 4 units or fewer; this one has 6+ (building description '3S-F-D-6U-NH' states 6 units)",
@@ -25006,12 +23986,6 @@
     "team_rule_id": "r-0048",
     "result": "applies",
     "explanation": "covers residential rentals in the jurisdiction; no size or age limit stated; possible conflict: Forbidding the Algorithmic Inflation of Rent (FAIR) Act (P.L. 2026, c.043) may preempt Jersey City Code \u00a7 218-12; flagged for human review",
-    "conflict_flag": true
-   },
-   {
-    "team_rule_id": "r-0049",
-    "result": "applies",
-    "explanation": "6+ units (building description '3S-F-D-6U-NH' states 6 units), at least the 5 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Jersey City Rent Control Exemption for 1-4 Unit Properties; flagged for human review",
     "conflict_flag": true
    }
   ],
@@ -25265,12 +24239,6 @@
     "conflict_flag": false
    },
    {
-    "team_rule_id": "r-0043",
-    "result": "applies",
-    "explanation": "17+ units (building description '4S-B-A-17U-H' states 17 units), at least the 2 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Jersey City Rent Control Exemption for 1-4 Unit Properties; flagged for human review",
-    "conflict_flag": true
-   },
-   {
     "team_rule_id": "r-0044",
     "result": "applies",
     "explanation": "17+ units (building description '4S-B-A-17U-H' states 17 units), at least the 5 required; the owner-based exemption only reaches buildings of 4 units or fewer; this one has 17+ (building description '4S-B-A-17U-H' states 17 units)",
@@ -25286,12 +24254,6 @@
     "team_rule_id": "r-0048",
     "result": "applies",
     "explanation": "covers residential rentals in the jurisdiction; no size or age limit stated; possible conflict: Forbidding the Algorithmic Inflation of Rent (FAIR) Act (P.L. 2026, c.043) may preempt Jersey City Code \u00a7 218-12; flagged for human review",
-    "conflict_flag": true
-   },
-   {
-    "team_rule_id": "r-0049",
-    "result": "applies",
-    "explanation": "17+ units (building description '4S-B-A-17U-H' states 17 units), at least the 5 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Jersey City Rent Control Exemption for 1-4 Unit Properties; flagged for human review",
     "conflict_flag": true
    }
   ],
@@ -25495,12 +24457,6 @@
     "conflict_flag": false
    },
    {
-    "team_rule_id": "r-0043",
-    "result": "applies",
-    "explanation": "7+ units (building description '3S-F-7U' states 7 units), at least the 2 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Jersey City Rent Control Exemption for 1-4 Unit Properties; flagged for human review",
-    "conflict_flag": true
-   },
-   {
     "team_rule_id": "r-0044",
     "result": "applies",
     "explanation": "7+ units (building description '3S-F-7U' states 7 units), at least the 5 required; the owner-based exemption only reaches buildings of 4 units or fewer; this one has 7+ (building description '3S-F-7U' states 7 units)",
@@ -25516,12 +24472,6 @@
     "team_rule_id": "r-0048",
     "result": "applies",
     "explanation": "covers residential rentals in the jurisdiction; no size or age limit stated; possible conflict: Forbidding the Algorithmic Inflation of Rent (FAIR) Act (P.L. 2026, c.043) may preempt Jersey City Code \u00a7 218-12; flagged for human review",
-    "conflict_flag": true
-   },
-   {
-    "team_rule_id": "r-0049",
-    "result": "applies",
-    "explanation": "7+ units (building description '3S-F-7U' states 7 units), at least the 5 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Jersey City Rent Control Exemption for 1-4 Unit Properties; flagged for human review",
     "conflict_flag": true
    }
   ],
@@ -25545,12 +24495,6 @@
     "conflict_flag": false
    },
    {
-    "team_rule_id": "r-0043",
-    "result": "applies",
-    "explanation": "5+ units (NJ property class 4C (apartments, 5+ units); description '3SB' gives no count), at least the 2 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Annual CPI-U Based Rent Increase Limit; flagged for human review",
-    "conflict_flag": true
-   },
-   {
     "team_rule_id": "r-0044",
     "result": "applies",
     "explanation": "5+ units (NJ property class 4C (apartments, 5+ units); description '3SB' gives no count), at least the 5 required; the owner-based exemption only reaches buildings of 4 units or fewer; this one has 5+ (NJ property class 4C (apartments, 5+ units); description '3SB' gives no count)",
@@ -25565,8 +24509,8 @@
    {
     "team_rule_id": "r-0050",
     "result": "unknown",
-    "explanation": "covers buildings more than 30 years old; the record has no year built; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Annual CPI-U Based Rent Increase Limit; flagged for human review",
-    "conflict_flag": true
+    "explanation": "covers buildings more than 30 years old; the record has no year built",
+    "conflict_flag": false
    }
   ],
   "A0461": [
@@ -25651,12 +24595,6 @@
     "conflict_flag": false
    },
    {
-    "team_rule_id": "r-0043",
-    "result": "applies",
-    "explanation": "6+ units (building description '3S-F-D-6U' states 6 units), at least the 2 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Jersey City Rent Control Exemption for 1-4 Unit Properties; flagged for human review",
-    "conflict_flag": true
-   },
-   {
     "team_rule_id": "r-0044",
     "result": "applies",
     "explanation": "6+ units (building description '3S-F-D-6U' states 6 units), at least the 5 required; the owner-based exemption only reaches buildings of 4 units or fewer; this one has 6+ (building description '3S-F-D-6U' states 6 units)",
@@ -25672,12 +24610,6 @@
     "team_rule_id": "r-0048",
     "result": "applies",
     "explanation": "covers residential rentals in the jurisdiction; no size or age limit stated; possible conflict: Forbidding the Algorithmic Inflation of Rent (FAIR) Act (P.L. 2026, c.043) may preempt Jersey City Code \u00a7 218-12; flagged for human review",
-    "conflict_flag": true
-   },
-   {
-    "team_rule_id": "r-0049",
-    "result": "applies",
-    "explanation": "6+ units (building description '3S-F-D-6U' states 6 units), at least the 5 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Jersey City Rent Control Exemption for 1-4 Unit Properties; flagged for human review",
     "conflict_flag": true
    }
   ],
@@ -26161,12 +25093,6 @@
     "conflict_flag": false
    },
    {
-    "team_rule_id": "r-0043",
-    "result": "applies",
-    "explanation": "10+ units (building description '4 1/2B-10U-BA' states 10 units), at least the 2 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Hoboken Rent Leveling Increase Cap; flagged for human review",
-    "conflict_flag": true
-   },
-   {
     "team_rule_id": "r-0044",
     "result": "applies",
     "explanation": "10+ units (building description '4 1/2B-10U-BA' states 10 units), at least the 5 required; the owner-based exemption only reaches buildings of 4 units or fewer; this one has 10+ (building description '4 1/2B-10U-BA' states 10 units)",
@@ -26187,8 +25113,8 @@
    {
     "team_rule_id": "r-0047",
     "result": "applies",
-    "explanation": "covers residential rentals in the jurisdiction; no size or age limit stated; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Hoboken Rent Leveling Increase Cap; flagged for human review",
-    "conflict_flag": true
+    "explanation": "covers residential rentals in the jurisdiction; no size or age limit stated",
+    "conflict_flag": false
    }
   ],
   "A0472": [
@@ -26211,12 +25137,6 @@
     "conflict_flag": false
    },
    {
-    "team_rule_id": "r-0043",
-    "result": "applies",
-    "explanation": "12+ units (building description '5B-12U-BA' states 12 units), at least the 2 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Hoboken Rent Leveling Increase Cap; flagged for human review",
-    "conflict_flag": true
-   },
-   {
     "team_rule_id": "r-0044",
     "result": "applies",
     "explanation": "12+ units (building description '5B-12U-BA' states 12 units), at least the 5 required; the owner-based exemption only reaches buildings of 4 units or fewer; this one has 12+ (building description '5B-12U-BA' states 12 units)",
@@ -26237,8 +25157,8 @@
    {
     "team_rule_id": "r-0047",
     "result": "applies",
-    "explanation": "covers residential rentals in the jurisdiction; no size or age limit stated; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Hoboken Rent Leveling Increase Cap; flagged for human review",
-    "conflict_flag": true
+    "explanation": "covers residential rentals in the jurisdiction; no size or age limit stated",
+    "conflict_flag": false
    }
   ],
   "A0473": [
@@ -26373,12 +25293,6 @@
     "conflict_flag": false
    },
    {
-    "team_rule_id": "r-0043",
-    "result": "applies",
-    "explanation": "7+ units (building description '4B-7U-H' states 7 units), at least the 2 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Hoboken Rent Leveling Increase Cap; flagged for human review",
-    "conflict_flag": true
-   },
-   {
     "team_rule_id": "r-0044",
     "result": "applies",
     "explanation": "7+ units (building description '4B-7U-H' states 7 units), at least the 5 required; the owner-based exemption only reaches buildings of 4 units or fewer; this one has 7+ (building description '4B-7U-H' states 7 units)",
@@ -26399,8 +25313,8 @@
    {
     "team_rule_id": "r-0047",
     "result": "applies",
-    "explanation": "covers residential rentals in the jurisdiction; no size or age limit stated; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Hoboken Rent Leveling Increase Cap; flagged for human review",
-    "conflict_flag": true
+    "explanation": "covers residential rentals in the jurisdiction; no size or age limit stated",
+    "conflict_flag": false
    }
   ],
   "A0476": [
@@ -26423,12 +25337,6 @@
     "conflict_flag": false
    },
    {
-    "team_rule_id": "r-0043",
-    "result": "applies",
-    "explanation": "5+ units (NJ property class 4C (apartments, 5+ units); description '2SF2UG' gives no count), at least the 2 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Annual CPI-U Based Rent Increase Limit; flagged for human review",
-    "conflict_flag": true
-   },
-   {
     "team_rule_id": "r-0044",
     "result": "applies",
     "explanation": "5+ units (NJ property class 4C (apartments, 5+ units); description '2SF2UG' gives no count), at least the 5 required; the owner-based exemption only reaches buildings of 4 units or fewer; this one has 5+ (NJ property class 4C (apartments, 5+ units); description '2SF2UG' gives no count)",
@@ -26443,8 +25351,8 @@
    {
     "team_rule_id": "r-0050",
     "result": "unknown",
-    "explanation": "covers buildings more than 30 years old; the record has no year built; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Annual CPI-U Based Rent Increase Limit; flagged for human review",
-    "conflict_flag": true
+    "explanation": "covers buildings more than 30 years old; the record has no year built",
+    "conflict_flag": false
    }
   ],
   "A0477": [
@@ -26753,12 +25661,6 @@
     "conflict_flag": false
    },
    {
-    "team_rule_id": "r-0043",
-    "result": "applies",
-    "explanation": "25+ units (building description '4S-B-A-25U-H' states 25 units), at least the 2 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Jersey City Rent Control Exemption for 1-4 Unit Properties; flagged for human review",
-    "conflict_flag": true
-   },
-   {
     "team_rule_id": "r-0044",
     "result": "applies",
     "explanation": "25+ units (building description '4S-B-A-25U-H' states 25 units), at least the 5 required; the owner-based exemption only reaches buildings of 4 units or fewer; this one has 25+ (building description '4S-B-A-25U-H' states 25 units)",
@@ -26774,12 +25676,6 @@
     "team_rule_id": "r-0048",
     "result": "applies",
     "explanation": "covers residential rentals in the jurisdiction; no size or age limit stated; possible conflict: Forbidding the Algorithmic Inflation of Rent (FAIR) Act (P.L. 2026, c.043) may preempt Jersey City Code \u00a7 218-12; flagged for human review",
-    "conflict_flag": true
-   },
-   {
-    "team_rule_id": "r-0049",
-    "result": "applies",
-    "explanation": "25+ units (building description '4S-B-A-25U-H' states 25 units), at least the 5 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Jersey City Rent Control Exemption for 1-4 Unit Properties; flagged for human review",
     "conflict_flag": true
    }
   ],
@@ -27157,12 +26053,6 @@
     "conflict_flag": false
    },
    {
-    "team_rule_id": "r-0043",
-    "result": "applies",
-    "explanation": "30+ units (building description '6B-30U-G' states 30 units), at least the 2 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Hoboken Rent Leveling Increase Cap; flagged for human review",
-    "conflict_flag": true
-   },
-   {
     "team_rule_id": "r-0044",
     "result": "applies",
     "explanation": "30+ units (building description '6B-30U-G' states 30 units), at least the 5 required; the owner-based exemption only reaches buildings of 4 units or fewer; this one has 30+ (building description '6B-30U-G' states 30 units)",
@@ -27183,8 +26073,8 @@
    {
     "team_rule_id": "r-0047",
     "result": "applies",
-    "explanation": "covers residential rentals in the jurisdiction; no size or age limit stated; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Hoboken Rent Leveling Increase Cap; flagged for human review",
-    "conflict_flag": true
+    "explanation": "covers residential rentals in the jurisdiction; no size or age limit stated",
+    "conflict_flag": false
    }
   ],
   "A0490": [
@@ -27207,12 +26097,6 @@
     "conflict_flag": false
    },
    {
-    "team_rule_id": "r-0043",
-    "result": "applies",
-    "explanation": "10+ units (building description '4F-8U-C/3F-2U' states 10 units), at least the 2 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Hoboken Rent Leveling Increase Cap; flagged for human review",
-    "conflict_flag": true
-   },
-   {
     "team_rule_id": "r-0044",
     "result": "applies",
     "explanation": "10+ units (building description '4F-8U-C/3F-2U' states 10 units), at least the 5 required; the owner-based exemption only reaches buildings of 4 units or fewer; this one has 10+ (building description '4F-8U-C/3F-2U' states 10 units)",
@@ -27233,8 +26117,8 @@
    {
     "team_rule_id": "r-0047",
     "result": "applies",
-    "explanation": "covers residential rentals in the jurisdiction; no size or age limit stated; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Hoboken Rent Leveling Increase Cap; flagged for human review",
-    "conflict_flag": true
+    "explanation": "covers residential rentals in the jurisdiction; no size or age limit stated",
+    "conflict_flag": false
    }
   ],
   "A0491": [
@@ -27257,12 +26141,6 @@
     "conflict_flag": false
    },
    {
-    "team_rule_id": "r-0043",
-    "result": "applies",
-    "explanation": "5+ units (NJ property class 4C (apartments, 5+ units); description '3SF' gives no count), at least the 2 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Annual CPI-U Based Rent Increase Limit; flagged for human review",
-    "conflict_flag": true
-   },
-   {
     "team_rule_id": "r-0044",
     "result": "applies",
     "explanation": "5+ units (NJ property class 4C (apartments, 5+ units); description '3SF' gives no count), at least the 5 required; the owner-based exemption only reaches buildings of 4 units or fewer; this one has 5+ (NJ property class 4C (apartments, 5+ units); description '3SF' gives no count)",
@@ -27277,8 +26155,8 @@
    {
     "team_rule_id": "r-0050",
     "result": "unknown",
-    "explanation": "covers buildings more than 30 years old; the record has no year built; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Annual CPI-U Based Rent Increase Limit; flagged for human review",
-    "conflict_flag": true
+    "explanation": "covers buildings more than 30 years old; the record has no year built",
+    "conflict_flag": false
    }
   ],
   "A0492": [
@@ -27463,12 +26341,6 @@
     "conflict_flag": false
    },
    {
-    "team_rule_id": "r-0043",
-    "result": "applies",
-    "explanation": "6+ units (building description '3S-B-D-6U-NH' states 6 units), at least the 2 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Jersey City Rent Control Exemption for 1-4 Unit Properties; flagged for human review",
-    "conflict_flag": true
-   },
-   {
     "team_rule_id": "r-0044",
     "result": "applies",
     "explanation": "6+ units (building description '3S-B-D-6U-NH' states 6 units), at least the 5 required; the owner-based exemption only reaches buildings of 4 units or fewer; this one has 6+ (building description '3S-B-D-6U-NH' states 6 units)",
@@ -27484,12 +26356,6 @@
     "team_rule_id": "r-0048",
     "result": "applies",
     "explanation": "covers residential rentals in the jurisdiction; no size or age limit stated; possible conflict: Forbidding the Algorithmic Inflation of Rent (FAIR) Act (P.L. 2026, c.043) may preempt Jersey City Code \u00a7 218-12; flagged for human review",
-    "conflict_flag": true
-   },
-   {
-    "team_rule_id": "r-0049",
-    "result": "applies",
-    "explanation": "6+ units (building description '3S-B-D-6U-NH' states 6 units), at least the 5 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Jersey City Rent Control Exemption for 1-4 Unit Properties; flagged for human review",
     "conflict_flag": true
    }
   ],
@@ -27625,12 +26491,6 @@
     "conflict_flag": false
    },
    {
-    "team_rule_id": "r-0043",
-    "result": "applies",
-    "explanation": "5+ units (NJ property class 4C (apartments, 5+ units); description '3SB' gives no count), at least the 2 required; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Annual CPI-U Based Rent Increase Limit; flagged for human review",
-    "conflict_flag": true
-   },
-   {
     "team_rule_id": "r-0044",
     "result": "applies",
     "explanation": "5+ units (NJ property class 4C (apartments, 5+ units); description '3SB' gives no count), at least the 5 required; the owner-based exemption only reaches buildings of 4 units or fewer; this one has 5+ (NJ property class 4C (apartments, 5+ units); description '3SB' gives no count)",
@@ -27645,8 +26505,8 @@
    {
     "team_rule_id": "r-0050",
     "result": "unknown",
-    "explanation": "covers buildings more than 30 years old; the record has no year built; possible conflict: Newly Constructed Multiple Dwellings Rent Control Exemption (N.J.S.A. 2A:42-84.5) may preempt Annual CPI-U Based Rent Increase Limit; flagged for human review",
-    "conflict_flag": true
+    "explanation": "covers buildings more than 30 years old; the record has no year built",
+    "conflict_flag": false
    }
   ],
   "A0499": [

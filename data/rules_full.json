@@ -4103,20 +4103,16 @@
    "filled_from": []
   },
   "exemptions": null,
-  "overrides": [
-   "r-0047",
-   "r-0049",
-   "r-0050"
-  ],
-  "interaction": "May preempt the listed local rules once in force; every affected address is flagged for human review rather than decided.",
+  "overrides": [],
+  "interaction": null,
   "effective_date": null,
   "citation": "N.J.S.A. 2A:42-84.5",
   "source_doc_id": "D067",
   "source_url": "https://www.nj.gov/dca/codes/publications/pdf_lti/t_i_r.pdf",
   "quoted_span": "Under the Newly Constructed Multiple Dwellings Law ( N.J.S.A. 2A:42 -84.5), newly \nconstructed multiple dwellings shall be exempt from any local rent control ordinances for a period \nof 30 years following completion of construction of the building.",
   "confidence": 1.0,
-  "conflict_flag": true,
-  "conflict_note": "possible preemption of r-0047 (Hoboken, NJ), r-0049 (Jersey City, NJ), r-0050 (Newark, NJ)",
+  "conflict_flag": false,
+  "conflict_note": null,
   "lifecycle": "enacted",
   "coverage": {
    "summary": "Applies to newly constructed multiple dwellings.",
@@ -4513,8 +4509,8 @@
   "source_url": "https://cdn.prod.website-files.com/58407e2ebca0e34c30a2d39c/6aa82b60e6a4086c0b4658a8_CPI%20Hoboken%20Website%20Cap%20(12).pdf",
   "quoted_span": "No landlord may request or\n                                                                                                       receive a percentage increase in\n                                                                                                       rent which is greater than 5%",
   "confidence": 0.9,
-  "conflict_flag": true,
-  "conflict_note": "may be preempted by r-0043 (Newly Constructed Multiple Dwellings Rent Control Exemption) from None",
+  "conflict_flag": false,
+  "conflict_note": null,
   "lifecycle": "enacted",
   "coverage": {
    "summary": "Applies to residential rental units under the city's rent leveling regulations.",
@@ -4860,8 +4856,8 @@
   "source_url": "https://www.jerseycitynj.gov/landlordtenant",
   "quoted_span": "All 1-4 Unit Properties are exempt from rent control",
   "confidence": 1.0,
-  "conflict_flag": true,
-  "conflict_note": "may be preempted by r-0043 (Newly Constructed Multiple Dwellings Rent Control Exemption) from None",
+  "conflict_flag": false,
+  "conflict_note": null,
   "lifecycle": "enacted",
   "coverage": {
    "summary": "Applies to properties with 1 to 4 units.",
@@ -4963,8 +4959,8 @@
   "source_url": "https://www.newarknj.gov/DocumentCenter/View/1019",
   "quoted_span": "Beginning June 20, 2014\n         permissible annual rent increases for a given month are shown in the table below. Landlords may\n         increase rents as per the Consumer Price Index- Urban percentage (CPI-U %) published every\n         month.",
   "confidence": 0.95,
-  "conflict_flag": true,
-  "conflict_note": "may be preempted by r-0043 (Newly Constructed Multiple Dwellings Rent Control Exemption) from None",
+  "conflict_flag": false,
+  "conflict_note": null,
   "lifecycle": "enacted",
   "coverage": {
    "summary": "Applies to residential dwellings in Newark except public housing, hotels, motels, commercial spaces, and explicitly exempted new constructions or substantially rehabilitated units.",

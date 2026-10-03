@@ -1,0 +1,7574 @@
+{
+ "A0001": {
+  "query": "6238 DE LONGPRE AVE, Los Angeles, CA 90028",
+  "status": "matched",
+  "matched_address": "6238 DE LONGPRE AVE, LOS ANGELES, CA, 90028",
+  "lon": -118.324865073863,
+  "lat": 34.096133031379,
+  "place": "Los Angeles city",
+  "place_geoid": "0644000",
+  "cdp": [],
+  "county": [
+   "Los Angeles County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:12Z"
+ },
+ "A0002": {
+  "query": "1031 CLINTON ST, Hoboken, NJ",
+  "status": "matched",
+  "matched_address": "1031 CLINTON ST, HOBOKEN, NJ, 07030",
+  "lon": -74.03183135878,
+  "lat": 40.749764881522,
+  "place": "Hoboken city",
+  "place_geoid": "3432250",
+  "cdp": [],
+  "county": [
+   "Hudson County"
+  ],
+  "candidates": 1,
+  "retry": true,
+  "original_query": "1031-1035 CLINTON ST, Hoboken, NJ 07030",
+  "retrieved_at": "2026-10-03T17:15Z"
+ },
+ "A0003": {
+  "query": "876 S 14TH ST, Newark, NJ",
+  "status": "matched",
+  "matched_address": "876 S 14TH ST, NEWARK, NJ, 07108",
+  "lon": -74.210414357377,
+  "lat": 40.724887410231,
+  "place": "Newark city",
+  "place_geoid": "3451000",
+  "cdp": [],
+  "county": [
+   "Essex County"
+  ],
+  "candidates": 1,
+  "retry": true,
+  "original_query": "876-878 S 14TH ST, Newark, NJ 11219",
+  "retrieved_at": "2026-10-03T17:15Z"
+ },
+ "A0004": {
+  "query": "10050 MOUNTAIR AVE, Los Angeles, CA 91042",
+  "status": "matched",
+  "matched_address": "10050 MOUNTAIR AVE, TUJUNGA, CA, 91042",
+  "lon": -118.293109199528,
+  "lat": 34.251842346844,
+  "place": "Los Angeles city",
+  "place_geoid": "0644000",
+  "cdp": [],
+  "county": [
+   "Los Angeles County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:12Z"
+ },
+ "A0005": {
+  "query": "1609 ADDISON ST, Berkeley, CA 94703",
+  "status": "matched",
+  "matched_address": "1609 ADDISON ST, BERKELEY, CA, 94703",
+  "lon": -122.279293972449,
+  "lat": 37.869830696926,
+  "place": "Berkeley city",
+  "place_geoid": "0606000",
+  "cdp": [],
+  "county": [
+   "Alameda County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:12Z"
+ },
+ "A0006": {
+  "query": "69 WESTLAND AVE, Boston, MA",
+  "status": "matched",
+  "matched_address": "69 WESTLAND AVE, BOSTON, MA, 02115",
+  "lon": -71.088686987281,
+  "lat": 42.343782153564,
+  "place": "Boston city",
+  "place_geoid": "2507000",
+  "cdp": [],
+  "county": [
+   "Suffolk County"
+  ],
+  "candidates": 1,
+  "retry": true,
+  "original_query": "69-71 WESTLAND AV, Boston, MA 02115",
+  "retrieved_at": "2026-10-03T17:15Z"
+ },
+ "A0007": {
+  "query": "4257 SAN PEDRO PL, Los Angeles, CA 90011",
+  "status": "matched",
+  "matched_address": "4257 SAN PEDRO PL, LOS ANGELES, CA, 90011",
+  "lon": -118.271165204282,
+  "lat": 34.006235579229,
+  "place": "Los Angeles city",
+  "place_geoid": "0644000",
+  "cdp": [],
+  "county": [
+   "Los Angeles County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:12Z"
+ },
+ "A0008": {
+  "query": "1065 SUMMIT AVENUE, Jersey City, NJ 78746",
+  "status": "matched",
+  "matched_address": "1065 SUMMIT AVE, JERSEY CITY, NJ, 07307",
+  "lon": -74.049026204465,
+  "lat": 40.751069898526,
+  "place": "Jersey City city",
+  "place_geoid": "3436000",
+  "cdp": [],
+  "county": [
+   "Hudson County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:12Z"
+ },
+ "A0009": {
+  "query": "322 Western Ave, Cambridge, MA",
+  "status": "matched",
+  "matched_address": "322 WESTERN AVE, CAMBRIDGE, MA, 02139",
+  "lon": -71.113348085886,
+  "lat": 42.364468228676,
+  "place": "Cambridge city",
+  "place_geoid": "2511000",
+  "cdp": [],
+  "county": [
+   "Middlesex County"
+  ],
+  "candidates": 1,
+  "retry": true,
+  "original_query": "322-322.5 Western Ave, Cambridge, MA ",
+  "retrieved_at": "2026-10-03T17:15Z"
+ },
+ "A0010": {
+  "query": "134 Oxford St, Cambridge, MA ",
+  "status": "matched",
+  "matched_address": "134 OXFORD ST, CAMBRIDGE, MA, 02140",
+  "lon": -71.1160583909,
+  "lat": 42.385333082376,
+  "place": "Cambridge city",
+  "place_geoid": "2511000",
+  "cdp": [],
+  "county": [
+   "Middlesex County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:12Z"
+ },
+ "A0011": {
+  "query": "834 RAYMOND BLVD, Newark, NJ",
+  "status": "matched",
+  "matched_address": "834 RAYMOND BLVD, NEWARK, NJ, 07105",
+  "lon": -74.156148368781,
+  "lat": 40.732647093573,
+  "place": "Newark city",
+  "place_geoid": "3451000",
+  "cdp": [],
+  "county": [
+   "Essex County"
+  ],
+  "candidates": 1,
+  "retry": true,
+  "original_query": "834-836 RAYMOND BLVD, Newark, NJ 08805",
+  "retrieved_at": "2026-10-03T17:15Z"
+ },
+ "A0012": {
+  "query": "1064 SUMMIT AVE., Jersey City, NJ 07728",
+  "status": "matched",
+  "matched_address": "1064 SUMMIT AVE, JERSEY CITY, NJ, 07307",
+  "lon": -74.048775549263,
+  "lat": 40.751188750138,
+  "place": "Jersey City city",
+  "place_geoid": "3436000",
+  "cdp": [],
+  "county": [
+   "Hudson County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:12Z"
+ },
+ "A0013": {
+  "query": "137 N 11TH ST, Newark, NJ 07107",
+  "status": "matched",
+  "matched_address": "137 N 11TH ST, NEWARK, NJ, 07107",
+  "lon": -74.191694841632,
+  "lat": 40.759893850085,
+  "place": "Newark city",
+  "place_geoid": "3451000",
+  "cdp": [],
+  "county": [
+   "Essex County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:12Z"
+ },
+ "A0014": {
+  "query": "5907 CAHUENGA BLVD, Los Angeles, CA 91601",
+  "status": "matched",
+  "matched_address": "5907 CAHUENGA BLVD, NORTH HOLLYWOOD, CA, 91601",
+  "lon": -118.361636078081,
+  "lat": 34.177801731811,
+  "place": "Los Angeles city",
+  "place_geoid": "0644000",
+  "cdp": [],
+  "county": [
+   "Los Angeles County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:12Z"
+ },
+ "A0015": {
+  "query": "15 Everett St, Cambridge, MA ",
+  "status": "matched",
+  "matched_address": "15 EVERETT ST, CAMBRIDGE, MA, 02138",
+  "lon": -71.118720021347,
+  "lat": 42.379980886163,
+  "place": "Cambridge city",
+  "place_geoid": "2511000",
+  "cdp": [],
+  "county": [
+   "Middlesex County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:12Z"
+ },
+ "A0016": {
+  "query": "3515 FILLMORE ST, San Francisco, CA ",
+  "status": "matched",
+  "matched_address": "3515 FILLMORE ST, SAN FRANCISCO, CA, 94123",
+  "lon": -122.436684852142,
+  "lat": 37.801874337429,
+  "place": "San Francisco city",
+  "place_geoid": "0667000",
+  "cdp": [],
+  "county": [
+   "San Francisco County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:12Z"
+ },
+ "A0017": {
+  "query": "225 DUNCAN AVE., Jersey City, NJ 10949",
+  "status": "matched",
+  "matched_address": "225 DUNCAN AVE, JERSEY CITY, NJ, 07306",
+  "lon": -74.079234576768,
+  "lat": 40.7277629714,
+  "place": "Jersey City city",
+  "place_geoid": "3436000",
+  "cdp": [],
+  "county": [
+   "Hudson County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:12Z"
+ },
+ "A0018": {
+  "query": "1906 BONITA AVE, Berkeley, CA 94704",
+  "status": "matched",
+  "matched_address": "1906 BONITA AVE, BERKELEY, CA, 94704",
+  "lon": -122.272116073506,
+  "lat": 37.873088577747,
+  "place": "Berkeley city",
+  "place_geoid": "0606000",
+  "cdp": [],
+  "county": [
+   "Alameda County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:12Z"
+ },
+ "A0019": {
+  "query": "3820 HAINES ST, San Diego, CA 92109",
+  "status": "matched",
+  "matched_address": "3820 HAINES ST, SAN DIEGO, CA, 92109",
+  "lon": -117.239511773112,
+  "lat": 32.788734586305,
+  "place": "San Diego city",
+  "place_geoid": "0666000",
+  "cdp": [],
+  "county": [
+   "San Diego County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:12Z"
+ },
+ "A0020": {
+  "query": "646 N 6TH ST, Newark, NJ",
+  "status": "matched",
+  "matched_address": "646 N 6TH ST, NEWARK, NJ, 07107",
+  "lon": -74.180619526984,
+  "lat": 40.771163010071,
+  "place": "Newark city",
+  "place_geoid": "3451000",
+  "cdp": [],
+  "county": [
+   "Essex County"
+  ],
+  "candidates": 1,
+  "retry": true,
+  "original_query": "646-648 N 6TH ST, Newark, NJ 07083",
+  "retrieved_at": "2026-10-03T17:15Z"
+ },
+ "A0021": {
+  "query": "22 PRECITA AV, San Francisco, CA ",
+  "status": "matched",
+  "matched_address": "22 PRECITA AVE, SAN FRANCISCO, CA, 94110",
+  "lon": -122.418913690663,
+  "lat": 37.746697199975,
+  "place": "San Francisco city",
+  "place_geoid": "0667000",
+  "cdp": [],
+  "county": [
+   "San Francisco County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:12Z"
+ },
+ "A0022": {
+  "query": "10908 HARTSOOK ST, Los Angeles, CA 91601",
+  "status": "matched",
+  "matched_address": "10908 HARTSOOK ST, NORTH HOLLYWOOD, CA, 91601",
+  "lon": -118.368312978252,
+  "lat": 34.163485706471,
+  "place": "Los Angeles city",
+  "place_geoid": "0644000",
+  "cdp": [],
+  "county": [
+   "Los Angeles County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:12Z"
+ },
+ "A0023": {
+  "query": "843 IROLO ST, Los Angeles, CA 90005",
+  "status": "matched",
+  "matched_address": "843 IROLO ST, LOS ANGELES, CA, 90005",
+  "lon": -118.300958567015,
+  "lat": 34.0569182313,
+  "place": "Los Angeles city",
+  "place_geoid": "0644000",
+  "cdp": [],
+  "county": [
+   "Los Angeles County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:12Z"
+ },
+ "A0024": {
+  "query": "227 Charles St, Cambridge, MA ",
+  "status": "matched",
+  "matched_address": "227 CHARLES ST, CAMBRIDGE, MA, 02141",
+  "lon": -71.084850671785,
+  "lat": 42.368207474124,
+  "place": "Cambridge city",
+  "place_geoid": "2511000",
+  "cdp": [],
+  "county": [
+   "Middlesex County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:12Z"
+ },
+ "A0025": {
+  "query": "2341 8TH ST, Berkeley, CA 94710",
+  "status": "matched",
+  "matched_address": "2341 8TH ST, BERKELEY, CA, 94710",
+  "lon": -122.293815269518,
+  "lat": 37.863231048622,
+  "place": "Berkeley city",
+  "place_geoid": "0606000",
+  "cdp": [],
+  "county": [
+   "Alameda County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:12Z"
+ },
+ "A0026": {
+  "query": "59 OAK ST., Jersey City, NJ 07306",
+  "status": "matched",
+  "matched_address": "59 OAK ST, JERSEY CITY, NJ, 07304",
+  "lon": -74.076996657496,
+  "lat": 40.713718828723,
+  "place": "Jersey City city",
+  "place_geoid": "3436000",
+  "cdp": [],
+  "county": [
+   "Hudson County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:12Z"
+ },
+ "A0027": {
+  "query": "3918 FULTON ST, San Francisco, CA ",
+  "status": "matched",
+  "matched_address": "3918 FULTON ST, SAN FRANCISCO, CA, 94118",
+  "lon": -122.473684296131,
+  "lat": 37.773108534668,
+  "place": "San Francisco city",
+  "place_geoid": "0667000",
+  "cdp": [],
+  "county": [
+   "San Francisco County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:12Z"
+ },
+ "A0028": {
+  "query": "585 5TH ST, Newark, NJ 07107",
+  "status": "matched",
+  "matched_address": "585 N 5TH ST, NEWARK, NJ, 07107",
+  "lon": -74.180832847404,
+  "lat": 40.768516151715,
+  "place": "Newark city",
+  "place_geoid": "3451000",
+  "cdp": [],
+  "county": [
+   "Essex County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:12Z"
+ },
+ "A0029": {
+  "query": "280 VERONA AVE, Newark, NJ",
+  "status": "matched",
+  "matched_address": "280 VERONA AVE, NEWARK, NJ, 07104",
+  "lon": -74.165985399456,
+  "lat": 40.782807564387,
+  "place": "Newark city",
+  "place_geoid": "3451000",
+  "cdp": [],
+  "county": [
+   "Essex County"
+  ],
+  "candidates": 1,
+  "retry": true,
+  "original_query": "280-284 VERONA AVE, Newark, NJ 07653",
+  "retrieved_at": "2026-10-03T17:15Z"
+ },
+ "A0030": {
+  "query": "2051 DIVISADERO ST, San Francisco, CA ",
+  "status": "matched",
+  "matched_address": "2051 DIVISADERO ST, SAN FRANCISCO, CA, 94115",
+  "lon": -122.440651886856,
+  "lat": 37.788524403095,
+  "place": "San Francisco city",
+  "place_geoid": "0667000",
+  "cdp": [],
+  "county": [
+   "San Francisco County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:12Z"
+ },
+ "A0031": {
+  "query": "5624 S SAN PEDRO ST, Los Angeles, CA 90011",
+  "status": "matched",
+  "matched_address": "5624 S SAN PEDRO ST, LOS ANGELES, CA, 90011",
+  "lon": -118.270046050706,
+  "lat": 33.991312087929,
+  "place": "Los Angeles city",
+  "place_geoid": "0644000",
+  "cdp": [],
+  "county": [
+   "Los Angeles County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:12Z"
+ },
+ "A0032": {
+  "query": "63 OAK ST., Jersey City, NJ 08820",
+  "status": "matched",
+  "matched_address": "63 OAK ST, JERSEY CITY, NJ, 07304",
+  "lon": -74.077148779124,
+  "lat": 40.7137999274,
+  "place": "Jersey City city",
+  "place_geoid": "3436000",
+  "cdp": [],
+  "county": [
+   "Hudson County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:12Z"
+ },
+ "A0033": {
+  "query": "1260 KEARNY ST, San Francisco, CA ",
+  "status": "matched",
+  "matched_address": "1260 KEARNY ST, SAN FRANCISCO, CA, 94133",
+  "lon": -122.405709002561,
+  "lat": 37.79964889858,
+  "place": "San Francisco city",
+  "place_geoid": "0667000",
+  "cdp": [],
+  "county": [
+   "San Francisco County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:12Z"
+ },
+ "A0034": {
+  "query": "25 Gore St, Cambridge, MA ",
+  "status": "matched",
+  "matched_address": "25 GORE ST, CAMBRIDGE, MA, 02141",
+  "lon": -71.079128226997,
+  "lat": 42.371703436562,
+  "place": "Cambridge city",
+  "place_geoid": "2511000",
+  "cdp": [],
+  "county": [
+   "Middlesex County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:12Z"
+ },
+ "A0035": {
+  "query": "5239 HARMONY AVE, Los Angeles, CA 91601",
+  "status": "matched",
+  "matched_address": "5239 HARMONY AVE, NORTH HOLLYWOOD, CA, 91601",
+  "lon": -118.366516457468,
+  "lat": 34.165618179362,
+  "place": "Los Angeles city",
+  "place_geoid": "0644000",
+  "cdp": [],
+  "county": [
+   "Los Angeles County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:12Z"
+ },
+ "A0036": {
+  "query": "33 WARD ST, South Boston, MA 02127",
+  "status": "matched",
+  "matched_address": "33 WARD ST, SOUTH BOSTON, MA, 02127",
+  "lon": -71.054524489253,
+  "lat": 42.32946722555,
+  "place": "Boston city",
+  "place_geoid": "2507000",
+  "cdp": [],
+  "county": [
+   "Suffolk County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:12Z"
+ },
+ "A0037": {
+  "query": "770 IROLO ST, Los Angeles, CA 90005",
+  "status": "matched",
+  "matched_address": "770 IROLO ST, LOS ANGELES, CA, 90005",
+  "lon": -118.300824624602,
+  "lat": 34.058302827517,
+  "place": "Los Angeles city",
+  "place_geoid": "0644000",
+  "cdp": [],
+  "county": [
+   "Los Angeles County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:12Z"
+ },
+ "A0038": {
+  "query": "154 YUKON ST, San Francisco, CA ",
+  "status": "matched",
+  "matched_address": "154 YUKON ST, SAN FRANCISCO, CA, 94114",
+  "lon": -122.442397125228,
+  "lat": 37.757178828285,
+  "place": "San Francisco city",
+  "place_geoid": "0667000",
+  "cdp": [],
+  "county": [
+   "San Francisco County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:12Z"
+ },
+ "A0039": {
+  "query": "1 Craigie St, Cambridge, MA ",
+  "status": "matched",
+  "matched_address": "1 CRAIGIE ST, CAMBRIDGE, MA, 02138",
+  "lon": -71.125838882455,
+  "lat": 42.379449621711,
+  "place": "Cambridge city",
+  "place_geoid": "2511000",
+  "cdp": [],
+  "county": [
+   "Middlesex County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:12Z"
+ },
+ "A0040": {
+  "query": "69 JACKSON ST, Hoboken, NJ",
+  "status": "matched",
+  "matched_address": "69 JACKSON ST, HOBOKEN, NJ, 07030",
+  "lon": -74.041111798554,
+  "lat": 40.738767838556,
+  "place": "Hoboken city",
+  "place_geoid": "3432250",
+  "cdp": [],
+  "county": [
+   "Hudson County"
+  ],
+  "candidates": 1,
+  "retry": true,
+  "original_query": "69-75 JACKSON ST, Hoboken, NJ 07030",
+  "retrieved_at": "2026-10-03T17:15Z"
+ },
+ "A0041": {
+  "query": "122 TIFFANY AV, San Francisco, CA ",
+  "status": "matched",
+  "matched_address": "122 TIFFANY AVE, SAN FRANCISCO, CA, 94110",
+  "lon": -122.421406384884,
+  "lat": 37.744990908268,
+  "place": "San Francisco city",
+  "place_geoid": "0667000",
+  "cdp": [],
+  "county": [
+   "San Francisco County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:12Z"
+ },
+ "A0042": {
+  "query": "320 FORREST ST., Jersey City, NJ 07304",
+  "status": "matched",
+  "matched_address": "320 FORREST ST, JERSEY CITY, NJ, 07304",
+  "lon": -74.077362139063,
+  "lat": 40.713202456168,
+  "place": "Jersey City city",
+  "place_geoid": "3436000",
+  "cdp": [],
+  "county": [
+   "Hudson County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:12Z"
+ },
+ "A0043": {
+  "query": "4 Orchard St, Cambridge, MA ",
+  "status": "matched",
+  "matched_address": "4 ORCHARD ST, CAMBRIDGE, MA, 02140",
+  "lon": -71.119075629483,
+  "lat": 42.390119763731,
+  "place": "Cambridge city",
+  "place_geoid": "2511000",
+  "cdp": [],
+  "county": [
+   "Middlesex County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:12Z"
+ },
+ "A0044": {
+  "query": "773 SANDFORD AVE, Newark, NJ",
+  "status": "matched",
+  "matched_address": "773 SANDFORD AVE, NEWARK, NJ, 07106",
+  "lon": -74.237007324819,
+  "lat": 40.735792625793,
+  "place": "Newark city",
+  "place_geoid": "3451000",
+  "cdp": [],
+  "county": [
+   "Essex County"
+  ],
+  "candidates": 1,
+  "retry": true,
+  "original_query": "773-775 SANDFORD AVE, Newark, NJ 11211",
+  "retrieved_at": "2026-10-03T17:15Z"
+ },
+ "A0045": {
+  "query": "12829 BRANFORD ST, Los Angeles, CA 91331",
+  "status": "matched",
+  "matched_address": "12829 BRANFORD ST, PACOIMA, CA, 91331",
+  "lon": -118.41212012105,
+  "lat": 34.241771886514,
+  "place": "Los Angeles city",
+  "place_geoid": "0644000",
+  "cdp": [],
+  "county": [
+   "Los Angeles County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:12Z"
+ },
+ "A0046": {
+  "query": "8 Soden St, Cambridge, MA",
+  "status": "matched",
+  "matched_address": "8 SODEN ST, CAMBRIDGE, MA, 02139",
+  "lon": -71.108291600506,
+  "lat": 42.365425650101,
+  "place": "Cambridge city",
+  "place_geoid": "2511000",
+  "cdp": [],
+  "county": [
+   "Middlesex County"
+  ],
+  "candidates": 1,
+  "retry": true,
+  "original_query": "8-12 Soden St, Cambridge, MA ",
+  "retrieved_at": "2026-10-03T17:15Z"
+ },
+ "A0047": {
+  "query": "14 RUTGERS AVE., Jersey City, NJ 07304",
+  "status": "matched",
+  "matched_address": "14 RUTGERS AVE, JERSEY CITY, NJ, 07305",
+  "lon": -74.090865859165,
+  "lat": 40.698116647571,
+  "place": "Jersey City city",
+  "place_geoid": "3436000",
+  "cdp": [],
+  "county": [
+   "Hudson County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:12Z"
+ },
+ "A0048": {
+  "query": "1619 COMMONWEALTH AV, Brighton, MA 02135",
+  "status": "matched",
+  "matched_address": "1619 COMMONWEALTH AVE, BRIGHTON, MA, 02135",
+  "lon": -71.143549067491,
+  "lat": 42.343402761946,
+  "place": "Boston city",
+  "place_geoid": "2507000",
+  "cdp": [],
+  "county": [
+   "Suffolk County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:12Z"
+ },
+ "A0049": {
+  "query": "721 CLINTON ST, Hoboken, NJ 07856",
+  "status": "matched",
+  "matched_address": "721 CLINTON ST, HOBOKEN, NJ, 07030",
+  "lon": -74.033058218101,
+  "lat": 40.745798808889,
+  "place": "Hoboken city",
+  "place_geoid": "3432250",
+  "cdp": [],
+  "county": [
+   "Hudson County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:12Z"
+ },
+ "A0050": {
+  "query": "36 HOFF ST, San Francisco, CA ",
+  "status": "matched",
+  "matched_address": "36 HOFF ST, SAN FRANCISCO, CA, 94110",
+  "lon": -122.420573521471,
+  "lat": 37.764124413322,
+  "place": "San Francisco city",
+  "place_geoid": "0667000",
+  "cdp": [],
+  "county": [
+   "San Francisco County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:12Z"
+ },
+ "A0051": {
+  "query": "65 OAKLAND AVE., Jersey City, NJ 07423",
+  "status": "matched",
+  "matched_address": "65 OAKLAND AVE, JERSEY CITY, NJ, 07306",
+  "lon": -74.055436604985,
+  "lat": 40.734681117954,
+  "place": "Jersey City city",
+  "place_geoid": "3436000",
+  "cdp": [],
+  "county": [
+   "Hudson County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:12Z"
+ },
+ "A0052": {
+  "query": "88 Gardner ST, Allston, MA 02134",
+  "status": "matched",
+  "matched_address": "88 GARDNER ST, ALLSTON, MA, 02134",
+  "lon": -71.125813095903,
+  "lat": 42.35351823784,
+  "place": "Boston city",
+  "place_geoid": "2507000",
+  "cdp": [],
+  "county": [
+   "Suffolk County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:12Z"
+ },
+ "A0053": {
+  "query": "32 Garrison ST, Boston, MA 02116",
+  "status": "matched",
+  "matched_address": "32 GARRISON ST, BOSTON, MA, 02116",
+  "lon": -71.07944707371,
+  "lat": 42.345890982312,
+  "place": "Boston city",
+  "place_geoid": "2507000",
+  "cdp": [],
+  "county": [
+   "Suffolk County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:12Z"
+ },
+ "A0054": {
+  "query": "13 Shetland ST, Roxbury, MA 02119",
+  "status": "matched",
+  "matched_address": "13 SHETLAND ST, ROXBURY, MA, 02119",
+  "lon": -71.068028337557,
+  "lat": 42.324986499476,
+  "place": "Boston city",
+  "place_geoid": "2507000",
+  "cdp": [],
+  "county": [
+   "Suffolk County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:12Z"
+ },
+ "A0055": {
+  "query": "305 10TH AV, San Francisco, CA ",
+  "status": "matched",
+  "matched_address": "305 10TH AVE, SAN FRANCISCO, CA, 94118",
+  "lon": -122.46876702789,
+  "lat": 37.782619210817,
+  "place": "San Francisco city",
+  "place_geoid": "0667000",
+  "cdp": [],
+  "county": [
+   "San Francisco County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:12Z"
+ },
+ "A0056": {
+  "query": "41 Edgerly RD, Boston, MA",
+  "status": "matched",
+  "matched_address": "41 EDGERLY RD, BOSTON, MA, 02115",
+  "lon": -71.087953685927,
+  "lat": 42.34565560843,
+  "place": "Boston city",
+  "place_geoid": "2507000",
+  "cdp": [],
+  "county": [
+   "Suffolk County"
+  ],
+  "candidates": 1,
+  "retry": true,
+  "original_query": "41-43 Edgerly RD, Boston, MA 02115",
+  "retrieved_at": "2026-10-03T17:15Z"
+ },
+ "A0057": {
+  "query": "57 STONE ST, Newark, NJ 07012",
+  "status": "matched",
+  "matched_address": "57 STONE ST, NEWARK, NJ, 07104",
+  "lon": -74.174377039669,
+  "lat": 40.753432421375,
+  "place": "Newark city",
+  "place_geoid": "3451000",
+  "cdp": [],
+  "county": [
+   "Essex County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:12Z"
+ },
+ "A0058": {
+  "query": "3137 BOSTON AVE, San Diego, CA 92113",
+  "status": "matched",
+  "matched_address": "3137 BOSTON AVE, SAN DIEGO, CA, 92113",
+  "lon": -117.126888325341,
+  "lat": 32.693817730505,
+  "place": "San Diego city",
+  "place_geoid": "0666000",
+  "cdp": [],
+  "county": [
+   "San Diego County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:12Z"
+ },
+ "A0059": {
+  "query": "84 WALNUT ST, Newark, NJ",
+  "status": "matched",
+  "matched_address": "84 WALNUT ST, NEWARK, NJ, 07102",
+  "lon": -74.170943860837,
+  "lat": 40.729245283506,
+  "place": "Newark city",
+  "place_geoid": "3451000",
+  "cdp": [],
+  "county": [
+   "Essex County"
+  ],
+  "candidates": 1,
+  "retry": true,
+  "original_query": "84-86 WALNUT ST, Newark, NJ 07078",
+  "retrieved_at": "2026-10-03T17:15Z"
+ },
+ "A0060": {
+  "query": "5737 WILLOWCREST AVE, Los Angeles, CA 91601",
+  "status": "matched",
+  "matched_address": "5737 WILLOWCREST AVE, NORTH HOLLYWOOD, CA, 91601",
+  "lon": -118.362720761505,
+  "lat": 34.174656039346,
+  "place": "Los Angeles city",
+  "place_geoid": "0644000",
+  "cdp": [],
+  "county": [
+   "Los Angeles County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:12Z"
+ },
+ "A0061": {
+  "query": "106 18TH AV, San Francisco, CA ",
+  "status": "matched",
+  "matched_address": "106 18TH AVE, SAN FRANCISCO, CA, 94121",
+  "lon": -122.477559726965,
+  "lat": 37.785919313984,
+  "place": "San Francisco city",
+  "place_geoid": "0667000",
+  "cdp": [],
+  "county": [
+   "San Francisco County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:12Z"
+ },
+ "A0062": {
+  "query": "77 HOFF ST, San Francisco, CA ",
+  "status": "matched",
+  "matched_address": "77 HOFF ST, SAN FRANCISCO, CA, 94110",
+  "lon": -122.420395727367,
+  "lat": 37.763766231452,
+  "place": "San Francisco city",
+  "place_geoid": "0667000",
+  "cdp": [],
+  "county": [
+   "San Francisco County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:12Z"
+ },
+ "A0063": {
+  "query": "11 Cortes ST, Boston, MA 02116",
+  "status": "matched",
+  "matched_address": "11 CORTES ST, BOSTON, MA, 02116",
+  "lon": -71.069583391995,
+  "lat": 42.348290028212,
+  "place": "Boston city",
+  "place_geoid": "2507000",
+  "cdp": [],
+  "county": [
+   "Suffolk County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:12Z"
+ },
+ "A0064": {
+  "query": "24 Concord Ave, Cambridge, MA",
+  "status": "matched",
+  "matched_address": "24 CONCORD AVE, CAMBRIDGE, MA, 02138",
+  "lon": -71.125715638744,
+  "lat": 42.379346098924,
+  "place": "Cambridge city",
+  "place_geoid": "2511000",
+  "cdp": [],
+  "county": [
+   "Middlesex County"
+  ],
+  "candidates": 1,
+  "retry": true,
+  "original_query": "24-26 Concord Ave, Cambridge, MA ",
+  "retrieved_at": "2026-10-03T17:15Z"
+ },
+ "A0065": {
+  "query": "63 Bailey ST, Dorchester, MA 02124",
+  "status": "matched",
+  "matched_address": "63 BAILEY ST, DORCHESTER, MA, 02124",
+  "lon": -71.066465126331,
+  "lat": 42.284452236737,
+  "place": "Boston city",
+  "place_geoid": "2507000",
+  "cdp": [],
+  "county": [
+   "Suffolk County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:12Z"
+ },
+ "A0066": {
+  "query": "1318 N ORANGE DR, Los Angeles, CA 90028",
+  "status": "matched",
+  "matched_address": "1318 N ORANGE DR, LOS ANGELES, CA, 90028",
+  "lon": -118.341484249454,
+  "lat": 34.0947022093,
+  "place": "Los Angeles city",
+  "place_geoid": "0644000",
+  "cdp": [],
+  "county": [
+   "Los Angeles County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:12Z"
+ },
+ "A0067": {
+  "query": "1335 N VISTA ST, Los Angeles, CA 90046",
+  "status": "matched",
+  "matched_address": "1335 N VISTA ST, LOS ANGELES, CA, 90046",
+  "lon": -118.351799391859,
+  "lat": 34.095045778052,
+  "place": "Los Angeles city",
+  "place_geoid": "0644000",
+  "cdp": [],
+  "county": [
+   "Los Angeles County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:12Z"
+ },
+ "A0068": {
+  "query": "40 Clearway ST, Boston, MA",
+  "status": "matched",
+  "matched_address": "40 CLEARWAY ST, BOSTON, MA, 02115",
+  "lon": -71.085817934257,
+  "lat": 42.345343961417,
+  "place": "Boston city",
+  "place_geoid": "2507000",
+  "cdp": [],
+  "county": [
+   "Suffolk County"
+  ],
+  "candidates": 1,
+  "retry": true,
+  "original_query": "40-42 Clearway ST, Boston, MA 02115",
+  "retrieved_at": "2026-10-03T17:15Z"
+ },
+ "A0069": {
+  "query": "2277 UNION ST, San Francisco, CA ",
+  "status": "matched",
+  "matched_address": "2277 UNION ST, SAN FRANCISCO, CA, 94123",
+  "lon": -122.436717035924,
+  "lat": 37.796874616444,
+  "place": "San Francisco city",
+  "place_geoid": "0667000",
+  "cdp": [],
+  "county": [
+   "San Francisco County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:12Z"
+ },
+ "A0070": {
+  "query": "43 Fayette St, Cambridge, MA ",
+  "status": "matched",
+  "matched_address": "43 FAYETTE ST, CAMBRIDGE, MA, 02139",
+  "lon": -71.103267573782,
+  "lat": 42.372611705618,
+  "place": "Cambridge city",
+  "place_geoid": "2511000",
+  "cdp": [],
+  "county": [
+   "Middlesex County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:12Z"
+ },
+ "A0071": {
+  "query": "14.5-16 Vandine St, Cambridge, MA",
+  "status": "matched",
+  "matched_address": "16 VANDINE ST, CAMBRIDGE, MA, 02141",
+  "lon": -71.0905953379,
+  "lat": 42.368814396347,
+  "place": "Cambridge city",
+  "place_geoid": "2511000",
+  "cdp": [],
+  "county": [
+   "Middlesex County"
+  ],
+  "candidates": 1,
+  "retry": true,
+  "original_query": "14.5-16 Vandine St, Cambridge, MA ",
+  "retrieved_at": "2026-10-03T17:15Z"
+ },
+ "A0072": {
+  "query": "1251 10TH AV, San Francisco, CA ",
+  "status": "matched",
+  "matched_address": "1251 10TH AVE, SAN FRANCISCO, CA, 94122",
+  "lon": -122.467520089919,
+  "lat": 37.764890627041,
+  "place": "San Francisco city",
+  "place_geoid": "0667000",
+  "cdp": [],
+  "county": [
+   "San Francisco County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:12Z"
+ },
+ "A0073": {
+  "query": "35 Inman St, Cambridge, MA",
+  "status": "matched",
+  "matched_address": "35 INMAN ST, CAMBRIDGE, MA, 02139",
+  "lon": -71.104039667653,
+  "lat": 42.368591564991,
+  "place": "Cambridge city",
+  "place_geoid": "2511000",
+  "cdp": [],
+  "county": [
+   "Middlesex County"
+  ],
+  "candidates": 1,
+  "retry": true,
+  "original_query": "35-37 Inman St, Cambridge, MA ",
+  "retrieved_at": "2026-10-03T17:15Z"
+ },
+ "A0074": {
+  "query": "717 S BERENDO ST, Los Angeles, CA 90005",
+  "status": "matched",
+  "matched_address": "717 S BERENDO ST, LOS ANGELES, CA, 90005",
+  "lon": -118.294210099909,
+  "lat": 34.059391478589,
+  "place": "Los Angeles city",
+  "place_geoid": "0644000",
+  "cdp": [],
+  "county": [
+   "Los Angeles County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:12Z"
+ },
+ "A0075": {
+  "query": "27 Everett St, Cambridge, MA ",
+  "status": "matched",
+  "matched_address": "27 EVERETT ST, CAMBRIDGE, MA, 02138",
+  "lon": -71.117508170008,
+  "lat": 42.379922700614,
+  "place": "Cambridge city",
+  "place_geoid": "2511000",
+  "cdp": [],
+  "county": [
+   "Middlesex County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:12Z"
+ },
+ "A0076": {
+  "query": "304 E KINNEY ST, Newark, NJ 07033",
+  "status": "matched",
+  "matched_address": "304 E KINNEY ST, NEWARK, NJ, 07105",
+  "lon": -74.162836470045,
+  "lat": 40.724076460199,
+  "place": "Newark city",
+  "place_geoid": "3451000",
+  "cdp": [],
+  "county": [
+   "Essex County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:12Z"
+ },
+ "A0077": {
+  "query": "91 Brookline St, Cambridge, MA ",
+  "status": "matched",
+  "matched_address": "91 BROOKLINE ST, CAMBRIDGE, MA, 02139",
+  "lon": -71.103733351887,
+  "lat": 42.361566486333,
+  "place": "Cambridge city",
+  "place_geoid": "2511000",
+  "cdp": [],
+  "county": [
+   "Middlesex County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:12Z"
+ },
+ "A0078": {
+  "query": "115 BAYVIEW AVE., Jersey City, NJ 07304",
+  "status": "matched",
+  "matched_address": "115 BAYVIEW AVE, JERSEY CITY, NJ, 07305",
+  "lon": -74.080499166258,
+  "lat": 40.705324743987,
+  "place": "Jersey City city",
+  "place_geoid": "3436000",
+  "cdp": [],
+  "county": [
+   "Hudson County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:12Z"
+ },
+ "A0079": {
+  "query": "2361 PORTLAND ST, Los Angeles, CA 90007",
+  "status": "matched",
+  "matched_address": "2361 PORTLAND ST, LOS ANGELES, CA, 90007",
+  "lon": -118.282094130957,
+  "lat": 34.032231820463,
+  "place": "Los Angeles city",
+  "place_geoid": "0644000",
+  "cdp": [],
+  "county": [
+   "Los Angeles County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:12Z"
+ },
+ "A0080": {
+  "query": "690 S CATALINA ST, Los Angeles, CA 90005",
+  "status": "matched",
+  "matched_address": "690 S CATALINA ST, LOS ANGELES, CA, 90005",
+  "lon": -118.295327996925,
+  "lat": 34.060127849082,
+  "place": "Los Angeles city",
+  "place_geoid": "0644000",
+  "cdp": [],
+  "county": [
+   "Los Angeles County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:12Z"
+ },
+ "A0081": {
+  "query": "145 TAYLOR ST, San Francisco, CA ",
+  "status": "matched",
+  "matched_address": "145 TAYLOR ST, SAN FRANCISCO, CA, 94102",
+  "lon": -122.410947938983,
+  "lat": 37.783758897294,
+  "place": "San Francisco city",
+  "place_geoid": "0667000",
+  "cdp": [],
+  "county": [
+   "San Francisco County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:12Z"
+ },
+ "A0082": {
+  "query": "63 Inman St, Cambridge, MA ",
+  "status": "matched",
+  "matched_address": "63 INMAN ST, CAMBRIDGE, MA, 02139",
+  "lon": -71.102833387558,
+  "lat": 42.370344257321,
+  "place": "Cambridge city",
+  "place_geoid": "2511000",
+  "cdp": [],
+  "county": [
+   "Middlesex County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:12Z"
+ },
+ "A0083": {
+  "query": "38 KENILWORTH ST, Roxbury, MA 02119",
+  "status": "matched",
+  "matched_address": "38 KENILWORTH ST, ROXBURY, MA, 02119",
+  "lon": -71.087424612529,
+  "lat": 42.328651609512,
+  "place": "Boston city",
+  "place_geoid": "2507000",
+  "cdp": [],
+  "county": [
+   "Suffolk County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:12Z"
+ },
+ "A0084": {
+  "query": "1725 CHESTNUT ST, San Francisco, CA ",
+  "status": "matched",
+  "matched_address": "1725 CHESTNUT ST, SAN FRANCISCO, CA, 94123",
+  "lon": -122.431739349227,
+  "lat": 37.801332618559,
+  "place": "San Francisco city",
+  "place_geoid": "0667000",
+  "cdp": [],
+  "county": [
+   "San Francisco County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:12Z"
+ },
+ "A0085": {
+  "query": "1101 CHURCH ST, San Francisco, CA ",
+  "status": "matched",
+  "matched_address": "1101 CHURCH ST, SAN FRANCISCO, CA, 94114",
+  "lon": -122.427505338235,
+  "lat": 37.753239144697,
+  "place": "San Francisco city",
+  "place_geoid": "0667000",
+  "cdp": [],
+  "county": [
+   "San Francisco County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:12Z"
+ },
+ "A0086": {
+  "query": "67 Plymouth St, Cambridge, MA ",
+  "status": "matched",
+  "matched_address": "67 PLYMOUTH ST, CAMBRIDGE, MA, 02141",
+  "lon": -71.093495991755,
+  "lat": 42.369083221693,
+  "place": "Cambridge city",
+  "place_geoid": "2511000",
+  "cdp": [],
+  "county": [
+   "Middlesex County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:12Z"
+ },
+ "A0087": {
+  "query": "323 BLOOMFIELD ST, Hoboken, NJ 07504",
+  "status": "matched",
+  "matched_address": "323 BLOOMFIELD ST, HOBOKEN, NJ, 07030",
+  "lon": -74.030768159948,
+  "lat": 40.740414697817,
+  "place": "Hoboken city",
+  "place_geoid": "3432250",
+  "cdp": [],
+  "county": [
+   "Hudson County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:12Z"
+ },
+ "A0088": {
+  "query": "201 CLEMENT ST, San Francisco, CA ",
+  "status": "matched",
+  "matched_address": "201 CLEMENT ST, SAN FRANCISCO, CA, 94118",
+  "lon": -122.461275217487,
+  "lat": 37.783026502307,
+  "place": "San Francisco city",
+  "place_geoid": "0667000",
+  "cdp": [],
+  "county": [
+   "San Francisco County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:12Z"
+ },
+ "A0089": {
+  "query": "935 PARK AVE, Hoboken, NJ 07030",
+  "status": "matched",
+  "matched_address": "935 PARK AVE, HOBOKEN, NJ, 07030",
+  "lon": -74.030368120288,
+  "lat": 40.748211954503,
+  "place": "Hoboken city",
+  "place_geoid": "3432250",
+  "cdp": [],
+  "county": [
+   "Hudson County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:12Z"
+ },
+ "A0090": {
+  "query": "30 JACKSON ST, Newark, NJ 07105",
+  "status": "matched",
+  "matched_address": "30 JACKSON ST, NEWARK, NJ, 07105",
+  "lon": -74.155787524567,
+  "lat": 40.731204856376,
+  "place": "Newark city",
+  "place_geoid": "3451000",
+  "cdp": [],
+  "county": [
+   "Essex County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:12Z"
+ },
+ "A0091": {
+  "query": "2229 DWIGHT WAY, Berkeley, CA 94704",
+  "status": "matched",
+  "matched_address": "2229 DWIGHT WAY, BERKELEY, CA, 94704",
+  "lon": -122.264605312198,
+  "lat": 37.864405329327,
+  "place": "Berkeley city",
+  "place_geoid": "0606000",
+  "cdp": [],
+  "county": [
+   "Alameda County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:12Z"
+ },
+ "A0092": {
+  "query": "2514 PIEDMONT AVE, Berkeley, CA 94704",
+  "status": "matched",
+  "matched_address": "2514 PIEDMONT AVE, BERKELEY, CA, 94704",
+  "lon": -122.251697248224,
+  "lat": 37.865583367618,
+  "place": "Berkeley city",
+  "place_geoid": "0606000",
+  "cdp": [],
+  "county": [
+   "Alameda County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:12Z"
+ },
+ "A0093": {
+  "query": "90 BICKFORD ST, Jamaica Plain, MA 02130",
+  "status": "matched",
+  "matched_address": "90 BICKFORD ST, JAMAICA PLAIN, MA, 02130",
+  "lon": -71.101924371068,
+  "lat": 42.324002818423,
+  "place": "Boston city",
+  "place_geoid": "2507000",
+  "cdp": [],
+  "county": [
+   "Suffolk County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:12Z"
+ },
+ "A0094": {
+  "query": "1371 27TH ST, San Diego, CA 92154",
+  "status": "matched",
+  "matched_address": "1371 27TH ST, SAN DIEGO, CA, 92154",
+  "lon": -117.075371141803,
+  "lat": 32.571862077109,
+  "place": "San Diego city",
+  "place_geoid": "0666000",
+  "cdp": [],
+  "county": [
+   "San Diego County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:12Z"
+ },
+ "A0095": {
+  "query": "23 Elm St, Cambridge, MA ",
+  "status": "matched",
+  "matched_address": "23 ELM ST, CAMBRIDGE, MA, 02139",
+  "lon": -71.098495150944,
+  "lat": 42.367845841037,
+  "place": "Cambridge city",
+  "place_geoid": "2511000",
+  "cdp": [],
+  "county": [
+   "Middlesex County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:12Z"
+ },
+ "A0096": {
+  "query": "81 WESTLAND AV, Boston, MA 02115",
+  "status": "matched",
+  "matched_address": "81 WESTLAND AVE, BOSTON, MA, 02115",
+  "lon": -71.089157903457,
+  "lat": 42.343854353427,
+  "place": "Boston city",
+  "place_geoid": "2507000",
+  "cdp": [],
+  "county": [
+   "Suffolk County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:12Z"
+ },
+ "A0097": {
+  "query": "1560 MASON ST, San Francisco, CA ",
+  "status": "matched",
+  "matched_address": "1560 MASON ST, SAN FRANCISCO, CA, 94133",
+  "lon": -122.411949673166,
+  "lat": 37.79780463687,
+  "place": "San Francisco city",
+  "place_geoid": "0667000",
+  "cdp": [],
+  "county": [
+   "San Francisco County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:12Z"
+ },
+ "A0098": {
+  "query": "WILLOWWOOD ST, Dorchester, MA",
+  "status": "no_match",
+  "place": null,
+  "retry": true,
+  "original_query": "WILLOWWOOD ST, Dorchester, MA 02124",
+  "retrieved_at": "2026-10-03T17:15Z"
+ },
+ "A0099": {
+  "query": "822 WASHINGTON ST, Hoboken, NJ 07458",
+  "status": "matched",
+  "matched_address": "822 WASHINGTON ST, HOBOKEN, NJ, 07030",
+  "lon": -74.028270964888,
+  "lat": 40.746308514721,
+  "place": "Hoboken city",
+  "place_geoid": "3432250",
+  "cdp": [],
+  "county": [
+   "Hudson County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:12Z"
+ },
+ "A0100": {
+  "query": "4732 BANCROFT ST, San Diego, CA 92116",
+  "status": "matched",
+  "matched_address": "4732 BANCROFT ST, SAN DIEGO, CA, 92116",
+  "lon": -117.123977567896,
+  "lat": 32.764095185337,
+  "place": "San Diego city",
+  "place_geoid": "0666000",
+  "cdp": [],
+  "county": [
+   "San Diego County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:12Z"
+ },
+ "A0101": {
+  "query": "315 FAIRMOUNT AVENUE, Jersey City, NJ",
+  "status": "matched",
+  "matched_address": "315 FAIRMOUNT AVE, JERSEY CITY, NJ, 07306",
+  "lon": -74.070646241263,
+  "lat": 40.725165683984,
+  "place": "Jersey City city",
+  "place_geoid": "3436000",
+  "cdp": [],
+  "county": [
+   "Hudson County"
+  ],
+  "candidates": 1,
+  "retry": true,
+  "original_query": "315-319 FAIRMOUNT AVENUE, Jersey City, NJ 07039",
+  "retrieved_at": "2026-10-03T17:15Z"
+ },
+ "A0102": {
+  "query": "124 BLOOMFIELD ST, Hoboken, NJ 10003",
+  "status": "matched",
+  "matched_address": "124 BLOOMFIELD ST, HOBOKEN, NJ, 07030",
+  "lon": -74.031684861444,
+  "lat": 40.737933172158,
+  "place": "Hoboken city",
+  "place_geoid": "3432250",
+  "cdp": [],
+  "county": [
+   "Hudson County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:12Z"
+ },
+ "A0103": {
+  "query": "2161 ALLSTON WAY, Berkeley, CA 94704",
+  "status": "matched",
+  "matched_address": "2161 ALLSTON WAY, BERKELEY, CA, 94704",
+  "lon": -122.266218694007,
+  "lat": 37.869701586713,
+  "place": "Berkeley city",
+  "place_geoid": "0606000",
+  "cdp": [],
+  "county": [
+   "Alameda County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:12Z"
+ },
+ "A0104": {
+  "query": "409 5TH ST, Newark, NJ 07012",
+  "status": "matched",
+  "matched_address": "409 N 5TH ST, NEWARK, NJ, 07107",
+  "lon": -74.184328525178,
+  "lat": 40.761814283797,
+  "place": "Newark city",
+  "place_geoid": "3451000",
+  "cdp": [],
+  "county": [
+   "Essex County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:12Z"
+ },
+ "A0105": {
+  "query": "140 PORTOLA DR, San Francisco, CA ",
+  "status": "matched",
+  "matched_address": "140 PORTOLA DR, SAN FRANCISCO, CA, 94131",
+  "lon": -122.444191229026,
+  "lat": 37.748652213279,
+  "place": "San Francisco city",
+  "place_geoid": "0667000",
+  "cdp": [],
+  "county": [
+   "San Francisco County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:12Z"
+ },
+ "A0106": {
+  "query": "250 FREMONT ST, San Francisco, CA ",
+  "status": "matched",
+  "matched_address": "250 FREMONT ST, SAN FRANCISCO, CA, 94105",
+  "lon": -122.394074444911,
+  "lat": 37.788294915739,
+  "place": "San Francisco city",
+  "place_geoid": "0667000",
+  "cdp": [],
+  "county": [
+   "San Francisco County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:12Z"
+ },
+ "A0107": {
+  "query": "10635 SHERMAN GROVE AVE, Los Angeles, CA 91040",
+  "status": "matched",
+  "matched_address": "10635 SHERMAN GROVE AVE, SUNLAND, CA, 91040",
+  "lon": -118.32017657606,
+  "lat": 34.262255890509,
+  "place": "Los Angeles city",
+  "place_geoid": "0644000",
+  "cdp": [],
+  "county": [
+   "Los Angeles County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:12Z"
+ },
+ "A0108": {
+  "query": "13 JEFFERSON AVE., Jersey City, NJ 07030",
+  "status": "matched",
+  "matched_address": "13 JEFFERSON AVE, JERSEY CITY, NJ, 07306",
+  "lon": -74.049970012264,
+  "lat": 40.736287315576,
+  "place": "Jersey City city",
+  "place_geoid": "3436000",
+  "cdp": [],
+  "county": [
+   "Hudson County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:12Z"
+ },
+ "A0109": {
+  "query": "2922 OTIS ST, Berkeley, CA 94703",
+  "status": "matched",
+  "matched_address": "2922 OTIS ST, BERKELEY, CA, 94703",
+  "lon": -122.270269918923,
+  "lat": 37.8558347046,
+  "place": "Berkeley city",
+  "place_geoid": "0606000",
+  "cdp": [],
+  "county": [
+   "Alameda County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:12Z"
+ },
+ "A0110": {
+  "query": "130 2ND AVE, Newark, NJ",
+  "status": "matched",
+  "matched_address": "130 2ND AVE, NEWARK, NJ, 07104",
+  "lon": -74.174639118818,
+  "lat": 40.763233783015,
+  "place": "Newark city",
+  "place_geoid": "3451000",
+  "cdp": [],
+  "county": [
+   "Essex County"
+  ],
+  "candidates": 1,
+  "retry": true,
+  "original_query": "130-132 2ND AVE, Newark, NJ 07055",
+  "retrieved_at": "2026-10-03T17:15Z"
+ },
+ "A0111": {
+  "query": "10075 TUJUNGA CANYON BLVD, Los Angeles, CA 91042",
+  "status": "matched",
+  "matched_address": "10075 TUJUNGA CANYON BLVD, TUJUNGA, CA, 91042",
+  "lon": -118.284430355328,
+  "lat": 34.249924250911,
+  "place": "Los Angeles city",
+  "place_geoid": "0644000",
+  "cdp": [],
+  "county": [
+   "Los Angeles County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:12Z"
+ },
+ "A0112": {
+  "query": "448 BRODERICK ST, San Francisco, CA ",
+  "status": "matched",
+  "matched_address": "448 BRODERICK ST, SAN FRANCISCO, CA, 94117",
+  "lon": -122.439298239317,
+  "lat": 37.77431322716,
+  "place": "San Francisco city",
+  "place_geoid": "0667000",
+  "cdp": [],
+  "county": [
+   "San Francisco County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:12Z"
+ },
+ "A0113": {
+  "query": "3151 ETON AVE, Berkeley, CA 94705",
+  "status": "matched",
+  "matched_address": "3151 ETON AVE, BERKELEY, CA, 94705",
+  "lon": -122.250637537308,
+  "lat": 37.853156920269,
+  "place": "Berkeley city",
+  "place_geoid": "0606000",
+  "cdp": [],
+  "county": [
+   "Alameda County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:12Z"
+ },
+ "A0114": {
+  "query": "3743 INDIA ST, San Diego, CA 92103",
+  "status": "matched",
+  "matched_address": "3743 INDIA ST, SAN DIEGO, CA, 92103",
+  "lon": -117.180736253153,
+  "lat": 32.74279009558,
+  "place": "San Diego city",
+  "place_geoid": "0666000",
+  "cdp": [],
+  "county": [
+   "San Diego County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:12Z"
+ },
+ "A0115": {
+  "query": "397 5TH AVE, San Francisco, CA",
+  "status": "matched",
+  "matched_address": "397 5TH AVE, SAN FRANCISCO, CA, 94118",
+  "lon": -122.46329611176,
+  "lat": 37.78123618708,
+  "place": "San Francisco city",
+  "place_geoid": "0667000",
+  "cdp": [],
+  "county": [
+   "San Francisco County"
+  ],
+  "candidates": 1,
+  "retry": true,
+  "original_query": "397 05TH AV, San Francisco, CA ",
+  "retrieved_at": "2026-10-03T17:15Z"
+ },
+ "A0116": {
+  "query": "36 PROSPECT ST., Jersey City, NJ 07111",
+  "status": "matched",
+  "matched_address": "36 PROSPECT ST, JERSEY CITY, NJ, 07307",
+  "lon": -74.049245065733,
+  "lat": 40.73782973401,
+  "place": "Jersey City city",
+  "place_geoid": "3436000",
+  "cdp": [],
+  "county": [
+   "Hudson County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:12Z"
+ },
+ "A0117": {
+  "query": "1733 N CHEROKEE AVE, Los Angeles, CA 90028",
+  "status": "matched",
+  "matched_address": "1733 N CHEROKEE AVE, LOS ANGELES, CA, 90028",
+  "lon": -118.334821278665,
+  "lat": 34.102120911287,
+  "place": "Los Angeles city",
+  "place_geoid": "0644000",
+  "cdp": [],
+  "county": [
+   "Los Angeles County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:12Z"
+ },
+ "A0118": {
+  "query": "18 KINGBIRD RD, Dorchester, MA",
+  "status": "matched",
+  "matched_address": "18 KINGBIRD RD, DORCHESTER, MA, 02124",
+  "lon": -71.09361381307,
+  "lat": 42.292393727281,
+  "place": "Boston city",
+  "place_geoid": "2507000",
+  "cdp": [],
+  "county": [
+   "Suffolk County"
+  ],
+  "candidates": 1,
+  "retry": true,
+  "original_query": "18-34 KINGBIRD RD, Dorchester, MA 02124",
+  "retrieved_at": "2026-10-03T17:15Z"
+ },
+ "A0119": {
+  "query": "607 ADAMS ST, Hoboken, NJ 07030",
+  "status": "matched",
+  "matched_address": "607 ADAMS ST, HOBOKEN, NJ, 07030",
+  "lon": -74.035368051004,
+  "lat": 40.744671445285,
+  "place": "Hoboken city",
+  "place_geoid": "3432250",
+  "cdp": [],
+  "county": [
+   "Hudson County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:12Z"
+ },
+ "A0120": {
+  "query": "139 ELM ST, Newark, NJ 07105",
+  "status": "matched",
+  "matched_address": "139 ELM ST, NEWARK, NJ, 07105",
+  "lon": -74.165047104124,
+  "lat": 40.72835234588,
+  "place": "Newark city",
+  "place_geoid": "3451000",
+  "cdp": [],
+  "county": [
+   "Essex County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:12Z"
+ },
+ "A0121": {
+  "query": "4079 FRONT ST, San Diego, CA 92103",
+  "status": "matched",
+  "matched_address": "4079 FRONT ST, SAN DIEGO, CA, 92103",
+  "lon": -117.16494526813,
+  "lat": 32.751421595306,
+  "place": "San Diego city",
+  "place_geoid": "0666000",
+  "cdp": [],
+  "county": [
+   "San Diego County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:12Z"
+ },
+ "A0122": {
+  "query": "4812 S BROADWAY, Los Angeles, CA 90037",
+  "status": "matched",
+  "matched_address": "4812 S BROADWAY, LOS ANGELES, CA, 90037",
+  "lon": -118.278252342985,
+  "lat": 33.999020066962,
+  "place": "Los Angeles city",
+  "place_geoid": "0644000",
+  "cdp": [],
+  "county": [
+   "Los Angeles County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:12Z"
+ },
+ "A0123": {
+  "query": "123 Condor ST, East Boston, MA 02128",
+  "status": "matched",
+  "matched_address": "123 CONDOR ST, EAST BOSTON, MA, 02128",
+  "lon": -71.035437146913,
+  "lat": 42.382539410028,
+  "place": "Boston city",
+  "place_geoid": "2507000",
+  "cdp": [],
+  "county": [
+   "Suffolk County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:12Z"
+ },
+ "A0124": {
+  "query": "33 Brookline St, Cambridge, MA",
+  "status": "matched",
+  "matched_address": "33 BROOKLINE ST, CAMBRIDGE, MA, 02139",
+  "lon": -71.102397310535,
+  "lat": 42.363009949315,
+  "place": "Cambridge city",
+  "place_geoid": "2511000",
+  "cdp": [],
+  "county": [
+   "Middlesex County"
+  ],
+  "candidates": 1,
+  "retry": true,
+  "original_query": "33-35 Brookline St, Cambridge, MA ",
+  "retrieved_at": "2026-10-03T17:15Z"
+ },
+ "A0125": {
+  "query": "227 GRAND ST, Hoboken, NJ 07030",
+  "status": "matched",
+  "matched_address": "227 GRAND ST, HOBOKEN, NJ, 07030",
+  "lon": -74.035814894303,
+  "lat": 40.740020460669,
+  "place": "Hoboken city",
+  "place_geoid": "3432250",
+  "cdp": [],
+  "county": [
+   "Hudson County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:12Z"
+ },
+ "A0126": {
+  "query": "1350 POTRERO AV, San Francisco, CA ",
+  "status": "matched",
+  "matched_address": "1350 POTRERO AVE, SAN FRANCISCO, CA, 94110",
+  "lon": -122.406250403098,
+  "lat": 37.750954392609,
+  "place": "San Francisco city",
+  "place_geoid": "0667000",
+  "cdp": [],
+  "county": [
+   "San Francisco County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:12Z"
+ },
+ "A0127": {
+  "query": "10029 SEPULVEDA BLVD, Los Angeles, CA 91345",
+  "status": "matched",
+  "matched_address": "10029 N SEPULVEDA BLVD, MISSION HILLS, CA, 91345",
+  "lon": -118.467596873721,
+  "lat": 34.252367056179,
+  "place": "Los Angeles city",
+  "place_geoid": "0644000",
+  "cdp": [],
+  "county": [
+   "Los Angeles County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:12Z"
+ },
+ "A0128": {
+  "query": "Harvard ST, Dorchester, MA",
+  "status": "no_match",
+  "place": null,
+  "retry": true,
+  "original_query": "Harvard ST, Dorchester, MA 02124",
+  "retrieved_at": "2026-10-03T17:15Z"
+ },
+ "A0129": {
+  "query": "526 MULBERRY ST, Newark, NJ",
+  "status": "matched",
+  "matched_address": "526 MULBERRY ST, NEWARK, NJ, 07114",
+  "lon": -74.176833067335,
+  "lat": 40.719806603386,
+  "place": "Newark city",
+  "place_geoid": "3451000",
+  "cdp": [],
+  "county": [
+   "Essex County"
+  ],
+  "candidates": 1,
+  "retry": true,
+  "original_query": "526-532 MULBERRY ST, Newark, NJ 07039",
+  "retrieved_at": "2026-10-03T17:15Z"
+ },
+ "A0130": {
+  "query": "554 MARKET ST, Newark, NJ 07205",
+  "status": "matched",
+  "matched_address": "554 MARKET ST, NEWARK, NJ, 07105",
+  "lon": -74.154426811823,
+  "lat": 40.731588087906,
+  "place": "Newark city",
+  "place_geoid": "3451000",
+  "cdp": [],
+  "county": [
+   "Essex County"
+  ],
+  "candidates": 2,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0131": {
+  "query": "43 POPLAR ST., Jersey City, NJ 07307",
+  "status": "matched",
+  "matched_address": "43 POPLAR ST, JERSEY CITY, NJ, 07307",
+  "lon": -74.046101194189,
+  "lat": 40.754136146986,
+  "place": "Jersey City city",
+  "place_geoid": "3436000",
+  "cdp": [],
+  "county": [
+   "Hudson County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0132": {
+  "query": "587 N 6TH ST, Newark, NJ 11205",
+  "status": "matched",
+  "matched_address": "587 N 6TH ST, NEWARK, NJ, 07107",
+  "lon": -74.181410596224,
+  "lat": 40.76934816412,
+  "place": "Newark city",
+  "place_geoid": "3451000",
+  "cdp": [],
+  "county": [
+   "Essex County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0133": {
+  "query": "8819 LANKERSHIM BLVD, Los Angeles, CA 91352",
+  "status": "matched",
+  "matched_address": "8819 LANKERSHIM BLVD, SUN VALLEY, CA, 91352",
+  "lon": -118.387834588124,
+  "lat": 34.229428423859,
+  "place": "Los Angeles city",
+  "place_geoid": "0644000",
+  "cdp": [],
+  "county": [
+   "Los Angeles County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0134": {
+  "query": "101 Norfolk ST, Dorchester, MA 02124",
+  "status": "matched",
+  "matched_address": "101 NORFOLK ST, DORCHESTER, MA, 02124",
+  "lon": -71.076008765993,
+  "lat": 42.288488914986,
+  "place": "Boston city",
+  "place_geoid": "2507000",
+  "cdp": [],
+  "county": [
+   "Suffolk County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0135": {
+  "query": "843 CLAY ST, San Francisco, CA ",
+  "status": "matched",
+  "matched_address": "843 CLAY ST, SAN FRANCISCO, CA, 94108",
+  "lon": -122.40698604858,
+  "lat": 37.794118952125,
+  "place": "San Francisco city",
+  "place_geoid": "0667000",
+  "cdp": [],
+  "county": [
+   "San Francisco County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0136": {
+  "query": "920 HUDSON ST, Hoboken, NJ 07030",
+  "status": "matched",
+  "matched_address": "920 HUDSON ST, HOBOKEN, NJ, 07030",
+  "lon": -74.026733524669,
+  "lat": 40.747367988246,
+  "place": "Hoboken city",
+  "place_geoid": "3432250",
+  "cdp": [],
+  "county": [
+   "Hudson County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0137": {
+  "query": "65 NORFLOK ST, Newark, NJ",
+  "status": "matched",
+  "matched_address": "65 NORFOLK ST, NEWARK, NJ, 07103",
+  "lon": -74.182557707489,
+  "lat": 40.746701068528,
+  "place": "Newark city",
+  "place_geoid": "3451000",
+  "cdp": [],
+  "county": [
+   "Essex County"
+  ],
+  "candidates": 1,
+  "retry": true,
+  "original_query": "65-71 NORFLOK ST, Newark, NJ 07003",
+  "retrieved_at": "2026-10-03T17:15Z"
+ },
+ "A0138": {
+  "query": "1033 E 51ST ST, Los Angeles, CA 90011",
+  "status": "matched",
+  "matched_address": "1033 E 51ST ST, LOS ANGELES, CA, 90011",
+  "lon": -118.257577562794,
+  "lat": 33.996685074769,
+  "place": "Los Angeles city",
+  "place_geoid": "0644000",
+  "cdp": [],
+  "county": [
+   "Los Angeles County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0139": {
+  "query": "54 STUYVESANT AVE., Jersey City, NJ 07042",
+  "status": "matched",
+  "matched_address": "54 STUYVESANT AVE, JERSEY CITY, NJ, 07306",
+  "lon": -74.071034378592,
+  "lat": 40.729943720291,
+  "place": "Jersey City city",
+  "place_geoid": "3436000",
+  "cdp": [],
+  "county": [
+   "Hudson County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0140": {
+  "query": "459 BEACON ST, Boston, MA 02115",
+  "status": "matched",
+  "matched_address": "459 BEACON ST, BOSTON, MA, 02115",
+  "lon": -71.088098655836,
+  "lat": 42.351156189935,
+  "place": "Boston city",
+  "place_geoid": "2507000",
+  "cdp": [],
+  "county": [
+   "Suffolk County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0141": {
+  "query": "2601 43RD AV, San Francisco, CA ",
+  "status": "matched",
+  "matched_address": "2601 43RD AVE, SAN FRANCISCO, CA, 94116",
+  "lon": -122.501210314083,
+  "lat": 37.73813158911,
+  "place": "San Francisco city",
+  "place_geoid": "0667000",
+  "cdp": [],
+  "county": [
+   "San Francisco County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0142": {
+  "query": "4615 AVALON BLVD, Los Angeles, CA 90011",
+  "status": "matched",
+  "matched_address": "4615 AVALON BLVD, LOS ANGELES, CA, 90011",
+  "lon": -118.265290530936,
+  "lat": 34.001426079007,
+  "place": "Los Angeles city",
+  "place_geoid": "0644000",
+  "cdp": [],
+  "county": [
+   "Los Angeles County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0143": {
+  "query": "75 ELM HILL AV, Dorchester, MA 02121",
+  "status": "matched",
+  "matched_address": "75 ELM HILL AVE, DORCHESTER, MA, 02121",
+  "lon": -71.087061380822,
+  "lat": 42.310212727666,
+  "place": "Boston city",
+  "place_geoid": "2507000",
+  "cdp": [],
+  "county": [
+   "Suffolk County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0144": {
+  "query": "112 Amory ST, Roxbury, MA",
+  "status": "matched",
+  "matched_address": "112 AMORY ST, ROXBURY, MA, 02119",
+  "lon": -71.100170587998,
+  "lat": 42.319531661123,
+  "place": "Boston city",
+  "place_geoid": "2507000",
+  "cdp": [],
+  "county": [
+   "Suffolk County"
+  ],
+  "candidates": 1,
+  "retry": true,
+  "original_query": "112-114 Amory ST, Roxbury, MA 02119",
+  "retrieved_at": "2026-10-03T17:15Z"
+ },
+ "A0145": {
+  "query": "4515 FELTON ST, San Diego, CA 92116",
+  "status": "matched",
+  "matched_address": "4515 FELTON ST, SAN DIEGO, CA, 92116",
+  "lon": -117.121714561521,
+  "lat": 32.759371284084,
+  "place": "San Diego city",
+  "place_geoid": "0666000",
+  "cdp": [],
+  "county": [
+   "San Diego County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0146": {
+  "query": "93-95 HAWKINS ST, Newark, NJ 07105",
+  "status": "matched",
+  "matched_address": "93-95 HAWKINS ST, NEWARK, NJ, 07105",
+  "lon": -74.138947612797,
+  "lat": 40.727984681112,
+  "place": "Newark city",
+  "place_geoid": "3451000",
+  "cdp": [],
+  "county": [
+   "Essex County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0147": {
+  "query": "2850 GOLDEN GATE AV, San Francisco, CA ",
+  "status": "matched",
+  "matched_address": "2850 GOLDEN GATE AVE, SAN FRANCISCO, CA, 94118",
+  "lon": -122.457612633148,
+  "lat": 37.776358944957,
+  "place": "San Francisco city",
+  "place_geoid": "0667000",
+  "cdp": [],
+  "county": [
+   "San Francisco County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0148": {
+  "query": "162 5TH ST, Newark, NJ",
+  "status": "matched",
+  "matched_address": "162 5TH ST, NEWARK, NJ, 07107",
+  "lon": -74.190080142452,
+  "lat": 40.751353301519,
+  "place": "Newark city",
+  "place_geoid": "3451000",
+  "cdp": [],
+  "county": [
+   "Essex County"
+  ],
+  "candidates": 1,
+  "retry": true,
+  "original_query": "162-166 5TH ST, Newark, NJ 07105",
+  "retrieved_at": "2026-10-03T17:15Z"
+ },
+ "A0149": {
+  "query": "25 Everett ST, East Boston, MA 02128",
+  "status": "matched",
+  "matched_address": "25 EVERETT ST, EAST BOSTON, MA, 02128",
+  "lon": -71.036711056222,
+  "lat": 42.368309769533,
+  "place": "Boston city",
+  "place_geoid": "2507000",
+  "cdp": [],
+  "county": [
+   "Suffolk County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0150": {
+  "query": "3784 E BROADWAY, San Diego, CA 92102",
+  "status": "matched",
+  "matched_address": "3784 BROADWAY, SAN DIEGO, CA, 92102",
+  "lon": -117.11184048031,
+  "lat": 32.716024799043,
+  "place": "San Diego city",
+  "place_geoid": "0666000",
+  "cdp": [],
+  "county": [
+   "San Diego County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0151": {
+  "query": "16 Queensberry ST, Boston, MA 02215",
+  "status": "matched",
+  "matched_address": "16 QUEENSBERRY ST, BOSTON, MA, 02215",
+  "lon": -71.095965021374,
+  "lat": 42.343098317562,
+  "place": "Boston city",
+  "place_geoid": "2507000",
+  "cdp": [],
+  "county": [
+   "Suffolk County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0152": {
+  "query": "1669 SUNSET CLIFFS BLVD, San Diego, CA 92107",
+  "status": "matched",
+  "matched_address": "1669 SUNSET CLIFFS BLVD, SAN DIEGO, CA, 92107",
+  "lon": -117.25076493005,
+  "lat": 32.74094590948,
+  "place": "San Diego city",
+  "place_geoid": "0666000",
+  "cdp": [],
+  "county": [
+   "San Diego County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0153": {
+  "query": "366 E 55TH ST, Los Angeles, CA 90011",
+  "status": "matched",
+  "matched_address": "366 E 55TH ST, LOS ANGELES, CA, 90011",
+  "lon": -118.268297439622,
+  "lat": 33.992394354537,
+  "place": "Los Angeles city",
+  "place_geoid": "0644000",
+  "cdp": [],
+  "county": [
+   "Los Angeles County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0154": {
+  "query": "4568 IDAHO ST, San Diego, CA 92116",
+  "status": "matched",
+  "matched_address": "4568 IDAHO ST, SAN DIEGO, CA, 92116",
+  "lon": -117.133977948208,
+  "lat": 32.760412374063,
+  "place": "San Diego city",
+  "place_geoid": "0666000",
+  "cdp": [],
+  "county": [
+   "San Diego County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0155": {
+  "query": "473 Harvard ST, Dorchester, MA 02124",
+  "status": "matched",
+  "matched_address": "473 HARVARD ST, DORCHESTER, MA, 02124",
+  "lon": -71.09239312943,
+  "lat": 42.288741879366,
+  "place": "Boston city",
+  "place_geoid": "2507000",
+  "cdp": [],
+  "county": [
+   "Suffolk County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0156": {
+  "query": "290 GREEN ST, San Francisco, CA ",
+  "status": "matched",
+  "matched_address": "290 GREEN ST, SAN FRANCISCO, CA, 94111",
+  "lon": -122.402990211203,
+  "lat": 37.80031526334,
+  "place": "San Francisco city",
+  "place_geoid": "0667000",
+  "cdp": [],
+  "county": [
+   "San Francisco County"
+  ],
+  "candidates": 2,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0157": {
+  "query": "2701 RIDGE RD, Berkeley, CA 94709",
+  "status": "matched",
+  "matched_address": "2701 RIDGE RD, BERKELEY, CA, 94709",
+  "lon": -122.257026606732,
+  "lat": 37.876494513292,
+  "place": "Berkeley city",
+  "place_geoid": "0606000",
+  "cdp": [],
+  "county": [
+   "Alameda County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0158": {
+  "query": "2522 HILGARD AVE, Berkeley, CA 94709",
+  "status": "matched",
+  "matched_address": "2522 HILGARD AVE, BERKELEY, CA, 94709",
+  "lon": -122.260493108118,
+  "lat": 37.878591221585,
+  "place": "Berkeley city",
+  "place_geoid": "0606000",
+  "cdp": [],
+  "county": [
+   "Alameda County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0159": {
+  "query": "104 SUNSET AVE, Newark, NJ 11211",
+  "status": "matched",
+  "matched_address": "104 SUNSET AVE, NEWARK, NJ, 07106",
+  "lon": -74.226709353047,
+  "lat": 40.74245866913,
+  "place": "Newark city",
+  "place_geoid": "3451000",
+  "cdp": [],
+  "county": [
+   "Essex County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0160": {
+  "query": "86 CHARLES ST., Jersey City, NJ 07642",
+  "status": "matched",
+  "matched_address": "86 CHARLES ST, JERSEY CITY, NJ, 07307",
+  "lon": -74.05173810144,
+  "lat": 40.749433761671,
+  "place": "Jersey City city",
+  "place_geoid": "3436000",
+  "cdp": [],
+  "county": [
+   "Hudson County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0161": {
+  "query": "317 UNION ST., Jersey City, NJ 07013",
+  "status": "matched",
+  "matched_address": "317 UNION ST, JERSEY CITY, NJ, 07304",
+  "lon": -74.083091056543,
+  "lat": 40.717916452711,
+  "place": "Jersey City city",
+  "place_geoid": "3436000",
+  "cdp": [],
+  "county": [
+   "Hudson County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0162": {
+  "query": "1640 N POINSETTIA PL, Los Angeles, CA 90046",
+  "status": "matched",
+  "matched_address": "1640 N POINSETTIA PL, LOS ANGELES, CA, 90046",
+  "lon": -118.347788965715,
+  "lat": 34.100552498585,
+  "place": "Los Angeles city",
+  "place_geoid": "0644000",
+  "cdp": [],
+  "county": [
+   "Los Angeles County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0163": {
+  "query": "233 SECOND ST., Jersey City, NJ",
+  "status": "matched",
+  "matched_address": "233 2ND ST, JERSEY CITY, NJ, 07302",
+  "lon": -74.043498156328,
+  "lat": 40.722390774695,
+  "place": "Jersey City city",
+  "place_geoid": "3436000",
+  "cdp": [],
+  "county": [
+   "Hudson County"
+  ],
+  "candidates": 1,
+  "retry": true,
+  "original_query": "233-235 SECOND ST., Jersey City, NJ 07042",
+  "retrieved_at": "2026-10-03T17:15Z"
+ },
+ "A0164": {
+  "query": "725 14TH ST, San Francisco, CA ",
+  "status": "matched",
+  "matched_address": "725 14TH ST, SAN FRANCISCO, CA, 94114",
+  "lon": -122.42951948205,
+  "lat": 37.76763837901,
+  "place": "San Francisco city",
+  "place_geoid": "0667000",
+  "cdp": [],
+  "county": [
+   "San Francisco County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0165": {
+  "query": "734 JAMAICA CT, San Diego, CA 92109",
+  "status": "matched",
+  "matched_address": "734 JAMAICA CT, SAN DIEGO, CA, 92109",
+  "lon": -117.252245356556,
+  "lat": 32.773642646317,
+  "place": "San Diego city",
+  "place_geoid": "0666000",
+  "cdp": [],
+  "county": [
+   "San Diego County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0166": {
+  "query": "1 Potter Pk, Cambridge, MA ",
+  "status": "matched",
+  "matched_address": "1 POTTER PARK, CAMBRIDGE, MA, 02138",
+  "lon": -71.12020099261,
+  "lat": 42.384310248934,
+  "place": "Cambridge city",
+  "place_geoid": "2511000",
+  "cdp": [],
+  "county": [
+   "Middlesex County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0167": {
+  "query": "4616 FLORIDA ST, San Diego, CA 92116",
+  "status": "matched",
+  "matched_address": "4616 FLORIDA ST, SAN DIEGO, CA, 92116",
+  "lon": -117.143850889032,
+  "lat": 32.76124264042,
+  "place": "San Diego city",
+  "place_geoid": "0666000",
+  "cdp": [],
+  "county": [
+   "San Diego County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0168": {
+  "query": "600 JACKSON/601 HARRISON, Hoboken, NJ 07030",
+  "status": "matched",
+  "matched_address": "600 JACKSON ST, HOBOKEN, NJ, 07030",
+  "lon": -74.039281685445,
+  "lat": 40.745283626731,
+  "place": "Hoboken city",
+  "place_geoid": "3432250",
+  "cdp": [],
+  "county": [
+   "Hudson County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0169": {
+  "query": "115 KILSYTH RD, Brighton, MA 02135",
+  "status": "matched",
+  "matched_address": "115 KILSYTH RD, BRIGHTON, MA, 02135",
+  "lon": -71.146633078674,
+  "lat": 42.340367940381,
+  "place": "Boston city",
+  "place_geoid": "2507000",
+  "cdp": [],
+  "county": [
+   "Suffolk County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0170": {
+  "query": "8917 CEDROS AVE, Los Angeles, CA 91402",
+  "status": "matched",
+  "matched_address": "8917 CEDROS AVE, PANORAMA CITY, CA, 91402",
+  "lon": -118.453618335394,
+  "lat": 34.232064015614,
+  "place": "Los Angeles city",
+  "place_geoid": "0644000",
+  "cdp": [],
+  "county": [
+   "Los Angeles County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0171": {
+  "query": "127 OGDEN AVE., Jersey City, NJ 07660",
+  "status": "matched",
+  "matched_address": "127 OGDEN AVE, JERSEY CITY, NJ, 07307",
+  "lon": -74.04663280324,
+  "lat": 40.738902438048,
+  "place": "Jersey City city",
+  "place_geoid": "3436000",
+  "cdp": [],
+  "county": [
+   "Hudson County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0172": {
+  "query": "8504 WILLIS AVE, Los Angeles, CA 91402",
+  "status": "matched",
+  "matched_address": "8504 WILLIS AVE, PANORAMA CITY, CA, 91402",
+  "lon": -118.455218605953,
+  "lat": 34.224850838975,
+  "place": "Los Angeles city",
+  "place_geoid": "0644000",
+  "cdp": [],
+  "county": [
+   "Los Angeles County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0173": {
+  "query": "13180 FOOTHILL BLVD, Los Angeles, CA 91342",
+  "status": "matched",
+  "matched_address": "13180 FOOTHILL BLVD, SYLMAR, CA, 91342",
+  "lon": -118.421538456805,
+  "lat": 34.299371281369,
+  "place": "Los Angeles city",
+  "place_geoid": "0644000",
+  "cdp": [],
+  "county": [
+   "Los Angeles County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0174": {
+  "query": "84 Hampshire St, Cambridge, MA ",
+  "status": "matched",
+  "matched_address": "84 HAMPSHIRE ST, CAMBRIDGE, MA, 02139",
+  "lon": -71.0943940217,
+  "lat": 42.368359091009,
+  "place": "Cambridge city",
+  "place_geoid": "2511000",
+  "cdp": [],
+  "county": [
+   "Middlesex County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0175": {
+  "query": "10 Dover St, Cambridge, MA ",
+  "status": "matched",
+  "matched_address": "10 DOVER ST, CAMBRIDGE, MA, 02140",
+  "lon": -71.126686968537,
+  "lat": 42.394678131873,
+  "place": "Cambridge city",
+  "place_geoid": "2511000",
+  "cdp": [],
+  "county": [
+   "Middlesex County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0176": {
+  "query": "15 Chester St, Cambridge, MA ",
+  "status": "matched",
+  "matched_address": "15 CHESTER ST, CAMBRIDGE, MA, 02140",
+  "lon": -71.124477534158,
+  "lat": 42.393657148181,
+  "place": "Cambridge city",
+  "place_geoid": "2511000",
+  "cdp": [],
+  "county": [
+   "Middlesex County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0177": {
+  "query": "166 HIGHLAND AVE., Jersey City, NJ 11201",
+  "status": "matched",
+  "matched_address": "166 HIGHLAND AVE, JERSEY CITY, NJ, 07306",
+  "lon": -74.073105945172,
+  "lat": 40.729583045817,
+  "place": "Jersey City city",
+  "place_geoid": "3436000",
+  "cdp": [],
+  "county": [
+   "Hudson County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0178": {
+  "query": "5308 RIVERTON AVE, Los Angeles, CA 91601",
+  "status": "matched",
+  "matched_address": "5308 RIVERTON AVE, NORTH HOLLYWOOD, CA, 91601",
+  "lon": -118.365290745355,
+  "lat": 34.166828679584,
+  "place": "Los Angeles city",
+  "place_geoid": "0644000",
+  "cdp": [],
+  "county": [
+   "Los Angeles County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0179": {
+  "query": "7006 LANEWOOD AVE, Los Angeles, CA 90028",
+  "status": "matched",
+  "matched_address": "7006 LANEWOOD AVE, LOS ANGELES, CA, 90028",
+  "lon": -118.341635208217,
+  "lat": 34.09915207252,
+  "place": "Los Angeles city",
+  "place_geoid": "0644000",
+  "cdp": [],
+  "county": [
+   "Los Angeles County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0180": {
+  "query": "845 S KINGSLEY DR, Los Angeles, CA 90005",
+  "status": "matched",
+  "matched_address": "845 S KINGSLEY DR, LOS ANGELES, CA, 90005",
+  "lon": -118.303137913263,
+  "lat": 34.056870603736,
+  "place": "Los Angeles city",
+  "place_geoid": "0644000",
+  "cdp": [],
+  "county": [
+   "Los Angeles County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0181": {
+  "query": "931 GARDEN ST, Hoboken, NJ 07030",
+  "status": "matched",
+  "matched_address": "931 GARDEN ST, HOBOKEN, NJ, 07030",
+  "lon": -74.029444711794,
+  "lat": 40.748003289428,
+  "place": "Hoboken city",
+  "place_geoid": "3432250",
+  "cdp": [],
+  "county": [
+   "Hudson County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0182": {
+  "query": "911 CLINTON ST, Hoboken, NJ",
+  "status": "matched",
+  "matched_address": "911 CLINTON ST, HOBOKEN, NJ, 07030",
+  "lon": -74.032304373623,
+  "lat": 40.748236599023,
+  "place": "Hoboken city",
+  "place_geoid": "3432250",
+  "cdp": [],
+  "county": [
+   "Hudson County"
+  ],
+  "candidates": 1,
+  "retry": true,
+  "original_query": "911-923 CLINTON ST, Hoboken, NJ 07030",
+  "retrieved_at": "2026-10-03T17:15Z"
+ },
+ "A0183": {
+  "query": "2427 HILGARD AVE, Berkeley, CA 94709",
+  "status": "matched",
+  "matched_address": "2427 HILGARD AVE, BERKELEY, CA, 94709",
+  "lon": -122.262349376787,
+  "lat": 37.87845544308,
+  "place": "Berkeley city",
+  "place_geoid": "0606000",
+  "cdp": [],
+  "county": [
+   "Alameda County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0184": {
+  "query": "156 W 32ND ST, Los Angeles, CA 90007",
+  "status": "matched",
+  "matched_address": "156 W 32ND ST, LOS ANGELES, CA, 90007",
+  "lon": -118.273514783778,
+  "lat": 34.020782218595,
+  "place": "Los Angeles city",
+  "place_geoid": "0644000",
+  "cdp": [],
+  "county": [
+   "Los Angeles County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0185": {
+  "query": "154 TERHUNE AVE., Jersey City, NJ 07103",
+  "status": "matched",
+  "matched_address": "154 TERHUNE AVE, JERSEY CITY, NJ, 07305",
+  "lon": -74.096225420442,
+  "lat": 40.705096415554,
+  "place": "Jersey City city",
+  "place_geoid": "3436000",
+  "cdp": [],
+  "county": [
+   "Hudson County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0186": {
+  "query": "107 BEACON AVE., Jersey City, NJ 07306",
+  "status": "matched",
+  "matched_address": "107 BEACON AVE, JERSEY CITY, NJ, 07306",
+  "lon": -74.054827866989,
+  "lat": 40.736920404507,
+  "place": "Jersey City city",
+  "place_geoid": "3436000",
+  "cdp": [],
+  "county": [
+   "Hudson County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0187": {
+  "query": "146 CARLTON AVE., Jersey City, NJ 07423",
+  "status": "matched",
+  "matched_address": "146 CARLTON AVE, JERSEY CITY, NJ, 07306",
+  "lon": -74.060798217241,
+  "lat": 40.744920038222,
+  "place": "Jersey City city",
+  "place_geoid": "3436000",
+  "cdp": [],
+  "county": [
+   "Hudson County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0188": {
+  "query": "2819 MCGEE AVE, Berkeley, CA 94703",
+  "status": "matched",
+  "matched_address": "2819 MCGEE AVE, BERKELEY, CA, 94703",
+  "lon": -122.275258218951,
+  "lat": 37.856959944236,
+  "place": "Berkeley city",
+  "place_geoid": "0606000",
+  "cdp": [],
+  "county": [
+   "Alameda County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0189": {
+  "query": "1811 CARLETON ST, Berkeley, CA 94703",
+  "status": "matched",
+  "matched_address": "1811 CARLETON ST, BERKELEY, CA, 94703",
+  "lon": -122.273498335777,
+  "lat": 37.860487333982,
+  "place": "Berkeley city",
+  "place_geoid": "0606000",
+  "cdp": [],
+  "county": [
+   "Alameda County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0190": {
+  "query": "283 ADAMS ST, Newark, NJ 07105",
+  "status": "matched",
+  "matched_address": "283 ADAMS ST, NEWARK, NJ, 07105",
+  "lon": -74.16236498265,
+  "lat": 40.722831839974,
+  "place": "Newark city",
+  "place_geoid": "3451000",
+  "cdp": [],
+  "county": [
+   "Essex County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0191": {
+  "query": "60 Kirkland St, Cambridge, MA ",
+  "status": "matched",
+  "matched_address": "60 KIRKLAND ST, CAMBRIDGE, MA, 02138",
+  "lon": -71.110680713996,
+  "lat": 42.377309547812,
+  "place": "Cambridge city",
+  "place_geoid": "2511000",
+  "cdp": [],
+  "county": [
+   "Middlesex County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0192": {
+  "query": "780 POST ST, San Francisco, CA ",
+  "status": "matched",
+  "matched_address": "780 POST ST, SAN FRANCISCO, CA, 94109",
+  "lon": -122.414659903737,
+  "lat": 37.787554937568,
+  "place": "San Francisco city",
+  "place_geoid": "0667000",
+  "cdp": [],
+  "county": [
+   "San Francisco County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0193": {
+  "query": "1626 BONITA AVE, Berkeley, CA 94709",
+  "status": "matched",
+  "matched_address": "1626 BONITA AVE, BERKELEY, CA, 94709",
+  "lon": -122.272592199936,
+  "lat": 37.877436210953,
+  "place": "Berkeley city",
+  "place_geoid": "0606000",
+  "cdp": [],
+  "county": [
+   "Alameda County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0194": {
+  "query": "72 Burbank ST, Boston, MA 02115",
+  "status": "matched",
+  "matched_address": "72 BURBANK ST, BOSTON, MA, 02115",
+  "lon": -71.08932121797,
+  "lat": 42.34449244891,
+  "place": "Boston city",
+  "place_geoid": "2507000",
+  "cdp": [],
+  "county": [
+   "Suffolk County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0195": {
+  "query": "1850 COMMONWEALTH AVE, Brighton, MA",
+  "status": "matched",
+  "matched_address": "1850 COMMONWEALTH AVE, BRIGHTON, MA, 02135",
+  "lon": -71.152168954882,
+  "lat": 42.338962456382,
+  "place": "Boston city",
+  "place_geoid": "2507000",
+  "cdp": [],
+  "county": [
+   "Suffolk County"
+  ],
+  "candidates": 1,
+  "retry": true,
+  "original_query": "1850-1848 COMMONWEALTH AV, Brighton, MA 02135",
+  "retrieved_at": "2026-10-03T17:15Z"
+ },
+ "A0196": {
+  "query": "16915 BLACKHAWK ST, Los Angeles, CA 91344",
+  "status": "matched",
+  "matched_address": "16915 BLACKHAWK ST, GRANADA HILLS, CA, 91344",
+  "lon": -118.500920253647,
+  "lat": 34.258955182522,
+  "place": "Los Angeles city",
+  "place_geoid": "0644000",
+  "cdp": [],
+  "county": [
+   "Los Angeles County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0197": {
+  "query": "1611 62ND ST, Berkeley, CA 94703",
+  "status": "matched",
+  "matched_address": "1611 62ND ST, BERKELEY, CA, 94703",
+  "lon": -122.274812039507,
+  "lat": 37.846527054842,
+  "place": "Berkeley city",
+  "place_geoid": "0606000",
+  "cdp": [],
+  "county": [
+   "Alameda County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0198": {
+  "query": "194 Havre ST, East Boston, MA 02128",
+  "status": "matched",
+  "matched_address": "194 HAVRE ST, EAST BOSTON, MA, 02128",
+  "lon": -71.036497835188,
+  "lat": 42.374496794147,
+  "place": "Boston city",
+  "place_geoid": "2507000",
+  "cdp": [],
+  "county": [
+   "Suffolk County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0199": {
+  "query": "42 Bay State Rd, Cambridge, MA ",
+  "status": "matched",
+  "matched_address": "42 BAY STATE RD, CAMBRIDGE, MA, 02138",
+  "lon": -71.140083871382,
+  "lat": 42.387191106272,
+  "place": "Cambridge city",
+  "place_geoid": "2511000",
+  "cdp": [],
+  "county": [
+   "Middlesex County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0200": {
+  "query": "1853 N HIGHLAND AVE, Los Angeles, CA 90028",
+  "status": "matched",
+  "matched_address": "1853 N HIGHLAND AVE, LOS ANGELES, CA, 90028",
+  "lon": -118.337549044749,
+  "lat": 34.105004287023,
+  "place": "Los Angeles city",
+  "place_geoid": "0644000",
+  "cdp": [],
+  "county": [
+   "Los Angeles County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0201": {
+  "query": "2737 BENVENUE AVE, Berkeley, CA 94705",
+  "status": "matched",
+  "matched_address": "2737 BENVENUE AVE, BERKELEY, CA, 94705",
+  "lon": -122.25463879726,
+  "lat": 37.861084663474,
+  "place": "Berkeley city",
+  "place_geoid": "0606000",
+  "cdp": [],
+  "county": [
+   "Alameda County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0202": {
+  "query": "1446 JACKSON ST, San Francisco, CA ",
+  "status": "matched",
+  "matched_address": "1446 JACKSON ST, SAN FRANCISCO, CA, 94109",
+  "lon": -122.41889836579,
+  "lat": 37.794522791984,
+  "place": "San Francisco city",
+  "place_geoid": "0667000",
+  "cdp": [],
+  "county": [
+   "San Francisco County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0203": {
+  "query": "2986 Washington ST, Roxbury, MA",
+  "status": "matched",
+  "matched_address": "2986 WASHINGTON ST, ROXBURY, MA, 02119",
+  "lon": -71.096287187104,
+  "lat": 42.317725876641,
+  "place": "Boston city",
+  "place_geoid": "2507000",
+  "cdp": [],
+  "county": [
+   "Suffolk County"
+  ],
+  "candidates": 1,
+  "retry": true,
+  "original_query": "2986-2930 Washington ST, Roxbury, MA 02119",
+  "retrieved_at": "2026-10-03T17:15Z"
+ },
+ "A0204": {
+  "query": "202 6TH AVE W, Newark, NJ",
+  "status": "matched",
+  "matched_address": "202 6TH AVE W, NEWARK, NJ, 07107",
+  "lon": -74.18613679935,
+  "lat": 40.756199520614,
+  "place": "Newark city",
+  "place_geoid": "3451000",
+  "cdp": [],
+  "county": [
+   "Essex County"
+  ],
+  "candidates": 1,
+  "retry": true,
+  "original_query": "202-208 6TH AVE W, Newark, NJ 08736",
+  "retrieved_at": "2026-10-03T17:15Z"
+ },
+ "A0205": {
+  "query": "2425 GRANT ST, Berkeley, CA 94703",
+  "status": "matched",
+  "matched_address": "2425 GRANT ST, BERKELEY, CA, 94703",
+  "lon": -122.274486388915,
+  "lat": 37.864419418207,
+  "place": "Berkeley city",
+  "place_geoid": "0606000",
+  "cdp": [],
+  "county": [
+   "Alameda County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0206": {
+  "query": "401 43RD AV, San Francisco, CA ",
+  "status": "matched",
+  "matched_address": "401 43RD AVE, SAN FRANCISCO, CA, 94121",
+  "lon": -122.504228232138,
+  "lat": 37.78106651207,
+  "place": "San Francisco city",
+  "place_geoid": "0667000",
+  "cdp": [],
+  "county": [
+   "San Francisco County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0207": {
+  "query": "705 W 23RD ST, Los Angeles, CA 90007",
+  "status": "matched",
+  "matched_address": "705 W 23RD ST, LOS ANGELES, CA, 90007",
+  "lon": -118.276733095547,
+  "lat": 34.032030548439,
+  "place": "Los Angeles city",
+  "place_geoid": "0644000",
+  "cdp": [],
+  "county": [
+   "Los Angeles County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0208": {
+  "query": "126 ADAMS ST, Hoboken, NJ 07604",
+  "status": "matched",
+  "matched_address": "126 ADAMS ST, HOBOKEN, NJ, 07030",
+  "lon": -74.037275318111,
+  "lat": 40.738937251272,
+  "place": "Hoboken city",
+  "place_geoid": "3432250",
+  "cdp": [],
+  "county": [
+   "Hudson County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0209": {
+  "query": "19 Trowbridge St, Cambridge, MA ",
+  "status": "matched",
+  "matched_address": "19 TROWBRIDGE ST, CAMBRIDGE, MA, 02138",
+  "lon": -71.11237412069,
+  "lat": 42.371041072612,
+  "place": "Cambridge city",
+  "place_geoid": "2511000",
+  "cdp": [],
+  "county": [
+   "Middlesex County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0210": {
+  "query": "1432 N CURSON AVE, Los Angeles, CA 90046",
+  "status": "matched",
+  "matched_address": "1432 N CURSON AVE, LOS ANGELES, CA, 90046",
+  "lon": -118.354938535163,
+  "lat": 34.096815880701,
+  "place": "Los Angeles city",
+  "place_geoid": "0644000",
+  "cdp": [],
+  "county": [
+   "Los Angeles County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0211": {
+  "query": "499 BEACON ST, Boston, MA 02215",
+  "status": "matched",
+  "matched_address": "499 BEACON ST, BOSTON, MA, 02215",
+  "lon": -71.089845858115,
+  "lat": 42.350692439566,
+  "place": "Boston city",
+  "place_geoid": "2507000",
+  "cdp": [],
+  "county": [
+   "Suffolk County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0212": {
+  "query": "1311 SOUTH VAN NESS AV, San Francisco, CA ",
+  "status": "matched",
+  "matched_address": "1311 S VAN NESS AVE, SAN FRANCISCO, CA, 94110",
+  "lon": -122.4161731875,
+  "lat": 37.752168513331,
+  "place": "San Francisco city",
+  "place_geoid": "0667000",
+  "cdp": [],
+  "county": [
+   "San Francisco County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0213": {
+  "query": "11649 ACAMA ST, Los Angeles, CA 91604",
+  "status": "matched",
+  "matched_address": "11649 ACAMA ST, STUDIO CITY, CA, 91604",
+  "lon": -118.386856598286,
+  "lat": 34.145584078078,
+  "place": "Los Angeles city",
+  "place_geoid": "0644000",
+  "cdp": [],
+  "county": [
+   "Los Angeles County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0214": {
+  "query": "358 Harvard St, Cambridge, MA ",
+  "status": "matched",
+  "matched_address": "358 HARVARD ST, CAMBRIDGE, MA, 02138",
+  "lon": -71.110911398922,
+  "lat": 42.371082219474,
+  "place": "Cambridge city",
+  "place_geoid": "2511000",
+  "cdp": [],
+  "county": [
+   "Middlesex County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0215": {
+  "query": "2295 CALIFORNIA ST, San Francisco, CA ",
+  "status": "matched",
+  "matched_address": "2295 CALIFORNIA ST, SAN FRANCISCO, CA, 94115",
+  "lon": -122.432052589153,
+  "lat": 37.789075325053,
+  "place": "San Francisco city",
+  "place_geoid": "0667000",
+  "cdp": [],
+  "county": [
+   "San Francisco County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0216": {
+  "query": "2309 HASTE ST, Berkeley, CA 94704",
+  "status": "matched",
+  "matched_address": "2309 HASTE ST, BERKELEY, CA, 94704",
+  "lon": -122.262957356662,
+  "lat": 37.865531910644,
+  "place": "Berkeley city",
+  "place_geoid": "0606000",
+  "cdp": [],
+  "county": [
+   "Alameda County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0217": {
+  "query": "170 Maverick ST, East Boston, MA",
+  "status": "matched",
+  "matched_address": "170 MAVERICK ST, EAST BOSTON, MA, 02128",
+  "lon": -71.037420846277,
+  "lat": 42.3695452992,
+  "place": "Boston city",
+  "place_geoid": "2507000",
+  "cdp": [],
+  "county": [
+   "Suffolk County"
+  ],
+  "candidates": 1,
+  "retry": true,
+  "original_query": "170-172 Maverick ST, East Boston, MA 02128",
+  "retrieved_at": "2026-10-03T17:15Z"
+ },
+ "A0218": {
+  "query": "15 Richdale Ave, Cambridge, MA ",
+  "status": "matched",
+  "matched_address": "15 RICHDALE AVE, CAMBRIDGE, MA, 02140",
+  "lon": -71.121620396425,
+  "lat": 42.388324409245,
+  "place": "Cambridge city",
+  "place_geoid": "2511000",
+  "cdp": [],
+  "county": [
+   "Middlesex County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0219": {
+  "query": "3735 32ND ST, San Diego, CA 92104",
+  "status": "matched",
+  "matched_address": "3735 32ND ST, SAN DIEGO, CA, 92104",
+  "lon": -117.124937736826,
+  "lat": 32.746245203063,
+  "place": "San Diego city",
+  "place_geoid": "0666000",
+  "cdp": [],
+  "county": [
+   "San Diego County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0220": {
+  "query": "21 Faulkner ST, Dorchester, MA",
+  "status": "matched",
+  "matched_address": "21 FAULKNER ST, DORCHESTER, MA, 02122",
+  "lon": -71.061434029601,
+  "lat": 42.29954645665,
+  "place": "Boston city",
+  "place_geoid": "2507000",
+  "cdp": [],
+  "county": [
+   "Suffolk County"
+  ],
+  "candidates": 1,
+  "retry": true,
+  "original_query": "21-23 Faulkner ST, Dorchester, MA 02122",
+  "retrieved_at": "2026-10-03T17:15Z"
+ },
+ "A0221": {
+  "query": "191 Park DR, Boston, MA 02215",
+  "status": "matched",
+  "matched_address": "191 PARK DR, BOSTON, MA, 02215",
+  "lon": -71.100162328229,
+  "lat": 42.341033010088,
+  "place": "Boston city",
+  "place_geoid": "2507000",
+  "cdp": [],
+  "county": [
+   "Suffolk County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0222": {
+  "query": "1901 VALLEJO ST, San Francisco, CA ",
+  "status": "matched",
+  "matched_address": "1901 VALLEJO ST, SAN FRANCISCO, CA, 94123",
+  "lon": -122.428597910742,
+  "lat": 37.795996387914,
+  "place": "San Francisco city",
+  "place_geoid": "0667000",
+  "cdp": [],
+  "county": [
+   "San Francisco County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0223": {
+  "query": "504 COURT ST, Hoboken, NJ 07030",
+  "status": "matched",
+  "matched_address": "504 COURT ST, HOBOKEN, NJ, 07030",
+  "lon": -74.028940035027,
+  "lat": 40.742214718476,
+  "place": "Hoboken city",
+  "place_geoid": "3432250",
+  "cdp": [],
+  "county": [
+   "Hudson County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0224": {
+  "query": "8727 TOBIAS AVE, Los Angeles, CA 91402",
+  "status": "matched",
+  "matched_address": "8727 TOBIAS AVE, PANORAMA CITY, CA, 91402",
+  "lon": -118.451718756162,
+  "lat": 34.228507480493,
+  "place": "Los Angeles city",
+  "place_geoid": "0644000",
+  "cdp": [],
+  "county": [
+   "Los Angeles County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0225": {
+  "query": "1627 JACKSON ST, San Francisco, CA ",
+  "status": "matched",
+  "matched_address": "1627 JACKSON ST, SAN FRANCISCO, CA, 94109",
+  "lon": -122.421842293682,
+  "lat": 37.794030087633,
+  "place": "San Francisco city",
+  "place_geoid": "0667000",
+  "cdp": [],
+  "county": [
+   "San Francisco County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0226": {
+  "query": "663 MASSACHUSETTS AV, Boston, MA 02118",
+  "status": "matched",
+  "matched_address": "663 MASSACHUSETTS AVE, BOSTON, MA, 02118",
+  "lon": -71.0764696579,
+  "lat": 42.335912589034,
+  "place": "Boston city",
+  "place_geoid": "2507000",
+  "cdp": [],
+  "county": [
+   "Suffolk County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0227": {
+  "query": "1401 HUDSON ST, Hoboken, NJ 07030",
+  "status": "matched",
+  "matched_address": "1401 HUDSON ST, HOBOKEN, NJ, 07030",
+  "lon": -74.025132220092,
+  "lat": 40.752162276082,
+  "place": "Hoboken city",
+  "place_geoid": "3432250",
+  "cdp": [],
+  "county": [
+   "Hudson County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0228": {
+  "query": "225 COLLINGWOOD ST, San Francisco, CA ",
+  "status": "matched",
+  "matched_address": "225 COLLINGWOOD ST, SAN FRANCISCO, CA, 94114",
+  "lon": -122.43584550357,
+  "lat": 37.758806229242,
+  "place": "San Francisco city",
+  "place_geoid": "0667000",
+  "cdp": [],
+  "county": [
+   "San Francisco County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0229": {
+  "query": "5164 3RD ST, San Francisco, CA",
+  "status": "matched",
+  "matched_address": "5164 3RD ST, SAN FRANCISCO, CA, 94124",
+  "lon": -122.392090570269,
+  "lat": 37.731288264664,
+  "place": "San Francisco city",
+  "place_geoid": "0667000",
+  "cdp": [],
+  "county": [
+   "San Francisco County"
+  ],
+  "candidates": 1,
+  "retry": true,
+  "original_query": "5164 03RD ST, San Francisco, CA ",
+  "retrieved_at": "2026-10-03T17:15Z"
+ },
+ "A0230": {
+  "query": "85 Hancock St, Cambridge, MA ",
+  "status": "matched",
+  "matched_address": "85 HANCOCK ST, CAMBRIDGE, MA, 02139",
+  "lon": -71.10823462185,
+  "lat": 42.36894090845,
+  "place": "Cambridge city",
+  "place_geoid": "2511000",
+  "cdp": [],
+  "county": [
+   "Middlesex County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0231": {
+  "query": "521 ARGUELLO BL, San Francisco, CA ",
+  "status": "matched",
+  "matched_address": "521 ARGUELLO BLVD, SAN FRANCISCO, CA, 94118",
+  "lon": -122.458904742326,
+  "lat": 37.780784398048,
+  "place": "San Francisco city",
+  "place_geoid": "0667000",
+  "cdp": [],
+  "county": [
+   "San Francisco County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0232": {
+  "query": "189 Third St, Cambridge, MA ",
+  "status": "matched",
+  "matched_address": "189 3RD ST, CAMBRIDGE, MA, 02141",
+  "lon": -71.080956110328,
+  "lat": 42.367926768436,
+  "place": "Cambridge city",
+  "place_geoid": "2511000",
+  "cdp": [],
+  "county": [
+   "Middlesex County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0233": {
+  "query": "30 MEDFIELD ST, Boston, MA 02215",
+  "status": "matched",
+  "matched_address": "30 MEDFIELD ST, BOSTON, MA, 02215",
+  "lon": -71.105981333095,
+  "lat": 42.345263577025,
+  "place": "Boston city",
+  "place_geoid": "2507000",
+  "cdp": [],
+  "county": [
+   "Suffolk County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0234": {
+  "query": "2212 BLAKE ST, Berkeley, CA 94704",
+  "status": "matched",
+  "matched_address": "2212 BLAKE ST, BERKELEY, CA, 94704",
+  "lon": -122.26472014852,
+  "lat": 37.863354369764,
+  "place": "Berkeley city",
+  "place_geoid": "0606000",
+  "cdp": [],
+  "county": [
+   "Alameda County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0235": {
+  "query": "6736 SELMA AVE, Los Angeles, CA 90028",
+  "status": "matched",
+  "matched_address": "6736 SELMA AVE, LOS ANGELES, CA, 90028",
+  "lon": -118.337259232832,
+  "lat": 34.099644694718,
+  "place": "Los Angeles city",
+  "place_geoid": "0644000",
+  "cdp": [],
+  "county": [
+   "Los Angeles County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0236": {
+  "query": "1110 JACKSON ST, San Francisco, CA ",
+  "status": "matched",
+  "matched_address": "1110 JACKSON ST, SAN FRANCISCO, CA, 94133",
+  "lon": -122.41341354471,
+  "lat": 37.795227211111,
+  "place": "San Francisco city",
+  "place_geoid": "0667000",
+  "cdp": [],
+  "county": [
+   "San Francisco County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0237": {
+  "query": "36 VALLEY ST, San Francisco, CA ",
+  "status": "matched",
+  "matched_address": "36 VALLEY ST, SAN FRANCISCO, CA, 94110",
+  "lon": -122.423160521356,
+  "lat": 37.744772339215,
+  "place": "San Francisco city",
+  "place_geoid": "0667000",
+  "cdp": [],
+  "county": [
+   "San Francisco County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0238": {
+  "query": "15256 ACRE ST, Los Angeles, CA 91343",
+  "status": "matched",
+  "matched_address": "15256 ACRE ST, NORTH HILLS, CA, 91343",
+  "lon": -118.465059354597,
+  "lat": 34.229903219394,
+  "place": "Los Angeles city",
+  "place_geoid": "0644000",
+  "cdp": [],
+  "county": [
+   "Los Angeles County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0239": {
+  "query": "1476 UNIVERSITY AVE, Berkeley, CA 94702",
+  "status": "matched",
+  "matched_address": "1476 UNIVERSITY AVE, BERKELEY, CA, 94702",
+  "lon": -122.282479272768,
+  "lat": 37.870240703252,
+  "place": "Berkeley city",
+  "place_geoid": "0606000",
+  "cdp": [],
+  "county": [
+   "Alameda County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0240": {
+  "query": "4135 38TH ST, San Diego, CA 92105",
+  "status": "matched",
+  "matched_address": "4135 38TH ST, SAN DIEGO, CA, 92105",
+  "lon": -117.111779263182,
+  "lat": 32.752138713798,
+  "place": "San Diego city",
+  "place_geoid": "0666000",
+  "cdp": [],
+  "county": [
+   "San Diego County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0241": {
+  "query": "913 GARDEN ST, Hoboken, NJ 07030",
+  "status": "matched",
+  "matched_address": "913 GARDEN ST, HOBOKEN, NJ, 07030",
+  "lon": -74.029507685512,
+  "lat": 40.747790932129,
+  "place": "Hoboken city",
+  "place_geoid": "3432250",
+  "cdp": [],
+  "county": [
+   "Hudson County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0242": {
+  "query": "85 SIERRA RD, Hyde Park, MA",
+  "status": "no_match",
+  "place": null,
+  "retry": true,
+  "original_query": "85-87 SIERRA RD, Hyde Park, MA 02136",
+  "retrieved_at": "2026-10-03T17:15Z"
+ },
+ "A0243": {
+  "query": "664 OCEAN AVE., Jersey City, NJ 07305",
+  "status": "matched",
+  "matched_address": "664 OCEAN AVE, JERSEY CITY, NJ, 07305",
+  "lon": -74.076659540243,
+  "lat": 40.70901429936,
+  "place": "Jersey City city",
+  "place_geoid": "3436000",
+  "cdp": [],
+  "county": [
+   "Hudson County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0244": {
+  "query": "1126 HUDSON ST, Hoboken, NJ 07030",
+  "status": "matched",
+  "matched_address": "1126 HUDSON ST, HOBOKEN, NJ, 07030",
+  "lon": -74.025921583962,
+  "lat": 40.75007710711,
+  "place": "Hoboken city",
+  "place_geoid": "3432250",
+  "cdp": [],
+  "county": [
+   "Hudson County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0245": {
+  "query": "30 WEST HOWELL ST M-D, Dorchester, MA 02125",
+  "status": "matched",
+  "matched_address": "30 W HOWELL ST, DORCHESTER, MA, 02125",
+  "lon": -71.059503187262,
+  "lat": 42.325356355842,
+  "place": "Boston city",
+  "place_geoid": "2507000",
+  "cdp": [],
+  "county": [
+   "Suffolk County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0246": {
+  "query": "4386 COPELAND AVE, San Diego, CA 92105",
+  "status": "matched",
+  "matched_address": "4386 COPELAND AVE, SAN DIEGO, CA, 92105",
+  "lon": -117.104047557974,
+  "lat": 32.756800937083,
+  "place": "San Diego city",
+  "place_geoid": "0666000",
+  "cdp": [],
+  "county": [
+   "San Diego County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0247": {
+  "query": "4957 CAPE MAY AVE, San Diego, CA 92107",
+  "status": "matched",
+  "matched_address": "4957 CAPE MAY AVE, SAN DIEGO, CA, 92107",
+  "lon": -117.248171449465,
+  "lat": 32.748875084016,
+  "place": "San Diego city",
+  "place_geoid": "0666000",
+  "cdp": [],
+  "county": [
+   "San Diego County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0248": {
+  "query": "941 S KENMORE AVE, Los Angeles, CA 90006",
+  "status": "matched",
+  "matched_address": "941 S KENMORE AVE, LOS ANGELES, CA, 90006",
+  "lon": -118.296589306557,
+  "lat": 34.054561165407,
+  "place": "Los Angeles city",
+  "place_geoid": "0644000",
+  "cdp": [],
+  "county": [
+   "Los Angeles County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0249": {
+  "query": "498 HAWTHORNE AVE, Newark, NJ",
+  "status": "matched",
+  "matched_address": "498 HAWTHORNE AVE, NEWARK, NJ, 07112",
+  "lon": -74.214898297483,
+  "lat": 40.719599722122,
+  "place": "Newark city",
+  "place_geoid": "3451000",
+  "cdp": [],
+  "county": [
+   "Essex County"
+  ],
+  "candidates": 1,
+  "retry": true,
+  "original_query": "498-500 HAWTHORNE AVE, Newark, NJ 10013",
+  "retrieved_at": "2026-10-03T17:15Z"
+ },
+ "A0250": {
+  "query": "211 BALDWIN AVE., Jersey City, NJ 07002",
+  "status": "matched",
+  "matched_address": "211 BALDWIN AVE, JERSEY CITY, NJ, 07306",
+  "lon": -74.060120792112,
+  "lat": 40.729192320523,
+  "place": "Jersey City city",
+  "place_geoid": "3436000",
+  "cdp": [],
+  "county": [
+   "Hudson County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0251": {
+  "query": "4663 33RD ST, San Diego, CA 92116",
+  "status": "matched",
+  "matched_address": "4663 33RD ST, SAN DIEGO, CA, 92116",
+  "lon": -117.122794711786,
+  "lat": 32.762436259509,
+  "place": "San Diego city",
+  "place_geoid": "0666000",
+  "cdp": [],
+  "county": [
+   "San Diego County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0252": {
+  "query": "15514 CHASE ST, Los Angeles, CA 91343",
+  "status": "matched",
+  "matched_address": "15514 CHASE ST, NORTH HILLS, CA, 91343",
+  "lon": -118.470326035112,
+  "lat": 34.224605812398,
+  "place": "Los Angeles city",
+  "place_geoid": "0644000",
+  "cdp": [],
+  "county": [
+   "Los Angeles County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0253": {
+  "query": "2250 NORTH POINT ST, San Francisco, CA ",
+  "status": "matched",
+  "matched_address": "2250 N POINT ST, SAN FRANCISCO, CA, 94123",
+  "lon": -122.444275084577,
+  "lat": 37.802722582821,
+  "place": "San Francisco city",
+  "place_geoid": "0667000",
+  "cdp": [],
+  "county": [
+   "San Francisco County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0254": {
+  "query": "805 WASHINGTON ST, Hoboken, NJ 07030",
+  "status": "matched",
+  "matched_address": "805 WASHINGTON ST, HOBOKEN, NJ, 07030",
+  "lon": -74.028189698217,
+  "lat": 40.746063788663,
+  "place": "Hoboken city",
+  "place_geoid": "3432250",
+  "cdp": [],
+  "county": [
+   "Hudson County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0255": {
+  "query": "851 E 51ST ST, Los Angeles, CA 90011",
+  "status": "matched",
+  "matched_address": "851 E 51ST ST, LOS ANGELES, CA, 90011",
+  "lon": -118.260152086488,
+  "lat": 33.996666263731,
+  "place": "Los Angeles city",
+  "place_geoid": "0644000",
+  "cdp": [],
+  "county": [
+   "Los Angeles County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0256": {
+  "query": "327 JACKSON ST, Hoboken, NJ 07017",
+  "status": "matched",
+  "matched_address": "327 JACKSON ST, HOBOKEN, NJ, 07030",
+  "lon": -74.0400671093,
+  "lat": 40.742101329412,
+  "place": "Hoboken city",
+  "place_geoid": "3432250",
+  "cdp": [],
+  "county": [
+   "Hudson County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0257": {
+  "query": "5 COMMER CT, San Francisco, CA ",
+  "status": "matched",
+  "matched_address": "5 COMMER CT, SAN FRANCISCO, CA, 94124",
+  "lon": -122.384674255589,
+  "lat": 37.732351895037,
+  "place": "San Francisco city",
+  "place_geoid": "0667000",
+  "cdp": [],
+  "county": [
+   "San Francisco County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0258": {
+  "query": "471 COLUMBIA RD, Dorchester, MA 02125",
+  "status": "matched",
+  "matched_address": "471 COLUMBIA RD, DORCHESTER, MA, 02125",
+  "lon": -71.067499784037,
+  "lat": 42.314021035494,
+  "place": "Boston city",
+  "place_geoid": "2507000",
+  "cdp": [],
+  "county": [
+   "Suffolk County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0259": {
+  "query": "872 NORTH POINT ST, San Francisco, CA ",
+  "status": "matched",
+  "matched_address": "872 N POINT ST, SAN FRANCISCO, CA, 94109",
+  "lon": -122.421551166435,
+  "lat": 37.805617181224,
+  "place": "San Francisco city",
+  "place_geoid": "0667000",
+  "cdp": [],
+  "county": [
+   "San Francisco County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0260": {
+  "query": "2479 LE CONTE AVE, Berkeley, CA 94709",
+  "status": "matched",
+  "matched_address": "2479 LE CONTE AVE, BERKELEY, CA, 94709",
+  "lon": -122.261370866714,
+  "lat": 37.87682628993,
+  "place": "Berkeley city",
+  "place_geoid": "0606000",
+  "cdp": [],
+  "county": [
+   "Alameda County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0261": {
+  "query": "525 ADAMS ST, Hoboken, NJ 07030",
+  "status": "matched",
+  "matched_address": "525 ADAMS ST, HOBOKEN, NJ, 07030",
+  "lon": -74.03569006655,
+  "lat": 40.743627056924,
+  "place": "Hoboken city",
+  "place_geoid": "3432250",
+  "cdp": [],
+  "county": [
+   "Hudson County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0262": {
+  "query": "2924 E JUNIPER ST, San Diego, CA 92104",
+  "status": "matched",
+  "matched_address": "2924 JUNIPER ST, SAN DIEGO, CA, 92104",
+  "lon": -117.13126954968,
+  "lat": 32.729713456435,
+  "place": "San Diego city",
+  "place_geoid": "0666000",
+  "cdp": [],
+  "county": [
+   "San Diego County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0263": {
+  "query": "1636 M L KING JR WAY, Berkeley, CA 94709",
+  "status": "matched",
+  "matched_address": "1636 MARTIN LUTHER KING JR WAY, BERKELEY, CA, 94709",
+  "lon": -122.273753258644,
+  "lat": 37.877104430999,
+  "place": "Berkeley city",
+  "place_geoid": "0606000",
+  "cdp": [],
+  "county": [
+   "Alameda County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0264": {
+  "query": "583 ELIZABETH AVE, Newark, NJ",
+  "status": "matched",
+  "matched_address": "583 ELIZABETH AVE, NEWARK, NJ, 07112",
+  "lon": -74.203805296449,
+  "lat": 40.706796982365,
+  "place": "Newark city",
+  "place_geoid": "3451000",
+  "cdp": [],
+  "county": [
+   "Essex County"
+  ],
+  "candidates": 1,
+  "retry": true,
+  "original_query": "583-589 ELIZABETH AVE, Newark, NJ 11516",
+  "retrieved_at": "2026-10-03T17:15Z"
+ },
+ "A0265": {
+  "query": "102 BALDWIN AVE., Jersey City, NJ 07306",
+  "status": "matched",
+  "matched_address": "102 BALDWIN AVE, JERSEY CITY, NJ, 07306",
+  "lon": -74.062860646313,
+  "lat": 40.725395005355,
+  "place": "Jersey City city",
+  "place_geoid": "3436000",
+  "cdp": [],
+  "county": [
+   "Hudson County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0266": {
+  "query": "52 BRIGHT ST., Jersey City, NJ 10016",
+  "status": "matched",
+  "matched_address": "52 BRIGHT ST, JERSEY CITY, NJ, 07302",
+  "lon": -74.04716146876,
+  "lat": 40.716964287987,
+  "place": "Jersey City city",
+  "place_geoid": "3436000",
+  "cdp": [],
+  "county": [
+   "Hudson County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0267": {
+  "query": "1314 N VAN NESS AVE, Los Angeles, CA 90028",
+  "status": "matched",
+  "matched_address": "1314 N VAN NESS AVE, LOS ANGELES, CA, 90038",
+  "lon": -118.31568631956,
+  "lat": 34.095065338349,
+  "place": "Los Angeles city",
+  "place_geoid": "0644000",
+  "cdp": [],
+  "county": [
+   "Los Angeles County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0268": {
+  "query": "1848 FRANKLIN ST, San Francisco, CA ",
+  "status": "matched",
+  "matched_address": "1848 FRANKLIN ST, SAN FRANCISCO, CA, 94109",
+  "lon": -122.42417782805,
+  "lat": 37.791524228684,
+  "place": "San Francisco city",
+  "place_geoid": "0667000",
+  "cdp": [],
+  "county": [
+   "San Francisco County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0269": {
+  "query": "1015 CLINTON ST, Hoboken, NJ 10003",
+  "status": "matched",
+  "matched_address": "1015 CLINTON ST, HOBOKEN, NJ, 07030",
+  "lon": -74.031887796981,
+  "lat": 40.749581279291,
+  "place": "Hoboken city",
+  "place_geoid": "3432250",
+  "cdp": [],
+  "county": [
+   "Hudson County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0270": {
+  "query": "29 CONCORD ST, Jersey City, NJ 07306",
+  "status": "matched",
+  "matched_address": "29 CONCORD ST, JERSEY CITY, NJ, 07306",
+  "lon": -74.052574845456,
+  "lat": 40.733442605846,
+  "place": "Jersey City city",
+  "place_geoid": "3436000",
+  "cdp": [],
+  "county": [
+   "Hudson County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0271": {
+  "query": "4115 LINCOLN WY, San Francisco, CA ",
+  "status": "matched",
+  "matched_address": "4115 LINCOLN WAY, SAN FRANCISCO, CA, 94122",
+  "lon": -122.502100180635,
+  "lat": 37.764244000512,
+  "place": "San Francisco city",
+  "place_geoid": "0667000",
+  "cdp": [],
+  "county": [
+   "San Francisco County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0272": {
+  "query": "5 Everett St, Cambridge, MA ",
+  "status": "matched",
+  "matched_address": "5 EVERETT ST, CAMBRIDGE, MA, 02138",
+  "lon": -71.11923068717,
+  "lat": 42.380002159495,
+  "place": "Cambridge city",
+  "place_geoid": "2511000",
+  "cdp": [],
+  "county": [
+   "Middlesex County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0273": {
+  "query": "3911 CENTRE ST, San Diego, CA 92103",
+  "status": "matched",
+  "matched_address": "3911 CENTRE ST, SAN DIEGO, CA, 92103",
+  "lon": -117.147965593552,
+  "lat": 32.749136257741,
+  "place": "San Diego city",
+  "place_geoid": "0666000",
+  "cdp": [],
+  "county": [
+   "San Diego County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0274": {
+  "query": "7072 EASTMAN ST, San Diego, CA 92111",
+  "status": "matched",
+  "matched_address": "7072 EASTMAN ST, SAN DIEGO, CA, 92111",
+  "lon": -117.168439360297,
+  "lat": 32.789776238445,
+  "place": "San Diego city",
+  "place_geoid": "0666000",
+  "cdp": [],
+  "county": [
+   "San Diego County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0275": {
+  "query": "4091 MORRELL ST, San Diego, CA 92109",
+  "status": "matched",
+  "matched_address": "4091 MORRELL ST, SAN DIEGO, CA, 92109",
+  "lon": -117.231646719173,
+  "lat": 32.795607414483,
+  "place": "San Diego city",
+  "place_geoid": "0666000",
+  "cdp": [],
+  "county": [
+   "San Diego County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0276": {
+  "query": "4361 ILLINOIS ST, San Diego, CA 92104",
+  "status": "matched",
+  "matched_address": "4361 ILLINOIS ST, SAN DIEGO, CA, 92104",
+  "lon": -117.127636770855,
+  "lat": 32.756358147896,
+  "place": "San Diego city",
+  "place_geoid": "0666000",
+  "cdp": [],
+  "county": [
+   "San Diego County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0277": {
+  "query": "2736 GRANT ST, Berkeley, CA 94703",
+  "status": "matched",
+  "matched_address": "2736 GRANT ST, BERKELEY, CA, 94703",
+  "lon": -122.273424660577,
+  "lat": 37.85849365947,
+  "place": "Berkeley city",
+  "place_geoid": "0606000",
+  "cdp": [],
+  "county": [
+   "Alameda County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0278": {
+  "query": "1800 FRANKLIN ST, San Francisco, CA ",
+  "status": "matched",
+  "matched_address": "1800 FRANKLIN ST, SAN FRANCISCO, CA, 94109",
+  "lon": -122.424100965563,
+  "lat": 37.791146664293,
+  "place": "San Francisco city",
+  "place_geoid": "0667000",
+  "cdp": [],
+  "county": [
+   "San Francisco County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0279": {
+  "query": "90 KENSINGTON AVE., Jersey City, NJ 07302",
+  "status": "matched",
+  "matched_address": "90 KENSINGTON AVE, JERSEY CITY, NJ, 07304",
+  "lon": -74.075287274906,
+  "lat": 40.723144945194,
+  "place": "Jersey City city",
+  "place_geoid": "3436000",
+  "cdp": [],
+  "county": [
+   "Hudson County"
+  ],
+  "candidates": 2,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0280": {
+  "query": "1215 11TH AV, San Francisco, CA ",
+  "status": "matched",
+  "matched_address": "1215 11TH AVE, SAN FRANCISCO, CA, 94122",
+  "lon": -122.468630232306,
+  "lat": 37.76547270684,
+  "place": "San Francisco city",
+  "place_geoid": "0667000",
+  "cdp": [],
+  "county": [
+   "San Francisco County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0281": {
+  "query": "1725 N GOWER ST, Los Angeles, CA 90028",
+  "status": "matched",
+  "matched_address": "1725 N GOWER ST, LOS ANGELES, CA, 90028",
+  "lon": -118.32242566214,
+  "lat": 34.102103469042,
+  "place": "Los Angeles city",
+  "place_geoid": "0644000",
+  "cdp": [],
+  "county": [
+   "Los Angeles County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0282": {
+  "query": "2240 10TH ST, Berkeley, CA 94710",
+  "status": "matched",
+  "matched_address": "2240 10TH ST, BERKELEY, CA, 94710",
+  "lon": -122.292299289201,
+  "lat": 37.865429346313,
+  "place": "Berkeley city",
+  "place_geoid": "0606000",
+  "cdp": [],
+  "county": [
+   "Alameda County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0283": {
+  "query": "90 BARTLETT ST, San Francisco, CA ",
+  "status": "matched",
+  "matched_address": "90 BARTLETT ST, SAN FRANCISCO, CA, 94110",
+  "lon": -122.41994757491,
+  "lat": 37.755542885749,
+  "place": "San Francisco city",
+  "place_geoid": "0667000",
+  "cdp": [],
+  "county": [
+   "San Francisco County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0284": {
+  "query": "345 Columbia St, Cambridge, MA ",
+  "status": "matched",
+  "matched_address": "345 COLUMBIA ST, CAMBRIDGE, MA, 02141",
+  "lon": -71.095359909702,
+  "lat": 42.371521199602,
+  "place": "Cambridge city",
+  "place_geoid": "2511000",
+  "cdp": [],
+  "county": [
+   "Middlesex County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0285": {
+  "query": "5255 HARMONY AVE, Los Angeles, CA 91601",
+  "status": "matched",
+  "matched_address": "5255 HARMONY AVE, NORTH HOLLYWOOD, CA, 91601",
+  "lon": -118.366517318934,
+  "lat": 34.165894818542,
+  "place": "Los Angeles city",
+  "place_geoid": "0644000",
+  "cdp": [],
+  "county": [
+   "Los Angeles County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0286": {
+  "query": "27 Irving Ter, Cambridge, MA ",
+  "status": "matched",
+  "matched_address": "27 IRVING TER, CAMBRIDGE, MA, 02138",
+  "lon": -71.111412032264,
+  "lat": 42.375840853959,
+  "place": "Cambridge city",
+  "place_geoid": "2511000",
+  "cdp": [],
+  "county": [
+   "Middlesex County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0287": {
+  "query": "404 GRAND ST, Hoboken, NJ 07075",
+  "status": "matched",
+  "matched_address": "404 GRAND ST, HOBOKEN, NJ, 07030",
+  "lon": -74.035272884466,
+  "lat": 40.742295062797,
+  "place": "Hoboken city",
+  "place_geoid": "3432250",
+  "cdp": [],
+  "county": [
+   "Hudson County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0288": {
+  "query": "75 CLENDENNY AVE., Jersey City, NJ 11211",
+  "status": "matched",
+  "matched_address": "75 CLENDENNY AVE, JERSEY CITY, NJ, 07304",
+  "lon": -74.0811726863,
+  "lat": 40.718013229375,
+  "place": "Jersey City city",
+  "place_geoid": "3436000",
+  "cdp": [],
+  "county": [
+   "Hudson County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0289": {
+  "query": "1741 M L KING JR WAY, Berkeley, CA 94709",
+  "status": "matched",
+  "matched_address": "1741 MARTIN LUTHER KING JR WAY, BERKELEY, CA, 94709",
+  "lon": -122.273285380013,
+  "lat": 37.874873789783,
+  "place": "Berkeley city",
+  "place_geoid": "0606000",
+  "cdp": [],
+  "county": [
+   "Alameda County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0290": {
+  "query": "21 Forest St, Cambridge, MA ",
+  "status": "matched",
+  "matched_address": "21 FOREST ST, CAMBRIDGE, MA, 02140",
+  "lon": -71.116197964756,
+  "lat": 42.385243189976,
+  "place": "Cambridge city",
+  "place_geoid": "2511000",
+  "cdp": [],
+  "county": [
+   "Middlesex County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0291": {
+  "query": "165 Cambridgepark Dr, Cambridge, MA ",
+  "status": "matched",
+  "matched_address": "165 CAMBRIDGEPARK DR, CAMBRIDGE, MA, 02140",
+  "lon": -71.146981411789,
+  "lat": 42.395099011822,
+  "place": "Cambridge city",
+  "place_geoid": "2511000",
+  "cdp": [],
+  "county": [
+   "Middlesex County"
+  ],
+  "candidates": 2,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0292": {
+  "query": "24 Berkshire St, Cambridge, MA ",
+  "status": "matched",
+  "matched_address": "24 BERKSHIRE ST, CAMBRIDGE, MA, 02141",
+  "lon": -71.091628846996,
+  "lat": 42.368859452865,
+  "place": "Cambridge city",
+  "place_geoid": "2511000",
+  "cdp": [],
+  "county": [
+   "Middlesex County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0293": {
+  "query": "1314 NATOMA ST, San Francisco, CA ",
+  "status": "matched",
+  "matched_address": "1314 NATOMA ST, SAN FRANCISCO, CA, 94103",
+  "lon": -122.418602494007,
+  "lat": 37.768086302987,
+  "place": "San Francisco city",
+  "place_geoid": "0667000",
+  "cdp": [],
+  "county": [
+   "San Francisco County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0294": {
+  "query": "178 Richdale Ave, Cambridge, MA ",
+  "status": "matched",
+  "matched_address": "178 RICHDALE AVE, CAMBRIDGE, MA, 02140",
+  "lon": -71.126525304753,
+  "lat": 42.389122123461,
+  "place": "Cambridge city",
+  "place_geoid": "2511000",
+  "cdp": [],
+  "county": [
+   "Middlesex County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0295": {
+  "query": "Harvard ST, Dorchester, MA",
+  "status": "no_match",
+  "place": null,
+  "retry": true,
+  "original_query": "Harvard ST LOT 2A-13, Dorchester, MA 02124",
+  "retrieved_at": "2026-10-03T17:15Z"
+ },
+ "A0296": {
+  "query": "83 MCWHORTER ST, Newark, NJ",
+  "status": "matched",
+  "matched_address": "83 MCWHORTER ST, NEWARK, NJ, 07105",
+  "lon": -74.16616452533,
+  "lat": 40.730201050389,
+  "place": "Newark city",
+  "place_geoid": "3451000",
+  "cdp": [],
+  "county": [
+   "Essex County"
+  ],
+  "candidates": 1,
+  "retry": true,
+  "original_query": "83-85 MCWHORTER ST, Newark, NJ 07105",
+  "retrieved_at": "2026-10-03T17:15Z"
+ },
+ "A0297": {
+  "query": "211 SUMMER AVE, Newark, NJ",
+  "status": "matched",
+  "matched_address": "211 SUMMER AVE, NEWARK, NJ, 07104",
+  "lon": -74.171723193198,
+  "lat": 40.758859454382,
+  "place": "Newark city",
+  "place_geoid": "3451000",
+  "cdp": [],
+  "county": [
+   "Essex County"
+  ],
+  "candidates": 1,
+  "retry": true,
+  "original_query": "211-213 SUMMER AVE, Newark, NJ 11205",
+  "retrieved_at": "2026-10-03T17:15Z"
+ },
+ "A0298": {
+  "query": "361 Washington St, Cambridge, MA ",
+  "status": "matched",
+  "matched_address": "361 WASHINGTON ST, CAMBRIDGE, MA, 02139",
+  "lon": -71.099392946846,
+  "lat": 42.365668497367,
+  "place": "Cambridge city",
+  "place_geoid": "2511000",
+  "cdp": [],
+  "county": [
+   "Middlesex County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0299": {
+  "query": "1037 WASHINGTON ST, Hoboken, NJ 10994",
+  "status": "matched",
+  "matched_address": "1037 WASHINGTON ST, HOBOKEN, NJ, 07030",
+  "lon": -74.027266530035,
+  "lat": 40.749050177411,
+  "place": "Hoboken city",
+  "place_geoid": "3432250",
+  "cdp": [],
+  "county": [
+   "Hudson County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0300": {
+  "query": "36 Trowbridge St, Cambridge, MA ",
+  "status": "matched",
+  "matched_address": "36 TROWBRIDGE ST, CAMBRIDGE, MA, 02138",
+  "lon": -71.111648701864,
+  "lat": 42.371850975157,
+  "place": "Cambridge city",
+  "place_geoid": "2511000",
+  "cdp": [],
+  "county": [
+   "Middlesex County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0301": {
+  "query": "165 Hampshire St, Cambridge, MA ",
+  "status": "matched",
+  "matched_address": "165 HAMPSHIRE ST, CAMBRIDGE, MA, 02139",
+  "lon": -71.098439445715,
+  "lat": 42.371842605201,
+  "place": "Cambridge city",
+  "place_geoid": "2511000",
+  "cdp": [],
+  "county": [
+   "Middlesex County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0302": {
+  "query": "4 Clinton St, Cambridge, MA",
+  "status": "matched",
+  "matched_address": "4 CLINTON ST, CAMBRIDGE, MA, 02139",
+  "lon": -71.106864979314,
+  "lat": 42.367476629021,
+  "place": "Cambridge city",
+  "place_geoid": "2511000",
+  "cdp": [],
+  "county": [
+   "Middlesex County"
+  ],
+  "candidates": 1,
+  "retry": true,
+  "original_query": "4-6 Clinton St, Cambridge, MA ",
+  "retrieved_at": "2026-10-03T17:15Z"
+ },
+ "A0303": {
+  "query": "188 E 35TH ST, Los Angeles, CA 90011",
+  "status": "matched",
+  "matched_address": "188 E 35TH ST, LOS ANGELES, CA, 90011",
+  "lon": -118.271171829397,
+  "lat": 34.016877079827,
+  "place": "Los Angeles city",
+  "place_geoid": "0644000",
+  "cdp": [],
+  "county": [
+   "Los Angeles County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0304": {
+  "query": "4541 HAMILTON ST, San Diego, CA 92116",
+  "status": "matched",
+  "matched_address": "4541 HAMILTON ST, SAN DIEGO, CA, 92116",
+  "lon": -117.136296909949,
+  "lat": 32.759898286948,
+  "place": "San Diego city",
+  "place_geoid": "0666000",
+  "cdp": [],
+  "county": [
+   "San Diego County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0305": {
+  "query": "638 45TH AV, San Francisco, CA ",
+  "status": "matched",
+  "matched_address": "638 45TH AVE, SAN FRANCISCO, CA, 94121",
+  "lon": -122.505895195699,
+  "lat": 37.776456954836,
+  "place": "San Francisco city",
+  "place_geoid": "0667000",
+  "cdp": [],
+  "county": [
+   "San Francisco County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0306": {
+  "query": "335A Harvard St, Cambridge, MA ",
+  "status": "matched",
+  "matched_address": "335A HARVARD ST, CAMBRIDGE, MA, 02139",
+  "lon": -71.109090354517,
+  "lat": 42.370715584888,
+  "place": "Cambridge city",
+  "place_geoid": "2511000",
+  "cdp": [],
+  "county": [
+   "Middlesex County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0307": {
+  "query": "294 VAN BUREN ST, Newark, NJ",
+  "status": "matched",
+  "matched_address": "294 VAN BUREN ST, NEWARK, NJ, 07105",
+  "lon": -74.160772689624,
+  "lat": 40.721886586056,
+  "place": "Newark city",
+  "place_geoid": "3451000",
+  "cdp": [],
+  "county": [
+   "Essex County"
+  ],
+  "candidates": 1,
+  "retry": true,
+  "original_query": "294-296 VAN BUREN ST, Newark, NJ 07512",
+  "retrieved_at": "2026-10-03T17:15Z"
+ },
+ "A0308": {
+  "query": "1032 HUDSON ST, Hoboken, NJ 07024",
+  "status": "matched",
+  "matched_address": "1032 HUDSON ST, HOBOKEN, NJ, 07030",
+  "lon": -74.026323440878,
+  "lat": 40.748749351079,
+  "place": "Hoboken city",
+  "place_geoid": "3432250",
+  "cdp": [],
+  "county": [
+   "Hudson County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0309": {
+  "query": "1706 N STANLEY AVE, Los Angeles, CA 90046",
+  "status": "matched",
+  "matched_address": "1706 N STANLEY AVE, LOS ANGELES, CA, 90046",
+  "lon": -118.356114053762,
+  "lat": 34.101835421105,
+  "place": "Los Angeles city",
+  "place_geoid": "0644000",
+  "cdp": [],
+  "county": [
+   "Los Angeles County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0310": {
+  "query": "53 Ashford ST, Allston, MA",
+  "status": "matched",
+  "matched_address": "53 ASHFORD ST, ALLSTON, MA, 02134",
+  "lon": -71.12661393612,
+  "lat": 42.354511450817,
+  "place": "Boston city",
+  "place_geoid": "2507000",
+  "cdp": [],
+  "county": [
+   "Suffolk County"
+  ],
+  "candidates": 1,
+  "retry": true,
+  "original_query": "53-55 Ashford ST, Allston, MA 02134",
+  "retrieved_at": "2026-10-03T17:15Z"
+ },
+ "A0311": {
+  "query": "38-38- SOMME ST, Newark, NJ 07032",
+  "status": "matched",
+  "matched_address": "38 SOMME ST, NEWARK, NJ, 07105",
+  "lon": -74.150647497603,
+  "lat": 40.731405439224,
+  "place": "Newark city",
+  "place_geoid": "3451000",
+  "cdp": [],
+  "county": [
+   "Essex County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0312": {
+  "query": "25 ORLANDO ST, Mattapan, MA 02126",
+  "status": "matched",
+  "matched_address": "25 ORLANDO ST, MATTAPAN, MA, 02126",
+  "lon": -71.0991080589,
+  "lat": 42.274643004403,
+  "place": "Boston city",
+  "place_geoid": "2507000",
+  "cdp": [],
+  "county": [
+   "Suffolk County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0313": {
+  "query": "317 W RUNYON ST, Newark, NJ",
+  "status": "matched",
+  "matched_address": "317 W RUNYON ST, NEWARK, NJ, 07108",
+  "lon": -74.209122198994,
+  "lat": 40.719479811457,
+  "place": "Newark city",
+  "place_geoid": "3451000",
+  "cdp": [],
+  "county": [
+   "Essex County"
+  ],
+  "candidates": 1,
+  "retry": true,
+  "original_query": "317-319 W RUNYON ST, Newark, NJ 11205",
+  "retrieved_at": "2026-10-03T17:15Z"
+ },
+ "A0314": {
+  "query": "6640 LELAND WAY, Los Angeles, CA 90028",
+  "status": "matched",
+  "matched_address": "6640 LELAND WAY, LOS ANGELES, CA, 90028",
+  "lon": -118.334062631211,
+  "lat": 34.096954047102,
+  "place": "Los Angeles city",
+  "place_geoid": "0644000",
+  "cdp": [],
+  "county": [
+   "Los Angeles County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0315": {
+  "query": "5233 CARTWRIGHT AVE, Los Angeles, CA 91601",
+  "status": "matched",
+  "matched_address": "5233 CARTWRIGHT AVE, NORTH HOLLYWOOD, CA, 91601",
+  "lon": -118.363242167449,
+  "lat": 34.165516896714,
+  "place": "Los Angeles city",
+  "place_geoid": "0644000",
+  "cdp": [],
+  "county": [
+   "Los Angeles County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0316": {
+  "query": "3978 FLORIDA ST, San Diego, CA 92104",
+  "status": "matched",
+  "matched_address": "3978 FLORIDA ST, SAN DIEGO, CA, 92104",
+  "lon": -117.143805824838,
+  "lat": 32.749889290623,
+  "place": "San Diego city",
+  "place_geoid": "0666000",
+  "cdp": [],
+  "county": [
+   "San Diego County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0317": {
+  "query": "2233 CHANNING WAY, Berkeley, CA 94704",
+  "status": "matched",
+  "matched_address": "2233 CHANNING WAY, BERKELEY, CA, 94704",
+  "lon": -122.264363578265,
+  "lat": 37.866269484742,
+  "place": "Berkeley city",
+  "place_geoid": "0606000",
+  "cdp": [],
+  "county": [
+   "Alameda County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0318": {
+  "query": "2041 FRANCISCO ST, Berkeley, CA 94709",
+  "status": "matched",
+  "matched_address": "2041 FRANCISCO ST, BERKELEY, CA, 94709",
+  "lon": -122.270236431385,
+  "lat": 37.875520264007,
+  "place": "Berkeley city",
+  "place_geoid": "0606000",
+  "cdp": [],
+  "county": [
+   "Alameda County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0319": {
+  "query": "2315 GRANT ST, Berkeley, CA 94703",
+  "status": "matched",
+  "matched_address": "2315 GRANT ST, BERKELEY, CA, 94703",
+  "lon": -122.27469711854,
+  "lat": 37.866407956138,
+  "place": "Berkeley city",
+  "place_geoid": "0606000",
+  "cdp": [],
+  "county": [
+   "Alameda County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0320": {
+  "query": "408 MADISON ST, Hoboken, NJ 07030",
+  "status": "matched",
+  "matched_address": "408 MADISON ST, HOBOKEN, NJ, 07030",
+  "lon": -74.038062021201,
+  "lat": 40.742822649905,
+  "place": "Hoboken city",
+  "place_geoid": "3432250",
+  "cdp": [],
+  "county": [
+   "Hudson County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0321": {
+  "query": "200 NUNDA AVE., Jersey City, NJ 07306",
+  "status": "matched",
+  "matched_address": "200 NUNDA AVE, JERSEY CITY, NJ, 07306",
+  "lon": -74.079221896001,
+  "lat": 40.729025280221,
+  "place": "Jersey City city",
+  "place_geoid": "3436000",
+  "cdp": [],
+  "county": [
+   "Hudson County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0322": {
+  "query": "227 CYPRESS DR, San Ysidro, CA 92173",
+  "status": "matched",
+  "matched_address": "227 CYPRESS DR, SAN YSIDRO, CA, 92173",
+  "lon": -117.045151967648,
+  "lat": 32.555470956839,
+  "place": "San Diego city",
+  "place_geoid": "0666000",
+  "cdp": [],
+  "county": [
+   "San Diego County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0323": {
+  "query": "4627 COMPTON AVE, Los Angeles, CA 90011",
+  "status": "matched",
+  "matched_address": "4627 COMPTON AVE, LOS ANGELES, CA, 90011",
+  "lon": -118.247839866285,
+  "lat": 34.001632563866,
+  "place": "Los Angeles city",
+  "place_geoid": "0644000",
+  "cdp": [],
+  "county": [
+   "Los Angeles County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0324": {
+  "query": "2003 FRANKLIN ST, San Francisco, CA ",
+  "status": "matched",
+  "matched_address": "2003 FRANKLIN ST, SAN FRANCISCO, CA, 94109",
+  "lon": -122.424604033397,
+  "lat": 37.792904441436,
+  "place": "San Francisco city",
+  "place_geoid": "0667000",
+  "cdp": [],
+  "county": [
+   "San Francisco County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0325": {
+  "query": "38A GAUTIER AVE., Jersey City, NJ 07302",
+  "status": "matched",
+  "matched_address": "38A GAUTIER AVE, JERSEY CITY, NJ, 07306",
+  "lon": -74.079307176087,
+  "lat": 40.72613987341,
+  "place": "Jersey City city",
+  "place_geoid": "3436000",
+  "cdp": [],
+  "county": [
+   "Hudson County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0326": {
+  "query": "46 JEFFERSON ST, Newark, NJ 07105",
+  "status": "matched",
+  "matched_address": "46 JEFFERSON ST, NEWARK, NJ, 07105",
+  "lon": -74.16011411828,
+  "lat": 40.731191686503,
+  "place": "Newark city",
+  "place_geoid": "3451000",
+  "cdp": [],
+  "county": [
+   "Essex County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0327": {
+  "query": "1605 N MARTEL AVE, Los Angeles, CA 90046",
+  "status": "matched",
+  "matched_address": "1605 N MARTEL AVE, LOS ANGELES, CA, 90046",
+  "lon": -118.350240944927,
+  "lat": 34.099942749927,
+  "place": "Los Angeles city",
+  "place_geoid": "0644000",
+  "cdp": [],
+  "county": [
+   "Los Angeles County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0328": {
+  "query": "1845 8TH AVE, San Francisco, CA",
+  "status": "matched",
+  "matched_address": "1845 8TH AVE, SAN FRANCISCO, CA, 94122",
+  "lon": -122.464604457855,
+  "lat": 37.753910517548,
+  "place": "San Francisco city",
+  "place_geoid": "0667000",
+  "cdp": [],
+  "county": [
+   "San Francisco County"
+  ],
+  "candidates": 1,
+  "retry": true,
+  "original_query": "1845 08TH AV, San Francisco, CA ",
+  "retrieved_at": "2026-10-03T17:15Z"
+ },
+ "A0329": {
+  "query": "51 MADISON ST, Newark, NJ 07105",
+  "status": "matched",
+  "matched_address": "51 MADISON ST, NEWARK, NJ, 07105",
+  "lon": -74.159407511479,
+  "lat": 40.730936900745,
+  "place": "Newark city",
+  "place_geoid": "3451000",
+  "cdp": [],
+  "county": [
+   "Essex County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0330": {
+  "query": "5229 WILLOWCREST AVE, Los Angeles, CA 91601",
+  "status": "matched",
+  "matched_address": "5229 WILLOWCREST AVE, NORTH HOLLYWOOD, CA, 91601",
+  "lon": -118.362200030188,
+  "lat": 34.165448094429,
+  "place": "Los Angeles city",
+  "place_geoid": "0644000",
+  "cdp": [],
+  "county": [
+   "Los Angeles County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0331": {
+  "query": "342 IRVINE TURNER BLV, Newark, NJ",
+  "status": "matched",
+  "matched_address": "342 IRVINE TURNER BLVD, NEWARK, NJ, 07108",
+  "lon": -74.193293266905,
+  "lat": 40.722575256637,
+  "place": "Newark city",
+  "place_geoid": "3451000",
+  "cdp": [],
+  "county": [
+   "Essex County"
+  ],
+  "candidates": 1,
+  "retry": true,
+  "original_query": "342-344 IRVINE TURNER BLV, Newark, NJ 11219",
+  "retrieved_at": "2026-10-03T17:15Z"
+ },
+ "A0332": {
+  "query": "26 SONOMA ST, Dorchester, MA 02121",
+  "status": "matched",
+  "matched_address": "26 SONOMA ST, DORCHESTER, MA, 02121",
+  "lon": -71.086856518884,
+  "lat": 42.308190903587,
+  "place": "Boston city",
+  "place_geoid": "2507000",
+  "cdp": [],
+  "county": [
+   "Suffolk County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0333": {
+  "query": "3752 33RD ST, San Diego, CA 92104",
+  "status": "matched",
+  "matched_address": "3752 33RD ST, SAN DIEGO, CA, 92104",
+  "lon": -117.12293391208,
+  "lat": 32.746101678529,
+  "place": "San Diego city",
+  "place_geoid": "0666000",
+  "cdp": [],
+  "county": [
+   "San Diego County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0334": {
+  "query": "2025 FRANCISCO ST, Berkeley, CA 94709",
+  "status": "matched",
+  "matched_address": "2025 FRANCISCO ST, BERKELEY, CA, 94709",
+  "lon": -122.270586610925,
+  "lat": 37.875475369217,
+  "place": "Berkeley city",
+  "place_geoid": "0606000",
+  "cdp": [],
+  "county": [
+   "Alameda County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0335": {
+  "query": "125 BEMIS ST, San Francisco, CA ",
+  "status": "matched",
+  "matched_address": "125 BEMIS ST, SAN FRANCISCO, CA, 94131",
+  "lon": -122.430367276697,
+  "lat": 37.737182683157,
+  "place": "San Francisco city",
+  "place_geoid": "0667000",
+  "cdp": [],
+  "county": [
+   "San Francisco County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0336": {
+  "query": "151 North First St, Cambridge, MA ",
+  "status": "matched",
+  "matched_address": "151 N FIRST ST, CAMBRIDGE, MA, 02141",
+  "lon": -71.075526736217,
+  "lat": 42.372482137906,
+  "place": "Cambridge city",
+  "place_geoid": "2511000",
+  "cdp": [],
+  "county": [
+   "Middlesex County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0337": {
+  "query": "66 MONROE ST, Newark, NJ 07032",
+  "status": "matched",
+  "matched_address": "66 MONROE ST, NEWARK, NJ, 07105",
+  "lon": -74.158991782803,
+  "lat": 40.730254220709,
+  "place": "Newark city",
+  "place_geoid": "3451000",
+  "cdp": [],
+  "county": [
+   "Essex County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0338": {
+  "query": "521 S 17TH ST, Newark, NJ",
+  "status": "matched",
+  "matched_address": "521 S 17TH ST, NEWARK, NJ, 07103",
+  "lon": -74.20839765431,
+  "lat": 40.738187740265,
+  "place": "Newark city",
+  "place_geoid": "3451000",
+  "cdp": [],
+  "county": [
+   "Essex County"
+  ],
+  "candidates": 1,
+  "retry": true,
+  "original_query": "521-523 S 17TH, Newark, NJ 07417",
+  "retrieved_at": "2026-10-03T17:15Z"
+ },
+ "A0339": {
+  "query": "124 Berkshire St, Cambridge, MA ",
+  "status": "matched",
+  "matched_address": "124 BERKSHIRE ST, CAMBRIDGE, MA, 02141",
+  "lon": -71.090029432444,
+  "lat": 42.371616346646,
+  "place": "Cambridge city",
+  "place_geoid": "2511000",
+  "cdp": [],
+  "county": [
+   "Middlesex County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0340": {
+  "query": "14735 ROSCOE BLVD, Los Angeles, CA 91402",
+  "status": "matched",
+  "matched_address": "14735 ROSCOE BLVD, PANORAMA CITY, CA, 91402",
+  "lon": -118.454598749429,
+  "lat": 34.221547468329,
+  "place": "Los Angeles city",
+  "place_geoid": "0644000",
+  "cdp": [],
+  "county": [
+   "Los Angeles County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0341": {
+  "query": "4225 50TH ST, San Diego, CA 92115",
+  "status": "matched",
+  "matched_address": "4225 50TH ST, SAN DIEGO, CA, 92115",
+  "lon": -117.086787563421,
+  "lat": 32.753521698227,
+  "place": "San Diego city",
+  "place_geoid": "0666000",
+  "cdp": [],
+  "county": [
+   "San Diego County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0342": {
+  "query": "49 Roseland St, Cambridge, MA ",
+  "status": "matched",
+  "matched_address": "49 ROSELAND ST, CAMBRIDGE, MA, 02140",
+  "lon": -71.116972926785,
+  "lat": 42.386748328179,
+  "place": "Cambridge city",
+  "place_geoid": "2511000",
+  "cdp": [],
+  "county": [
+   "Middlesex County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0343": {
+  "query": "408 5TH ST, Newark, NJ",
+  "status": "matched",
+  "matched_address": "408 N 5TH ST, NEWARK, NJ, 07107",
+  "lon": -74.184334826891,
+  "lat": 40.762113405795,
+  "place": "Newark city",
+  "place_geoid": "3451000",
+  "cdp": [],
+  "county": [
+   "Essex County"
+  ],
+  "candidates": 1,
+  "retry": true,
+  "original_query": "408-410 5TH ST, Newark, NJ 10997",
+  "retrieved_at": "2026-10-03T17:15Z"
+ },
+ "A0344": {
+  "query": "238 & 242 GARFIELD AVE., Jersey City, NJ",
+  "status": "matched",
+  "matched_address": "242 GARFIELD AVE, JERSEY CITY, NJ, 07305",
+  "lon": -74.091122112815,
+  "lat": 40.692246111645,
+  "place": "Jersey City city",
+  "place_geoid": "3436000",
+  "cdp": [],
+  "county": [
+   "Hudson County"
+  ],
+  "candidates": 1,
+  "retry": true,
+  "original_query": "238 & 242 GARFIELD AVE., Jersey City, NJ 07304",
+  "retrieved_at": "2026-10-03T17:15Z"
+ },
+ "A0345": {
+  "query": "153 W VERNON AVE, Los Angeles, CA 90037",
+  "status": "matched",
+  "matched_address": "153 W VERNON AVE, LOS ANGELES, CA, 90037",
+  "lon": -118.275158399166,
+  "lat": 34.003875826453,
+  "place": "Los Angeles city",
+  "place_geoid": "0644000",
+  "cdp": [],
+  "county": [
+   "Los Angeles County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0346": {
+  "query": "AUBURN DR, San Diego, CA",
+  "status": "no_match",
+  "place": null,
+  "retry": true,
+  "original_query": "AUBURN DR, San Diego, CA 92105",
+  "retrieved_at": "2026-10-03T17:15Z"
+ },
+ "A0347": {
+  "query": "2142 2ND AVE, San Diego, CA 92101",
+  "status": "matched",
+  "matched_address": "2142 2ND AVE, SAN DIEGO, CA, 92101",
+  "lon": -117.163065698172,
+  "lat": 32.727653319366,
+  "place": "San Diego city",
+  "place_geoid": "0666000",
+  "cdp": [],
+  "county": [
+   "San Diego County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0348": {
+  "query": "229 CLINTON ST, Hoboken, NJ 08755",
+  "status": "matched",
+  "matched_address": "229 CLINTON ST, HOBOKEN, NJ, 07030",
+  "lon": -74.034849797859,
+  "lat": 40.739876679452,
+  "place": "Hoboken city",
+  "place_geoid": "3432250",
+  "cdp": [],
+  "county": [
+   "Hudson County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0349": {
+  "query": "2400 DANA ST, Berkeley, CA 94704",
+  "status": "matched",
+  "matched_address": "2400 DANA ST, BERKELEY, CA, 94704",
+  "lon": -122.261163802946,
+  "lat": 37.866568691092,
+  "place": "Berkeley city",
+  "place_geoid": "0606000",
+  "cdp": [],
+  "county": [
+   "Alameda County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0350": {
+  "query": "1051 WEST SIDE AVE., Jersey City, NJ 07446",
+  "status": "matched",
+  "matched_address": "1051 W SIDE AVE, JERSEY CITY, NJ, 07306",
+  "lon": -74.070961149168,
+  "lat": 40.735168801416,
+  "place": "Jersey City city",
+  "place_geoid": "3436000",
+  "cdp": [],
+  "county": [
+   "Hudson County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0351": {
+  "query": "628 HYDE ST, San Francisco, CA ",
+  "status": "matched",
+  "matched_address": "628 HYDE ST, SAN FRANCISCO, CA, 94109",
+  "lon": -122.41643664948,
+  "lat": 37.786610489702,
+  "place": "San Francisco city",
+  "place_geoid": "0667000",
+  "cdp": [],
+  "county": [
+   "San Francisco County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0352": {
+  "query": "40 MT PROSPECT AVE, Newark, NJ",
+  "status": "matched",
+  "matched_address": "40 MT PROSPECT AVE, NEWARK, NJ, 07104",
+  "lon": -74.177853113095,
+  "lat": 40.753102426289,
+  "place": "Newark city",
+  "place_geoid": "3451000",
+  "cdp": [],
+  "county": [
+   "Essex County"
+  ],
+  "candidates": 3,
+  "retry": true,
+  "original_query": "40-42 MT PROSPECT AVE, Newark, NJ 07083",
+  "retrieved_at": "2026-10-03T17:15Z"
+ },
+ "A0353": {
+  "query": "1044 E JEFFERSON BLVD, Los Angeles, CA 90011",
+  "status": "matched",
+  "matched_address": "1044 E JEFFERSON BLVD, LOS ANGELES, CA, 90011",
+  "lon": -118.257806027731,
+  "lat": 34.012089330967,
+  "place": "Los Angeles city",
+  "place_geoid": "0644000",
+  "cdp": [],
+  "county": [
+   "Los Angeles County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0354": {
+  "query": "73 LUBEC ST, East Boston, MA 02128",
+  "status": "matched",
+  "matched_address": "73 LUBEC ST, EAST BOSTON, MA, 02128",
+  "lon": -71.033000779013,
+  "lat": 42.370721531914,
+  "place": "Boston city",
+  "place_geoid": "2507000",
+  "cdp": [],
+  "county": [
+   "Suffolk County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0355": {
+  "query": "10701 AMESTOY AVE, Los Angeles, CA 91344",
+  "status": "matched",
+  "matched_address": "10701 AMESTOY AVE, GRANADA HILLS, CA, 91344",
+  "lon": -118.506705841287,
+  "lat": 34.264856666784,
+  "place": "Los Angeles city",
+  "place_geoid": "0644000",
+  "cdp": [],
+  "county": [
+   "Los Angeles County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:13Z"
+ },
+ "A0356": {
+  "query": "16 Brainerd RD, Allston, MA 02134",
+  "status": "matched",
+  "matched_address": "16 BRAINERD RD, ALLSTON, MA, 02134",
+  "lon": -71.130629546012,
+  "lat": 42.348858680092,
+  "place": "Boston city",
+  "place_geoid": "2507000",
+  "cdp": [],
+  "county": [
+   "Suffolk County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:14Z"
+ },
+ "A0357": {
+  "query": "173 7TH ST, San Francisco, CA",
+  "status": "matched",
+  "matched_address": "173 7TH ST, SAN FRANCISCO, CA, 94103",
+  "lon": -122.409540179118,
+  "lat": 37.778180361844,
+  "place": "San Francisco city",
+  "place_geoid": "0667000",
+  "cdp": [],
+  "county": [
+   "San Francisco County"
+  ],
+  "candidates": 1,
+  "retry": true,
+  "original_query": "173 07TH ST, San Francisco, CA ",
+  "retrieved_at": "2026-10-03T17:15Z"
+ },
+ "A0358": {
+  "query": "717 N 6TH ST, Newark, NJ 07110",
+  "status": "matched",
+  "matched_address": "717 N 6TH ST, NEWARK, NJ, 07107",
+  "lon": -74.179007529056,
+  "lat": 40.773922773441,
+  "place": "Newark city",
+  "place_geoid": "3451000",
+  "cdp": [],
+  "county": [
+   "Essex County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:14Z"
+ },
+ "A0359": {
+  "query": "925 PARK AVE, Hoboken, NJ 07306",
+  "status": "matched",
+  "matched_address": "925 PARK AVE, HOBOKEN, NJ, 07030",
+  "lon": -74.030402774821,
+  "lat": 40.748092459219,
+  "place": "Hoboken city",
+  "place_geoid": "3432250",
+  "cdp": [],
+  "county": [
+   "Hudson County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:14Z"
+ },
+ "A0360": {
+  "query": "140 NEW YORK AVE., Jersey City, NJ 10977",
+  "status": "matched",
+  "matched_address": "140 NEW YORK AVE, JERSEY CITY, NJ, 07307",
+  "lon": -74.047111900025,
+  "lat": 40.741104245751,
+  "place": "Jersey City city",
+  "place_geoid": "3436000",
+  "cdp": [],
+  "county": [
+   "Hudson County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:14Z"
+ },
+ "A0361": {
+  "query": "15 Berkshire St, Cambridge, MA ",
+  "status": "matched",
+  "matched_address": "15 BERKSHIRE ST, CAMBRIDGE, MA, 02141",
+  "lon": -71.092040596292,
+  "lat": 42.368426537915,
+  "place": "Cambridge city",
+  "place_geoid": "2511000",
+  "cdp": [],
+  "county": [
+   "Middlesex County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:14Z"
+ },
+ "A0362": {
+  "query": "368 RIVERWAY ST, Boston, MA 02115",
+  "status": "matched",
+  "matched_address": "368 RIVERWAY, BOSTON, MA, 02115",
+  "lon": -71.110791246894,
+  "lat": 42.334291810524,
+  "place": "Boston city",
+  "place_geoid": "2507000",
+  "cdp": [],
+  "county": [
+   "Suffolk County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:14Z"
+ },
+ "A0363": {
+  "query": "2451 SHATTUCK AVE, Berkeley, CA 94704",
+  "status": "matched",
+  "matched_address": "2451 SHATTUCK AVE, BERKELEY, CA, 94704",
+  "lon": -122.267324831145,
+  "lat": 37.864690284096,
+  "place": "Berkeley city",
+  "place_geoid": "0606000",
+  "cdp": [],
+  "county": [
+   "Alameda County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:14Z"
+ },
+ "A0364": {
+  "query": "125 3RD AVE, San Francisco, CA",
+  "status": "matched",
+  "matched_address": "125 3RD AVE, SAN FRANCISCO, CA, 94118",
+  "lon": -122.461516266857,
+  "lat": 37.786437508473,
+  "place": "San Francisco city",
+  "place_geoid": "0667000",
+  "cdp": [],
+  "county": [
+   "San Francisco County"
+  ],
+  "candidates": 1,
+  "retry": true,
+  "original_query": "125 03RD AV, San Francisco, CA ",
+  "retrieved_at": "2026-10-03T17:15Z"
+ },
+ "A0365": {
+  "query": "3940 IDAHO ST, San Diego, CA 92104",
+  "status": "matched",
+  "matched_address": "3940 IDAHO ST, SAN DIEGO, CA, 92104",
+  "lon": -117.13391504862,
+  "lat": 32.749235987165,
+  "place": "San Diego city",
+  "place_geoid": "0666000",
+  "cdp": [],
+  "county": [
+   "San Diego County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:14Z"
+ },
+ "A0366": {
+  "query": "230 Everett ST, East Boston, MA 02128",
+  "status": "matched",
+  "matched_address": "230 EVERETT ST, EAST BOSTON, MA, 02128",
+  "lon": -71.030306589214,
+  "lat": 42.365643672949,
+  "place": "Boston city",
+  "place_geoid": "2507000",
+  "cdp": [],
+  "county": [
+   "Suffolk County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:14Z"
+ },
+ "A0367": {
+  "query": "219 S 35TH ST, San Diego, CA 92113",
+  "status": "matched",
+  "matched_address": "219 S 35TH ST, SAN DIEGO, CA, 92113",
+  "lon": -117.118695602941,
+  "lat": 32.704217966085,
+  "place": "San Diego city",
+  "place_geoid": "0666000",
+  "cdp": [],
+  "county": [
+   "San Diego County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:14Z"
+ },
+ "A0368": {
+  "query": "1430 FRANCISCO ST, San Francisco, CA ",
+  "status": "matched",
+  "matched_address": "1430 FRANCISCO ST, SAN FRANCISCO, CA, 94123",
+  "lon": -122.428752796943,
+  "lat": 37.802780409256,
+  "place": "San Francisco city",
+  "place_geoid": "0667000",
+  "cdp": [],
+  "county": [
+   "San Francisco County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:14Z"
+ },
+ "A0369": {
+  "query": "3260 CALIFORNIA ST, Berkeley, CA 94703",
+  "status": "matched",
+  "matched_address": "3260 CALIFORNIA ST, BERKELEY, CA, 94703",
+  "lon": -122.276013172823,
+  "lat": 37.848609498456,
+  "place": "Berkeley city",
+  "place_geoid": "0606000",
+  "cdp": [],
+  "county": [
+   "Alameda County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:14Z"
+ },
+ "A0370": {
+  "query": "2222 TOBERMAN ST, Los Angeles, CA 90007",
+  "status": "matched",
+  "matched_address": "2222 TOBERMAN ST, LOS ANGELES, CA, 90007",
+  "lon": -118.281203744904,
+  "lat": 34.034721924415,
+  "place": "Los Angeles city",
+  "place_geoid": "0644000",
+  "cdp": [],
+  "county": [
+   "Los Angeles County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:14Z"
+ },
+ "A0371": {
+  "query": "76 BRUEN ST, Newark, NJ",
+  "status": "matched",
+  "matched_address": "76 BRUEN ST, NEWARK, NJ, 07105",
+  "lon": -74.166804174279,
+  "lat": 40.730460077472,
+  "place": "Newark city",
+  "place_geoid": "3451000",
+  "cdp": [],
+  "county": [
+   "Essex County"
+  ],
+  "candidates": 1,
+  "retry": true,
+  "original_query": "76-80 BRUEN ST, Newark, NJ 07105",
+  "retrieved_at": "2026-10-03T17:15Z"
+ },
+ "A0372": {
+  "query": "314 SEVENTH ST., Jersey City, NJ 07302",
+  "status": "matched",
+  "matched_address": "314 7TH ST, JERSEY CITY, NJ, 07302",
+  "lon": -74.047955557321,
+  "lat": 40.726486238182,
+  "place": "Jersey City city",
+  "place_geoid": "3436000",
+  "cdp": [],
+  "county": [
+   "Hudson County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:14Z"
+ },
+ "A0373": {
+  "query": "1315 SPRUCE ST, Berkeley, CA 94709",
+  "status": "matched",
+  "matched_address": "1315 SPRUCE ST, BERKELEY, CA, 94709",
+  "lon": -122.266249122343,
+  "lat": 37.883557224033,
+  "place": "Berkeley city",
+  "place_geoid": "0606000",
+  "cdp": [],
+  "county": [
+   "Alameda County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:14Z"
+ },
+ "A0374": {
+  "query": "686 S ARDMORE AVE, Los Angeles, CA 90005",
+  "status": "matched",
+  "matched_address": "686 S ARDMORE AVE, LOS ANGELES, CA, 90005",
+  "lon": -118.301920522459,
+  "lat": 34.060247782434,
+  "place": "Los Angeles city",
+  "place_geoid": "0644000",
+  "cdp": [],
+  "county": [
+   "Los Angeles County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:14Z"
+ },
+ "A0375": {
+  "query": "1880 FULTON ST, San Francisco, CA ",
+  "status": "matched",
+  "matched_address": "1880 FULTON ST, SAN FRANCISCO, CA, 94117",
+  "lon": -122.447766948778,
+  "lat": 37.775695071124,
+  "place": "San Francisco city",
+  "place_geoid": "0667000",
+  "cdp": [],
+  "county": [
+   "San Francisco County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:14Z"
+ },
+ "A0376": {
+  "query": "ST JAMES ST, Roxbury, MA",
+  "status": "no_match",
+  "place": null,
+  "retry": true,
+  "original_query": "ST JAMES ST, Roxbury, MA 02119",
+  "retrieved_at": "2026-10-03T17:15Z"
+ },
+ "A0377": {
+  "query": "206 BLOOMFIELD ST, Hoboken, NJ 10003",
+  "status": "matched",
+  "matched_address": "206 BLOOMFIELD ST, HOBOKEN, NJ, 07030",
+  "lon": -74.031363571985,
+  "lat": 40.738998730944,
+  "place": "Hoboken city",
+  "place_geoid": "3432250",
+  "cdp": [],
+  "county": [
+   "Hudson County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:14Z"
+ },
+ "A0378": {
+  "query": "4053 IDAHO ST, San Diego, CA 92104",
+  "status": "matched",
+  "matched_address": "4053 IDAHO ST, SAN DIEGO, CA, 92104",
+  "lon": -117.133775905804,
+  "lat": 32.751323560417,
+  "place": "San Diego city",
+  "place_geoid": "0666000",
+  "cdp": [],
+  "county": [
+   "San Diego County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:14Z"
+ },
+ "A0379": {
+  "query": "1336 BRUNNER ST, San Diego, CA 92110",
+  "status": "matched",
+  "matched_address": "1336 BRUNNER ST, SAN DIEGO, CA, 92110",
+  "lon": -117.189895788824,
+  "lat": 32.769172247535,
+  "place": "San Diego city",
+  "place_geoid": "0666000",
+  "cdp": [],
+  "county": [
+   "San Diego County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:14Z"
+ },
+ "A0380": {
+  "query": "GREENVILLE ST, Roxbury, MA",
+  "status": "no_match",
+  "place": null,
+  "retry": true,
+  "original_query": "GREENVILLE ST, Roxbury, MA 02119",
+  "retrieved_at": "2026-10-03T17:15Z"
+ },
+ "A0381": {
+  "query": "521 MARKET ST, Newark, NJ",
+  "status": "matched",
+  "matched_address": "521 MARKET ST, NEWARK, NJ, 07105",
+  "lon": -74.15594387805,
+  "lat": 40.732033823888,
+  "place": "Newark city",
+  "place_geoid": "3451000",
+  "cdp": [],
+  "county": [
+   "Essex County"
+  ],
+  "candidates": 1,
+  "retry": true,
+  "original_query": "521-523 MARKET ST, Newark, NJ 07105",
+  "retrieved_at": "2026-10-03T17:15Z"
+ },
+ "A0382": {
+  "query": "119 DAY ST, San Francisco, CA ",
+  "status": "matched",
+  "matched_address": "119 DAY ST, SAN FRANCISCO, CA, 94131",
+  "lon": -122.425132126354,
+  "lat": 37.742927740317,
+  "place": "San Francisco city",
+  "place_geoid": "0667000",
+  "cdp": [],
+  "county": [
+   "San Francisco County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:14Z"
+ },
+ "A0383": {
+  "query": "1908 CALIFORNIA ST, Berkeley, CA 94703",
+  "status": "matched",
+  "matched_address": "1908 CALIFORNIA ST, BERKELEY, CA, 94703",
+  "lon": -122.280023113182,
+  "lat": 37.872036512971,
+  "place": "Berkeley city",
+  "place_geoid": "0606000",
+  "cdp": [],
+  "county": [
+   "Alameda County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:14Z"
+ },
+ "A0384": {
+  "query": "21 GUERRERO ST, San Francisco, CA",
+  "status": "no_match",
+  "place": null,
+  "retry": true,
+  "original_query": "21 GUERRERO ST, San Francisco, CA ",
+  "retrieved_at": "2026-10-03T17:15Z"
+ },
+ "A0385": {
+  "query": "1059 UNION ST, San Francisco, CA ",
+  "status": "matched",
+  "matched_address": "1059 UNION ST, SAN FRANCISCO, CA, 94133",
+  "lon": -122.416408067433,
+  "lat": 37.79947735291,
+  "place": "San Francisco city",
+  "place_geoid": "0667000",
+  "cdp": [],
+  "county": [
+   "San Francisco County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:14Z"
+ },
+ "A0386": {
+  "query": "3654 ARIZONA ST, San Diego, CA 92104",
+  "status": "matched",
+  "matched_address": "3654 ARIZONA ST, SAN DIEGO, CA, 92104",
+  "lon": -117.1379712012,
+  "lat": 32.744723856404,
+  "place": "San Diego city",
+  "place_geoid": "0666000",
+  "cdp": [],
+  "county": [
+   "San Diego County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:14Z"
+ },
+ "A0387": {
+  "query": "10303 CAMINITO ALVAREZ, San Diego, CA 92126",
+  "status": "matched",
+  "matched_address": "10303 CMT ALVAREZ, SAN DIEGO, CA, 92126",
+  "lon": -117.169286391696,
+  "lat": 32.9053438981,
+  "place": "San Diego city",
+  "place_geoid": "0666000",
+  "cdp": [],
+  "county": [
+   "San Diego County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:14Z"
+ },
+ "A0388": {
+  "query": "157 CLERK ST., Jersey City, NJ",
+  "status": "matched",
+  "matched_address": "157 CLERK ST, JERSEY CITY, NJ, 07305",
+  "lon": -74.075697770314,
+  "lat": 40.708973882371,
+  "place": "Jersey City city",
+  "place_geoid": "3436000",
+  "cdp": [],
+  "county": [
+   "Hudson County"
+  ],
+  "candidates": 1,
+  "retry": true,
+  "original_query": "157-155 CLERK ST., Jersey City, NJ 07305",
+  "retrieved_at": "2026-10-03T17:15Z"
+ },
+ "A0389": {
+  "query": "923 GARDEN ST, Hoboken, NJ 07068",
+  "status": "matched",
+  "matched_address": "923 GARDEN ST, HOBOKEN, NJ, 07030",
+  "lon": -74.029472700113,
+  "lat": 40.747908908406,
+  "place": "Hoboken city",
+  "place_geoid": "3432250",
+  "cdp": [],
+  "county": [
+   "Hudson County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:14Z"
+ },
+ "A0390": {
+  "query": "70 DARCY ST, Newark, NJ 07202",
+  "status": "matched",
+  "matched_address": "70 DARCY ST, NEWARK, NJ, 07105",
+  "lon": -74.149929644264,
+  "lat": 40.726005356196,
+  "place": "Newark city",
+  "place_geoid": "3451000",
+  "cdp": [],
+  "county": [
+   "Essex County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:14Z"
+ },
+ "A0391": {
+  "query": "265 22ND ST, San Diego, CA 92102",
+  "status": "matched",
+  "matched_address": "265 22ND ST, SAN DIEGO, CA, 92102",
+  "lon": -117.143904241304,
+  "lat": 32.707989329138,
+  "place": "San Diego city",
+  "place_geoid": "0666000",
+  "cdp": [],
+  "county": [
+   "San Diego County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:14Z"
+ },
+ "A0392": {
+  "query": "4545 N 39TH ST, San Diego, CA 92116",
+  "status": "matched",
+  "matched_address": "4545 39TH ST, SAN DIEGO, CA, 92116",
+  "lon": -117.110733157421,
+  "lat": 32.759875365223,
+  "place": "San Diego city",
+  "place_geoid": "0666000",
+  "cdp": [],
+  "county": [
+   "San Diego County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:14Z"
+ },
+ "A0393": {
+  "query": "91 JORDAN AVE., Jersey City, NJ 07081",
+  "status": "matched",
+  "matched_address": "91 JORDAN AVE, JERSEY CITY, NJ, 07306",
+  "lon": -74.064895908212,
+  "lat": 40.72674257266,
+  "place": "Jersey City city",
+  "place_geoid": "3436000",
+  "cdp": [],
+  "county": [
+   "Hudson County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:14Z"
+ },
+ "A0394": {
+  "query": "45 RAVINE AVE., Jersey City, NJ 07302",
+  "status": "matched",
+  "matched_address": "45 RAVINE AVE, JERSEY CITY, NJ, 07307",
+  "lon": -74.049129869145,
+  "lat": 40.74028302667,
+  "place": "Jersey City city",
+  "place_geoid": "3436000",
+  "cdp": [],
+  "county": [
+   "Hudson County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:14Z"
+ },
+ "A0395": {
+  "query": "1632 RUSSELL ST, Berkeley, CA 94703",
+  "status": "matched",
+  "matched_address": "1632 RUSSELL ST, BERKELEY, CA, 94703",
+  "lon": -122.275797862561,
+  "lat": 37.85541480374,
+  "place": "Berkeley city",
+  "place_geoid": "0606000",
+  "cdp": [],
+  "county": [
+   "Alameda County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:14Z"
+ },
+ "A0396": {
+  "query": "3244 CLAIREMONT DR, San Diego, CA 92117",
+  "status": "matched",
+  "matched_address": "3244 CLAIREMONT DR, SAN DIEGO, CA, 92117",
+  "lon": -117.195770657922,
+  "lat": 32.800141615463,
+  "place": "San Diego city",
+  "place_geoid": "0666000",
+  "cdp": [],
+  "county": [
+   "San Diego County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:14Z"
+ },
+ "A0397": {
+  "query": "1677 BUSH ST, San Francisco, CA ",
+  "status": "matched",
+  "matched_address": "1677 BUSH ST, SAN FRANCISCO, CA, 94109",
+  "lon": -122.424817163952,
+  "lat": 37.788065631555,
+  "place": "San Francisco city",
+  "place_geoid": "0667000",
+  "cdp": [],
+  "county": [
+   "San Francisco County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:14Z"
+ },
+ "A0398": {
+  "query": "890 GREEN ST, San Francisco, CA ",
+  "status": "matched",
+  "matched_address": "890 GREEN ST, SAN FRANCISCO, CA, 94133",
+  "lon": -122.413748040152,
+  "lat": 37.798969157635,
+  "place": "San Francisco city",
+  "place_geoid": "0667000",
+  "cdp": [],
+  "county": [
+   "San Francisco County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:14Z"
+ },
+ "A0399": {
+  "query": "227 WILLOW AVE, Hoboken, NJ 07643",
+  "status": "matched",
+  "matched_address": "227 WILLOW AVE, HOBOKEN, NJ, 07030",
+  "lon": -74.033923758593,
+  "lat": 40.739690854009,
+  "place": "Hoboken city",
+  "place_geoid": "3432250",
+  "cdp": [],
+  "county": [
+   "Hudson County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:14Z"
+ },
+ "A0400": {
+  "query": "174 MT PROSPECT AVE, Newark, NJ 07107",
+  "status": "matched",
+  "matched_address": "174 MT PROSPECT AVE, NEWARK, NJ, 07104",
+  "lon": -74.17546726324,
+  "lat": 40.757731471944,
+  "place": "Newark city",
+  "place_geoid": "3451000",
+  "cdp": [],
+  "county": [
+   "Essex County"
+  ],
+  "candidates": 2,
+  "retrieved_at": "2026-10-03T17:14Z"
+ },
+ "A0401": {
+  "query": "257 14TH ST, San Francisco, CA ",
+  "status": "matched",
+  "matched_address": "257 14TH ST, SAN FRANCISCO, CA, 94103",
+  "lon": -122.419001453676,
+  "lat": 37.768275245554,
+  "place": "San Francisco city",
+  "place_geoid": "0667000",
+  "cdp": [],
+  "county": [
+   "San Francisco County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:14Z"
+ },
+ "A0402": {
+  "query": "2914 LARKIN ST, San Francisco, CA ",
+  "status": "matched",
+  "matched_address": "2914 LARKIN ST, SAN FRANCISCO, CA, 94109",
+  "lon": -122.421779262494,
+  "lat": 37.804747750317,
+  "place": "San Francisco city",
+  "place_geoid": "0667000",
+  "cdp": [],
+  "county": [
+   "San Francisco County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:14Z"
+ },
+ "A0403": {
+  "query": "45 Myrtle ST, Boston, MA 02114",
+  "status": "matched",
+  "matched_address": "45 MYRTLE ST, BOSTON, MA, 02114",
+  "lon": -71.066075463637,
+  "lat": 42.359416672345,
+  "place": "Boston city",
+  "place_geoid": "2507000",
+  "cdp": [],
+  "county": [
+   "Suffolk County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:14Z"
+ },
+ "A0404": {
+  "query": "240 BOWERS ST., Jersey City, NJ 07603",
+  "status": "matched",
+  "matched_address": "240 BOWERS ST, JERSEY CITY, NJ, 07307",
+  "lon": -74.053172054328,
+  "lat": 40.749176716976,
+  "place": "Jersey City city",
+  "place_geoid": "3436000",
+  "cdp": [],
+  "county": [
+   "Hudson County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:14Z"
+ },
+ "A0405": {
+  "query": "10214 FERNGLEN AVE, Los Angeles, CA 91042",
+  "status": "matched",
+  "matched_address": "10214 FERNGLEN AVE, TUJUNGA, CA, 91042",
+  "lon": -118.294269681844,
+  "lat": 34.254405539147,
+  "place": "Los Angeles city",
+  "place_geoid": "0644000",
+  "cdp": [],
+  "county": [
+   "Los Angeles County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:14Z"
+ },
+ "A0406": {
+  "query": "170 W Springfield ST, Boston, MA 02118",
+  "status": "matched",
+  "matched_address": "170 W SPRINGFIELD ST, BOSTON, MA, 02118",
+  "lon": -71.079433474182,
+  "lat": 42.339468331482,
+  "place": "Boston city",
+  "place_geoid": "2507000",
+  "cdp": [],
+  "county": [
+   "Suffolk County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:14Z"
+ },
+ "A0407": {
+  "query": "4188 GREENBUSH AVE, Los Angeles, CA 91423",
+  "status": "matched",
+  "matched_address": "4188 GREENBUSH AVE, SHERMAN OAKS, CA, 91423",
+  "lon": -118.426009923389,
+  "lat": 34.146796782796,
+  "place": "Los Angeles city",
+  "place_geoid": "0644000",
+  "cdp": [],
+  "county": [
+   "Los Angeles County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:14Z"
+ },
+ "A0408": {
+  "query": "14375 POLK ST, Los Angeles, CA 91342",
+  "status": "matched",
+  "matched_address": "14375 POLK ST, SYLMAR, CA, 91342",
+  "lon": -118.446247129705,
+  "lat": 34.310760350581,
+  "place": "Los Angeles city",
+  "place_geoid": "0644000",
+  "cdp": [],
+  "county": [
+   "Los Angeles County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:14Z"
+ },
+ "A0409": {
+  "query": "4428 GRESHAM ST, San Diego, CA 92109",
+  "status": "matched",
+  "matched_address": "4428 GRESHAM ST, SAN DIEGO, CA, 92109",
+  "lon": -117.244179056101,
+  "lat": 32.79763108496,
+  "place": "San Diego city",
+  "place_geoid": "0666000",
+  "cdp": [],
+  "county": [
+   "San Diego County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:14Z"
+ },
+ "A0410": {
+  "query": "319 SUMMIT AVE., Jersey City, NJ 07306",
+  "status": "matched",
+  "matched_address": "319 SUMMIT AVE, JERSEY CITY, NJ, 07306",
+  "lon": -74.064026798734,
+  "lat": 40.726387646101,
+  "place": "Jersey City city",
+  "place_geoid": "3436000",
+  "cdp": [],
+  "county": [
+   "Hudson County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:14Z"
+ },
+ "A0411": {
+  "query": "1833 BERKELEY WAY, Berkeley, CA 94703",
+  "status": "matched",
+  "matched_address": "1833 BERKELEY WAY, BERKELEY, CA, 94703",
+  "lon": -122.27465308516,
+  "lat": 37.87232876757,
+  "place": "Berkeley city",
+  "place_geoid": "0606000",
+  "cdp": [],
+  "county": [
+   "Alameda County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:14Z"
+ },
+ "A0412": {
+  "query": "229 GRAFTON AVE, Newark, NJ",
+  "status": "matched",
+  "matched_address": "229 GRAFTON AVE, NEWARK, NJ, 07104",
+  "lon": -74.167180273306,
+  "lat": 40.77821909329,
+  "place": "Newark city",
+  "place_geoid": "3451000",
+  "cdp": [],
+  "county": [
+   "Essex County"
+  ],
+  "candidates": 1,
+  "retry": true,
+  "original_query": "229-231 GRAFTON AVE, Newark, NJ 07003",
+  "retrieved_at": "2026-10-03T17:15Z"
+ },
+ "A0413": {
+  "query": "2209 GRAND AVE, San Diego, CA 92109",
+  "status": "matched",
+  "matched_address": "2209 GRAND AVE, SAN DIEGO, CA, 92109",
+  "lon": -117.229073590912,
+  "lat": 32.80027114964,
+  "place": "San Diego city",
+  "place_geoid": "0666000",
+  "cdp": [],
+  "county": [
+   "San Diego County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:14Z"
+ },
+ "A0414": {
+  "query": "1987 CALIFORNIA ST, San Francisco, CA ",
+  "status": "matched",
+  "matched_address": "1987 CALIFORNIA ST, SAN FRANCISCO, CA, 94109",
+  "lon": -122.426993113372,
+  "lat": 37.789718887946,
+  "place": "San Francisco city",
+  "place_geoid": "0667000",
+  "cdp": [],
+  "county": [
+   "San Francisco County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:14Z"
+ },
+ "A0415": {
+  "query": "95 WAYNE ST., Jersey City, NJ 07302",
+  "status": "matched",
+  "matched_address": "95 WAYNE ST, JERSEY CITY, NJ, 07302",
+  "lon": -74.046863038788,
+  "lat": 40.719860194431,
+  "place": "Jersey City city",
+  "place_geoid": "3436000",
+  "cdp": [],
+  "county": [
+   "Hudson County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:14Z"
+ },
+ "A0416": {
+  "query": "882 PAVONIA AVE., Jersey City, NJ 10281",
+  "status": "matched",
+  "matched_address": "882 PAVONIA AVE, JERSEY CITY, NJ, 07306",
+  "lon": -74.069855824873,
+  "lat": 40.734106488592,
+  "place": "Jersey City city",
+  "place_geoid": "3436000",
+  "cdp": [],
+  "county": [
+   "Hudson County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:14Z"
+ },
+ "A0417": {
+  "query": "4957 CAHUENGA BLVD, Los Angeles, CA 91601",
+  "status": "matched",
+  "matched_address": "4957 CAHUENGA BLVD, NORTH HOLLYWOOD, CA, 91601",
+  "lon": -118.361590637042,
+  "lat": 34.160498077424,
+  "place": "Los Angeles city",
+  "place_geoid": "0644000",
+  "cdp": [],
+  "county": [
+   "Los Angeles County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:14Z"
+ },
+ "A0418": {
+  "query": "221 SIP AVE., Jersey City, NJ 07009",
+  "status": "matched",
+  "matched_address": "221 SIP AVE, JERSEY CITY, NJ, 07306",
+  "lon": -74.070139397713,
+  "lat": 40.731794725913,
+  "place": "Jersey City city",
+  "place_geoid": "3436000",
+  "cdp": [],
+  "county": [
+   "Hudson County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:14Z"
+ },
+ "A0419": {
+  "query": "1538 HENRY ST, Berkeley, CA 94709",
+  "status": "matched",
+  "matched_address": "1538 HENRY ST, BERKELEY, CA, 94709",
+  "lon": -122.2705189327,
+  "lat": 37.879313015271,
+  "place": "Berkeley city",
+  "place_geoid": "0606000",
+  "cdp": [],
+  "county": [
+   "Alameda County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:14Z"
+ },
+ "A0420": {
+  "query": "4419 CLEVELAND AVE, San Diego, CA 92116",
+  "status": "matched",
+  "matched_address": "4419 CLEVELAND AVE, SAN DIEGO, CA, 92116",
+  "lon": -117.149951913385,
+  "lat": 32.757581273133,
+  "place": "San Diego city",
+  "place_geoid": "0666000",
+  "cdp": [],
+  "county": [
+   "San Diego County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:14Z"
+ },
+ "A0421": {
+  "query": "17106 CHATSWORTH ST   APT 0001, Los Angeles, CA 91344",
+  "status": "matched",
+  "matched_address": "17106 CHATSWORTH ST, GRANADA HILLS, CA, 91344",
+  "lon": -118.505814381942,
+  "lat": 34.264737200693,
+  "place": "Los Angeles city",
+  "place_geoid": "0644000",
+  "cdp": [],
+  "county": [
+   "Los Angeles County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:14Z"
+ },
+ "A0422": {
+  "query": "21 Marion St, Cambridge, MA",
+  "status": "matched",
+  "matched_address": "21 MARION ST, CAMBRIDGE, MA, 02141",
+  "lon": -71.088995126672,
+  "lat": 42.372394786904,
+  "place": "Cambridge city",
+  "place_geoid": "2511000",
+  "cdp": [],
+  "county": [
+   "Middlesex County"
+  ],
+  "candidates": 1,
+  "retry": true,
+  "original_query": "21-23 Marion St, Cambridge, MA ",
+  "retrieved_at": "2026-10-03T17:15Z"
+ },
+ "A0423": {
+  "query": "10 CAMELOT CT, Brighton, MA 02135",
+  "status": "matched",
+  "matched_address": "10 CAMELOT CT, BRIGHTON, MA, 02135",
+  "lon": -71.141330315149,
+  "lat": 42.349362810146,
+  "place": "Boston city",
+  "place_geoid": "2507000",
+  "cdp": [],
+  "county": [
+   "Suffolk County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:14Z"
+ },
+ "A0424": {
+  "query": "208 JEFFERSON ST, Hoboken, NJ 07030",
+  "status": "matched",
+  "matched_address": "208 JEFFERSON ST, HOBOKEN, NJ, 07030",
+  "lon": -74.037883549718,
+  "lat": 40.740157173654,
+  "place": "Hoboken city",
+  "place_geoid": "3432250",
+  "cdp": [],
+  "county": [
+   "Hudson County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:14Z"
+ },
+ "A0425": {
+  "query": "650 POST ST, San Francisco, CA ",
+  "status": "matched",
+  "matched_address": "650 POST ST, SAN FRANCISCO, CA, 94109",
+  "lon": -122.412614041685,
+  "lat": 37.787814500247,
+  "place": "San Francisco city",
+  "place_geoid": "0667000",
+  "cdp": [],
+  "county": [
+   "San Francisco County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:14Z"
+ },
+ "A0426": {
+  "query": "1307 COLUSA ST, San Diego, CA 92110",
+  "status": "matched",
+  "matched_address": "1307 COLUSA ST, SAN DIEGO, CA, 92110",
+  "lon": -117.190773729749,
+  "lat": 32.768532440161,
+  "place": "San Diego city",
+  "place_geoid": "0666000",
+  "cdp": [],
+  "county": [
+   "San Diego County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:14Z"
+ },
+ "A0427": {
+  "query": "7665 FOUNTAIN AVE, Los Angeles, CA 90046",
+  "status": "matched",
+  "matched_address": "7665 W FOUNTAIN AVE, LOS ANGELES, CA, 90046",
+  "lon": -118.356732566622,
+  "lat": 34.094477803207,
+  "place": "Los Angeles city",
+  "place_geoid": "0644000",
+  "cdp": [],
+  "county": [
+   "Los Angeles County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:14Z"
+ },
+ "A0428": {
+  "query": "312 MT PROSPECT AVE, Newark, NJ",
+  "status": "matched",
+  "matched_address": "312 MT PROSPECT AVE, NEWARK, NJ, 07104",
+  "lon": -74.172434078437,
+  "lat": 40.762248311177,
+  "place": "Newark city",
+  "place_geoid": "3451000",
+  "cdp": [],
+  "county": [
+   "Essex County"
+  ],
+  "candidates": 2,
+  "retry": true,
+  "original_query": "312-314 MT PROSPECT AVE, Newark, NJ 07109",
+  "retrieved_at": "2026-10-03T17:15Z"
+ },
+ "A0429": {
+  "query": "12 BLACKWOOD ST, Boston, MA 02115",
+  "status": "matched",
+  "matched_address": "12 BLACKWOOD ST, BOSTON, MA, 02115",
+  "lon": -71.082683836307,
+  "lat": 42.34315888883,
+  "place": "Boston city",
+  "place_geoid": "2507000",
+  "cdp": [],
+  "county": [
+   "Suffolk County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:14Z"
+ },
+ "A0430": {
+  "query": "1950 ADDISON ST, Berkeley, CA 94704",
+  "status": "matched",
+  "matched_address": "1950 ADDISON ST, BERKELEY, CA, 94704",
+  "lon": -122.272637519825,
+  "lat": 37.870562012406,
+  "place": "Berkeley city",
+  "place_geoid": "0606000",
+  "cdp": [],
+  "county": [
+   "Alameda County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:14Z"
+ },
+ "A0431": {
+  "query": "245 EUCLID AVE, San Diego, CA 92114",
+  "status": "matched",
+  "matched_address": "245 EUCLID AVE, SAN DIEGO, CA, 92114",
+  "lon": -117.084936538347,
+  "lat": 32.706728960145,
+  "place": "San Diego city",
+  "place_geoid": "0666000",
+  "cdp": [],
+  "county": [
+   "San Diego County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:14Z"
+ },
+ "A0432": {
+  "query": "14605 RAYEN ST, Los Angeles, CA 91402",
+  "status": "matched",
+  "matched_address": "14605 RAYEN ST, PANORAMA CITY, CA, 91402",
+  "lon": -118.450479396041,
+  "lat": 34.231842925425,
+  "place": "Los Angeles city",
+  "place_geoid": "0644000",
+  "cdp": [],
+  "county": [
+   "Los Angeles County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:14Z"
+ },
+ "A0433": {
+  "query": "720 W 27TH ST, Los Angeles, CA 90007",
+  "status": "matched",
+  "matched_address": "720 W 27TH ST, LOS ANGELES, CA, 90007",
+  "lon": -118.27894463392,
+  "lat": 34.028044141305,
+  "place": "Los Angeles city",
+  "place_geoid": "0644000",
+  "cdp": [],
+  "county": [
+   "Los Angeles County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:14Z"
+ },
+ "A0434": {
+  "query": "1225 HYDE ST, San Francisco, CA ",
+  "status": "matched",
+  "matched_address": "1225 HYDE ST, SAN FRANCISCO, CA, 94109",
+  "lon": -122.417712027591,
+  "lat": 37.792202707791,
+  "place": "San Francisco city",
+  "place_geoid": "0667000",
+  "cdp": [],
+  "county": [
+   "San Francisco County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:14Z"
+ },
+ "A0435": {
+  "query": "310 MONROE ST, Hoboken, NJ 07632",
+  "status": "matched",
+  "matched_address": "310 MONROE ST, HOBOKEN, NJ, 07030",
+  "lon": -74.039361820557,
+  "lat": 40.741775604922,
+  "place": "Hoboken city",
+  "place_geoid": "3432250",
+  "cdp": [],
+  "county": [
+   "Hudson County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:14Z"
+ },
+ "A0436": {
+  "query": "832 WILLOW AVE, Hoboken, NJ 07030",
+  "status": "matched",
+  "matched_address": "832 WILLOW AVE, HOBOKEN, NJ, 07030",
+  "lon": -74.031844915269,
+  "lat": 40.747085607112,
+  "place": "Hoboken city",
+  "place_geoid": "3432250",
+  "cdp": [],
+  "county": [
+   "Hudson County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:14Z"
+ },
+ "A0437": {
+  "query": "2969 SAN MARINO ST, Los Angeles, CA 90006",
+  "status": "matched",
+  "matched_address": "2969 SAN MARINO ST, LOS ANGELES, CA, 90006",
+  "lon": -118.293871486247,
+  "lat": 34.05457350989,
+  "place": "Los Angeles city",
+  "place_geoid": "0644000",
+  "cdp": [],
+  "county": [
+   "Los Angeles County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:14Z"
+ },
+ "A0438": {
+  "query": "60 CAMBRIDGE AVE, Jersey City, NJ",
+  "status": "matched",
+  "matched_address": "60 CAMBRIDGE AVE, JERSEY CITY, NJ, 07307",
+  "lon": -74.048728066645,
+  "lat": 40.744834267004,
+  "place": "Jersey City city",
+  "place_geoid": "3436000",
+  "cdp": [],
+  "county": [
+   "Hudson County"
+  ],
+  "candidates": 1,
+  "retry": true,
+  "original_query": "60-62 CAMBRIDGE AVE, Jersey City, NJ 07430",
+  "retrieved_at": "2026-10-03T17:15Z"
+ },
+ "A0439": {
+  "query": "225 25TH AV, San Francisco, CA ",
+  "status": "matched",
+  "matched_address": "225 25TH AVE, SAN FRANCISCO, CA, 94121",
+  "lon": -122.485184671551,
+  "lat": 37.78525700396,
+  "place": "San Francisco city",
+  "place_geoid": "0667000",
+  "cdp": [],
+  "county": [
+   "San Francisco County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:14Z"
+ },
+ "A0440": {
+  "query": "4042 FULTON ST, San Francisco, CA ",
+  "status": "matched",
+  "matched_address": "4042 FULTON ST, SAN FRANCISCO, CA, 94118",
+  "lon": -122.47502114247,
+  "lat": 37.773046725887,
+  "place": "San Francisco city",
+  "place_geoid": "0667000",
+  "cdp": [],
+  "county": [
+   "San Francisco County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:14Z"
+ },
+ "A0441": {
+  "query": "4017 ILLINOIS ST, San Diego, CA 92104",
+  "status": "matched",
+  "matched_address": "4017 ILLINOIS ST, SAN DIEGO, CA, 92104",
+  "lon": -117.127623761555,
+  "lat": 32.750692356257,
+  "place": "San Diego city",
+  "place_geoid": "0666000",
+  "cdp": [],
+  "county": [
+   "San Diego County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:14Z"
+ },
+ "A0442": {
+  "query": "7014 LANEWOOD AVE, Los Angeles, CA 90028",
+  "status": "matched",
+  "matched_address": "7014 LANEWOOD AVE, LOS ANGELES, CA, 90028",
+  "lon": -118.341876805569,
+  "lat": 34.099151448276,
+  "place": "Los Angeles city",
+  "place_geoid": "0644000",
+  "cdp": [],
+  "county": [
+   "Los Angeles County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:14Z"
+ },
+ "A0443": {
+  "query": "3526 FAIRMOUNT AVE, San Diego, CA 92105",
+  "status": "matched",
+  "matched_address": "3526 FAIRMOUNT AVE, SAN DIEGO, CA, 92105",
+  "lon": -117.101032546312,
+  "lat": 32.742658851729,
+  "place": "San Diego city",
+  "place_geoid": "0666000",
+  "cdp": [],
+  "county": [
+   "San Diego County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:14Z"
+ },
+ "A0444": {
+  "query": "231 COMMONWEALTH AV, Boston, MA 02116",
+  "status": "matched",
+  "matched_address": "231 COMMONWEALTH AVE, BOSTON, MA, 02116",
+  "lon": -71.082259034359,
+  "lat": 42.351030509952,
+  "place": "Boston city",
+  "place_geoid": "2507000",
+  "cdp": [],
+  "county": [
+   "Suffolk County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:14Z"
+ },
+ "A0445": {
+  "query": "8790 VAN NUYS BLVD, Los Angeles, CA 91402",
+  "status": "matched",
+  "matched_address": "8790 VAN NUYS BLVD, PANORAMA CITY, CA, 91402",
+  "lon": -118.450185423298,
+  "lat": 34.229751001697,
+  "place": "Los Angeles city",
+  "place_geoid": "0644000",
+  "cdp": [],
+  "county": [
+   "Los Angeles County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:14Z"
+ },
+ "A0446": {
+  "query": "610 COLUMBUS AV, Boston, MA 02118",
+  "status": "matched",
+  "matched_address": "610 COLUMBUS AVE, BOSTON, MA, 02118",
+  "lon": -71.083459763098,
+  "lat": 42.339112790328,
+  "place": "Boston city",
+  "place_geoid": "2507000",
+  "cdp": [],
+  "county": [
+   "Suffolk County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:14Z"
+ },
+ "A0447": {
+  "query": "208 CLINTON ST, Hoboken, NJ 07030",
+  "status": "matched",
+  "matched_address": "208 CLINTON ST, HOBOKEN, NJ, 07030",
+  "lon": -74.035067789528,
+  "lat": 40.73966668696,
+  "place": "Hoboken city",
+  "place_geoid": "3432250",
+  "cdp": [],
+  "county": [
+   "Hudson County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:14Z"
+ },
+ "A0448": {
+  "query": "151 LAFAYETTE ST, Newark, NJ",
+  "status": "matched",
+  "matched_address": "151 LAFAYETTE ST, NEWARK, NJ, 07105",
+  "lon": -74.166461328187,
+  "lat": 40.730805854988,
+  "place": "Newark city",
+  "place_geoid": "3451000",
+  "cdp": [],
+  "county": [
+   "Essex County"
+  ],
+  "candidates": 1,
+  "retry": true,
+  "original_query": "151-153 LAFAYETTE ST, Newark, NJ 07105",
+  "retrieved_at": "2026-10-03T17:15Z"
+ },
+ "A0449": {
+  "query": "338 CLINTON PL, Newark, NJ 08701",
+  "status": "matched",
+  "matched_address": "338 CLINTON PL, NEWARK, NJ, 07112",
+  "lon": -74.215190276398,
+  "lat": 40.712312782686,
+  "place": "Newark city",
+  "place_geoid": "3451000",
+  "cdp": [],
+  "county": [
+   "Essex County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:14Z"
+ },
+ "A0450": {
+  "query": "94 NEPTUNE AVE., Jersey City, NJ 11211",
+  "status": "matched",
+  "matched_address": "94 NEPTUNE AVE, JERSEY CITY, NJ, 07305",
+  "lon": -74.094734510649,
+  "lat": 40.691942000511,
+  "place": "Jersey City city",
+  "place_geoid": "3436000",
+  "cdp": [],
+  "county": [
+   "Hudson County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:14Z"
+ },
+ "A0451": {
+  "query": "7300 VALMONT ST, Los Angeles, CA 91042",
+  "status": "matched",
+  "matched_address": "7300 VALMONT ST, TUJUNGA, CA, 91042",
+  "lon": -118.291114794412,
+  "lat": 34.252257110602,
+  "place": "Los Angeles city",
+  "place_geoid": "0644000",
+  "cdp": [],
+  "county": [
+   "Los Angeles County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:14Z"
+ },
+ "A0452": {
+  "query": "1310 N LAS PALMAS AVE, Los Angeles, CA 90028",
+  "status": "matched",
+  "matched_address": "1310 N LAS PALMAS AVE, LOS ANGELES, CA, 90028",
+  "lon": -118.336242443207,
+  "lat": 34.094610686343,
+  "place": "Los Angeles city",
+  "place_geoid": "0644000",
+  "cdp": [],
+  "county": [
+   "Los Angeles County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:14Z"
+ },
+ "A0453": {
+  "query": "11 Carlisle St, Cambridge, MA ",
+  "status": "matched",
+  "matched_address": "11 CARLISLE ST, CAMBRIDGE, MA, 02139",
+  "lon": -71.097785158487,
+  "lat": 42.372350092405,
+  "place": "Cambridge city",
+  "place_geoid": "2511000",
+  "cdp": [],
+  "county": [
+   "Middlesex County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:14Z"
+ },
+ "A0454": {
+  "query": "8944 COLUMBUS AVE, Los Angeles, CA 91343",
+  "status": "matched",
+  "matched_address": "8944 COLUMBUS AVE, NORTH HILLS, CA, 91343",
+  "lon": -118.465331558771,
+  "lat": 34.232706363083,
+  "place": "Los Angeles city",
+  "place_geoid": "0644000",
+  "cdp": [],
+  "county": [
+   "Los Angeles County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:14Z"
+ },
+ "A0455": {
+  "query": "78 STEVENS AVE., Jersey City, NJ 07108",
+  "status": "matched",
+  "matched_address": "78 STEVENS AVE, JERSEY CITY, NJ, 07305",
+  "lon": -74.087633111396,
+  "lat": 40.701284285212,
+  "place": "Jersey City city",
+  "place_geoid": "3436000",
+  "cdp": [],
+  "county": [
+   "Hudson County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:14Z"
+ },
+ "A0456": {
+  "query": "2151 CHATSWORTH BLVD, San Diego, CA 92107",
+  "status": "matched",
+  "matched_address": "2151 CHATSWORTH BLVD, SAN DIEGO, CA, 92107",
+  "lon": -117.228546774402,
+  "lat": 32.738822467011,
+  "place": "San Diego city",
+  "place_geoid": "0666000",
+  "cdp": [],
+  "county": [
+   "San Diego County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:14Z"
+ },
+ "A0457": {
+  "query": "1856 GREEN ST, San Francisco, CA ",
+  "status": "matched",
+  "matched_address": "1856 GREEN ST, SAN FRANCISCO, CA, 94123",
+  "lon": -122.429684738163,
+  "lat": 37.796928164046,
+  "place": "San Francisco city",
+  "place_geoid": "0667000",
+  "cdp": [],
+  "county": [
+   "San Francisco County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:14Z"
+ },
+ "A0458": {
+  "query": "1670 E 48TH PL, Los Angeles, CA 90011",
+  "status": "matched",
+  "matched_address": "1670 E 48TH PL, LOS ANGELES, CA, 90011",
+  "lon": -118.243996855675,
+  "lat": 33.999307703621,
+  "place": "Los Angeles city",
+  "place_geoid": "0644000",
+  "cdp": [],
+  "county": [
+   "Los Angeles County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:14Z"
+ },
+ "A0459": {
+  "query": "202 SOUTH ST., Jersey City, NJ 07423",
+  "status": "matched",
+  "matched_address": "202 SOUTH ST, JERSEY CITY, NJ, 07307",
+  "lon": -74.051069939161,
+  "lat": 40.750737802252,
+  "place": "Jersey City city",
+  "place_geoid": "3436000",
+  "cdp": [],
+  "county": [
+   "Hudson County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:14Z"
+ },
+ "A0460": {
+  "query": "223 SHEPHARD AVE, Newark, NJ",
+  "status": "matched",
+  "matched_address": "223 SHEPHARD AVE, NEWARK, NJ, 07112",
+  "lon": -74.211485813318,
+  "lat": 40.71231825405,
+  "place": "Newark city",
+  "place_geoid": "3451000",
+  "cdp": [],
+  "county": [
+   "Essex County"
+  ],
+  "candidates": 1,
+  "retry": true,
+  "original_query": "223-229 SHEPHARD AVE, Newark, NJ 11204",
+  "retrieved_at": "2026-10-03T17:15Z"
+ },
+ "A0461": {
+  "query": "735 11TH AV, San Francisco, CA ",
+  "status": "matched",
+  "matched_address": "735 11TH AVE, SAN FRANCISCO, CA, 94118",
+  "lon": -122.469251256406,
+  "lat": 37.774456141896,
+  "place": "San Francisco city",
+  "place_geoid": "0667000",
+  "cdp": [],
+  "county": [
+   "San Francisco County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:14Z"
+ },
+ "A0462": {
+  "query": "128 ST. PAULS AVE., Jersey City, NJ 11211",
+  "status": "matched",
+  "matched_address": "128 ST PAULS AVE, JERSEY CITY, NJ, 07306",
+  "lon": -74.05676729519,
+  "lat": 40.736518619808,
+  "place": "Jersey City city",
+  "place_geoid": "3436000",
+  "cdp": [],
+  "county": [
+   "Hudson County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:14Z"
+ },
+ "A0463": {
+  "query": "4 BEECHWOOD ST, Dorchester, MA 02121",
+  "status": "matched",
+  "matched_address": "4 BEECHWOOD ST, DORCHESTER, MA, 02121",
+  "lon": -71.074772762892,
+  "lat": 42.30507257807,
+  "place": "Boston city",
+  "place_geoid": "2507000",
+  "cdp": [],
+  "county": [
+   "Suffolk County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:14Z"
+ },
+ "A0464": {
+  "query": "2 DABNEY ST, Roxbury, MA",
+  "status": "matched",
+  "matched_address": "2 DABNEY ST, ROXBURY, MA, 02119",
+  "lon": -71.084506386968,
+  "lat": 42.325243458888,
+  "place": "Boston city",
+  "place_geoid": "2507000",
+  "cdp": [],
+  "county": [
+   "Suffolk County"
+  ],
+  "candidates": 1,
+  "retry": true,
+  "original_query": "2-98 DABNEY ST, Roxbury, MA 02119",
+  "retrieved_at": "2026-10-03T17:15Z"
+ },
+ "A0465": {
+  "query": "141 Oxford St, Cambridge, MA ",
+  "status": "matched",
+  "matched_address": "141 OXFORD ST, CAMBRIDGE, MA, 02140",
+  "lon": -71.116210705332,
+  "lat": 42.385287646163,
+  "place": "Cambridge city",
+  "place_geoid": "2511000",
+  "cdp": [],
+  "county": [
+   "Middlesex County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:14Z"
+ },
+ "A0466": {
+  "query": "115 NORWAY ST, Boston, MA 02115",
+  "status": "matched",
+  "matched_address": "115 NORWAY ST, BOSTON, MA, 02115",
+  "lon": -71.088829313111,
+  "lat": 42.345351761852,
+  "place": "Boston city",
+  "place_geoid": "2507000",
+  "cdp": [],
+  "county": [
+   "Suffolk County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:14Z"
+ },
+ "A0467": {
+  "query": "24 ST ALBANS RD, Boston, MA 02115",
+  "status": "matched",
+  "matched_address": "24 ST ALBANS RD, BOSTON, MA, 02115",
+  "lon": -71.106997184859,
+  "lat": 42.333878417918,
+  "place": "Boston city",
+  "place_geoid": "2507000",
+  "cdp": [],
+  "county": [
+   "Suffolk County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:14Z"
+ },
+ "A0468": {
+  "query": "13 Shepard St, Cambridge, MA ",
+  "status": "matched",
+  "matched_address": "13 SHEPARD ST, CAMBRIDGE, MA, 02138",
+  "lon": -71.121015754447,
+  "lat": 42.381661514871,
+  "place": "Cambridge city",
+  "place_geoid": "2511000",
+  "cdp": [],
+  "county": [
+   "Middlesex County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:14Z"
+ },
+ "A0469": {
+  "query": "2701 SHATTUCK AVE, Berkeley, CA 94705",
+  "status": "matched",
+  "matched_address": "2701 SHATTUCK AVE, BERKELEY, CA, 94705",
+  "lon": -122.266948509568,
+  "lat": 37.860021095027,
+  "place": "Berkeley city",
+  "place_geoid": "0606000",
+  "cdp": [],
+  "county": [
+   "Alameda County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:14Z"
+ },
+ "A0470": {
+  "query": "1919 CURTIS ST, Berkeley, CA 94702",
+  "status": "matched",
+  "matched_address": "1919 CURTIS ST, BERKELEY, CA, 94702",
+  "lon": -122.289620577483,
+  "lat": 37.870650504933,
+  "place": "Berkeley city",
+  "place_geoid": "0606000",
+  "cdp": [],
+  "county": [
+   "Alameda County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:14Z"
+ },
+ "A0471": {
+  "query": "332 GARDEN ST, Hoboken, NJ",
+  "status": "matched",
+  "matched_address": "332 GARDEN ST, HOBOKEN, NJ, 07030",
+  "lon": -74.031824704958,
+  "lat": 40.740724228779,
+  "place": "Hoboken city",
+  "place_geoid": "3432250",
+  "cdp": [],
+  "county": [
+   "Hudson County"
+  ],
+  "candidates": 1,
+  "retry": true,
+  "original_query": "332-334 GARDEN ST, Hoboken, NJ 07604",
+  "retrieved_at": "2026-10-03T17:15Z"
+ },
+ "A0472": {
+  "query": "321 WILLOW AVE, Hoboken, NJ 07030",
+  "status": "matched",
+  "matched_address": "321 WILLOW AVE, HOBOKEN, NJ, 07030",
+  "lon": -74.033572724402,
+  "lat": 40.740882326316,
+  "place": "Hoboken city",
+  "place_geoid": "3432250",
+  "cdp": [],
+  "county": [
+   "Hudson County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:14Z"
+ },
+ "A0473": {
+  "query": "20 Phillips ST, Boston, MA 02114",
+  "status": "matched",
+  "matched_address": "20 PHILLIPS ST, BOSTON, MA, 02114",
+  "lon": -71.067296757754,
+  "lat": 42.360298905905,
+  "place": "Boston city",
+  "place_geoid": "2507000",
+  "cdp": [],
+  "county": [
+   "Suffolk County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:14Z"
+ },
+ "A0474": {
+  "query": "3438 MCKINLEY AVE, Los Angeles, CA 90011",
+  "status": "matched",
+  "matched_address": "3438 MCKINLEY AVE, LOS ANGELES, CA, 90011",
+  "lon": -118.260382953065,
+  "lat": 34.012650923784,
+  "place": "Los Angeles city",
+  "place_geoid": "0644000",
+  "cdp": [],
+  "county": [
+   "Los Angeles County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:14Z"
+ },
+ "A0475": {
+  "query": "361 FIRST ST, Hoboken, NJ 07030",
+  "status": "matched",
+  "matched_address": "361 1ST ST, HOBOKEN, NJ, 07030",
+  "lon": -74.035828506414,
+  "lat": 40.738241528429,
+  "place": "Hoboken city",
+  "place_geoid": "3432250",
+  "cdp": [],
+  "county": [
+   "Hudson County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:14Z"
+ },
+ "A0476": {
+  "query": "26 COTTAGE ST, Newark, NJ",
+  "status": "matched",
+  "matched_address": "26 COTTAGE ST, NEWARK, NJ, 07102",
+  "lon": -74.171995425732,
+  "lat": 40.728832303948,
+  "place": "Newark city",
+  "place_geoid": "3451000",
+  "cdp": [],
+  "county": [
+   "Essex County"
+  ],
+  "candidates": 1,
+  "retry": true,
+  "original_query": "26-28 COTTAGE ST, Newark, NJ 07840",
+  "retrieved_at": "2026-10-03T17:15Z"
+ },
+ "A0477": {
+  "query": "2250 MISSION ST, San Francisco, CA ",
+  "status": "matched",
+  "matched_address": "2250 MISSION ST, SAN FRANCISCO, CA, 94110",
+  "lon": -122.419353294864,
+  "lat": 37.761016013708,
+  "place": "San Francisco city",
+  "place_geoid": "0667000",
+  "cdp": [],
+  "county": [
+   "San Francisco County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:14Z"
+ },
+ "A0478": {
+  "query": "3860 CHEROKEE AVE, San Diego, CA 92104",
+  "status": "matched",
+  "matched_address": "3860 CHEROKEE AVE, SAN DIEGO, CA, 92104",
+  "lon": -117.114420057856,
+  "lat": 32.748446614415,
+  "place": "San Diego city",
+  "place_geoid": "0666000",
+  "cdp": [],
+  "county": [
+   "San Diego County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:14Z"
+ },
+ "A0479": {
+  "query": "12948 MOORPARK ST, Los Angeles, CA 91604",
+  "status": "matched",
+  "matched_address": "12948 MOORPARK ST, STUDIO CITY, CA, 91604",
+  "lon": -118.415275590675,
+  "lat": 34.150301392175,
+  "place": "Los Angeles city",
+  "place_geoid": "0644000",
+  "cdp": [],
+  "county": [
+   "Los Angeles County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:14Z"
+ },
+ "A0480": {
+  "query": "4046 N 43RD ST, San Diego, CA 92105",
+  "status": "matched",
+  "matched_address": "4046 43RD ST, SAN DIEGO, CA, 92105",
+  "lon": -117.102033252477,
+  "lat": 32.750481775488,
+  "place": "San Diego city",
+  "place_geoid": "0666000",
+  "cdp": [],
+  "county": [
+   "San Diego County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:14Z"
+ },
+ "A0481": {
+  "query": "536 LEAVENWORTH ST, San Francisco, CA ",
+  "status": "matched",
+  "matched_address": "536 LEAVENWORTH ST, SAN FRANCISCO, CA, 94109",
+  "lon": -122.414634028725,
+  "lat": 37.786028326648,
+  "place": "San Francisco city",
+  "place_geoid": "0667000",
+  "cdp": [],
+  "county": [
+   "San Francisco County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:14Z"
+ },
+ "A0482": {
+  "query": "101 CLIFTON PL., Jersey City, NJ 10982",
+  "status": "matched",
+  "matched_address": "101 CLIFTON PL, JERSEY CITY, NJ, 07304",
+  "lon": -74.06487503221,
+  "lat": 40.721027897402,
+  "place": "Jersey City city",
+  "place_geoid": "3436000",
+  "cdp": [],
+  "county": [
+   "Hudson County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:14Z"
+ },
+ "A0483": {
+  "query": "1580 MARKET ST, San Francisco, CA ",
+  "status": "matched",
+  "matched_address": "1580 MARKET ST, SAN FRANCISCO, CA, 94102",
+  "lon": -122.420119239496,
+  "lat": 37.77458855478,
+  "place": "San Francisco city",
+  "place_geoid": "0667000",
+  "cdp": [],
+  "county": [
+   "San Francisco County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:14Z"
+ },
+ "A0484": {
+  "query": "1801 8TH AVE, San Francisco, CA",
+  "status": "matched",
+  "matched_address": "1801 8TH AVE, SAN FRANCISCO, CA, 94122",
+  "lon": -122.464658373009,
+  "lat": 37.754690646826,
+  "place": "San Francisco city",
+  "place_geoid": "0667000",
+  "cdp": [],
+  "county": [
+   "San Francisco County"
+  ],
+  "candidates": 1,
+  "retry": true,
+  "original_query": "1801 08TH AV, San Francisco, CA ",
+  "retrieved_at": "2026-10-03T17:15Z"
+ },
+ "A0485": {
+  "query": "296 Western Ave, Cambridge, MA",
+  "status": "matched",
+  "matched_address": "296 WESTERN AVE, CAMBRIDGE, MA, 02139",
+  "lon": -71.112705698148,
+  "lat": 42.364528330341,
+  "place": "Cambridge city",
+  "place_geoid": "2511000",
+  "cdp": [],
+  "county": [
+   "Middlesex County"
+  ],
+  "candidates": 1,
+  "retry": true,
+  "original_query": "296-302 Western Ave, Cambridge, MA ",
+  "retrieved_at": "2026-10-03T17:15Z"
+ },
+ "A0486": {
+  "query": "2280 MISSION ST, San Francisco, CA ",
+  "status": "matched",
+  "matched_address": "2280 MISSION ST, SAN FRANCISCO, CA, 94110",
+  "lon": -122.419309809634,
+  "lat": 37.760560895514,
+  "place": "San Francisco city",
+  "place_geoid": "0667000",
+  "cdp": [],
+  "county": [
+   "San Francisco County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:14Z"
+ },
+ "A0487": {
+  "query": "2118 FILLMORE ST, San Francisco, CA ",
+  "status": "matched",
+  "matched_address": "2118 FILLMORE ST, SAN FRANCISCO, CA, 94115",
+  "lon": -122.433810595937,
+  "lat": 37.789124926129,
+  "place": "San Francisco city",
+  "place_geoid": "0667000",
+  "cdp": [],
+  "county": [
+   "San Francisco County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:14Z"
+ },
+ "A0488": {
+  "query": "197 BEACON ST, Boston, MA 02116",
+  "status": "matched",
+  "matched_address": "197 BEACON ST, BOSTON, MA, 02116",
+  "lon": -71.076768182377,
+  "lat": 42.354230756113,
+  "place": "Boston city",
+  "place_geoid": "2507000",
+  "cdp": [],
+  "county": [
+   "Suffolk County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:14Z"
+ },
+ "A0489": {
+  "query": "204 GRAND ST, Hoboken, NJ 06901",
+  "status": "matched",
+  "matched_address": "204 GRAND ST, HOBOKEN, NJ, 07030",
+  "lon": -74.036041272823,
+  "lat": 40.739786868515,
+  "place": "Hoboken city",
+  "place_geoid": "3432250",
+  "cdp": [],
+  "county": [
+   "Hudson County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:14Z"
+ },
+ "A0490": {
+  "query": "526 ADAMS ST, Hoboken, NJ 07030",
+  "status": "matched",
+  "matched_address": "526 ADAMS ST, HOBOKEN, NJ, 07030",
+  "lon": -74.035830171347,
+  "lat": 40.743676400471,
+  "place": "Hoboken city",
+  "place_geoid": "3432250",
+  "cdp": [],
+  "county": [
+   "Hudson County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:14Z"
+ },
+ "A0491": {
+  "query": "37 IRVING ST, Newark, NJ 07104",
+  "status": "matched",
+  "matched_address": "37 IRVING ST, NEWARK, NJ, 07104",
+  "lon": -74.158667478138,
+  "lat": 40.778727063623,
+  "place": "Newark city",
+  "place_geoid": "3451000",
+  "cdp": [],
+  "county": [
+   "Essex County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:14Z"
+ },
+ "A0492": {
+  "query": "800 S HARVARD BLVD, Los Angeles, CA 90005",
+  "status": "matched",
+  "matched_address": "800 S HARVARD BLVD, LOS ANGELES, CA, 90005",
+  "lon": -118.304091662787,
+  "lat": 34.057623861111,
+  "place": "Los Angeles city",
+  "place_geoid": "0644000",
+  "cdp": [],
+  "county": [
+   "Los Angeles County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:14Z"
+ },
+ "A0493": {
+  "query": "4450 GEARY BL, San Francisco, CA ",
+  "status": "matched",
+  "matched_address": "4450 GEARY BLVD, SAN FRANCISCO, CA, 94118",
+  "lon": -122.466976349979,
+  "lat": 37.781029854011,
+  "place": "San Francisco city",
+  "place_geoid": "0667000",
+  "cdp": [],
+  "county": [
+   "San Francisco County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:14Z"
+ },
+ "A0494": {
+  "query": "2641 FRANKLIN ST, San Francisco, CA ",
+  "status": "matched",
+  "matched_address": "2641 FRANKLIN ST, SAN FRANCISCO, CA, 94123",
+  "lon": -122.425776460433,
+  "lat": 37.798725772954,
+  "place": "San Francisco city",
+  "place_geoid": "0667000",
+  "cdp": [],
+  "county": [
+   "San Francisco County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:14Z"
+ },
+ "A0495": {
+  "query": "230 VAN HORNE ST., Jersey City, NJ 11219",
+  "status": "matched",
+  "matched_address": "230 VAN HORNE ST, JERSEY CITY, NJ, 07304",
+  "lon": -74.063078920845,
+  "lat": 40.713022199008,
+  "place": "Jersey City city",
+  "place_geoid": "3436000",
+  "cdp": [],
+  "county": [
+   "Hudson County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:14Z"
+ },
+ "A0496": {
+  "query": "512 32ND ST, San Diego, CA 92102",
+  "status": "matched",
+  "matched_address": "512 32ND ST, SAN DIEGO, CA, 92102",
+  "lon": -117.125336741291,
+  "lat": 32.710782090084,
+  "place": "San Diego city",
+  "place_geoid": "0666000",
+  "cdp": [],
+  "county": [
+   "San Diego County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:14Z"
+ },
+ "A0497": {
+  "query": "3750 29TH ST, San Diego, CA 92104",
+  "status": "matched",
+  "matched_address": "3750 29TH ST, SAN DIEGO, CA, 92104",
+  "lon": -117.131053086987,
+  "lat": 32.74637529596,
+  "place": "San Diego city",
+  "place_geoid": "0666000",
+  "cdp": [],
+  "county": [
+   "San Diego County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:14Z"
+ },
+ "A0498": {
+  "query": "684 SUMMER AVE, Newark, NJ",
+  "status": "matched",
+  "matched_address": "684 SUMMER AVE, NEWARK, NJ, 07104",
+  "lon": -74.163418012627,
+  "lat": 40.775329535647,
+  "place": "Newark city",
+  "place_geoid": "3451000",
+  "cdp": [],
+  "county": [
+   "Essex County"
+  ],
+  "candidates": 1,
+  "retry": true,
+  "original_query": "684-686 SUMMER AVE, Newark, NJ 07644",
+  "retrieved_at": "2026-10-03T17:15Z"
+ },
+ "A0499": {
+  "query": "8519 WILLIS AVE, Los Angeles, CA 91402",
+  "status": "matched",
+  "matched_address": "8519 WILLIS AVE, PANORAMA CITY, CA, 91402",
+  "lon": -118.455356959313,
+  "lat": 34.225076986185,
+  "place": "Los Angeles city",
+  "place_geoid": "0644000",
+  "cdp": [],
+  "county": [
+   "Los Angeles County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:14Z"
+ },
+ "A0500": {
+  "query": "8811 BURNET AVE, Los Angeles, CA 91343",
+  "status": "matched",
+  "matched_address": "8811 BURNET AVE, NORTH HILLS, CA, 91343",
+  "lon": -118.463342888059,
+  "lat": 34.230253637086,
+  "place": "Los Angeles city",
+  "place_geoid": "0644000",
+  "cdp": [],
+  "county": [
+   "Los Angeles County"
+  ],
+  "candidates": 1,
+  "retrieved_at": "2026-10-03T17:14Z"
+ }
+}

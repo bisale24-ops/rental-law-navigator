@@ -1,0 +1,555 @@
+{
+ "meta": {
+  "model": "gemini-3.5-flash-lite",
+  "seconds": 12.7,
+  "tag": "consolidate-CA",
+  "usage": {
+   "promptTokenCount": 25101,
+   "candidatesTokenCount": 5002,
+   "totalTokenCount": 30103,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 25101
+    }
+   ],
+   "serviceTier": "standard"
+  },
+  "at": "2026-10-03T17:36:14Z"
+ },
+ "output": {
+  "cells": [
+   {
+    "jurisdiction": "Berkeley, CA",
+    "category": "algorithmic_rent_setting",
+    "kind": "enacted",
+    "members": [
+     0,
+     1
+    ],
+    "canonical": 0,
+    "coverage_from": 0,
+    "requirement": "Landlords are prohibited from using coordinated pricing algorithms to set rents or manage occupancy levels for residential dwelling units in Berkeley, and vendors are prohibited from selling or providing such algorithms.",
+    "key_value": null,
+    "conflict": false,
+    "conflict_note": null
+   },
+   {
+    "jurisdiction": "Berkeley, CA",
+    "category": "screening_restrictions",
+    "kind": "enacted",
+    "members": [
+     2,
+     3
+    ],
+    "canonical": 2,
+    "coverage_from": 3,
+    "requirement": "Landlords are prohibited from inquiring about, requiring disclosure of, or considering criminal history during advertising, application, tenant selection, or decision-making, with exemptions for owner-occupied properties with 1-3 units and specified exceptions.",
+    "key_value": null,
+    "conflict": false,
+    "conflict_note": null
+   },
+   {
+    "jurisdiction": "Berkeley, CA",
+    "category": "just_cause_eviction",
+    "kind": "enacted",
+    "members": [
+     4,
+     5
+    ],
+    "canonical": 4,
+    "coverage_from": 4,
+    "requirement": "Landlords evicting tenants for an owner move-in or under the Ellis Act must pay a standard relocation assistance payment of $19,413, plus an additional $6,471 for qualifying households.",
+    "key_value": "$19,413 standard / $6,471 additional",
+    "conflict": false,
+    "conflict_note": null
+   },
+   {
+    "jurisdiction": "Berkeley, CA",
+    "category": "application_screening_fees",
+    "kind": "enacted",
+    "members": [
+     6,
+     7,
+     9,
+     10,
+     11
+    ],
+    "canonical": 7,
+    "coverage_from": 10,
+    "requirement": "When charging a screening fee, landlords must provide a clear and conspicuous tenant screening fee rights statement and state the maximum fee cap permitted under state law. Additionally, owners cannot charge existing tenants a non-refundable fee for renewing a tenancy or managing roomates.",
+    "key_value": null,
+    "conflict": false,
+    "conflict_note": null
+   },
+   {
+    "jurisdiction": "CA",
+    "category": "application_screening_fees",
+    "kind": "enacted",
+    "members": [
+     8
+    ],
+    "canonical": 8,
+    "coverage_from": 8,
+    "requirement": "The maximum tenant screening fee a landlord can charge a prospective tenant is capped at $68.96 for 2026, and landlords cannot charge a fee if no unit is available.",
+    "key_value": "$68.96",
+    "conflict": false,
+    "conflict_note": null
+   },
+   {
+    "jurisdiction": "Berkeley, CA",
+    "category": "just_cause_eviction",
+    "kind": "enacted",
+    "members": [
+     12,
+     13,
+     16
+    ],
+    "canonical": 12,
+    "coverage_from": 12,
+    "requirement": "Landlords may not evict a tenant for nonpayment of rent unless the tenant owes rental debt equal to or greater than one month of the Fair Market Rent for an equivalent unit size in the Oakland-Fremont metro area, and are prohibited from evicting solely for failing to sign a substantially similar lease upon expiration.",
+    "key_value": "1 month FMR",
+    "conflict": false,
+    "conflict_note": null
+   },
+   {
+    "jurisdiction": "Berkeley, CA",
+    "category": "rent_increase_limits",
+    "kind": "enacted",
+    "members": [
+     14,
+     15
+    ],
+    "canonical": 14,
+    "coverage_from": 14,
+    "requirement": "The Annual General Adjustment (AGA) for fully covered rental units is capped at a maximum of 5% per year, regardless of higher Consumer Price Index calculation formulas.",
+    "key_value": "5%",
+    "conflict": false,
+    "conflict_note": null
+   },
+   {
+    "jurisdiction": "CA",
+    "category": "security_deposits",
+    "kind": "enacted",
+    "members": [
+     17,
+     18,
+     19,
+     20,
+     21,
+     22,
+     23,
+     24
+    ],
+    "canonical": 17,
+    "coverage_from": 17,
+    "requirement": "Landlords may only charge up to one month's rent as a security deposit for unfurnished and furnished units, with exceptions for certain small landlords owning two or fewer properties totaling four units or less who may charge up to two months' rent. Deposits must be returned within 21 days after vacating with an itemized statement.",
+    "key_value": "1 month's rent",
+    "conflict": false,
+    "conflict_note": null
+   },
+   {
+    "jurisdiction": "Berkeley, CA",
+    "category": "security_deposits",
+    "kind": "enacted",
+    "members": [
+     25,
+     26,
+     27,
+     28,
+     29
+    ],
+    "canonical": 25,
+    "coverage_from": 25,
+    "requirement": "For tenancies in units covered by Berkeley's Rent Ordinance, landlords must pay tenants interest on their security deposit at the end of each year and a prorated amount if the tenant moves out early, complying with general state deposit limits and return timelines.",
+    "key_value": null,
+    "conflict": false,
+    "conflict_note": null
+   },
+   {
+    "jurisdiction": "Berkeley, CA",
+    "category": "rent_increase_limits",
+    "kind": "enacted",
+    "members": [
+     30,
+     31
+    ],
+    "canonical": 30,
+    "coverage_from": 30,
+    "requirement": "Eligible landlords may increase permanent rent ceilings by up to 1.0% beginning no earlier than January 1, 2026, excluding certain new tenancies set under the Costa-Hawkins Rental Housing Act.",
+    "key_value": "1.0%",
+    "conflict": false,
+    "conflict_note": null
+   },
+   {
+    "jurisdiction": "Berkeley, CA",
+    "category": "rent_increase_limits",
+    "kind": "enacted",
+    "members": [
+     32,
+     33,
+     35
+    ],
+    "canonical": 32,
+    "coverage_from": 32,
+    "requirement": "Most multifamily units built before 1980 are subject to rent control limits, while new construction receiving occupancy certificates after June 1980 and certain post-1996 single-family tenancies are exempt.",
+    "key_value": null,
+    "conflict": false,
+    "conflict_note": null
+   },
+   {
+    "jurisdiction": "Berkeley, CA",
+    "category": "just_cause_eviction",
+    "kind": "enacted",
+    "members": [
+     34
+    ],
+    "canonical": 34,
+    "coverage_from": 34,
+    "requirement": "Duplexes that were owner-occupied on December 31, 1979, and currently have an owner living in one of the units are exempt from Berkeley's Just Cause for Eviction protections.",
+    "key_value": null,
+    "conflict": false,
+    "conflict_note": null
+   },
+   {
+    "jurisdiction": "CA",
+    "category": "screening_restrictions",
+    "kind": "enacted",
+    "members": [
+     36,
+     37,
+     38,
+     39,
+     40
+    ],
+    "canonical": 38,
+    "coverage_from": 38,
+    "requirement": "California law prohibits discrimination in housing based on protected characteristics and source of income, and restricts criminal history screening by barring blanket bans and consideration of non-conviction arrest records.",
+    "key_value": null,
+    "conflict": false,
+    "conflict_note": null
+   },
+   {
+    "jurisdiction": "CA",
+    "category": "algorithmic_rent_setting",
+    "kind": "enacted",
+    "members": [
+     41,
+     42
+    ],
+    "canonical": 41,
+    "coverage_from": 41,
+    "requirement": "It is unlawful under the Cartwright Act to use or distribute a common pricing algorithm as part of a conspiracy to restrain trade or commerce, or to coerce another person to adopt recommended prices.",
+    "key_value": null,
+    "conflict": false,
+    "conflict_note": null
+   },
+   {
+    "jurisdiction": "CA",
+    "category": "just_cause_eviction",
+    "kind": "enacted",
+    "members": [
+     43,
+     44
+    ],
+    "canonical": 43,
+    "coverage_from": 43,
+    "requirement": "After 12 months of continuous occupancy, landlords cannot terminate a residential tenancy without just cause, and no-fault evictions require relocation assistance equal to at least one month's rent.",
+    "key_value": "1 month rent relocation assistance for no-fault evictions",
+    "conflict": false,
+    "conflict_note": null
+   },
+   {
+    "jurisdiction": "CA",
+    "category": "rent_increase_limits",
+    "kind": "enacted",
+    "members": [
+     45,
+     46
+    ],
+    "canonical": 45,
+    "coverage_from": 45,
+    "requirement": "Statewide rent increases are capped at 5 percent plus the percentage change in the cost of living, or 10 percent, whichever is lower, over any 12-month period.",
+    "key_value": "5% plus cost of living change or 10% lower limit",
+    "conflict": false,
+    "conflict_note": null
+   },
+   {
+    "jurisdiction": "CA",
+    "category": "security_deposits",
+    "kind": "enacted",
+    "members": [
+     47,
+     48,
+     49,
+     50
+    ],
+    "canonical": 47,
+    "coverage_from": 47,
+    "requirement": "Landlords are restricted from charging a security deposit exceeding one month's rent (with a two-month exception for qualifying small landlords) and must return remaining deposits within 21 days with an itemized statement.",
+    "key_value": "1 month rent",
+    "conflict": false,
+    "conflict_note": null
+   },
+   {
+    "jurisdiction": "CA",
+    "category": "application_screening_fees",
+    "kind": "enacted",
+    "members": [
+     51,
+     52
+    ],
+    "canonical": 51,
+    "coverage_from": 51,
+    "requirement": "Application screening fees are capped at $30 per applicant (adjustable by CPI) and cannot be charged when no unit is available.",
+    "key_value": "$30",
+    "conflict": false,
+    "conflict_note": null
+   },
+   {
+    "jurisdiction": "CA",
+    "category": "screening_restrictions",
+    "kind": "enacted",
+    "members": [
+     53,
+     54,
+     55,
+     56,
+     57,
+     58
+    ],
+    "canonical": 53,
+    "coverage_from": 53,
+    "requirement": "Housing providers must account for aggregate cohabitant incomes on the same basis as married couples, and must offer alternative evidence options for credit history when government rent subsidies apply.",
+    "key_value": null,
+    "conflict": false,
+    "conflict_note": null
+   },
+   {
+    "jurisdiction": "Los Angeles, CA",
+    "category": "algorithmic_rent_setting",
+    "kind": "bill_or_failed",
+    "members": [
+     59
+    ],
+    "canonical": 59,
+    "coverage_from": 59,
+    "requirement": "The City Council instructed the Los Angeles Housing Department to report on algorithm-based rent-setting software usage and the feasibility of a ban.",
+    "key_value": null,
+    "conflict": false,
+    "conflict_note": null
+   },
+   {
+    "jurisdiction": "Los Angeles, CA",
+    "category": "just_cause_eviction",
+    "kind": "enacted",
+    "members": [
+     60,
+     62,
+     63
+    ],
+    "canonical": 60,
+    "coverage_from": 60,
+    "requirement": "Landlords are prohibited from terminating tenancies without just cause and must provide relocation assistance for no-fault evictions, and cannot evict for nonpayment unless unpaid rent exceeds the applicable Fair Market Rent.",
+    "key_value": null,
+    "conflict": false,
+    "conflict_note": null
+   },
+   {
+    "jurisdiction": "Los Angeles, CA",
+    "category": "rent_increase_limits",
+    "kind": "enacted",
+    "members": [
+     61,
+     64
+    ],
+    "canonical": 61,
+    "coverage_from": 61,
+    "requirement": "Annual rent increases are limited under state law to no more than 5% plus regional cost of living changes or 10%, whichever is lower, for units older than 15 years.",
+    "key_value": "8.9% (effective August 1, 2024 to July 31, 2025)",
+    "conflict": false,
+    "conflict_note": null
+   },
+   {
+    "jurisdiction": "Los Angeles, CA",
+    "category": "rent_increase_limits",
+    "kind": "enacted",
+    "members": [
+     65,
+     66,
+     67,
+     68,
+     69
+    ],
+    "canonical": 67,
+    "coverage_from": 67,
+    "requirement": "Annual rent increases for units subject to the Los Angeles RSO are capped at 3% from July 1, 2025, through June 30, 2026, and landlords can no longer include additional utility percentage increases starting February 2, 2026.",
+    "key_value": "3%",
+    "conflict": false,
+    "conflict_note": null
+   },
+   {
+    "jurisdiction": "Los Angeles, CA",
+    "category": "just_cause_eviction",
+    "kind": "enacted",
+    "members": [
+     70,
+     71,
+     72,
+     73
+    ],
+    "canonical": 70,
+    "coverage_from": 70,
+    "requirement": "Landlords executing no-fault evictions under the RSO or JCO must pay relocation assistance within 15 days or place funds in escrow, with enhanced payments required for lower-income households displaced by demolition for new construction.",
+    "key_value": "Eligible/Qualified amounts ranging from $11,000 to $27,400 depending on length of tenancy",
+    "conflict": false,
+    "conflict_note": null
+   },
+   {
+    "jurisdiction": "San Diego, CA",
+    "category": "just_cause_eviction",
+    "kind": "enacted",
+    "members": [
+     74,
+     75
+    ],
+    "canonical": 74,
+    "coverage_from": 74,
+    "requirement": "Landlords are prohibited from terminating a residential tenancy without just cause, categorized into at-fault and no-fault reasons.",
+    "key_value": null,
+    "conflict": false,
+    "conflict_note": null
+   },
+   {
+    "jurisdiction": "San Diego, CA",
+    "category": "algorithmic_rent_setting",
+    "kind": "bill_or_failed",
+    "members": [
+     76,
+     77
+    ],
+    "canonical": 76,
+    "coverage_from": 76,
+    "requirement": "Proposed ordinance makes it unlawful for any person to sell, license, or provide an algorithmic rent-setting device to a landlord, and unlawful for a landlord to use such a device to set rates or occupancy levels.",
+    "key_value": "civil penalties up to $1,000 per violation",
+    "conflict": false,
+    "conflict_note": null
+   },
+   {
+    "jurisdiction": "San Francisco, CA",
+    "category": "just_cause_eviction",
+    "kind": "enacted",
+    "members": [
+     78,
+     79
+    ],
+    "canonical": 78,
+    "coverage_from": 78,
+    "requirement": "Landlords must have one of 17 permitted just cause reasons to evict a tenant from a rental unit covered by the Rent Ordinance.",
+    "key_value": null,
+    "conflict": false,
+    "conflict_note": null
+   },
+   {
+    "jurisdiction": "San Francisco, CA",
+    "category": "rent_increase_limits",
+    "kind": "enacted",
+    "members": [
+     80,
+     81,
+     88,
+     91
+    ],
+    "canonical": 80,
+    "coverage_from": 80,
+    "requirement": "The allowable annual rent increase for rent-controlled units is set to 1.6% from March 1, 2026 through February 28, 2027.",
+    "key_value": "1.6%",
+    "conflict": false,
+    "conflict_note": null
+   },
+   {
+    "jurisdiction": "San Francisco, CA",
+    "category": "algorithmic_rent_setting",
+    "kind": "enacted",
+    "members": [
+     82,
+     83
+    ],
+    "canonical": 82,
+    "coverage_from": 82,
+    "requirement": "Landlords are prohibited from using software or algorithmic devices that analyze nonpublic competitor rental data to recommend rental prices or manage occupancy levels for residential units.",
+    "key_value": "prohibits algorithmic pricing software",
+    "conflict": false,
+    "conflict_note": null
+   },
+   {
+    "jurisdiction": "San Francisco, CA",
+    "category": "just_cause_eviction",
+    "kind": "enacted",
+    "members": [
+     84,
+     85,
+     86,
+     87,
+     90
+    ],
+    "canonical": 84,
+    "coverage_from": 84,
+    "requirement": "Landlords must pay specified relocation amounts per tenant and per unit for no-fault evictions such as owner move-ins, demolition, or Ellis Act removals, with additional amounts for elderly, disabled, or minor child tenants.",
+    "key_value": "8,245.00 per tenant",
+    "conflict": false,
+    "conflict_note": null
+   },
+   {
+    "jurisdiction": "San Francisco, CA",
+    "category": "security_deposits",
+    "kind": "enacted",
+    "members": [
+     89,
+     92
+    ],
+    "canonical": 89,
+    "coverage_from": 89,
+    "requirement": "Landlords must pay interest on security deposits at the rate of 4.2% for the period from March 1, 2026, to February 28, 2027.",
+    "key_value": "4.2%",
+    "conflict": false,
+    "conflict_note": null
+   },
+   {
+    "jurisdiction": "Santa Ana, CA",
+    "category": "rent_increase_limits",
+    "kind": "enacted",
+    "members": [
+     93,
+     95,
+     98,
+     100
+    ],
+    "canonical": 93,
+    "coverage_from": 98,
+    "requirement": "Annual rent increases are capped at the lower of 3% of current rent or 80% of the Consumer Price Index change over the most recent 12-month period.",
+    "key_value": "3% or 80% of CPI change, whichever is less",
+    "conflict": false,
+    "conflict_note": null
+   },
+   {
+    "jurisdiction": "Santa Ana, CA",
+    "category": "just_cause_eviction",
+    "kind": "enacted",
+    "members": [
+     94,
+     96,
+     97,
+     99,
+     101
+    ],
+    "canonical": 94,
+    "coverage_from": 99,
+    "requirement": "Landlords must have a valid just cause reason to terminate a tenancy and must provide 3 months of relocation assistance or waive 3 months of rent for no-fault evictions.",
+    "key_value": "3 months relocation assistance for no-fault",
+    "conflict": false,
+    "conflict_note": null
+   }
+  ]
+ }
+}

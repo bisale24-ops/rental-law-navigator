@@ -1,0 +1,55 @@
+{
+ "meta": {
+  "model": "gemini-3.5-flash-lite",
+  "seconds": 2.3,
+  "tag": "extract-D041",
+  "usage": {
+   "promptTokenCount": 3380,
+   "candidatesTokenCount": 467,
+   "totalTokenCount": 3847,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 3380
+    }
+   ],
+   "serviceTier": "standard"
+  },
+  "at": "2026-10-03T17:28:13Z"
+ },
+ "output": {
+  "rules": [
+   {
+    "jurisdiction": "Los Angeles, CA",
+    "level": "city",
+    "category": "rent_increase_limits",
+    "lifecycle": "enacted",
+    "title": "Los Angeles RSO Annual Allowable Rent Increase",
+    "requirement": "Landlords may increase rent once every 12 months by the allowable rent increase percentage.",
+    "key_value": null,
+    "coverage": {
+     "summary": "Applies generally to rental properties first built on or before October 1, 1978, as well as replacement units under LAMC Section 151.28, including apartments, condominiums and townhomes (if tenancy commenced on or before Dec 31, 1995), duplexes, two or more single-family units on a parcel, rooms in a hotel/motel/rooming house occupied for more than 30 consecutive days, residential units attached to a commercial building, ADUs, JADUs, and mobile homes.",
+     "built_on_or_before": "1978-10-01",
+     "built_after": null,
+     "built_basis": "construction",
+     "rolling_age_years": null,
+     "min_units": null,
+     "single_family_excluded": false,
+     "owner_dependent": false,
+     "owner_condition": null,
+     "owner_exemption_max_units": null,
+     "subsidized_excluded": null,
+     "unresolvable": null
+    },
+    "exemptions": null,
+    "effective_date": null,
+    "enacted_date": null,
+    "citation": "Los Angeles Municipal Code Chapter XV (Rent Stabilization Ordinance)",
+    "quoted_span": "Rent may be increased once every 12 months by the allowable rent increase  percentage",
+    "yields_to_local": false,
+    "preempts_local": false,
+    "confidence": 0.95
+   }
+  ]
+ }
+}

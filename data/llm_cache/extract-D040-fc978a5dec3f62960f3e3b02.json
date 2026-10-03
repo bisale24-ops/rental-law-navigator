@@ -1,0 +1,117 @@
+{
+ "meta": {
+  "model": "gemini-3.5-flash-lite",
+  "seconds": 4.9,
+  "tag": "extract-D040",
+  "usage": {
+   "promptTokenCount": 3334,
+   "candidatesTokenCount": 1411,
+   "totalTokenCount": 4745,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 3334
+    }
+   ],
+   "serviceTier": "standard"
+  },
+  "at": "2026-10-03T17:33:35Z"
+ },
+ "output": {
+  "rules": [
+   {
+    "jurisdiction": "Los Angeles, CA",
+    "level": "city",
+    "category": "just_cause_eviction",
+    "lifecycle": "enacted",
+    "title": "Just Cause For Eviction Ordinance (JCO)",
+    "requirement": "Landlords are prohibited from terminating tenancies without just cause and must provide relocation assistance for no-fault evictions, applicable to most residential properties not regulated by the City's Rent Stabilization Ordinance after a tenant has lived in the unit for at least six months or their original lease expired, whichever comes first.",
+    "key_value": null,
+    "coverage": {
+     "summary": "Covers most residential properties in Los Angeles not regulated by the RSO, after a 6-month residency or lease expiration.",
+     "built_on_or_before": null,
+     "built_after": null,
+     "built_basis": "not_stated",
+     "rolling_age_years": null,
+     "min_units": null,
+     "single_family_excluded": false,
+     "owner_dependent": true,
+     "owner_condition": "Exemptions include owner's roommate and certain properties owned by HACLA or the government.",
+     "owner_exemption_max_units": null,
+     "subsidized_excluded": true,
+     "unresolvable": "Tenant length of residency (at least six months) or lease expiration required."
+    },
+    "exemptions": "Transient hotels, licensed care facilities, fraternity or sorority houses, owner's roommate, cooperatives under certain circumstances, non-profit facilities for the homeless, short-term treatment centers, and some properties owned by HACLA or the government.",
+    "effective_date": null,
+    "enacted_date": null,
+    "citation": "Just Cause For Eviction Ordinance (JCO)",
+    "quoted_span": "It prohibits terminations of tenancies without just cause and requires relocation assistance for no-fault evictions.",
+    "yields_to_local": false,
+    "preempts_local": false,
+    "confidence": 0.95
+   },
+   {
+    "jurisdiction": "Los Angeles, CA",
+    "level": "city",
+    "category": "just_cause_eviction",
+    "lifecycle": "enacted",
+    "title": "Minimum Rent Owed Threshold for Eviction",
+    "requirement": "Landlords may not evict a tenant who falls behind in rent unless the unpaid amount is higher than the Fair Market Rent (FMR) corresponding to the unit's bedroom size.",
+    "key_value": null,
+    "coverage": {
+     "summary": "Applies to all RSO and JCO rental units.",
+     "built_on_or_before": null,
+     "built_after": null,
+     "built_basis": "not_stated",
+     "rolling_age_years": null,
+     "min_units": null,
+     "single_family_excluded": null,
+     "owner_dependent": null,
+     "owner_condition": null,
+     "owner_exemption_max_units": null,
+     "subsidized_excluded": null,
+     "unresolvable": null
+    },
+    "exemptions": null,
+    "effective_date": "2023-03-27",
+    "enacted_date": null,
+    "citation": "Just Cause For Eviction Ordinance (JCO) / RSO",
+    "quoted_span": "Effective March 27, 2023, landlords may not evict a tenant who falls behind in rent unless the tenant owes an amount higher than the Fair Market Rent (FMR).",
+    "yields_to_local": false,
+    "preempts_local": false,
+    "confidence": 0.95
+   },
+   {
+    "jurisdiction": "Los Angeles, CA",
+    "level": "city",
+    "category": "rent_increase_limits",
+    "lifecycle": "enacted",
+    "title": "California Tenant Protection Act of 2019 (AB 1482) Rent Limits",
+    "requirement": "State law AB 1482 limits annual rent increases to no more than 5% plus the percentage change in the cost of living, or 10%, whichever is lower, in buildings older than 15 years.",
+    "key_value": "8.9%",
+    "coverage": {
+     "summary": "Applies to buildings that are older than 15 years old on a rolling basis, with specific exclusions for single-family homes under certain conditions, deed-restricted units, and others.",
+     "built_on_or_before": null,
+     "built_after": null,
+     "built_basis": "construction",
+     "rolling_age_years": 15,
+     "min_units": null,
+     "single_family_excluded": false,
+     "owner_dependent": true,
+     "owner_condition": "Single-family homes and condominiums are exempt from state law if owned by a trust, corporation, or LLC with a corporate member, and proper notice is given.",
+     "owner_exemption_max_units": null,
+     "subsidized_excluded": true,
+     "unresolvable": null
+    },
+    "exemptions": "Units constructed within the last 15 years, units restricted by deed or affordability covenants, certain dormitories, certain two-unit properties where the second unit is owner-occupied, and certain single-family homes/condos under corporate ownership with proper notice.",
+    "effective_date": "2024-08-01",
+    "enacted_date": null,
+    "citation": "AB 1482",
+    "quoted_span": "Annual rent increases are limited to no more than 5% plus the percentage change in the cost of living for the region in which the property is located, or 10% whichever is lower.",
+    "yields_to_local": false,
+    "preempts_local": false,
+    "confidence": 0.95
+   }
+  ]
+ }
+}

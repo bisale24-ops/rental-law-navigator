@@ -1,0 +1,55 @@
+{
+ "meta": {
+  "model": "gemini-3.5-flash-lite",
+  "seconds": 2.8,
+  "tag": "extract-D041",
+  "usage": {
+   "promptTokenCount": 3483,
+   "candidatesTokenCount": 467,
+   "totalTokenCount": 3950,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 3483
+    }
+   ],
+   "serviceTier": "standard"
+  },
+  "at": "2026-10-03T17:33:33Z"
+ },
+ "output": {
+  "rules": [
+   {
+    "jurisdiction": "Los Angeles, CA",
+    "level": "city",
+    "category": "rent_increase_limits",
+    "lifecycle": "enacted",
+    "title": "RSO Annual Allowable Increase",
+    "requirement": "Landlords may increase rent once every 12 months by the allowable rent increase percentage, without including an additional percentage increase for utilities.",
+    "key_value": null,
+    "coverage": {
+     "summary": "Applies to rental properties first built on or before October 1, 1978, replacement units under LAMC Section 151.28, and specified types including apartments, condos/townhomes under specific tenancy dates, duplexes, multiple single-family units on a parcel, and others.",
+     "built_on_or_before": "1978-10-01",
+     "built_after": null,
+     "built_basis": "construction",
+     "rolling_age_years": null,
+     "min_units": null,
+     "single_family_excluded": false,
+     "owner_dependent": false,
+     "owner_condition": null,
+     "owner_exemption_max_units": null,
+     "subsidized_excluded": null,
+     "unresolvable": null
+    },
+    "exemptions": null,
+    "effective_date": "2026-02-02",
+    "enacted_date": null,
+    "citation": "Los Angeles Municipal Code Section 151.00 et seq.",
+    "quoted_span": "Rent may be increased once every 12 months by the allowable rent increase percentage (click here to view the allowable rent increase PDF). Effective February 2, 2026, the landlord can no longer include an additional percentage increase for utilities.",
+    "yields_to_local": false,
+    "preempts_local": false,
+    "confidence": 0.95
+   }
+  ]
+ }
+}

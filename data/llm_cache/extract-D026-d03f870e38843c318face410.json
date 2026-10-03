@@ -1,0 +1,55 @@
+{
+ "meta": {
+  "model": "gemini-3.5-flash-lite",
+  "seconds": 3.0,
+  "tag": "extract-D026",
+  "usage": {
+   "promptTokenCount": 2767,
+   "candidatesTokenCount": 454,
+   "totalTokenCount": 3221,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 2767
+    }
+   ],
+   "serviceTier": "standard"
+  },
+  "at": "2026-10-03T17:33:28Z"
+ },
+ "output": {
+  "rules": [
+   {
+    "jurisdiction": "CA",
+    "level": "state",
+    "category": "application_screening_fees",
+    "lifecycle": "enacted",
+    "title": "Application Screening Fee Limits",
+    "requirement": "Landlords may charge an application screening fee no greater than the actual out-of-pocket costs of gathering information and reasonable value of time spent, up to a maximum of thirty dollars ($30) per applicant, which may be adjusted annually by the Consumer Price Index beginning January 1, 1998.",
+    "key_value": "$30",
+    "coverage": {
+     "summary": "Applies to residential rental property applicants.",
+     "built_on_or_before": null,
+     "built_after": null,
+     "built_basis": "not_stated",
+     "rolling_age_years": null,
+     "min_units": null,
+     "single_family_excluded": null,
+     "owner_dependent": null,
+     "owner_condition": null,
+     "owner_exemption_max_units": null,
+     "subsidized_excluded": null,
+     "unresolvable": null
+    },
+    "exemptions": null,
+    "effective_date": "2026-01-01",
+    "enacted_date": null,
+    "citation": "California Civil Code Section 1950.6",
+    "quoted_span": "In no case shall the amount of the application screening fee charged by the landlord or their agent be greater than thirty dollars ($30) per applicant. The thirty dollar ($30) application screening fee may be adjusted annually by the landlord or their agent commensurate with an increase in the Consumer Price Index, beginning on January 1, 1998.",
+    "yields_to_local": false,
+    "preempts_local": false,
+    "confidence": 1.0
+   }
+  ]
+ }
+}

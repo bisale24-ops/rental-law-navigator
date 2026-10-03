@@ -1,0 +1,214 @@
+[
+ {
+  "doc": "D002",
+  "url": "https://morganlewis.com/pubs/2026/08/algorithmic-rent-pricing-litigation-expands-under-new-state-and-local-laws",
+  "fetched": false,
+  "reason": "robots.txt disallows or unreadable"
+ },
+ {
+  "doc": "D015",
+  "url": "https://caanet.org/compliance-reminder-section-8-acceptance-and-criminal-background-checks-are-fair-housing-issues/",
+  "fetched": false,
+  "reason": "robots.txt disallows or unreadable"
+ },
+ {
+  "doc": "D017",
+  "url": "https://california.public.law/codes/civil_code_section_1950.6",
+  "fetched": false,
+  "reason": "robots.txt disallows or unreadable"
+ },
+ {
+  "doc": "D018",
+  "url": "https://law.justia.com/codes/california/code-civ/division-3/part-4/title-5/chapter-2/section-1946-2/",
+  "fetched": false,
+  "reason": "robots.txt disallows or unreadable"
+ },
+ {
+  "doc": "D019",
+  "url": "https://law.justia.com/codes/california/code-civ/division-3/part-4/title-5/chapter-2/section-1947-12/",
+  "fetched": false,
+  "reason": "robots.txt disallows or unreadable"
+ },
+ {
+  "doc": "D020",
+  "url": "https://law.justia.com/codes/california/code-civ/division-3/part-4/title-5/chapter-2/section-1950-5/",
+  "fetched": false,
+  "reason": "robots.txt disallows or unreadable"
+ },
+ {
+  "doc": "D021",
+  "url": "https://law.justia.com/codes/california/code-gov/title-2/division-3/part-2-8/chapter-6/article-2/section-12955/",
+  "fetched": false,
+  "reason": "robots.txt disallows or unreadable"
+ },
+ {
+  "doc": "D028",
+  "url": "https://www.clearygottlieb.com/news-and-insights/publication-listing/californias-antitrust-law-amendments-kick-in-targeting-algorithmic-pricing",
+  "fetched": true,
+  "chars": 9590,
+  "retrieved": "2026-10-03 17:38 UTC",
+  "sha256": "6b1109493fe5c8459340541960dcd4853ac69201ad865f8216927df12b01e678"
+ },
+ {
+  "doc": "D030",
+  "url": "https://www.cambridgeday.com/?p=158097",
+  "fetched": true,
+  "chars": 8012,
+  "retrieved": "2026-10-03 17:38 UTC",
+  "sha256": "b277f93efd5e0c4956d91c311d27788587f9e339737ae50ff8a439ef9e58a32a"
+ },
+ {
+  "doc": "D032",
+  "url": "https://ecode360.com/15252438",
+  "fetched": false,
+  "reason": "robots.txt disallows or unreadable"
+ },
+ {
+  "doc": "D033",
+  "url": "https://ecode360.com/15252470",
+  "fetched": false,
+  "reason": "robots.txt disallows or unreadable"
+ },
+ {
+  "doc": "D034",
+  "url": "https://ecode360.com/46833413",
+  "fetched": false,
+  "reason": "robots.txt disallows or unreadable"
+ },
+ {
+  "doc": "D035",
+  "url": "https://hudsoncountyview.com/jersey-city-council-approves-realpage-ban-and-increasing-benefits-for-laborers/",
+  "fetched": false,
+  "reason": "<HTTPError 403: 'Forbidden'>"
+ },
+ {
+  "doc": "D037",
+  "url": "https://www.morganlewis.com/pubs/2026/08/algorithmic-rent-pricing-litigation-expands-under-new-state-and-local-laws",
+  "fetched": false,
+  "reason": "robots.txt disallows or unreadable"
+ },
+ {
+  "doc": "D038",
+  "url": "https://codelibrary.amlegal.com/codes/los_angeles/latest/lamc/0-0-0-322208",
+  "fetched": false,
+  "reason": "robots.txt disallows or unreadable"
+ },
+ {
+  "doc": "D044",
+  "url": "https://members.aagla.org/news/city-of-la-security-deposit-interest-requirement",
+  "fetched": true,
+  "chars": 5823,
+  "retrieved": "2026-10-03 17:38 UTC",
+  "sha256": "3f325c711ddaf6cd2556cc33dc1cfa4c74d84857a2a1ee5f147cf6e3d93d7030"
+ },
+ {
+  "doc": "D054",
+  "url": "https://masslandlords.net/can-massachusetts-landlords-charge-an-application-fee/",
+  "fetched": true,
+  "chars": 8122,
+  "retrieved": "2026-10-03 17:38 UTC",
+  "sha256": "6a72a5dedd3178de87128641f63bdc207a285130ac7ca82f05ef7d1cd4ffed38"
+ },
+ {
+  "doc": "D055",
+  "url": "https://massrealestatelawblog.com/tag/cella-v-attorney-general/",
+  "fetched": false,
+  "reason": "robots.txt disallows or unreadable"
+ },
+ {
+  "doc": "D056",
+  "url": "https://www.mass.gov/doc/803-cmr-5-criminal-offender-record-information-cori-housing/download",
+  "fetched": false,
+  "reason": "<HTTPError 403: 'Forbidden'>"
+ },
+ {
+  "doc": "D059",
+  "url": "https://www.wbur.org/news/2026/06/23/massachusetts-high-court-rent-control-ballot-question-struck",
+  "fetched": true,
+  "chars": 4156,
+  "retrieved": "2026-10-03 17:38 UTC",
+  "sha256": "c5ecba9ccfe1f0772a1708eb2abd8ae3bdd86f86191508402d34ff5bc548f548"
+ },
+ {
+  "doc": "D060",
+  "url": "https://daypitney.com/new-jersey-enacts-fair-act-to-prohibit-algorithmic-rent-setting-practices",
+  "fetched": true,
+  "chars": 3522,
+  "retrieved": "2026-10-03 17:39 UTC",
+  "sha256": "c8529e6384efcc522cf2cf3cf21278d12b41b4142ba462c00f32d98d94c5d02d"
+ },
+ {
+  "doc": "D061",
+  "url": "https://law.justia.com/codes/new-jersey/title-10/section-10-5-12/",
+  "fetched": false,
+  "reason": "robots.txt disallows or unreadable"
+ },
+ {
+  "doc": "D062",
+  "url": "https://law.justia.com/codes/new-jersey/title-2a/section-2a-18-61-1/",
+  "fetched": false,
+  "reason": "robots.txt disallows or unreadable"
+ },
+ {
+  "doc": "D063",
+  "url": "https://law.justia.com/codes/new-jersey/title-46/section-46-8-21-2/",
+  "fetched": false,
+  "reason": "robots.txt disallows or unreadable"
+ },
+ {
+  "doc": "D064",
+  "url": "https://law.justia.com/codes/new-jersey/title-46/section-46-8-26/",
+  "fetched": false,
+  "reason": "robots.txt disallows or unreadable"
+ },
+ {
+  "doc": "D070",
+  "url": "https://ecode360.com/36623772",
+  "fetched": false,
+  "reason": "robots.txt disallows or unreadable"
+ },
+ {
+  "doc": "D071",
+  "url": "https://ecode360.com/36637822",
+  "fetched": false,
+  "reason": "robots.txt disallows or unreadable"
+ },
+ {
+  "doc": "D072",
+  "url": "https://ecode360.com/36642000",
+  "fetched": false,
+  "reason": "robots.txt disallows or unreadable"
+ },
+ {
+  "doc": "D074",
+  "url": "https://gocodebook.com/library/us/ca/san-diego-zoning/division-11-prohibition-of-anti-competitive-automated-rent-price-fixing/98.1103-use-and-sale-of-algorithmic-devices-prohibited",
+  "fetched": false,
+  "reason": "<HTTPError 500: 'Internal Server Error'>"
+ },
+ {
+  "doc": "D075",
+  "url": "https://gocodebook.com/library/us/ca/san-diego-zoning/division-8-prohibition-of-discrimination-based-on-a-tenant-s-source-of-income",
+  "fetched": true,
+  "chars": 1267,
+  "retrieved": "2026-10-03 17:39 UTC",
+  "sha256": "491ee729c5b1eb9509653784d459dfc5c60e5003a88bcb67885c1154539bf0a1"
+ },
+ {
+  "doc": "D077",
+  "url": "https://www.lassd.org/resource/city-of-san-diego-tenant-protection-ordinance/",
+  "fetched": false,
+  "reason": "robots.txt disallows or unreadable"
+ },
+ {
+  "doc": "D086",
+  "url": "https://www.ocbj.com/real-estate/santa-ana-bans-landlords-from-using-ai-apartment-rent-pricing-software/",
+  "fetched": false,
+  "reason": "robots.txt disallows or unreadable"
+ },
+ {
+  "doc": "D087",
+  "url": "https://www.publicceo.com/2026/02/santa-ana-city-council-continues-to-strengthen-tenant-protections-by-banning-anticompetitive-rent-setting-software/",
+  "fetched": false,
+  "reason": "robots.txt disallows or unreadable"
+ }
+]

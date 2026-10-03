@@ -1,0 +1,86 @@
+{
+ "meta": {
+  "model": "gemini-3.5-flash-lite",
+  "seconds": 2.9,
+  "tag": "extract-D011",
+  "usage": {
+   "promptTokenCount": 1990,
+   "candidatesTokenCount": 671,
+   "totalTokenCount": 2661,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 1990
+    }
+   ],
+   "serviceTier": "standard"
+  },
+  "at": "2026-10-03T17:33:07Z"
+ },
+ "output": {
+  "rules": [
+   {
+    "jurisdiction": "Boston, MA",
+    "level": "city",
+    "category": "rent_increase_limits",
+    "lifecycle": "failed",
+    "title": "Bill H.3744",
+    "requirement": "A pending bill would authorize the city of Boston to implement rent stabilization and tenant eviction protections.",
+    "key_value": null,
+    "coverage": {
+     "summary": "Boston, MA",
+     "built_on_or_before": null,
+     "built_after": null,
+     "built_basis": "not_stated",
+     "rolling_age_years": null,
+     "min_units": null,
+     "single_family_excluded": null,
+     "owner_dependent": null,
+     "owner_condition": null,
+     "owner_exemption_max_units": null,
+     "subsidized_excluded": null,
+     "unresolvable": null
+    },
+    "exemptions": null,
+    "effective_date": null,
+    "enacted_date": null,
+    "citation": "Bill H.3744",
+    "quoted_span": "An Act petition for a special law authorizing the city of Boston to implement rent stabilization and tenant eviction protections",
+    "yields_to_local": false,
+    "preempts_local": false,
+    "confidence": 0.9
+   },
+   {
+    "jurisdiction": "Boston, MA",
+    "level": "city",
+    "category": "just_cause_eviction",
+    "lifecycle": "failed",
+    "title": "Bill H.3744",
+    "requirement": "A pending bill would authorize the city of Boston to implement tenant eviction protections alongside rent stabilization.",
+    "key_value": null,
+    "coverage": {
+     "summary": "Boston, MA",
+     "built_on_or_before": null,
+     "built_after": null,
+     "built_basis": "not_stated",
+     "rolling_age_years": null,
+     "min_units": null,
+     "single_family_excluded": null,
+     "owner_dependent": null,
+     "owner_condition": null,
+     "owner_exemption_max_units": null,
+     "subsidized_excluded": null,
+     "unresolvable": null
+    },
+    "exemptions": null,
+    "effective_date": null,
+    "enacted_date": null,
+    "citation": "Bill H.3744",
+    "quoted_span": "An Act petition for a special law authorizing the city of Boston to implement rent stabilization and tenant eviction protections",
+    "yields_to_local": false,
+    "preempts_local": false,
+    "confidence": 0.9
+   }
+  ]
+ }
+}

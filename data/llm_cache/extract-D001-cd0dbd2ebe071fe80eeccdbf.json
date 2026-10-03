@@ -1,0 +1,56 @@
+{
+ "meta": {
+  "model": "gemini-3.6-flash",
+  "seconds": 13.7,
+  "tag": "extract-D001",
+  "usage": {
+   "promptTokenCount": 2934,
+   "candidatesTokenCount": 328,
+   "totalTokenCount": 6328,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 2934
+    }
+   ],
+   "thoughtsTokenCount": 3066,
+   "serviceTier": "standard"
+  },
+  "at": "2026-10-03T17:20:09Z"
+ },
+ "output": {
+  "rules": [
+   {
+    "jurisdiction": "Berkeley, CA",
+    "level": "city",
+    "category": "algorithmic_rent_setting",
+    "lifecycle": "enacted",
+    "title": "Prohibition on Coordinated Pricing Algorithms",
+    "requirement": "Landlords are prohibited from using coordinated pricing algorithms to set rents or manage occupancy levels for residential dwelling units in Berkeley, and vendors are prohibited from selling or providing such algorithms to Berkeley landlords.",
+    "key_value": null,
+    "coverage": {
+     "summary": "All residential dwelling units in the City of Berkeley.",
+     "built_on_or_before": null,
+     "built_after": null,
+     "built_basis": "not_stated",
+     "rolling_age_years": null,
+     "min_units": null,
+     "single_family_excluded": false,
+     "owner_dependent": false,
+     "owner_condition": null,
+     "owner_exemption_max_units": null,
+     "subsidized_excluded": false,
+     "unresolvable": null
+    },
+    "exemptions": "Excludes products that publish aggregated and anonymous rental data without recommending terms, products used to set rent/income limits under affordable housing guidelines, and data used strictly for financing research, appraisals, or software development and testing.",
+    "effective_date": null,
+    "enacted_date": "2025-11-18",
+    "citation": "Berkeley Municipal Code \u00a7 13.63.030",
+    "quoted_span": "It shall be unlawful for a landlord to use a coordinated pricing algorithm described in subsection A when setting rents or occupancy levels for residential dwelling units in the City of Berkeley.",
+    "yields_to_local": false,
+    "preempts_local": false,
+    "confidence": 1.0
+   }
+  ]
+ }
+}

@@ -1,0 +1,86 @@
+{
+ "meta": {
+  "model": "gemini-3.5-flash-lite",
+  "seconds": 5.4,
+  "tag": "extract-D040",
+  "usage": {
+   "promptTokenCount": 3231,
+   "candidatesTokenCount": 1087,
+   "totalTokenCount": 4318,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 3231
+    }
+   ],
+   "serviceTier": "standard"
+  },
+  "at": "2026-10-03T17:28:15Z"
+ },
+ "output": {
+  "rules": [
+   {
+    "jurisdiction": "Los Angeles, CA",
+    "level": "city",
+    "category": "just_cause_eviction",
+    "lifecycle": "enacted",
+    "title": "Just Cause For Eviction Ordinance",
+    "requirement": "Landlords are prohibited from terminating tenancies without just cause and must provide relocation assistance for no-fault evictions under the Just Cause Ordinance.",
+    "key_value": null,
+    "coverage": {
+     "summary": "Covers most residential properties in the City of Los Angeles not regulated by the City's Rent Stabilization Ordinance (RSO) after the tenant has lived in the unit for at least six months or their original lease expired, whichever comes first.",
+     "built_on_or_before": null,
+     "built_after": null,
+     "built_basis": "not_stated",
+     "rolling_age_years": null,
+     "min_units": null,
+     "single_family_excluded": false,
+     "owner_dependent": false,
+     "owner_condition": null,
+     "owner_exemption_max_units": null,
+     "subsidized_excluded": true,
+     "unresolvable": "Tenant must have lived in the unit for at least six months or original lease expired; various specific exemptions apply including transient hotels, licensed care facilities, fraternity or sorority houses, owner's roommate, and certain non-profit or government facilities."
+    },
+    "exemptions": "Transient hotels, licensed care facilities, fraternity or sorority houses, owner's roommate, cooperatives under certain circumstances, non-profit facilities for the homeless or short-term substance abuse treatment centers, and some properties owned by HACLA or the government.",
+    "effective_date": null,
+    "enacted_date": null,
+    "citation": "Just Cause For Eviction Ordinance (JCO)",
+    "quoted_span": "It prohibits terminations of tenancies without just cause and requires relocation assistance for no-fault evictions.",
+    "yields_to_local": false,
+    "preempts_local": false,
+    "confidence": 0.95
+   },
+   {
+    "jurisdiction": "CA",
+    "level": "state",
+    "category": "rent_increase_limits",
+    "lifecycle": "enacted",
+    "title": "California Tenant Protection Act of 2019 (AB 1482)",
+    "requirement": "Annual rent increases are limited to no more than 5% plus the percentage change in the cost of living for the region, or 10%, whichever is lower, for units older than 15 years.",
+    "key_value": "8.9% (effective August 1, 2024 to July 31, 2025)",
+    "coverage": {
+     "summary": "Applies to buildings that are older than 15 years on a rolling basis, with specific exclusions for certain single-family homes, deed-restricted affordable housing, dormitories, and owner-occupied two-unit properties.",
+     "built_on_or_before": null,
+     "built_after": null,
+     "built_basis": "construction",
+     "rolling_age_years": 15,
+     "min_units": null,
+     "single_family_excluded": true,
+     "owner_dependent": true,
+     "owner_condition": "Exempts single-family homes if not owned by a real estate trust, corporation, or LLC with at least one corporate member, and proper notice is given.",
+     "owner_exemption_max_units": null,
+     "subsidized_excluded": true,
+     "unresolvable": "Excludes units restricted by deed or regulatory documents limiting affordability, and certain dormitories."
+    },
+    "exemptions": "Units constructed within the last 15 years on a rolling basis; units restricted by deed or regulatory documents for low or moderate-income households; certain dormitories; two-unit properties where the second unit is owner-occupied for the entire tenancy; certain single-family homes meeting ownership criteria and tenant notification rules; units subject to the City's RSO.",
+    "effective_date": "2024-08-01",
+    "enacted_date": "2019-01-01",
+    "citation": "AB 1482",
+    "quoted_span": "Annual rent increases are limited to no more than 5% plus the percentage change in the cost of living for the region in which the property is located, or 10% whichever is lower.",
+    "yields_to_local": false,
+    "preempts_local": false,
+    "confidence": 0.95
+   }
+  ]
+ }
+}

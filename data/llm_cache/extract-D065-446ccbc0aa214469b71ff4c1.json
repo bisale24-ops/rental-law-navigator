@@ -1,0 +1,55 @@
+{
+ "meta": {
+  "model": "gemini-3.5-flash-lite",
+  "seconds": 2.4,
+  "tag": "extract-D065",
+  "usage": {
+   "promptTokenCount": 5922,
+   "candidatesTokenCount": 511,
+   "totalTokenCount": 6433,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 5922
+    }
+   ],
+   "serviceTier": "standard"
+  },
+  "at": "2026-10-03T17:34:31Z"
+ },
+ "output": {
+  "rules": [
+   {
+    "jurisdiction": "NJ",
+    "level": "state",
+    "category": "screening_restrictions",
+    "lifecycle": "enacted",
+    "title": "Fair Chance in Housing Act - Criminal Record Screening Limits",
+    "requirement": "Housing providers are prohibited from inquiring about an applicant's criminal record prior to issuing a conditional offer, with narrow exceptions for methamphetamine production on federally assisted housing premises and lifetime sex offender registration requirements.",
+    "key_value": null,
+    "coverage": {
+     "summary": "Applies to rental dwelling units, excluding owner-occupied premises of not more than four dwelling units.",
+     "built_on_or_before": null,
+     "built_after": null,
+     "built_basis": "not_stated",
+     "rolling_age_years": null,
+     "min_units": null,
+     "single_family_excluded": null,
+     "owner_dependent": true,
+     "owner_condition": "owner-occupied premises of not more than four dwelling units are exempt",
+     "owner_exemption_max_units": 4,
+     "subsidized_excluded": null,
+     "unresolvable": null
+    },
+    "exemptions": "Dwelling units in owner-occupied premises of not more than four dwelling units.",
+    "effective_date": "2022-01-01",
+    "enacted_date": "2021-06-18",
+    "citation": "P.L. 2021, c.110 (C.46:8-55)",
+    "quoted_span": "A housing provider shall not require an applicant to complete any housing application that includes any inquiries regarding an applicant\u2019s criminal record prior to the provision of a conditional offer, except that a housing provider may consider whether an applicant has ever been convicted of drug-related criminal activity for the manufacture or production of methamphetamine on the premises of federally assisted housing, and whether the applicant is subject to a lifetime registration requirement under a State sex offender registration program.",
+    "yields_to_local": false,
+    "preempts_local": false,
+    "confidence": 1.0
+   }
+  ]
+ }
+}

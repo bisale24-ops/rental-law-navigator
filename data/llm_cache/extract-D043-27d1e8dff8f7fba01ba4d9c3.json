@@ -1,0 +1,86 @@
+{
+ "meta": {
+  "model": "gemini-3.5-flash-lite",
+  "seconds": 3.8,
+  "tag": "extract-D043",
+  "usage": {
+   "promptTokenCount": 9941,
+   "candidatesTokenCount": 1011,
+   "totalTokenCount": 10952,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 9941
+    }
+   ],
+   "serviceTier": "standard"
+  },
+  "at": "2026-10-03T17:33:37Z"
+ },
+ "output": {
+  "rules": [
+   {
+    "jurisdiction": "Los Angeles, CA",
+    "level": "city",
+    "category": "just_cause_eviction",
+    "lifecycle": "enacted",
+    "title": "Relocation Assistance for No-Fault Evictions Under RSO & JCO",
+    "requirement": "Landlords evicting tenants for no-fault reasons under the Rent Stabilization Ordinance or Just Cause Ordinance must pay relocation assistance, which varies based on tenant eligibility, length of tenancy, and income, and must be paid within 15 days of notice or deposited in an escrow account.",
+    "key_value": "11000",
+    "coverage": {
+     "summary": "Covers units under the Rent Stabilization Ordinance (RSO) or Just Cause Ordinance (JCO).",
+     "built_on_or_before": null,
+     "built_after": null,
+     "built_basis": "not_stated",
+     "rolling_age_years": null,
+     "min_units": null,
+     "single_family_excluded": null,
+     "owner_dependent": null,
+     "owner_condition": null,
+     "owner_exemption_max_units": null,
+     "subsidized_excluded": null,
+     "unresolvable": null
+    },
+    "exemptions": "Evicting a resident manager to replace with another resident manager, or hazardous conditions caused by a natural disaster not caused by landlord negligence.",
+    "effective_date": "2026-07-01",
+    "enacted_date": null,
+    "citation": "LAMC 151.09, 165.03, 165.06",
+    "quoted_span": "All tenant not- at-fault evictions require payment of relocation assistance and the filing of a Declaration of Intent to Evict form with the Los Angeles Housing Department (LAHD) before evicting tenants from units covered by the Rent Stabilization Ordinance (RSO) or the Just Cause Ordinance (JCO).",
+    "yields_to_local": false,
+    "preempts_local": false,
+    "confidence": 0.95
+   },
+   {
+    "jurisdiction": "Los Angeles, CA",
+    "level": "city",
+    "category": "just_cause_eviction",
+    "lifecycle": "enacted",
+    "title": "Relocation Assistance for Demolition for New Construction Under Resident Protections Ordinance",
+    "requirement": "Owners demolishing a protected unit for new construction under the Resident Protections Ordinance must provide relocation assistance, with lower-income households receiving enhanced amounts consistent with public entity relocation benefits or standardized RPO payments.",
+    "key_value": "87450",
+    "coverage": {
+     "summary": "Applies to Protected Units demolished for the purpose of new construction.",
+     "built_on_or_before": null,
+     "built_after": null,
+     "built_basis": "not_stated",
+     "rolling_age_years": null,
+     "min_units": null,
+     "single_family_excluded": null,
+     "owner_dependent": null,
+     "owner_condition": null,
+     "owner_exemption_max_units": null,
+     "subsidized_excluded": null,
+     "unresolvable": null
+    },
+    "exemptions": null,
+    "effective_date": "2025-02-11",
+    "enacted_date": "2025-02-11",
+    "citation": "Ordinances # 188481 and #188482",
+    "quoted_span": "The City\u2019s Resident Protections Ordinance (RPO) and the State\u2019s Housing Crisis Act (HCA) require that ONLY lower income households (80% AMI or lower) being displaced for demolition of their units where the owner will replace the units with new construction receive relocation payment consistent to the relocation benefits required to be paid by public entities under Chapter 16 (commencing with Section 7260) of Division 7 of Title 1 (Government Code 66300.6(b)(4)(A)).",
+    "yields_to_local": false,
+    "preempts_local": false,
+    "confidence": 0.95
+   }
+  ]
+ }
+}

@@ -1,0 +1,55 @@
+{
+ "meta": {
+  "model": "gemini-3.5-flash-lite",
+  "seconds": 2.6,
+  "tag": "extract-D028",
+  "usage": {
+   "promptTokenCount": 3365,
+   "candidatesTokenCount": 412,
+   "totalTokenCount": 3777,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 3365
+    }
+   ],
+   "serviceTier": "standard"
+  },
+  "at": "2026-10-03T17:39:31Z"
+ },
+ "output": {
+  "rules": [
+   {
+    "jurisdiction": "CA",
+    "level": "state",
+    "category": "algorithmic_rent_setting",
+    "lifecycle": "enacted",
+    "title": "Cartwright Act Amendments on Algorithmic Pricing",
+    "requirement": "The Cartwright Act prohibits using or distributing common pricing algorithms to collude on pricing or terms, and prohibits coercing users to adopt algorithmic pricing recommendations.",
+    "key_value": null,
+    "coverage": {
+     "summary": "Applies to businesses using or distributing common pricing algorithms, including apartment rental companies.",
+     "built_on_or_before": null,
+     "built_after": null,
+     "built_basis": "not_stated",
+     "rolling_age_years": null,
+     "min_units": null,
+     "single_family_excluded": null,
+     "owner_dependent": null,
+     "owner_condition": null,
+     "owner_exemption_max_units": null,
+     "subsidized_excluded": null,
+     "unresolvable": null
+    },
+    "exemptions": "Single-firm algorithms using only a business's own data are not covered by the law.",
+    "effective_date": "2026-01-01",
+    "enacted_date": null,
+    "citation": "Cal. Bus. & Prof. Code \u00a716729",
+    "quoted_span": "The Cartwright Act now expressly prohibits (1) using or distributing common algorithms to collude on pricing, and (2) coercing users to adopt algorithmic recommendations.",
+    "yields_to_local": false,
+    "preempts_local": false,
+    "confidence": 0.95
+   }
+  ]
+ }
+}

@@ -1,0 +1,55 @@
+{
+ "meta": {
+  "model": "gemini-3.5-flash-lite",
+  "seconds": 2.3,
+  "tag": "extract-D060",
+  "usage": {
+   "promptTokenCount": 1751,
+   "candidatesTokenCount": 467,
+   "totalTokenCount": 2218,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 1751
+    }
+   ],
+   "serviceTier": "standard"
+  },
+  "at": "2026-10-03T17:39:37Z"
+ },
+ "output": {
+  "rules": [
+   {
+    "jurisdiction": "NJ",
+    "level": "state",
+    "category": "algorithmic_rent_setting",
+    "lifecycle": "enacted",
+    "title": "Forbidding the Algorithmic Inflation of Rent (FAIR) Act",
+    "requirement": "New Jersey prohibits residential rental property owners and software providers from using algorithmic revenue management software that collects or processes competitors' nonpublic leasing information to set or recommend rental prices or coordinate pricing.",
+    "key_value": null,
+    "coverage": {
+     "summary": "Applies to residential rental properties and software providers using algorithmic revenue management software.",
+     "built_on_or_before": null,
+     "built_after": null,
+     "built_basis": "not_stated",
+     "rolling_age_years": null,
+     "min_units": null,
+     "single_family_excluded": null,
+     "owner_dependent": false,
+     "owner_condition": null,
+     "owner_exemption_max_units": null,
+     "subsidized_excluded": false,
+     "unresolvable": null
+    },
+    "exemptions": "Spreadsheets requiring human analysis, publicly available rent estimation tools, traditional real estate listing databases, and government-administered affordable housing programs.",
+    "effective_date": "2027-07-01",
+    "enacted_date": "2026-07-20",
+    "citation": "P.L. 2026, c. 43",
+    "quoted_span": "The FAIR Act prohibits residential rental property owners from using algorithmic revenue management software that collects or processes competitors' nonpublic leasing information to set or recommend rental prices. It also prohibits software providers and other \"coordinators\" from using such software to facilitate agreements or coordinate pricing among competing residential landlords.",
+    "yields_to_local": false,
+    "preempts_local": false,
+    "confidence": 1.0
+   }
+  ]
+ }
+}

@@ -1,0 +1,56 @@
+{
+ "meta": {
+  "model": "gemini-3.6-flash",
+  "seconds": 10.5,
+  "tag": "extract-D004",
+  "usage": {
+   "promptTokenCount": 1454,
+   "candidatesTokenCount": 485,
+   "totalTokenCount": 3598,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 1454
+    }
+   ],
+   "thoughtsTokenCount": 1659,
+   "serviceTier": "standard"
+  },
+  "at": "2026-10-03T17:20:30Z"
+ },
+ "output": {
+  "rules": [
+   {
+    "jurisdiction": "Berkeley, CA",
+    "level": "city",
+    "category": "just_cause_eviction",
+    "lifecycle": "enacted",
+    "title": "2026 Relocation Assistance Payments for Owner Move-In and Ellis Act Evictions",
+    "requirement": "Landlords evicting tenants for an owner move-in or under the Ellis Act must pay a standard relocation assistance payment of $19,413, plus an additional $6,471 for qualifying households.",
+    "key_value": "$19,413 standard / $6,471 additional",
+    "coverage": {
+     "summary": "Tenants subject to owner move-in evictions under the Rent Stabilization and Good Cause for Eviction Ordinance or Ellis Act evictions under the Ellis Implementation Ordinance.",
+     "built_on_or_before": null,
+     "built_after": null,
+     "built_basis": "not_stated",
+     "rolling_age_years": null,
+     "min_units": null,
+     "single_family_excluded": null,
+     "owner_dependent": null,
+     "owner_condition": null,
+     "owner_exemption_max_units": null,
+     "subsidized_excluded": null,
+     "unresolvable": "Applicability determined by Berkeley Rent Stabilization and Good Cause for Eviction Ordinance and Ellis Implementation Ordinance coverage rules."
+    },
+    "exemptions": null,
+    "effective_date": "2026-01-01",
+    "enacted_date": "2025-10-16",
+    "citation": "Rent Stabilization and Good Cause for Eviction Ordinance; Ellis Implementation Ordinance",
+    "quoted_span": "The standard relocation assistance payment will increase to $19,413. The additional relocation assistance payment for qualifying households will increase to $6,471.",
+    "yields_to_local": false,
+    "preempts_local": false,
+    "confidence": 1.0
+   }
+  ]
+ }
+}

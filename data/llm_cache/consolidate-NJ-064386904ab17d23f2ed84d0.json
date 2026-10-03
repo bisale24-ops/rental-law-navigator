@@ -1,0 +1,132 @@
+{
+ "meta": {
+  "model": "gemini-3.5-flash-lite",
+  "seconds": 3.4,
+  "tag": "consolidate-NJ",
+  "usage": {
+   "promptTokenCount": 4790,
+   "candidatesTokenCount": 1020,
+   "totalTokenCount": 5810,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 4790
+    }
+   ],
+   "serviceTier": "standard"
+  },
+  "at": "2026-10-03T17:36:22Z"
+ },
+ "output": {
+  "cells": [
+   {
+    "jurisdiction": "Jersey City, NJ",
+    "category": "rent_increase_limits",
+    "kind": "enacted",
+    "members": [
+     0
+    ],
+    "canonical": 0,
+    "coverage_from": 0,
+    "requirement": "Properties with 1 to 4 units are exempt from Jersey City's rent control regulations.",
+    "key_value": "1-4 units",
+    "conflict": false,
+    "conflict_note": null
+   },
+   {
+    "jurisdiction": "NJ",
+    "category": "screening_restrictions",
+    "kind": "enacted",
+    "members": [
+     1,
+     2
+    ],
+    "canonical": 1,
+    "coverage_from": 1,
+    "requirement": "Housing providers are prohibited from inquiring about an applicant's criminal record prior to issuing a conditional offer, with limited exceptions for certain methamphetamine production on federally assisted housing premises and lifetime sex offender registration requirements.",
+    "key_value": null,
+    "conflict": false,
+    "conflict_note": null
+   },
+   {
+    "jurisdiction": "NJ",
+    "category": "application_screening_fees",
+    "kind": "enacted",
+    "members": [
+     3,
+     4
+    ],
+    "canonical": 3,
+    "coverage_from": 3,
+    "requirement": "Landlords and their agents cannot charge a residential rental application or screening fee exceeding $50. The fee limit is subject to annual adjustments based on the Consumer Price Index.",
+    "key_value": "50",
+    "conflict": false,
+    "conflict_note": null
+   },
+   {
+    "jurisdiction": "NJ",
+    "category": "security_deposits",
+    "kind": "enacted",
+    "members": [
+     5,
+     6,
+     10,
+     11
+    ],
+    "canonical": 5,
+    "coverage_from": 5,
+    "requirement": "Landlords are prohibited from charging a security deposit that exceeds one and one-half times one month's rent. Landlords must return the security deposit plus interest earned, less lawful deductions, within 30 days after the termination of a tenancy.",
+    "key_value": "1.5 months rent",
+    "conflict": false,
+    "conflict_note": null
+   },
+   {
+    "jurisdiction": "NJ",
+    "category": "screening_restrictions",
+    "kind": "enacted",
+    "members": [
+     7,
+     12,
+     13,
+     14
+    ],
+    "canonical": 7,
+    "coverage_from": 7,
+    "requirement": "Landlords are prohibited from discriminating against tenants or purchasers in the sale or rental of housing based on protected classes such as race, religion, color, national origin, sex, gender identity or expression, marital status, disability, sexual orientation, familial status, or source of lawful income (such as Section 8 vouchers).",
+    "key_value": null,
+    "conflict": false,
+    "conflict_note": null
+   },
+   {
+    "jurisdiction": "NJ",
+    "category": "rent_increase_limits",
+    "kind": "enacted",
+    "members": [
+     8,
+     9
+    ],
+    "canonical": 8,
+    "coverage_from": 8,
+    "requirement": "Newly constructed multiple dwellings are exempt from local rent control ordinances for a period of 30 years following completion of construction.",
+    "key_value": "30 years",
+    "conflict": false,
+    "conflict_note": null
+   },
+   {
+    "jurisdiction": "NJ",
+    "category": "algorithmic_rent_setting",
+    "kind": "enacted",
+    "members": [
+     15,
+     16
+    ],
+    "canonical": 15,
+    "coverage_from": 15,
+    "requirement": "It is unlawful for rental property owners to use coordinators or algorithmic devices that perform a coordinating function using competitively sensitive information to set or recommend rents, material lease terms, or occupancy levels, and unlawful to engage in parallel pricing coordination.",
+    "key_value": null,
+    "conflict": false,
+    "conflict_note": null
+   }
+  ]
+ }
+}

@@ -1,0 +1,86 @@
+{
+ "meta": {
+  "model": "gemini-3.5-flash-lite",
+  "seconds": 3.7,
+  "tag": "extract-D025",
+  "usage": {
+   "promptTokenCount": 7132,
+   "candidatesTokenCount": 1017,
+   "totalTokenCount": 8149,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 7132
+    }
+   ],
+   "serviceTier": "standard"
+  },
+  "at": "2026-10-03T17:33:16Z"
+ },
+ "output": {
+  "rules": [
+   {
+    "jurisdiction": "CA",
+    "level": "state",
+    "category": "security_deposits",
+    "lifecycle": "enacted",
+    "title": "Residential Security Deposit Maximum",
+    "requirement": "A landlord may not demand or receive residential security in an amount exceeding one month's rent in addition to first month's rent, except that certain natural persons or limited liability companies owning no more than two residential rental properties with a total of no more than four units may charge up to two months' rent.",
+    "key_value": "1 month rent (general); 2 months rent (small landlord exception)",
+    "coverage": {
+     "summary": "Applies to residential rental property used as a dwelling, with exceptions for certain small landlords owning 2 or fewer properties with a total of no more than 4 units.",
+     "built_on_or_before": null,
+     "built_after": null,
+     "built_basis": "not_stated",
+     "rolling_age_years": null,
+     "min_units": null,
+     "single_family_excluded": null,
+     "owner_dependent": true,
+     "owner_condition": "Natural person or LLC of natural persons owning no more than 2 residential rental properties totaling no more than 4 dwelling units.",
+     "owner_exemption_max_units": 4,
+     "subsidized_excluded": null,
+     "unresolvable": null
+    },
+    "exemptions": "Does not apply to advance payments of six months or more for leases of six months or longer, mutual agreements for structural or decorative alterations, or certain small landlords meeting specific natural person and unit count criteria.",
+    "effective_date": "2026-01-01",
+    "enacted_date": null,
+    "citation": "Civil Code 1950.5",
+    "quoted_span": "Except as provided in paragraph (2), (3), or (5), a landlord shall not demand or receive security, however denominated, in an amount or value in excess of an amount equal to one month\u2019s rent, in addition to any rent for the first month paid on or before initial occupancy.",
+    "yields_to_local": false,
+    "preempts_local": false,
+    "confidence": 1.0
+   },
+   {
+    "jurisdiction": "CA",
+    "level": "state",
+    "category": "security_deposits",
+    "lifecycle": "enacted",
+    "title": "Security Deposit Return Deadline and Itemized Accounting",
+    "requirement": "Landlords must furnish an itemized statement and return the remaining security deposit within 21 calendar days after the tenant vacates the premises.",
+    "key_value": "21 calendar days",
+    "coverage": {
+     "summary": "Applies to residential tenancies for security deposit return and accounting.",
+     "built_on_or_before": null,
+     "built_after": null,
+     "built_basis": "not_stated",
+     "rolling_age_years": null,
+     "min_units": null,
+     "single_family_excluded": null,
+     "owner_dependent": false,
+     "owner_condition": null,
+     "owner_exemption_max_units": null,
+     "subsidized_excluded": null,
+     "unresolvable": null
+    },
+    "exemptions": null,
+    "effective_date": "2026-01-01",
+    "enacted_date": null,
+    "citation": "Civil Code 1950.5",
+    "quoted_span": "No later than 21 calendar days after the tenant has vacated the premises, but not earlier than the time that either the landlord or the tenant provides a notice to terminate the tenancy under Section 1946 or 1946.1, Section 1161 of the Code of Civil Procedure, or not earlier than 60 calendar days prior to the expiration of a fixed-term lease, the landlord shall furnish the tenant, a copy of an itemized statement indicating the basis for, and the amount of, any security received and the disposition of the security, and shall return any remaining portion of the security to the tenant as follows:",
+    "yields_to_local": false,
+    "preempts_local": false,
+    "confidence": 1.0
+   }
+  ]
+ }
+}

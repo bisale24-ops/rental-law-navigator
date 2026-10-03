@@ -1,0 +1,86 @@
+{
+ "meta": {
+  "model": "gemini-3.5-flash-lite",
+  "seconds": 3.6,
+  "tag": "extract-D052",
+  "usage": {
+   "promptTokenCount": 6237,
+   "candidatesTokenCount": 1014,
+   "totalTokenCount": 7251,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 6237
+    }
+   ],
+   "serviceTier": "standard"
+  },
+  "at": "2026-10-03T17:28:33Z"
+ },
+ "output": {
+  "rules": [
+   {
+    "jurisdiction": "MA",
+    "level": "state",
+    "category": "security_deposits",
+    "lifecycle": "enacted",
+    "title": "Maximum Move-in Payments Limit",
+    "requirement": "Landlords may not require a tenant to pay more than the first month's rent, last month's rent, a security deposit equal to the first month's rent (or an authorized fee in lieu of a deposit), and the purchase and installation cost for a key and lock at or prior to the commencement of tenancy.",
+    "key_value": "1 month rent security deposit max",
+    "coverage": {
+     "summary": "Applies to residential real property tenancies excluding vacation or recreational rentals of 100 days or less.",
+     "built_on_or_before": null,
+     "built_after": null,
+     "built_basis": "not_stated",
+     "rolling_age_years": null,
+     "min_units": null,
+     "single_family_excluded": null,
+     "owner_dependent": false,
+     "owner_condition": null,
+     "owner_exemption_max_units": null,
+     "subsidized_excluded": null,
+     "unresolvable": null
+    },
+    "exemptions": "Leases, rentals, occupancy or tenancies of 100 days or less in duration for vacation or recreational purposes.",
+    "effective_date": null,
+    "enacted_date": null,
+    "citation": "Chapter 186, Section 15B(1)(b)",
+    "quoted_span": "At or prior to the commencement of any tenancy, no lessor or agent of the lessor may require a tenant or prospective tenant to pay, to the lessor or to an agent of the lessor, any amount in excess of the following: (i) rent for the first full month of occupancy; and, (ii) rent for the last full month of occupancy calculated at the same rate as the first month; and, (iii) a security deposit equal to the first month's rent provided that such security deposit is deposited as required by subsection (3) and that the tenant is given the statement of condition as required by subsection (2)... and, (iv) the purchase and installation cost for a key and lock.",
+    "yields_to_local": false,
+    "preempts_local": false,
+    "confidence": 1.0
+   },
+   {
+    "jurisdiction": "MA",
+    "level": "state",
+    "category": "security_deposits",
+    "lifecycle": "enacted",
+    "title": "Security Deposit Return Deadline and Deductions",
+    "requirement": "Landlords must return the security deposit or balance to the tenant within 30 days after the termination of occupancy, accompanied by an itemized list of damages sworn under penalties of perjury and written evidence of costs if any deductions are made.",
+    "key_value": "30 days",
+    "coverage": {
+     "summary": "Applies to residential real property tenancies excluding vacation or recreational rentals of 100 days or less.",
+     "built_on_or_before": null,
+     "built_after": null,
+     "built_basis": "not_stated",
+     "rolling_age_years": null,
+     "min_units": null,
+     "single_family_excluded": null,
+     "owner_dependent": false,
+     "owner_condition": null,
+     "owner_exemption_max_units": null,
+     "subsidized_excluded": null,
+     "unresolvable": null
+    },
+    "exemptions": "Leases, rentals, occupancy or tenancies of 100 days or less in duration for vacation or recreational purposes.",
+    "effective_date": null,
+    "enacted_date": null,
+    "citation": "Chapter 186, Section 15B(4)",
+    "quoted_span": "The lessor shall, within thirty days after the termination of occupancy under a tenancy-at-will or the end of the tenancy as specified in a valid written lease agreement, return to the tenant the security deposit or any balance thereof; provided, however, that the lessor may deduct from such security deposit for the following...",
+    "yields_to_local": false,
+    "preempts_local": false,
+    "confidence": 1.0
+   }
+  ]
+ }
+}

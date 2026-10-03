@@ -1,0 +1,117 @@
+{
+ "meta": {
+  "model": "gemini-3.5-flash-lite",
+  "seconds": 4.3,
+  "tag": "extract-D027",
+  "usage": {
+   "promptTokenCount": 3519,
+   "candidatesTokenCount": 1369,
+   "totalTokenCount": 4888,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 3519
+    }
+   ],
+   "serviceTier": "standard"
+  },
+  "at": "2026-10-03T17:33:34Z"
+ },
+ "output": {
+  "rules": [
+   {
+    "jurisdiction": "CA",
+    "level": "state",
+    "category": "screening_restrictions",
+    "lifecycle": "enacted",
+    "title": "Prohibition of housing discrimination based on protected characteristics and source of income",
+    "requirement": "Landlords and housing providers are prohibited from discriminating against or harassing any person in housing accommodations based on race, color, religion, sex, gender, gender identity, gender expression, sexual orientation, marital status, national origin, ancestry, familial status, source of income, disability, veteran or military status, or genetic information.",
+    "key_value": null,
+    "coverage": {
+     "summary": "Applies to owners and providers of housing accommodations generally.",
+     "built_on_or_before": null,
+     "built_after": null,
+     "built_basis": "not_stated",
+     "rolling_age_years": null,
+     "min_units": null,
+     "single_family_excluded": false,
+     "owner_dependent": false,
+     "owner_condition": null,
+     "owner_exemption_max_units": null,
+     "subsidized_excluded": false,
+     "unresolvable": null
+    },
+    "exemptions": null,
+    "effective_date": "2024-01-01",
+    "enacted_date": null,
+    "citation": "California Government Code Section 12955",
+    "quoted_span": "For the owner of any housing accommodation to discriminate against or harass any person because of the race, color, religion, sex, gender, gender identity, gender expression, sexual orientation, marital status, national origin, ancestry, familial status, source of income, disability, veteran or military status, or genetic information of that person.",
+    "yields_to_local": false,
+    "preempts_local": false,
+    "confidence": 1.0
+   },
+   {
+    "jurisdiction": "CA",
+    "level": "state",
+    "category": "screening_restrictions",
+    "lifecycle": "enacted",
+    "title": "Requirement to aggregate income of multiple applicants on the same basis as married persons",
+    "requirement": "Housing providers must account for the aggregate income of persons residing together or proposing to reside together on the same basis as the aggregate income of married persons residing together when using a financial or income standard.",
+    "key_value": null,
+    "coverage": {
+     "summary": "Applies to rentals of housing utilizing financial or income standards for multiple applicants.",
+     "built_on_or_before": null,
+     "built_after": null,
+     "built_basis": "not_stated",
+     "rolling_age_years": null,
+     "min_units": null,
+     "single_family_excluded": false,
+     "owner_dependent": false,
+     "owner_condition": null,
+     "owner_exemption_max_units": null,
+     "subsidized_excluded": false,
+     "unresolvable": null
+    },
+    "exemptions": null,
+    "effective_date": "2024-01-01",
+    "enacted_date": null,
+    "citation": "California Government Code Section 12955(n)",
+    "quoted_span": "To use a financial or income standard in the rental of housing that fails to account for the aggregate income of persons residing together or proposing to reside together on the same basis as the aggregate income of married persons residing together or proposing to reside together.",
+    "yields_to_local": false,
+    "preempts_local": false,
+    "confidence": 1.0
+   },
+   {
+    "jurisdiction": "CA",
+    "level": "state",
+    "category": "screening_restrictions",
+    "lifecycle": "enacted",
+    "title": "Alternative evidence for credit history and income standards when government rent subsidies apply",
+    "requirement": "In instances involving a government rent subsidy, housing providers must base financial/income standards on the tenant's portion of the rent and offer applicants the option to provide lawful, verifiable alternative evidence of their ability to pay instead of using credit history.",
+    "key_value": null,
+    "coverage": {
+     "summary": "Applies to rental housing situations involving government rent subsidies.",
+     "built_on_or_before": null,
+     "built_after": null,
+     "built_basis": "not_stated",
+     "rolling_age_years": null,
+     "min_units": null,
+     "single_family_excluded": false,
+     "owner_dependent": false,
+     "owner_condition": null,
+     "owner_exemption_max_units": null,
+     "subsidized_excluded": false,
+     "unresolvable": "Applies when there is a government rent subsidy."
+    },
+    "exemptions": null,
+    "effective_date": "2024-01-01",
+    "enacted_date": null,
+    "citation": "California Government Code Section 12955(o)",
+    "quoted_span": "In instances in which there is a government rent subsidy, to do either of the following: (A) Use a financial or income standard in assessing eligibility for the rental of housing that is not based on the portion of the rent to be paid by the tenant. (B) (i) Use a person\u2019s credit history as part of the application process for a rental accommodation without offering the applicant the option, at the applicant\u2019s discretion, of providing lawful, verifiable alternative evidence of the applicant\u2019s reasonable ability to pay the portion of the rent to be paid by the tenant, including, but not limited to, government benefit payments, pay records, and bank statements.",
+    "yields_to_local": false,
+    "preempts_local": false,
+    "confidence": 1.0
+   }
+  ]
+ }
+}

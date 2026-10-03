@@ -1,0 +1,55 @@
+{
+ "meta": {
+  "model": "gemini-3.5-flash-lite",
+  "seconds": 2.5,
+  "tag": "extract-D036",
+  "usage": {
+   "promptTokenCount": 2653,
+   "candidatesTokenCount": 368,
+   "totalTokenCount": 3021,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 2653
+    }
+   ],
+   "serviceTier": "standard"
+  },
+  "at": "2026-10-03T17:28:10Z"
+ },
+ "output": {
+  "rules": [
+   {
+    "jurisdiction": "Jersey City, NJ",
+    "level": "city",
+    "category": "rent_increase_limits",
+    "lifecycle": "enacted",
+    "title": "Jersey City Rent Control Exemption for 1-4 Unit Properties",
+    "requirement": "Properties with 1 to 4 units are exempt from Jersey City's rent control regulations.",
+    "key_value": "1-4 units",
+    "coverage": {
+     "summary": "Applies to properties with 1 to 4 units.",
+     "built_on_or_before": null,
+     "built_after": null,
+     "built_basis": "not_stated",
+     "rolling_age_years": null,
+     "min_units": null,
+     "single_family_excluded": null,
+     "owner_dependent": false,
+     "owner_condition": null,
+     "owner_exemption_max_units": null,
+     "subsidized_excluded": null,
+     "unresolvable": null
+    },
+    "exemptions": "Properties with 1 to 4 units are exempt.",
+    "effective_date": null,
+    "enacted_date": null,
+    "citation": "Chapter 260 of the Jersey City Municipal Code",
+    "quoted_span": "All 1-4 Unit Properties are exempt from rent control",
+    "yields_to_local": false,
+    "preempts_local": false,
+    "confidence": 1.0
+   }
+  ]
+ }
+}

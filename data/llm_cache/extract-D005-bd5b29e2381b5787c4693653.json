@@ -1,0 +1,117 @@
+{
+ "meta": {
+  "model": "gemini-3.5-flash-lite",
+  "seconds": 3.9,
+  "tag": "extract-D005",
+  "usage": {
+   "promptTokenCount": 1838,
+   "candidatesTokenCount": 1223,
+   "totalTokenCount": 3061,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 1838
+    }
+   ],
+   "serviceTier": "standard"
+  },
+  "at": "2026-10-03T17:33:02Z"
+ },
+ "output": {
+  "rules": [
+   {
+    "jurisdiction": "Berkeley, CA",
+    "level": "city",
+    "category": "application_screening_fees",
+    "lifecycle": "enacted",
+    "title": "Tenant Screening Fee Limit",
+    "requirement": "Landlords are subject to maximum limits on tenant screening fees and must provide a copy of the credit report, a receipt, an itemized list of expenses, and a refund of any unused portion.",
+    "key_value": "$68.96",
+    "coverage": {
+     "summary": "Applies to residential rental properties in Berkeley.",
+     "built_on_or_before": null,
+     "built_after": null,
+     "built_basis": "not_stated",
+     "rolling_age_years": null,
+     "min_units": null,
+     "single_family_excluded": null,
+     "owner_dependent": null,
+     "owner_condition": null,
+     "owner_exemption_max_units": null,
+     "subsidized_excluded": null,
+     "unresolvable": null
+    },
+    "exemptions": null,
+    "effective_date": null,
+    "enacted_date": null,
+    "citation": "California Civil Code Section 1950.6",
+    "quoted_span": "The maximum tenant screening fee for 2026 is\n$68.96",
+    "yields_to_local": false,
+    "preempts_local": false,
+    "confidence": 0.95
+   },
+   {
+    "jurisdiction": "Berkeley, CA",
+    "level": "city",
+    "category": "application_screening_fees",
+    "lifecycle": "enacted",
+    "title": "Notification of State Law Limitation on Tenant Screening Fees",
+    "requirement": "When charging a fee to process an application, owners must provide a clear and conspicuous tenant screening fee rights statement and the maximum fee cap permitted.",
+    "key_value": null,
+    "coverage": {
+     "summary": "Applies to residential rental properties in Berkeley when an applicant requests to rent and a fee is charged.",
+     "built_on_or_before": null,
+     "built_after": null,
+     "built_basis": "not_stated",
+     "rolling_age_years": null,
+     "min_units": null,
+     "single_family_excluded": null,
+     "owner_dependent": null,
+     "owner_condition": null,
+     "owner_exemption_max_units": null,
+     "subsidized_excluded": null,
+     "unresolvable": null
+    },
+    "exemptions": null,
+    "effective_date": null,
+    "enacted_date": null,
+    "citation": "BMC 13.78.010",
+    "quoted_span": "When an owner or the owner\u2019s agent gets a request to rent residential property in Berkeley from an applicant and the owner charges a fee to purchase a consumer credit report and to validate, review, or otherwise process an application, the owner must provide, either in the rental application or in a separate disclosure before receiving the fee, a clear and conspicuous tenant screening fee rights statement and a statement of the maximum fee cap permitted under\nCalifornia Civil Code Section 1950.6(b)\n.",
+    "yields_to_local": false,
+    "preempts_local": false,
+    "confidence": 0.95
+   },
+   {
+    "jurisdiction": "Berkeley, CA",
+    "level": "city",
+    "category": "application_screening_fees",
+    "lifecycle": "enacted",
+    "title": "Prohibition of Non-Refundable Application Fees Associated with Existing Tenancies",
+    "requirement": "Owners cannot charge a non-refundable fee to any existing tenant for renewing a tenancy or for adding, replacing, or departing a roommate.",
+    "key_value": null,
+    "coverage": {
+     "summary": "Applies to residential rental properties involving existing tenancies in Berkeley.",
+     "built_on_or_before": null,
+     "built_after": null,
+     "built_basis": "not_stated",
+     "rolling_age_years": null,
+     "min_units": null,
+     "single_family_excluded": null,
+     "owner_dependent": null,
+     "owner_condition": null,
+     "owner_exemption_max_units": null,
+     "subsidized_excluded": null,
+     "unresolvable": null
+    },
+    "exemptions": null,
+    "effective_date": null,
+    "enacted_date": null,
+    "citation": "BMC 13.78.016",
+    "quoted_span": "An owner of residential rental property (or the owner\u2019s agent) cannot charge a non-refundable fee to any existing tenant for the purpose of renewing a tenancy, in whole or in part, including any fee associated with the departure of a roommate or to request to add or replace a roommate in a pre-existing household.",
+    "yields_to_local": false,
+    "preempts_local": false,
+    "confidence": 0.95
+   }
+  ]
+ }
+}

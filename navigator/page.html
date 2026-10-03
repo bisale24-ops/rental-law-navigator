@@ -1,0 +1,327 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Rental Law Navigator</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,500;8..60,600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --canvas:#faf8f5; --paper:#fdfbfa; --line:#d1d1cd; --ash:#92918b; --graphite:#6b6964; --ink:#27251e;
+  --teal:#016a71; --teal-soft:#e3efee; --amber:#8a5a00; --amber-soft:#fbf0d9; --rose:#9b2c2c; --rose-soft:#f8e4e1;
+  --violet:#5b4a8a; --violet-soft:#ece8f5; --slate-soft:#ecebe7;
+  --serif:"Source Serif 4",Georgia,serif; --sans:"IBM Plex Sans",system-ui,sans-serif; --mono:"IBM Plex Mono",ui-monospace,monospace;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--canvas);color:var(--ink);font:15px/1.55 var(--sans)}
+a{color:var(--teal)}
+header{position:sticky;top:0;z-index:5;background:var(--canvas);border-bottom:1px solid var(--line)}
+.bar{max-width:1240px;margin:0 auto;padding:14px 20px;display:flex;gap:18px;align-items:center;flex-wrap:wrap}
+.brand{font:600 21px/1 var(--serif);letter-spacing:-.01em;margin-right:auto}
+.brand small{display:block;font:400 12px/1.4 var(--sans);color:var(--graphite);letter-spacing:0;margin-top:4px}
+nav{display:flex;gap:4px}
+nav button{border:0;background:none;font:500 14px var(--sans);color:var(--graphite);padding:7px 12px;border-radius:999px;cursor:pointer}
+nav button[aria-selected=true]{background:var(--teal);color:#fff}
+.asof{display:flex;align-items:center;gap:8px;font-size:13px;color:var(--graphite)}
+.asof input{font:500 14px var(--mono);border:1px solid var(--line);border-radius:6px;padding:5px 8px;background:var(--paper);color:var(--ink)}
+.notice{background:var(--ink);color:var(--canvas);font-size:12.5px}
+.notice div{max-width:1240px;margin:0 auto;padding:6px 20px}
+main{max-width:1240px;margin:0 auto;padding:22px 20px 80px}
+.cols{display:grid;grid-template-columns:320px 1fr;gap:22px;align-items:start}
+.panel{background:var(--paper);border:1px solid var(--line);border-radius:14px}
+.side{position:sticky;top:120px;max-height:calc(100vh - 140px);display:flex;flex-direction:column}
+.side .search{padding:12px;border-bottom:1px solid var(--line)}
+.side input{width:100%;font:15px var(--sans);border:1px solid var(--line);border-radius:8px;padding:9px 11px;background:#fff}
+.chips{display:flex;flex-wrap:wrap;gap:5px;margin-top:9px}
+.chip{border:1px solid var(--line);background:none;border-radius:999px;padding:3px 9px;font:500 12px var(--sans);color:var(--graphite);cursor:pointer}
+.chip[aria-pressed=true]{background:var(--ink);border-color:var(--ink);color:var(--canvas)}
+.list{overflow:auto;padding:6px}
+.list button{display:block;width:100%;text-align:left;border:0;background:none;padding:8px 10px;border-radius:8px;cursor:pointer;font:14px var(--sans);color:var(--ink)}
+.list button:hover{background:var(--slate-soft)}
+.list button[aria-current=true]{background:var(--teal-soft)}
+.list small{display:block;color:var(--graphite);font-size:12px}
+h1{font:600 30px/1.15 var(--serif);letter-spacing:-.015em;margin:0}
+h2{font:600 20px/1.25 var(--serif);margin:28px 0 10px}
+h3{font:600 17px/1.3 var(--serif);margin:0}
+.muted{color:var(--graphite)}
+.addr{padding:20px 22px}
+.facts{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:10px;margin-top:16px}
+.fact{background:var(--canvas);border-radius:10px;padding:10px 12px}
+.fact b{display:block;font:600 11px/1.3 var(--sans);text-transform:uppercase;letter-spacing:.06em;color:var(--graphite);margin-bottom:3px}
+.fact span{font-size:14px}
+.fact em{display:block;font-style:normal;font-size:12px;color:var(--graphite);margin-top:2px}
+.summary{display:flex;gap:8px;flex-wrap:wrap;margin-top:16px}
+.badge{display:inline-flex;align-items:center;gap:6px;border-radius:999px;padding:3px 10px;font:600 12px var(--sans);white-space:nowrap}
+.b-applies{background:var(--teal);color:#fff}
+.b-unknown{background:var(--amber-soft);color:var(--amber)}
+.b-superseded{background:var(--slate-soft);color:var(--graphite)}
+.b-not_yet_effective{background:var(--violet-soft);color:var(--violet)}
+.b-pending{background:#fff;color:var(--violet);border:1px dashed var(--violet)}
+.b-failed{background:var(--rose-soft);color:var(--rose)}
+.b-in_force{background:var(--teal-soft);color:var(--teal)}
+.lvl{font:500 11px var(--mono);color:var(--graphite);border:1px solid var(--line);border-radius:5px;padding:1px 6px}
+.cat{margin-top:26px}
+.cat>h2{display:flex;align-items:baseline;gap:10px}
+.cat>h2 small{font:400 13px var(--sans);color:var(--graphite)}
+.rule{padding:16px 18px;margin-top:10px}
+.rule .top{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+.rule .top h3{margin-right:auto}
+.req{margin:10px 0 0;font-size:15.5px}
+.kv{font:600 15px var(--mono);color:var(--teal)}
+.why{margin:10px 0 0;padding:0;list-style:none;font-size:14px;color:var(--graphite)}
+.why li{padding-left:16px;position:relative;margin-top:3px}
+.why li:before{content:"";position:absolute;left:3px;top:.62em;width:5px;height:5px;border-radius:50%;background:var(--ash)}
+details.src{margin-top:12px;border-top:1px solid var(--line);padding-top:10px}
+details.src summary{cursor:pointer;font-size:13px;color:var(--graphite);list-style:none}
+details.src summary::-webkit-details-marker{display:none}
+details.src summary:before{content:"▸ ";color:var(--ash)}
+details.src[open] summary:before{content:"▾ "}
+blockquote{margin:10px 0 6px;padding:10px 14px;border-left:3px solid var(--teal);background:var(--canvas);font:16px/1.5 var(--serif);border-radius:0 8px 8px 0}
+.cite{font:12.5px var(--mono);color:var(--graphite);word-break:break-word}
+.conflict{margin-top:10px;background:var(--amber-soft);color:var(--amber);border-radius:8px;padding:8px 12px;font-size:13.5px}
+.conflict b{font-weight:600}
+.gap{color:var(--graphite);font-size:14px;padding:10px 0}
+.empty{padding:40px;text-align:center;color:var(--graphite)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:12px}
+.stat{padding:16px}
+.stat b{display:block;font:600 30px/1 var(--serif);letter-spacing:-.02em}
+.stat span{font-size:13px;color:var(--graphite)}
+table{border-collapse:collapse;width:100%;font-size:13.5px}
+th,td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font:600 11px var(--sans);text-transform:uppercase;letter-spacing:.06em;color:var(--graphite);background:var(--canvas);position:sticky;top:0}
+.matrix td{min-width:120px}
+.matrix .rchip{display:inline-block;margin:2px 3px 2px 0;cursor:pointer;border:0}
+.nr{color:var(--ash);font-size:12px}
+.test{padding:18px 20px;margin-top:14px}
+.test .top{display:flex;gap:12px;align-items:center;flex-wrap:wrap}
+.test h3{margin-right:auto}
+.bars{margin-top:12px;display:grid;grid-template-columns:150px 1fr 54px;gap:6px 10px;align-items:center;font-size:13px}
+.track{height:10px;background:var(--slate-soft);border-radius:99px;overflow:hidden}
+.fill{height:100%;background:var(--teal);border-radius:99px}
+.fill.flag{background:var(--amber)}
+.ids{font:12px/1.6 var(--mono);color:var(--graphite);margin-top:8px;max-height:84px;overflow:auto}
+.scroll{max-height:560px;overflow:auto;border-radius:14px}
+dialog{border:1px solid var(--line);border-radius:16px;max-width:760px;width:calc(100% - 32px);padding:22px;background:var(--paper);color:var(--ink)}
+dialog::backdrop{background:rgba(39,37,30,.35)}
+.x{float:right;border:0;background:none;font-size:22px;cursor:pointer;color:var(--graphite)}
+.pill-row{display:flex;gap:6px;flex-wrap:wrap;margin-top:8px}
+@media (max-width:860px){.cols{grid-template-columns:1fr}.side{position:static;max-height:420px}.bar{gap:10px}.bars{grid-template-columns:110px 1fr 44px}}
+</style>
+</head>
+<body>
+<header>
+  <div class="bar">
+    <div class="brand">Rental Law Navigator<small>Which housing rules apply at an address, on a date, and why</small></div>
+    <nav role="tablist">
+      <button role="tab" data-tab="address" aria-selected="true">Address</button>
+      <button role="tab" data-tab="changes">Law changes</button>
+      <button role="tab" data-tab="rules">Rules</button>
+      <button role="tab" data-tab="pipeline">How it works</button>
+    </nav>
+    <label class="asof">As of <input type="date" id="asof" value="2026-10-01" min="2015-01-01" max="2035-12-31"></label>
+  </div>
+  <div class="notice"><div>Not legal advice and not a compliance certification. Summaries of public law for research; every answer cites its source and retrieval date. Check with a qualified professional.</div></div>
+</header>
+<main>
+  <section id="tab-address">
+    <div class="cols">
+      <aside class="panel side">
+        <div class="search">
+          <input id="q" placeholder="Search 500 addresses: street, city, ZIP" autocomplete="off" aria-label="Search addresses">
+          <div class="chips" id="cityChips"></div>
+        </div>
+        <div class="list" id="addrList"></div>
+      </aside>
+      <div id="addrView"><div class="panel empty">Pick an address to see which rules apply.</div></div>
+    </div>
+  </section>
+  <section id="tab-changes" hidden></section>
+  <section id="tab-rules" hidden></section>
+  <section id="tab-pipeline" hidden></section>
+</main>
+<dialog id="ruleDlg"></dialog>
+<script>
+const $ = s => document.querySelector(s);
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const CAT = {rent_increase_limits:"Rent increase limits", just_cause_eviction:"Just-cause eviction",
+  security_deposits:"Security deposits", application_screening_fees:"Application & screening fees",
+  screening_restrictions:"Screening restrictions", algorithmic_rent_setting:"Algorithmic rent setting"};
+const RES = {applies:"Applies", unknown:"Unknown", superseded:"Superseded", not_yet_effective:"Not yet effective",
+  pending:"Pending bill", failed:"Not law", in_force:"In force"};
+const RES_HELP = {applies:"In force and covers this address", unknown:"Coverage depends on a fact the public record does not have",
+  superseded:"Covered, but a stricter rule at another level governs", not_yet_effective:"Enacted; takes effect after the date shown",
+  pending:"A bill or proposal, not law"};
+let META = null, CUR = null, CITY = null;
+const asof = () => $("#asof").value;
+const badge = r => `<span class="badge b-${r}" title="${esc(RES_HELP[r]||"")}">${esc(RES[r]||r)}</span>`;
+async function api(p){ const r = await fetch(p); if(!r.ok) throw new Error((await r.json()).error||r.status); return r.json(); }
+
+function srcBlock(rule){
+  const sup = (rule.supporting_sources||[]);
+  return `<details class="src"><summary>Source: ${esc(rule.citation)} · retrieved ${esc((rule.retrieved||"").slice(0,10))}</summary>
+    <blockquote>${esc(rule.quoted_span)}</blockquote>
+    <div class="cite">${esc(rule.citation)} · <a href="${esc(rule.source_url)}" target="_blank" rel="noopener">${esc(rule.source_doc_id)}</a> · retrieved ${esc(rule.retrieved)} · quote check: ${esc(rule.span_check)}</div>
+    ${sup.length?`<div class="cite" style="margin-top:6px">Also stated in: ${sup.map(s=>`<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.doc)}</a>${s.effective_date?` (effective ${esc(s.effective_date)})`:""}`).join(", ")}</div>`:""}
+  </details>`;
+}
+
+function ruleCard(row){
+  const r = row.rule;
+  return `<article class="panel rule">
+    <div class="top"><h3>${esc(r.title)}</h3><span class="lvl">${r.level==="state"?"State":"City"} · ${esc(r.jurisdiction)}</span>${badge(row.result)}</div>
+    <p class="req">${esc(r.requirement)}${r.key_value?` <span class="kv">${esc(r.key_value)}</span>`:""}</p>
+    <ul class="why">${row.reasons.map(x=>`<li>${esc(x)}</li>`).join("")}</ul>
+    ${row.conflict_flag?`<div class="conflict"><b>Flagged for human review.</b> ${esc(row.conflict_note||r.conflict_note||"")}</div>`:""}
+    ${srcBlock(r)}
+  </article>`;
+}
+
+async function showAddress(id){
+  CUR = id;
+  document.querySelectorAll("#addrList button").forEach(b=>b.setAttribute("aria-current", b.dataset.id===id));
+  const d = await api(`/api/lookup?id=${id}&as_of=${asof()}`);
+  const a = d.address;
+  const units = a.units_low==null ? "Unknown" : (a.units_high===a.units_low ? a.units_low : `${a.units_low}${a.units_high?"–"+a.units_high:"+"}`);
+  const counts = {}; d.results.forEach(r=>counts[r.result]=(counts[r.result]||0)+1);
+  let html = `<div class="panel addr">
+    <div class="muted" style="font-size:13px">${esc(a.address_id)} · as of ${esc(d.as_of)}</div>
+    <h1>${esc(a.street)}</h1>
+    <div class="muted">${esc(a.postal_city)}, ${esc(a.state)} ${esc(a.zip)}</div>
+    <div class="facts">
+      <div class="fact"><b>Legal jurisdiction</b><span>${esc(a.city||"Unresolved")}</span><em>${esc(a.jurisdiction_basis)}</em></div>
+      <div class="fact"><b>Year built</b><span>${esc(a.year_built??"Not in record")}</span><em>Construction year, not the certificate-of-occupancy date</em></div>
+      <div class="fact"><b>Units</b><span>${esc(units)}</span><em>${esc(a.units_basis)}</em></div>
+      <div class="fact"><b>Use</b><span>${esc(a.use_description)}</span><em>${esc(a.source_dataset)}${a.flags.length?" · "+esc(a.flags.join(", ")):""}</em></div>
+    </div>
+    <div class="summary">${Object.entries(counts).map(([k,v])=>`${badge(k)}<span class="muted" style="font-size:13px;margin-right:8px">× ${v}</span>`).join("")}</div>
+  </div>`;
+  for (const c of META.categories){
+    const rows = d.results.filter(r=>r.category===c);
+    html += `<section class="cat"><h2>${CAT[c]} <small>${rows.length?rows.length+" rule"+(rows.length>1?"s":""):""}</small></h2>`;
+    html += rows.length ? rows.map(ruleCard).join("") : `<div class="gap">No rule in this category covers this address in the corpus.</div>`;
+    html += `</section>`;
+  }
+  if (d.not_law.length){
+    html += `<section class="cat"><h2>Not law <small>shown so no one mistakes them for rules</small></h2>` +
+      d.not_law.map(r=>`<article class="panel rule"><div class="top"><h3>${esc(r.title)}</h3>${badge("failed")}</div><p class="req">${esc(r.requirement)}</p>${srcBlock(r)}</article>`).join("") + `</section>`;
+  }
+  $("#addrView").innerHTML = html;
+}
+
+async function loadList(){
+  const q = $("#q").value + (CITY ? " " + CITY.split(",")[0] : "");
+  const items = await api(`/api/addresses?q=${encodeURIComponent(q)}`);
+  $("#addrList").innerHTML = items.map(a=>`<button data-id="${a.address_id}" aria-current="${a.address_id===CUR}">${esc(a.street)}<small>${esc(a.address_id)} · ${esc(a.city||a.postal_city+" (unresolved)")}</small></button>`).join("") || `<div class="empty">No match</div>`;
+}
+
+async function showChanges(){
+  const d = await api("/api/changes");
+  const addrCity = {}; // filled lazily from meta cities by id is not needed: notes carry counts
+  let html = `<h1>Law changes</h1><p class="muted">Each case reruns the same engine at the dates it names and compares the answers. Change cases are data: a new ordinance is a new file, not new code.</p>`;
+  for (const t of d.tests){
+    const r = d.results[t.test_id] || {affected_address_ids:[], conflict_flag_address_ids:[], notes:"not run"};
+    html += `<article class="panel test"><div class="top"><span class="lvl">${esc(t.test_id)}</span><h3>${esc(t.title)}</h3>
+      <span class="badge b-in_force">${r.affected_address_ids.length} affected</span>
+      ${r.conflict_flag_address_ids.length?`<span class="badge b-unknown">${r.conflict_flag_address_ids.length} flagged</span>`:""}</div>
+      <p class="req muted">${esc(t.expected_behavior||t.description||"")}</p>
+      <p class="req">${esc(r.notes)}</p>
+      <div class="bars" id="bars-${t.test_id}"></div>
+      ${r.affected_address_ids.length?`<details class="src"><summary>Affected address ids</summary><div class="ids">${r.affected_address_ids.join(" ")}</div></details>`:""}
+      ${t.as_of_before?`<div class="pill-row"><button class="chip" data-date="${t.as_of_before}">View as of ${t.as_of_before}</button><button class="chip" data-date="${t.as_of_after}">View as of ${t.as_of_after}</button></div>`:""}
+    </article>`;
+  }
+  $("#tab-changes").innerHTML = html;
+  const all = await api(`/api/addresses?q=`).catch(()=>[]);
+  // per-city breakdown, computed from the address directory
+  const cityOf = {}; (META.addr_index||[]).forEach(a=>cityOf[a.id]=a.city);
+  for (const t of d.tests){
+    const r = d.results[t.test_id]; if(!r) continue;
+    const by = {}; r.affected_address_ids.forEach(id=>{const c=cityOf[id]||"?"; by[c]=(by[c]||0)+1});
+    const fl = {}; r.conflict_flag_address_ids.forEach(id=>{const c=cityOf[id]||"?"; fl[c]=(fl[c]||0)+1});
+    const cities = Object.keys(META.cities).filter(c=>by[c]||fl[c]);
+    $(`#bars-${t.test_id}`).innerHTML = cities.map(c=>`<span>${esc(c)}</span><div class="track"><div class="fill${!by[c]&&fl[c]?" flag":""}" style="width:${100*(by[c]||fl[c])/META.cities[c]}%"></div></div><span class="muted">${by[c]||0}/${META.cities[c]}</span>`).join("") ||
+      `<span class="muted" style="grid-column:1/-1">No address affected.</span>`;
+  }
+}
+
+function ruleDialog(id){
+  const r = META.rules.find(x=>x.team_rule_id===id);
+  $("#ruleDlg").innerHTML = `<button class="x" onclick="ruleDlg.close()" aria-label="Close">×</button>
+    <div class="muted" style="font-size:13px">${esc(r.team_rule_id)} · ${esc(CAT[r.category])}</div>
+    <h2 style="margin-top:4px">${esc(r.title)}</h2>
+    <div class="pill-row">${badge(r.status)}<span class="lvl">${esc(r.jurisdiction)}</span>${r.effective_date?`<span class="lvl">effective ${esc(r.effective_date)}</span>`:""}<span class="lvl">confidence ${esc(r.confidence)}</span></div>
+    <p class="req">${esc(r.requirement)} ${r.key_value?`<span class="kv">${esc(r.key_value)}</span>`:""}</p>
+    ${r.coverage?`<p class="req muted"><b>Covers:</b> ${esc(r.coverage)}</p>`:""}
+    ${r.exemptions?`<p class="req muted"><b>Exemptions:</b> ${esc(r.exemptions)}</p>`:""}
+    ${r.interaction?`<p class="req muted"><b>Interaction:</b> ${esc(r.interaction)} ${esc((r.overrides||[]).join(", "))}</p>`:""}
+    ${r.conflict_flag?`<div class="conflict"><b>Flagged for human review.</b> ${esc(r.conflict_note)}</div>`:""}
+    ${srcBlock(r).replace("<details","<details open")}`;
+  $("#ruleDlg").showModal();
+}
+
+function showRules(){
+  const cats = META.categories;
+  let html = `<h1>Rules</h1><p class="muted">${META.rules.length} rules extracted from the corpus. One row per jurisdiction; an empty cell is a finding too: no rule in the corpus for that category.</p>
+  <div class="panel scroll"><table class="matrix"><thead><tr><th>Jurisdiction</th>${cats.map(c=>`<th>${CAT[c]}</th>`).join("")}</tr></thead><tbody>`;
+  for (const [j,row] of Object.entries(META.matrix)){
+    html += `<tr><td><b>${esc(j)}</b></td>` + cats.map(c=>{
+      const ids = row[c]; if(!ids.length) return `<td><span class="nr">no rule in corpus</span></td>`;
+      return `<td>${ids.map(id=>{const r=META.rules.find(x=>x.team_rule_id===id);return `<button class="badge rchip b-${r.status}" data-rule="${id}" title="${esc(r.title)}">${esc(r.key_value||RES[r.status]||r.status)}</button>`}).join("")}</td>`;
+    }).join("") + `</tr>`;
+  }
+  $("#tab-rules").innerHTML = html + `</tbody></table></div>`;
+}
+
+async function showPipeline(){
+  const p = META.pipeline, log = await api("/api/audit?n=120");
+  $("#tab-pipeline").innerHTML = `<h1>How it works</h1>
+  <p class="muted">Module A reads every document with a language model that must return a strict schema; code then checks every quote against the source text and drops what it cannot find. Module B is plain code: Census Geocoder for the legal city, three-valued coverage tests, layered state and city law. Module C reruns B at other dates.</p>
+  <div class="grid">
+    <div class="panel stat"><b>${p.documents_read}</b><span>documents read</span></div>
+    <div class="panel stat"><b>${p.candidates}</b><span>candidate rules proposed</span></div>
+    <div class="panel stat"><b>${p.exact}</b><span>quotes found verbatim</span></div>
+    <div class="panel stat"><b>${p.repaired}</b><span>quotes repaired to the source's exact words</span></div>
+    <div class="panel stat"><b>${p.dropped}</b><span>dropped: quote not in the source</span></div>
+    <div class="panel stat"><b>${p.rules}</b><span>rules after merging duplicates</span></div>
+    <div class="panel stat"><b>${p.conflicts}</b><span>flagged for human review</span></div>
+    <div class="panel stat"><b>${META.addresses}</b><span>addresses resolved</span></div>
+  </div>
+  <h2>Dropped by the quote check</h2>
+  <div class="panel scroll"><table><thead><tr><th>Doc</th><th>Proposed rule</th><th>Check</th><th>Model's quote</th></tr></thead><tbody>
+  ${META.dropped.map(d=>`<tr><td>${esc(d.source_doc_id)}</td><td>${esc(d.title)}</td><td>${esc(d.span_check)}</td><td>${esc((d.quoted_span||"").slice(0,180))}</td></tr>`).join("")||`<tr><td colspan=4 class="muted">None</td></tr>`}</tbody></table></div>
+  <h2>Audit log</h2>
+  <div class="panel scroll"><table><thead><tr><th>Time (UTC)</th><th>Event</th><th>Detail</th></tr></thead><tbody>
+  ${log.reverse().map(e=>{const {at,event,...rest}=e;return `<tr><td class="cite">${esc(at)}</td><td>${esc(event)}</td><td class="cite">${esc(JSON.stringify(rest).slice(0,220))}</td></tr>`}).join("")}</tbody></table></div>`;
+}
+
+function tab(name){
+  document.querySelectorAll("nav button").forEach(b=>b.setAttribute("aria-selected", b.dataset.tab===name));
+  document.querySelectorAll("main>section").forEach(s=>s.hidden = s.id!=="tab-"+name);
+  if(name==="changes") showChanges(); if(name==="rules") showRules(); if(name==="pipeline") showPipeline();
+  try{ localStorage.setItem("nav-tab", name) }catch(e){}
+}
+
+document.addEventListener("click", e=>{
+  const t = e.target.closest("[data-tab]"); if(t) return tab(t.dataset.tab);
+  const a = e.target.closest("#addrList button"); if(a) return showAddress(a.dataset.id);
+  const r = e.target.closest("[data-rule]"); if(r) return ruleDialog(r.dataset.rule);
+  const d = e.target.closest("[data-date]"); if(d){ $("#asof").value = d.dataset.date; tab("address"); if(CUR) showAddress(CUR); return; }
+  const c = e.target.closest("#cityChips .chip"); if(c){ CITY = CITY===c.dataset.city?null:c.dataset.city;
+    document.querySelectorAll("#cityChips .chip").forEach(x=>x.setAttribute("aria-pressed", x.dataset.city===CITY)); loadList(); }
+});
+$("#q").addEventListener("input", ()=>loadList());
+$("#asof").addEventListener("change", ()=>{ if(CUR) showAddress(CUR); });
+
+(async()=>{
+  META = await api("/api/meta");
+  $("#cityChips").innerHTML = Object.keys(META.cities).sort().map(c=>`<button class="chip" data-city="${esc(c)}" aria-pressed="false">${esc(c.split(",")[0])}</button>`).join("");
+  await loadList();
+  const first = new URLSearchParams(location.search).get("id") || "A0001";
+  showAddress(first);
+  let saved = null; try{ saved = localStorage.getItem("nav-tab") }catch(e){}
+  if(saved && saved!=="address") tab(saved);
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+{
+ "meta": {
+  "model": "gemini-3.5-flash-lite",
+  "seconds": 2.2,
+  "tag": "extract-D044",
+  "usage": {
+   "promptTokenCount": 2629,
+   "candidatesTokenCount": 471,
+   "totalTokenCount": 3100,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 2629
+    }
+   ],
+   "serviceTier": "standard"
+  },
+  "at": "2026-10-03T17:39:33Z"
+ },
+ "output": {
+  "rules": [
+   {
+    "jurisdiction": "Los Angeles, CA",
+    "level": "city",
+    "category": "security_deposits",
+    "lifecycle": "enacted",
+    "title": "Security Deposit Interest Requirement",
+    "requirement": "Landlords of properties subject to the Los Angeles Rent Stabilization Ordinance must pay tenants interest on their security deposits either monthly or annually, provided as a direct payment or a rent credit, after giving written notice of the chosen method.",
+    "key_value": null,
+    "coverage": {
+     "summary": "Properties subject to the Los Angeles Rent Stabilization Ordinance (LARSO).",
+     "built_on_or_before": null,
+     "built_after": null,
+     "built_basis": "not_stated",
+     "rolling_age_years": null,
+     "min_units": null,
+     "single_family_excluded": null,
+     "owner_dependent": null,
+     "owner_condition": null,
+     "owner_exemption_max_units": null,
+     "subsidized_excluded": null,
+     "unresolvable": "Applies to properties subject to the Los Angeles Rent Stabilization Ordinance (LARSO)."
+    },
+    "exemptions": null,
+    "effective_date": "1990-11-01",
+    "enacted_date": null,
+    "citation": "LAMC Section 151.06.02",
+    "quoted_span": "Interest shall begin accruing on November 1, 1990, on a monthly basis. A tenant shall be given the unpaid accrued interest in the form of either a direct payment or a credit against the tenant\u2019s rent. The landlord shall choose between these two methods of payment and notify the tenant in writing of his or her choice. The landlord may elect to pay the accrued interest on a monthly or yearly basis.",
+    "yields_to_local": false,
+    "preempts_local": false,
+    "confidence": 1.0
+   }
+  ]
+ }
+}

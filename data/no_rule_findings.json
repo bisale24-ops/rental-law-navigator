@@ -1,0 +1,718 @@
+[
+ {
+  "jurisdiction": "Los Angeles, CA",
+  "category": "application_screening_fees",
+  "finding": "no_rule_in_corpus",
+  "note": "No enacted application screening fees rule found for Los Angeles, CA in 5 documents with text; the state rule r-0002 (California Tenant Screening Fee Limits and Requirements) governs; 2 source(s) for Los Angeles, CA are link-only in the starter pack (D038, D044) and could hold a rule: human review",
+  "governing_rule_ids": [
+   "r-0002"
+  ],
+  "documents_searched": [
+   "D039",
+   "D040",
+   "D041",
+   "D042",
+   "D043"
+  ],
+  "link_only_sources": [
+   "D038",
+   "D044"
+  ]
+ },
+ {
+  "jurisdiction": "Los Angeles, CA",
+  "category": "screening_restrictions",
+  "finding": "no_rule_in_corpus",
+  "note": "No enacted screening restrictions rule found for Los Angeles, CA in 5 documents with text; the state rule r-0005 (Fair Employment and Housing Act Protected Characteristics) governs; 2 source(s) for Los Angeles, CA are link-only in the starter pack (D038, D044) and could hold a rule: human review",
+  "governing_rule_ids": [
+   "r-0005"
+  ],
+  "documents_searched": [
+   "D039",
+   "D040",
+   "D041",
+   "D042",
+   "D043"
+  ],
+  "link_only_sources": [
+   "D038",
+   "D044"
+  ]
+ },
+ {
+  "jurisdiction": "Los Angeles, CA",
+  "category": "algorithmic_rent_setting",
+  "finding": "no_rule_in_corpus",
+  "note": "No enacted algorithmic rent setting rule found for Los Angeles, CA in 5 documents with text; not law: r-0013 Instruction to Report on Algorithm-Based Rent Setting Ban (pending_bill); the state rule r-0001 (AB 325 Cartwright Act: Common Pricing Algorithm Restrictions) governs; 2 source(s) for Los Angeles, CA are link-only in the starter pack (D038, D044) and could hold a rule: human review",
+  "governing_rule_ids": [
+   "r-0001"
+  ],
+  "documents_searched": [
+   "D039",
+   "D040",
+   "D041",
+   "D042",
+   "D043"
+  ],
+  "link_only_sources": [
+   "D038",
+   "D044"
+  ]
+ },
+ {
+  "jurisdiction": "San Diego, CA",
+  "category": "rent_increase_limits",
+  "finding": "no_rule_in_corpus",
+  "note": "No enacted rent increase limits rule found for San Diego, CA in 2 documents with text; the state rule r-0004 (Statewide Rent Increase Limits) governs; 3 source(s) for San Diego, CA are link-only in the starter pack (D074, D075, D077) and could hold a rule: human review",
+  "governing_rule_ids": [
+   "r-0004"
+  ],
+  "documents_searched": [
+   "D073",
+   "D076"
+  ],
+  "link_only_sources": [
+   "D074",
+   "D075",
+   "D077"
+  ]
+ },
+ {
+  "jurisdiction": "San Diego, CA",
+  "category": "security_deposits",
+  "finding": "no_rule_in_corpus",
+  "note": "No enacted security deposits rule found for San Diego, CA in 2 documents with text; the state rule r-0006 (Security Deposit Limit) governs; 3 source(s) for San Diego, CA are link-only in the starter pack (D074, D075, D077) and could hold a rule: human review",
+  "governing_rule_ids": [
+   "r-0006"
+  ],
+  "documents_searched": [
+   "D073",
+   "D076"
+  ],
+  "link_only_sources": [
+   "D074",
+   "D075",
+   "D077"
+  ]
+ },
+ {
+  "jurisdiction": "San Diego, CA",
+  "category": "application_screening_fees",
+  "finding": "no_rule_in_corpus",
+  "note": "No enacted application screening fees rule found for San Diego, CA in 2 documents with text; the state rule r-0002 (California Tenant Screening Fee Limits and Requirements) governs; 3 source(s) for San Diego, CA are link-only in the starter pack (D074, D075, D077) and could hold a rule: human review",
+  "governing_rule_ids": [
+   "r-0002"
+  ],
+  "documents_searched": [
+   "D073",
+   "D076"
+  ],
+  "link_only_sources": [
+   "D074",
+   "D075",
+   "D077"
+  ]
+ },
+ {
+  "jurisdiction": "San Diego, CA",
+  "category": "screening_restrictions",
+  "finding": "no_rule_in_corpus",
+  "note": "No enacted screening restrictions rule found for San Diego, CA in 2 documents with text; the state rule r-0005 (Fair Employment and Housing Act Protected Characteristics) governs; 3 source(s) for San Diego, CA are link-only in the starter pack (D074, D075, D077) and could hold a rule: human review",
+  "governing_rule_ids": [
+   "r-0005"
+  ],
+  "documents_searched": [
+   "D073",
+   "D076"
+  ],
+  "link_only_sources": [
+   "D074",
+   "D075",
+   "D077"
+  ]
+ },
+ {
+  "jurisdiction": "San Diego, CA",
+  "category": "algorithmic_rent_setting",
+  "finding": "no_rule_in_corpus",
+  "note": "No enacted algorithmic rent setting rule found for San Diego, CA in 2 documents with text; not law: r-0017 Prohibition of Anti-Competitive Automated Rent Price-Fixing Ordinance (pending_bill); the state rule r-0001 (AB 325 Cartwright Act: Common Pricing Algorithm Restrictions) governs; 3 source(s) for San Diego, CA are link-only in the starter pack (D074, D075, D077) and could hold a rule: human review",
+  "governing_rule_ids": [
+   "r-0001"
+  ],
+  "documents_searched": [
+   "D073",
+   "D076"
+  ],
+  "link_only_sources": [
+   "D074",
+   "D075",
+   "D077"
+  ]
+ },
+ {
+  "jurisdiction": "San Francisco, CA",
+  "category": "application_screening_fees",
+  "finding": "no_rule_in_corpus",
+  "note": "No enacted application screening fees rule found for San Francisco, CA in 6 documents with text; the state rule r-0002 (California Tenant Screening Fee Limits and Requirements) governs",
+  "governing_rule_ids": [
+   "r-0002"
+  ],
+  "documents_searched": [
+   "D078",
+   "D079",
+   "D080",
+   "D081",
+   "D082",
+   "D083"
+  ],
+  "link_only_sources": []
+ },
+ {
+  "jurisdiction": "San Francisco, CA",
+  "category": "screening_restrictions",
+  "finding": "no_rule_in_corpus",
+  "note": "No enacted screening restrictions rule found for San Francisco, CA in 6 documents with text; the state rule r-0005 (Fair Employment and Housing Act Protected Characteristics) governs",
+  "governing_rule_ids": [
+   "r-0005"
+  ],
+  "documents_searched": [
+   "D078",
+   "D079",
+   "D080",
+   "D081",
+   "D082",
+   "D083"
+  ],
+  "link_only_sources": []
+ },
+ {
+  "jurisdiction": "Santa Ana, CA",
+  "category": "security_deposits",
+  "finding": "no_rule_in_corpus",
+  "note": "No enacted security deposits rule found for Santa Ana, CA in 2 documents with text; the state rule r-0006 (Security Deposit Limit) governs; 2 source(s) for Santa Ana, CA are link-only in the starter pack (D086, D087) and could hold a rule: human review",
+  "governing_rule_ids": [
+   "r-0006"
+  ],
+  "documents_searched": [
+   "D084",
+   "D085"
+  ],
+  "link_only_sources": [
+   "D086",
+   "D087"
+  ]
+ },
+ {
+  "jurisdiction": "Santa Ana, CA",
+  "category": "application_screening_fees",
+  "finding": "no_rule_in_corpus",
+  "note": "No enacted application screening fees rule found for Santa Ana, CA in 2 documents with text; the state rule r-0002 (California Tenant Screening Fee Limits and Requirements) governs; 2 source(s) for Santa Ana, CA are link-only in the starter pack (D086, D087) and could hold a rule: human review",
+  "governing_rule_ids": [
+   "r-0002"
+  ],
+  "documents_searched": [
+   "D084",
+   "D085"
+  ],
+  "link_only_sources": [
+   "D086",
+   "D087"
+  ]
+ },
+ {
+  "jurisdiction": "Santa Ana, CA",
+  "category": "screening_restrictions",
+  "finding": "no_rule_in_corpus",
+  "note": "No enacted screening restrictions rule found for Santa Ana, CA in 2 documents with text; the state rule r-0005 (Fair Employment and Housing Act Protected Characteristics) governs; 2 source(s) for Santa Ana, CA are link-only in the starter pack (D086, D087) and could hold a rule: human review",
+  "governing_rule_ids": [
+   "r-0005"
+  ],
+  "documents_searched": [
+   "D084",
+   "D085"
+  ],
+  "link_only_sources": [
+   "D086",
+   "D087"
+  ]
+ },
+ {
+  "jurisdiction": "Santa Ana, CA",
+  "category": "algorithmic_rent_setting",
+  "finding": "no_rule_in_corpus",
+  "note": "No enacted algorithmic rent setting rule found for Santa Ana, CA in 2 documents with text; the state rule r-0001 (AB 325 Cartwright Act: Common Pricing Algorithm Restrictions) governs; 2 source(s) for Santa Ana, CA are link-only in the starter pack (D086, D087) and could hold a rule: human review",
+  "governing_rule_ids": [
+   "r-0001"
+  ],
+  "documents_searched": [
+   "D084",
+   "D085"
+  ],
+  "link_only_sources": [
+   "D086",
+   "D087"
+  ]
+ },
+ {
+  "jurisdiction": "MA",
+  "category": "algorithmic_rent_setting",
+  "finding": "no_rule_in_corpus",
+  "note": "No enacted algorithmic rent setting rule found for MA in 11 documents with text; not law: r-0025 An Act prohibiting algorithmic rent setting (pending_bill), r-0026 An Act relative to preventing algorithmic rent fixing in the rental housing market (pending_bill); 4 source(s) for MA are link-only in the starter pack (D054, D055, D056, D059) and could hold a rule: human review",
+  "governing_rule_ids": [],
+  "documents_searched": [
+   "D045",
+   "D046",
+   "D047",
+   "D048",
+   "D049",
+   "D050",
+   "D051",
+   "D052",
+   "D053",
+   "D057",
+   "D058"
+  ],
+  "link_only_sources": [
+   "D054",
+   "D055",
+   "D056",
+   "D059"
+  ]
+ },
+ {
+  "jurisdiction": "Boston, MA",
+  "category": "rent_increase_limits",
+  "finding": "no_rule_in_corpus",
+  "note": "No enacted rent increase limits rule found for Boston, MA in 5 documents with text; not law: r-0035 Bill H.3744 (failed); the state rule r-0029 (General prohibition on rent control with voluntary exception) governs",
+  "governing_rule_ids": [
+   "r-0029"
+  ],
+  "documents_searched": [
+   "D010",
+   "D011",
+   "D012",
+   "D013",
+   "D014"
+  ],
+  "link_only_sources": []
+ },
+ {
+  "jurisdiction": "Boston, MA",
+  "category": "just_cause_eviction",
+  "finding": "no_rule_in_corpus",
+  "note": "No enacted just cause eviction rule found for Boston, MA in 5 documents with text; not law: r-0034 Bill H.3744 (failed); the state rule r-0028 (Notice to determine estate at will and cure for nonpayment) governs",
+  "governing_rule_ids": [
+   "r-0028"
+  ],
+  "documents_searched": [
+   "D010",
+   "D011",
+   "D012",
+   "D013",
+   "D014"
+  ],
+  "link_only_sources": []
+ },
+ {
+  "jurisdiction": "Boston, MA",
+  "category": "security_deposits",
+  "finding": "no_rule_in_corpus",
+  "note": "No enacted security deposits rule found for Boston, MA in 5 documents with text; the state rule r-0033 (Maximum Move-in Payments Limit) governs",
+  "governing_rule_ids": [
+   "r-0033"
+  ],
+  "documents_searched": [
+   "D010",
+   "D011",
+   "D012",
+   "D013",
+   "D014"
+  ],
+  "link_only_sources": []
+ },
+ {
+  "jurisdiction": "Boston, MA",
+  "category": "application_screening_fees",
+  "finding": "no_rule_in_corpus",
+  "note": "No enacted application screening fees rule found for Boston, MA in 5 documents with text; the state rule r-0027 (Tenant Fee Responsibility for Real Estate Brokers and Salespersons) governs",
+  "governing_rule_ids": [
+   "r-0027"
+  ],
+  "documents_searched": [
+   "D010",
+   "D011",
+   "D012",
+   "D013",
+   "D014"
+  ],
+  "link_only_sources": []
+ },
+ {
+  "jurisdiction": "Boston, MA",
+  "category": "algorithmic_rent_setting",
+  "finding": "no_rule_in_corpus",
+  "note": "No enacted algorithmic rent setting rule found for Boston, MA in 5 documents with text",
+  "governing_rule_ids": [],
+  "documents_searched": [
+   "D010",
+   "D011",
+   "D012",
+   "D013",
+   "D014"
+  ],
+  "link_only_sources": []
+ },
+ {
+  "jurisdiction": "Cambridge, MA",
+  "category": "rent_increase_limits",
+  "finding": "no_rule_in_corpus",
+  "note": "No enacted rent increase limits rule found for Cambridge, MA in 2 documents with text; the state rule r-0029 (General prohibition on rent control with voluntary exception) governs; 1 source(s) for Cambridge, MA are link-only in the starter pack (D030) and could hold a rule: human review",
+  "governing_rule_ids": [
+   "r-0029"
+  ],
+  "documents_searched": [
+   "D029",
+   "D031"
+  ],
+  "link_only_sources": [
+   "D030"
+  ]
+ },
+ {
+  "jurisdiction": "Cambridge, MA",
+  "category": "just_cause_eviction",
+  "finding": "no_rule_in_corpus",
+  "note": "No enacted just cause eviction rule found for Cambridge, MA in 2 documents with text; the state rule r-0028 (Notice to determine estate at will and cure for nonpayment) governs; 1 source(s) for Cambridge, MA are link-only in the starter pack (D030) and could hold a rule: human review",
+  "governing_rule_ids": [
+   "r-0028"
+  ],
+  "documents_searched": [
+   "D029",
+   "D031"
+  ],
+  "link_only_sources": [
+   "D030"
+  ]
+ },
+ {
+  "jurisdiction": "Cambridge, MA",
+  "category": "security_deposits",
+  "finding": "no_rule_in_corpus",
+  "note": "No enacted security deposits rule found for Cambridge, MA in 2 documents with text; the state rule r-0033 (Maximum Move-in Payments Limit) governs; 1 source(s) for Cambridge, MA are link-only in the starter pack (D030) and could hold a rule: human review",
+  "governing_rule_ids": [
+   "r-0033"
+  ],
+  "documents_searched": [
+   "D029",
+   "D031"
+  ],
+  "link_only_sources": [
+   "D030"
+  ]
+ },
+ {
+  "jurisdiction": "Cambridge, MA",
+  "category": "application_screening_fees",
+  "finding": "no_rule_in_corpus",
+  "note": "No enacted application screening fees rule found for Cambridge, MA in 2 documents with text; the state rule r-0027 (Tenant Fee Responsibility for Real Estate Brokers and Salespersons) governs; 1 source(s) for Cambridge, MA are link-only in the starter pack (D030) and could hold a rule: human review",
+  "governing_rule_ids": [
+   "r-0027"
+  ],
+  "documents_searched": [
+   "D029",
+   "D031"
+  ],
+  "link_only_sources": [
+   "D030"
+  ]
+ },
+ {
+  "jurisdiction": "Cambridge, MA",
+  "category": "algorithmic_rent_setting",
+  "finding": "no_rule_in_corpus",
+  "note": "No enacted algorithmic rent setting rule found for Cambridge, MA in 2 documents with text; not law: r-0037 Ban on Algorithmic Rental Pricing Models (pending_bill); 1 source(s) for Cambridge, MA are link-only in the starter pack (D030) and could hold a rule: human review",
+  "governing_rule_ids": [],
+  "documents_searched": [
+   "D029",
+   "D031"
+  ],
+  "link_only_sources": [
+   "D030"
+  ]
+ },
+ {
+  "jurisdiction": "NJ",
+  "category": "just_cause_eviction",
+  "finding": "no_rule_in_corpus",
+  "note": "No enacted just cause eviction rule found for NJ in 5 documents with text; 5 source(s) for NJ are link-only in the starter pack (D060, D061, D062, D063, D064) and could hold a rule: human review",
+  "governing_rule_ids": [],
+  "documents_searched": [
+   "D065",
+   "D066",
+   "D067",
+   "D068",
+   "D069"
+  ],
+  "link_only_sources": [
+   "D060",
+   "D061",
+   "D062",
+   "D063",
+   "D064"
+  ]
+ },
+ {
+  "jurisdiction": "Hoboken, NJ",
+  "category": "rent_increase_limits",
+  "finding": "no_rule_in_corpus",
+  "note": "No enacted rent increase limits rule found for Hoboken, NJ in 0 documents with text; the state rule r-0041 (Newly Constructed Multiple Dwellings Rent Control Exemption) governs; 3 source(s) for Hoboken, NJ are link-only in the starter pack (D032, D033, D034) and could hold a rule: human review",
+  "governing_rule_ids": [
+   "r-0041"
+  ],
+  "documents_searched": [],
+  "link_only_sources": [
+   "D032",
+   "D033",
+   "D034"
+  ]
+ },
+ {
+  "jurisdiction": "Hoboken, NJ",
+  "category": "just_cause_eviction",
+  "finding": "no_rule_in_corpus",
+  "note": "No enacted just cause eviction rule found for Hoboken, NJ in 0 documents with text; 3 source(s) for Hoboken, NJ are link-only in the starter pack (D032, D033, D034) and could hold a rule: human review",
+  "governing_rule_ids": [],
+  "documents_searched": [],
+  "link_only_sources": [
+   "D032",
+   "D033",
+   "D034"
+  ]
+ },
+ {
+  "jurisdiction": "Hoboken, NJ",
+  "category": "security_deposits",
+  "finding": "no_rule_in_corpus",
+  "note": "No enacted security deposits rule found for Hoboken, NJ in 0 documents with text; the state rule r-0043 (Maximum Security Deposit Limit) governs; 3 source(s) for Hoboken, NJ are link-only in the starter pack (D032, D033, D034) and could hold a rule: human review",
+  "governing_rule_ids": [
+   "r-0043"
+  ],
+  "documents_searched": [],
+  "link_only_sources": [
+   "D032",
+   "D033",
+   "D034"
+  ]
+ },
+ {
+  "jurisdiction": "Hoboken, NJ",
+  "category": "application_screening_fees",
+  "finding": "no_rule_in_corpus",
+  "note": "No enacted application screening fees rule found for Hoboken, NJ in 0 documents with text; the state rule r-0040 (Application Fee Cap) governs; 3 source(s) for Hoboken, NJ are link-only in the starter pack (D032, D033, D034) and could hold a rule: human review",
+  "governing_rule_ids": [
+   "r-0040"
+  ],
+  "documents_searched": [],
+  "link_only_sources": [
+   "D032",
+   "D033",
+   "D034"
+  ]
+ },
+ {
+  "jurisdiction": "Hoboken, NJ",
+  "category": "screening_restrictions",
+  "finding": "no_rule_in_corpus",
+  "note": "No enacted screening restrictions rule found for Hoboken, NJ in 0 documents with text; the state rule r-0042 (Fair Chance in Housing Act - Criminal Record Screening Limitations) governs; 3 source(s) for Hoboken, NJ are link-only in the starter pack (D032, D033, D034) and could hold a rule: human review",
+  "governing_rule_ids": [
+   "r-0042"
+  ],
+  "documents_searched": [],
+  "link_only_sources": [
+   "D032",
+   "D033",
+   "D034"
+  ]
+ },
+ {
+  "jurisdiction": "Hoboken, NJ",
+  "category": "algorithmic_rent_setting",
+  "finding": "no_rule_in_corpus",
+  "note": "No enacted algorithmic rent setting rule found for Hoboken, NJ in 0 documents with text; the state rule r-0039 (Forbidding the Algorithmic Inflation of Rent (FAIR) Act) governs; 3 source(s) for Hoboken, NJ are link-only in the starter pack (D032, D033, D034) and could hold a rule: human review",
+  "governing_rule_ids": [
+   "r-0039"
+  ],
+  "documents_searched": [],
+  "link_only_sources": [
+   "D032",
+   "D033",
+   "D034"
+  ]
+ },
+ {
+  "jurisdiction": "Jersey City, NJ",
+  "category": "just_cause_eviction",
+  "finding": "no_rule_in_corpus",
+  "note": "No enacted just cause eviction rule found for Jersey City, NJ in 1 documents with text; 2 source(s) for Jersey City, NJ are link-only in the starter pack (D035, D037) and could hold a rule: human review",
+  "governing_rule_ids": [],
+  "documents_searched": [
+   "D036"
+  ],
+  "link_only_sources": [
+   "D035",
+   "D037"
+  ]
+ },
+ {
+  "jurisdiction": "Jersey City, NJ",
+  "category": "security_deposits",
+  "finding": "no_rule_in_corpus",
+  "note": "No enacted security deposits rule found for Jersey City, NJ in 1 documents with text; the state rule r-0043 (Maximum Security Deposit Limit) governs; 2 source(s) for Jersey City, NJ are link-only in the starter pack (D035, D037) and could hold a rule: human review",
+  "governing_rule_ids": [
+   "r-0043"
+  ],
+  "documents_searched": [
+   "D036"
+  ],
+  "link_only_sources": [
+   "D035",
+   "D037"
+  ]
+ },
+ {
+  "jurisdiction": "Jersey City, NJ",
+  "category": "application_screening_fees",
+  "finding": "no_rule_in_corpus",
+  "note": "No enacted application screening fees rule found for Jersey City, NJ in 1 documents with text; the state rule r-0040 (Application Fee Cap) governs; 2 source(s) for Jersey City, NJ are link-only in the starter pack (D035, D037) and could hold a rule: human review",
+  "governing_rule_ids": [
+   "r-0040"
+  ],
+  "documents_searched": [
+   "D036"
+  ],
+  "link_only_sources": [
+   "D035",
+   "D037"
+  ]
+ },
+ {
+  "jurisdiction": "Jersey City, NJ",
+  "category": "screening_restrictions",
+  "finding": "no_rule_in_corpus",
+  "note": "No enacted screening restrictions rule found for Jersey City, NJ in 1 documents with text; the state rule r-0042 (Fair Chance in Housing Act - Criminal Record Screening Limitations) governs; 2 source(s) for Jersey City, NJ are link-only in the starter pack (D035, D037) and could hold a rule: human review",
+  "governing_rule_ids": [
+   "r-0042"
+  ],
+  "documents_searched": [
+   "D036"
+  ],
+  "link_only_sources": [
+   "D035",
+   "D037"
+  ]
+ },
+ {
+  "jurisdiction": "Jersey City, NJ",
+  "category": "algorithmic_rent_setting",
+  "finding": "no_rule_in_corpus",
+  "note": "No enacted algorithmic rent setting rule found for Jersey City, NJ in 1 documents with text; the state rule r-0039 (Forbidding the Algorithmic Inflation of Rent (FAIR) Act) governs; 2 source(s) for Jersey City, NJ are link-only in the starter pack (D035, D037) and could hold a rule: human review",
+  "governing_rule_ids": [
+   "r-0039"
+  ],
+  "documents_searched": [
+   "D036"
+  ],
+  "link_only_sources": [
+   "D035",
+   "D037"
+  ]
+ },
+ {
+  "jurisdiction": "Newark, NJ",
+  "category": "rent_increase_limits",
+  "finding": "no_rule_in_corpus",
+  "note": "No enacted rent increase limits rule found for Newark, NJ in 0 documents with text; the state rule r-0041 (Newly Constructed Multiple Dwellings Rent Control Exemption) governs; 3 source(s) for Newark, NJ are link-only in the starter pack (D070, D071, D072) and could hold a rule: human review",
+  "governing_rule_ids": [
+   "r-0041"
+  ],
+  "documents_searched": [],
+  "link_only_sources": [
+   "D070",
+   "D071",
+   "D072"
+  ]
+ },
+ {
+  "jurisdiction": "Newark, NJ",
+  "category": "just_cause_eviction",
+  "finding": "no_rule_in_corpus",
+  "note": "No enacted just cause eviction rule found for Newark, NJ in 0 documents with text; 3 source(s) for Newark, NJ are link-only in the starter pack (D070, D071, D072) and could hold a rule: human review",
+  "governing_rule_ids": [],
+  "documents_searched": [],
+  "link_only_sources": [
+   "D070",
+   "D071",
+   "D072"
+  ]
+ },
+ {
+  "jurisdiction": "Newark, NJ",
+  "category": "security_deposits",
+  "finding": "no_rule_in_corpus",
+  "note": "No enacted security deposits rule found for Newark, NJ in 0 documents with text; the state rule r-0043 (Maximum Security Deposit Limit) governs; 3 source(s) for Newark, NJ are link-only in the starter pack (D070, D071, D072) and could hold a rule: human review",
+  "governing_rule_ids": [
+   "r-0043"
+  ],
+  "documents_searched": [],
+  "link_only_sources": [
+   "D070",
+   "D071",
+   "D072"
+  ]
+ },
+ {
+  "jurisdiction": "Newark, NJ",
+  "category": "application_screening_fees",
+  "finding": "no_rule_in_corpus",
+  "note": "No enacted application screening fees rule found for Newark, NJ in 0 documents with text; the state rule r-0040 (Application Fee Cap) governs; 3 source(s) for Newark, NJ are link-only in the starter pack (D070, D071, D072) and could hold a rule: human review",
+  "governing_rule_ids": [
+   "r-0040"
+  ],
+  "documents_searched": [],
+  "link_only_sources": [
+   "D070",
+   "D071",
+   "D072"
+  ]
+ },
+ {
+  "jurisdiction": "Newark, NJ",
+  "category": "screening_restrictions",
+  "finding": "no_rule_in_corpus",
+  "note": "No enacted screening restrictions rule found for Newark, NJ in 0 documents with text; the state rule r-0042 (Fair Chance in Housing Act - Criminal Record Screening Limitations) governs; 3 source(s) for Newark, NJ are link-only in the starter pack (D070, D071, D072) and could hold a rule: human review",
+  "governing_rule_ids": [
+   "r-0042"
+  ],
+  "documents_searched": [],
+  "link_only_sources": [
+   "D070",
+   "D071",
+   "D072"
+  ]
+ },
+ {
+  "jurisdiction": "Newark, NJ",
+  "category": "algorithmic_rent_setting",
+  "finding": "no_rule_in_corpus",
+  "note": "No enacted algorithmic rent setting rule found for Newark, NJ in 0 documents with text; the state rule r-0039 (Forbidding the Algorithmic Inflation of Rent (FAIR) Act) governs; 3 source(s) for Newark, NJ are link-only in the starter pack (D070, D071, D072) and could hold a rule: human review",
+  "governing_rule_ids": [
+   "r-0039"
+  ],
+  "documents_searched": [],
+  "link_only_sources": [
+   "D070",
+   "D071",
+   "D072"
+  ]
+ }
+]

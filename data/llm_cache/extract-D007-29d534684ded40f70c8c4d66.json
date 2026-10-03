@@ -1,0 +1,148 @@
+{
+ "meta": {
+  "model": "gemini-3.5-flash-lite",
+  "seconds": 5.3,
+  "tag": "extract-D007",
+  "usage": {
+   "promptTokenCount": 2038,
+   "candidatesTokenCount": 1708,
+   "totalTokenCount": 3746,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 2038
+    }
+   ],
+   "serviceTier": "standard"
+  },
+  "at": "2026-10-03T17:33:04Z"
+ },
+ "output": {
+  "rules": [
+   {
+    "jurisdiction": "Berkeley, CA",
+    "level": "city",
+    "category": "security_deposits",
+    "lifecycle": "enacted",
+    "title": "Security Deposit Maximum Limit (General)",
+    "requirement": "Landlords are prohibited from charging a security deposit exceeding one month's rent for unfurnished and furnished units, with exceptions for certain small landlords.",
+    "key_value": "1 month rent",
+    "coverage": {
+     "summary": "Applies to residential tenancies except for certain small landlords owning no more than two properties and four units total.",
+     "built_on_or_before": null,
+     "built_after": null,
+     "built_basis": "not_stated",
+     "rolling_age_years": null,
+     "min_units": null,
+     "single_family_excluded": null,
+     "owner_dependent": true,
+     "owner_condition": "Landlords who own only two rental properties with no more than four residential units total and ownership is held by a natural person, family trust, or LLC where all members are natural persons are exempt from the one-month limit.",
+     "owner_exemption_max_units": 4,
+     "subsidized_excluded": null,
+     "unresolvable": null
+    },
+    "exemptions": "Landlords who own only two rental properties with no more than four residential units total if ownership is held by a natural person, family trust, or limited liability company (LLC) where all members are natural persons.",
+    "effective_date": "2024-07-01",
+    "enacted_date": null,
+    "citation": "Assembly Bill 12",
+    "quoted_span": "Starting July 1, 2024, many landlords may only charge one month's rent for unfurnished and furnished units",
+    "yields_to_local": false,
+    "preempts_local": false,
+    "confidence": 1.0
+   },
+   {
+    "jurisdiction": "Berkeley, CA",
+    "level": "city",
+    "category": "security_deposits",
+    "lifecycle": "enacted",
+    "title": "Security Deposit Maximum Limit for Small Landlords",
+    "requirement": "Landlords who own only two rental properties with no more than four residential units total may charge up to two months' rent for furnished and unfurnished units if ownership is held by a natural person, family trust, or LLC of natural persons.",
+    "key_value": "2 months rent",
+    "coverage": {
+     "summary": "Applies to small landlords owning no more than two rental properties and four residential units total.",
+     "built_on_or_before": null,
+     "built_after": null,
+     "built_basis": "not_stated",
+     "rolling_age_years": null,
+     "min_units": null,
+     "single_family_excluded": null,
+     "owner_dependent": true,
+     "owner_condition": "Must own only two rental properties with no more than four residential units total held by a natural person, family trust, or LLC with natural person members.",
+     "owner_exemption_max_units": 4,
+     "subsidized_excluded": null,
+     "unresolvable": null
+    },
+    "exemptions": null,
+    "effective_date": "2024-07-01",
+    "enacted_date": null,
+    "citation": "Assembly Bill 12",
+    "quoted_span": "Starting July 1, 2024, landlords who own only two rental properties with no more than four residential units total can charge up to two months' rent for furnished and unfurnished units if ownership is held by a natural person, family trust, or limited liability company (LLC) where all members are natural persons",
+    "yields_to_local": false,
+    "preempts_local": false,
+    "confidence": 1.0
+   },
+   {
+    "jurisdiction": "Berkeley, CA",
+    "level": "city",
+    "category": "security_deposits",
+    "lifecycle": "enacted",
+    "title": "Security Deposit Return Deadline and Itemization",
+    "requirement": "Landlords must return all or any remaining portion of a security deposit within 21 days after the tenants leave the unit vacant, accompanied by an itemized written statement and supporting documentation for deductions.",
+    "key_value": "21 days",
+    "coverage": {
+     "summary": "Applies to all residential rental tenancies.",
+     "built_on_or_before": null,
+     "built_after": null,
+     "built_basis": "not_stated",
+     "rolling_age_years": null,
+     "min_units": null,
+     "single_family_excluded": null,
+     "owner_dependent": false,
+     "owner_condition": null,
+     "owner_exemption_max_units": null,
+     "subsidized_excluded": null,
+     "unresolvable": null
+    },
+    "exemptions": null,
+    "effective_date": null,
+    "enacted_date": null,
+    "citation": "Berkeley Rent Board / State Law",
+    "quoted_span": "All or any remaining portion of a security deposit must be returned within 21 days after the tenant/s leave the unit vacant.",
+    "yields_to_local": false,
+    "preempts_local": false,
+    "confidence": 1.0
+   },
+   {
+    "jurisdiction": "Berkeley, CA",
+    "level": "city",
+    "category": "security_deposits",
+    "lifecycle": "enacted",
+    "title": "Security Deposit Interest Requirement",
+    "requirement": "Landlords must pay tenants interest on their security deposit at the end of each year and a prorated amount if the tenant moves out before the year ends for units covered by Berkeley's Rent Ordinance.",
+    "key_value": null,
+    "coverage": {
+     "summary": "Applies to tenancies in units fully or partially covered by Berkeley's Rent Ordinance.",
+     "built_on_or_before": null,
+     "built_after": null,
+     "built_basis": "not_stated",
+     "rolling_age_years": null,
+     "min_units": null,
+     "single_family_excluded": null,
+     "owner_dependent": false,
+     "owner_condition": null,
+     "owner_exemption_max_units": null,
+     "subsidized_excluded": null,
+     "unresolvable": "Units fully or partially covered by Berkeley's Rent Ordinance."
+    },
+    "exemptions": "Units not covered by Berkeley's Rent Ordinance.",
+    "effective_date": null,
+    "enacted_date": null,
+    "citation": "Berkeley Rent Ordinance",
+    "quoted_span": "For tenancies in units fully or partially covered by Berkeley's Rent Ordinance, landlords must pay tenants interest on their security deposit at the end of each year and a prorated amount if the tenant moves out before the end of the year.",
+    "yields_to_local": false,
+    "preempts_local": false,
+    "confidence": 1.0
+   }
+  ]
+ }
+}

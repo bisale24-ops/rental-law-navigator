@@ -1,0 +1,55 @@
+{
+ "meta": {
+  "model": "gemini-3.5-flash-lite",
+  "seconds": 2.6,
+  "tag": "extract-D069",
+  "usage": {
+   "promptTokenCount": 3459,
+   "candidatesTokenCount": 617,
+   "totalTokenCount": 4076,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 3459
+    }
+   ],
+   "serviceTier": "standard"
+  },
+  "at": "2026-10-03T17:28:37Z"
+ },
+ "output": {
+  "rules": [
+   {
+    "jurisdiction": "NJ",
+    "level": "state",
+    "category": "algorithmic_rent_setting",
+    "lifecycle": "enacted",
+    "title": "Forbidding the Algorithmic Inflation of Rent (FAIR) Act",
+    "requirement": "It is unlawful for rental property owners to use coordinators or algorithmic devices that perform a coordinating function using competitively sensitive information to set or recommend rents, material lease terms, or occupancy levels, and unlawful to engage in parallel pricing coordination.",
+    "key_value": null,
+    "coverage": {
+     "summary": "Applies to residential dwelling units statewide, excluding inpatient medical care, licensed long-term care, or detention or correctional facilities.",
+     "built_on_or_before": null,
+     "built_after": null,
+     "built_basis": "not_stated",
+     "rolling_age_years": null,
+     "min_units": null,
+     "single_family_excluded": false,
+     "owner_dependent": false,
+     "owner_condition": null,
+     "owner_exemption_max_units": null,
+     "subsidized_excluded": false,
+     "unresolvable": null
+    },
+    "exemptions": "Does not apply to conducting research or statistical analysis without setting terms, providing publicly available estimated rent amounts, using real estate brokerage databases available on equal terms that do not set prices or collect sensitive info, or government entities setting rents through affordability controls.",
+    "effective_date": "2027-07-01",
+    "enacted_date": "2026-07-20",
+    "citation": "P.L. 2026, c.043",
+    "quoted_span": "It shall be unlawful and a violation of the \u201cNew Jersey Antitrust Act,\u201d P.L.1970, c.73 (C.56:9-1 et seq.) for: a. a rental property owner, or any agent, representative, or subcontractor thereof, to receive, subscribe to, contract for, or otherwise exchange any form of consideration in return for the use of, the services of a coordinator; b. a coordinator to facilitate a tacit or express agreement among rental property owners that restricts competition with respect to residential dwelling units, including by performing a coordinating function; c. two or more persons to engage in or otherwise facilitate parallel pricing coordination; d. any agent or representative of a coordinator or subcontractor thereof to engage in parallel pricing coordination; or e. any person to perform a coordinating function.",
+    "yields_to_local": false,
+    "preempts_local": true,
+    "confidence": 1.0
+   }
+  ]
+ }
+}

@@ -1,0 +1,55 @@
+{
+ "meta": {
+  "model": "gemini-3.5-flash-lite",
+  "seconds": 2.4,
+  "tag": "extract-D022",
+  "usage": {
+   "promptTokenCount": 2501,
+   "candidatesTokenCount": 509,
+   "totalTokenCount": 3010,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 2501
+    }
+   ],
+   "serviceTier": "standard"
+  },
+  "at": "2026-10-03T17:28:26Z"
+ },
+ "output": {
+  "rules": [
+   {
+    "jurisdiction": "CA",
+    "level": "state",
+    "category": "algorithmic_rent_setting",
+    "lifecycle": "enacted",
+    "title": "AB 325 Cartwright Act: Common Pricing Algorithm Restrictions",
+    "requirement": "It is unlawful to use or distribute a common pricing algorithm as part of a contract, combination in the form of a trust, or conspiracy to restrain trade or commerce, or to use or distribute a common pricing algorithm if a person coerces another person to set or adopt a recommended price or commercial term.",
+    "key_value": null,
+    "coverage": {
+     "summary": "Applies generally to persons using or distributing common pricing algorithms to restrain trade or coerce prices.",
+     "built_on_or_before": null,
+     "built_after": null,
+     "built_basis": "not_stated",
+     "rolling_age_years": null,
+     "min_units": null,
+     "single_family_excluded": null,
+     "owner_dependent": null,
+     "owner_condition": null,
+     "owner_exemption_max_units": null,
+     "subsidized_excluded": null,
+     "unresolvable": null
+    },
+    "exemptions": "Does not include the end consumer of a product or service.",
+    "effective_date": null,
+    "enacted_date": "2025-10-06",
+    "citation": "AB-325 / Business and Professions Code Section 16729",
+    "quoted_span": "It shall be unlawful for a person to use or distribute a common pricing algorithm as part of a contract, combination in the form of a trust, or conspiracy to restrain trade or commerce in violation of this chapter. (b) It shall be unlawful for a person to use or distribute a common pricing algorithm if the person coerces another person to set or adopt a recommended price or commercial term recommended by the common pricing algorithm for the same or similar products or services in the jurisdiction of this state.",
+    "yields_to_local": false,
+    "preempts_local": false,
+    "confidence": 1.0
+   }
+  ]
+ }
+}

@@ -1,0 +1,55 @@
+{
+ "meta": {
+  "model": "gemini-3.5-flash-lite",
+  "seconds": 2.4,
+  "tag": "extract-D028",
+  "usage": {
+   "promptTokenCount": 3468,
+   "candidatesTokenCount": 430,
+   "totalTokenCount": 3898,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 3468
+    }
+   ],
+   "serviceTier": "standard"
+  },
+  "at": "2026-10-03T17:39:33Z"
+ },
+ "output": {
+  "rules": [
+   {
+    "jurisdiction": "CA",
+    "level": "state",
+    "category": "algorithmic_rent_setting",
+    "lifecycle": "enacted",
+    "title": "Cartwright Act Amendments on Algorithmic Pricing",
+    "requirement": "The Cartwright Act prohibits using or distributing common pricing algorithms to collude on pricing, and coercing users to adopt algorithmic recommendations on pricing or commercial terms.",
+    "key_value": null,
+    "coverage": {
+     "summary": "Applies to users and distributors of common pricing algorithms that use competitor data; single-firm algorithms using only own data are excluded.",
+     "built_on_or_before": null,
+     "built_after": null,
+     "built_basis": "not_stated",
+     "rolling_age_years": null,
+     "min_units": null,
+     "single_family_excluded": null,
+     "owner_dependent": false,
+     "owner_condition": null,
+     "owner_exemption_max_units": null,
+     "subsidized_excluded": null,
+     "unresolvable": null
+    },
+    "exemptions": "Single-firm algorithms using only a business's own data are not covered.",
+    "effective_date": "2026-01-01",
+    "enacted_date": "2025-10-01",
+    "citation": "Cal. Bus. & Prof. Code \u00a716729",
+    "quoted_span": "The Cartwright Act now expressly prohibits (1) using or distributing common algorithms to collude on pricing, and (2) coercing users to adopt algorithmic recommendations.",
+    "yields_to_local": false,
+    "preempts_local": false,
+    "confidence": 0.95
+   }
+  ]
+ }
+}

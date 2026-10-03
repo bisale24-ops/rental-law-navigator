@@ -1,0 +1,55 @@
+{
+ "meta": {
+  "model": "gemini-3.5-flash-lite",
+  "seconds": 1.9,
+  "tag": "extract-D081",
+  "usage": {
+   "promptTokenCount": 1140,
+   "candidatesTokenCount": 383,
+   "totalTokenCount": 1523,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 1140
+    }
+   ],
+   "serviceTier": "standard"
+  },
+  "at": "2026-10-03T17:29:29Z"
+ },
+ "output": {
+  "rules": [
+   {
+    "jurisdiction": "San Francisco, CA",
+    "level": "city",
+    "category": "algorithmic_rent_setting",
+    "lifecycle": "enacted",
+    "title": "Prohibition of Algorithmic Devices for Rent Setting",
+    "requirement": "Landlords are prohibited from using software or algorithmic devices that analyze nonpublic competitor rental data to recommend rental prices for vacant residential units.",
+    "key_value": "prohibits algorithmic pricing software",
+    "coverage": {
+     "summary": "Applies to residential units in San Francisco.",
+     "built_on_or_before": null,
+     "built_after": null,
+     "built_basis": "not_stated",
+     "rolling_age_years": null,
+     "min_units": null,
+     "single_family_excluded": null,
+     "owner_dependent": null,
+     "owner_condition": null,
+     "owner_exemption_max_units": null,
+     "subsidized_excluded": null,
+     "unresolvable": null
+    },
+    "exemptions": null,
+    "effective_date": "2024-10-14",
+    "enacted_date": null,
+    "citation": "Section 37.10C to the Rent Ordinance",
+    "quoted_span": "The law prohibits the sale or use of algorithmic devices to set rents or manage occupancy levels for residential units in San Francisco.",
+    "yields_to_local": false,
+    "preempts_local": false,
+    "confidence": 1.0
+   }
+  ]
+ }
+}

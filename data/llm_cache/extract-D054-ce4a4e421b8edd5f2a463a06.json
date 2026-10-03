@@ -1,0 +1,55 @@
+{
+ "meta": {
+  "model": "gemini-3.5-flash-lite",
+  "seconds": 2.1,
+  "tag": "extract-D054",
+  "usage": {
+   "promptTokenCount": 2627,
+   "candidatesTokenCount": 416,
+   "totalTokenCount": 3043,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 2627
+    }
+   ],
+   "serviceTier": "standard"
+  },
+  "at": "2026-10-03T17:39:35Z"
+ },
+ "output": {
+  "rules": [
+   {
+    "jurisdiction": "MA",
+    "level": "state",
+    "category": "application_screening_fees",
+    "lifecycle": "enacted",
+    "title": "Prohibition on Landlord Application and Screening Fees",
+    "requirement": "Landlords are prohibited from charging prospective tenants application fees, pet fees, cleaning fees, amenity fees, or any other upfront charges besides first month's rent, last month's rent, a security deposit, and a lock-change fee.",
+    "key_value": null,
+    "coverage": {
+     "summary": "Applies to lessors/landlords statewide.",
+     "built_on_or_before": null,
+     "built_after": null,
+     "built_basis": "not_stated",
+     "rolling_age_years": null,
+     "min_units": null,
+     "single_family_excluded": null,
+     "owner_dependent": null,
+     "owner_condition": null,
+     "owner_exemption_max_units": null,
+     "subsidized_excluded": null,
+     "unresolvable": null
+    },
+    "exemptions": "Licensed brokers may charge fees under specific regulatory conditions.",
+    "effective_date": null,
+    "enacted_date": null,
+    "citation": "MGL Ch 186 Section 15B",
+    "quoted_span": "It states that prior to the beginning of a tenancy, no lessor may require payment for anything except first, last, security, and locks ( MGL Ch 186 Section 15B ).",
+    "yields_to_local": false,
+    "preempts_local": false,
+    "confidence": 0.95
+   }
+  ]
+ }
+}

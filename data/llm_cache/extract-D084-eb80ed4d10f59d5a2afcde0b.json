@@ -1,0 +1,86 @@
+{
+ "meta": {
+  "model": "gemini-3.5-flash-lite",
+  "seconds": 2.8,
+  "tag": "extract-D084",
+  "usage": {
+   "promptTokenCount": 1869,
+   "candidatesTokenCount": 771,
+   "totalTokenCount": 2640,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 1869
+    }
+   ],
+   "serviceTier": "standard"
+  },
+  "at": "2026-10-03T17:29:40Z"
+ },
+ "output": {
+  "rules": [
+   {
+    "jurisdiction": "Santa Ana, CA",
+    "level": "city",
+    "category": "rent_increase_limits",
+    "lifecycle": "enacted",
+    "title": "Maximum Rent Increase Limit",
+    "requirement": "Annual rent increases are capped at 3% of the current rent or 80% of the Consumer Price Index (CPI) change, whichever is less.",
+    "key_value": "3% or 80% of CPI change, whichever is less",
+    "coverage": {
+     "summary": "Covered rental units under the city ordinance.",
+     "built_on_or_before": null,
+     "built_after": null,
+     "built_basis": "not_stated",
+     "rolling_age_years": null,
+     "min_units": null,
+     "single_family_excluded": null,
+     "owner_dependent": null,
+     "owner_condition": null,
+     "owner_exemption_max_units": null,
+     "subsidized_excluded": null,
+     "unresolvable": null
+    },
+    "exemptions": null,
+    "effective_date": null,
+    "enacted_date": null,
+    "citation": "Rent Stabilization and Just Cause Eviction Ordinance",
+    "quoted_span": "The increase cannot be more than 3% of your current rent or 80% of the Consumer Price Index (CPI) change, whichever is less.",
+    "yields_to_local": false,
+    "preempts_local": false,
+    "confidence": 0.95
+   },
+   {
+    "jurisdiction": "Santa Ana, CA",
+    "level": "city",
+    "category": "just_cause_eviction",
+    "lifecycle": "enacted",
+    "title": "Just Cause for Eviction and Relocation Assistance",
+    "requirement": "Landlords must have a valid just cause reason to evict a tenant (such as nonpayment of rent, lease violations, or owner move-in) and may be required to pay relocation assistance for certain no-fault evictions.",
+    "key_value": null,
+    "coverage": {
+     "summary": "Covered rental units under the city ordinance.",
+     "built_on_or_before": null,
+     "built_after": null,
+     "built_basis": "not_stated",
+     "rolling_age_years": null,
+     "min_units": null,
+     "single_family_excluded": null,
+     "owner_dependent": null,
+     "owner_condition": null,
+     "owner_exemption_max_units": null,
+     "subsidized_excluded": null,
+     "unresolvable": null
+    },
+    "exemptions": null,
+    "effective_date": null,
+    "enacted_date": null,
+    "citation": "Rent Stabilization and Just Cause Eviction Ordinance",
+    "quoted_span": "Your landlord must have a valid reason to evict you. This could be for not paying rent, breaking the lease, or if the landlord wants to move into the property themselves.",
+    "yields_to_local": false,
+    "preempts_local": false,
+    "confidence": 0.95
+   }
+  ]
+ }
+}

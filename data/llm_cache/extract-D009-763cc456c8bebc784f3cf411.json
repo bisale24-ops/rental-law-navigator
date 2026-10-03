@@ -1,0 +1,149 @@
+{
+ "meta": {
+  "model": "gemini-3.5-flash",
+  "seconds": 38.7,
+  "tag": "extract-D009",
+  "usage": {
+   "promptTokenCount": 1614,
+   "candidatesTokenCount": 1610,
+   "totalTokenCount": 10022,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 1614
+    }
+   ],
+   "thoughtsTokenCount": 6798,
+   "serviceTier": "standard"
+  },
+  "at": "2026-10-03T17:25:13Z"
+ },
+ "output": {
+  "rules": [
+   {
+    "jurisdiction": "Berkeley, CA",
+    "level": "city",
+    "category": "rent_increase_limits",
+    "lifecycle": "enacted",
+    "title": "Rent Control for Pre-1980 Multifamily Units",
+    "requirement": "Most units in multifamily properties built before 1980 are subject to Berkeley's rent control limits.",
+    "key_value": null,
+    "coverage": {
+     "summary": "Most units in multifamily properties built before 1980",
+     "built_on_or_before": "1980-06-30",
+     "built_after": null,
+     "built_basis": "certificate_of_occupancy",
+     "rolling_age_years": null,
+     "min_units": 2,
+     "single_family_excluded": true,
+     "owner_dependent": false,
+     "owner_condition": null,
+     "owner_exemption_max_units": null,
+     "subsidized_excluded": false,
+     "unresolvable": null
+    },
+    "exemptions": "Golden Duplexes, owner-shared kitchen/bath units, certain ADUs, university dormitories, and nonprofit cooperatives.",
+    "effective_date": null,
+    "enacted_date": null,
+    "citation": "Berkeley Rent Stabilization and Eviction for Just Cause Ordinance",
+    "quoted_span": "Most units in multifamily properties built before 1980**",
+    "yields_to_local": false,
+    "preempts_local": false,
+    "confidence": 0.9
+   },
+   {
+    "jurisdiction": "Berkeley, CA",
+    "level": "city",
+    "category": "rent_increase_limits",
+    "lifecycle": "enacted",
+    "title": "Rent Control Exemption for New Construction",
+    "requirement": "Rental units built and receiving a Certificate of Occupancy after June 1980 are exempt from Berkeley's rent control limits.",
+    "key_value": null,
+    "coverage": {
+     "summary": "Units built and received a Certificate of Occupancy after June 1980",
+     "built_on_or_before": null,
+     "built_after": "1980-06-30",
+     "built_basis": "certificate_of_occupancy",
+     "rolling_age_years": null,
+     "min_units": null,
+     "single_family_excluded": false,
+     "owner_dependent": false,
+     "owner_condition": null,
+     "owner_exemption_max_units": null,
+     "subsidized_excluded": false,
+     "unresolvable": null
+    },
+    "exemptions": null,
+    "effective_date": null,
+    "enacted_date": null,
+    "citation": "Berkeley Rent Stabilization and Eviction for Just Cause Ordinance",
+    "quoted_span": "New construction: units that were built and received a Certificate of Occupancy after June 1980**",
+    "yields_to_local": false,
+    "preempts_local": false,
+    "confidence": 0.9
+   },
+   {
+    "jurisdiction": "Berkeley, CA",
+    "level": "city",
+    "category": "just_cause_eviction",
+    "lifecycle": "enacted",
+    "title": "Just Cause Eviction Exemption for Golden Duplexes",
+    "requirement": "Duplexes that were owner-occupied on December 31, 1979, and currently have an owner living in one of the units are exempt from Berkeley's Just Cause for Eviction protections.",
+    "key_value": null,
+    "coverage": {
+     "summary": "Duplexes that were owner-occupied on December 31, 1979, and currently have an owner living in one of the units",
+     "built_on_or_before": null,
+     "built_after": null,
+     "built_basis": "not_stated",
+     "rolling_age_years": null,
+     "min_units": 2,
+     "single_family_excluded": true,
+     "owner_dependent": true,
+     "owner_condition": "duplex was owner-occupied on December 31, 1979, and currently has an owner living in one of the units",
+     "owner_exemption_max_units": 2,
+     "subsidized_excluded": false,
+     "unresolvable": "owner occupancy status on December 31, 1979"
+    },
+    "exemptions": null,
+    "effective_date": null,
+    "enacted_date": null,
+    "citation": "Berkeley Rent Stabilization and Eviction for Just Cause Ordinance",
+    "quoted_span": "\u201cGolden Duplex\u201d: duplex that was owner-occupied on December 31, 1979, and currently has an owner living in one of the units",
+    "yields_to_local": false,
+    "preempts_local": false,
+    "confidence": 0.9
+   },
+   {
+    "jurisdiction": "Berkeley, CA",
+    "level": "city",
+    "category": "rent_increase_limits",
+    "lifecycle": "enacted",
+    "title": "Rent Control Exemption for Single-Family Homes with Post-1996 Tenancies",
+    "requirement": "Single-family homes with tenancies that began on or after January 1, 1996, are exempt from Berkeley's rent control limits.",
+    "key_value": null,
+    "coverage": {
+     "summary": "Single-family homes with tenancies that began on or after January 1, 1996",
+     "built_on_or_before": null,
+     "built_after": null,
+     "built_basis": "not_stated",
+     "rolling_age_years": null,
+     "min_units": 1,
+     "single_family_excluded": false,
+     "owner_dependent": false,
+     "owner_condition": null,
+     "owner_exemption_max_units": null,
+     "subsidized_excluded": false,
+     "unresolvable": "tenancy start date"
+    },
+    "exemptions": null,
+    "effective_date": "1996-01-01",
+    "enacted_date": null,
+    "citation": "Berkeley Rent Stabilization and Eviction for Just Cause Ordinance",
+    "quoted_span": "Single-family home with a tenancy that began on or after January 1, 1996**",
+    "yields_to_local": false,
+    "preempts_local": false,
+    "confidence": 0.9
+   }
+  ]
+ }
+}

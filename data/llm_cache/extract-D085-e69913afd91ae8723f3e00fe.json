@@ -1,0 +1,83 @@
+{
+ "meta": {
+  "model": "gemini-3.6-flash",
+  "seconds": 15.7,
+  "tag": "extract-D085",
+  "usage": {
+   "promptTokenCount": 1996,
+   "candidatesTokenCount": 873,
+   "totalTokenCount": 5618,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 1996
+    }
+   ],
+   "thoughtsTokenCount": 2749,
+   "serviceTier": "standard"
+  },
+  "at": "2026-10-03T17:18:53Z"
+ },
+ "output": {
+  "rules": [
+   {
+    "jurisdiction": "Santa Ana, CA",
+    "level": "city",
+    "category": "rent_increase_limits",
+    "lifecycle": "enacted",
+    "title": "Santa Ana Rent Stabilization Ordinance",
+    "requirement": "Annual residential rent increases are capped at the lower of 3% per year or 80% of the percent change in the Consumer Price Index over the most recent 12-month period, with no rent increase allowed if the CPI change is negative.",
+    "key_value": "3%",
+    "coverage": {
+     "summary": "Applies to residential rental property constructed on or before February 1, 1995.",
+     "built_on_or_before": "1995-02-01",
+     "built_after": null,
+     "built_basis": "construction",
+     "rolling_age_years": null,
+     "min_units": null,
+     "single_family_excluded": null,
+     "owner_dependent": false,
+     "owner_condition": null,
+     "unresolvable": null
+    },
+    "exemptions": "Residential buildings constructed after February 1, 1995, or mobile home spaces offered for rent after January 1, 1990.",
+    "effective_date": "2021-11-19",
+    "enacted_date": null,
+    "citation": "Rent Stabilization Ordinance",
+    "quoted_span": "Increase in residential rents are limited to the lower of 3% per year, or 80% of the percent change in the Consumer Price Index over the most recent 12-month period. If the CPI is negative, no rent increase is permitted.",
+    "yields_to_local": false,
+    "preempts_local": false,
+    "confidence": 0.95
+   },
+   {
+    "jurisdiction": "Santa Ana, CA",
+    "level": "city",
+    "category": "just_cause_eviction",
+    "lifecycle": "enacted",
+    "title": "Santa Ana Just Cause Eviction Ordinance",
+    "requirement": "Landlords cannot terminate a tenancy after 30 days without specified at-fault or no-fault just cause, and must provide 3 months of relocation assistance or a 3-month rent waiver for no-fault evictions.",
+    "key_value": "3 months",
+    "coverage": {
+     "summary": "Applies after 30 days of tenancy, excluding housing built in the last 15 years, deed-restricted affordable housing, dormitories, and certain other facilities.",
+     "built_on_or_before": null,
+     "built_after": null,
+     "built_basis": "construction",
+     "rolling_age_years": 15,
+     "min_units": null,
+     "single_family_excluded": null,
+     "owner_dependent": false,
+     "owner_condition": null,
+     "unresolvable": "Tenancy duration of at least 30 days"
+    },
+    "exemptions": "Housing produced in the last 15 years; deed-restricted affordable housing; hotel and transient occupancy; hospital and care facilities; dormitories; and other shared living quarters.",
+    "effective_date": "2021-11-19",
+    "enacted_date": null,
+    "citation": "Just Cause Eviction Ordinance",
+    "quoted_span": "After 30 days, an owner shall not terminate a tenancy without just cause, which shall be stated in a written notice.",
+    "yields_to_local": false,
+    "preempts_local": false,
+    "confidence": 0.95
+   }
+  ]
+ }
+}

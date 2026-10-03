@@ -1,0 +1,87 @@
+{
+ "meta": {
+  "model": "gemini-3.7-flash",
+  "seconds": 7.3,
+  "tag": "extract-D010",
+  "usage": {
+   "promptTokenCount": 2366,
+   "candidatesTokenCount": 992,
+   "totalTokenCount": 4854,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 2366
+    }
+   ],
+   "thoughtsTokenCount": 1496,
+   "serviceTier": "standard"
+  },
+  "at": "2026-10-03T17:27:08Z"
+ },
+ "output": {
+  "rules": [
+   {
+    "jurisdiction": "Boston, MA",
+    "level": "city",
+    "category": "screening_restrictions",
+    "lifecycle": "enacted",
+    "title": "Boston Fair Chance Tenant Selection Policy - Criminal History Screening",
+    "requirement": "Covered housing providers cannot maintain blanket bans against applicants with arrests or convictions and must not consider non-conviction arrests, expunged/sealed records, juvenile records, or convictions older than 5 years unless directly related to housing or safety.",
+    "key_value": "5 years conviction lookback limit",
+    "coverage": {
+     "summary": "Housing providers receiving Department of Neighborhood Development (DND) funding and/or land, or having income-restricted units created under the BPDA Inclusionary Development Policy.",
+     "built_on_or_before": null,
+     "built_after": null,
+     "built_basis": "not_stated",
+     "rolling_age_years": null,
+     "min_units": null,
+     "single_family_excluded": null,
+     "owner_dependent": false,
+     "owner_condition": null,
+     "owner_exemption_max_units": null,
+     "subsidized_excluded": false,
+     "unresolvable": "Applies only to properties receiving DND funding/land or subject to BPDA Inclusionary Development Policy income restrictions."
+    },
+    "exemptions": "Does not apply to current criminal behavior or where there is a direct relationship between a conviction and the housing sought or unreasonable risk of substantial harm to the safety of others; conflicting federal or state criminal history requirements preempt.",
+    "effective_date": "2017-02",
+    "enacted_date": "2017-02",
+    "citation": "Boston Fair Chance Tenant Selection Policy",
+    "quoted_span": "Housing providers receiving Department of Neighborhood Development (DND) funding and/or land, or that have income restricted units created under the Boston Planning and Development Agency (BPDA) Inclusionary Development Policy will not impose a blanket policy that denies housing to anyone with arrests and or convictions. Housing providers will consider applicants on a case-by-case basis.",
+    "yields_to_local": false,
+    "preempts_local": false,
+    "confidence": 0.95
+   },
+   {
+    "jurisdiction": "Boston, MA",
+    "level": "city",
+    "category": "screening_restrictions",
+    "lifecycle": "enacted",
+    "title": "Boston Fair Chance Tenant Selection Policy - Credit History and Score Screening",
+    "requirement": "Covered housing providers may not use credit scores to approve or deny housing applications, and may only evaluate credit history in lieu of rental history when rental history is unavailable.",
+    "key_value": "Credit scores prohibited in admissions decisions",
+    "coverage": {
+     "summary": "Housing providers receiving Department of Neighborhood Development (DND) funding and/or land, or having income-restricted units created under the BPDA Inclusionary Development Policy.",
+     "built_on_or_before": null,
+     "built_after": null,
+     "built_basis": "not_stated",
+     "rolling_age_years": null,
+     "min_units": null,
+     "single_family_excluded": null,
+     "owner_dependent": false,
+     "owner_condition": null,
+     "owner_exemption_max_units": null,
+     "subsidized_excluded": false,
+     "unresolvable": "Applies only to properties receiving DND funding/land or subject to BPDA Inclusionary Development Policy income restrictions."
+    },
+    "exemptions": null,
+    "effective_date": "2017-02",
+    "enacted_date": "2017-02",
+    "citation": "Boston Fair Chance Tenant Selection Policy",
+    "quoted_span": "The agent agrees not to use the applicant credit score to approve or deny housing applications. Property Managers may consider an applicant\u2019s credit history, but such information may ONLY be used in lieu of rental history to determine an applicant\u2019s ability to pay rent when rental history is not available.",
+    "yields_to_local": false,
+    "preempts_local": false,
+    "confidence": 0.95
+   }
+  ]
+ }
+}

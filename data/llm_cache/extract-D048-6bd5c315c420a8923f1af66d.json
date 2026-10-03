@@ -1,0 +1,55 @@
+{
+ "meta": {
+  "model": "gemini-3.5-flash-lite",
+  "seconds": 2.2,
+  "tag": "extract-D048",
+  "usage": {
+   "promptTokenCount": 1596,
+   "candidatesTokenCount": 515,
+   "totalTokenCount": 2111,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 1596
+    }
+   ],
+   "serviceTier": "standard"
+  },
+  "at": "2026-10-03T17:33:40Z"
+ },
+ "output": {
+  "rules": [
+   {
+    "jurisdiction": "MA",
+    "level": "state",
+    "category": "rent_increase_limits",
+    "lifecycle": "enacted",
+    "title": "General prohibition on rent control with voluntary exception",
+    "requirement": "Cities and towns are generally prohibited from enacting, maintaining, or enforcing rent control, except that municipalities accepting the chapter may adopt a voluntary form of rent control where compliance by property owners is entirely optional and uncoerced.",
+    "key_value": null,
+    "coverage": {
+     "summary": "Applies statewide to cities and towns, restricting local rent control adoption.",
+     "built_on_or_before": null,
+     "built_after": null,
+     "built_basis": "not_stated",
+     "rolling_age_years": null,
+     "min_units": null,
+     "single_family_excluded": null,
+     "owner_dependent": false,
+     "owner_condition": null,
+     "owner_exemption_max_units": null,
+     "subsidized_excluded": null,
+     "unresolvable": null
+    },
+    "exemptions": "Units owned by entities owning fewer than ten rental units, units with a fair market rent exceeding $400, and properties whose owners decline to participate.",
+    "effective_date": null,
+    "enacted_date": null,
+    "citation": "Chapter 40P, Section 4",
+    "quoted_span": "No city or town may enact, maintain or enforce rent control of any kind, except that any city or town that accepts this chapter may adopt rent control regulation that provides: (a) after six months from the date of the initial adoption of rent control regulation by a particular city or town, compliance on the part of property owners as to the rent control regulation or any subsequently adopted rent control regulation shall be entirely voluntary and uncoerced, and the property of a person or entity declining to have his or its property subjected to such regulation shall be wholly unaffected by any aspect of the rent control regulation or any subsequently adopted rent control regulation;",
+    "yields_to_local": false,
+    "preempts_local": true,
+    "confidence": 1.0
+   }
+  ]
+ }
+}

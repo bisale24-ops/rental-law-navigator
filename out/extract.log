@@ -1,0 +1,61 @@
+D001: 1 kept, 0 dropped
+D003: 1 kept, 0 dropped
+D004: 1 kept, 0 dropped
+D005: 3 kept, 0 dropped
+D006: 3 kept, 0 dropped
+D007: 9 kept, 0 dropped
+D008: 1 kept, 0 dropped
+D009: 4 kept, 0 dropped
+D010: 2 kept, 0 dropped
+D011: 0 kept, 0 dropped
+D012: 1 kept, 0 dropped
+D013: 0 kept, 0 dropped
+D014: 0 kept, 0 dropped
+D016: 2 kept, 0 dropped
+D022: 1 kept, 0 dropped
+D023: 1 kept, 0 dropped
+D024: 1 kept, 0 dropped
+D025: 2 kept, 0 dropped
+D026: 1 kept, 0 dropped
+D027: 3 kept, 0 dropped
+D029: 1 kept, 0 dropped
+D031: 0 kept, 0 dropped
+D036: 1 kept, 0 dropped
+D039: 0 kept, 0 dropped
+D040: 2 kept, 0 dropped
+D041: 1 kept, 0 dropped
+D042: 1 kept, 0 dropped
+D043: 2 kept, 0 dropped
+D045: 0 kept, 0 dropped
+D046: 1 kept, 0 dropped
+D047: 0 kept, 0 dropped
+D048: 1 kept, 0 dropped
+D049: 0 kept, 0 dropped
+D050: 0 kept, 0 dropped
+D051: 0 kept, 0 dropped
+D052: 2 kept, 0 dropped
+D053: 0 kept, 0 dropped
+D057: 0 kept, 0 dropped
+D058: 0 kept, 0 dropped
+D065: 1 kept, 0 dropped
+D066: 1 kept, 0 dropped
+D067: 4 kept, 0 dropped
+D068: 1 kept, 0 dropped
+D069: 1 kept, 0 dropped
+D073 NO MODEL gemini-3.5-flash-lite 429 {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check 
+D076 NO MODEL gemini-3.5-flash-lite 429 {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check 
+D078: 0 kept, 0 dropped
+D079: 1 kept, 0 dropped
+D080: 1 kept, 0 dropped
+D081: 1 kept, 0 dropped
+D082: 2 kept, 0 dropped
+D083: 3 kept, 2 dropped
+D084: 2 kept, 0 dropped
+D085: 2 kept, 0 dropped
+69 candidates kept, 2 dropped, 2 docs without a model answer

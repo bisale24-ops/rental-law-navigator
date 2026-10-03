@@ -1,0 +1,23 @@
+{
+ "meta": {
+  "model": "gemini-3.5-flash-lite",
+  "seconds": 1.0,
+  "tag": "extract-D039",
+  "usage": {
+   "promptTokenCount": 1593,
+   "candidatesTokenCount": 9,
+   "totalTokenCount": 1602,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 1593
+    }
+   ],
+   "serviceTier": "standard"
+  },
+  "at": "2026-10-03T17:28:10Z"
+ },
+ "output": {
+  "rules": []
+ }
+}

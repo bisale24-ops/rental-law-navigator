@@ -1,0 +1,55 @@
+{
+ "meta": {
+  "model": "gemini-3.5-flash-lite",
+  "seconds": 2.1,
+  "tag": "extract-D042",
+  "usage": {
+   "promptTokenCount": 2153,
+   "candidatesTokenCount": 498,
+   "totalTokenCount": 2651,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 2153
+    }
+   ],
+   "serviceTier": "standard"
+  },
+  "at": "2026-10-03T17:28:15Z"
+ },
+ "output": {
+  "rules": [
+   {
+    "jurisdiction": "Los Angeles, CA",
+    "level": "city",
+    "category": "rent_increase_limits",
+    "lifecycle": "enacted",
+    "title": "Annual Allowable Rent Increase for RSO Units (2025-2026)",
+    "requirement": "The annual allowable rent increase for rental units subject to the Los Angeles Rent Stabilization Ordinance is set at 3% for the period from July 1, 2025, through June 30, 2026. Beginning February 2, 2026, landlords can no longer include any additional percentage increase for utilities.",
+    "key_value": "3%",
+    "coverage": {
+     "summary": "Applies to rental units subject to the City of Los Angeles Rent Stabilization Ordinance (RSO).",
+     "built_on_or_before": null,
+     "built_after": null,
+     "built_basis": "not_stated",
+     "rolling_age_years": null,
+     "min_units": null,
+     "single_family_excluded": null,
+     "owner_dependent": null,
+     "owner_condition": null,
+     "owner_exemption_max_units": null,
+     "subsidized_excluded": null,
+     "unresolvable": "Applies only to RSO units, which require database verification via ZIMAS or LAHD."
+    },
+    "exemptions": "Non-RSO properties are exempt from this specific limit and are subject to separate guidelines.",
+    "effective_date": "2025-07-01",
+    "enacted_date": null,
+    "citation": "Los Angeles Rent Stabilization Ordinance",
+    "quoted_span": "Annual rent increases for rental units subject to the City of Los Angeles Rent Stabilization Ordinance (RSO), effective July 1, 2025, through June 30, 2026 is 3%.",
+    "yields_to_local": false,
+    "preempts_local": false,
+    "confidence": 0.95
+   }
+  ]
+ }
+}

@@ -1,0 +1,86 @@
+{
+ "meta": {
+  "model": "gemini-3.5-flash-lite",
+  "seconds": 3.2,
+  "tag": "extract-D085",
+  "usage": {
+   "promptTokenCount": 2107,
+   "candidatesTokenCount": 926,
+   "totalTokenCount": 3033,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 2107
+    }
+   ],
+   "serviceTier": "standard"
+  },
+  "at": "2026-10-03T17:29:43Z"
+ },
+ "output": {
+  "rules": [
+   {
+    "jurisdiction": "Santa Ana, CA",
+    "level": "city",
+    "category": "rent_increase_limits",
+    "lifecycle": "enacted",
+    "title": "Rent Stabilization Ordinance",
+    "requirement": "Residential rent increases are limited to the lower of 3% per year, or 80% of the percent change in the Consumer Price Index over the most recent 12-month period.",
+    "key_value": "Lower of 3% or 80% of CPI",
+    "coverage": {
+     "summary": "Applies to residential buildings, excluding those constructed after February 1, 1995, and mobile home spaces offered after January 1, 1990.",
+     "built_on_or_before": "1995-02-01",
+     "built_after": null,
+     "built_basis": "construction",
+     "rolling_age_years": null,
+     "min_units": null,
+     "single_family_excluded": null,
+     "owner_dependent": false,
+     "owner_condition": null,
+     "owner_exemption_max_units": null,
+     "subsidized_excluded": null,
+     "unresolvable": null
+    },
+    "exemptions": "Residential buildings constructed after February 1, 1995, or mobile home spaces offered for rent after January 1, 1990.",
+    "effective_date": "2021-11-19",
+    "enacted_date": null,
+    "citation": "Rent Stabilization Ordinance",
+    "quoted_span": "Increase in residential rents are limited to the lower of 3% per year, or 80% of the percent change in the Consumer Price Index over the most recent 12-month period. If the CPI is negative, no rent increase is permitted.",
+    "yields_to_local": false,
+    "preempts_local": false,
+    "confidence": 1.0
+   },
+   {
+    "jurisdiction": "Santa Ana, CA",
+    "level": "city",
+    "category": "just_cause_eviction",
+    "lifecycle": "enacted",
+    "title": "Just Cause Eviction Ordinance",
+    "requirement": "Landlords must have just cause to terminate a tenancy after 30 days and provide 3 months of relocation assistance or waive 3 months of rent for no-fault evictions.",
+    "key_value": "3 months relocation assistance for no-fault",
+    "coverage": {
+     "summary": "Applies to residential properties after 30 days, with specific exclusions such as housing produced in the last 15 years and deed-restricted affordable housing.",
+     "built_on_or_before": null,
+     "built_after": null,
+     "built_basis": "not_stated",
+     "rolling_age_years": 15,
+     "min_units": null,
+     "single_family_excluded": null,
+     "owner_dependent": false,
+     "owner_condition": null,
+     "owner_exemption_max_units": null,
+     "subsidized_excluded": true,
+     "unresolvable": null
+    },
+    "exemptions": "Housing produced in the last 15 years; deed-restricted affordable housing; hotel and transient occupancy; hospital and care facilities; dormitories; and other shared living quarters.",
+    "effective_date": "2021-11-19",
+    "enacted_date": null,
+    "citation": "Just Cause Eviction Ordinance",
+    "quoted_span": "Under a no-fault just cause termination, the owner shall either provide 3 months of relocation assistance or waive payment of rent for the final 3 months of the tenancy.",
+    "yields_to_local": false,
+    "preempts_local": false,
+    "confidence": 1.0
+   }
+  ]
+ }
+}

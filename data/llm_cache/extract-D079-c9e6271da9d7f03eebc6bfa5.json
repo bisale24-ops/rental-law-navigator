@@ -1,0 +1,55 @@
+{
+ "meta": {
+  "model": "gemini-3.5-flash-lite",
+  "seconds": 2.1,
+  "tag": "extract-D079",
+  "usage": {
+   "promptTokenCount": 2115,
+   "candidatesTokenCount": 442,
+   "totalTokenCount": 2557,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 2115
+    }
+   ],
+   "serviceTier": "standard"
+  },
+  "at": "2026-10-03T17:34:43Z"
+ },
+ "output": {
+  "rules": [
+   {
+    "jurisdiction": "San Francisco, CA",
+    "level": "city",
+    "category": "just_cause_eviction",
+    "lifecycle": "enacted",
+    "title": "San Francisco Just Cause Eviction Requirements",
+    "requirement": "Landlords must have one of 17 permitted just cause reasons to evict a tenant from a rental unit covered by the Rent Ordinance, and the mere expiration of a lease or change in ownership does not constitute just cause.",
+    "key_value": null,
+    "coverage": {
+     "summary": "Covers rental units subject to the Rent Ordinance, including units exempt from rent increases such as those built after June 13, 1979.",
+     "built_on_or_before": null,
+     "built_after": null,
+     "built_basis": "not_stated",
+     "rolling_age_years": null,
+     "min_units": null,
+     "single_family_excluded": null,
+     "owner_dependent": false,
+     "owner_condition": null,
+     "owner_exemption_max_units": null,
+     "subsidized_excluded": false,
+     "unresolvable": null
+    },
+    "exemptions": "None specified for just cause coverage; even units exempt from rent limits may still be subject to just cause eviction provisions.",
+    "effective_date": null,
+    "enacted_date": null,
+    "citation": "Ordinance Section 37.9(a)",
+    "quoted_span": "In order to evict a tenant from a rental unit covered by the Rent Ordinance, a landlord must have a \"just cause\" reason that is the dominant motive for pursuing the eviction.",
+    "yields_to_local": false,
+    "preempts_local": false,
+    "confidence": 0.99
+   }
+  ]
+ }
+}

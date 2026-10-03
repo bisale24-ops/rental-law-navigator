@@ -1,0 +1,55 @@
+{
+ "meta": {
+  "model": "gemini-3.5-flash-lite",
+  "seconds": 2.6,
+  "tag": "extract-D053",
+  "usage": {
+   "promptTokenCount": 1897,
+   "candidatesTokenCount": 682,
+   "totalTokenCount": 2579,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 1897
+    }
+   ],
+   "serviceTier": "standard"
+  },
+  "at": "2026-10-03T17:34:38Z"
+ },
+ "output": {
+  "rules": [
+   {
+    "jurisdiction": "MA",
+    "level": "state",
+    "category": "just_cause_eviction",
+    "lifecycle": "enacted",
+    "title": "Reprisal against tenants for reporting violations or joining tenants' unions prohibited",
+    "requirement": "Landlords are prohibited from taking reprisals, including notices of termination or rent increases, against tenants for reporting code violations, joining tenants' unions, or engaging in legal actions. Any notice of termination or rent increase within six months of such activity creates a rebuttable presumption of reprisal.",
+    "key_value": null,
+    "coverage": {
+     "summary": "Applies to residential premises tenants.",
+     "built_on_or_before": null,
+     "built_after": null,
+     "built_basis": "not_stated",
+     "rolling_age_years": null,
+     "min_units": null,
+     "single_family_excluded": null,
+     "owner_dependent": null,
+     "owner_condition": null,
+     "owner_exemption_max_units": null,
+     "subsidized_excluded": null,
+     "unresolvable": null
+    },
+    "exemptions": null,
+    "effective_date": null,
+    "enacted_date": null,
+    "citation": "Chapter 186, Section 18",
+    "quoted_span": "Any person or agent thereof who threatens to or takes reprisals against any tenant of residential premises for the tenant's act of, commencing, proceeding with, or obtaining relief in any judicial or administrative action the purpose of which action is to obtain damages under, or otherwise enforce, any federal, state or local law, regulation, by-law or ordinance, which has as its objective the regulation of residential premises; or exercising the tenant's rights pursuant to section one hundred and twenty-four D of chapter one hundred and sixty-four; or reporting to the board of health or, in the city of Boston to the commissioner of housing inspection or to any other board having as its objective the regulation of residential premises a violation or a suspected violation of any health or building code or of any other municipal by-law or ordinance, or state or federal law or regulation which has as its objective the regulation of residential premises; or reporting or complaining of such violation or suspected violation in writing to the landlord or to the agent of the landlord; or for organizing or joining a tenants' union or similar organization, or for making or expressing an intention to make, a payment of rent to an organization of unit owners pursuant to paragraph (c) of section six of chapter one hundred and eighty-three A shall be liable for damages which shall not be less than one month's rent or more than three month's rent, or the actual damages sustained by the tenant, whichever is greater, and the costs of the suit, including a reasonable attorney's fee.",
+    "yields_to_local": false,
+    "preempts_local": false,
+    "confidence": 1.0
+   }
+  ]
+ }
+}

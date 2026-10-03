@@ -1,0 +1,86 @@
+{
+ "meta": {
+  "model": "gemini-3.5-flash-lite",
+  "seconds": 2.8,
+  "tag": "extract-D082",
+  "usage": {
+   "promptTokenCount": 3226,
+   "candidatesTokenCount": 808,
+   "totalTokenCount": 4034,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 3226
+    }
+   ],
+   "serviceTier": "standard"
+  },
+  "at": "2026-10-03T17:29:32Z"
+ },
+ "output": {
+  "rules": [
+   {
+    "jurisdiction": "San Francisco, CA",
+    "level": "city",
+    "category": "just_cause_eviction",
+    "lifecycle": "enacted",
+    "title": "Relocation Payments for Owner/Relative Move-in, Demolition, Permanent Removal, Capital Improvements, or Substantial Rehabilitation",
+    "requirement": "Landlords must pay specific relocation amounts per tenant and per unit, with additional amounts for elderly, disabled tenants, or households with minor children, for evictions based on owner/relative move-in, demolition, permanent removal of a unit from housing use, temporary capital improvement work, or substantial rehabilitation.",
+    "key_value": "8245.00",
+    "coverage": {
+     "summary": "Covered units subject to specified no-fault evictions under the Rent Ordinance.",
+     "built_on_or_before": null,
+     "built_after": null,
+     "built_basis": "not_stated",
+     "rolling_age_years": null,
+     "min_units": null,
+     "single_family_excluded": null,
+     "owner_dependent": null,
+     "owner_condition": null,
+     "owner_exemption_max_units": null,
+     "subsidized_excluded": null,
+     "unresolvable": null
+    },
+    "exemptions": null,
+    "effective_date": "2026-03-01",
+    "enacted_date": null,
+    "citation": "Rent Ordinance Section 37.9C",
+    "quoted_span": "Relocation Payments for Evictions based on Owner/Relative Move-in OR Demolition/Permanent Removal of Unit from Housing Use OR Temporary Capital Improvement Work* OR Substantial Rehabilitation",
+    "yields_to_local": false,
+    "preempts_local": false,
+    "confidence": 0.95
+   },
+   {
+    "jurisdiction": "San Francisco, CA",
+    "level": "city",
+    "category": "just_cause_eviction",
+    "lifecycle": "enacted",
+    "title": "Relocation Payments for Ellis Act Evictions",
+    "requirement": "Landlords must pay specific relocation amounts per tenant and per unit, plus an additional amount for each elderly or disabled tenant, for evictions conducted under the Ellis Act.",
+    "key_value": "11110.05",
+    "coverage": {
+     "summary": "Covered units subject to Ellis Act evictions.",
+     "built_on_or_before": null,
+     "built_after": null,
+     "built_basis": "not_stated",
+     "rolling_age_years": null,
+     "min_units": null,
+     "single_family_excluded": null,
+     "owner_dependent": null,
+     "owner_condition": null,
+     "owner_exemption_max_units": null,
+     "subsidized_excluded": null,
+     "unresolvable": null
+    },
+    "exemptions": null,
+    "effective_date": "2026-03-01",
+    "enacted_date": null,
+    "citation": "Ellis Act",
+    "quoted_span": "Relocation payments for tenants evicted under the Ellis Act",
+    "yields_to_local": false,
+    "preempts_local": false,
+    "confidence": 0.95
+   }
+  ]
+ }
+}

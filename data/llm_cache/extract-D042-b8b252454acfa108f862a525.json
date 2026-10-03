@@ -1,0 +1,86 @@
+{
+ "meta": {
+  "model": "gemini-3.5-flash-lite",
+  "seconds": 3.1,
+  "tag": "extract-D042",
+  "usage": {
+   "promptTokenCount": 2256,
+   "candidatesTokenCount": 842,
+   "totalTokenCount": 3098,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 2256
+    }
+   ],
+   "serviceTier": "standard"
+  },
+  "at": "2026-10-03T17:33:37Z"
+ },
+ "output": {
+  "rules": [
+   {
+    "jurisdiction": "Los Angeles, CA",
+    "level": "city",
+    "category": "rent_increase_limits",
+    "lifecycle": "enacted",
+    "title": "RSO Annual Allowable Rent Increase (2025-2026)",
+    "requirement": "Annual rent increases for rental units subject to the Los Angeles Rent Stabilization Ordinance (RSO) are capped at 3% from July 1, 2025, through June 30, 2026.",
+    "key_value": "3%",
+    "coverage": {
+     "summary": "Applies to units subject to the City of Los Angeles Rent Stabilization Ordinance (RSO).",
+     "built_on_or_before": null,
+     "built_after": null,
+     "built_basis": "not_stated",
+     "rolling_age_years": null,
+     "min_units": null,
+     "single_family_excluded": null,
+     "owner_dependent": null,
+     "owner_condition": null,
+     "owner_exemption_max_units": null,
+     "subsidized_excluded": null,
+     "unresolvable": "Requires checking property status on zimas.lacity.org or via text service to determine if a unit is under the RSO."
+    },
+    "exemptions": null,
+    "effective_date": "2025-07-01",
+    "enacted_date": null,
+    "citation": "Rent Stabilization Ordinance (RSO)",
+    "quoted_span": "Annual rent increases for rental units subject to the City of Los Angeles Rent Stabilization Ordinance (RSO), effective July 1, 2025, through June 30, 2026 is 3%.",
+    "yields_to_local": false,
+    "preempts_local": false,
+    "confidence": 0.95
+   },
+   {
+    "jurisdiction": "Los Angeles, CA",
+    "level": "city",
+    "category": "rent_increase_limits",
+    "lifecycle": "enacted",
+    "title": "Prohibition on Additional Utility Percentage Increases",
+    "requirement": "Beginning February 2, 2026, landlords can no longer include any additional percentage increase for utilities.",
+    "key_value": null,
+    "coverage": {
+     "summary": "Applies to RSO units in the City of Los Angeles.",
+     "built_on_or_before": null,
+     "built_after": null,
+     "built_basis": "not_stated",
+     "rolling_age_years": null,
+     "min_units": null,
+     "single_family_excluded": null,
+     "owner_dependent": null,
+     "owner_condition": null,
+     "owner_exemption_max_units": null,
+     "subsidized_excluded": null,
+     "unresolvable": "Requires checking property status on zimas.lacity.org to determine if a unit is under the RSO."
+    },
+    "exemptions": null,
+    "effective_date": "2026-02-02",
+    "enacted_date": null,
+    "citation": "Rent Stabilization Ordinance (RSO)",
+    "quoted_span": "Beginning February 2, 2026, a landlord can no longer include any additional percentage increase for utilities.",
+    "yields_to_local": false,
+    "preempts_local": false,
+    "confidence": 0.95
+   }
+  ]
+ }
+}

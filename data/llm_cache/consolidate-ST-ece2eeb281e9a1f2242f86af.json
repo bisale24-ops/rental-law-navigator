@@ -1,0 +1,38 @@
+{
+ "meta": {
+  "model": "gemini-3.5-flash-lite",
+  "seconds": 1.2,
+  "tag": "consolidate-ST",
+  "usage": {
+   "promptTokenCount": 498,
+   "candidatesTokenCount": 113,
+   "totalTokenCount": 611,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 498
+    }
+   ],
+   "serviceTier": "standard"
+  },
+  "at": "2026-10-03T17:36:23Z"
+ },
+ "output": {
+  "cells": [
+   {
+    "jurisdiction": "Jersey City, ST",
+    "category": "rent_increase_limits",
+    "kind": "enacted",
+    "members": [
+     0
+    ],
+    "canonical": 0,
+    "coverage_from": 0,
+    "requirement": "All 1-4 unit properties are exempt from rent control in Jersey City.",
+    "key_value": "1-4 units",
+    "conflict": false,
+    "conflict_note": null
+   }
+  ]
+ }
+}

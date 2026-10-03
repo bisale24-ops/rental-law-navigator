@@ -1,0 +1,54 @@
+{
+ "meta": {
+  "model": "gemini-3.6-flash",
+  "seconds": 13.4,
+  "tag": "extract-D069",
+  "usage": {
+   "promptTokenCount": 3348,
+   "candidatesTokenCount": 333,
+   "totalTokenCount": 6108,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 3348
+    }
+   ],
+   "thoughtsTokenCount": 2427,
+   "serviceTier": "standard"
+  },
+  "at": "2026-10-03T17:18:25Z"
+ },
+ "output": {
+  "rules": [
+   {
+    "jurisdiction": "NJ",
+    "level": "state",
+    "category": "algorithmic_rent_setting",
+    "lifecycle": "enacted",
+    "title": "Forbidding the Algorithmic Inflation of Rent (FAIR) Act",
+    "requirement": "Landlords and coordinators are prohibited from using or subscribing to algorithmic devices or software that aggregate nonpublic competitively sensitive data from multiple property owners to set or recommend rental prices, lease terms, or occupancy levels.",
+    "key_value": null,
+    "coverage": {
+     "summary": "Applies to residential dwelling units intended for use as a primary residence in New Jersey.",
+     "built_on_or_before": null,
+     "built_after": null,
+     "built_basis": "not_stated",
+     "rolling_age_years": null,
+     "min_units": 1,
+     "single_family_excluded": false,
+     "owner_dependent": false,
+     "owner_condition": null,
+     "unresolvable": null
+    },
+    "exemptions": "Does not apply to inpatient medical care, licensed long-term care, detention or correctional facilities, free public rent estimates, non-coordinating real estate listing databases, research/testing, or government affordability controls.",
+    "effective_date": "2027-07-01",
+    "enacted_date": "2026-07-20",
+    "citation": "P.L. 2026, c.043",
+    "quoted_span": "1.  This act shall be known and may be cited as the \u201cForbidding the Algorithmic Inflation of Rent (FAIR) Act.\u201d",
+    "yields_to_local": false,
+    "preempts_local": true,
+    "confidence": 0.95
+   }
+  ]
+ }
+}

@@ -1,0 +1,55 @@
+{
+ "meta": {
+  "model": "gemini-3.5-flash-lite",
+  "seconds": 2.3,
+  "tag": "extract-D059",
+  "usage": {
+   "promptTokenCount": 1873,
+   "candidatesTokenCount": 380,
+   "totalTokenCount": 2253,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 1873
+    }
+   ],
+   "serviceTier": "standard"
+  },
+  "at": "2026-10-03T17:39:39Z"
+ },
+ "output": {
+  "rules": [
+   {
+    "jurisdiction": "MA",
+    "level": "state",
+    "category": "rent_increase_limits",
+    "lifecycle": "failed",
+    "title": "Rent Control Ballot Question",
+    "requirement": "A ballot proposal that would have limited annual rent increases for residences across Massachusetts was struck down by the state's Supreme Judicial Court and cannot go forward.",
+    "key_value": null,
+    "coverage": {
+     "summary": "Residences statewide, with exemptions including units operated solely for religious purposes.",
+     "built_on_or_before": null,
+     "built_after": null,
+     "built_basis": "not_stated",
+     "rolling_age_years": null,
+     "min_units": null,
+     "single_family_excluded": null,
+     "owner_dependent": null,
+     "owner_condition": null,
+     "owner_exemption_max_units": null,
+     "subsidized_excluded": null,
+     "unresolvable": null
+    },
+    "exemptions": "Units operated solely for religious purposes and other unspecified exemptions.",
+    "effective_date": null,
+    "enacted_date": null,
+    "citation": "Massachusetts Supreme Judicial Court ballot question challenge",
+    "quoted_span": "The state\u2019s Supreme Judicial Court ruled a ballot question seeking to bring rent control back to Massachusetts cannot go forward this November, because it includes a religious exemption.",
+    "yields_to_local": false,
+    "preempts_local": false,
+    "confidence": 0.95
+   }
+  ]
+ }
+}

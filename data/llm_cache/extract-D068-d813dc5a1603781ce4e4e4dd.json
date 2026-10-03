@@ -1,0 +1,55 @@
+{
+ "meta": {
+  "model": "gemini-3.5-flash-lite",
+  "seconds": 2.6,
+  "tag": "extract-D068",
+  "usage": {
+   "promptTokenCount": 2644,
+   "candidatesTokenCount": 590,
+   "totalTokenCount": 3234,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 2644
+    }
+   ],
+   "serviceTier": "standard"
+  },
+  "at": "2026-10-03T17:34:35Z"
+ },
+ "output": {
+  "rules": [
+   {
+    "jurisdiction": "NJ",
+    "level": "state",
+    "category": "screening_restrictions",
+    "lifecycle": "enacted",
+    "title": "New Jersey Law Against Discrimination (LAD) - Protected Classes and Source of Income",
+    "requirement": "Landlords are prohibited from discriminating against tenants or purchasers in housing based on race, creed, color, national origin, sex, gender identity or expression, marital status, civil union status, ancestry, disability, nationality, affectional or sexual orientation, familial status, domestic partner status, or source of lawful income or rent/mortgage payment (such as Section 8 HUD vouchers).",
+    "key_value": null,
+    "coverage": {
+     "summary": "Applies to all real property including open land for business or residential purposes, with specific exceptions for owner-occupied two-family dwellings, owner-occupied one-family room rentals, religious organization preferences, and older persons housing.",
+     "built_on_or_before": null,
+     "built_after": null,
+     "built_basis": "not_stated",
+     "rolling_age_years": null,
+     "min_units": null,
+     "single_family_excluded": false,
+     "owner_dependent": true,
+     "owner_condition": "Exempts owner-occupied two-family dwellings (renting a single apartment/flat) and owner-occupied one-family dwellings renting rooms.",
+     "owner_exemption_max_units": 2,
+     "subsidized_excluded": false,
+     "unresolvable": null
+    },
+    "exemptions": "The rental of a single apartment or flat in a two-family dwelling occupied by the owner; the rental of a room or rooms in an owner-occupied one-family dwelling; preference given to persons of the same religion by a religious organization; and housing for older persons regarding familial status.",
+    "effective_date": null,
+    "enacted_date": null,
+    "citation": "N.J.S.A. 10:5-1 et seq.",
+    "quoted_span": "The NJ Law Against Discrimination (LAD) prohibits discrimination on the bases of race, creed (religion), color, national origin, sex, gender identity or expression, marital status, civil union status, ancestry, actual or perceived physical or mental disability, nationality, affectional or sexual orientation, familial status, and domestic partner status.",
+    "yields_to_local": false,
+    "preempts_local": false,
+    "confidence": 0.95
+   }
+  ]
+ }
+}

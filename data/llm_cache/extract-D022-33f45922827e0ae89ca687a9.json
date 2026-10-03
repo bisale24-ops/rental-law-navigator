@@ -1,0 +1,55 @@
+{
+ "meta": {
+  "model": "gemini-3.5-flash-lite",
+  "seconds": 2.3,
+  "tag": "extract-D022",
+  "usage": {
+   "promptTokenCount": 2604,
+   "candidatesTokenCount": 465,
+   "totalTokenCount": 3069,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 2604
+    }
+   ],
+   "serviceTier": "standard"
+  },
+  "at": "2026-10-03T17:33:10Z"
+ },
+ "output": {
+  "rules": [
+   {
+    "jurisdiction": "CA",
+    "level": "state",
+    "category": "algorithmic_rent_setting",
+    "lifecycle": "enacted",
+    "title": "AB 325 Cartwright Act: common pricing algorithms",
+    "requirement": "It is unlawful to use or distribute a common pricing algorithm that uses competitor data to recommend, align, stabilize, set, or influence prices or commercial terms as part of a conspiracy to restrain trade, or to coerce another person to adopt pricing recommendations from such an algorithm.",
+    "key_value": null,
+    "coverage": {
+     "summary": "Applies generally to persons using or distributing common pricing algorithms to restrain trade or commerce or coerce pricing in the state, excluding end consumers.",
+     "built_on_or_before": null,
+     "built_after": null,
+     "built_basis": "not_stated",
+     "rolling_age_years": null,
+     "min_units": null,
+     "single_family_excluded": null,
+     "owner_dependent": null,
+     "owner_condition": null,
+     "owner_exemption_max_units": null,
+     "subsidized_excluded": null,
+     "unresolvable": null
+    },
+    "exemptions": "Does not include the end consumer of a product or service.",
+    "effective_date": "2026-01-01",
+    "enacted_date": "2025-10-06",
+    "citation": "AB-325, Business and Professions Code Section 16729",
+    "quoted_span": "It shall be unlawful for a person to use or distribute a common pricing algorithm as part of a contract, combination in the form of a trust, or conspiracy to restrain trade or commerce in violation of this chapter.",
+    "yields_to_local": false,
+    "preempts_local": false,
+    "confidence": 0.95
+   }
+  ]
+ }
+}

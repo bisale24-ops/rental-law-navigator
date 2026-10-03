@@ -1,0 +1,86 @@
+{
+ "meta": {
+  "model": "gemini-3.5-flash-lite",
+  "seconds": 2.6,
+  "tag": "extract-D016",
+  "usage": {
+   "promptTokenCount": 5965,
+   "candidatesTokenCount": 697,
+   "totalTokenCount": 6662,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 5965
+    }
+   ],
+   "serviceTier": "standard"
+  },
+  "at": "2026-10-03T17:28:08Z"
+ },
+ "output": {
+  "rules": [
+   {
+    "jurisdiction": "CA",
+    "level": "state",
+    "category": "screening_restrictions",
+    "lifecycle": "enacted",
+    "title": "Fair Employment and Housing Act Criminal History Restrictions",
+    "requirement": "Housing providers are prohibited from having blanket bans on renting to people with a criminal history and cannot consider arrests not leading to a conviction, sealed or expunged records, or juvenile justice records.",
+    "key_value": null,
+    "coverage": {
+     "summary": "Covers most housing accommodations in California.",
+     "built_on_or_before": null,
+     "built_after": null,
+     "built_basis": "not_stated",
+     "rolling_age_years": null,
+     "min_units": null,
+     "single_family_excluded": false,
+     "owner_dependent": false,
+     "owner_condition": null,
+     "owner_exemption_max_units": null,
+     "subsidized_excluded": false,
+     "unresolvable": null
+    },
+    "exemptions": null,
+    "effective_date": null,
+    "enacted_date": null,
+    "citation": "Fair Employment and Housing Act",
+    "quoted_span": "Housing providers are also prohibited from having \u201cblanket bans\u201d of all people with a criminal history.",
+    "yields_to_local": false,
+    "preempts_local": false,
+    "confidence": 1.0
+   },
+   {
+    "jurisdiction": "CA",
+    "level": "state",
+    "category": "screening_restrictions",
+    "lifecycle": "enacted",
+    "title": "Fair Employment and Housing Act Source of Income Protection",
+    "requirement": "Housing providers cannot discriminate against tenants based on their source of income, which includes government rental assistance such as Section 8 vouchers.",
+    "key_value": null,
+    "coverage": {
+     "summary": "Covers most housing accommodations in California.",
+     "built_on_or_before": null,
+     "built_after": null,
+     "built_basis": "not_stated",
+     "rolling_age_years": null,
+     "min_units": null,
+     "single_family_excluded": false,
+     "owner_dependent": false,
+     "owner_condition": null,
+     "owner_exemption_max_units": null,
+     "subsidized_excluded": false,
+     "unresolvable": null
+    },
+    "exemptions": null,
+    "effective_date": null,
+    "enacted_date": null,
+    "citation": "Fair Employment and Housing Act",
+    "quoted_span": "California law protects tenants from discrimination based on how a tenant will be paying rent (\u201csource of income\u201d).",
+    "yields_to_local": false,
+    "preempts_local": false,
+    "confidence": 1.0
+   }
+  ]
+ }
+}

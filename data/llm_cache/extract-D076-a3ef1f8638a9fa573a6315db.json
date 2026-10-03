@@ -1,0 +1,55 @@
+{
+ "meta": {
+  "model": "gemini-3.5-flash-lite",
+  "seconds": 2.4,
+  "tag": "extract-D076",
+  "usage": {
+   "promptTokenCount": 6808,
+   "candidatesTokenCount": 511,
+   "totalTokenCount": 7319,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 6808
+    }
+   ],
+   "serviceTier": "standard"
+  },
+  "at": "2026-10-03T17:34:40Z"
+ },
+ "output": {
+  "rules": [
+   {
+    "jurisdiction": "San Diego, CA",
+    "level": "city",
+    "category": "algorithmic_rent_setting",
+    "lifecycle": "pending_bill",
+    "title": "Prohibition of Anti-Competitive Automated Rent Price-Fixing Ordinance",
+    "requirement": "It is unlawful for any person to sell, license, or provide an algorithmic rent-setting device to a landlord, and unlawful for a landlord to use such a device to set rental rates or occupancy levels based on nonpublic competitor data.",
+    "key_value": "civil penalties up to $1,000 per violation",
+    "coverage": {
+     "summary": "Applies to residential rental properties and landlords using algorithmic devices incorporating nonpublic competitor data, excluding software publishing historical data older than 90 days or used for affordable housing programs.",
+     "built_on_or_before": null,
+     "built_after": null,
+     "built_basis": "not_stated",
+     "rolling_age_years": null,
+     "min_units": null,
+     "single_family_excluded": null,
+     "owner_dependent": false,
+     "owner_condition": null,
+     "owner_exemption_max_units": null,
+     "subsidized_excluded": null,
+     "unresolvable": null
+    },
+    "exemptions": "Does not apply to software publishing aggregated historical nonpublic competitor data older than 90 days or publicly available information, nor to software used to establish rental rates or income limits under affordable housing program guidelines.",
+    "effective_date": null,
+    "enacted_date": null,
+    "citation": "San Diego Municipal Code Chapter 9, Article 8, Division 11, Sections 98.1101-98.1104",
+    "quoted_span": "It is unlawful for a person to sell, license, or otherwise provide an algorithmic device to a landlord. It is unlawful for a landlord to use an algorithmic device to set rental rates or occupancy levels for residential rental property.",
+    "yields_to_local": false,
+    "preempts_local": false,
+    "confidence": 1.0
+   }
+  ]
+ }
+}

@@ -1,0 +1,55 @@
+{
+ "meta": {
+  "model": "gemini-3.5-flash-lite",
+  "seconds": 2.9,
+  "tag": "extract-D024",
+  "usage": {
+   "promptTokenCount": 4983,
+   "candidatesTokenCount": 649,
+   "totalTokenCount": 5632,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 4983
+    }
+   ],
+   "serviceTier": "standard"
+  },
+  "at": "2026-10-03T17:27:55Z"
+ },
+ "output": {
+  "rules": [
+   {
+    "jurisdiction": "CA",
+    "level": "state",
+    "category": "rent_increase_limits",
+    "lifecycle": "enacted",
+    "title": "Statewide Rent Increase Limits",
+    "requirement": "Landlords are prohibited from increasing the gross rental rate for a dwelling by more than 5 percent plus the percentage change in the cost of living, or 10 percent, whichever is lower, over any 12-month period. Increases are also limited to a maximum of two increments per 12-month period.",
+    "key_value": "5% plus cost of living change or 10% lower limit",
+    "coverage": {
+     "summary": "Applies to residential real property statewide, excluding government-subsidized housing, dormitories, housing subject to stricter local rent control, units issued a certificate of occupancy within the previous 15 years, certain separately alienable properties without corporate/REIT ownership, and certain owner-occupied duplexes.",
+     "built_on_or_before": null,
+     "built_after": null,
+     "built_basis": "certificate_of_occupancy",
+     "rolling_age_years": 15,
+     "min_units": null,
+     "single_family_excluded": null,
+     "owner_dependent": true,
+     "owner_condition": "Exempts certain separately alienable properties (like single-family homes or condos) owned by individuals rather than corporations, REITs, or LLCs with corporate members, and owner-occupied duplexes.",
+     "owner_exemption_max_units": 2,
+     "subsidized_excluded": true,
+     "unresolvable": null
+    },
+    "exemptions": "Deed-restricted affordable housing, dormitories, stricter local rent control housing, units built within the last 15 years, certain independently alienable properties not owned by corporations/REITs/certain LLCs, and owner-occupied duplexes.",
+    "effective_date": "2024-04-01",
+    "enacted_date": "2024-01-01",
+    "citation": "Civil Code Section 1947.12",
+    "quoted_span": "Subject to subdivision (b), an owner of residential real property shall not, over the course of any 12-month period, increase the gross rental rate for a dwelling or a unit more than 5 percent plus the percentage change in the cost of living, or 10 percent, whichever is lower, of the lowest gross rental rate charged for that dwelling or unit at any time during the 12 months prior to the effective date of the increase.",
+    "yields_to_local": true,
+    "preempts_local": false,
+    "confidence": 1.0
+   }
+  ]
+ }
+}

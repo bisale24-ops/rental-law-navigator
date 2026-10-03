@@ -1,0 +1,56 @@
+{
+ "meta": {
+  "model": "gemini-3.6-flash",
+  "seconds": 10.5,
+  "tag": "extract-D003",
+  "usage": {
+   "promptTokenCount": 2108,
+   "candidatesTokenCount": 508,
+   "totalTokenCount": 4080,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 2108
+    }
+   ],
+   "thoughtsTokenCount": 1464,
+   "serviceTier": "standard"
+  },
+  "at": "2026-10-03T17:20:19Z"
+ },
+ "output": {
+  "rules": [
+   {
+    "jurisdiction": "Berkeley, CA",
+    "level": "city",
+    "category": "screening_restrictions",
+    "lifecycle": "enacted",
+    "title": "Ronald V. Dellums Fair Chance Access to Housing Ordinance",
+    "requirement": "Landlords are prohibited from inquiring about, requiring disclosure of, or considering criminal history during advertising, application, tenant selection, or decision-making, and cannot charge higher rent or security deposits based on criminal history.",
+    "key_value": null,
+    "coverage": {
+     "summary": "Applies to rental housing providers in Berkeley, exempting owner-occupied properties with 1-3 units and specified limited exceptions.",
+     "built_on_or_before": null,
+     "built_after": null,
+     "built_basis": "not_stated",
+     "rolling_age_years": null,
+     "min_units": null,
+     "single_family_excluded": null,
+     "owner_dependent": true,
+     "owner_condition": "Owner-occupied properties of 1 to 3 units where an owner of record resides in one unit as their primary residence.",
+     "owner_exemption_max_units": 3,
+     "subsidized_excluded": null,
+     "unresolvable": null
+    },
+    "exemptions": "Lifetime sex offenders; limited exemptions for public housing/Section 8 properties; owner-occupied 1-3 unit properties; units under agreements allowing owner move-in under BMC 13.76.130 A.9; existing tenants seeking to sublet or add/replace roommates.",
+    "effective_date": null,
+    "enacted_date": "2020-04-14",
+    "citation": "BMC 13.106",
+    "quoted_span": "The Fair Chance Access to Housing Ordinance prohibits rental housing providers in Berkeley from asking about and using criminal history and/or criminal background checks in their rental housing advertising, applications, tenant selection process, or decision-making.",
+    "yields_to_local": false,
+    "preempts_local": false,
+    "confidence": 1.0
+   }
+  ]
+ }
+}

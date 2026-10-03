@@ -1,0 +1,117 @@
+{
+ "meta": {
+  "model": "gemini-3.5-flash-lite",
+  "seconds": 4.7,
+  "tag": "extract-D016",
+  "usage": {
+   "promptTokenCount": 6068,
+   "candidatesTokenCount": 1389,
+   "totalTokenCount": 7457,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 6068
+    }
+   ],
+   "serviceTier": "standard"
+  },
+  "at": "2026-10-03T17:33:12Z"
+ },
+ "output": {
+  "rules": [
+   {
+    "jurisdiction": "CA",
+    "level": "state",
+    "category": "screening_restrictions",
+    "lifecycle": "enacted",
+    "title": "Fair Employment and Housing Act Protected Characteristics",
+    "requirement": "California law prohibits housing providers from discriminating against or harassing tenants, homeowners, residents, guests, applicants, and home buyers based on protected characteristics including race, color, ancestry, national origin, citizenship, immigration status, primary language, religion, disability, sex, gender, sexual orientation, gender identity, gender expression, genetic information, marital status, familial status, source of income, military or veteran status, and age.",
+    "key_value": null,
+    "coverage": {
+     "summary": "Applies to most housing accommodations and providers in California.",
+     "built_on_or_before": null,
+     "built_after": null,
+     "built_basis": "not_stated",
+     "rolling_age_years": null,
+     "min_units": null,
+     "single_family_excluded": false,
+     "owner_dependent": true,
+     "owner_condition": "When an owner is occupying a home and is renting to one additional person, the owner may exclude applicants based on protected characteristics, though they still cannot make discriminatory advertisements.",
+     "owner_exemption_max_units": 1,
+     "subsidized_excluded": false,
+     "unresolvable": null
+    },
+    "exemptions": "When an owner is occupying a home and is renting to one additional person, the owner may exclude applicants based on protected characteristics (except for advertising). Senior housing and homeless youth housing may also be limited based on age under specific statutory requirements.",
+    "effective_date": null,
+    "enacted_date": null,
+    "citation": "Fair Employment and Housing Act (FEHA)",
+    "quoted_span": "The Fair Employment and Housing Act (FEHA) covers the sale, rental, or occupancy of most housing accommodations in California, including single-family homes, multi-family homes, condominiums, apartments, short-term rentals, mobile homes, subsidized housing, dormitories, sober living facilities, group homes, residential motels, emergency shelters, homeless shelters, shelters for survivors of domestic violence, recreational vehicles (RVs) used as a home, farmworker housing, and boats used as homes.",
+    "yields_to_local": false,
+    "preempts_local": false,
+    "confidence": 1.0
+   },
+   {
+    "jurisdiction": "CA",
+    "level": "state",
+    "category": "screening_restrictions",
+    "lifecycle": "enacted",
+    "title": "Source of Income Discrimination Prohibition",
+    "requirement": "Housing providers are prohibited from discriminating against tenants based on their source of income, including government rental assistance such as Section 8 housing choice vouchers, COVID-19 rent relief, SSI social security disability benefits, or job wages.",
+    "key_value": null,
+    "coverage": {
+     "summary": "Applies to housing providers statewide covered by FEHA.",
+     "built_on_or_before": null,
+     "built_after": null,
+     "built_basis": "not_stated",
+     "rolling_age_years": null,
+     "min_units": null,
+     "single_family_excluded": false,
+     "owner_dependent": false,
+     "owner_condition": null,
+     "owner_exemption_max_units": null,
+     "subsidized_excluded": false,
+     "unresolvable": null
+    },
+    "exemptions": null,
+    "effective_date": null,
+    "enacted_date": null,
+    "citation": "Fair Employment and Housing Act (FEHA)",
+    "quoted_span": "California law protects tenants from discrimination based on how a tenant will be paying rent (\"source of income\"). This includes the State of California's COVID-19 Rent Relief Program, Housing Choice (Section 8) vouchers, (SSI) social security disability benefits, or wages earned from a job.",
+    "yields_to_local": false,
+    "preempts_local": false,
+    "confidence": 1.0
+   },
+   {
+    "jurisdiction": "CA",
+    "level": "state",
+    "category": "screening_restrictions",
+    "lifecycle": "enacted",
+    "title": "Criminal History Screening Limitations",
+    "requirement": "Housing providers are prohibited from using blanket bans against all people with a criminal history and cannot consider arrests not leading to a conviction, sealed or expunged records, or juvenile justice matters. Any denial based on a criminal conviction must be directly related to the applicant's ability to be a good tenant and not pose a threat to health, safety, or property.",
+    "key_value": null,
+    "coverage": {
+     "summary": "Applies to housing providers conducting tenant screening in California.",
+     "built_on_or_before": null,
+     "built_after": null,
+     "built_basis": "not_stated",
+     "rolling_age_years": null,
+     "min_units": null,
+     "single_family_excluded": false,
+     "owner_dependent": false,
+     "owner_condition": null,
+     "owner_exemption_max_units": null,
+     "subsidized_excluded": false,
+     "unresolvable": null
+    },
+    "exemptions": null,
+    "effective_date": null,
+    "enacted_date": null,
+    "citation": "Fair Employment and Housing Act (FEHA)",
+    "quoted_span": "Housing providers cannot consider some types of criminal history including arrests that did not lead to a conviction, records that are sealed or expunged, or records or matters processed in the juvenile justice system. Housing providers are also prohibited from having \"blanket bans\" of all people with a criminal history.",
+    "yields_to_local": false,
+    "preempts_local": false,
+    "confidence": 1.0
+   }
+  ]
+ }
+}

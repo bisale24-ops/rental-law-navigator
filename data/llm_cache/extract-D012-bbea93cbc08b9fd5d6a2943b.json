@@ -1,0 +1,56 @@
+{
+ "meta": {
+  "model": "gemini-3.7-flash",
+  "seconds": 5.7,
+  "tag": "extract-D012",
+  "usage": {
+   "promptTokenCount": 1812,
+   "candidatesTokenCount": 432,
+   "totalTokenCount": 3561,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 1812
+    }
+   ],
+   "thoughtsTokenCount": 1317,
+   "serviceTier": "standard"
+  },
+  "at": "2026-10-03T17:26:17Z"
+ },
+ "output": {
+  "rules": [
+   {
+    "jurisdiction": "Boston, MA",
+    "level": "city",
+    "category": "screening_restrictions",
+    "lifecycle": "enacted",
+    "title": "Boston Rental Assistance and Fair Housing Screening Protections",
+    "requirement": "Property owners in Boston cannot discriminate against tenants or housing applicants based on rental assistance (such as Section 8 vouchers, social security disability vouchers, and veterans vouchers) or other protected characteristics.",
+    "key_value": "Rental assistance discrimination prohibited",
+    "coverage": {
+     "summary": "Applies to renting, buying, selling, or securing financing for any housing in the City of Boston.",
+     "built_on_or_before": null,
+     "built_after": null,
+     "built_basis": "not_stated",
+     "rolling_age_years": null,
+     "min_units": null,
+     "single_family_excluded": null,
+     "owner_dependent": false,
+     "owner_condition": null,
+     "owner_exemption_max_units": null,
+     "subsidized_excluded": false,
+     "unresolvable": null
+    },
+    "exemptions": null,
+    "effective_date": null,
+    "enacted_date": null,
+    "citation": "Boston Fair Housing Regulations",
+    "quoted_span": "In the City of Boston, it\u2019s illegal to discriminate when renting, buying, selling, or securing financing for any housing. You can\u2019t discriminate someone based on their: Race Color Religion Disability National Origin Ancestry Sex Gender Identity Gender Expression Age Sexual Orientation Marital Status Rental Assistance * Family Status ** Military Status * For example renters using Section 8 voucher",
+    "yields_to_local": false,
+    "preempts_local": false,
+    "confidence": 0.95
+   }
+  ]
+ }
+}

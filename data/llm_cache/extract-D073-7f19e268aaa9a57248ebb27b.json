@@ -1,0 +1,86 @@
+{
+ "meta": {
+  "model": "gemini-3.5-flash-lite",
+  "seconds": 4.0,
+  "tag": "extract-D073",
+  "usage": {
+   "promptTokenCount": 11333,
+   "candidatesTokenCount": 1106,
+   "totalTokenCount": 12439,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 11333
+    }
+   ],
+   "serviceTier": "standard"
+  },
+  "at": "2026-10-03T17:34:41Z"
+ },
+ "output": {
+  "rules": [
+   {
+    "jurisdiction": "San Diego, CA",
+    "level": "city",
+    "category": "just_cause_eviction",
+    "lifecycle": "enacted",
+    "title": "Just Cause Required for Termination of Tenancy",
+    "requirement": "Landlords are prohibited from terminating a tenancy without just cause, which is categorized into at-fault and no-fault just cause reasons.",
+    "key_value": null,
+    "coverage": {
+     "summary": "Applies to residential rental properties with specific exemptions such as recent construction (built within the last 15 years), transient occupancy, affordable housing units, and certain owner-occupied properties.",
+     "built_on_or_before": null,
+     "built_after": null,
+     "built_basis": "not_stated",
+     "rolling_age_years": 15,
+     "min_units": null,
+     "single_family_excluded": false,
+     "owner_dependent": true,
+     "owner_condition": "Exempts certain single-family homes and duplexes where the owner occupies a unit as their principal residence.",
+     "owner_exemption_max_units": 2,
+     "subsidized_excluded": true,
+     "unresolvable": null
+    },
+    "exemptions": "Transient/tourist hotels, short-term rentals, deed-restricted affordable housing, mobilehomes under Mobilehome Residency Law, hospitals/care facilities, university dorms, units sharing kitchen/bath with landlord, single-family homes with limited rooms/ADUs rented, owner-occupied duplexes, housing with a certificate of occupancy issued within the previous 15 years, and certain separately alienable properties owned by natural persons.",
+    "effective_date": "2023-06-24",
+    "enacted_date": "2023-05-25",
+    "citation": "San Diego Municipal Code \u00a798.0704",
+    "quoted_span": "A landlord shall not terminate a tenancy without just cause. For purposes of this Division, just cause includes at-fault just cause and no-fault just cause.",
+    "yields_to_local": false,
+    "preempts_local": false,
+    "confidence": 1.0
+   },
+   {
+    "jurisdiction": "San Diego, CA",
+    "level": "city",
+    "category": "just_cause_eviction",
+    "lifecycle": "enacted",
+    "title": "Relocation Assistance for No-Fault Just Cause Eviction",
+    "requirement": "Landlords terminating a tenancy for no-fault just cause must provide relocation assistance equal to two months of actual rent, or three months if the tenant is a senior or disabled, delivered via direct payment or rent waiver.",
+    "key_value": "2 to 3 months of actual rent",
+    "coverage": {
+     "summary": "Applies to tenancies subject to just cause termination requirements undergoing no-fault evictions.",
+     "built_on_or_before": null,
+     "built_after": null,
+     "built_basis": "not_stated",
+     "rolling_age_years": 15,
+     "min_units": null,
+     "single_family_excluded": false,
+     "owner_dependent": true,
+     "owner_condition": "Exemptions apply based on owner occupancy and property type as defined in \u00a798.0703.",
+     "owner_exemption_max_units": 2,
+     "subsidized_excluded": true,
+     "unresolvable": null
+    },
+    "exemptions": "Properties exempt from the just cause requirements under SDMC \u00a798.0703.",
+    "effective_date": "2023-06-24",
+    "enacted_date": "2023-05-25",
+    "citation": "San Diego Municipal Code \u00a798.0706(c)",
+    "quoted_span": "The landlord shall, regardless of the tenant\u2019s income or length of tenancy and at the landlord\u2019s option, provide relocation assistance to the tenant by one of the following: The landlord shall provide a direct payment to the tenant. Unless section 98.0706(c)(1)(A)(ii) applies, the direct payment to the tenant shall be in an amount equal to two months of actual rent under the tenant\u2019s lease in effect at the date of the notice. If the tenant is a senior or disabled, the direct payment to the tenant shall be in an amount equal to three months of actual rent under the tenant\u2019s lease in effect at the date of the notice.",
+    "yields_to_local": false,
+    "preempts_local": false,
+    "confidence": 1.0
+   }
+  ]
+ }
+}

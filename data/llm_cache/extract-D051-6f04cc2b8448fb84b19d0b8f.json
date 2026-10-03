@@ -1,0 +1,55 @@
+{
+ "meta": {
+  "model": "gemini-3.5-flash-lite",
+  "seconds": 2.5,
+  "tag": "extract-D051",
+  "usage": {
+   "promptTokenCount": 1856,
+   "candidatesTokenCount": 526,
+   "totalTokenCount": 2382,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 1856
+    }
+   ],
+   "serviceTier": "standard"
+  },
+  "at": "2026-10-03T17:33:42Z"
+ },
+ "output": {
+  "rules": [
+   {
+    "jurisdiction": "MA",
+    "level": "state",
+    "category": "just_cause_eviction",
+    "lifecycle": "enacted",
+    "title": "Notice to determine estate at will and cure for nonpayment",
+    "requirement": "For tenancies at will, a landlord must provide a 14-day written notice to quit for nonpayment of rent, which must include a specific notice of the tenant's right to cure. The tenant can prevent termination by paying or tendering the full amount of rent due within 10 days of receipt, provided the tenant has not received a similar notice within the preceding 12 months.",
+    "key_value": "14-day notice, 10-day cure period",
+    "coverage": {
+     "summary": "Applies to estates at will.",
+     "built_on_or_before": null,
+     "built_after": null,
+     "built_basis": "not_stated",
+     "rolling_age_years": null,
+     "min_units": null,
+     "single_family_excluded": null,
+     "owner_dependent": null,
+     "owner_condition": null,
+     "owner_exemption_max_units": null,
+     "subsidized_excluded": null,
+     "unresolvable": null
+    },
+    "exemptions": null,
+    "effective_date": null,
+    "enacted_date": null,
+    "citation": "Chapter 186, Section 12",
+    "quoted_span": "In case of neglect or refusal to pay the rent due from a tenant at will, fourteen days' notice to quit, given in writing by the landlord to the tenant, shall be sufficient to determine the tenancy; provided, that the tenancy of a tenant who has not received a similar notice from the landlord within the twelve months next preceding the receipt of such notice shall not be determined if the tenant, within ten days after the receipt thereof, pays or tenders to the landlord, the landlord's attorney, or the person to whom the tenant customarily pays rent, the full amount of any rent due.",
+    "yields_to_local": false,
+    "preempts_local": false,
+    "confidence": 1.0
+   }
+  ]
+ }
+}

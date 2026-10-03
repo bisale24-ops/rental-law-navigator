@@ -1,0 +1,55 @@
+{
+ "meta": {
+  "model": "gemini-3.5-flash-lite",
+  "seconds": 2.2,
+  "tag": "extract-D029",
+  "usage": {
+   "promptTokenCount": 3372,
+   "candidatesTokenCount": 394,
+   "totalTokenCount": 3766,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 3372
+    }
+   ],
+   "serviceTier": "standard"
+  },
+  "at": "2026-10-03T17:33:27Z"
+ },
+ "output": {
+  "rules": [
+   {
+    "jurisdiction": "Cambridge, MA",
+    "level": "city",
+    "category": "screening_restrictions",
+    "lifecycle": "enacted",
+    "title": "Cambridge Fair Housing Ordinance Source of Income Protection",
+    "requirement": "Landlords and housing providers are prohibited from discriminating against applicants or tenants based on their source of income, which includes Section 8 and public benefits.",
+    "key_value": null,
+    "coverage": {
+     "summary": "Covers housing and real estate transactions in Cambridge, with an exemption for 2-family dwellings where the owner lives.",
+     "built_on_or_before": null,
+     "built_after": null,
+     "built_basis": "not_stated",
+     "rolling_age_years": null,
+     "min_units": null,
+     "single_family_excluded": null,
+     "owner_dependent": true,
+     "owner_condition": "Exempts 2-family dwellings when the owner lives on the property.",
+     "owner_exemption_max_units": 2,
+     "subsidized_excluded": false,
+     "unresolvable": null
+    },
+    "exemptions": "2-family dwellings when the owner lives there.",
+    "effective_date": null,
+    "enacted_date": null,
+    "citation": "Cambridge Fair Housing Ordinance, chapter 14.04",
+    "quoted_span": "Source of Income, includes Section 8 and public benefits",
+    "yields_to_local": false,
+    "preempts_local": false,
+    "confidence": 0.95
+   }
+  ]
+ }
+}

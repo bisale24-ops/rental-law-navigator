@@ -1,0 +1,55 @@
+{
+ "meta": {
+  "model": "gemini-3.5-flash-lite",
+  "seconds": 2.5,
+  "tag": "extract-D004",
+  "usage": {
+   "promptTokenCount": 1557,
+   "candidatesTokenCount": 471,
+   "totalTokenCount": 2028,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 1557
+    }
+   ],
+   "serviceTier": "standard"
+  },
+  "at": "2026-10-03T17:32:58Z"
+ },
+ "output": {
+  "rules": [
+   {
+    "jurisdiction": "Berkeley, CA",
+    "level": "city",
+    "category": "just_cause_eviction",
+    "lifecycle": "enacted",
+    "title": "2026 Relocation Assistance Payments",
+    "requirement": "Landlords must pay tenants a standard relocation assistance payment of $19,413, plus an additional $6,471 for qualifying households, in the event of an owner move-in eviction or an Ellis Act eviction.",
+    "key_value": "$19,413 standard, $6,471 additional",
+    "coverage": {
+     "summary": "Applies to units subject to owner move-in or Ellis Act evictions under the Rent Stabilization and Good Cause for Eviction Ordinance and Ellis Implementation Ordinance.",
+     "built_on_or_before": null,
+     "built_after": null,
+     "built_basis": "not_stated",
+     "rolling_age_years": null,
+     "min_units": null,
+     "single_family_excluded": null,
+     "owner_dependent": null,
+     "owner_condition": null,
+     "owner_exemption_max_units": null,
+     "subsidized_excluded": null,
+     "unresolvable": "Relocation requirements apply specifically to owner move-in and Ellis Act evictions."
+    },
+    "exemptions": null,
+    "effective_date": "2026-01-01",
+    "enacted_date": "2025-10-27",
+    "citation": "Rent Stabilization and Good Cause for Eviction Ordinance and Ellis Implementation Ordinance",
+    "quoted_span": "The standard relocation assistance payment will increase to $19,413. The additional relocation assistance payment for qualifying households will increase to $6,471.",
+    "yields_to_local": false,
+    "preempts_local": false,
+    "confidence": 1.0
+   }
+  ]
+ }
+}

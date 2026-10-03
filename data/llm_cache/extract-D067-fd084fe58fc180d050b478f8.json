@@ -1,0 +1,148 @@
+{
+ "meta": {
+  "model": "gemini-3.5-flash-lite",
+  "seconds": 5.7,
+  "tag": "extract-D067",
+  "usage": {
+   "promptTokenCount": 42434,
+   "candidatesTokenCount": 1768,
+   "totalTokenCount": 44202,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 42434
+    }
+   ],
+   "serviceTier": "standard"
+  },
+  "at": "2026-10-03T17:28:39Z"
+ },
+ "output": {
+  "rules": [
+   {
+    "jurisdiction": "NJ",
+    "level": "state",
+    "category": "security_deposits",
+    "lifecycle": "enacted",
+    "title": "Maximum Security Deposit Limit",
+    "requirement": "Landlords are prohibited from charging a security deposit that exceeds one and one-half times one month\u2019s rent.",
+    "key_value": "1.5 months rent",
+    "coverage": {
+     "summary": "Applies to most residential rental properties, including mobile homes, excluding owner-occupied two- or three-family dwellings unless requested by tenant.",
+     "built_on_or_before": null,
+     "built_after": null,
+     "built_basis": "not_stated",
+     "rolling_age_years": null,
+     "min_units": null,
+     "single_family_excluded": false,
+     "owner_dependent": true,
+     "owner_condition": "Owner-occupied two- or three-family dwellings are exempt unless tenant requests application of the law.",
+     "owner_exemption_max_units": 3,
+     "subsidized_excluded": false,
+     "unresolvable": null
+    },
+    "exemptions": "Owner-occupied two- or three-family dwellings",
+    "effective_date": null,
+    "enacted_date": null,
+    "citation": "N.J.S.A. 46:8-21.2",
+    "quoted_span": "The maximum-security deposit to be collected by the landlord cannot be more than one and one-half times one month\u2019s rent ( N.J.S.A. 46:8-21.2 ).",
+    "yields_to_local": false,
+    "preempts_local": false,
+    "confidence": 1.0
+   },
+   {
+    "jurisdiction": "NJ",
+    "level": "state",
+    "category": "security_deposits",
+    "lifecycle": "enacted",
+    "title": "Security Deposit Return Deadline",
+    "requirement": "Landlords must return the security deposit plus interest earned, less lawful deductions, within 30 days after the termination of a tenancy.",
+    "key_value": "30 days",
+    "coverage": {
+     "summary": "Applies generally to residential tenancies governed by the Security Deposit Law.",
+     "built_on_or_before": null,
+     "built_after": null,
+     "built_basis": "not_stated",
+     "rolling_age_years": null,
+     "min_units": null,
+     "single_family_excluded": false,
+     "owner_dependent": false,
+     "owner_condition": null,
+     "owner_exemption_max_units": null,
+     "subsidized_excluded": false,
+     "unresolvable": null
+    },
+    "exemptions": null,
+    "effective_date": null,
+    "enacted_date": null,
+    "citation": "N.J.S.A. 46:8-21.1",
+    "quoted_span": "Within 30 days after the termination of a tenancy, a landlord must return the security deposit, plus interest earned less deductions, to the tenant ( N.J.S.A. 46:8-21.1).",
+    "yields_to_local": false,
+    "preempts_local": false,
+    "confidence": 1.0
+   },
+   {
+    "jurisdiction": "NJ",
+    "level": "state",
+    "category": "screening_restrictions",
+    "lifecycle": "enacted",
+    "title": "Law Against Discrimination Protected Classes",
+    "requirement": "Landlords are prohibited from discriminating in housing based on race, creed, color, national origin, ancestry, sex, marital status, civil union status, domestic partnership status, familial status, affectional or sexual orientation, gender identity or expression, mental and physical disability, nationality, or source of lawful income.",
+    "key_value": null,
+    "coverage": {
+     "summary": "Applies to all landlord-tenant relationships except two-family owner-occupied dwellings, rooms in an owner- or resident-occupied single home, and residences planned exclusively for and occupied by one sex.",
+     "built_on_or_before": null,
+     "built_after": null,
+     "built_basis": "not_stated",
+     "rolling_age_years": null,
+     "min_units": null,
+     "single_family_excluded": false,
+     "owner_dependent": true,
+     "owner_condition": "Two-family owner-occupied dwellings and rooms in an owner- or resident-occupied single home are exempt.",
+     "owner_exemption_max_units": 2,
+     "subsidized_excluded": false,
+     "unresolvable": null
+    },
+    "exemptions": "Two-family owner-occupied dwellings, rooms in an owner or resident-occupied single home, and residences planned exclusively for and occupied by one sex",
+    "effective_date": null,
+    "enacted_date": null,
+    "citation": "N.J.S.A. 10:5-12(g) to -(h)",
+    "quoted_span": "The New Jersey Law Against Discrimination (LAD), N.J.S.A. 10:5-12(g) to -(h), prohibits discrimination when selling or renting property and requires equal treatment in the sale or rental of housing regardless of race, creed, color, national origin, ancestry, sex, marital status, civil union status, domestic partnership status, familial status, affectional or sexual orientation, gender identity or expression, mental and physical disability, nationality, or source of lawful income.",
+    "yields_to_local": false,
+    "preempts_local": false,
+    "confidence": 1.0
+   },
+   {
+    "jurisdiction": "NJ",
+    "level": "state",
+    "category": "rent_increase_limits",
+    "lifecycle": "enacted",
+    "title": "Newly Constructed Multiple Dwellings Rent Control Exemption",
+    "requirement": "Newly constructed multiple dwellings are exempt from local rent control ordinances for a period of 30 years following completion of construction.",
+    "key_value": "30 years",
+    "coverage": {
+     "summary": "Applies to newly constructed multiple dwellings.",
+     "built_on_or_before": null,
+     "built_after": null,
+     "built_basis": "construction",
+     "rolling_age_years": null,
+     "min_units": 2,
+     "single_family_excluded": null,
+     "owner_dependent": false,
+     "owner_condition": null,
+     "owner_exemption_max_units": null,
+     "subsidized_excluded": false,
+     "unresolvable": null
+    },
+    "exemptions": null,
+    "effective_date": null,
+    "enacted_date": null,
+    "citation": "N.J.S.A. 2A:42-84.5",
+    "quoted_span": "Under the Newly Constructed Multiple Dwellings Law ( N.J.S.A. 2A:42 -84.5), newly constructed multiple dwellings shall be exempt from any local rent control ordinances for a period of 30 years following completion of construction of the building.",
+    "yields_to_local": false,
+    "preempts_local": true,
+    "confidence": 1.0
+   }
+  ]
+ }
+}

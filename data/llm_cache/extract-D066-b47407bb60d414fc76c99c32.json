@@ -1,0 +1,55 @@
+{
+ "meta": {
+  "model": "gemini-3.5-flash-lite",
+  "seconds": 2.1,
+  "tag": "extract-D066",
+  "usage": {
+   "promptTokenCount": 1969,
+   "candidatesTokenCount": 447,
+   "totalTokenCount": 2416,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 1969
+    }
+   ],
+   "serviceTier": "standard"
+  },
+  "at": "2026-10-03T17:28:34Z"
+ },
+ "output": {
+  "rules": [
+   {
+    "jurisdiction": "NJ",
+    "level": "state",
+    "category": "application_screening_fees",
+    "lifecycle": "enacted",
+    "title": "Application Fee Cap",
+    "requirement": "Landlords and their agents cannot charge a residential rental application or screening fee exceeding $50. The fee limit is subject to annual adjustments based on the Consumer Price Index.",
+    "key_value": "50",
+    "coverage": {
+     "summary": "Applies to residential rental properties, excluding one-family or two-family dwellings offered for rent and real estate licensees acting as agents rather than landlords.",
+     "built_on_or_before": null,
+     "built_after": null,
+     "built_basis": "not_stated",
+     "rolling_age_years": null,
+     "min_units": null,
+     "single_family_excluded": true,
+     "owner_dependent": false,
+     "owner_condition": null,
+     "owner_exemption_max_units": null,
+     "subsidized_excluded": null,
+     "unresolvable": null
+    },
+    "exemptions": "One-family or two-family dwellings offered for rent; a licensee of the New Jersey Real Estate Commission unless the licensee is the landlord.",
+    "effective_date": "2026-05-01",
+    "enacted_date": "2026-01-20",
+    "citation": "C.46:8-18.1",
+    "quoted_span": "A landlord, or agent thereof, shall not require an application or other similar fee to apply to lease or sublease a residential rental property for dwelling purposes, which exceeds $50.",
+    "yields_to_local": false,
+    "preempts_local": false,
+    "confidence": 1.0
+   }
+  ]
+ }
+}

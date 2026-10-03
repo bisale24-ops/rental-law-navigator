@@ -1,0 +1,55 @@
+{
+ "meta": {
+  "model": "gemini-3.5-flash-lite",
+  "seconds": 3.2,
+  "tag": "extract-D023",
+  "usage": {
+   "promptTokenCount": 7060,
+   "candidatesTokenCount": 575,
+   "totalTokenCount": 7635,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 7060
+    }
+   ],
+   "serviceTier": "standard"
+  },
+  "at": "2026-10-03T17:33:24Z"
+ },
+ "output": {
+  "rules": [
+   {
+    "jurisdiction": "CA",
+    "level": "state",
+    "category": "just_cause_eviction",
+    "lifecycle": "enacted",
+    "title": "California Tenant Protection Act - Just Cause Eviction",
+    "requirement": "After a tenant has continuously and lawfully occupied a residential property for 12 months (or 24 months if an adult tenant is added before 24 months), a landlord may not terminate the tenancy without just cause, which must be stated in the written notice.",
+    "key_value": "12 months continuous occupancy requirement",
+    "coverage": {
+     "summary": "Applies to residential real property after 12 months of continuous occupancy, excluding hotels, hospitals, dormitories, certain owner-occupied units, units built within the previous 15 years, and deed-restricted affordable housing.",
+     "built_on_or_before": null,
+     "built_after": null,
+     "built_basis": "certificate_of_occupancy",
+     "rolling_age_years": 15,
+     "min_units": null,
+     "single_family_excluded": false,
+     "owner_dependent": true,
+     "owner_condition": "Exempts certain single-family owner-occupied residences and certain owner-occupied duplexes.",
+     "owner_exemption_max_units": 2,
+     "subsidized_excluded": true,
+     "unresolvable": null
+    },
+    "exemptions": "Transient and tourist hotels; non-profit hospitals, religious facilities, and care facilities; school dormitories; units sharing bathroom/kitchen with owner; single-family owner-occupied residences renting no more than two units/bedrooms; certain owner-occupied duplexes; housing issued a certificate of occupancy within the previous 15 years; certain separately alienable properties owned by natural persons; deed-restricted affordable housing.",
+    "effective_date": "2024-04-01",
+    "enacted_date": null,
+    "citation": "Civil Code Section 1946.2",
+    "quoted_span": "Notwithstanding any other law, after a tenant has continuously and lawfully occupied a residential real property for 12 months, the owner of the residential real property shall not terminate a tenancy without just cause, which shall be stated in the written notice to terminate tenancy.",
+    "yields_to_local": true,
+    "preempts_local": false,
+    "confidence": 1.0
+   }
+  ]
+ }
+}

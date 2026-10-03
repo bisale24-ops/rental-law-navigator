@@ -1,0 +1,55 @@
+{
+ "meta": {
+  "model": "gemini-3.5-flash-lite",
+  "seconds": 1.9,
+  "tag": "extract-D047",
+  "usage": {
+   "promptTokenCount": 1786,
+   "candidatesTokenCount": 339,
+   "totalTokenCount": 2125,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 1786
+    }
+   ],
+   "serviceTier": "standard"
+  },
+  "at": "2026-10-03T17:33:39Z"
+ },
+ "output": {
+  "rules": [
+   {
+    "jurisdiction": "MA",
+    "level": "state",
+    "category": "algorithmic_rent_setting",
+    "lifecycle": "pending_bill",
+    "title": "An Act prohibiting algorithmic rent setting",
+    "requirement": "This bill proposes to prohibit the use of algorithmic devices or software to set or recommend rents or occupancy in the rental housing market.",
+    "key_value": null,
+    "coverage": {
+     "summary": "Statewide proposal to prohibit algorithmic rent setting.",
+     "built_on_or_before": null,
+     "built_after": null,
+     "built_basis": "not_stated",
+     "rolling_age_years": null,
+     "min_units": null,
+     "single_family_excluded": null,
+     "owner_dependent": null,
+     "owner_condition": null,
+     "owner_exemption_max_units": null,
+     "subsidized_excluded": null,
+     "unresolvable": null
+    },
+    "exemptions": null,
+    "effective_date": null,
+    "enacted_date": null,
+    "citation": "Bill S.2983",
+    "quoted_span": "An Act prohibiting algorithmic rent setting",
+    "yields_to_local": false,
+    "preempts_local": false,
+    "confidence": 0.95
+   }
+  ]
+ }
+}

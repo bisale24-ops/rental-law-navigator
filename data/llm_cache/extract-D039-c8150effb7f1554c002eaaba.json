@@ -1,0 +1,55 @@
+{
+ "meta": {
+  "model": "gemini-3.5-flash-lite",
+  "seconds": 2.1,
+  "tag": "extract-D039",
+  "usage": {
+   "promptTokenCount": 1696,
+   "candidatesTokenCount": 404,
+   "totalTokenCount": 2100,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 1696
+    }
+   ],
+   "serviceTier": "standard"
+  },
+  "at": "2026-10-03T17:33:31Z"
+ },
+ "output": {
+  "rules": [
+   {
+    "jurisdiction": "Los Angeles, CA",
+    "level": "city",
+    "category": "algorithmic_rent_setting",
+    "lifecycle": "pending_bill",
+    "title": "Instruction to Report on Algorithm-Based Rent Setting Ban",
+    "requirement": "The City Council instructed the Los Angeles Housing Department to report on the number of entities using algorithm-based software to establish rents and the feasibility of instituting a ban on its use.",
+    "key_value": null,
+    "coverage": {
+     "summary": "Citywide rental housing",
+     "built_on_or_before": null,
+     "built_after": null,
+     "built_basis": "not_stated",
+     "rolling_age_years": null,
+     "min_units": null,
+     "single_family_excluded": null,
+     "owner_dependent": null,
+     "owner_condition": null,
+     "owner_exemption_max_units": null,
+     "subsidized_excluded": null,
+     "unresolvable": null
+    },
+    "exemptions": null,
+    "effective_date": null,
+    "enacted_date": null,
+    "citation": "Council File 24-1031",
+    "quoted_span": "I THEREFORE MOVE that the City Council instruct the Los Angeles Housing Department to report on the number of ownership and management entities that are using algorithm-based software to establish rents and the feasibility of instituting a ban on the use of this software to set rents in the City.",
+    "yields_to_local": false,
+    "preempts_local": false,
+    "confidence": 0.95
+   }
+  ]
+ }
+}

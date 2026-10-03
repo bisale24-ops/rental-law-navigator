@@ -1,0 +1,118 @@
+{
+ "meta": {
+  "model": "gemini-3.5-flash",
+  "seconds": 33.5,
+  "tag": "extract-D005",
+  "usage": {
+   "promptTokenCount": 1735,
+   "candidatesTokenCount": 1219,
+   "totalTokenCount": 8551,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 1735
+    }
+   ],
+   "thoughtsTokenCount": 5597,
+   "serviceTier": "standard"
+  },
+  "at": "2026-10-03T17:22:33Z"
+ },
+ "output": {
+  "rules": [
+   {
+    "jurisdiction": "Berkeley, CA",
+    "level": "city",
+    "category": "application_screening_fees",
+    "lifecycle": "enacted",
+    "title": "Prohibition of Non-Refundable Application Fees for Existing Tenancies",
+    "requirement": "Landlords cannot charge existing tenants a non-refundable fee to renew a tenancy, or to add, replace, or remove a roommate.",
+    "key_value": null,
+    "coverage": {
+     "summary": "All residential rental agreements in Berkeley.",
+     "built_on_or_before": null,
+     "built_after": null,
+     "built_basis": "not_stated",
+     "rolling_age_years": null,
+     "min_units": null,
+     "single_family_excluded": false,
+     "owner_dependent": false,
+     "owner_condition": null,
+     "owner_exemption_max_units": null,
+     "subsidized_excluded": false,
+     "unresolvable": null
+    },
+    "exemptions": null,
+    "effective_date": null,
+    "enacted_date": null,
+    "citation": "Berkeley Municipal Code Section 13.78.016",
+    "quoted_span": "An owner of residential rental property (or the owner\u2019s agent) cannot charge a non-refundable fee to any existing tenant for the purpose of renewing a tenancy, in whole or in part, including any fee associated with the departure of a roommate or to request to add or replace a roommate in a pre-existing household.",
+    "yields_to_local": false,
+    "preempts_local": false,
+    "confidence": 1.0
+   },
+   {
+    "jurisdiction": "Berkeley, CA",
+    "level": "city",
+    "category": "application_screening_fees",
+    "lifecycle": "enacted",
+    "title": "Tenant Screening Fee Disclosure Requirement",
+    "requirement": "When charging a screening fee, landlords must provide a clear and conspicuous tenant screening fee rights statement and state the maximum fee cap permitted under state law.",
+    "key_value": null,
+    "coverage": {
+     "summary": "Residential rental properties in Berkeley where a screening fee is charged.",
+     "built_on_or_before": null,
+     "built_after": null,
+     "built_basis": "not_stated",
+     "rolling_age_years": null,
+     "min_units": null,
+     "single_family_excluded": false,
+     "owner_dependent": false,
+     "owner_condition": null,
+     "owner_exemption_max_units": null,
+     "subsidized_excluded": false,
+     "unresolvable": null
+    },
+    "exemptions": null,
+    "effective_date": null,
+    "enacted_date": null,
+    "citation": "Berkeley Municipal Code Section 13.78.010",
+    "quoted_span": "When an owner or the owner\u2019s agent gets a request to rent residential property in Berkeley from an applicant and the owner charges a fee to purchase a consumer credit report and to validate, review, or otherwise process an application, the owner must provide, either in the rental application or in a separate disclosure before receiving the fee, a clear and conspicuous tenant screening fee rights statement and a statement of the maximum fee cap permitted under California Civil Code Section 1950.6(b).",
+    "yields_to_local": false,
+    "preempts_local": false,
+    "confidence": 1.0
+   },
+   {
+    "jurisdiction": "CA",
+    "level": "state",
+    "category": "application_screening_fees",
+    "lifecycle": "enacted",
+    "title": "California Tenant Screening Fee Limits and Requirements",
+    "requirement": "The maximum tenant screening fee a landlord can charge a prospective tenant is capped at $68.96 for 2026, and landlords cannot charge a fee if no unit is available.",
+    "key_value": "$68.96",
+    "coverage": {
+     "summary": "Prospective tenants applying for residential rental units in California.",
+     "built_on_or_before": null,
+     "built_after": null,
+     "built_basis": "not_stated",
+     "rolling_age_years": null,
+     "min_units": null,
+     "single_family_excluded": false,
+     "owner_dependent": false,
+     "owner_condition": null,
+     "owner_exemption_max_units": null,
+     "subsidized_excluded": false,
+     "unresolvable": null
+    },
+    "exemptions": null,
+    "effective_date": "2026-01-01",
+    "enacted_date": null,
+    "citation": "California Civil Code Section 1950.6",
+    "quoted_span": "The maximum tenant screening fee for 2026 is\n$68.96",
+    "yields_to_local": false,
+    "preempts_local": false,
+    "confidence": 1.0
+   }
+  ]
+ }
+}

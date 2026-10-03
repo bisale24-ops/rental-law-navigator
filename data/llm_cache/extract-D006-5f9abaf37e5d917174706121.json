@@ -1,0 +1,86 @@
+{
+ "meta": {
+  "model": "gemini-3.5-flash-lite",
+  "seconds": 3.6,
+  "tag": "extract-D006",
+  "usage": {
+   "promptTokenCount": 3983,
+   "candidatesTokenCount": 838,
+   "totalTokenCount": 4821,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 3983
+    }
+   ],
+   "serviceTier": "standard"
+  },
+  "at": "2026-10-03T17:33:02Z"
+ },
+ "output": {
+  "rules": [
+   {
+    "jurisdiction": "Berkeley, CA",
+    "level": "city",
+    "category": "rent_increase_limits",
+    "lifecycle": "enacted",
+    "title": "Annual General Adjustment Cap",
+    "requirement": "The maximum Annual General Adjustment (AGA) for rent increases is capped at 5%, meaning if the rent ordinance formula produces an AGA greater than 5%, the Board-approved AGA cannot exceed 5%.",
+    "key_value": "5%",
+    "coverage": {
+     "summary": "Applies to fully-covered rental units under the Berkeley Rent Ordinance.",
+     "built_on_or_before": null,
+     "built_after": null,
+     "built_basis": "not_stated",
+     "rolling_age_years": null,
+     "min_units": null,
+     "single_family_excluded": null,
+     "owner_dependent": false,
+     "owner_condition": null,
+     "owner_exemption_max_units": null,
+     "subsidized_excluded": null,
+     "unresolvable": null
+    },
+    "exemptions": null,
+    "effective_date": null,
+    "enacted_date": null,
+    "citation": "Measure BB / Berkeley Rent Ordinance",
+    "quoted_span": "The maximum AGA is 5%. This means that, if the formula in the Rent Ordinance results in an AGA that is greater than 5%, the AGA approved by the Board for that year can be no more than 5%.",
+    "yields_to_local": false,
+    "preempts_local": false,
+    "confidence": 0.95
+   },
+   {
+    "jurisdiction": "Berkeley, CA",
+    "level": "city",
+    "category": "just_cause_eviction",
+    "lifecycle": "enacted",
+    "title": "Minimum Rental Debt for Nonpayment Eviction",
+    "requirement": "A landlord may not evict a tenant for nonpayment of rent unless the tenant owes rental debt equal to or greater than one month of the Fair Market Rent for a unit of equivalent size in the Oakland-Fremont metro area.",
+    "key_value": "1 month FMR",
+    "coverage": {
+     "summary": "Applies to fully or partially covered rental units under the Berkeley Rent Ordinance.",
+     "built_on_or_before": null,
+     "built_after": null,
+     "built_basis": "not_stated",
+     "rolling_age_years": null,
+     "min_units": null,
+     "single_family_excluded": null,
+     "owner_dependent": false,
+     "owner_condition": null,
+     "owner_exemption_max_units": null,
+     "subsidized_excluded": null,
+     "unresolvable": null
+    },
+    "exemptions": null,
+    "effective_date": null,
+    "enacted_date": null,
+    "citation": "Measure BB / Berkeley Rent Ordinance",
+    "quoted_span": "For a landlord to evict a tenant for nonpayment of rent, the tenant must owe an amount of rental debt equal to or greater than one month of the Fair Market Rent (FMR) value for a unit of equivalent size in the metro area Oakland-Fremont, CA HUD Metro FMR as determined by the US Department of Housing and Urban Development for the fiscal year in which the rent is demanded.",
+    "yields_to_local": false,
+    "preempts_local": false,
+    "confidence": 0.95
+   }
+  ]
+ }
+}

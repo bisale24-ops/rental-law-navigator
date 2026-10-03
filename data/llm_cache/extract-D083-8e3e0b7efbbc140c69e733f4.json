@@ -1,0 +1,148 @@
+{
+ "meta": {
+  "model": "gemini-3.5-flash-lite",
+  "seconds": 4.9,
+  "tag": "extract-D083",
+  "usage": {
+   "promptTokenCount": 2624,
+   "candidatesTokenCount": 1750,
+   "totalTokenCount": 4374,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 2624
+    }
+   ],
+   "serviceTier": "standard"
+  },
+  "at": "2026-10-03T17:35:36Z"
+ },
+ "output": {
+  "rules": [
+   {
+    "jurisdiction": "San Francisco, CA",
+    "level": "city",
+    "category": "rent_increase_limits",
+    "lifecycle": "enacted",
+    "title": "Allowable Annual Rent Increase",
+    "requirement": "The allowable annual rent increase is 1.6% for the period from March 1, 2026 to February 28, 2027.",
+    "key_value": "1.6%",
+    "coverage": {
+     "summary": "Covered units under the San Francisco Rent Ordinance.",
+     "built_on_or_before": null,
+     "built_after": null,
+     "built_basis": "not_stated",
+     "rolling_age_years": null,
+     "min_units": null,
+     "single_family_excluded": null,
+     "owner_dependent": null,
+     "owner_condition": null,
+     "owner_exemption_max_units": null,
+     "subsidized_excluded": null,
+     "unresolvable": null
+    },
+    "exemptions": null,
+    "effective_date": "2026-03-01",
+    "enacted_date": null,
+    "citation": "San Francisco Rent Board",
+    "quoted_span": "1.6% for March 1, 2026 \u2013 February 28, 2027",
+    "yields_to_local": false,
+    "preempts_local": false,
+    "confidence": 1.0
+   },
+   {
+    "jurisdiction": "San Francisco, CA",
+    "level": "city",
+    "category": "security_deposits",
+    "lifecycle": "enacted",
+    "title": "Security Deposit Interest Rate",
+    "requirement": "The required interest rate on security deposits is 4.2% for the period from March 1, 2026 to February 28, 2027.",
+    "key_value": "4.2%",
+    "coverage": {
+     "summary": "Covered residential security deposits in San Francisco.",
+     "built_on_or_before": null,
+     "built_after": null,
+     "built_basis": "not_stated",
+     "rolling_age_years": null,
+     "min_units": null,
+     "single_family_excluded": null,
+     "owner_dependent": null,
+     "owner_condition": null,
+     "owner_exemption_max_units": null,
+     "subsidized_excluded": null,
+     "unresolvable": null
+    },
+    "exemptions": null,
+    "effective_date": "2026-03-01",
+    "enacted_date": null,
+    "citation": "San Francisco Rent Board",
+    "quoted_span": "4.2% for March 1, 2026 \u2013 February 28, 2027",
+    "yields_to_local": false,
+    "preempts_local": false,
+    "confidence": 1.0
+   },
+   {
+    "jurisdiction": "San Francisco, CA",
+    "level": "city",
+    "category": "just_cause_eviction",
+    "lifecycle": "enacted",
+    "title": "Relocation Payments for Owner/Relative Move-in, Demolition, Permanent Removal, Capital Improvements, or Substantial Rehabilitation",
+    "requirement": "For evictions based on owner/relative move-in, demolition, permanent removal of unit from housing use, temporary capital improvement work, or substantial rehabilitation, the relocation amount due per tenant is $8,245.00, with a maximum of $24,733.00 per unit, plus an additional $5,497.00 for each elderly or disabled tenant or household with minor children, for notices served between March 1, 2026 and February 28, 2027.",
+    "key_value": "$8,245.00 per tenant up to $24,733.00 per unit",
+    "coverage": {
+     "summary": "Covered tenancies subject to San Francisco Rent Ordinance Section 37.9C.",
+     "built_on_or_before": null,
+     "built_after": null,
+     "built_basis": "not_stated",
+     "rolling_age_years": null,
+     "min_units": null,
+     "single_family_excluded": null,
+     "owner_dependent": null,
+     "owner_condition": null,
+     "owner_exemption_max_units": null,
+     "subsidized_excluded": null,
+     "unresolvable": null
+    },
+    "exemptions": null,
+    "effective_date": "2026-03-01",
+    "enacted_date": null,
+    "citation": "Rent Ordinance Section 37.9C",
+    "quoted_span": "3/01/26 \u2013 2/28/27 | $8,245.00 | $24,733.00 | $5,497.00",
+    "yields_to_local": false,
+    "preempts_local": false,
+    "confidence": 1.0
+   },
+   {
+    "jurisdiction": "San Francisco, CA",
+    "level": "city",
+    "category": "just_cause_eviction",
+    "lifecycle": "enacted",
+    "title": "Relocation Payments for Ellis Act Evictions",
+    "requirement": "For tenants evicted under the Ellis Act, the relocation amount due per tenant is $11,110.05, with a maximum of $33,330.13 per unit, plus an additional $7,443.90 for each elderly or disabled tenant, for notices served between March 1, 2026 and February 28, 2027.",
+    "key_value": "$11,110.05 per tenant up to $33,330.13 per unit",
+    "coverage": {
+     "summary": "Covered tenancies subject to San Francisco Rent Ordinance Section 37.9A.",
+     "built_on_or_before": null,
+     "built_after": null,
+     "built_basis": "not_stated",
+     "rolling_age_years": null,
+     "min_units": null,
+     "single_family_excluded": null,
+     "owner_dependent": null,
+     "owner_condition": null,
+     "owner_exemption_max_units": null,
+     "subsidized_excluded": null,
+     "unresolvable": null
+    },
+    "exemptions": null,
+    "effective_date": "2026-03-01",
+    "enacted_date": null,
+    "citation": "Rent Ordinance Section 37.9A",
+    "quoted_span": "3/01/26 \u2013 2/28/27 | $11,110.05 | $33,330.13 | $7,443.90",
+    "yields_to_local": false,
+    "preempts_local": false,
+    "confidence": 1.0
+   }
+  ]
+ }
+}

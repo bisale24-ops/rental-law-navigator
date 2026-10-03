@@ -1,0 +1,40 @@
+{
+ "meta": {
+  "model": "gemini-3.5-flash-lite",
+  "seconds": 1.2,
+  "tag": "consolidate-Newark, NJ",
+  "usage": {
+   "promptTokenCount": 891,
+   "candidatesTokenCount": 102,
+   "totalTokenCount": 993,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 891
+    }
+   ],
+   "serviceTier": "standard"
+  },
+  "at": "2026-10-03T18:37:50Z"
+ },
+ "output": {
+  "cells": [
+   {
+    "jurisdiction": "Newark, NJ",
+    "category": "rent_increase_limits",
+    "kind": "enacted",
+    "members": [
+     0,
+     1
+    ],
+    "canonical": 0,
+    "coverage_from": 0,
+    "requirement": "Landlords may increase rent annually based on the monthly Consumer Price Index-Urban percentage (CPI-U %) published every month, provided they give proper written notice.",
+    "key_value": "CPI-U percentage",
+    "effect": "imposes_requirement",
+    "conflict": false,
+    "conflict_note": null
+   }
+  ]
+ }
+}

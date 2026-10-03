@@ -1,0 +1,84 @@
+{
+ "meta": {
+  "model": "gemini-3.5-flash-lite",
+  "seconds": 2.1,
+  "tag": "consolidate-Jersey City, NJ",
+  "usage": {
+   "promptTokenCount": 6871,
+   "candidatesTokenCount": 442,
+   "totalTokenCount": 7313,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 6871
+    }
+   ],
+   "serviceTier": "standard"
+  },
+  "at": "2026-10-03T18:37:38Z"
+ },
+ "output": {
+  "cells": [
+   {
+    "jurisdiction": "Jersey City, NJ",
+    "category": "rent_increase_limits",
+    "kind": "enacted",
+    "members": [
+     0,
+     1,
+     30,
+     31
+    ],
+    "canonical": 30,
+    "coverage_from": 31,
+    "requirement": "In properties subject to rent control, landlords cannot increase rent by more than the applicable percentage posted or 4%, whichever is lower. Properties with 1 to 4 units are exempt from these regulations.",
+    "key_value": "4%",
+    "effect": "imposes_requirement",
+    "conflict": false,
+    "conflict_note": null
+   },
+   {
+    "jurisdiction": "Jersey City, NJ",
+    "category": "algorithmic_rent_setting",
+    "kind": "enacted",
+    "members": [
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15,
+     16,
+     17,
+     18,
+     19,
+     20,
+     21,
+     22,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28,
+     29
+    ],
+    "canonical": 9,
+    "coverage_from": 9,
+    "requirement": "Landlords are prohibited from using algorithmic rent coordination services and specified pricing algorithms to set rents, fees, or occupancy terms.",
+    "key_value": null,
+    "effect": "imposes_requirement",
+    "conflict": false,
+    "conflict_note": null
+   }
+  ]
+ }
+}

@@ -1,0 +1,93 @@
+{
+ "meta": {
+  "model": "gemini-3.5-flash-lite",
+  "seconds": 2.5,
+  "tag": "consolidate-Santa Ana, CA",
+  "usage": {
+   "promptTokenCount": 3169,
+   "candidatesTokenCount": 647,
+   "totalTokenCount": 3816,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 3169
+    }
+   ],
+   "serviceTier": "standard"
+  },
+  "at": "2026-10-03T18:37:58Z"
+ },
+ "output": {
+  "cells": [
+   {
+    "jurisdiction": "Santa Ana, CA",
+    "category": "rent_increase_limits",
+    "kind": "enacted",
+    "members": [
+     0,
+     2,
+     5,
+     7
+    ],
+    "canonical": 5,
+    "coverage_from": 5,
+    "requirement": "Residential rent increases are limited to the lower of 3% per year, or 80% of the percent change in the Consumer Price Index over the most recent 12-month period.",
+    "key_value": "Lower of 3% or 80% of CPI",
+    "effect": "imposes_requirement",
+    "conflict": false,
+    "conflict_note": null
+   },
+   {
+    "jurisdiction": "Santa Ana, CA",
+    "category": "just_cause_eviction",
+    "kind": "enacted",
+    "members": [
+     1,
+     3,
+     4,
+     6,
+     8
+    ],
+    "canonical": 6,
+    "coverage_from": 6,
+    "requirement": "Landlords must have just cause to terminate a tenancy after 30 days and provide 3 months of relocation assistance or waive 3 months of rent for no-fault evictions.",
+    "key_value": "3 months relocation assistance for no-fault",
+    "effect": "imposes_requirement",
+    "conflict": false,
+    "conflict_note": null
+   },
+   {
+    "jurisdiction": "Santa Ana, CA",
+    "category": "algorithmic_rent_setting",
+    "kind": "enacted",
+    "members": [
+     9,
+     10,
+     12
+    ],
+    "canonical": 12,
+    "coverage_from": 12,
+    "requirement": "Landlords and apartment owners are prohibited from using automated AI software and algorithmic devices to set rental prices using nonpublic competitor data, with violations subject to fines up to $1,000.",
+    "key_value": "1000 fine",
+    "effect": "imposes_requirement",
+    "conflict": false,
+    "conflict_note": null
+   },
+   {
+    "jurisdiction": "Santa Ana, CA",
+    "category": "algorithmic_rent_setting",
+    "kind": "bill_or_failed",
+    "members": [
+     11
+    ],
+    "canonical": 11,
+    "coverage_from": 11,
+    "requirement": "Prohibits the sale, licensing, provision and use of algorithmic rent-setting software for residential rental properties that uses nonpublic competitor data to set rental rates.",
+    "key_value": null,
+    "effect": "imposes_requirement",
+    "conflict": false,
+    "conflict_note": null
+   }
+  ]
+ }
+}

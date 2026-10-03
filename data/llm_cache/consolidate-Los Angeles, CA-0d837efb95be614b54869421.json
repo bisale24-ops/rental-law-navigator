@@ -1,0 +1,102 @@
+{
+ "meta": {
+  "model": "gemini-3.5-flash-lite",
+  "seconds": 3.0,
+  "tag": "consolidate-Los Angeles, CA",
+  "usage": {
+   "promptTokenCount": 6343,
+   "candidatesTokenCount": 784,
+   "totalTokenCount": 7127,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 6343
+    }
+   ],
+   "serviceTier": "standard"
+  },
+  "at": "2026-10-03T18:37:41Z"
+ },
+ "output": {
+  "cells": [
+   {
+    "jurisdiction": "Los Angeles, CA",
+    "category": "algorithmic_rent_setting",
+    "kind": "bill_or_failed",
+    "members": [
+     0
+    ],
+    "canonical": 0,
+    "coverage_from": 0,
+    "requirement": "The City Council instructed the Los Angeles Housing Department to report on the number of entities using algorithm-based software to establish rents and the feasibility of instituting a ban on its use.",
+    "key_value": null,
+    "effect": "imposes_requirement",
+    "conflict": false,
+    "conflict_note": null
+   },
+   {
+    "jurisdiction": "Los Angeles, CA",
+    "category": "just_cause_eviction",
+    "kind": "enacted",
+    "members": [
+     1,
+     2,
+     3,
+     9,
+     10,
+     11,
+     12,
+     16,
+     18,
+     19
+    ],
+    "canonical": 1,
+    "coverage_from": 2,
+    "requirement": "Landlords are prohibited from terminating tenancies without just cause and must provide relocation assistance for no-fault evictions under the Just Cause Ordinance. Additionally, landlords may not evict a tenant for nonpayment of rent unless the unpaid amount exceeds the Fair Market Rent for the unit's bedroom size.",
+    "key_value": "Eligible/Qualified amounts ranging from $11,000 to $27,400 depending on length of tenancy and tenant status",
+    "effect": "imposes_requirement",
+    "conflict": false,
+    "conflict_note": null
+   },
+   {
+    "jurisdiction": "Los Angeles, CA",
+    "category": "rent_increase_limits",
+    "kind": "enacted",
+    "members": [
+     4,
+     5,
+     6,
+     7,
+     8,
+     15,
+     17
+    ],
+    "canonical": 7,
+    "coverage_from": 4,
+    "requirement": "Annual rent increases for rental units subject to the City of Los Angeles Rent Stabilization Ordinance are capped at 3% from July 1, 2025, through June 30, 2026, and beginning February 2, 2026, landlords can no longer include any additional percentage increase for utilities.",
+    "key_value": "3%",
+    "effect": "imposes_requirement",
+    "conflict": false,
+    "conflict_note": null
+   },
+   {
+    "jurisdiction": "Los Angeles, CA",
+    "category": "security_deposits",
+    "kind": "enacted",
+    "members": [
+     13,
+     14,
+     20,
+     21
+    ],
+    "canonical": 14,
+    "coverage_from": 20,
+    "requirement": "Landlords of properties subject to the Los Angeles Rent Stabilization Ordinance must pay tenants interest on their security deposits either monthly or annually, provided as a direct payment or a rent credit, after giving written notice of the chosen method.",
+    "key_value": "3.03%",
+    "effect": "imposes_requirement",
+    "conflict": false,
+    "conflict_note": null
+   }
+  ]
+ }
+}

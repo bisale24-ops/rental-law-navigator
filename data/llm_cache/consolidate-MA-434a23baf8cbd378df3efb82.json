@@ -1,0 +1,150 @@
+{
+ "meta": {
+  "model": "gemini-3.5-flash-lite",
+  "seconds": 4.0,
+  "tag": "consolidate-MA",
+  "usage": {
+   "promptTokenCount": 6909,
+   "candidatesTokenCount": 1232,
+   "totalTokenCount": 8141,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 6909
+    }
+   ],
+   "serviceTier": "standard"
+  },
+  "at": "2026-10-03T18:37:45Z"
+ },
+ "output": {
+  "cells": [
+   {
+    "jurisdiction": "MA",
+    "category": "algorithmic_rent_setting",
+    "kind": "bill_or_failed",
+    "members": [
+     0,
+     1,
+     2,
+     3
+    ],
+    "canonical": 1,
+    "coverage_from": 1,
+    "requirement": "These pending bills propose to prohibit the use of algorithmic devices or software to set or recommend rents or occupancy in the rental housing market.",
+    "key_value": null,
+    "effect": "imposes_requirement",
+    "conflict": false,
+    "conflict_note": null
+   },
+   {
+    "jurisdiction": "MA",
+    "category": "rent_increase_limits",
+    "kind": "enacted",
+    "members": [
+     4,
+     5
+    ],
+    "canonical": 4,
+    "coverage_from": 4,
+    "requirement": "Cities and towns are generally prohibited from enacting, maintaining, or enforcing rent control of any kind, except that municipalities accepting the chapter may adopt a voluntary form of rent control where compliance by property owners is entirely optional and uncoerced.",
+    "key_value": null,
+    "effect": "prohibits_local_rules",
+    "conflict": false,
+    "conflict_note": null
+   },
+   {
+    "jurisdiction": "MA",
+    "category": "screening_restrictions",
+    "kind": "enacted",
+    "members": [
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14
+    ],
+    "canonical": 8,
+    "coverage_from": 8,
+    "requirement": "It is unlawful for housing owners, lessors, brokers, or managing agents to discriminate in rental, sale, terms, or conditions based on protected classes including race, religion, color, national origin, sex, gender identity, sexual orientation, age, genetic information, ancestry, marital status, veteran status, handicap, public assistance, or having children, and prohibited from engaging in blockbusting or sexual harassment.",
+    "key_value": null,
+    "effect": "imposes_requirement",
+    "conflict": false,
+    "conflict_note": null
+   },
+   {
+    "jurisdiction": "MA",
+    "category": "just_cause_eviction",
+    "kind": "enacted",
+    "members": [
+     15,
+     20
+    ],
+    "canonical": 15,
+    "coverage_from": 15,
+    "requirement": "For tenancies at will, landlords must provide a 14-day written notice to quit for nonpayment of rent with a right to cure within 10 days, and landlords are prohibited from taking reprisals against tenants for reporting code violations or joining tenants' unions.",
+    "key_value": "14-day notice, 10-day cure period",
+    "effect": "imposes_requirement",
+    "conflict": false,
+    "conflict_note": null
+   },
+   {
+    "jurisdiction": "MA",
+    "category": "security_deposits",
+    "kind": "enacted",
+    "members": [
+     16,
+     17,
+     18,
+     19
+    ],
+    "canonical": 16,
+    "coverage_from": 16,
+    "requirement": "Landlords may not require move-in payments exceeding the first month's rent, last month's rent, a security deposit equal to the first month's rent, and key/lock purchase costs, and must return the security deposit within 30 days after termination of occupancy with an itemized list of deductions.",
+    "key_value": "1 month rent security deposit max",
+    "effect": "imposes_requirement",
+    "conflict": false,
+    "conflict_note": null
+   },
+   {
+    "jurisdiction": "MA",
+    "category": "application_screening_fees",
+    "kind": "enacted",
+    "members": [
+     21,
+     22,
+     25
+    ],
+    "canonical": 21,
+    "coverage_from": 21,
+    "requirement": "Landlords are prohibited from charging prospective tenants application fees or any upfront payments other than first month's rent, last month's rent, security deposit, and lock-change fee, and real estate broker/salesperson finding fees must be paid exclusively by the party who originally engaged and entered into a contract with them.",
+    "key_value": null,
+    "effect": "imposes_requirement",
+    "conflict": false,
+    "conflict_note": null
+   },
+   {
+    "jurisdiction": "MA",
+    "category": "rent_increase_limits",
+    "kind": "bill_or_failed",
+    "members": [
+     23,
+     24,
+     26,
+     27
+    ],
+    "canonical": 23,
+    "coverage_from": 23,
+    "requirement": "Proposed statewide initiative petitions and ballot measures to limit annual rent increases to the lesser of the Consumer Price Index or 5% were struck down by the Supreme Judicial Court and failed to go forward.",
+    "key_value": "Lesser of CPI or 5%",
+    "effect": "imposes_requirement",
+    "conflict": false,
+    "conflict_note": null
+   }
+  ]
+ }
+}

@@ -10,6 +10,7 @@ conflict flag when sources disagree on the effective date or the headline number
 import collections
 import datetime as dt
 import json
+import os
 import pathlib
 import re
 import sys
@@ -231,7 +232,10 @@ def _official_first(cands, g):
 def build(candidates, replay_only=False):
     by_state = collections.defaultdict(list)
     for c in candidates:
-        by_state[c["jurisdiction"][-2:]].append(c)
+        # one small request per jurisdiction: a model merges a city's dozen candidates far more reliably than a
+        # whole state's hundred (NAV_GROUP=state restores the earlier, coarser grouping)
+        key = c["jurisdiction"][-2:] if os.environ.get("NAV_GROUP") == "state" else c["jurisdiction"]
+        by_state[key].append(c)
     rules = []
     for state, cands in sorted(by_state.items()):
         for g in group_state(state, cands, replay_only):

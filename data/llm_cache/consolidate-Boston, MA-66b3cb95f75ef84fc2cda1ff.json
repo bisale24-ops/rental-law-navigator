@@ -1,0 +1,74 @@
+{
+ "meta": {
+  "model": "gemini-3.5-flash-lite",
+  "seconds": 2.1,
+  "tag": "consolidate-Boston, MA",
+  "usage": {
+   "promptTokenCount": 2194,
+   "candidatesTokenCount": 466,
+   "totalTokenCount": 2660,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 2194
+    }
+   ],
+   "serviceTier": "standard"
+  },
+  "at": "2026-10-03T18:37:28Z"
+ },
+ "output": {
+  "cells": [
+   {
+    "jurisdiction": "Boston, MA",
+    "category": "screening_restrictions",
+    "kind": "enacted",
+    "members": [
+     0,
+     1,
+     2,
+     3,
+     6,
+     7
+    ],
+    "canonical": 0,
+    "coverage_from": 0,
+    "requirement": "Covered housing providers cannot maintain blanket bans against applicants with arrests or convictions and must not consider non-conviction arrests, expunged or sealed records, juvenile records, or convictions older than 5 years unless directly related to housing or safety. Additionally, providers may not use credit scores to approve or deny housing applications, and discrimination based on rental assistance or source of income is prohibited.",
+    "key_value": "5 years conviction lookback limit",
+    "effect": "imposes_requirement",
+    "conflict": false,
+    "conflict_note": null
+   },
+   {
+    "jurisdiction": "Boston, MA",
+    "category": "rent_increase_limits",
+    "kind": "bill_or_failed",
+    "members": [
+     4
+    ],
+    "canonical": 4,
+    "coverage_from": 4,
+    "requirement": "A pending bill would authorize the city of Boston to implement rent stabilization and tenant eviction protections.",
+    "key_value": null,
+    "effect": "imposes_requirement",
+    "conflict": false,
+    "conflict_note": null
+   },
+   {
+    "jurisdiction": "Boston, MA",
+    "category": "just_cause_eviction",
+    "kind": "bill_or_failed",
+    "members": [
+     5
+    ],
+    "canonical": 5,
+    "coverage_from": 5,
+    "requirement": "A pending bill would authorize the city of Boston to implement tenant eviction protections alongside rent stabilization.",
+    "key_value": null,
+    "effect": "imposes_requirement",
+    "conflict": false,
+    "conflict_note": null
+   }
+  ]
+ }
+}

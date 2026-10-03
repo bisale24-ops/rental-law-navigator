@@ -1,0 +1,56 @@
+{
+ "meta": {
+  "model": "gemini-3.5-flash-lite",
+  "seconds": 1.6,
+  "tag": "consolidate-Hoboken, NJ",
+  "usage": {
+   "promptTokenCount": 1249,
+   "candidatesTokenCount": 272,
+   "totalTokenCount": 1521,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 1249
+    }
+   ],
+   "serviceTier": "standard"
+  },
+  "at": "2026-10-03T18:37:36Z"
+ },
+ "output": {
+  "cells": [
+   {
+    "jurisdiction": "Hoboken, NJ",
+    "category": "rent_increase_limits",
+    "kind": "enacted",
+    "members": [
+     0,
+     1
+    ],
+    "canonical": 0,
+    "coverage_from": 0,
+    "requirement": "Landlords are prohibited from requesting or receiving a percentage increase in rent greater than 5% for residential rental units under the city rent leveling ordinance.",
+    "key_value": "5%",
+    "effect": "imposes_requirement",
+    "conflict": false,
+    "conflict_note": null
+   },
+   {
+    "jurisdiction": "Hoboken, NJ",
+    "category": "algorithmic_rent_setting",
+    "kind": "enacted",
+    "members": [
+     2,
+     3
+    ],
+    "canonical": 2,
+    "coverage_from": 2,
+    "requirement": "Landlords renting residential units in Hoboken are prohibited from using software, algorithms, or data-sharing platforms to coordinate, recommend, or implement rental prices, lease terms, or occupancy levels among competing landlords.",
+    "key_value": null,
+    "effect": "imposes_requirement",
+    "conflict": false,
+    "conflict_note": null
+   }
+  ]
+ }
+}

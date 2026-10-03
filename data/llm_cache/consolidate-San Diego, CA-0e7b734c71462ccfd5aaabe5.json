@@ -1,0 +1,92 @@
+{
+ "meta": {
+  "model": "gemini-3.5-flash-lite",
+  "seconds": 2.7,
+  "tag": "consolidate-San Diego, CA",
+  "usage": {
+   "promptTokenCount": 3690,
+   "candidatesTokenCount": 663,
+   "totalTokenCount": 4353,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 3690
+    }
+   ],
+   "serviceTier": "standard"
+  },
+  "at": "2026-10-03T18:37:53Z"
+ },
+ "output": {
+  "cells": [
+   {
+    "jurisdiction": "San Diego, CA",
+    "category": "just_cause_eviction",
+    "kind": "enacted",
+    "members": [
+     0,
+     1,
+     4,
+     5,
+     6,
+     7
+    ],
+    "canonical": 0,
+    "coverage_from": 4,
+    "requirement": "Landlords are prohibited from terminating a residential tenancy without just cause, categorized into at-fault and no-fault reasons. For no-fault evictions, landlords must provide relocation assistance equal to two to three months of actual rent.",
+    "key_value": "2 to 3 months of actual rent",
+    "effect": "imposes_requirement",
+    "conflict": false,
+    "conflict_note": null
+   },
+   {
+    "jurisdiction": "San Diego, CA",
+    "category": "algorithmic_rent_setting",
+    "kind": "bill_or_failed",
+    "members": [
+     2,
+     3
+    ],
+    "canonical": 2,
+    "coverage_from": 3,
+    "requirement": "It is unlawful to sell, license, or provide an algorithmic rent-setting device to a landlord, or for a landlord to use such a device using nonpublic competitor data to set rates or occupancy levels.",
+    "key_value": "civil penalties up to $1,000 per violation",
+    "effect": "imposes_requirement",
+    "conflict": false,
+    "conflict_note": null
+   },
+   {
+    "jurisdiction": "San Diego, CA",
+    "category": "algorithmic_rent_setting",
+    "kind": "enacted",
+    "members": [
+     8,
+     9
+    ],
+    "canonical": 8,
+    "coverage_from": 9,
+    "requirement": "It is unlawful for any person to sell, license, or provide an algorithmic device to a landlord, and unlawful for a landlord to use an algorithmic device to set rental rates or occupancy levels for residential rental property.",
+    "key_value": null,
+    "effect": "imposes_requirement",
+    "conflict": false,
+    "conflict_note": null
+   },
+   {
+    "jurisdiction": "San Diego, CA",
+    "category": "screening_restrictions",
+    "kind": "enacted",
+    "members": [
+     10,
+     11
+    ],
+    "canonical": 10,
+    "coverage_from": 10,
+    "requirement": "Landlords cannot discriminate against tenants or prospective tenants based on their source of income, including government or nonprofit rental assistance programs.",
+    "key_value": null,
+    "effect": "imposes_requirement",
+    "conflict": false,
+    "conflict_note": null
+   }
+  ]
+ }
+}

@@ -1,0 +1,218 @@
+{
+ "meta": {
+  "model": "gemini-3.5-flash-lite",
+  "seconds": 5.4,
+  "tag": "consolidate-Berkeley, CA",
+  "usage": {
+   "promptTokenCount": 12270,
+   "candidatesTokenCount": 1653,
+   "totalTokenCount": 13923,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 12270
+    }
+   ],
+   "serviceTier": "standard"
+  },
+  "at": "2026-10-03T18:37:26Z"
+ },
+ "output": {
+  "cells": [
+   {
+    "jurisdiction": "Berkeley, CA",
+    "category": "algorithmic_rent_setting",
+    "kind": "enacted",
+    "members": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15,
+     16,
+     17,
+     18,
+     19,
+     20,
+     21,
+     22,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28,
+     29
+    ],
+    "canonical": 0,
+    "coverage_from": 0,
+    "requirement": "Landlords are prohibited from using coordinated pricing algorithms to set rents or manage occupancy levels for residential dwelling units in Berkeley, and vendors are prohibited from selling or providing such algorithms.",
+    "key_value": null,
+    "effect": "imposes_requirement",
+    "conflict": false,
+    "conflict_note": null
+   },
+   {
+    "jurisdiction": "Berkeley, CA",
+    "category": "screening_restrictions",
+    "kind": "enacted",
+    "members": [
+     30,
+     31
+    ],
+    "canonical": 30,
+    "coverage_from": 30,
+    "requirement": "Landlords are prohibited from inquiring about, requiring disclosure of, or considering criminal history during advertising, application, tenant selection, or decision-making.",
+    "key_value": null,
+    "effect": "imposes_requirement",
+    "conflict": false,
+    "conflict_note": null
+   },
+   {
+    "jurisdiction": "Berkeley, CA",
+    "category": "just_cause_eviction",
+    "kind": "enacted",
+    "members": [
+     32,
+     33
+    ],
+    "canonical": 32,
+    "coverage_from": 32,
+    "requirement": "Landlords evicting tenants for an owner move-in or under the Ellis Act must pay a standard relocation assistance payment of $19,413, plus an additional $6,471 for qualifying households.",
+    "key_value": "$19,413 standard / $6,471 additional",
+    "effect": "imposes_requirement",
+    "conflict": false,
+    "conflict_note": null
+   },
+   {
+    "jurisdiction": "Berkeley, CA",
+    "category": "application_screening_fees",
+    "kind": "enacted",
+    "members": [
+     34,
+     35,
+     36,
+     37
+    ],
+    "canonical": 34,
+    "coverage_from": 35,
+    "requirement": "Landlords cannot charge existing tenants a non-refundable fee to renew a tenancy or change roommates, and must provide a screening fee rights disclosure when charging application fees.",
+    "key_value": null,
+    "effect": "imposes_requirement",
+    "conflict": false,
+    "conflict_note": null
+   },
+   {
+    "jurisdiction": "Berkeley, CA",
+    "category": "just_cause_eviction",
+    "kind": "enacted",
+    "members": [
+     38,
+     39,
+     42
+    ],
+    "canonical": 38,
+    "coverage_from": 38,
+    "requirement": "Landlords may not evict a tenant for nonpayment of rent unless the tenant owes rental debt equal to or greater than one month of the Fair Market Rent, and cannot evict solely for refusing to sign a substantially similar lease.",
+    "key_value": "1 month FMR",
+    "effect": "imposes_requirement",
+    "conflict": false,
+    "conflict_note": null
+   },
+   {
+    "jurisdiction": "Berkeley, CA",
+    "category": "rent_increase_limits",
+    "kind": "enacted",
+    "members": [
+     40,
+     41
+    ],
+    "canonical": 40,
+    "coverage_from": 40,
+    "requirement": "The Annual General Adjustment (AGA) for fully covered rental units is capped at a maximum of 5% per year.",
+    "key_value": "5%",
+    "effect": "imposes_requirement",
+    "conflict": false,
+    "conflict_note": null
+   },
+   {
+    "jurisdiction": "Berkeley, CA",
+    "category": "security_deposits",
+    "kind": "enacted",
+    "members": [
+     43,
+     44,
+     45,
+     46,
+     47
+    ],
+    "canonical": 44,
+    "coverage_from": 44,
+    "requirement": "Security deposits are generally capped at one month's rent (with an exception allowing up to two months for certain small landlords), must be returned within 21 days with itemized deductions, and accrue interest under local rules.",
+    "key_value": "1 month rent",
+    "effect": "imposes_requirement",
+    "conflict": false,
+    "conflict_note": null
+   },
+   {
+    "jurisdiction": "Berkeley, CA",
+    "category": "rent_increase_limits",
+    "kind": "enacted",
+    "members": [
+     48,
+     49
+    ],
+    "canonical": 48,
+    "coverage_from": 48,
+    "requirement": "Eligible landlords may increase permanent rent ceilings by up to 1.0% beginning no earlier than January 1, 2026.",
+    "key_value": "1.0%",
+    "effect": "imposes_requirement",
+    "conflict": false,
+    "conflict_note": null
+   },
+   {
+    "jurisdiction": "Berkeley, CA",
+    "category": "rent_increase_limits",
+    "kind": "enacted",
+    "members": [
+     50,
+     51,
+     53
+    ],
+    "canonical": 50,
+    "coverage_from": 50,
+    "requirement": "Most pre-1980 multifamily units are subject to rent control, while post-1980 new construction and single-family homes with tenancies beginning on or after January 1, 1996 are exempt.",
+    "key_value": null,
+    "effect": "exemption_only",
+    "conflict": false,
+    "conflict_note": null
+   },
+   {
+    "jurisdiction": "Berkeley, CA",
+    "category": "just_cause_eviction",
+    "kind": "enacted",
+    "members": [
+     52
+    ],
+    "canonical": 52,
+    "coverage_from": 52,
+    "requirement": "Golden duplexes that were owner-occupied on December 31, 1979, and currently have an owner living in one unit are exempt from Just Cause eviction protections.",
+    "key_value": null,
+    "effect": "exemption_only",
+    "conflict": false,
+    "conflict_note": null
+   }
+  ]
+ }
+}

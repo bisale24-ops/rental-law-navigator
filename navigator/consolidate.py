@@ -212,26 +212,37 @@ def fold_stale_proposals(rules):
         if home is None:
             out.append(r)
             continue
-        home["supporting_sources"].append({"doc": r["source_doc_id"], "url": r["source_url"], "retrieved": r["retrieved"],
-                                           "effective_date": r["effective_date"], "key_value": r["key_value"],
-                                           "quoted_span": r["quoted_span"], "note": f"earlier {r['lifecycle']}: {r['title']}"})
+        if "team capture" in home["source_type"] and "team capture" not in r["source_type"]:
+            # cite the organizers' corpus (the ordinance materials) and keep the capture as a supporting source
+            home["supporting_sources"].append({"doc": home["source_doc_id"], "url": home["source_url"],
+                                               "retrieved": home["retrieved"], "effective_date": home["effective_date"],
+                                               "key_value": home["key_value"], "quoted_span": home["quoted_span"],
+                                               "note": "team capture of the adopted text"})
+            for k in ("source_doc_id", "source_url", "retrieved", "quoted_span", "source_type", "span_check"):
+                home[k] = r[k]
+        else:
+            home["supporting_sources"].append({"doc": r["source_doc_id"], "url": r["source_url"], "retrieved": r["retrieved"],
+                                               "effective_date": r["effective_date"], "key_value": r["key_value"],
+                                               "quoted_span": r["quoted_span"], "note": f"earlier {r['lifecycle']}: {r['title']}"})
         home["supporting_sources"] += r["supporting_sources"]
         audit.log("consolidate.fold", into=home["title"], folded=r["title"], doc=r["source_doc_id"])
     return out
 
 
-def _official_first_note():
-    """The record's requirement and key value are the canonical source's own words (written while reading that
-    document); a merged summary across sources once described Los Angeles's rent cap with its eviction rules."""
+def _rank(c):
+    """Which source a record cites: the organizers' corpus before team captures (only supplied corpus text counts
+    as a verifiable citation), and official text before secondary text within each."""
+    captured = "team capture" in c["source_type"]
+    return (captured, not c["source_type"].startswith("official"))
 
 
 def _official_first(cands, g):
-    canon = cands[g["canonical"]]
-    if canon["source_type"] != "official":
-        off = [m for m in g["members"] if cands[m]["source_type"] == "official"]
-        if off:
-            return off[0]
-    return g["canonical"]
+    """The record's requirement and key value are the canonical source's own words (written while reading that
+    document); a merged summary across sources once described Los Angeles's rent cap with its eviction rules."""
+    best = min(_rank(cands[m]) for m in g["members"])
+    if _rank(cands[g["canonical"]]) == best:
+        return g["canonical"]
+    return next(m for m in g["members"] if _rank(cands[m]) == best)
 
 
 def build(candidates, replay_only=False):
@@ -265,7 +276,7 @@ def build(candidates, replay_only=False):
                 "effect": g.get("effect") or "imposes_requirement",
                 "yields_to_local": any(m["yields_to_local"] for m in members),
                 "preempts_local": any(m["preempts_local"] for m in members),
-                "retrieved": canon["retrieved"], "span_check": canon["span_check"],
+                "retrieved": canon["retrieved"], "span_check": canon["span_check"], "source_type": canon["source_type"],
                 "supporting_sources": [{"doc": m["source_doc_id"], "url": m["source_url"], "retrieved": m["retrieved"],
                                         "effective_date": m["effective_date"], "key_value": m["key_value"],
                                         "quoted_span": m["quoted_span"]}

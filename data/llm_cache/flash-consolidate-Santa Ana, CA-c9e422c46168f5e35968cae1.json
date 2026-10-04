@@ -1,0 +1,94 @@
+{
+ "meta": {
+  "model": "gemini-3.7-flash",
+  "seconds": 15.8,
+  "tag": "consolidate-Santa Ana, CA",
+  "usage": {
+   "promptTokenCount": 3169,
+   "candidatesTokenCount": 673,
+   "totalTokenCount": 4986,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 3169
+    }
+   ],
+   "thoughtsTokenCount": 1144,
+   "serviceTier": "standard"
+  },
+  "at": "2026-10-04T08:40:13Z"
+ },
+ "output": {
+  "cells": [
+   {
+    "jurisdiction": "Santa Ana, CA",
+    "category": "rent_increase_limits",
+    "kind": "enacted",
+    "members": [
+     0,
+     2,
+     5,
+     7
+    ],
+    "canonical": 5,
+    "coverage_from": 5,
+    "requirement": "Annual residential rent increases are capped at the lower of 3% or 80% of the change in the Consumer Price Index over the most recent 12-month period. If the CPI change is negative, no rent increase is permitted.",
+    "key_value": "lower of 3% or 80% of CPI",
+    "effect": "imposes_requirement",
+    "conflict": false,
+    "conflict_note": null
+   },
+   {
+    "jurisdiction": "Santa Ana, CA",
+    "category": "just_cause_eviction",
+    "kind": "enacted",
+    "members": [
+     1,
+     3,
+     4,
+     6,
+     8
+    ],
+    "canonical": 6,
+    "coverage_from": 6,
+    "requirement": "Landlords must have just cause to terminate a tenancy after 30 days. For no-fault terminations, the landlord must provide 3 months of relocation assistance or waive rent for the final 3 months of the tenancy.",
+    "key_value": "3 months relocation assistance",
+    "effect": "imposes_requirement",
+    "conflict": false,
+    "conflict_note": null
+   },
+   {
+    "jurisdiction": "Santa Ana, CA",
+    "category": "algorithmic_rent_setting",
+    "kind": "enacted",
+    "members": [
+     9,
+     10,
+     12
+    ],
+    "canonical": 12,
+    "coverage_from": 12,
+    "requirement": "Landlords and apartment owners are prohibited from using, selling, licensing, or providing algorithmic software that relies on nonpublic competitor data to set rental prices. Violators face civil penalties of up to $1,000 per violation.",
+    "key_value": "up to $1,000 per violation",
+    "effect": "imposes_requirement",
+    "conflict": false,
+    "conflict_note": null
+   },
+   {
+    "jurisdiction": "Santa Ana, CA",
+    "category": "algorithmic_rent_setting",
+    "kind": "bill_or_failed",
+    "members": [
+     11
+    ],
+    "canonical": 11,
+    "coverage_from": 11,
+    "requirement": "A proposed ordinance would prohibit the sale, licensing, provision, and use of algorithmic rent-setting software for residential rental properties that uses nonpublic competitor data.",
+    "key_value": null,
+    "effect": "imposes_requirement",
+    "conflict": false,
+    "conflict_note": null
+   }
+  ]
+ }
+}

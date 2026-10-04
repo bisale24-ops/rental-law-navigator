@@ -174,16 +174,14 @@
     "built_after": null,
     "built_basis": "certificate_of_occupancy",
     "rolling_age_years": 15,
-    "min_units": 2,
+    "min_units": null,
     "single_family_excluded": false,
     "owner_dependent": true,
     "owner_condition": "Exempts certain single-family owner-occupied residences, owner-occupied duplexes, and non-corporate separately alienable properties meeting statutory ownership and notice requirements.",
     "owner_exemption_max_units": 2,
     "subsidized_excluded": true,
     "unresolvable": "Tenancy duration and specific ownership corporate structures require facts beyond a simple address record.",
-    "filled_from": [
-     "min_units from D023"
-    ]
+    "filled_from": []
    },
    "exemptions": "Transient occupancy, nonprofit/religious/extended care/residential care facilities, dormitories, shared bathroom/kitchen with owner, certain single-family owner-occupied residences (including ADUs/JADUs or mobilehomes), owner-occupied two-unit structures, housing issued a certificate of occupancy within the previous 15 years, certain separately alienable properties (not owned by a REIT, corporation, or LLC with a corporate member) with proper notice, and deed-restricted or subsidized affordable housing.",
    "overrides": [
@@ -237,7 +235,7 @@
     "unresolvable": null,
     "filled_from": [
      "single_family_excluded from D040",
-     "min_units from D023"
+     "min_units from D040"
     ]
    },
    "exemptions": "Deed-restricted affordable housing, dormitories, stricter local rent control housing, units built within the last 15 years, certain independently alienable properties not owned by corporations/REITs/certain LLCs, and owner-occupied duplexes.",
@@ -285,32 +283,35 @@
    "level": "state",
    "category": "screening_restrictions",
    "status": "in_force",
-   "title": "Fair Employment and Housing Act Protected Characteristics",
-   "requirement": "California law prohibits housing providers from discriminating against or harassing tenants, homeowners, residents, guests, applicants, and home buyers based on protected characteristics including race, color, ancestry, national origin, citizenship, immigration status, primary language, religion, disability, sex, gender, sexual orientation, gender identity, gender expression, genetic information, marital status, familial status, source of income, military or veteran status, and age.",
+   "title": "Prohibition of housing discrimination based on protected characteristics and source of income",
+   "requirement": "Landlords and housing providers are prohibited from discriminating against or harassing any person in housing accommodations based on race, color, religion, sex, gender, gender identity, gender expression, sexual orientation, marital status, national origin, ancestry, familial status, source of income, disability, veteran or military status, or genetic information.",
    "key_value": null,
    "coverage_conditions": {
-    "summary": "Applies to most housing accommodations and providers in California.",
+    "summary": "Applies to owners and providers of housing accommodations generally.",
     "built_on_or_before": null,
     "built_after": null,
     "built_basis": "not_stated",
     "rolling_age_years": null,
     "min_units": null,
     "single_family_excluded": false,
-    "owner_dependent": true,
+    "owner_dependent": false,
     "owner_condition": "When an owner is occupying a home and is renting to one additional person, the owner may exclude applicants based on protected characteristics, though they still cannot make discriminatory advertisements.",
     "owner_exemption_max_units": 1,
     "subsidized_excluded": false,
     "unresolvable": null,
-    "filled_from": []
+    "filled_from": [
+     "owner_condition from D016",
+     "owner_exemption_max_units from D016"
+    ]
    },
-   "exemptions": "When an owner is occupying a home and is renting to one additional person, the owner may exclude applicants based on protected characteristics (except for advertising). Senior housing and homeless youth housing may also be limited based on age under specific statutory requirements.",
+   "exemptions": null,
    "overrides": [],
    "interaction": null,
-   "effective_date": "2020-01-01",
-   "citation": "Fair Employment and Housing Act (FEHA)",
-   "source_doc_id": "D016",
-   "source_url": "https://calcivilrights.ca.gov/housing/",
-   "quoted_span": "The Fair Employment and Housing Act (FEHA) covers the sale, rental, or occupancy of most housing accommodations in California, including single-family homes, multi-family homes, condominiums, apartments, short-term rentals, mobile homes, subsidized housing, dormitories, sober living facilities,  group homes, residential motels,\nemergency shelters, homeless shelters, shelters for survivors of domestic violence\n, recreational vehicles (RVs) used as a home, farmworker housing, and boats used as homes",
+   "effective_date": "2024-01-01",
+   "citation": "California Government Code Section 12955",
+   "source_doc_id": "D027",
+   "source_url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&sectionNum=12955",
+   "quoted_span": "For the owner of any housing accommodation to discriminate against or harass any person because of the race, color, religion, sex, gender, gender identity, gender expression, sexual orientation, marital status, national origin, ancestry, familial status, source of income, disability, veteran or military status, or genetic information of that person.",
    "confidence": 1.0,
    "conflict_flag": false,
    "conflict_note": null,
@@ -378,10 +379,10 @@
      "effective_date": null
     },
     {
-     "doc": "D027",
-     "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&sectionNum=12955",
+     "doc": "D016",
+     "url": "https://calcivilrights.ca.gov/housing/",
      "retrieved": "2026-10-01 22:35 UTC",
-     "effective_date": "2024-01-01"
+     "effective_date": null
     },
     {
      "doc": "D027",
@@ -421,11 +422,11 @@
    "level": "state",
    "category": "security_deposits",
    "status": "in_force",
-   "title": "Security Deposit Limit",
-   "requirement": "Landlords may only charge up to one month's rent as a security deposit for both unfurnished and furnished units.",
-   "key_value": "1 month's rent",
+   "title": "Residential Security Deposit Maximum",
+   "requirement": "A landlord may not demand or receive residential security in an amount exceeding one month's rent in addition to first month's rent, except that certain natural persons or limited liability companies owning no more than two residential rental properties with a total of no more than four units may charge up to two months' rent.",
+   "key_value": "1 month rent (general); 2 months rent (small landlord exception)",
    "coverage_conditions": {
-    "summary": "Applies to residential property used as the dwelling of the tenant.",
+    "summary": "Applies to residential rental property used as a dwelling, with exceptions for certain small landlords owning 2 or fewer properties with a total of no more than 4 units.",
     "built_on_or_before": null,
     "built_after": null,
     "built_basis": "not_stated",
@@ -433,7 +434,7 @@
     "min_units": null,
     "single_family_excluded": false,
     "owner_dependent": true,
-    "owner_condition": "Landlords who are natural persons or LLCs consisting entirely of natural persons, owning no more than two residential rental properties with a collective total of no more than four dwelling units, may charge up to two months' rent.",
+    "owner_condition": "Natural person or LLC of natural persons owning no more than 2 residential rental properties totaling no more than 4 dwelling units.",
     "owner_exemption_max_units": 4,
     "subsidized_excluded": false,
     "unresolvable": null,
@@ -442,20 +443,26 @@
      "subsidized_excluded from D007"
     ]
    },
-   "exemptions": "Landlords who own only two rental properties with no more than four residential units total if ownership is held by a natural person, family trust, or LLC where all members are natural persons.",
+   "exemptions": "Does not apply to advance payments of six months or more for leases of six months or longer, mutual agreements for structural or decorative alterations, or certain small landlords meeting specific natural person and unit count criteria.",
    "overrides": [],
    "interaction": null,
-   "effective_date": "2024-07-01",
-   "citation": "Assembly Bill 12",
-   "source_doc_id": "D007",
-   "source_url": "https://rentboard.berkeleyca.gov/rights-responsibilities/security-deposits",
-   "quoted_span": "Starting July 1, 2024, many landlords may only charge one month's rent for unfurnished and\u00a0furnished units",
-   "confidence": 0.95,
+   "effective_date": "2026-01-01",
+   "citation": "Civil Code 1950.5",
+   "source_doc_id": "D025",
+   "source_url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1950.5",
+   "quoted_span": "Except as provided in paragraph (2), (3), or (5), a landlord shall not demand or receive security, however denominated, in an amount or value in excess of an amount equal to one month\u2019s rent, in addition to any rent for the first month paid on or before initial occupancy.",
+   "confidence": 1.0,
    "conflict_flag": false,
    "conflict_note": null,
    "retrieved": "2026-10-01 22:35 UTC",
    "lifecycle": "enacted",
    "supporting_sources": [
+    {
+     "doc": "D007",
+     "url": "https://rentboard.berkeleyca.gov/rights-responsibilities/security-deposits",
+     "retrieved": "2026-10-01 22:35 UTC",
+     "effective_date": "2024-07-01"
+    },
     {
      "doc": "D007",
      "url": "https://rentboard.berkeleyca.gov/rights-responsibilities/security-deposits",
@@ -497,12 +504,6 @@
      "url": "https://rentboard.berkeleyca.gov/rights-responsibilities/security-deposits",
      "retrieved": "2026-10-01 22:35 UTC",
      "effective_date": "2025-04-01"
-    },
-    {
-     "doc": "D025",
-     "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1950.5",
-     "retrieved": "2026-10-01 22:35 UTC",
-     "effective_date": "2026-01-01"
     },
     {
      "doc": "D025",
@@ -748,7 +749,7 @@
    "requirement": "Landlords cannot charge existing tenants a non-refundable fee to renew a tenancy, or to add, replace, or remove a roommate.",
    "key_value": null,
    "coverage_conditions": {
-    "summary": "Residential rental properties in Berkeley where a screening fee is charged.",
+    "summary": "All residential rental agreements in Berkeley.",
     "built_on_or_before": null,
     "built_after": null,
     "built_basis": "not_stated",
@@ -802,11 +803,11 @@
    "level": "city",
    "category": "just_cause_eviction",
    "status": "in_force",
-   "title": "2026 Relocation Assistance Payments for Owner Move-In and Ellis Act Evictions",
-   "requirement": "Landlords evicting tenants for an owner move-in or under the Ellis Act must pay a standard relocation assistance payment of $19,413, plus an additional $6,471 for qualifying households.",
-   "key_value": "$19,413 standard / $6,471 additional",
+   "title": "Minimum Rental Debt Threshold for Nonpayment Eviction",
+   "requirement": "Landlords may not evict a tenant for nonpayment of rent unless the tenant owes rental debt equal to or greater than one month of the Fair Market Rent for an equivalent unit size in the Oakland-Fremont metro area.",
+   "key_value": "1 month FMR",
    "coverage_conditions": {
-    "summary": "Tenants subject to owner move-in evictions under the Rent Stabilization and Good Cause for Eviction Ordinance or Ellis Act evictions under the Ellis Implementation Ordinance.",
+    "summary": "Applies to fully or partially covered rental units under the Berkeley Rent Ordinance.",
     "built_on_or_before": "1979-12-31",
     "built_after": null,
     "built_basis": "certificate_of_occupancy",
@@ -817,11 +818,10 @@
     "owner_condition": "duplex was owner-occupied on December 31, 1979, and currently has an owner living in one of the units",
     "owner_exemption_max_units": 2,
     "subsidized_excluded": false,
-    "unresolvable": "Applicability determined by Berkeley Rent Stabilization and Good Cause for Eviction Ordinance and Ellis Implementation Ordinance coverage rules.",
+    "unresolvable": null,
     "filled_from": [
      "min_units from D009",
      "single_family_excluded from D009",
-     "owner_dependent from D006",
      "owner_condition from D009",
      "owner_exemption_max_units from D009",
      "subsidized_excluded from D009",
@@ -832,10 +832,10 @@
    "overrides": [],
    "interaction": null,
    "effective_date": "2026-01-01",
-   "citation": "Rent Stabilization and Good Cause for Eviction Ordinance; Ellis Implementation Ordinance",
-   "source_doc_id": "D004",
-   "source_url": "https://rentboard.berkeleyca.gov/elected-rent-board/news/2026-adjustments-relocation-assistance-payments",
-   "quoted_span": "The standard relocation assistance payment will increase to\n$19,413\n.\nThe additional relocation assistance payment for qualifying households will increase to\n$6,47",
+   "citation": "Measure BB / Berkeley Rent Ordinance",
+   "source_doc_id": "D006",
+   "source_url": "https://rentboard.berkeleyca.gov/laws-regulations/measure-bb-changes-berkeleys-rent-ordinance",
+   "quoted_span": "For a landlord to evict a tenant for nonpayment of rent, the tenant must owe an amount of rental debt equal to or greater than one month of the Fair Market Rent (FMR) value for a unit of equivalent size in the metro area Oakland-Fremont, CA HUD Metro FMR as determined by the US Department of Housing and Urban Development for the fiscal year in which the rent is demanded.",
    "confidence": 1.0,
    "conflict_flag": true,
    "conflict_note": "may be preempted by r-0003 (California Tenant Protection Act of 2019 - Just Cause for Termination) from 2024-04-01",
@@ -849,10 +849,10 @@
      "effective_date": "2026-01-01"
     },
     {
-     "doc": "D006",
-     "url": "https://rentboard.berkeleyca.gov/laws-regulations/measure-bb-changes-berkeleys-rent-ordinance",
+     "doc": "D004",
+     "url": "https://rentboard.berkeleyca.gov/elected-rent-board/news/2026-adjustments-relocation-assistance-payments",
      "retrieved": "2026-10-01 22:35 UTC",
-     "effective_date": null
+     "effective_date": "2026-01-01"
     },
     {
      "doc": "D006",
@@ -966,7 +966,7 @@
    "requirement": "Landlords are prohibited from inquiring about, requiring disclosure of, or considering criminal history during advertising, application, tenant selection, or decision-making, and cannot charge higher rent or security deposits based on criminal history.",
    "key_value": null,
    "coverage_conditions": {
-    "summary": "Applies to rental housing providers in Berkeley, exempting owner-occupied properties with 1-3 units and specified limited exceptions.",
+    "summary": "Applies to residential rental housing in Berkeley with specific exemptions for lifetime sex offenders, certain public housing/Section 8 properties, and owner-occupied properties with 1 to 3 units.",
     "built_on_or_before": null,
     "built_after": null,
     "built_basis": "not_stated",
@@ -974,7 +974,7 @@
     "min_units": null,
     "single_family_excluded": null,
     "owner_dependent": true,
-    "owner_condition": "Owner-occupied properties of 1 to 3 units where an owner of record resides in one unit as their primary residence.",
+    "owner_condition": "Owner-occupied properties between 1-3 units in which an owner of record resides in one of the units as their primary residence.",
     "owner_exemption_max_units": 3,
     "subsidized_excluded": null,
     "unresolvable": null,
@@ -1113,14 +1113,14 @@
    "level": "city",
    "category": "just_cause_eviction",
    "status": "in_force",
-   "title": "Just Cause For Eviction Ordinance",
-   "requirement": "Landlords are prohibited from terminating tenancies without just cause and must provide relocation assistance for no-fault evictions under the Just Cause Ordinance.",
+   "title": "Just Cause For Eviction Ordinance (JCO)",
+   "requirement": "Landlords are prohibited from terminating tenancies without just cause and must provide relocation assistance for no-fault evictions, applicable to most residential properties not regulated by the City's Rent Stabilization Ordinance after a tenant has lived in the unit for at least six months or their original lease expired, whichever comes first.",
    "key_value": "Eligible/Qualified amounts ranging from $11,000 to $27,400 depending on length of tenancy and tenant status; one month's rent for certain natural person single-family dwellings.",
    "coverage_conditions": {
     "summary": "Covers most residential properties in Los Angeles not regulated by the RSO, after a 6-month residency or lease expiration.",
     "built_on_or_before": null,
     "built_after": "1978-10-01",
-    "built_basis": "certificate_of_occupancy",
+    "built_basis": "not_stated",
     "rolling_age_years": null,
     "min_units": 4,
     "single_family_excluded": false,
@@ -1135,7 +1135,7 @@
      "min_units from S007"
     ]
    },
-   "exemptions": "Transient hotels, licensed care facilities, fraternity or sorority houses, owner's roommate, cooperatives under certain circumstances, non-profit facilities for the homeless or short-term substance abuse treatment centers, and some properties owned by HACLA or the government.",
+   "exemptions": "Transient hotels, licensed care facilities, fraternity or sorority houses, owner's roommate, cooperatives under certain circumstances, non-profit facilities for the homeless, short-term treatment centers, and some properties owned by HACLA or the government.",
    "overrides": [],
    "interaction": null,
    "effective_date": "2023-03-27",
@@ -1209,7 +1209,7 @@
    "requirement": "Landlords may increase rent once every 12 months by the allowable rent increase percentage.",
    "key_value": "3%",
    "coverage_conditions": {
-    "summary": "Applies to tenancies under the Rent Stabilization Ordinance where dependents are added.",
+    "summary": "Applies to rental properties first built on or before October 1, 1978, replacement units under LAMC Section 151.28, and specified types including apartments, condos/townhomes under specific tenancy dates, duplexes, multiple single-family units on a parcel, and others.",
     "built_on_or_before": "1978-10-01",
     "built_after": null,
     "built_basis": "construction",
@@ -1221,12 +1221,7 @@
     "owner_exemption_max_units": null,
     "subsidized_excluded": null,
     "unresolvable": null,
-    "filled_from": [
-     "built_on_or_before from D041",
-     "built_basis from D041",
-     "single_family_excluded from D041",
-     "owner_dependent from D041"
-    ]
+    "filled_from": []
    },
    "exemptions": null,
    "overrides": [],
@@ -1242,12 +1237,6 @@
    "retrieved": "2026-10-01 22:36 UTC",
    "lifecycle": "enacted",
    "supporting_sources": [
-    {
-     "doc": "S007",
-     "url": "https://cityclerk.lacity.org/onlinedocs/2023/23-1134_misc_1_12-02-2025.pdf",
-     "retrieved": "2026-10-03 17:44 UTC",
-     "effective_date": null
-    },
     {
      "doc": "D041",
      "url": "https://housing.lacity.gov/residents/rso-overview",
@@ -1283,6 +1272,12 @@
      "url": "https://cityclerk.lacity.org/onlinedocs/2023/23-1134_misc_1_12-02-2025.pdf",
      "retrieved": "2026-10-03 17:44 UTC",
      "effective_date": null
+    },
+    {
+     "doc": "S007",
+     "url": "https://cityclerk.lacity.org/onlinedocs/2023/23-1134_misc_1_12-02-2025.pdf",
+     "retrieved": "2026-10-03 17:44 UTC",
+     "effective_date": null
     }
    ]
   },
@@ -1292,8 +1287,8 @@
    "level": "city",
    "category": "security_deposits",
    "status": "in_force",
-   "title": "Security Deposit Interest Requirement",
-   "requirement": "Landlords of properties subject to the Los Angeles Rent Stabilization Ordinance must pay tenants interest on their security deposits either monthly or annually, provided as a direct payment or a rent credit, after giving written notice of the chosen method.",
+   "title": "Interest on Security Deposits for RSO Units",
+   "requirement": "Landlords of rental units subject to the Rent Stabilization Ordinance with a certificate of occupancy first issued before October 1, 1978, must pay interest on all security deposits held for at least one year.",
    "key_value": "3.03%",
    "coverage_conditions": {
     "summary": "Covers rental units subject to the Rent Stabilization Ordinance with a certificate of occupancy first issued before October 1, 1978, where the tenant occupies the unit for more than 30 consecutive days, excluding mobile home parks.",
@@ -1310,18 +1305,18 @@
     "unresolvable": "Excludes mobile home parks; requires tenancy of more than 30 consecutive days.",
     "filled_from": []
    },
-   "exemptions": null,
+   "exemptions": "Mobile home parks are exempt from the interest payment requirement.",
    "overrides": [],
    "interaction": null,
    "effective_date": "1990-11-01",
-   "citation": "LAMC Section 151.06.02",
-   "source_doc_id": "D044",
-   "source_url": "https://members.aagla.org/news/city-of-la-security-deposit-interest-requirement",
-   "quoted_span": "Interest shall begin accruing on November 1, 1990, on a monthly basis. A tenant shall be given the unpaid accrued interest in the form of either a direct payment or a credit against the tenant\u2019s rent. The landlord shall choose between these two methods of payment and notify the tenant in writing of his or her choice. The landlord may elect to pay the accrued interest on a monthly or yearly basis.",
-   "confidence": 1.0,
+   "citation": "Rent Stabilization Ordinance No. 151.06.02(F)",
+   "source_doc_id": "S008",
+   "source_url": "https://housing.lacity.gov/wp-content/uploads/2023/01/44-Interest-Payments-on-Security-Deposits-English.pdf",
+   "quoted_span": "Landlords of rental units subject to the Rent Stabilization Ordinance (RSO), which\nincludes dwelling units, suites, condominiums, duplexes, guest rooms, and rooms in\na hotel, motel, rooming house or boarding house occupied by the same tenant for more\nthan 30 consecutive days in the City of Los Angeles with a certificate of occupancy first\nissued before October 1, 1978, must pay interest on all security deposits held for at\nleast one (1) year for their tenants.",
+   "confidence": 0.99,
    "conflict_flag": false,
    "conflict_note": null,
-   "retrieved": "2026-10-03 17:38 UTC",
+   "retrieved": "2026-10-03 17:45 UTC",
    "lifecycle": "enacted",
    "supporting_sources": [
     {
@@ -1331,9 +1326,9 @@
      "effective_date": null
     },
     {
-     "doc": "S008",
-     "url": "https://housing.lacity.gov/wp-content/uploads/2023/01/44-Interest-Payments-on-Security-Deposits-English.pdf",
-     "retrieved": "2026-10-03 17:45 UTC",
+     "doc": "D044",
+     "url": "https://members.aagla.org/news/city-of-la-security-deposit-interest-requirement",
+     "retrieved": "2026-10-03 17:38 UTC",
      "effective_date": "1990-11-01"
     },
     {
@@ -1373,13 +1368,13 @@
    "interaction": null,
    "effective_date": "2025-06-21",
    "citation": "San Diego Municipal Code ch. 9, art. 8, div. 11",
-   "source_doc_id": "S011",
-   "source_url": "https://docs.sandiego.gov/municode/MuniCodeChapter09/Ch09Art08Division11.pdf",
-   "quoted_span": "It is unlawful for a person to sell, license, or otherwise provide an algorithmic\n                            device to a landlord.\n\n                     (b)    It is unlawful for a landlord to use an algorithmic device to set rental rates or\n                            occupancy levels for residential rental prope",
+   "source_doc_id": "D076",
+   "source_url": "https://sandiego.gov/sites/default/files/2025-04/automated-rent-price-fixing-prohibition-ordinance-materials.pdf",
+   "quoted_span": "(a) It is unlawful for a person to sell, license, or otherwise provide an\nalgorithmic device to a landlord.\n(b) It is unlawful for a landlord to use an algorithmic device to set rental rates\nor occupancy levels for residential rental property.",
    "confidence": 1.0,
    "conflict_flag": false,
    "conflict_note": null,
-   "retrieved": "2026-10-03 17:45 UTC",
+   "retrieved": "2026-10-01 22:37 UTC",
    "lifecycle": "enacted",
    "supporting_sources": [
     {
@@ -1389,10 +1384,10 @@
      "effective_date": "2025-06-21"
     },
     {
-     "doc": "D076",
-     "url": "https://sandiego.gov/sites/default/files/2025-04/automated-rent-price-fixing-prohibition-ordinance-materials.pdf",
-     "retrieved": "2026-10-01 22:37 UTC",
-     "effective_date": null
+     "doc": "S011",
+     "url": "https://docs.sandiego.gov/municode/MuniCodeChapter09/Ch09Art08Division11.pdf",
+     "retrieved": "2026-10-03 17:45 UTC",
+     "effective_date": "2025-06-21"
     },
     {
      "doc": "D076",
@@ -1412,7 +1407,7 @@
    "requirement": "Landlords are prohibited from terminating a tenancy without just cause, which is categorized into at-fault and no-fault just cause reasons.",
    "key_value": "2 to 3 months of actual rent",
    "coverage_conditions": {
-    "summary": "Applies to residential tenancies lasting more than 30 days, with specific exemptions for certain types of housing such as transient hotels, deed-restricted affordable housing, school dormitories, certain owner-occupied units, and housing issued a certificate of occupancy within the previous 15 years.",
+    "summary": "Applies to residential rental properties where the tenancy has lasted more than 30 days, with specific exemptions for short-term lets, transient hotels, certain affordable/subsidized housing, owner-occupied shared housing, limited owner-occupied single-family and duplex arrangements, certain separate alienable units with proper notice, and housing issued a certificate of occupancy within the previous 15 years.",
     "built_on_or_before": null,
     "built_after": null,
     "built_basis": null,
@@ -1423,7 +1418,7 @@
     "owner_condition": "Exempts certain single-family homes and duplexes where the owner occupies a unit as their principal residence.",
     "owner_exemption_max_units": 2,
     "subsidized_excluded": true,
-    "unresolvable": "Excludes specific regulatory agreements, housing subsidies, and specific owner-occupancy arrangements.",
+    "unresolvable": "Exemptions depend on specific ownership types, whether units are deed-restricted affordable housing, and whether the landlord provided specific written exemption notices.",
     "filled_from": [
      "rolling_age_years from D073",
      "single_family_excluded from D073",
@@ -1589,7 +1584,7 @@
     "built_basis": "certificate_of_occupancy",
     "rolling_age_years": null,
     "min_units": null,
-    "single_family_excluded": null,
+    "single_family_excluded": false,
     "owner_dependent": false,
     "owner_condition": null,
     "owner_exemption_max_units": null,
@@ -1598,7 +1593,8 @@
     "filled_from": [
      "owner_dependent from D079",
      "subsidized_excluded from D079",
-     "built_on_or_before from D079"
+     "built_on_or_before from D079",
+     "single_family_excluded from D079"
     ]
    },
    "exemptions": null,
@@ -1669,14 +1665,16 @@
     "built_basis": "certificate_of_occupancy",
     "rolling_age_years": null,
     "min_units": null,
-    "single_family_excluded": null,
+    "single_family_excluded": true,
     "owner_dependent": null,
     "owner_condition": null,
     "owner_exemption_max_units": null,
-    "subsidized_excluded": null,
+    "subsidized_excluded": true,
     "unresolvable": "Applies specifically to rent-controlled units.",
     "filled_from": [
-     "built_on_or_before from D079"
+     "built_on_or_before from D079",
+     "single_family_excluded from D079",
+     "subsidized_excluded from D079"
     ]
    },
    "exemptions": null,
@@ -2040,10 +2038,10 @@
    "requirement": "Any fee for finding dwelling accommodations must be paid exclusively by the party, lessor or tenant who originally engaged and entered into a contract with the licensed broker or salesperson.",
    "key_value": null,
    "coverage_conditions": {
-    "summary": "Applies to lessors/landlords statewide.",
+    "summary": "Applies to real estate brokers and salespersons engaging with prospective tenants or landlords.",
     "built_on_or_before": null,
     "built_after": null,
-    "built_basis": null,
+    "built_basis": "not_stated",
     "rolling_age_years": null,
     "min_units": null,
     "single_family_excluded": null,
@@ -2180,9 +2178,9 @@
    "level": "state",
    "category": "rent_increase_limits",
    "status": "failed",
-   "title": "Initiative Petition 25-21 to Limit Rent Increases",
-   "requirement": "Proposed statewide rent control would cap annual rent increases at the lesser of the annual increase in the Consumer Price Index or 5% for most residential rental units.",
-   "key_value": "Lesser of CPI or 5%",
+   "title": "Initiative Petition 25-21: An Initiative Petition to Protect Tenants by Limiting Rent Increases",
+   "requirement": "Proposed statewide rent control cap limiting annual rent increases to the lesser of the Consumer Price Index or 5%, which was blocked from the November 2026 ballot by the Supreme Judicial Court.",
+   "key_value": "lesser of CPI or 5%",
    "coverage_conditions": {
     "summary": "Applies to most residential rental units, with exemptions for owner-occupied buildings with four or fewer units, newly constructed units less than 10 years old, certain publicly regulated units, short-term rentals, and educational, religious, or nonprofit facilities.",
     "built_on_or_before": null,
@@ -2202,11 +2200,11 @@
    "overrides": [],
    "interaction": null,
    "effective_date": null,
-   "citation": "Initiative Petition 25-21 / Cella v. Attorney General, SJC-13893",
+   "citation": "Initiative Petition 25-21",
    "source_doc_id": "D055",
    "source_url": "https://massrealestatelawblog.com/tag/cella-v-attorney-general/",
-   "quoted_span": "Under the proposed law, annual rent increases would have been limited to the lesser of the annual increase in the Consumer Price Index or 5%. The petition included several exemptions, including owner-occupied buildings with four or fewer units, newly constructed units less than 10 years old, certain publicly regulated units, short-term rentals, and dwelling units in facilities operated solely for educational, religious, or nonprofit purposes.",
-   "confidence": 0.95,
+   "quoted_span": "The petition would have repealed the Commonwealth\u2019s existing statutory ban on rent control, G.L. c. 40P, and replaced it with a statewide cap on annual rent increases for most residential rental units.",
+   "confidence": 1.0,
    "conflict_flag": false,
    "conflict_note": null,
    "retrieved": "2026-10-03 17:46 UTC",
@@ -2466,11 +2464,11 @@
    "level": "city",
    "category": "screening_restrictions",
    "status": "in_force",
-   "title": "Boston Rental Assistance and Fair Housing Screening Protections",
-   "requirement": "Property owners in Boston cannot discriminate against tenants or housing applicants based on rental assistance (such as Section 8 vouchers, social security disability vouchers, and veterans vouchers) or other protected characteristics.",
-   "key_value": "Rental assistance discrimination prohibited",
+   "title": "Boston Fair Chance Tenant Selection Policy - Criminal History Screening",
+   "requirement": "Covered housing providers cannot maintain blanket bans against applicants with arrests or convictions and must not consider non-conviction arrests, expunged/sealed records, juvenile records, or convictions older than 5 years unless directly related to housing or safety.",
+   "key_value": "5 years conviction lookback limit",
    "coverage_conditions": {
-    "summary": "Housing providers receiving Department of Neighborhood Development (DND) funding and/or land, or having income-restricted units created under the BPDA Inclusionary Development Policy.",
+    "summary": "Applies to housing providers receiving DND funding and/or land, or having income-restricted units created under the BPDA Inclusionary Development Policy, and the Office of Fair Housing and Equity Affirmative Marketing Program.",
     "built_on_or_before": null,
     "built_after": null,
     "built_basis": "not_stated",
@@ -2481,29 +2479,23 @@
     "owner_condition": null,
     "owner_exemption_max_units": null,
     "subsidized_excluded": false,
-    "unresolvable": "Applies only to properties receiving DND funding/land or subject to BPDA Inclusionary Development Policy income restrictions.",
+    "unresolvable": "Applies based on DND funding, land receipt, BPDA inclusionary development policy income-restriction, or affirmative marketing program coverage.",
     "filled_from": []
    },
-   "exemptions": null,
+   "exemptions": "Does not apply to current criminal behavior or where there is a direct relationship between a conviction and the housing sought or unreasonable risk of substantial harm to the safety of others; conflicting federal or state criminal history requirements preempt.",
    "overrides": [],
    "interaction": null,
    "effective_date": "2017-02",
-   "citation": "Boston Fair Housing Regulations",
-   "source_doc_id": "D012",
-   "source_url": "https://www.boston.gov/departments/fair-housing-and-equity/boston-fair-housing-regulations",
-   "quoted_span": "In the City of Boston, it\u2019s illegal to discriminate when renting, buying, selling, or securing financing for any housing.\nYou can\u2019t discriminate someone based on their:\nRace\nColor\nReligion\nDisability\nNational Origin\nAncestry\nSex\nGender Identity\nGender Expression\nAge\nSexual Orientation\nMarital Status\nRental Assistance\n*\nFamily Status\n**\nMilitary\u00a0Status\n*\nFor example renters using Section 8 voucher",
+   "citation": "Boston Fair Chance Tenant Selection Policy",
+   "source_doc_id": "D010",
+   "source_url": "https://drive.google.com/file/d/1j4U3fDtmnYuwcUWhx5BMUcXc1bnKT8Ku/view?usp=sharing",
+   "quoted_span": "Housing providers receiving Department of Neighborhood Development (DND) funding and/or \nland, or that have income restricted units created under the Boston Planning and Development \nAgency (BPDA) Inclusionary Development Policy will not impose a blanket policy that denies \nhousing to anyone with arrests and or convictions. Housing providers will consider applicants on \na case-by-case basis.",
    "confidence": 0.95,
    "conflict_flag": false,
    "conflict_note": null,
-   "retrieved": "2026-10-01 22:35 UTC",
+   "retrieved": "2026-10-01 22:44 UTC",
    "lifecycle": "enacted",
    "supporting_sources": [
-    {
-     "doc": "D010",
-     "url": "https://drive.google.com/file/d/1j4U3fDtmnYuwcUWhx5BMUcXc1bnKT8Ku/view?usp=sharing",
-     "retrieved": "2026-10-01 22:44 UTC",
-     "effective_date": "2017-02"
-    },
     {
      "doc": "D010",
      "url": "https://drive.google.com/file/d/1j4U3fDtmnYuwcUWhx5BMUcXc1bnKT8Ku/view?usp=sharing",
@@ -2527,6 +2519,12 @@
      "url": "https://www.boston.gov/departments/fair-housing-and-equity/boston-fair-housing-regulations",
      "retrieved": "2026-10-01 22:35 UTC",
      "effective_date": null
+    },
+    {
+     "doc": "D012",
+     "url": "https://www.boston.gov/departments/fair-housing-and-equity/boston-fair-housing-regulations",
+     "retrieved": "2026-10-01 22:35 UTC",
+     "effective_date": null
     }
    ]
   },
@@ -2540,7 +2538,7 @@
    "requirement": "The city council passed a policy order to initiate steps toward banning residential property management companies from using algorithmic and AI-driven models to recommend rent prices.",
    "key_value": null,
    "coverage_conditions": {
-    "summary": "Applies to residential property management companies.",
+    "summary": "Applies to residential property management companies using algorithmic pricing models.",
     "built_on_or_before": null,
     "built_after": null,
     "built_basis": null,
@@ -2586,7 +2584,7 @@
    "requirement": "Landlords, sellers, and rental agents are prohibited from discriminating against applicants based on their source of income, which explicitly includes Section 8 and public benefits.",
    "key_value": null,
    "coverage_conditions": {
-    "summary": "Covers housing and real estate transactions in Cambridge, with an exemption for 2-family dwellings where the owner lives.",
+    "summary": "Applies to housing in Cambridge, with an exemption for owner-occupied 2-family dwellings.",
     "built_on_or_before": null,
     "built_after": null,
     "built_basis": "not_stated",
@@ -2594,11 +2592,13 @@
     "min_units": null,
     "single_family_excluded": null,
     "owner_dependent": true,
-    "owner_condition": "Exempts 2-family dwellings when the owner lives on the property.",
+    "owner_condition": "Exempts 2-family dwellings when the owner lives there.",
     "owner_exemption_max_units": 2,
     "subsidized_excluded": false,
     "unresolvable": null,
-    "filled_from": []
+    "filled_from": [
+     "subsidized_excluded from D029"
+    ]
    },
    "exemptions": "2-family dwellings when the owner lives there",
    "overrides": [],
@@ -2632,10 +2632,10 @@
    "requirement": "It is unlawful for rental property owners to use coordinators or algorithmic devices that perform a coordinating function using competitively sensitive information to set or recommend rents, material lease terms, or occupancy levels, and unlawful to engage in parallel pricing coordination.",
    "key_value": null,
    "coverage_conditions": {
-    "summary": "Applies to residential rental property owners and software providers using algorithmic revenue management software, excluding publicly available tools, spreadsheets requiring human analysis, traditional listing databases, and government-administered affordable housing programs.",
+    "summary": "Applies to residential dwelling units statewide, excluding inpatient medical care, licensed long-term care, or detention or correctional facilities.",
     "built_on_or_before": null,
     "built_after": null,
-    "built_basis": null,
+    "built_basis": "not_stated",
     "rolling_age_years": null,
     "min_units": null,
     "single_family_excluded": false,
@@ -2644,11 +2644,7 @@
     "owner_exemption_max_units": null,
     "subsidized_excluded": false,
     "unresolvable": null,
-    "filled_from": [
-     "single_family_excluded from D069",
-     "owner_dependent from D069",
-     "subsidized_excluded from D069"
-    ]
+    "filled_from": []
    },
    "exemptions": "Does not apply to conducting research or statistical analysis without setting terms, providing publicly available estimated rent amounts, using real estate brokerage databases available on equal terms that do not set prices or collect sensitive info, or government entities setting rents through affordability controls.",
    "overrides": [
@@ -2697,7 +2693,7 @@
    "requirement": "Landlords and their agents cannot charge a residential rental application or screening fee exceeding $50. The fee limit is subject to annual adjustments based on the Consumer Price Index.",
    "key_value": "50",
    "coverage_conditions": {
-    "summary": "Applies to residential rental properties generally, with explicit exemptions for one-family or two-family dwellings offered for rent and real estate licensees who are not the landlord.",
+    "summary": "Applies to residential rental properties, excluding one-family or two-family dwellings offered for rent and real estate licensees acting as agents rather than landlords.",
     "built_on_or_before": null,
     "built_after": null,
     "built_basis": "not_stated",
@@ -2709,7 +2705,9 @@
     "owner_exemption_max_units": null,
     "subsidized_excluded": false,
     "unresolvable": null,
-    "filled_from": []
+    "filled_from": [
+     "subsidized_excluded from D066"
+    ]
    },
    "exemptions": "One-family or two-family dwellings offered for rent; a licensee of the New Jersey Real Estate Commission unless the licensee is the landlord.",
    "overrides": [],
@@ -2739,11 +2737,11 @@
    "level": "state",
    "category": "just_cause_eviction",
    "status": "in_force",
-   "title": "New Jersey Anti-Eviction Act Good Cause Requirement",
-   "requirement": "Landlords may not remove residential tenants or fail to renew leases except for specific statutory grounds of good cause.",
+   "title": "N.J. Stat. \u00a7 2A:18-61.1. Grounds for removal of tenants",
+   "requirement": "Landlords may not remove residential tenants or refuse to renew a lease except for specific statutory grounds constituting good cause, such as nonpayment of rent, disorderly conduct, destruction of property, breach of rules or lease covenants, or specific owner occupancy and building retirement or conversion reasons.",
    "key_value": "6 times monthly rent",
    "coverage_conditions": {
-    "summary": "Applies to residential properties generally, with explicit exclusions for certain owner-occupied premises, hotels/motels, and specific family trusts or units occupied by immediate family members with developmental disabilities.",
+    "summary": "Applies to any house, building, mobile home park, or tenement leased for residential purposes, with specific exclusions for certain owner-occupied premises, family trusts, and immediate family occupancy under specific conditions.",
     "built_on_or_before": null,
     "built_after": null,
     "built_basis": "not_stated",
@@ -2751,20 +2749,20 @@
     "min_units": null,
     "single_family_excluded": null,
     "owner_dependent": true,
-    "owner_condition": "Exempts owner-occupied premises with not more than two rental units, or certain immediate family occupancy arrangements.",
+    "owner_condition": "Owner-occupied premises with not more than two rental units are excluded from good cause requirements.",
     "owner_exemption_max_units": 2,
     "subsidized_excluded": null,
     "unresolvable": null,
     "filled_from": []
    },
-   "exemptions": "Owner-occupied premises with not more than two rental units, hotels, motels, seasonal or transient guests, and certain immediate family member occupancies.",
+   "exemptions": "Owner-occupied premises with not more than two rental units; hotels, motels, or other guest houses rented to transient guests or seasonal tenants; certain immediate family trusts and units permanently occupied by an immediate family member with a developmental disability.",
    "overrides": [],
    "interaction": null,
    "effective_date": "1974-06-25",
    "citation": "N.J. Stat. \u00a7 2A:18-61.1",
    "source_doc_id": "S010",
    "source_url": "https://www.nj.gov/dca/codes/codreg/pdf_regs/2A_18_61.pdf",
-   "quoted_span": "No lessee or tenant or the assigns, under-tenants or legal representatives of such lessee or tenant may be\n      removed by the Superior Court from any house, building, mobile home or land in a mobile home park or\n      tenement leased for residential purposes, other than (1) owner-occupied premises with not more than two\n      rental units or a hotel, motel or other guest house or part thereof rented to a transient guest or seasonal\n      tenant; (2) a dwelling unit which is held in trust on behalf of a member of the immediate family of the person\n      or persons establishing the trust, provided that the member of the immediate family on whose behalf the\n      trust is established permanently occupies the unit; and (3) a dwelling unit which is permanently occupied by\n      a member of the immediate family of the owner of that unit, provided, however, that exception (2) or (3)\n      shall apply only in cases in which the member of the immediate family has a developmental disability,\n      except upon establishment of one of the following grounds as good cause:",
+   "quoted_span": "No lessee or tenant or the assigns, under-tenants or legal representatives of such lessee or tenant may be\n      removed by the Superior Court from any house, building, mobile home or land in a mobile home park or\n      tenement leased for residential purposes, other than (1) owner-occupied premises with not more than two\n      rental units or a hotel, motel or other guest house or part thereof rented to a transient guest or seasonal\n      tenant; (2) a dwelling unit which is held in trust on behalf of a member of the immediate family of the person\n      or persons establishing the trust, provided that the member of the immediate family on whose behalf the\n      trust is established permanently occupies the unit; and (3) a dwelling unit which is permanently occupied by\n      a member of the immediate family of the owner of that unit, provided, however, that exception (2) or (3)\n      shall apply only in cases in which the member of the immediate family has a developmental disability,\n      except upon establishment of one of the following grounds as good cause",
    "confidence": 1.0,
    "conflict_flag": false,
    "conflict_note": null,
@@ -2836,16 +2834,20 @@
     ]
    },
    "exemptions": null,
-   "overrides": [],
-   "interaction": null,
+   "overrides": [
+    "r-0047",
+    "r-0049",
+    "r-0050"
+   ],
+   "interaction": "May preempt the listed local rules once in force; every affected address is flagged for human review rather than decided.",
    "effective_date": null,
    "citation": "N.J.S.A. 2A:42-84.5",
    "source_doc_id": "D067",
    "source_url": "https://www.nj.gov/dca/codes/publications/pdf_lti/t_i_r.pdf",
    "quoted_span": "Under the Newly Constructed Multiple Dwellings Law ( N.J.S.A. 2A:42 -84.5), newly \nconstructed multiple dwellings shall be exempt from any local rent control ordinances for a period \nof 30 years following completion of construction of the building.",
    "confidence": 1.0,
-   "conflict_flag": false,
-   "conflict_note": null,
+   "conflict_flag": true,
+   "conflict_note": "possible preemption of r-0047 (Hoboken, NJ), r-0049 (Jersey City, NJ), r-0050 (Newark, NJ)",
    "retrieved": "2026-10-01 22:37 UTC",
    "lifecycle": "enacted",
    "supporting_sources": [
@@ -2941,20 +2943,21 @@
    "requirement": "Landlords are prohibited from charging a security deposit that exceeds one and one-half times one month\u2019s rent.",
    "key_value": "1.5 months rent",
    "coverage_conditions": {
-    "summary": "Applies to most residential rental properties, including mobile homes, excluding owner-occupied two- or three-family dwellings unless requested by tenant.",
+    "summary": "All rental premises or units used for dwelling purposes, except owner-occupied premises with not more than two rental units where the tenant has not provided 30 days written notice.",
     "built_on_or_before": null,
     "built_after": null,
     "built_basis": "not_stated",
     "rolling_age_years": null,
-    "min_units": 10,
+    "min_units": null,
     "single_family_excluded": false,
     "owner_dependent": true,
-    "owner_condition": "Owner-occupied two- or three-family dwellings are exempt unless tenant requests application of the law.",
-    "owner_exemption_max_units": 3,
+    "owner_condition": "owner-occupied premises with not more than two rental units",
+    "owner_exemption_max_units": 2,
     "subsidized_excluded": false,
-    "unresolvable": null,
+    "unresolvable": "tenant must provide 30 days written notice for owner-occupied premises with <= 2 units",
     "filled_from": [
-     "min_units from D067"
+     "single_family_excluded from D067",
+     "subsidized_excluded from D067"
     ]
    },
    "exemptions": "Owner-occupied two- or three-family dwellings",
@@ -3112,8 +3115,8 @@
    "source_url": "https://cdn.prod.website-files.com/58407e2ebca0e34c30a2d39c/6aa82b60e6a4086c0b4658a8_CPI%20Hoboken%20Website%20Cap%20(12).pdf",
    "quoted_span": "No landlord may request or\n                                                                                                       receive a percentage increase in\n                                                                                                       rent which is greater than 5%",
    "confidence": 0.9,
-   "conflict_flag": false,
-   "conflict_note": null,
+   "conflict_flag": true,
+   "conflict_note": "may be preempted by r-0043 (Newly Constructed Multiple Dwellings Rent Control Exemption) from None",
    "retrieved": "2026-10-03 17:46 UTC",
    "lifecycle": "enacted",
    "supporting_sources": [
@@ -3337,7 +3340,7 @@
    "requirement": "Properties with 1 to 4 units are exempt from Jersey City's rent control regulations.",
    "key_value": "1-4 units",
    "coverage_conditions": {
-    "summary": "properties that are subject to rent control",
+    "summary": "Properties subject to rent control",
     "built_on_or_before": null,
     "built_after": null,
     "built_basis": "not_stated",
@@ -3364,8 +3367,8 @@
    "source_url": "https://www.jerseycitynj.gov/landlordtenant",
    "quoted_span": "All 1-4 Unit Properties are exempt from rent control",
    "confidence": 1.0,
-   "conflict_flag": false,
-   "conflict_note": null,
+   "conflict_flag": true,
+   "conflict_note": "may be preempted by r-0043 (Newly Constructed Multiple Dwellings Rent Control Exemption) from None",
    "retrieved": "2026-10-01 22:36 UTC",
    "lifecycle": "enacted",
    "supporting_sources": [
@@ -3404,7 +3407,7 @@
     "built_after": null,
     "built_basis": "not_stated",
     "rolling_age_years": 30,
-    "min_units": null,
+    "min_units": 1,
     "single_family_excluded": null,
     "owner_dependent": false,
     "owner_condition": null,
@@ -3412,7 +3415,8 @@
     "subsidized_excluded": true,
     "unresolvable": null,
     "filled_from": [
-     "rolling_age_years from S004"
+     "rolling_age_years from S004",
+     "min_units from S004"
     ]
    },
    "exemptions": "Public housing, motel or hotel space rented day-to-day, commercial use, newly constructed multiple dwellings with a 30-year exemption certificate, and substantially rehabilitated dwellings meeting specific criteria.",
@@ -3424,8 +3428,8 @@
    "source_url": "https://www.newarknj.gov/DocumentCenter/View/1019",
    "quoted_span": "Beginning June 20, 2014\n         permissible annual rent increases for a given month are shown in the table below. Landlords may\n         increase rents as per the Consumer Price Index- Urban percentage (CPI-U %) published every\n         month.",
    "confidence": 0.95,
-   "conflict_flag": false,
-   "conflict_note": null,
+   "conflict_flag": true,
+   "conflict_note": "may be preempted by r-0043 (Newly Constructed Multiple Dwellings Rent Control Exemption) from None",
    "retrieved": "2026-10-03 17:46 UTC",
    "lifecycle": "enacted",
    "supporting_sources": [
@@ -3463,7 +3467,7 @@
    "jurisdiction": "Los Angeles, CA",
    "category": "screening_restrictions",
    "finding": "no_rule_in_corpus",
-   "note": "No enacted screening restrictions rule found for Los Angeles, CA in 5 documents with text; the state rule r-0005 (Fair Employment and Housing Act Protected Characteristics) governs; 2 source(s) for Los Angeles, CA are link-only in the starter pack (D038, D044) and could hold a rule: human review",
+   "note": "No enacted screening restrictions rule found for Los Angeles, CA in 5 documents with text; the state rule r-0005 (Prohibition of housing discrimination based on protected characteristics and source of income) governs; 2 source(s) for Los Angeles, CA are link-only in the starter pack (D038, D044) and could hold a rule: human review",
    "governing_rule_ids": [
     "r-0005"
    ],
@@ -3521,7 +3525,7 @@
    "jurisdiction": "San Diego, CA",
    "category": "security_deposits",
    "finding": "no_rule_in_corpus",
-   "note": "No enacted security deposits rule found for San Diego, CA in 2 documents with text; the state rule r-0006 (Security Deposit Limit) governs; 3 source(s) for San Diego, CA are link-only in the starter pack (D074, D075, D077) and could hold a rule: human review",
+   "note": "No enacted security deposits rule found for San Diego, CA in 2 documents with text; the state rule r-0006 (Residential Security Deposit Maximum) governs; 3 source(s) for San Diego, CA are link-only in the starter pack (D074, D075, D077) and could hold a rule: human review",
    "governing_rule_ids": [
     "r-0006"
    ],
@@ -3575,7 +3579,7 @@
    "jurisdiction": "San Francisco, CA",
    "category": "screening_restrictions",
    "finding": "no_rule_in_corpus",
-   "note": "No enacted screening restrictions rule found for San Francisco, CA in 6 documents with text; the state rule r-0005 (Fair Employment and Housing Act Protected Characteristics) governs",
+   "note": "No enacted screening restrictions rule found for San Francisco, CA in 6 documents with text; the state rule r-0005 (Prohibition of housing discrimination based on protected characteristics and source of income) governs",
    "governing_rule_ids": [
     "r-0005"
    ],
@@ -3593,7 +3597,7 @@
    "jurisdiction": "Santa Ana, CA",
    "category": "security_deposits",
    "finding": "no_rule_in_corpus",
-   "note": "No enacted security deposits rule found for Santa Ana, CA in 2 documents with text; the state rule r-0006 (Security Deposit Limit) governs; 2 source(s) for Santa Ana, CA are link-only in the starter pack (D086, D087) and could hold a rule: human review",
+   "note": "No enacted security deposits rule found for Santa Ana, CA in 2 documents with text; the state rule r-0006 (Residential Security Deposit Maximum) governs; 2 source(s) for Santa Ana, CA are link-only in the starter pack (D086, D087) and could hold a rule: human review",
    "governing_rule_ids": [
     "r-0006"
    ],
@@ -3627,7 +3631,7 @@
    "jurisdiction": "Santa Ana, CA",
    "category": "screening_restrictions",
    "finding": "no_rule_in_corpus",
-   "note": "No enacted screening restrictions rule found for Santa Ana, CA in 2 documents with text; the state rule r-0005 (Fair Employment and Housing Act Protected Characteristics) governs; 2 source(s) for Santa Ana, CA are link-only in the starter pack (D086, D087) and could hold a rule: human review",
+   "note": "No enacted screening restrictions rule found for Santa Ana, CA in 2 documents with text; the state rule r-0005 (Prohibition of housing discrimination based on protected characteristics and source of income) governs; 2 source(s) for Santa Ana, CA are link-only in the starter pack (D086, D087) and could hold a rule: human review",
    "governing_rule_ids": [
     "r-0005"
    ],
@@ -3831,7 +3835,7 @@
    "jurisdiction": "Hoboken, NJ",
    "category": "just_cause_eviction",
    "finding": "no_rule_in_corpus",
-   "note": "No enacted just cause eviction rule found for Hoboken, NJ in 0 documents with text; the state rule r-0042 (New Jersey Anti-Eviction Act Good Cause Requirement) governs; 3 source(s) for Hoboken, NJ are link-only in the starter pack (D032, D033, D034) and could hold a rule: human review",
+   "note": "No enacted just cause eviction rule found for Hoboken, NJ in 0 documents with text; the state rule r-0042 (N.J. Stat. \u00a7 2A:18-61.1. Grounds for removal of tenants) governs; 3 source(s) for Hoboken, NJ are link-only in the starter pack (D032, D033, D034) and could hold a rule: human review",
    "governing_rule_ids": [
     "r-0042"
    ],
@@ -3891,7 +3895,7 @@
    "jurisdiction": "Jersey City, NJ",
    "category": "just_cause_eviction",
    "finding": "no_rule_in_corpus",
-   "note": "No enacted just cause eviction rule found for Jersey City, NJ in 1 documents with text; the state rule r-0042 (New Jersey Anti-Eviction Act Good Cause Requirement) governs; 2 source(s) for Jersey City, NJ are link-only in the starter pack (D035, D037) and could hold a rule: human review",
+   "note": "No enacted just cause eviction rule found for Jersey City, NJ in 1 documents with text; the state rule r-0042 (N.J. Stat. \u00a7 2A:18-61.1. Grounds for removal of tenants) governs; 2 source(s) for Jersey City, NJ are link-only in the starter pack (D035, D037) and could hold a rule: human review",
    "governing_rule_ids": [
     "r-0042"
    ],
@@ -3955,7 +3959,7 @@
    "jurisdiction": "Newark, NJ",
    "category": "just_cause_eviction",
    "finding": "no_rule_in_corpus",
-   "note": "No enacted just cause eviction rule found for Newark, NJ in 0 documents with text; the state rule r-0042 (New Jersey Anti-Eviction Act Good Cause Requirement) governs; 3 source(s) for Newark, NJ are link-only in the starter pack (D070, D071, D072) and could hold a rule: human review",
+   "note": "No enacted just cause eviction rule found for Newark, NJ in 0 documents with text; the state rule r-0042 (N.J. Stat. \u00a7 2A:18-61.1. Grounds for removal of tenants) governs; 3 source(s) for Newark, NJ are link-only in the starter pack (D070, D071, D072) and could hold a rule: human review",
    "governing_rule_ids": [
     "r-0042"
    ],

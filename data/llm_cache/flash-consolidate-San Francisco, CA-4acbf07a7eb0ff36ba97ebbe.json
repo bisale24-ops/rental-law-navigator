@@ -1,0 +1,96 @@
+{
+ "meta": {
+  "model": "gemini-3.8-flash",
+  "seconds": 6.8,
+  "tag": "consolidate-San Francisco, CA",
+  "usage": {
+   "promptTokenCount": 3765,
+   "candidatesTokenCount": 663,
+   "totalTokenCount": 5693,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 3765
+    }
+   ],
+   "thoughtsTokenCount": 1265,
+   "serviceTier": "standard"
+  },
+  "at": "2026-10-04T08:39:47Z"
+ },
+ "output": {
+  "cells": [
+   {
+    "jurisdiction": "San Francisco, CA",
+    "category": "just_cause_eviction",
+    "kind": "enacted",
+    "members": [
+     0,
+     1,
+     6,
+     7,
+     8,
+     9,
+     12
+    ],
+    "canonical": 0,
+    "coverage_from": 0,
+    "requirement": "A landlord must have one of 17 permitted just cause reasons to evict a tenant from a covered rental unit, and mere lease expiration does not qualify. Certain no-fault evictions, such as owner move-ins or Ellis Act withdrawals, require landlords to pay specified per-tenant and per-unit relocation assistance.",
+    "key_value": null,
+    "effect": "imposes_requirement",
+    "conflict": false,
+    "conflict_note": null
+   },
+   {
+    "jurisdiction": "San Francisco, CA",
+    "category": "rent_increase_limits",
+    "kind": "enacted",
+    "members": [
+     2,
+     3,
+     10,
+     13
+    ],
+    "canonical": 2,
+    "coverage_from": 2,
+    "requirement": "The annual allowable rent increase for rent-controlled residential units is 1.6% for the period from March 1, 2026 through February 28, 2027.",
+    "key_value": "1.6%",
+    "effect": "imposes_requirement",
+    "conflict": false,
+    "conflict_note": null
+   },
+   {
+    "jurisdiction": "San Francisco, CA",
+    "category": "algorithmic_rent_setting",
+    "kind": "enacted",
+    "members": [
+     4,
+     5
+    ],
+    "canonical": 4,
+    "coverage_from": 4,
+    "requirement": "Landlords are prohibited from using software or algorithmic devices that analyze non-public competitor rental data to recommend rental prices or manage occupancy levels for residential units.",
+    "key_value": null,
+    "effect": "imposes_requirement",
+    "conflict": false,
+    "conflict_note": null
+   },
+   {
+    "jurisdiction": "San Francisco, CA",
+    "category": "security_deposits",
+    "kind": "enacted",
+    "members": [
+     11,
+     14
+    ],
+    "canonical": 11,
+    "coverage_from": 11,
+    "requirement": "Landlords must pay interest on tenant security deposits at an annual rate of 4.2% for the period from March 1, 2026 to February 28, 2027.",
+    "key_value": "4.2%",
+    "effect": "imposes_requirement",
+    "conflict": false,
+    "conflict_note": null
+   }
+  ]
+ }
+}

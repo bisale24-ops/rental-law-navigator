@@ -1,0 +1,172 @@
+{
+ "meta": {
+  "model": "gemini-3.8-flash",
+  "seconds": 14.8,
+  "tag": "consolidate-MA",
+  "usage": {
+   "promptTokenCount": 6909,
+   "candidatesTokenCount": 1270,
+   "totalTokenCount": 11684,
+   "cachedContentTokenCount": 3802,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 6909
+    }
+   ],
+   "cacheTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 3802
+    }
+   ],
+   "thoughtsTokenCount": 3505,
+   "serviceTier": "standard"
+  },
+  "at": "2026-10-04T08:31:59Z"
+ },
+ "output": {
+  "cells": [
+   {
+    "jurisdiction": "MA",
+    "category": "algorithmic_rent_setting",
+    "kind": "bill_or_failed",
+    "members": [
+     0
+    ],
+    "canonical": 0,
+    "coverage_from": 0,
+    "requirement": "This pending bill proposes to prevent algorithmic rent fixing and coordination in the rental housing market.",
+    "key_value": null,
+    "effect": "imposes_requirement",
+    "conflict": false,
+    "conflict_note": null
+   },
+   {
+    "jurisdiction": "MA",
+    "category": "algorithmic_rent_setting",
+    "kind": "bill_or_failed",
+    "members": [
+     1,
+     2,
+     3
+    ],
+    "canonical": 1,
+    "coverage_from": 1,
+    "requirement": "This pending bill proposes to prohibit the use of algorithmic devices or software to set or recommend rents or occupancy in the rental housing market.",
+    "key_value": null,
+    "effect": "imposes_requirement",
+    "conflict": false,
+    "conflict_note": null
+   },
+   {
+    "jurisdiction": "MA",
+    "category": "rent_increase_limits",
+    "kind": "enacted",
+    "members": [
+     4,
+     5
+    ],
+    "canonical": 4,
+    "coverage_from": 4,
+    "requirement": "Cities and towns are generally prohibited from enacting, maintaining, or enforcing rent control, except that municipalities may adopt a voluntary system where owner compliance is completely optional and uncoerced.",
+    "key_value": null,
+    "effect": "prohibits_local_rules",
+    "conflict": false,
+    "conflict_note": null
+   },
+   {
+    "jurisdiction": "MA",
+    "category": "screening_restrictions",
+    "kind": "enacted",
+    "members": [
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14
+    ],
+    "canonical": 8,
+    "coverage_from": 8,
+    "requirement": "Housing providers are prohibited from discriminating against tenants or applicants based on race, religion, sex, age, disability, receipt of public assistance, or familial status. Landlords must also grant reasonable accommodations and permit reasonable modifications for individuals with disabilities.",
+    "key_value": null,
+    "effect": "imposes_requirement",
+    "conflict": false,
+    "conflict_note": null
+   },
+   {
+    "jurisdiction": "MA",
+    "category": "just_cause_eviction",
+    "kind": "enacted",
+    "members": [
+     15,
+     20
+    ],
+    "canonical": 15,
+    "coverage_from": 15,
+    "requirement": "For tenancies at will, landlords must give a 14-day notice to quit for nonpayment of rent, and tenants have a 10-day right to cure by paying the full rent due. Additionally, landlords are prohibited from taking retaliatory action against tenants for reporting violations or joining a tenants' union.",
+    "key_value": "14-day notice, 10-day cure period",
+    "effect": "imposes_requirement",
+    "conflict": false,
+    "conflict_note": null
+   },
+   {
+    "jurisdiction": "MA",
+    "category": "security_deposits",
+    "kind": "enacted",
+    "members": [
+     16,
+     17,
+     18,
+     19
+    ],
+    "canonical": 16,
+    "coverage_from": 16,
+    "requirement": "Landlords may not charge a security deposit exceeding one month's rent at or prior to move-in, and they must return the deposit or balance with an itemized list of deductions within 30 days after the tenancy ends.",
+    "key_value": "1 month's rent",
+    "effect": "imposes_requirement",
+    "conflict": false,
+    "conflict_note": null
+   },
+   {
+    "jurisdiction": "MA",
+    "category": "application_screening_fees",
+    "kind": "enacted",
+    "members": [
+     21,
+     22,
+     25
+    ],
+    "canonical": 21,
+    "coverage_from": 25,
+    "requirement": "Landlords are prohibited from charging prospective tenants application or screening fees prior to tenancy, and real estate broker finder fees must be paid exclusively by the party who engaged the broker.",
+    "key_value": null,
+    "effect": "imposes_requirement",
+    "conflict": false,
+    "conflict_note": null
+   },
+   {
+    "jurisdiction": "MA",
+    "category": "rent_increase_limits",
+    "kind": "bill_or_failed",
+    "members": [
+     23,
+     24,
+     26,
+     27
+    ],
+    "canonical": 24,
+    "coverage_from": 23,
+    "requirement": "A proposed statewide ballot initiative would have capped annual rent increases at the lesser of CPI or 5% for most residential units, but the measure was blocked from appearing on the ballot by the Supreme Judicial Court.",
+    "key_value": "lesser of CPI or 5%",
+    "effect": "imposes_requirement",
+    "conflict": false,
+    "conflict_note": null
+   }
+  ]
+ }
+}

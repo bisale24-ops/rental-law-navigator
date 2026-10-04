@@ -1,0 +1,141 @@
+{
+ "meta": {
+  "model": "gemini-3.7-flash",
+  "seconds": 6.4,
+  "tag": "consolidate-NJ",
+  "usage": {
+   "promptTokenCount": 9110,
+   "candidatesTokenCount": 951,
+   "totalTokenCount": 11368,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 9110
+    }
+   ],
+   "thoughtsTokenCount": 1307,
+   "serviceTier": "standard"
+  },
+  "at": "2026-10-04T08:36:40Z"
+ },
+ "output": {
+  "cells": [
+   {
+    "jurisdiction": "NJ",
+    "category": "algorithmic_rent_setting",
+    "kind": "enacted",
+    "members": [
+     0,
+     1,
+     16,
+     17
+    ],
+    "canonical": 16,
+    "coverage_from": 16,
+    "requirement": "Landlords and software coordinators are prohibited from using algorithmic revenue management software, coordinating nonpublic competitively sensitive information, or engaging in parallel pricing coordination to set or recommend rental prices, lease terms, or occupancy levels.",
+    "key_value": null,
+    "effect": "imposes_requirement",
+    "conflict": false,
+    "conflict_note": null
+   },
+   {
+    "jurisdiction": "NJ",
+    "category": "screening_restrictions",
+    "kind": "enacted",
+    "members": [
+     2,
+     3,
+     8,
+     13,
+     14,
+     15
+    ],
+    "canonical": 2,
+    "coverage_from": 2,
+    "requirement": "Housing providers are prohibited from inquiring about an applicant's criminal history prior to making a conditional offer of housing and cannot discriminate based on protected characteristics or lawful sources of income.",
+    "key_value": null,
+    "effect": "imposes_requirement",
+    "conflict": false,
+    "conflict_note": null
+   },
+   {
+    "jurisdiction": "NJ",
+    "category": "application_screening_fees",
+    "kind": "enacted",
+    "members": [
+     4,
+     5
+    ],
+    "canonical": 4,
+    "coverage_from": 4,
+    "requirement": "Landlords and their agents are prohibited from charging a residential rental application or screening fee exceeding $50, subject to annual CPI adjustments.",
+    "key_value": "50",
+    "effect": "imposes_requirement",
+    "conflict": false,
+    "conflict_note": null
+   },
+   {
+    "jurisdiction": "NJ",
+    "category": "security_deposits",
+    "kind": "enacted",
+    "members": [
+     6,
+     7,
+     11,
+     12,
+     18,
+     19,
+     20,
+     21,
+     22,
+     23,
+     24
+    ],
+    "canonical": 20,
+    "coverage_from": 20,
+    "requirement": "Landlords cannot require a security deposit exceeding 1.5 times one month's rent and must return the deposit plus accumulated interest, less lawful deductions, within 30 days of lease termination.",
+    "key_value": "1.5 months rent",
+    "effect": "imposes_requirement",
+    "conflict": false,
+    "conflict_note": null
+   },
+   {
+    "jurisdiction": "NJ",
+    "category": "rent_increase_limits",
+    "kind": "enacted",
+    "members": [
+     9,
+     10
+    ],
+    "canonical": 9,
+    "coverage_from": 9,
+    "requirement": "Newly constructed multiple dwellings are exempt from local rent control ordinances for 30 years following completion of construction.",
+    "key_value": "30 years",
+    "effect": "prohibits_local_rules",
+    "conflict": false,
+    "conflict_note": null
+   },
+   {
+    "jurisdiction": "NJ",
+    "category": "just_cause_eviction",
+    "kind": "enacted",
+    "members": [
+     25,
+     26,
+     27,
+     28,
+     29,
+     30,
+     31
+    ],
+    "canonical": 28,
+    "coverage_from": 28,
+    "requirement": "Landlords may not remove residential tenants or refuse to renew leases except for specific statutory good cause grounds. Tenants displaced due to illegal occupancy code enforcement are entitled to relocation assistance equal to six times the monthly rent.",
+    "key_value": null,
+    "effect": "imposes_requirement",
+    "conflict": false,
+    "conflict_note": null
+   }
+  ]
+ }
+}

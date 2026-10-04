@@ -61,7 +61,7 @@ date.
 | T3 NJ FAIR Act | not yet effective now, applies 2027-07-02, conflict flag in Jersey City and Hoboken | all 140 NJ addresses; flags on exactly the 90 Jersey City + Hoboken addresses |
 | T4 MA S.2983 / H.5222 | pending, never in force | `pending` at all 110 MA addresses |
 | T5 MA rent-control ballot question | no rent cap in Boston or Cambridge | 0 addresses; IP 25-21 recorded as `failed` |
-| T6 hour-16 ordinance | supplied at hour 16 | `python3 -m navigator.ingest` (rehearsed on a synthetic Cambridge ordinance: 45 of 50 Cambridge addresses changed, the rest excluded by unit count or building date) |
+| T6 (removed by the organizers in the v5 release) | — | `python3 -m navigator.ingest` still turns any new ordinance into a change case (rehearsed on a synthetic Cambridge ordinance: 45 of 50 Cambridge addresses changed) |
 
 ## Submission files
 
@@ -69,7 +69,7 @@ date.
   jurisdiction × category with no enacted rule: what was searched, what governs instead, and which link-only
   sources could hold one.
 - `out/lookups.json`: all 500 addresses, as of 2026-10-01.
-- `out/changes.json`: T1–T5, plus T6 once ingested.
+- `out/changes.json`: T1–T5.
 
 ## Sources
 
@@ -77,7 +77,7 @@ The starter-pack corpus comes first. Some laws were link-only in the pack, point
 those, `tools/capture_links.py` fetched official government copies one page at a time, honouring robots.txt
 (RFC 9309), and kept URL, time and sha256 (`data/supplement/`). Examples: Hoboken's Chapter 155 notices, Newark's
 rent-control FAQ, Jersey City's Rent Leveling rules, the San Diego Municipal Code, and NJ statutes from nj.gov.
-These records are marked `team capture`. Publishers whose robots.txt disallows crawling (ecode360, American
+These records are marked `team capture`. Whenever the organizers' corpus also states a rule, the record cites the corpus document and keeps the capture as a supporting source, since only supplied corpus text counts as a verifiable citation. Publishers whose robots.txt disallows crawling (ecode360, American
 Legal, Justia) were not fetched; their rules are listed for human review.
 
 ## Layout

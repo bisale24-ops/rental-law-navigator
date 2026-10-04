@@ -1,0 +1,159 @@
+{
+ "meta": {
+  "model": "gemini-3.5-flash",
+  "seconds": 21.4,
+  "tag": "consolidate-CA",
+  "usage": {
+   "promptTokenCount": 12681,
+   "candidatesTokenCount": 1148,
+   "totalTokenCount": 18758,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 12681
+    }
+   ],
+   "thoughtsTokenCount": 4929,
+   "serviceTier": "standard"
+  },
+  "at": "2026-10-04T07:57:31Z"
+ },
+ "output": {
+  "cells": [
+   {
+    "jurisdiction": "CA",
+    "category": "application_screening_fees",
+    "kind": "enacted",
+    "members": [
+     0,
+     1,
+     21,
+     22,
+     23,
+     24,
+     25,
+     26,
+     27,
+     38,
+     39
+    ],
+    "canonical": 0,
+    "coverage_from": 0,
+    "requirement": "Landlords may charge an application screening fee capped at $68.96 for 2026 (adjusted annually from a $30 base), and cannot charge a fee if no unit is available. Landlords must provide an itemized receipt, a copy of the credit report, and refund any unused portion.",
+    "key_value": "$68.96",
+    "effect": "imposes_requirement",
+    "conflict": false,
+    "conflict_note": null
+   },
+   {
+    "jurisdiction": "CA",
+    "category": "security_deposits",
+    "kind": "enacted",
+    "members": [
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     34,
+     35,
+     36,
+     37
+    ],
+    "canonical": 36,
+    "coverage_from": 36,
+    "requirement": "Landlords are generally prohibited from demanding a security deposit in excess of one month's rent, except for qualifying small landlords who may charge up to two months' rent. Landlords must return the remaining deposit and an itemized statement within 21 days after the tenant vacates.",
+    "key_value": "1 month's rent",
+    "effect": "imposes_requirement",
+    "conflict": false,
+    "conflict_note": null
+   },
+   {
+    "jurisdiction": "CA",
+    "category": "screening_restrictions",
+    "kind": "enacted",
+    "members": [
+     10,
+     11,
+     12,
+     13,
+     14,
+     15,
+     16,
+     17,
+     18,
+     19,
+     20,
+     40,
+     41,
+     42,
+     43,
+     44,
+     45
+    ],
+    "canonical": 43,
+    "coverage_from": 43,
+    "requirement": "Housing providers are prohibited from discriminating against applicants based on protected characteristics, including source of income such as Section 8 vouchers. Landlords cannot use blanket criminal history bans or consider arrests without convictions, and must offer alternative credit verification for subsidy recipients.",
+    "key_value": null,
+    "effect": "imposes_requirement",
+    "conflict": false,
+    "conflict_note": null
+   },
+   {
+    "jurisdiction": "CA",
+    "category": "algorithmic_rent_setting",
+    "kind": "enacted",
+    "members": [
+     28,
+     29,
+     46,
+     47
+    ],
+    "canonical": 29,
+    "coverage_from": 29,
+    "requirement": "It is unlawful to use or distribute a common pricing algorithm that uses competitor data to recommend, align, stabilize, set, or influence prices or commercial terms as part of a conspiracy to restrain trade.",
+    "key_value": null,
+    "effect": "imposes_requirement",
+    "conflict": false,
+    "conflict_note": null
+   },
+   {
+    "jurisdiction": "CA",
+    "category": "just_cause_eviction",
+    "kind": "enacted",
+    "members": [
+     30,
+     31
+    ],
+    "canonical": 30,
+    "coverage_from": 30,
+    "requirement": "Landlords may not terminate a residential tenancy without just cause after a tenant has continuously occupied the property for 12 months. No-fault evictions require the landlord to provide relocation assistance or a rent waiver equal to one month's rent.",
+    "key_value": "1 month's rent",
+    "effect": "imposes_requirement",
+    "conflict": false,
+    "conflict_note": null
+   },
+   {
+    "jurisdiction": "CA",
+    "category": "rent_increase_limits",
+    "kind": "enacted",
+    "members": [
+     32,
+     33,
+     48,
+     49
+    ],
+    "canonical": 32,
+    "coverage_from": 32,
+    "requirement": "Annual rent increases are limited to 5% plus the percentage change in the cost of living, or 10%, whichever is lower, for units older than 15 years. Rent increases are also limited to a maximum of two increments per 12-month period.",
+    "key_value": "5% plus CPI, max 10%",
+    "effect": "imposes_requirement",
+    "conflict": false,
+    "conflict_note": null
+   }
+  ]
+ }
+}

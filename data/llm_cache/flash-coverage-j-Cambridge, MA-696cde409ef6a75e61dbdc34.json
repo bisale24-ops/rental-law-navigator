@@ -1,0 +1,39 @@
+{
+ "meta": {
+  "model": "gemini-3.7-flash",
+  "seconds": 7.1,
+  "tag": "coverage-j-Cambridge, MA",
+  "usage": {
+   "promptTokenCount": 1053,
+   "candidatesTokenCount": 228,
+   "totalTokenCount": 1905,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 1053
+    }
+   ],
+   "thoughtsTokenCount": 624,
+   "serviceTier": "standard"
+  },
+  "at": "2026-10-04T04:42:49Z"
+ },
+ "output": {
+  "statements": [
+   {
+    "jurisdiction": "Cambridge, MA",
+    "level": "city",
+    "category": "screening_restrictions",
+    "built_on_or_before": null,
+    "built_after": null,
+    "built_basis": "not_stated",
+    "min_units": null,
+    "rolling_age_years": null,
+    "owner_exemption_max_units": 2,
+    "subsidized_excluded": null,
+    "single_family_excluded": null,
+    "quoted_span": "Tenant selection may be based on: an applicant's ability to pay the rent an applicant's ability to take care of the apartment and to respect the rights of others NOTE: there is an exemption for 2-family dwellings, when the owner lives there A person who believes he or she has been discriminated against in housing should contact the Cambridge Human Rights Commission to schedule an intake interview to review their allegations."
+   }
+  ]
+ }
+}

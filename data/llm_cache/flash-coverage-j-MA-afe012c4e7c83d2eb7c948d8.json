@@ -1,0 +1,24 @@
+{
+ "meta": {
+  "model": "gemini-3.6-flash",
+  "seconds": 9.7,
+  "tag": "coverage-j-MA",
+  "usage": {
+   "promptTokenCount": 2979,
+   "candidatesTokenCount": 9,
+   "totalTokenCount": 4680,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 2979
+    }
+   ],
+   "thoughtsTokenCount": 1692,
+   "serviceTier": "standard"
+  },
+  "at": "2026-10-04T07:49:41Z"
+ },
+ "output": {
+  "statements": []
+ }
+}

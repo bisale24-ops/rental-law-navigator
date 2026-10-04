@@ -1,0 +1,39 @@
+{
+ "meta": {
+  "model": "gemini-3.5-flash",
+  "seconds": 6.5,
+  "tag": "coverage-j-Boston, MA",
+  "usage": {
+   "promptTokenCount": 1370,
+   "candidatesTokenCount": 202,
+   "totalTokenCount": 3050,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 1370
+    }
+   ],
+   "thoughtsTokenCount": 1478,
+   "serviceTier": "standard"
+  },
+  "at": "2026-10-04T04:42:24Z"
+ },
+ "output": {
+  "statements": [
+   {
+    "jurisdiction": "Boston, MA",
+    "level": "city",
+    "category": "just_cause_eviction",
+    "built_on_or_before": null,
+    "built_after": null,
+    "built_basis": "not_stated",
+    "min_units": null,
+    "rolling_age_years": null,
+    "owner_exemption_max_units": null,
+    "subsidized_excluded": null,
+    "single_family_excluded": null,
+    "quoted_span": "The only exempt properties are residences: 1. in any hospital, skilled nursing facility or health facility; and 2. in a non-profit facility whose primary purpose is providing short-term treatment, assistance or therapy for alcohol, drug, or other substance abuse."
+   }
+  ]
+ }
+}

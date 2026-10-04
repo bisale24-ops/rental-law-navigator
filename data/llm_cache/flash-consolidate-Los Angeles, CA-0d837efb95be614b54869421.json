@@ -1,0 +1,103 @@
+{
+ "meta": {
+  "model": "gemini-3.5-flash",
+  "seconds": 41.6,
+  "tag": "consolidate-Los Angeles, CA",
+  "usage": {
+   "promptTokenCount": 6343,
+   "candidatesTokenCount": 712,
+   "totalTokenCount": 9531,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 6343
+    }
+   ],
+   "thoughtsTokenCount": 2476,
+   "serviceTier": "standard"
+  },
+  "at": "2026-10-04T08:02:38Z"
+ },
+ "output": {
+  "cells": [
+   {
+    "jurisdiction": "Los Angeles, CA",
+    "category": "algorithmic_rent_setting",
+    "kind": "bill_or_failed",
+    "members": [
+     0
+    ],
+    "canonical": 0,
+    "coverage_from": 0,
+    "requirement": "The City Council instructed the Los Angeles Housing Department to report on the number of entities using algorithm-based software to establish rents and the feasibility of instituting a ban on its use.",
+    "key_value": null,
+    "effect": "imposes_requirement",
+    "conflict": false,
+    "conflict_note": null
+   },
+   {
+    "jurisdiction": "Los Angeles, CA",
+    "category": "just_cause_eviction",
+    "kind": "enacted",
+    "members": [
+     1,
+     2,
+     3,
+     9,
+     10,
+     11,
+     12,
+     16,
+     19
+    ],
+    "canonical": 2,
+    "coverage_from": 2,
+    "requirement": "Landlords are prohibited from terminating tenancies without just cause and must provide relocation assistance for no-fault evictions. Additionally, landlords may not evict a tenant for unpaid rent unless the amount owed exceeds the Fair Market Rent.",
+    "key_value": null,
+    "effect": "imposes_requirement",
+    "conflict": false,
+    "conflict_note": null
+   },
+   {
+    "jurisdiction": "Los Angeles, CA",
+    "category": "rent_increase_limits",
+    "kind": "enacted",
+    "members": [
+     4,
+     5,
+     6,
+     7,
+     8,
+     15,
+     17,
+     18
+    ],
+    "canonical": 17,
+    "coverage_from": 5,
+    "requirement": "The maximum annual rent increase for units subject to the Rent Stabilization Ordinance is set at 90 percent of the percentage change in the Consumer Price Index, with a minimum of 1 percent and a maximum of 4 percent. For the period from July 1, 2025, through June 30, 2026, the allowable increase is set at 3 percent.",
+    "key_value": "90% of CPI change, min 1%, max 4%",
+    "effect": "imposes_requirement",
+    "conflict": false,
+    "conflict_note": null
+   },
+   {
+    "jurisdiction": "Los Angeles, CA",
+    "category": "security_deposits",
+    "kind": "enacted",
+    "members": [
+     13,
+     14,
+     20,
+     21
+    ],
+    "canonical": 20,
+    "coverage_from": 20,
+    "requirement": "Landlords of rental units subject to the Rent Stabilization Ordinance must pay interest on security deposits held for at least one year.",
+    "key_value": "3.03%",
+    "effect": "imposes_requirement",
+    "conflict": false,
+    "conflict_note": null
+   }
+  ]
+ }
+}

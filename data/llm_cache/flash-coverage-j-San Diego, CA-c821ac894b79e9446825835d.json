@@ -1,0 +1,81 @@
+{
+ "meta": {
+  "model": "gemini-3.5-flash",
+  "seconds": 34.2,
+  "tag": "coverage-j-San Diego, CA",
+  "usage": {
+   "promptTokenCount": 7911,
+   "candidatesTokenCount": 846,
+   "totalTokenCount": 16605,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 7911
+    }
+   ],
+   "thoughtsTokenCount": 7848,
+   "serviceTier": "standard"
+  },
+  "at": "2026-10-04T07:54:21Z"
+ },
+ "output": {
+  "statements": [
+   {
+    "jurisdiction": "San Diego, CA",
+    "level": "city",
+    "category": "just_cause_eviction",
+    "built_on_or_before": null,
+    "built_after": null,
+    "built_basis": "certificate_of_occupancy",
+    "min_units": null,
+    "rolling_age_years": 15,
+    "owner_exemption_max_units": null,
+    "subsidized_excluded": null,
+    "single_family_excluded": null,
+    "quoted_span": "housing that has been issued a certificate of occupancy within the previous 15 years, unless the housing is a mobilehome;"
+   },
+   {
+    "jurisdiction": "San Diego, CA",
+    "level": "city",
+    "category": "just_cause_eviction",
+    "built_on_or_before": null,
+    "built_after": null,
+    "built_basis": "not_stated",
+    "min_units": null,
+    "rolling_age_years": null,
+    "owner_exemption_max_units": null,
+    "subsidized_excluded": null,
+    "single_family_excluded": true,
+    "quoted_span": "single-family residence occupied by the landlord as the landlord\u2019s principal place of residence, including both of the following: (1) a residence in which the landlord-occupant rents or leases no more than two bedrooms, two accessory dwelling units, or two junior accessory dwelling units, as defined in section 113.0103; and (2) a mobilehome."
+   },
+   {
+    "jurisdiction": "San Diego, CA",
+    "level": "city",
+    "category": "just_cause_eviction",
+    "built_on_or_before": null,
+    "built_after": null,
+    "built_basis": "not_stated",
+    "min_units": null,
+    "rolling_age_years": null,
+    "owner_exemption_max_units": null,
+    "subsidized_excluded": null,
+    "single_family_excluded": true,
+    "quoted_span": "residential rental property, including a mobilehome, that is alienable separate from the title to any other dwelling unit, provided that both of the following apply: (1) The landlord is not any of the following: (A) a real estate investment trust, as defined in California Internal Revenue Code section 856, as may be amended; (B) a corporation; (2) The tenants have been provided written notice that the residential rental property is exempt from this Division using the following statement: This property is not subject to the just cause requirements of Chapter 9, Article 8, Division 7 of the San Diego Municipal Code."
+   },
+   {
+    "jurisdiction": "San Diego, CA",
+    "level": "city",
+    "category": "screening_restrictions",
+    "built_on_or_before": null,
+    "built_after": null,
+    "built_basis": "not_stated",
+    "min_units": null,
+    "rolling_age_years": null,
+    "owner_exemption_max_units": null,
+    "subsidized_excluded": null,
+    "single_family_excluded": null,
+    "quoted_span": "Nothing in this Division shall apply to any tenancy in which the owner or any member of his or her family resides within the same residential building as the tenant and the owner or family member share a bathroom or a kitchen facility with the tenant or prospective tenant."
+   }
+  ]
+ }
+}

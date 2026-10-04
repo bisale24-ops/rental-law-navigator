@@ -1,0 +1,163 @@
+{
+ "meta": {
+  "model": "gemini-3.5-flash",
+  "seconds": 19.7,
+  "tag": "consolidate-Berkeley, CA",
+  "usage": {
+   "promptTokenCount": 12270,
+   "candidatesTokenCount": 1090,
+   "totalTokenCount": 16999,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 12270
+    }
+   ],
+   "thoughtsTokenCount": 3639,
+   "serviceTier": "standard"
+  },
+  "at": "2026-10-04T07:56:22Z"
+ },
+ "output": {
+  "cells": [
+   {
+    "jurisdiction": "Berkeley, CA",
+    "category": "algorithmic_rent_setting",
+    "kind": "enacted",
+    "members": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15,
+     16,
+     17,
+     18,
+     19,
+     20,
+     21,
+     22,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28,
+     29
+    ],
+    "canonical": 0,
+    "coverage_from": 0,
+    "requirement": "Landlords are prohibited from using coordinated pricing algorithms or algorithmic software to set rents, recommend rental prices, or manage occupancy levels.",
+    "key_value": null,
+    "effect": "imposes_requirement",
+    "conflict": false,
+    "conflict_note": null
+   },
+   {
+    "jurisdiction": "Berkeley, CA",
+    "category": "screening_restrictions",
+    "kind": "enacted",
+    "members": [
+     30,
+     31
+    ],
+    "canonical": 30,
+    "coverage_from": 31,
+    "requirement": "Landlords are prohibited from inquiring about, requiring disclosure of, or considering criminal history during the rental application and selection process.",
+    "key_value": null,
+    "effect": "imposes_requirement",
+    "conflict": false,
+    "conflict_note": null
+   },
+   {
+    "jurisdiction": "Berkeley, CA",
+    "category": "just_cause_eviction",
+    "kind": "enacted",
+    "members": [
+     32,
+     33,
+     38,
+     39,
+     42,
+     52
+    ],
+    "canonical": 38,
+    "coverage_from": 38,
+    "requirement": "Landlords cannot evict a tenant for nonpayment of rent unless the rental debt equals or exceeds one month of Fair Market Rent. Additionally, landlords must pay a standard relocation assistance payment of $19,413 for owner move-in or Ellis Act evictions.",
+    "key_value": "1 month FMR",
+    "effect": "imposes_requirement",
+    "conflict": false,
+    "conflict_note": null
+   },
+   {
+    "jurisdiction": "Berkeley, CA",
+    "category": "application_screening_fees",
+    "kind": "enacted",
+    "members": [
+     34,
+     35,
+     36,
+     37
+    ],
+    "canonical": 34,
+    "coverage_from": 34,
+    "requirement": "Landlords are prohibited from charging existing tenants non-refundable fees to renew a tenancy or to add, replace, or remove a roommate. When charging applicants a screening fee, landlords must provide a clear disclosure of tenant screening rights.",
+    "key_value": null,
+    "effect": "imposes_requirement",
+    "conflict": false,
+    "conflict_note": null
+   },
+   {
+    "jurisdiction": "Berkeley, CA",
+    "category": "rent_increase_limits",
+    "kind": "enacted",
+    "members": [
+     40,
+     41,
+     48,
+     49,
+     50,
+     51,
+     53
+    ],
+    "canonical": 40,
+    "coverage_from": 40,
+    "requirement": "The Annual General Adjustment (AGA) for rent-controlled units is capped at a maximum of 5% per year. For the year 2026, the approved AGA rent increase limit is set at 1.0%.",
+    "key_value": "5%",
+    "effect": "imposes_requirement",
+    "conflict": false,
+    "conflict_note": null
+   },
+   {
+    "jurisdiction": "Berkeley, CA",
+    "category": "security_deposits",
+    "kind": "enacted",
+    "members": [
+     43,
+     44,
+     45,
+     46,
+     47
+    ],
+    "canonical": 44,
+    "coverage_from": 44,
+    "requirement": "Landlords are generally limited to charging a security deposit of no more than one month's rent, must return the deposit within 21 days of vacancy, and must pay annual interest on deposits for units covered by the Rent Ordinance.",
+    "key_value": "1 month rent",
+    "effect": "imposes_requirement",
+    "conflict": false,
+    "conflict_note": null
+   }
+  ]
+ }
+}

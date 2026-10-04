@@ -1,0 +1,24 @@
+{
+ "meta": {
+  "model": "gemini-3.6-flash",
+  "seconds": 16.5,
+  "tag": "coverage-j-Berkeley, CA",
+  "usage": {
+   "promptTokenCount": 3665,
+   "candidatesTokenCount": 9,
+   "totalTokenCount": 6981,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 3665
+    }
+   ],
+   "thoughtsTokenCount": 3307,
+   "serviceTier": "standard"
+  },
+  "at": "2026-10-04T04:42:17Z"
+ },
+ "output": {
+  "statements": []
+ }
+}

@@ -1,0 +1,57 @@
+{
+ "meta": {
+  "model": "gemini-3.5-flash",
+  "seconds": 34.8,
+  "tag": "consolidate-Cambridge, MA",
+  "usage": {
+   "promptTokenCount": 1147,
+   "candidatesTokenCount": 289,
+   "totalTokenCount": 2567,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 1147
+    }
+   ],
+   "thoughtsTokenCount": 1131,
+   "serviceTier": "standard"
+  },
+  "at": "2026-10-04T07:58:05Z"
+ },
+ "output": {
+  "cells": [
+   {
+    "jurisdiction": "Cambridge, MA",
+    "category": "screening_restrictions",
+    "kind": "enacted",
+    "members": [
+     0,
+     1
+    ],
+    "canonical": 0,
+    "coverage_from": 0,
+    "requirement": "Landlords, sellers, and rental agents are prohibited from discriminating against applicants based on their source of income, which explicitly includes Section 8 and public benefits.",
+    "key_value": null,
+    "effect": "imposes_requirement",
+    "conflict": false,
+    "conflict_note": null
+   },
+   {
+    "jurisdiction": "Cambridge, MA",
+    "category": "algorithmic_rent_setting",
+    "kind": "bill_or_failed",
+    "members": [
+     2,
+     3
+    ],
+    "canonical": 2,
+    "coverage_from": 2,
+    "requirement": "The city council passed a policy order to initiate steps toward banning residential property management companies from using algorithmic and AI-driven models to recommend rent prices.",
+    "key_value": null,
+    "effect": "imposes_requirement",
+    "conflict": false,
+    "conflict_note": null
+   }
+  ]
+ }
+}

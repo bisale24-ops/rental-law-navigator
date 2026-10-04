@@ -1,0 +1,123 @@
+{
+ "meta": {
+  "model": "gemini-3.6-flash",
+  "seconds": 18.5,
+  "tag": "coverage-j-NJ",
+  "usage": {
+   "promptTokenCount": 27359,
+   "candidatesTokenCount": 1283,
+   "totalTokenCount": 31734,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 27359
+    }
+   ],
+   "thoughtsTokenCount": 3092,
+   "serviceTier": "standard"
+  },
+  "at": "2026-10-04T07:50:00Z"
+ },
+ "output": {
+  "statements": [
+   {
+    "jurisdiction": "NJ",
+    "level": "state",
+    "category": "just_cause_eviction",
+    "built_on_or_before": null,
+    "built_after": null,
+    "built_basis": "not_stated",
+    "min_units": null,
+    "rolling_age_years": null,
+    "owner_exemption_max_units": 3,
+    "subsidized_excluded": null,
+    "single_family_excluded": null,
+    "quoted_span": "No landlord of residential rental properties except t hose in owner occupied two or three family dwellings, motels or hotels, transient, or seasonal units may fail to renew any lease, regardless of whether it is written or oral unless they have good cause not to renew the lease."
+   },
+   {
+    "jurisdiction": "NJ",
+    "level": "state",
+    "category": "rent_increase_limits",
+    "built_on_or_before": null,
+    "built_after": null,
+    "built_basis": "construction",
+    "min_units": null,
+    "rolling_age_years": 30,
+    "owner_exemption_max_units": null,
+    "subsidized_excluded": null,
+    "single_family_excluded": null,
+    "quoted_span": "Under the Newly Constructed Multiple Dwellings Law ( N.J.S.A. 2A:42 -84.5), newly constructed multiple dwellings shall be exempt from any local rent control ordinances for a period of 30 years following completion of construction of the building."
+   },
+   {
+    "jurisdiction": "NJ",
+    "level": "state",
+    "category": "rent_increase_limits",
+    "built_on_or_before": null,
+    "built_after": null,
+    "built_basis": "not_stated",
+    "min_units": null,
+    "rolling_age_years": null,
+    "owner_exemption_max_units": null,
+    "subsidized_excluded": true,
+    "single_family_excluded": null,
+    "quoted_span": "Rent s that are subsidized by governmental funding may also be exempt from local rent control ordinances."
+   },
+   {
+    "jurisdiction": "NJ",
+    "level": "state",
+    "category": "rent_increase_limits",
+    "built_on_or_before": null,
+    "built_after": null,
+    "built_basis": "not_stated",
+    "min_units": null,
+    "rolling_age_years": null,
+    "owner_exemption_max_units": null,
+    "subsidized_excluded": true,
+    "single_family_excluded": null,
+    "quoted_span": "Likewise, rents fixed and controlled by the New Jersey Housing and Mortgage Finance Agency (NJHMFA) in projects it finances are not subject to municipal rent control ordinances."
+   },
+   {
+    "jurisdiction": "NJ",
+    "level": "state",
+    "category": "just_cause_eviction",
+    "built_on_or_before": null,
+    "built_after": null,
+    "built_basis": "not_stated",
+    "min_units": null,
+    "rolling_age_years": null,
+    "owner_exemption_max_units": 3,
+    "subsidized_excluded": null,
+    "single_family_excluded": null,
+    "quoted_span": "Exceptions This law may not apply to two - or three-unit owner-occupied premises with two (2) or fewer rental units."
+   },
+   {
+    "jurisdiction": "NJ",
+    "level": "state",
+    "category": "security_deposits",
+    "built_on_or_before": null,
+    "built_after": null,
+    "built_basis": "not_stated",
+    "min_units": null,
+    "rolling_age_years": null,
+    "owner_exemption_max_units": 3,
+    "subsidized_excluded": null,
+    "single_family_excluded": null,
+    "quoted_span": "The provisions of this act shall apply to all rental premises or units used for dwelling purposes except owner-occupied premises with not more than two rental units where the tenant has failed to provide 30 days written notice to the landlord invoking the provisions of this act."
+   },
+   {
+    "jurisdiction": "NJ",
+    "level": "state",
+    "category": "just_cause_eviction",
+    "built_on_or_before": null,
+    "built_after": null,
+    "built_basis": "not_stated",
+    "min_units": null,
+    "rolling_age_years": null,
+    "owner_exemption_max_units": 3,
+    "subsidized_excluded": null,
+    "single_family_excluded": null,
+    "quoted_span": "Grounds for removal of tenants No lessee or tenant or the assigns, under-tenants or legal representatives of such lessee or tenant may be removed by the Superior Court from any house, building, mobile home or land in a mobile home park or tenement leased for residential purposes, other than (1) owner-occupied premises with not more than two rental units or a hotel, motel or other guest house or part thereof rented to a transient guest or seasonal tenant;"
+   }
+  ]
+ }
+}

@@ -1,0 +1,53 @@
+{
+ "meta": {
+  "model": "gemini-3.5-flash",
+  "seconds": 36.1,
+  "tag": "coverage-j-Santa Ana, CA",
+  "usage": {
+   "promptTokenCount": 1416,
+   "candidatesTokenCount": 385,
+   "totalTokenCount": 3341,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 1416
+    }
+   ],
+   "thoughtsTokenCount": 1540,
+   "serviceTier": "standard"
+  },
+  "at": "2026-10-04T07:55:55Z"
+ },
+ "output": {
+  "statements": [
+   {
+    "jurisdiction": "Santa Ana, CA",
+    "level": "city",
+    "category": "rent_increase_limits",
+    "built_on_or_before": null,
+    "built_after": "1995-02-01",
+    "built_basis": "construction",
+    "min_units": null,
+    "rolling_age_years": null,
+    "owner_exemption_max_units": null,
+    "subsidized_excluded": null,
+    "single_family_excluded": null,
+    "quoted_span": "The rent cap does not apply to residential buildings constructed after February 1, 1995, or to mobile home spaces offered for rent after January 1, 1990."
+   },
+   {
+    "jurisdiction": "Santa Ana, CA",
+    "level": "city",
+    "category": "just_cause_eviction",
+    "built_on_or_before": null,
+    "built_after": null,
+    "built_basis": "not_stated",
+    "min_units": null,
+    "rolling_age_years": 15,
+    "owner_exemption_max_units": null,
+    "subsidized_excluded": true,
+    "single_family_excluded": null,
+    "quoted_span": "The Just Cause Ordinance shall not apply to certain types of residential property, including housing produced in the last 15 years; deed-restricted affordable housing; hotel and transient occupancy; hospital and care facilities; dormitories; and other shared living quarters."
+   }
+  ]
+ }
+}

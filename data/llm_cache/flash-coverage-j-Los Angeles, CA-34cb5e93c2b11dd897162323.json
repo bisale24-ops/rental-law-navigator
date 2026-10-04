@@ -1,0 +1,81 @@
+{
+ "meta": {
+  "model": "gemini-3.6-flash",
+  "seconds": 16.5,
+  "tag": "coverage-j-Los Angeles, CA",
+  "usage": {
+   "promptTokenCount": 7882,
+   "candidatesTokenCount": 639,
+   "totalTokenCount": 11457,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 7882
+    }
+   ],
+   "thoughtsTokenCount": 2936,
+   "serviceTier": "standard"
+  },
+  "at": "2026-10-04T07:49:31Z"
+ },
+ "output": {
+  "statements": [
+   {
+    "jurisdiction": "Los Angeles, CA",
+    "level": "city",
+    "category": "just_cause_eviction",
+    "built_on_or_before": null,
+    "built_after": "1978-10-01",
+    "built_basis": "not_stated",
+    "min_units": null,
+    "rolling_age_years": null,
+    "owner_exemption_max_units": null,
+    "subsidized_excluded": null,
+    "single_family_excluded": null,
+    "quoted_span": "The JCO can apply to buildings that are newer than October 1, 1978."
+   },
+   {
+    "jurisdiction": "Los Angeles, CA",
+    "level": "city",
+    "category": "just_cause_eviction",
+    "built_on_or_before": null,
+    "built_after": null,
+    "built_basis": "not_stated",
+    "min_units": null,
+    "rolling_age_years": null,
+    "owner_exemption_max_units": null,
+    "subsidized_excluded": null,
+    "single_family_excluded": false,
+    "quoted_span": "The JCO can apply to a property that contains only one single-family dwelling."
+   },
+   {
+    "jurisdiction": "CA",
+    "level": "state",
+    "category": "rent_increase_limits",
+    "built_on_or_before": null,
+    "built_after": null,
+    "built_basis": "not_stated",
+    "min_units": null,
+    "rolling_age_years": 15,
+    "owner_exemption_max_units": null,
+    "subsidized_excluded": null,
+    "single_family_excluded": null,
+    "quoted_span": "The JCO does not regulate rent increases, however, state law AB 1482, the California Tenant Protection Act of 2019 , may regulate the rent amount in buildings that are older than 15 years old."
+   },
+   {
+    "jurisdiction": "Los Angeles, CA",
+    "level": "city",
+    "category": "security_deposits",
+    "built_on_or_before": "1978-10-01",
+    "built_after": null,
+    "built_basis": "certificate_of_occupancy",
+    "min_units": null,
+    "rolling_age_years": null,
+    "owner_exemption_max_units": null,
+    "subsidized_excluded": null,
+    "single_family_excluded": null,
+    "quoted_span": "Landlords of rental units subject to the Rent Stabilization Ordinance (RSO), which includes dwelling units, suites, condominiums, duplexes, guest rooms, and rooms in a hotel, motel, rooming house or boarding house occupied by the same tenant for more than 30 consecutive days in the City of Los Angeles with a certificate of occupancy first issued before October 1, 1978, must pay interest on all security deposits held for at least one (1) year for their tenants."
+   }
+  ]
+ }
+}

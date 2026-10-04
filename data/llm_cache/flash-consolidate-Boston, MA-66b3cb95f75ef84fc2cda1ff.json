@@ -1,0 +1,61 @@
+{
+ "meta": {
+  "model": "gemini-3.5-flash",
+  "seconds": 40.9,
+  "tag": "consolidate-Boston, MA",
+  "usage": {
+   "promptTokenCount": 2194,
+   "candidatesTokenCount": 321,
+   "totalTokenCount": 5017,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 2194
+    }
+   ],
+   "thoughtsTokenCount": 2502,
+   "serviceTier": "standard"
+  },
+  "at": "2026-10-04T07:57:09Z"
+ },
+ "output": {
+  "cells": [
+   {
+    "jurisdiction": "Boston, MA",
+    "category": "screening_restrictions",
+    "kind": "enacted",
+    "members": [
+     0,
+     1,
+     2,
+     3,
+     6,
+     7
+    ],
+    "canonical": 0,
+    "coverage_from": 2,
+    "requirement": "Covered housing providers cannot maintain blanket bans against applicants with criminal records, must not consider convictions older than 5 years, and are prohibited from using credit scores to approve or deny applications. Additionally, landlords in Boston are prohibited from discriminating against renters based on their use of rental assistance.",
+    "key_value": "5 years conviction lookback limit",
+    "effect": "imposes_requirement",
+    "conflict": false,
+    "conflict_note": null
+   },
+   {
+    "jurisdiction": "Boston, MA",
+    "category": "rent_increase_limits",
+    "kind": "bill_or_failed",
+    "members": [
+     4,
+     5
+    ],
+    "canonical": 4,
+    "coverage_from": 4,
+    "requirement": "A pending bill would authorize the city of Boston to implement rent stabilization and tenant eviction protections.",
+    "key_value": null,
+    "effect": "imposes_requirement",
+    "conflict": false,
+    "conflict_note": null
+   }
+  ]
+ }
+}
